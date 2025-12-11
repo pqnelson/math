@@ -1,0 +1,17 @@
+\title{systems of equations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{definition}
+
+\p{More generally, a \define{System of #{m} Linear Equations in #{n} Unknowns}  #{x_{1}}, \dots, #{x_{n}} (where the subscripts are \define{Indices} to append to one symbol #{x} a number or "dummy variable" [a variable ranging over the index values], giving us any number of variables for the price of one symbol) looks like:
+##{\begin{array}{rcl}
+a_{1,1}x_{1} + a_{1,2}x_{2} + \dots + a_{1,n}x_{n} &=& b_{1}\\
+a_{2,1}x_{1} + a_{2,2}x_{2} + \dots + a_{2,n}x_{n} &=& b_{2}\\
+\vdots\quad \qquad\vdots\quad\qquad\ddots\quad\qquad\vdots\quad & \vdots & \vdots\\
+a_{m,1}x_{1} + a_{m,2}x_{2} + \dots + a_{m,n}x_{n} &=& b_{m}
+\end{array}}
+where #{b_{1}}, \dots, #{b_{m}} are #{m} real constants, and we have #{a_{1,1}}, #{a_{1,2}}, \dots, #{a_{m,n}} be #{mn} real constants called the \define{Coefficients}.}
+
+\p{A \define{Solution} to a system of equations in #{n} variables #{x_{1}}, \dots, #{x_{n}} is an assignment of #{n} real values #{s_{1}}, \dots, #{s_{n}} to the variables (so #{x_{1}=s_{1}}, \dots, #{x_{n}=s_{n}}) which satisfies the system of equations.}
+

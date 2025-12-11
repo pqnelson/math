@@ -1,0 +1,9 @@
+\title{Eigenvectors of distinct eigenvalues are linearly independent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 5.11}
+\meta{source}{[[lankham-2016-linear]] Theorem 7.2.3}
+
+\p{Let #{V} be a vector space over #{\FF}, let #{L\colon V\to V} be a linear operator. Let #{\lambda_{1},\dots,\lambda_{m}\in\FF} be distinct [eigenvalues](vectsp-001Q) of #{L} with corresponding nonzero eigenvectors #{v_{1},\dots,v_{m}\in V}. Then #{v_{1},\dots,v_{m}} are [linearly independent](vectsp-000Q).}

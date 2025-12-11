@@ -1,0 +1,22 @@
+\title{Field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{A \define{Field} is traditionally defined as a set #{F} with two binary operators, addition (denoted #{+}) and multiplication (denoted #{\cdot}), satisfying the field axioms:}
+
+\ol{
+\li{Associativity of addition: for all #{x,y,z\in F}, #{(x+y)+z=x+(y+z)}}
+\li{Commutativity of addition: for all #{x,y\in F}, #{x+y=y+x}}
+\li{Additive identity: there exists a #{0\in F} such that for all #{x\in F} we have #{0+x=x} and #{x+0=x}}
+\li{Additive inverses: for each #{x\in F} there is a unique #{y\in F} such that #{x+y=0} and #{y+x=0}; in this case, we usually denote #{y} as #{(-x)}}
+\li{Associativity of multiplication: for all #{x,y,z\in F}, #{(x\cdot y)\cdot z=x\cdot (y\cdot z)}}
+\li{Commutativity of multiplication: for all #{x,y\in F}, #{x\cdot y=y\cdot x}}
+\li{Multiplicative identity: there exists a #{1\in F} such that for all #{x\in F} we have #{1\cdot x=x} and #{x\cdot 1=x}}
+\li{Multiplicative inverses: for each #{x\in F} which is nonzero #{x\neq0} there is a unique #{y\in F} such that #{x\cdot y=1} and #{y\cdot x=1}; usually we denote #{y} as #{x^{-1}}}
+\li{Distributivity of multiplication over addition: for all #{x,y,z\in F}, we have #{x\cdot(y+z)=(x\cdot y)+(x\cdot z)} and #{(x+y)\cdot z=(x\cdot z)+(x\cdot y)}}
+}
+\p{Note that some of these are redundant.}
+
+\p{Also note: fields are usually written in blackboard bold, and the generic field is either #{\FF} or #{\Bbbk} (since the German word for field is "\textit{Körper}").}

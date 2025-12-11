@@ -1,0 +1,6 @@
+\title{Naive handling of material followed by rigorous presentation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+
+\p{There is a "naive" introduction to some of the material: in [[ela]], for example, we just assume the real numbers exist and familiarity with calculating with them (at least to the level expected of a calculus student). But it isn't until [[ca]] where \emph{constructing} real numbers is really examined.}

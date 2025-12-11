@@ -1,0 +1,15 @@
+\title{Properties of addition of complex numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 2.2.4}
+\meta{source}{[[axler-1996-linear]] Theorem 1.3}
+
+\p{Let #{z_{1},z_{2},z_{3}\in\CC} be complex numbers. Then the following all hold:}
+
+\ol{
+\li{Associativity: #{(z_{1}+z_{2})+z_{3}=z_{1}+(z_{2}+z_{3})}}
+\li{Commutativity: #{z_{1}+z_{2}=z_{2}+z_{1}}}
+\li{Additive identity: There is a unique complex number denoted #{0} such that for any #{z\in\CC} we have #{0+z=z}. Moreover, #{0=(0,0)}.}
+\li{Additive inverse: For each #{z\in\CC} there exists a unique complex number denoted #{-z} such that #{z+(-z)=0}. Moreover, if #{z=(x,y)}, then #{-z=(-x,-y)}.}}

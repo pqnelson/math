@@ -1,0 +1,11 @@
+\title{Injective function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{f\colon X\to Y} be a function. We say #{f} is \define{injective} (or that it's a \emph{injection}) if for all #{x_{1},x_{2}\in X} such that #{f(x_{1})=f(x_{2})} we have #{x_{1}=x_{2}}.}
+
+\p{Equivalently, if #{f(x_{1})\neq f(x_{2})}, then #{x_{1}\neq x_{2}}.}
+
+\p{So no two distinct elements of #{X} are mapped to the same element under #{f}.}

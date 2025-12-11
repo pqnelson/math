@@ -1,0 +1,11 @@
+\title{Set of complex numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] §2.1}
+\meta{source}{[[axler-1996-linear]] 1.1}
+
+\p{We define the \define{Set of Complex Numbers} #{\CC=\{(x,y)\mid x,y\in\RR\}}. Given a complex number #{z=(x,y)}, we call #{\Re(z)=x} the \define{Real Part} of #{z}, and #{\Im(z)=y} the \define{Imaginary Part} of #{z}.}
+
+\p{We write #{\I=(0,1)} for the \define{Imaginary Unit} and write #{z=(x,y)} as #{z=x+\I y}. (Electrical Engineers use #{j} instead for the imaginary unit.)}

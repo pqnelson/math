@@ -1,0 +1,13 @@
+\title{Spectral theorem for normal linear maps}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+
+\transclude{vectsp-002K}
+\transclude{vectsp-002L}
+\transclude{vectsp-002M}
+\transclude{vectsp-002N}
+\transclude{vectsp-002O}
+\transclude{vectsp-002P} % normal operator
+\transclude{vectsp-002Q} % positive operator
+\transclude{vectsp-002R} % square root of an operator

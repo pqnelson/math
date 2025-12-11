@@ -1,0 +1,14 @@
+\title{Properties of complex exponential and trigonometric functions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 2.3.5}
+
+\p{Let #{z_{1},z_{2}\in\CC}. Then the following all hold:}
+\ol{
+\li{#{\E^{z_{1}+z_{2}}=\E^{z_{1}}\E^{z_{2}}} and #{\E^{z}\neq0} for any #{z\in\CC}}
+\li{#{\sin^{2}(z_{1})+\cos^{2}(z_{1})=1}}
+\li{#{\sin(z_{1}+z_{2})=\sin(z_{1})\cos(z_{2})+\cos(z_{1})\sin(z_{2})}}
+\li{#{\cos(z_{1}+z_{2})=\cos(z_{1})\cos(z_{2})-\sin(z_{1})\sin(z_{2})}}
+}

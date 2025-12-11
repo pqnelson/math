@@ -1,0 +1,115 @@
+\title{Basic Macros}
+\author{alex-nelson}
+\date{2025-05-12}
+
+% Set theory
+\def\propersubset{\subset}
+\def\subset{\subseteq}
+\def\nsubset{\nsubseteq}
+\def\propersupset{\supset}
+\def\supset{\supseteq}
+\def\nsupset{\nsupseteq}
+
+\def\Complement[set]{\set^{\complement}}
+\def\powerset[set]{\mathcal{P}(\set)}
+
+\def\AA{\mathbb{A}}
+\def\CC{\mathbb{C}}
+\def\FF{\mathbb{F}}
+\def\KK{\mathbb{K}}
+\def\NN{\mathbb{N}}
+\def\QQ{\mathbb{Q}}
+\def\RR{\mathbb{R}}
+\def\ZZ{\mathbb{Z}}
+
+\def\D{\mathrm{d}} % differentials
+\def\E{\mathrm{e}} % exp(1)
+\def\I{\mathrm{i}} % = sqrt(-1)
+
+\def\Complex{\mathbb{C}}
+\def\Reals{\mathbb{R}}
+\def\Quaternions{\mathbb{H}}
+\def\Octonions{\mathbb{O}}
+\def\Nat{\mathbb{N}}
+
+% functions
+\def\id{\mathop{\mathrm{id}}\nolimits}
+\def\dom{\mathop{\mathrm{dom}}\nolimits}
+\def\cod{\mathop{\mathrm{cod}}\nolimits}
+\def\ran{\mathop{\mathrm{ran}}\nolimits}
+
+% linear algebra
+\def\transpose[M]{\M^{\mathsf{T}}}
+\def\norm[x]{\left \lVert \x \right \rVert}
+
+\def\sgn{\mathop{\mathrm{sgn}}\nolimits}
+
+% matrix groups
+\def\SL{\mathrm{SL}}
+
+\p{As I understand it, HTML tags (and spans with specific classes) must be done in this manner (although it is undocumented):}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+
+\def\blockquote[body]{
+  \<html:blockquote>{\body}
+}
+
+\def\chunktitle[name]{\<html:span>[class]{chunktitle}{⟨\name⟩}}
+
+
+\p{Proofs are probably not needed, but here they are...}
+\def\proof[body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{proof}
+     \body
+     \<html:span>[class]{qed}{∎}
+   }
+ }
+}
+
+\def\solution[body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{solution}
+     \body
+   }
+ }
+}
+
+\def\rmk[body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{remark}
+     \body
+   }
+ }
+}
+
+
+\p{The \code{\startverb\cite\stopverb} is based on a [discussion](https://lists.sr.ht/~jonsterling/forester-discuss/<D3HYZ2R63VU8.1GKFJ4TTQV54U@nickx.hu>) in the mailing list. It seems to be unstable in Forester, so care must be taken.}
+
+\def\cite[uid]{\let\escape[x]{\x}[\escape{[\uid]}](\uid)}
+
+% LaTeX backwards compatible macros
+\def\mbox[x]{\hbox{\x}}
+
+\def\emph[text]{\em{\text}}
+\def\textit[text]{\em{\text}}
+% \def\textit[text]{\<html:i>{\text}}
+\def\textbf[text]{\strong{\text}}
+
+\def\S{§}
+
+\def\dots{…}
+
+\def\define[definiendum]{\<html:dfn>{\definiendum}}
+
+\def\arXiv[number]{[arXiv:\number](https://arxiv.org/abs/\number)}
+
+% e.g., \MML{tarski}{def 4}{def 4}
+\def\MML[article][name][link-anchor]{\meta{source}{MML [\article:\name](https://mizar.uwb.edu.pl/version/current/html/\article.html#\link-anchor)}}

@@ -1,0 +1,9 @@
+\title{Symmetric relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.7}
+\MML{relat_2}{def 11}{V3}
+
+\p{Let #{R} be a relation, let #{F} be its [field](nst-000X). We say #{R} is \define{Symmetric} if for all #{x\in F} and #{y\in F}, if #{(x,y)\in R}, then #{(y,x)\in R}.}

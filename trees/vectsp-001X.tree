@@ -1,0 +1,15 @@
+\title{Criteria for linear operator to have an upper-triangular matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 5.39}
+\meta{source}{[[lankham-2016-linear]] Proposition 7.5.2}
+\import{ela}
+
+\p{Let #{V} be a [[vectsp-000O]] over #{\FF} with [basis](vectsp-000T) #{v_{1}}, \dots, #{v_{n}}. Let #{L\colon V\to V} be a linear operator. Then the following are equivalent:}
+\ol{
+\li{The matrix #{M(L)} with respect to #{(v_{1},\dots,v_{n})} is an [[matrix-000B]].}
+\li{#{L(v_{k})\in\span{v_{1},\dots,v_{k}}} for each #{k=1,\dots,n}}
+\li{#{\span{v_{1},\dots,v_{k}}} is [invariant](vectsp-001P) under #{L} for each #{k=1,2,\dots,n}}
+}

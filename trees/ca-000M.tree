@@ -1,0 +1,7 @@
+\title{Open Set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]], let #{E\subset X}. We say #{E} is \define{Open} (or that #{E} is an \define{Open Subset} of #{X}) if for all #{x\in E}, there exists an #{r>0}, such that the [[ca-000L]] centered at #{x} of radius #{r} is contained in it: #{B_{r}(x)\subset E}.}

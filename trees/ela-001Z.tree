@@ -1,0 +1,8 @@
+\title{Concluding remarks}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+
+\p{So we hit the "highpoints" of an elementary introduction to linear algebra (or, an introduction to elementary linear algebra). Intermediate linear algebra should revisit this subject and "distill" it into a "library" of definitions, theorems, and proofs.}
+
+\p{Good texts for intermediate linear algebra include [Axler](sheldon-jay-axler)'s [[axler-1996-linear]], though I learned it from [Lankham](isaiah-lankham), [Nachtergaele](brune-nachtergaele), and [Schilling](anne-schilling)'s [[lankham-2016-linear]] since this is the textbook for Math 67 at the Math Department of [[ucdavis.edu]].}

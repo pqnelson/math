@@ -1,0 +1,13 @@
+\title{vectors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{definition}
+
+\p{A \define{Column Vector} refers to an #{n\times1} matrix.}
+
+\p{A \define{Row Vector} refers to a #{1\times m} matrix.}
+
+\p{A \define{Vector} may refer to either row vectors or column vectors; in these notes on elementary linear algebra, we will reserve the word "vector" specifically for "column vector".}
+
+\p{Also note: it is common convention to use superscript indices for column vectors, and subscript indices for row vectors. This allows for the Einstein summation convention to do some stuff automatically for us.}

@@ -1,0 +1,13 @@
+\title{Transposition}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Example 8.1.10}
+
+\p{For each #{i,j\in\{1,\dots,n\}} with #{i<j}, we define the \define{Transposition} #{t_{ij}\in S_{n}} by
+##{t_{ij} = \begin{pmatrix}1 & 2 & \dots & i & \dots & j & \dots & n\\
+1 & 2 & \dots & j & \dots & i & \dots & n\end{pmatrix}}
+In other words, #{t_{ij}(i)=j} and #{t_{ij}(j)=i} and #{t_{ij}(k)=k} for all other #{k\leq n}.}
+
+\p{The number of inversion pairs in #{t_{ij}} is precisely #{2(j-i)-1}.}

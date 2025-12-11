@@ -1,0 +1,12 @@
+\title{Matrix Addition}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}=(a_{i,j})} and #{\mat{B}=(b_{i,j})} be two #{m\times n} matrices. We define \define{Matrix Addition} of #{\mat{A}} and #{\mat{B}} to produce a third #{m\times n} matrix #{\mat{C}=(c_{i,j})} (called the \emph{sum} of #{\mat{A}} and #{\mat{B}}) whose components are defined by #{c_{i,j}=a_{i,j}+b_{i,j}}.}
+
+\p{We write #{\mat{A}+\mat{B}} for the sum of #{\mat{A}} and #{\mat{B}}.}
+
+\rmk{We should prove, for any #{m\times n} matrices #{\mat{A}} and #{\mat{B}}, their sum exists and is unique. This is "obvious enough".}

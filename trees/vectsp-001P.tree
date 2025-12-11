@@ -1,0 +1,11 @@
+\title{Invariant subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 5.2}
+\meta{source}{[[lankham-2016-linear]] Definition 7.1.1}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{L\in\mathcal{L}(V)} be a linear operator on #{V}. We call a subspace #{U\subset V} \define{Invariant} under #{L} if for each #{u\in U} we have #{L(u)\in U}.}
+
+\p{That is to say, the image of every vector in #{U} under #{L} remains in #{U}. So #{L(U)\subset U}.}

@@ -1,0 +1,7 @@
+\title{Preceding notions easily generalize}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{remark}
+
+\p{The preceding definitions and notions generalize easily from a [[ca-000K]] #{(X,d)} to a set with a well-defined notion of an "open set" (i.e., a topological space).}

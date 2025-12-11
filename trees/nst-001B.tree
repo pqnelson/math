@@ -1,0 +1,8 @@
+\title{Composing relations is associative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\MML{relat_1}{th36}{T36}
+
+\p{Let #{R_{1}}, #{R_{2}}, #{R_{3}} be relations. Then #{(R_{1}\circ R_{2})\circ R_{3}=R_{1}\circ(R_{2}\circ R_{3})}.}

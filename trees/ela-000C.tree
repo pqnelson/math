@@ -1,0 +1,33 @@
+\title{Determinants and traces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+
+\p{The last thing to discuss before moving away from matrices: determinants. These give us a way to determine if a matrix is invertible or not.}
+
+\p{Determinants are related to the trace of a matrix, so we will also discuss them here.}
+
+\transclude{matrix-001J}
+\transclude{matrix-001L}
+\transclude{matrix-001M}
+\transclude{matrix-001K}
+\transclude{matrix-001N}
+\transclude{matrix-001O}
+\transclude{matrix-001P}
+\transclude{matrix-001Q}
+\transclude{matrix-001R}
+\transclude{matrix-001S}
+\transclude{matrix-001T}
+\transclude{matrix-001U}
+\transclude{matrix-001V}
+\transclude{matrix-001W}
+\transclude{matrix-001X}
+\transclude{matrix-001Y}
+\transclude{matrix-001Z}
+\transclude{matrix-0020}
+\transclude{matrix-0021}
+\transclude{matrix-0022}
+\transclude{matrix-0023}
+\transclude{matrix-0024}
+\transclude{matrix-0025}
+\transclude{matrix-0026}

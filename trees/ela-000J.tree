@@ -1,0 +1,12 @@
+\title{Criteria for a subset being a subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+
+\p{Let #{V} be a real vector space with vector addition #{\oplus} and scalar multiplication #{\odot}. Then a subset #{U\subset V} forms a subspace of #{V} provided:}
+
+\ol{
+\li{for any #{u,v\in U}, we have #{u\oplus v\in U}; and}
+\li{for any #{c\in\RR} and #{u\in U}, we have #{c\odot u\in U}.}
+}

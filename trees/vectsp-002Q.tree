@@ -1,0 +1,9 @@
+\title{Positive operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 7.34}
+\meta{source}{[[lankham-2016-linear]] Definition 11.5.1}
+
+\p{Let #{V} be an [[vectsp-0020]]s over #{\FF}. Let #{L\in\mathcal{L}(V)} be a linear operator. We say #{L} is \define{positive} if #{L} is [self-adjoint](vectsp-002L) #{L=L^{*}}, and also #{\langle Tv,v\rangle\geq0} for all #{v\in V}.}

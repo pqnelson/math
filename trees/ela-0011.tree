@@ -1,0 +1,11 @@
+\title{Coordinates of a vector relative to a basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{V} be a finite-dimensional real vector space. Let #{B=(f_{1},\dots,f_{n})} be an [[ela-000Y]] of #{V}. Then we call the #{n} coefficients #{\lambda_{1},\dots,\lambda_{n}\in\RR} such that
+##{v = \lambda_{1}f_{1}+\dots+\lambda_{n}f_{n}}
+are called the \define{Coordinates} of #{v} relative to #{B}. We can write this down as a column vector:
+##{[v]_{B} = \begin{pmatrix}\lambda_{1}\\\vdots\\\lambda_{n}\end{pmatrix}}
+for the coordinates of #{v} relative of #{B}.}

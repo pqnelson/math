@@ -1,0 +1,13 @@
+\title{Uniqueness of Matrix Inverse}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} and #{\mat{B}} be square matrices. If #{\mat{B}} is an inverse of #{\mat{A}}, then it is unique.}
+
+\p{What does this mean? It means if there is any other square matrix #{\mat{C}} which is also an inverse of #{\mat{A}}, then necessarily
+##{\mat{B}=\mat{C}.}}
+
+\rmk{Since the matrix inverse is unique, this means we can write #{\mat{A}^{-1}} for the inverse of #{\mat{A}} when it exists.}

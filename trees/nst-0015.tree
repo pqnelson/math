@@ -1,0 +1,11 @@
+\title{Set of all functions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.8}
+\MML{funct_2}{def 2}{K1}
+
+\p{Let #{X} and #{Y} be sets. We denote the \define{Set of all functions} from #{X} to #{Y} as either #{Y^{X}} or #{\hom(X,Y)}.}
+
+\p{We see this really is a set, since a function is a subset of #{X\times Y}, so the set of all functions is a subset of #{\powerset{X\times Y}}.}

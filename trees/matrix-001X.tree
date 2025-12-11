@@ -1,0 +1,16 @@
+\title{Determinant of elementary row matrix}
+\author{alex-nelson}
+\import{notation}
+\import{ela}
+\date{2025-12-08}
+\taxon{theorem}
+
+\p{We claim the determinant of elementary row matrices are:}
+
+\ol{
+\li{#{\det(\mat{I}+r\mat{E}_{\mu,\nu})=1} for any #{r} and #{1\leq\mu\leq n} and #{1\leq\nu\leq n} such that #{\mu\neq\nu}}
+\li{Swapping two rows: #{\det(\mat{I}+\mat{E}_{\mu,\nu}+\mat{E}_{\nu,\mu}-\mat{E}_{\mu,\mu}-\mat{E}_{\nu,\nu})=(-1)^{\mu-\nu}}}
+\li{#{\det(\mat{I}+r\mat{E}_{\mu,\mu})=1+r} for any #{r}}
+}
+
+\p{The first and third claim follows immediately from the fact that the [[matrix-001U]].}

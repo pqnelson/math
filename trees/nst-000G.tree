@@ -1,0 +1,16 @@
+\title{Basic properties of intersection of two sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.4}
+\MML{boole}{2}{T2}
+\MML{xboole_1}{17}{T17}
+\MML{xboole_1}{28}{T28}
+
+\p{Let #{A}, #{B}, #{C} be any three sets. Then the following all hold:}
+\ol{
+\li{#{A\cap\emptyset=\emptyset}}
+\li{#{A\cap(B\cap C)=(A\cap B)\cap C}}
+\li{#{A\subset B} iff #{A\cap B=A}}
+}

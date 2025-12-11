@@ -1,0 +1,8 @@
+\title{Multiplication of complex numbers in exponential form}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Lemma 2.3.2}
+
+\p{Let #{z_{1}=r_{1}\E^{\I\theta_{1}}, z_{2}=r_{2}\E^{\I\theta_{2}}\in\CC} be complex numbers in exponential form. Then #{z_{1}z_{2}=r_{1}r_{2}\E^{\I(\theta_{1}+\theta_{2})}}.}

@@ -1,0 +1,9 @@
+\title{Square root of a linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 7.34}
+\meta{source}{[[lankham-2016-linear]] Section 11.5}
+
+\p{Let #{V} be an [[vectsp-0020]]s over #{\FF}. Let #{L,R\in\mathcal{L}(V)} be a linear operator. We say #{R} is a \define{square root} of #{L} if #{L=R^{2}}.}

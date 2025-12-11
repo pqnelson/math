@@ -1,0 +1,10 @@
+\title{Tranpose of Matrix Product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{m\times n} matrix, let #{\mat{B}} be an #{n\times p} matrix. Then the transpose of matrix product is the matrix multiplication of the transposes,
+##{\transpose{(\mat{A}\mat{B})} = \transpose{\mat{B}}\transpose{\mat{A}}.}}
+

@@ -1,0 +1,17 @@
+\title{Linear algebra as an introduction to abstract mathematics}
+\taxon{reference}
+\author{isaiah-lankham}
+\author{bruno-nachtergaele}
+\author{anne-schilling}
+\date{2016}
+
+\meta{doi}{10.1142/9808}
+\meta{external}{https://www.math.ucdavis.edu/~anne/linear_algebra/mat67_course_notes.pdf}
+
+\meta{bibtex}{\startverb
+@book{lankham2016linear,
+  title={Linear algebra as an introduction to abstract mathematics},
+  author={Lankham, Isaiah and Nachtergaele, Bruno and Schilling, Anne},
+  year={2016},
+  publisher={World Scientific}
+}\stopverb}

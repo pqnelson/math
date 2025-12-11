@@ -1,0 +1,9 @@
+\title{Inverse of a linear transformation is linear}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Proposition 6.7.3}
+\import{ela}
+
+\p{Let #{V} and #{W} be vector spaces over #{\FF}. Let #{L\colon V\to W} be invertible. Then #{L^{-1}\colon W\to V} is a linear transformation.}

@@ -1,0 +1,13 @@
+\title{Diagonalizable linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 5.48}
+\meta{source}{[[lankham-2016-linear]] Section 7.3}
+
+\p{Let #{V} be a [[vectsp-000O]] over #{\FF}. Let #{L\colon V\to V} be a linear operator. We say #{L} is \define{Diagonalizable} if the eigenvectors of #{M(L)} form a [basis](vectsp-000T) of #{V}. In this case,
+##{M(L)=\begin{pmatrix}\lambda_{1} & & & \\
+ & \lambda_{2} & & \\
+  & & \ddots & \\
+  & & & \lambda_{n}\end{pmatrix}}}

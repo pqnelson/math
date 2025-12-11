@@ -1,0 +1,9 @@
+\title{Complex exponential}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Section 2.3.4}
+
+\p{Let #{z=x+\I y} be a complex number with #{x,y\in\RR}. Then we define the \define{Complex Exponential} to be a function #{\exp\colon\CC\to\CC} defined by
+##{\exp(z)=\E^{x}\E^{\I y}=\E^{x}(\cos(y)+\I\sin(y))}}

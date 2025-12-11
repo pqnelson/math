@@ -1,0 +1,18 @@
+\title{linear equations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{definition}
+
+\p{A \define{linear equation in one variable} #{x} looks like
+##{b = ax}
+where #{a} and #{b} are real constants.}
+
+\p{A single \define{linear equation in two variables} #{x} and #{y} looks like
+##{ax + by = c}
+where #{a}, #{b}, and #{c} are real constants.}
+
+\p{A single linear equation in #{n} variables #{x_{1}}, \dots, #{x_{n}} looks like
+##{a_{1}x_{1} + \dots + a_{n}x_{n} = b}
+where #{a_{1}}, \dots, #{a_{n}}, and #{b} are real constants.}
+

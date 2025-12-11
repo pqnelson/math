@@ -1,0 +1,8 @@
+\title{Special linear group over commutative rings}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\taxon{definition}
+\import{sl}
+
+\p{Let #{R} be a commutative ring. We define the \define{Special Linear Group} over #{R} to be the group #{\SL{n}{R} = \{g\in\GL{n}{R}\mid\det(g)=1\}}. That is to say, it is the kernel of the determinant homomorphism.}

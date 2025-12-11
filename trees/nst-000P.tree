@@ -1,0 +1,33 @@
+\title{Basic concepts and constructions of naive set theory}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+
+
+\transclude{nst-000R} % remark about ontology of mathematics
+\transclude{nst-0001} % "definition" of a set
+\transclude{nst-000C} % remark about well-definedness of definitions
+\transclude{nst-000U} % common sets
+\transclude{nst-0002} % finite sets
+\transclude{nst-0003} % empty set
+\transclude{nst-0004} % set equality
+\transclude{nst-0005} % the empty set
+\transclude{nst-0006} % subset
+\transclude{nst-0007} % proper subset
+\transclude{nst-0008} % proving equality using subsets
+\transclude{nst-0009} % set-builder notation
+\transclude{nst-000A} % sentences in set theory
+\transclude{nst-000B} % union of a family of sets
+\transclude{nst-000D} % union of two sets
+\transclude{nst-000E} % basic properties of union of two sets
+\transclude{nst-000F} % intersection of two sets
+\transclude{nst-000G} % basic properties of intersection of two sets
+\transclude{nst-000H} % intersection of family of sets
+\transclude{nst-000I} % relative complement
+\transclude{nst-000J} % complement of a subset
+\transclude{nst-000K} % powerset
+\transclude{nst-000L} % specification of ordered pair
+\transclude{nst-000M} % ordered pair
+\transclude{nst-000N} % ordered pair "just work"
+\transclude{nst-000O} % cartesian product of two sets
+\transclude{nst-000Q} % properties of cartesian product of two sets

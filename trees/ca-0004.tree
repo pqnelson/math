@@ -1,0 +1,10 @@
+\title{Upper bound, bounded above}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], 1.7}
+
+\p{Let #{S} be an [[ca-0003]], and let #{E\subset S}. If there exists a #{\beta\in S} such that #{x\leq\beta} for every #{x\in E}, then we say #{E} is \define{Bounded Above} and call #{\beta} an \define{Upper Bound} of #{E}.}
+
+\p{Lower bounds are defined similarly: a \define{Lower Bound} #{\alpha\in S} such that #{\alpha\leq x} for every #{x\in E}, and we say #{E} is \define{Bounded Below}.}

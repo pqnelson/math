@@ -1,0 +1,11 @@
+\title{Kernel of linear map}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 3.11}
+\meta{source}{[[lankham-2016-linear]] Definition 6.2.1}
+\import{ela}
+
+\p{Let #{L\colon V\to W} be a linear map. Then the \define{Kernel} (or "null space") of #{L} is the set #{\ker(L)} of all vectors of #{V} mapped to the zero vector of #{W} by #{L}; i.e.,
+##{\ker(L)=\{v\in V\mid L(v)=\vec{0}_{W}\}}}

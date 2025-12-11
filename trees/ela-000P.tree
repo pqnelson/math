@@ -1,0 +1,12 @@
+\title{Vector spaces don't always have a dot product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{caution}
+
+\p{Not all vector spaces have a well-defined "dot product". The only one which has an obvious dot product is [the vector space of #{n}-tuples #{\RR^{n}}](ela-000G), where we define:}
+
+##{(x_{1},\dots,x_{n})\cdot(y_{1},\dots,y_{n})=\sum^{n}_{j=1}x_{j}y_{j}}
+
+\p{We will just take for granted this is a well-defined notion for #{\RR^{n}}.}
+

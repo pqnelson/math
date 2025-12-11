@@ -1,0 +1,9 @@
+\title{Ordered pairs}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.6}
+\MML{tarski}{def 5}{K4}
+
+\p{Let #{x} and #{y} be objects. We define the \define{Ordered Pair} to be the object #{(x,y) = \{\{x\},\{x,y\}\}}.}

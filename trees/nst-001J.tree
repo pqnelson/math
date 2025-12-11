@@ -1,0 +1,13 @@
+\title{Preimages preserve everything}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[nicolas-bourbaki]] [[bourbaki-1968-theory]] R §2.10}
+
+\p{Let #{f\colon X\to Y} be a function, let #{L\subset Y} and #{R\subset Y} be subsets. Then the following all hold:}
+\ol{
+\li{#{f^{-1}(L\cup R)=f^{-1}(L)\cup f^{-1}(R)}}
+\li{#{f^{-1}(L\cap R)=f^{-1}(L)\cap f^{-1}(R)}}
+\li{#{f^{-1}(L\setminus R)=f^{-1}(L)\setminus f^{-1}(R)}}
+}

@@ -1,0 +1,11 @@
+\title{Criterion for linear dependence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+
+\p{A set of nonzero vectors #{\{v_{1},\dots,v_{n}\}} of a real vector space #{V} is linearly independent if and only if at least one of the vectors #{v_{k}} is expressible as a linear combination of the other vectors:}
+
+##{v_{k}=c_{1}v_{1}+\dots+c_{k-1}v_{k-1}+c_{k+1}v_{k+1}+\dots+c_{n}v_{n}}
+
+\p{where not all coefficients #{c_{j}\in\RR} are zero.}

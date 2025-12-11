@@ -1,0 +1,13 @@
+\title{Scalar multiples of zero vector are the zero vector}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.31}
+\meta{source}{[[lankham-2016-linear]] Proposition 4.2.4}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{\vec{0}\in V} and #{a\in\FF}. Then #{a\vec{0}=\vec{0}}.}
+
+\proof{\p{We see
+##{a\vec{0}=a(\vec{0}+\vec{0})=a\vec{0}+a\vec{0},}
+then adding the additive inverse of #{a\vec{0}} to both sides yields the result.}}

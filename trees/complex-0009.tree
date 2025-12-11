@@ -1,0 +1,18 @@
+\title{Properties of modulus}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 2.2.11}
+\meta{source}{[[axler-1996-linear]] Theorem 4.4}
+
+\p{Let #{z_{1},z_{2}\in\CC} be complex numbers. Then the following all hold:}
+\ol{
+\li{#{|z_{1}z_{2}|=|z_{1}|\cdot|z_{2}|}}
+\li{#{|z_{1}/z_{2}|=|z_{1}|/|z_{2}|}}
+\li{#{|\overline{z_{1}}|=|z_{1}|}}
+\li{#{|\Re(z_{1})|\leq|z_{1}|} and #{|\Im(z_{1})|\leq|z_{1}|}}
+\li{Triangle inequality: #{|z_{1}+z_{2}|\leq|z_{1}|+|z_{2}|}}
+\li{#{|z_{1}-z_{2}|\geq||z_{1}|-|z_{2}||}}
+\li{#{z_{1}\overline{z_{1}}=|z_{1}|^{2}} which implies when #{z_{1}\neq0}, ##{z_{1}^{-1}=\frac{\overline{z_{1}}}{|z_{1}|^{2}}}}
+}

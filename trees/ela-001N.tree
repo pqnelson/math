@@ -1,0 +1,10 @@
+\title{Linear transformation is injective iff kernel is trivial subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+
+\p{Let #{L\colon V\to W} be a linear transformation of real vector spaces. Then #{L} is [injective](ela-001J) if and only if #{\ker(L)=0_{V}} is the [[ela-000K]] of #{V}.}
+
+\proof{\p{The forward direction: assume #{L} is injective. For any #{v\in V} such that #{v\neq\vec{0}_{V}}, we have #{L(v)\neq L(\vec{0}_{V})} by definition of injective functions, and this means #{L(v)\neq\vec{0}_{W}} by the fact linear transformations map the zero vector to the zero vector.}
+\p{The backward direction: assume #{\ker(L)=0_{V}=\{\vec{0}_{V}\}}. For any #{v_{1},v_{2}\in V} such that #{L(v_{1})=L(v_{2})}, we will prove #{v_{1}=v_{2}}. First, we see #{L(v_{1})-L(v_{2})=\vec{0}_{W}} and then by linearity, the left-hand side becomes #{L(v_{1}-v_{2})=\vec{0}_{W}}. Then #{v_{1}-v_{2}\in\ker(L)} by definition of the kernel. Then #{v_{1}-v_{2}\in\{\vec{0}_{V}\}}, which means #{v_{1}-v_{2}=\vec{0}_{V}}. Then adding #{v_{2}} to both sides gives us #{v_{1}=v_{2}}, as desired. Hence #{L} is injective.}}

@@ -1,0 +1,9 @@
+\title{Cauchy-Scwharz inequality}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.14}
+\meta{source}{[[lankham-2016-linear]] Theorem 9.3.3}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. Let #{u,v\in V}. Then using the [[vectsp-0029]] we have #{|\langle u,v\rangle|\leq\norm{u}\norm{v}}.}

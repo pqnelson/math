@@ -1,0 +1,10 @@
+\title{Scalar multiplication (on a matrix)}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}=(a_{i,j})} be an #{m\times n} matrix, let #{r} be a real [or complex] number. We define the \define{Scalar Multiple} of #{\mat{A}} by #{r} to be the #{m\times n} matrix #{r\mat{A} = (ra_{i,j})} whose components are obtained by multiplying every component of #{\mat{A}} by #{r}. We can also write this as #{r\cdot \mat{A}=r\mat{A}} to make the scalar multiplication explicit.}
+
+\rmk{"Scalar multiplication" refers to the fact we are multiplying a matrix by a "scalar" [number], as opposed to multiplying by a vector or another matrix.}

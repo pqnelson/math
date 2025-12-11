@@ -1,0 +1,9 @@
+\title{Composition of linear transformations is a linear transformation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 3.7}
+\meta{source}{[[lankham-2016-linear]] Section 6.1}
+
+\p{Let #{U}, #{V}, #{W} be vector spaces over #{\FF}. Let #{S\in\mathcal{L}(U,V)} and #{T\in\mathcal{L}(V,W)} be linear maps. Then #{T\circ S\in\mathcal{L}(U,W)} is a linear transformation defined by #{(T\circ S)(u)=T(S(u))} for all #{u\in U}.}

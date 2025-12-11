@@ -1,0 +1,12 @@
+\title{Geometric intuition of determinant}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{remark}
+\import{ela}
+
+\p{If we look at a parallelogram in the real plane, then we can describe two edges using vectors #{\vec{v}=(x_{1},y_{1})} and #{\vec{w}=(x_{2},y_{2})}. Its area is precisely:
+##{A = \det\begin{pmatrix}x_{1} & x_{2}\\y_{1} & y_{2}\end{pmatrix}}
+This is taught to students in calculus. Similarly, if we extend our discussion to a parallelipid in three dimensions, we would have three vectors and the volume would be the determinant of the matrix whose columns are these column vectors.}
+
+\p{This intuition captures one aspect of the determinant, as describing the "volume" of a "parallelotope" (the generalization of the parallelogram and parallelepiped to arbitrary dimensions).}

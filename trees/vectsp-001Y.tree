@@ -1,0 +1,11 @@
+\title{Differentiation is a linear operator on space of polynomials}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{example}
+
+\p{Let #{\FF} be a [[field-0001]], let #{\FF[z]} be the vector space of polynomials with coefficients in #{\FF} and in unknown #{z}. Then
+##{\frac{\D}{\D z}\colon\FF[z]\to\FF[z]}
+defined by
+##{\frac{\D}{\D z}(a_{0}+a_{1}z+\dots+a_{n}z^{n})=a_{1}+\dots+a_{k}kz^{k-1}+\dots+a_{n}nz^{n-1}}
+is a linear operator on #{\FF[z]}.}

@@ -1,0 +1,8 @@
+\title{Matrices form a vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+\import{ela}
+
+\p{Let #{\mathrm{Mat}(m,n,\RR)} be the set of all #{m\times n} matrices with entries in #{\RR}. If we equip #{\mathrm{Mat}(m,n,\RR)} with [matrix addition](matrix-000E) as its vector addition, and use its usual [[matrix-000I]], then we have a real vector space.}

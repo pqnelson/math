@@ -1,0 +1,8 @@
+\title{Basis of Vector Space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} be a real vector space, let #{B\subset V} be a subset of #{V}. If #{\span{B}=V} and there is no proper subset #{A\propersubset B} such that #{\span{A}=V}, then we call #{B} a \define{Basis} of #{V}.}

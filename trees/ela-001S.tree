@@ -1,0 +1,8 @@
+\title{Determinant is product of eigenvalues}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{M}} be an #{n\times n} matrix. Let #{\lambda_{1}}, \dots, #{\lambda_{n}} be its eigenvalues. Then the [determinant](matrix-001J) is the product of the [eigenvalues](ela-001Q) of the matrix, i.e., #{\det(\mat{M})=\prod^{n}_{j=1}\lambda_{j}}.}

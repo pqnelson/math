@@ -1,0 +1,9 @@
+\title{scalar matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\import{ela}
+
+\p{A diagonal matrix #{\mat{A}=(a_{i,j})} for which #{a_{i,i}=c} for all #{i} is called a \define{Scalar Matrix}.}
+
+\p{The word "scalar" intuitively means "number". We [motivated](ela-0009) matrices by trying to generalize numbers. Scalar matrices are "the most number-like" among matrices.}

@@ -1,0 +1,14 @@
+\title{Levi-Civita symbol in three-dimensions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+\import{ela}
+
+\p{In three dimensions, we have:}
+
+##{\varepsilon_{1,2,3}=\varepsilon_{2,3,1}=\varepsilon_{3,1,2}=+1}
+
+##{\varepsilon_{3,2,1}=\varepsilon_{1,3,2}=\varepsilon_{2,1,3}=-1}
+
+\p{And all other entries vanish.}

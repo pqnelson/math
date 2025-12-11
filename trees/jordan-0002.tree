@@ -1,0 +1,43 @@
+\title{Hermitian matrices over a field forms a Jordan algebra}
+\author{alex-nelson}
+\import{ela}
+\import{notation}
+\import{jordan}
+\date{2025-05-21}
+\taxon{example}
+\meta{source}{\cite{hall-2024-sandwich}}
+
+
+
+\p{Let #{\AA} be a (real) normed division algebra. Let #{\herm{n}{\AA}} be the space of [Hermitian #{n\times n}](matrix-0008) matrices with entries in #{\AA}. Let #{\tracelessherm{n}{\AA}} be the subspace of traceless matrices.}
+
+\p{We define the \define{Jordan product} of #{\herm{n}{\AA}} to be:}
+
+##{A\circ B = \frac{1}{2}(AB+BA)}
+
+\p{When #{\AA} is associative, this forms a Jordan algebra.}
+
+\proof{\p{The claim is that this forms a Jordan algebra. We need to verify that Jordan product satisfies both axioms (commutativity and the Jordan identity).}
+
+\p{We observe this product is commutative since #{AB+BA=BA+AB} (thanks to the commutativity of addition) and furthermore it is linear in the first slot (therefore bilinear, i.e., it distributes over addition).}
+
+\p{Let us now verify the Jordan product satisfies the Jordan identity.}
+
+\p{We see that:}
+
+##{\begin{align*}
+8(A\circ B)\circ(A\circ A) &= 2(AB+BA)\circ(A^{2}+A^{2})\\
+&= 2(AB+BA)A^{2} + 4A^{2}(AB+BA)\\
+&= 2ABA^{2}+2BA^{3}+2A^{3}B+2A^{2}B
+\end{align*}}
+
+\p{and}
+
+##{\begin{align*}
+8A\circ(B\circ(A\circ A)) &= 4A\circ(BA^{2}+A^{2}B)\\
+&= 2A(BA^{2}+A^{2}B)+2(BA^{2}+A^{2}B)A\\
+&= 2ABA^{2} + 2A^{3}B + 2BA^{3} + 2A^{2}B
+\end{align*}}
+
+\p{We see that these two are equal to each other, therefore satisfies the Jordan identity. Hence it is a Jordan algebra.}}
+

@@ -1,0 +1,13 @@
+\title{Function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.8}
+
+\p{Let #{X} and #{Y} be sets. We define a \define{Function} from #{X} to #{Y} to be a [relation](nst-000T) of #{X} and #{Y} denoted #{f\colon X\to Y} such that:
+\ol{
+\li{[Total](https://mizar.uwb.edu.pl/version/current/html/partfun1.html#V1): #{\dom(f)=X}, and}
+\li{[Function-like](https://mizar.uwb.edu.pl/version/current/html/funct_1.html#V1): for all objects #{x}, #{y}, #{z} such that #{(x,y)\in f} and #{(x,z)\in f}, we have #{y=z}.}
+}
+Instead of #{(x,y)\in f}, we write #{f(x)=y}.}

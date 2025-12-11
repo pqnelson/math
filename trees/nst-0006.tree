@@ -1,0 +1,13 @@
+\title{Subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+
+\p{Let #{X} and #{Y} be sets. We define the predicate #{X\subset Y} to mean: for any object #{x}, if #{x\in X} then #{x\in Y}. In other words, all elements of #{X} are also elements of #{Y}. (This is very different than #{X} is an element of #{Y}!)}
+
+\p{We write #{Y\supset X} as a synonym for #{X\subset Y}.}
+
+\p{We also write #{X\nsubset Y} as the antonym for #{X\subset Y}, and #{Y\nsupset X} for the antonym of #{Y\supset X}.}
+
+\p{Observe that #{X\subset X} for any set #{X}.}

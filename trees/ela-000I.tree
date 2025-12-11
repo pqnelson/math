@@ -1,0 +1,10 @@
+\title{Subspace of a real vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} be a real vector space with vector addition #{\oplus} and scalar multiplication #{\odot}. Let #{U\subset V} be a subset of vectors. We call #{U} a \define{Subspace} of #{V} if it forms a vector space using #{\oplus} restricted to #{U}, and scalar multiplication restricted to #{U}.}
+
+\p{This means the zero vector #{\vec{0}\in V} must be an element of #{U}.}

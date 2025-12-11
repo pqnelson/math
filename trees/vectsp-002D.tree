@@ -1,0 +1,9 @@
+\title{Orthonormal Basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 6.22}
+\meta{source}{[[lankham-2016-linear]] Definition 9.4.1 and 9.4.3}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. Let #{B} be a basis of #{V}. We say the basis #{B} is \define{Orthonormal} if for all #{e_{i},e_{j}\in B} we have #{\langle e_{i},e_{j}\rangle=\delta_{i,j}} is the Kronecker delta #{\delta_{i,j}=0} for #{i\neq j} and #{\delta_{i,i}=1}.}

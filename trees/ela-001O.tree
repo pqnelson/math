@@ -1,0 +1,7 @@
+\title{Rank-nullity theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+
+\p{Let #{L\colon V\to W} be a linear transformation of real vector spaces. Then #{\dim(\ker(L))+\dim(L(V))=\dim(V)}.}

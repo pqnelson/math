@@ -1,0 +1,11 @@
+\title{Determinant of derivative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{puzzle}
+
+\p{Recall [[vectsp-001Y]]. So for a [[field-0001]] #{\FF}, the vector space of polynomials #{\FF[z]} over #{\FF} in unknown #{z}, we have #{\D /\D z} be a linear operator on it. Can we compute the determinant of #{\D /\D z}? That is, can we make sense of
+##{\det\left(\frac{\D}{\D z}\right)}
+in some way? More generally, if we consider any linear differential operator, can we compute its determinant?}
+
+\p{Such expressions appear in quantum mechanics and quantum field theory.}

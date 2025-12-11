@@ -1,0 +1,18 @@
+\title{nonlinear equations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{example}
+
+\p{We have to distinguish a system of linear equations from nonlinear equations. For example, the following is a nonlinear equation
+##{3x^{2} + x = 2,}
+because a polynomial of order #{n>1} will be nonlinear. If you have a function #{f(x)} and you don't know if it's linear or not, check if #{f(ax+by)=af(x)+bf(y)} holds or not --- this is the criteria of linearity.}
+
+\p{The following equation is also nonlinear:
+##{x + yz =3.}
+We cannot multiply two [or more] unknowns together in a linear equation.}
+
+\p{So the following equation is nonlinear:
+##{x + y\cos(z) = 3,}
+on two counts: first, #{\cos(z)} is nonlinear; and second, #{y\cos(z)} is not allowed in a linear equation.}
+

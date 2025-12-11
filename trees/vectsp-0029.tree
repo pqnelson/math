@@ -1,0 +1,7 @@
+\title{Canonical norm}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. We define the \define{Canonical Norm} on #{V} to be #{\norm{v}=\sqrt{\langle v,v\rangle}} for any #{v\in V}. We see that this is just the [[vectsp-0026]] which is a norm, so this is well-defined.}

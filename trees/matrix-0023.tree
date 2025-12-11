@@ -1,0 +1,8 @@
+\title{Trace of scalar multiple is scalar multiple of trace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. Let #{c} be a scalar. Then #{\trace{c\mat{A}}=c\trace{\mat{A}}}.}

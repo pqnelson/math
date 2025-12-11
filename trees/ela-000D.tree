@@ -1,0 +1,69 @@
+\title{Vector Spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+
+\transclude{field-0001}
+\transclude{ela-000E}
+\transclude{ela-000H}
+\transclude{ela-000G}
+\transclude{ela-000F}
+\transclude{ela-000P}
+\transclude{ela-000I} % subspace
+\transclude{ela-000J}
+\transclude{ela-000K}
+\transclude{ela-000L}
+\transclude{ela-000Q}
+\transclude{ela-000M}
+\transclude{ela-000N}
+\transclude{ela-000O}
+\transclude{ela-000Q}
+\transclude{ela-000R} % linearly independent
+\transclude{ela-000S}
+\transclude{ela-000T}
+\transclude{ela-000U}
+\transclude{ela-000V}
+\transclude{ela-000W}
+\transclude{ela-000X}
+\transclude{ela-000Y} % ordered basis
+\transclude{ela-000Z} % orthogonal basis
+\transclude{ela-0010} % orthonormal basis
+\transclude{ela-0011}
+\transclude{ela-0012}
+\transclude{ela-0013}
+% Graham-Schmidt algorithm
+\transclude{ela-0013} % Projection
+\transclude{ela-0014}
+\transclude{ela-0015}
+\transclude{ela-0016}
+% Linear transformations
+\transclude{ela-0017}
+\transclude{ela-0018}
+\transclude{ela-0019}
+\transclude{ela-001A}
+\transclude{ela-001D}
+\transclude{ela-001B}
+\transclude{ela-001C}
+\transclude{ela-001E}
+\transclude{ela-001F}
+\transclude{ela-001G}
+\transclude{ela-001H}
+\transclude{ela-001I}
+\transclude{ela-001J}
+\transclude{ela-001K}
+\transclude{ela-001L}
+\transclude{ela-001M}
+\transclude{ela-001N}
+\transclude{ela-001O}
+
+% Eigenstuff
+\transclude{ela-001P}
+\transclude{ela-001Q}
+\transclude{ela-001R}
+\transclude{ela-001S}
+\transclude{ela-001T}
+\transclude{ela-001U} % diagonalizable
+\transclude{ela-001V} % similar matrices have same eigenvalues
+\transclude{ela-001W}
+\transclude{ela-001X}
+\transclude{ela-001Y}

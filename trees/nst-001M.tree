@@ -1,0 +1,9 @@
+\title{Composition of functions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+
+\p{Let #{f\colon X\to Y} and #{g\colon Y\to Z} be functions. Then the \define{Composition} of #{f} followed by #{g} is the function #{g\circ f\colon X\to Z} defined by #{(g\circ f)(x)=g(f(x))} for all #{x\in X}.}
+
+\p{Observe this is just the [[nst-0013]].}

@@ -1,0 +1,9 @@
+\title{Orthogonal vectors are linearly independent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.25}
+\meta{source}{[[lankham-2016-linear]] Proposition 9.4.2}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. Let #{v_{1},\dots,v_{n}\in V} be [[vectsp-0027]]. Then #{v_{1},\dots,v_{n}} are linearly independent.}

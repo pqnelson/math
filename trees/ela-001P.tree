@@ -1,0 +1,7 @@
+\title{Eigenvalue and Eigenvector of linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{L\colon V\to V} be a real linear operator. If there exists a nonzero vector #{v\in V} and a nonzero #{\lambda\in\RR} such that #{L(v)=\lambda v}, then we call #{v} the \define{Eigenvector} of #{L} with \define{Eigenvalue} #{\lambda}.}

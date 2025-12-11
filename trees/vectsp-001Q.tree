@@ -1,0 +1,13 @@
+\title{Eigenvalues and eigenvectors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definitions 5.5 and 5.8}
+\meta{source}{[[lankham-2016-linear]] Definition 7.1.1}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{L\colon V\to V} be a linear operator on #{V}. Then #{\lambda\in\FF} is an \define{Eigenvalue} of #{L} if there is a non-zero vector #{u\in V} such that
+##{L(u)=\lambda u.}
+The vector #{u} is called an \define{Eigenvector} of #{L} corresponding to eigenvalue #{\lambda}.}
+
+\p{Compare this to the [notion](ela-001P) in elementary linear algebra.}

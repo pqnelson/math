@@ -1,0 +1,15 @@
+\title{Properties of multiplying complex numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 2.2.6}
+\meta{source}{[[axler-1996-linear]] Theorem 1.3}
+
+\p{Let #{z_{1},z_{2},z_{3}\in\CC} be complex numbers. Then the following all hold:}
+
+\ol{
+\li{Associativity: #{(z_{1}z_{2})z_{3}=z_{1}(z_{2}z_{3})}}
+\li{Commutativity: #{z_{1}z_{2}=z_{2}z_{1}}}
+\li{Multiplicative identity: There is a unique complex number denoted #{1} such that for any #{z\in\CC} we have #{1z=z}. Moreover, #{1=(1,0)}.}
+\li{Distributivity of multiplication over addition: #{z_{1}(z_{2}+z_{3})=z_{1}z_{2}+z_{1}z_{3}}.}}

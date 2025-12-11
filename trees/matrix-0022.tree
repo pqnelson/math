@@ -1,0 +1,7 @@
+\title{Trace of the transpose is just the trace}
+\author{alex-nelson}
+\import{notation}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. Then #{\trace{\transpose{\mat{A}}}=\trace{\mat{A}}}.}

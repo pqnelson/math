@@ -1,0 +1,9 @@
+\title{Direct sum of two subspaces intersect in the zero subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.46}
+\meta{source}{[[lankham-2016-linear]] Proposition 4.4.7}
+
+\p{Let #{U_{1},U_{2}\subset V} be subspaces. Then #{U_{1}+U_{2}} is a direct sum if and only if #{U_{1}\cap U_{2}=\{\vec{0}\}}.}

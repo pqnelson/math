@@ -1,0 +1,9 @@
+\title{Orthogonal basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{V} be a finite-dimensional real vector space with a well-defined notion of a dot product, let #{B} be a basis of #{V}. We call #{B} an \define{Orthogonal Basis} of #{V} if for all #{f_{i},f_{j}\in B} we have #{f_{i}\cdot f_{j}=0} when #{i\neq j}.}
+
+\p{Note: we do not require #{B} to be an ordered basis for us to discuss an orthogonal basis. If we want to stress that #{B} is ordered and orthogonal, then we will speak of it as an "orthogonal ordered basis" of #{V}.}

@@ -1,0 +1,9 @@
+\title{Bijective function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{We say a function #{f\colon X\to Y} is \define{Bijective} (or say #{f} is a \emph{bijection}) if #{f} is both [injective](ela-001J) and [surjective](ela-001I).}
+
+\p{This means for each #{y\in Y}, there exists a unique #{x\in X} such that #{f(x)=y}.}

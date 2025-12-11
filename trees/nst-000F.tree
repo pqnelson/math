@@ -1,0 +1,14 @@
+\title{Intersection of two sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.4}
+\MML{xboole_0}{def 4}{K3}
+
+\p{Let #{X} and #{Y} be sets. We define their \define{Intersection} to be the set denoted #{X\cap Y} such that: for all objects #{x} we have #{x\in X\cap Y} iff #{x\in X} and #{x\in Y}.}
+
+\p{We see this is commutative #{X\cap Y=Y\cap X} and idempotent #{X\cap X=X}.}
+
+\proof{\p{\textbf{Existence:} We see this exists using [set-builder notation](nst-0009)  #{\{x\in X\mid x\in Y\}}.}
+\p{\textbf{Uniqueness:} let #{A} and #{B} be two possible candidates for the definition. We see #{x\in A\iff x\in X\mbox{ and }x\in Y\iff x\in B}, which implies #{A=B} by [[nst-0004]].}}

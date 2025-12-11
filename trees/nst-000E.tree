@@ -1,0 +1,16 @@
+\title{Basic properties of union of two sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.4}
+\MML{boole}{th1}{T1}
+\MML{xboole_1}{th4}{T4}
+\MML{xboole_1}{th12}{T12}
+
+\p{Let #{A}, #{B}, #{C} be arbitrary sets. Then the following all hold:}
+\ol{
+\li{#{A\cup\emptyset=A}}
+\li{Associativity: #{A\cup(B\cup C)=(A\cup B)\cup C}}
+\li{#{A\subset B} iff #{A\cup B=B}}
+}

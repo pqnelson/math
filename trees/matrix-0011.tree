@@ -1,0 +1,16 @@
+\title{Matrix Multiplication is not commutative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\p{Observe
+##{\begin{bmatrix}1 & 1\\0 & 1\end{bmatrix}
+\begin{bmatrix}1 & 0\\1 & 1\end{bmatrix}
+= \begin{bmatrix}2 & 1\\1 & 1\end{bmatrix}.}
+But
+##{\begin{bmatrix}1 & 0\\1 & 1\end{bmatrix}
+\begin{bmatrix}1 & 1\\0 & 1\end{bmatrix}
+= \begin{bmatrix}1 & 1\\1 & 2\end{bmatrix}.}
+Since these are different matrices, we see that matrix multiplication is noncommutative (unlike multiplying real numbers).}

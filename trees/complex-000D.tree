@@ -1,0 +1,8 @@
+\title{Root of unity}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Section 2.3}
+
+\p{Let #{n\in\NN}. We define the \define{#{n^{\text{th}}} Root of Unity} to be #{1^{1/n}=\cos(2\pi k/n)+\I\sin(2\pi k/n)} where #{k=1,\dots,n}.}

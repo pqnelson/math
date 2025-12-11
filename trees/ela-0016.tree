@@ -1,0 +1,12 @@
+\title{Orthogonal decomposition}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} be a real vector space with a well-defined notion of dot product (or some way to compute the [projection](ela-0013) of one vector along another). Let #{u,v\in V}. Assume #{u\neq\vec{0}}. We define the \define{Decomposition} of #{v} with respect to #{u} as consisting of two vectors of #{V}:}
+\ol{
+\li{The parallel part #{v^{\parallel}=\Proj{u}{v}}, and}
+\li{The perpedincular part #{v^{\bot}=v-v^{\parallel}}.}
+}

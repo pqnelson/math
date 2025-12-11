@@ -1,0 +1,9 @@
+\title{Dot Product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{definition}
+\import{ela}
+
+\p{Recall, if we have two #{n}-vectors #{\vec{a}=(a_{1},\dots,a_{n})} and #{\vec{b}=(b_{1},\dots,b_{n})}, we define the \define{Dot Product} to be the scalar
+##{\vec{a}\cdot\vec{b}=a_{1}b_{1}+\cdots+a_{n}b_{n}=\sum^{n}_{j=1}a_{j}b_{j}.}}

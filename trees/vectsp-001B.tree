@@ -1,0 +1,14 @@
+\title{Kernel is a subspace of the domain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.13}
+\meta{source}{[[lankham-2016-linear]] Proposition 6.2.4}
+\import{ela}
+
+\p{Let #{L\colon V\to W} be a linear map. Then #{\ker(L)} is a subspace of #{V}.}
+
+\proof{\p{\textbf{Claim 1:} for any #{u,v\in\ker(L)}, we claim #{(u+v)\in\ker(L)}. Observe #{L(u+v)=L(u)+L(v)=\vec{0}_{W}+\vec{0}_{W}=\vec{0}_{W}}, which implies #{(u+v)\in\ker(L)} as desired.}
+\p{\textbf{Claim 2:} For any #{a\in\FF} and #{v\in\ker(L)}, we see #{L(av)=aL(v)=a\vec{0}_{W}=\vec{0}_{W}} by [[vectsp-000A]], hence #{av\in\ker(L)}.}
+\p{From these two claims and by [[vectsp-000D]], we have the result.}}

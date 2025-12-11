@@ -1,0 +1,14 @@
+\title{Jordan algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\taxon{definition}
+
+\p{Let #{\FF} be a field. A \define{Jordan algebra} over #{\FF} is a nonassociative algebra #{J} whose multiplication satisfies:}
+
+\ol{
+\li{commutative: #{xy=yx}}
+\li{Jordan identity: #{(xy)(xx)=x(y(xx))}}
+}
+
+\p{Note that Springer and Veldkamp's [[veldkamp-2000-octonions]] (remark 5.1.7, pg 122) note that the character of #{\mathrm{char}(J)\neq 2}.}

@@ -1,0 +1,9 @@
+\title{Finite sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{notation}
+
+\p{If we have a set consisting of finitely many elements, we write it out as a comma-separated list delimited by #{\{\dots\}}.}
+
+\p{For example, the set of prime numbers less than 10 is #{\{2,3,5,7\}}.}

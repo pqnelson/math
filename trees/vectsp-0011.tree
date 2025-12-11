@@ -1,0 +1,11 @@
+\title{Dimension of a sum}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorems 2.43}
+\meta{source}{[[lankham-2016-linear]] Theorem 5.4.6}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional vector space. Let #{U\subset V} and #{W\subset V} be subspaces. Then
+##{\dim(U+W)=\dim(U)+\dim(W)-\dim(U\cap W)}}

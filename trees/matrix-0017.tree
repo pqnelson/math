@@ -1,0 +1,12 @@
+\title{Matrix which squares to -1}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{example}
+\import{ela}
+
+\p{Consider the matrix
+##{\mat{J} = \begin{bmatrix}0 & -1\\ 1 & 0\end{bmatrix}.}
+Then
+##{\mat{J}^{2} = \begin{bmatrix}-1 & 0\\0 & -1\end{bmatrix} = -\mat{I}_{2}.}
+Thus #{\mat{J}} is a matrix which "looks like" #{i=\sqrt{-1}} in the complex numbers.}

@@ -1,0 +1,14 @@
+\title{Criteria for subset to be a subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.34}
+\meta{source}{[[lankham-2016-linear]] Lemma 4.3.2}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{U\subset V} be a subset. Then #{U} is a subspace of #{V} if the following conditions all hold:}
+\ol{
+\li{Additive identity: #{\vec{0}\in U}}
+\li{Closed under addition: for any #{u,v\in U}, #{u+v\in U}}
+\li{Closed under scalar multiplication: for any #{a\in\FF} and #{u\in U}, we have #{au\in U}}
+}

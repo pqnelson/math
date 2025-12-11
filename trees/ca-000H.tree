@@ -1,0 +1,13 @@
+\title{Norm}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+
+\p{Let #{X} be a vector space over a field #{\FF} (usually a subfield of #{\CC}, but if we can give #{\FF} a sensible "absolute value" operation, then that works fine). We define a \define{Norm} on #{X} to be a function #{\norm{\cdot}\colon X\to\RR} such that:}
+\ol{
+\li{Triangle inequality: for any #{x,y\in X}, we have #{\norm{x+y}\leq\norm{x}+\norm{y}}}
+\li{Homogeneity: for any #{s\in\FF} and #{x\in X} we have #{\norm{sx}=|s|\cdot\norm{x}}}
+\li{Positive-Definitiveness: For any #{x\in X}, if #{\norm{x}=0}, then #{x=0}}
+\li{Non-negative: For any #{x\in X}, we have #{\norm{x}\geq 0}.}
+}

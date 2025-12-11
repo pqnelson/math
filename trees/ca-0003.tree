@@ -1,0 +1,8 @@
+\title{Ordered Set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], 1.6}
+
+\p{An \define{Ordered Set} consists of a set #{S} equipped with an order.}

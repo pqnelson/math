@@ -1,0 +1,12 @@
+\title{Properties of the symmetric group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 8.1.7}
+
+\p{Let #{n\in\NN} be a positive integer. Then the [[determinant-0002]] #{S_{n}} has the following properties:}
+\ol{
+\li{For any two permutations #{\pi,\sigma\in S_{n}}, their composition is a permutation #{\pi\circ\sigma\in S_{n}} with #{(\pi\circ\sigma)_{i}=\pi_{\sigma(i)}} for #{i=1,\dots,n}}
+\li{Inverse element: for any #{\pi\in S_{n}} there exists a #{\pi^{-1}\in S_{n}} such that #{\pi\circ\pi^{-1}=\id} and #{\pi^{-1}\circ\pi=\id}.}
+}

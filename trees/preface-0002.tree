@@ -1,0 +1,10 @@
+\title{Circular learning of Mathematics}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+
+\p{Arguably this "circular" treatment of material is a pedagogical virtue when actually "executed" in practice: the student will study [[ela]] one quarter, then intermediate linear algebra the next quarter, then [[ca]] the following quarter. This spaces out the material and the review, which strengthens mental connections.}
+
+\p{For better or worse, this forest of notes lacks that quality. After all, you can sit down and just "cram" the notes, possibly over the course of several days. So for you, the reader, you will not have the advantage of spaced learning.}
+
+\p{Also I am being a bit sparse when giving proofs in the earlier parts of the forest. So [[ela]] lacks proofs for every theorem, but they could be supplied if desired.}

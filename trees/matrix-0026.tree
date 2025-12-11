@@ -1,0 +1,12 @@
+\title{Trace of matrix near identity is approximately the determinant}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\varepsilon} be a small nonzero number such that #{\varepsilon^{2}} is negligible. Let #{\mat{A}=\mat{I}+\varepsilon\mat{X}} be an #{n\times n} matrix.}
+
+\p{Then #{\det\mat{A}=1+\varepsilon\trace{\mat{X}}}.}
+
+\p{In this sense, the trace is a "linear approximation" of the determinant for any matrix "close to" the identity matrix.}

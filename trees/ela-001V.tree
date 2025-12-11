@@ -1,0 +1,8 @@
+\title{Similar matrices have same eigenvalues}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} and #{\mat{B}} be #{n\times n} matrices. If they are similar to each other #{\mat{A}\sim\mat{B}}, then they have the same eigenvalues.}

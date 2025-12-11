@@ -1,0 +1,9 @@
+\title{Orthogonal projection}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 6.55}
+\meta{source}{[[lankham-2016-linear]] Definition 9.6.5}
+
+\p{Let #{V} be a [finite-dimensional](vectsp-001O) [[vectsp-0020]] over #{\FF}. Let #{U\subset V} be a subspace of #{V}. Then we define the \define{Orthogonal Projection} #{P_{U}} of #{V} onto #{U} uses the fact that every #{v\in V} may be written uniquely as #{v=u+w} where #{u\in U} and #{w\in U^{\perp}}, so #{P_{U}(v)=u}.}

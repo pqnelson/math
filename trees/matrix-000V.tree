@@ -1,0 +1,21 @@
+\title{Calculating the dot product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\import{ela}
+\taxon{example}
+
+\p{Let
+##{\vec{a} = \begin{bmatrix} -1 \\
+4 \\
+-5
+\end{bmatrix}, \quad\mbox{and}\quad\vec{b} = \begin{bmatrix}
+-6 \\
+2 \\
+4
+\end{bmatrix}.}
+Then
+##{\begin{split}
+\vec{a}\cdot\vec{b} &= (-1)\cdot(-6) + 4\cdot2 + (-5)\cdot 4\\
+                    &= 6+8-20 = -6.
+\end{split}}}

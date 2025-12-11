@@ -1,0 +1,12 @@
+\title{Matrix Power}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{n} and #{m} be a non-negative integer, let #{\mat{A}} be an #{n\times n} matrix. We define the \define{Matrix Power} of #{\mat{A}} raised to #{m^{th}} power as the matrix #{\mat{A}^{m}} defined inductively by:
+\ol{\li{#{\mat{A}^{0} = \mat{I}_{n}} the zeroeth power is the #{n\times n} [[matrix-0004]]}
+\li{#{\mat{A}^{m+1} = \mat{A}^{m}\mat{A}}}}
+So we have
+##{\underbrace{\mat{A}\cdots\mat{A}}_{m\text{\ times}} = \prod^{m}_{j=1}\mat{A} = \mat{A}^{m}.}}

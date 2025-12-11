@@ -1,0 +1,10 @@
+\title{Projection is a linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional real vector space. Let #{u\in V} be a nonzero vector #{u\neq\vec{0}}. Then [projection along #{u}](ela-0013) #{\Proj{u}{-}} is a linear operator on #{V}. To see this, we check
+##{\Proj{u}{c_{1}v_{1}+c_{2}v_{2}}=c_{1}\Proj{u}{v_{1}}+c_{2}\Proj{u}{v_{2}}}
+for any #{v_{1},v_{2}\in V} due to basic properties of the dot product.}

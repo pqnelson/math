@@ -1,0 +1,8 @@
+\title{Transpose of Lower Triangular Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{exercise}
+\import{ela}
+
+\p{Let #{\mat{L}} be an #{n\times n} lower triangular matrix. Is #{\transpose{\mat{L}}} a triangular matrix?}

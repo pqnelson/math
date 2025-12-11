@@ -1,0 +1,9 @@
+\title{Existence of complement of subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 5.4.5}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional vector space, let #{U\subset V} be a subspace. Then there exists a subspace #{W\subset V} such that #{V=U\oplus W}.}

@@ -1,0 +1,10 @@
+\title{Linear map to lower-dimensional space cannot be injective}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.22}
+\meta{source}{[[lankham-2016-linear]] Corollary 6.5.3}
+\import{ela}
+
+\p{Let #{V} and #{W} be [[vectsp-000O]]s over #{\FF} such that #{\dim(V)>\dim(W)}. Then no linear map #{L\colon V\to W} can be [injective](ela-001J).}

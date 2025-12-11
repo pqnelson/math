@@ -1,0 +1,14 @@
+\title{Principles of Mathematical Analysis}
+\author{walter-rudin}
+\taxon{reference}
+\date{1976}
+
+\meta{bibtex}{\startverb
+@book{rudin1976principles,
+author={Rudin, Walter},
+title={{Principles of Mathematical Analysis}},
+year={1976},
+edition={McGraw Hill},
+publisher={third}
+}
+\stopverb}

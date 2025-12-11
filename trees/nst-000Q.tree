@@ -1,0 +1,18 @@
+\title{Properties of Cartesian product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+
+\p{Let #{X}, #{Y}, #{Z} be sets. Then the following all hold:}
+\ol{
+\li{#{X\times Y\subset\powerset{\powerset{X\cup Y}}}}
+\li{#{X\times Y=\emptyset} iff #{X=\emptyset} or #{Y=\emptyset}} % ZFMISC_1:89
+\li{If #{X\times Y=Y\times X}, then #{X=Y}} % ZFMISC_1:92
+\li{#{(X\cup Y)\times Z=(X\times Z)\cup(Y\times Z)}} % ZFMISC_1:97
+\li{#{X\times(Y\cup Z)=(X\times Y)\cup(X\times Z)}} % ZFMISC_1:97
+\li{#{(X\cap Y)\times Z=(X\times Z)\cap(Y\times Z)}} % ZFMISC_1:99
+\li{#{X\times(Y\cap Z)=(X\times Y)\cap(X\times Z)}} % ZFMISC_1:99
+\li{#{(X\setminus Y)\times Z=(X\times Z)\setminus(Y\times Z)}} % ZFMISC_1:102
+\li{#{X\times(Y\setminus Z)=(X\times Y)\setminus(X\times Z)}} % ZFMISC_1:102
+}

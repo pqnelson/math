@@ -1,0 +1,8 @@
+\title{Polynomials form a real vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+\import{ela}
+
+\p{Let us write down the set of all polynomials in one unknown #{x} with real coefficients as #{\RR[x]}. When equipped with polynomial addition as vector addition, and scalar multiplication just multiplies each coefficient "in the obvious way", then this forms a real vector space.}

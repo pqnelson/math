@@ -1,0 +1,12 @@
+\title{Matrix Multiplication is Associative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{m\times n} matrix, #{\mat{B}} be an #{n\times p} matrix, and #{\mat{C}} be an #{p\times q} matrix. Then
+##{(\mat{A}\mat{B})\mat{C} = \mat{A}(\mat{B}\mat{C}).}
+In other words, matrix multiplication is associative.}
+
+\rmk{Associativity is one of the more important properties of a binary operator. Whenever we define a new gadget with some notion of "multiplication" (or "addition" or some other binary operator) on it, we should really desire it to be associative.}

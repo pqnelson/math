@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5483</fr:anchor><fr:addr
+type="user">bourbaki-1968-theory</fr:addr><fr:route>bourbaki-1968-theory.xml</fr:route><fr:title
+text="Theory of Sets">Theory of Sets</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1968</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="nicolas-bourbaki.xml"
+addr="nicolas-bourbaki"
+title="Nicolas Bourbaki">Nicolas Bourbaki</fr:link></fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[@book{bourbaki1968theory,
+  author={Bourbaki, Nicolas},
+  title={Theory of Sets},
+  year={1968},
+  publisher={Springer}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>This actually describes an axiomatic set theory roughly as strong as Z (not ZF), but uses Hilbert's epsilon calculus which is much stronger than first-order logic. It gives Bourbaki something <fr:em>even stronger</fr:em> than the global choice operator "for free".</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5485</fr:anchor><fr:addr
+type="user">nst-001K</fr:addr><fr:route>nst-001K.xml</fr:route><fr:title
+text="Direct image preserves only union">Direct image preserves only union</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="nicolas-bourbaki.xml"
+addr="nicolas-bourbaki"
+title="Nicolas Bourbaki">Nicolas Bourbaki</fr:link> <fr:link
+type="local"
+href="bourbaki-1968-theory.xml"
+addr="bourbaki-1968-theory"
+title="Theory of Sets">Theory of Sets</fr:link> R§2.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function, let <fr:tex
+display="inline"><![CDATA[L\subseteq  X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R\subseteq  X]]></fr:tex> be subsets. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[f(L\cup  R)=f(L)\cup  f(R)]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[f(L\cap  R)\subseteq  f(L)\cap  f(R)]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[f(L\setminus  R)\supseteq  f(L)\setminus  f(R)]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5487</fr:anchor><fr:addr
+type="user">nst-000R</fr:addr><fr:route>nst-000R.xml</fr:route><fr:title
+text="Ontology of Mathematics">Ontology of Mathematics</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>What are the basic "things" we work with in Mathematics? It may seem that we have numbers, functions, and quite possibly other objects.</fr:p><fr:p>Broadly speaking, we could describe Mathematics as working with "sets" (unordered collections of stuff) and "objects" (any generic term or object).</fr:p><fr:p>In practice, there are compelling reasons to stipulate that <fr:em>everything</fr:em> in Mathematics consists of sets. This should be understood as saying that sets form the "machine code" of Mathematics. This is explicitly stated in Bourbaki's <fr:link
+type="local"
+href="bourbaki-1968-theory.xml"
+addr="bourbaki-1968-theory"
+title="Theory of Sets">Theory of Sets</fr:link>, II §1.1 (bottom of page 65 of English edition):</fr:p>
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:p>From a "naive" point of view, many mathematical entities can be formalized as collections or "sets" of objects. We do not seek to formalize this notion, and in the formalistic interpretation of what follows, the word "set" is to be considered as strictly synonymous with "term".</fr:p></html:blockquote>
+<fr:p>We will just stipulate that everything in Mathematics may be considered as an instance of some abstract type we call an "object". We extend this with a subtype called a "set". All sets are objects.</fr:p><fr:p>But some Mathematicians want to discuss the collection of all sets. This can't possibly be a set (otherwise we run into Russell's paradox), so we need to either modify our ontology (and work with "classes" instead of "sets", and call a class a "set" when it's a member of a class) or extend our ontology (to include a "class" as a third species of object). We will discuss this when the time comes, but the ontology is mildly flexible.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5489</fr:anchor><fr:addr
+type="user">nst-001J</fr:addr><fr:route>nst-001J.xml</fr:route><fr:title
+text="Preimages preserve everything">Preimages preserve everything</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="nicolas-bourbaki.xml"
+addr="nicolas-bourbaki"
+title="Nicolas Bourbaki">Nicolas Bourbaki</fr:link> <fr:link
+type="local"
+href="bourbaki-1968-theory.xml"
+addr="bourbaki-1968-theory"
+title="Theory of Sets">Theory of Sets</fr:link> R §2.10</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function, let <fr:tex
+display="inline"><![CDATA[L\subseteq  Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R\subseteq  Y]]></fr:tex> be subsets. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[f^{-1}(L\cup  R)=f^{-1}(L)\cup  f^{-1}(R)]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[f^{-1}(L\cap  R)=f^{-1}(L)\cap  f^{-1}(R)]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[f^{-1}(L\setminus  R)=f^{-1}(L)\setminus  f^{-1}(R)]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

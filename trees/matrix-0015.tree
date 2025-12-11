@@ -1,0 +1,22 @@
+\title{Matrix Multiplication in Plane Geometry}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{example}
+\import{ela}
+
+\p{We can look at #{2\times2} matrices as acting on points #{(x,y)\in\Reals^{2}} on the plane. We turn #{(x,y)} into a column vector.}
+
+\p{We have rotation anticlockwise by an angle #{\theta} given by
+##{\mat{A}_{\theta} = \begin{bmatrix}\cos(\theta) & -\sin(\theta)\\
+\sin(\theta) & \cos(\theta)\end{bmatrix}.}
+Reflection about the #{x}-axis is
+##{\mat{R}  =\begin{bmatrix}1 & 0\\0 & -1
+\end{bmatrix}.}
+Dilation by a positive real number #{\lambda\gt 0} is a diagonal matrix
+##{  \mat{D}_{\lambda} =\begin{bmatrix}\lambda & 0\\
+  0 & \lambda
+  \end{bmatrix}.}
+Observe for #{0\lt\lambda\lt1} we have #{\mat{D}_{\lambda}} be a contraction.}
+
+\rmk{Observe when #{\theta=\pi / 2}, the rotation matrix #{\mat{A}_{\pi / 2}} describes "the same thing" as multiplying a number in the complex plane by #{\sqrt{-1}}. The reader can check that #{\mat{A}_{\pi / 2}\mat{A}_{\pi / 2}=-\mat{I}_{2}} which means that #{\mat{A}_{\pi / 2}} "looks like" #{\sqrt{-1}}.}

@@ -1,0 +1,17 @@
+\title{Ontology of Mathematics}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{remark}
+
+\p{What are the basic "things" we work with in Mathematics? It may seem that we have numbers, functions, and quite possibly other objects.}
+
+\p{Broadly speaking, we could describe Mathematics as working with "sets" (unordered collections of stuff) and "objects" (any generic term or object).}
+
+\p{In practice, there are compelling reasons to stipulate that \emph{everything} in Mathematics consists of sets. This should be understood as saying that sets form the "machine code" of Mathematics. This is explicitly stated in Bourbaki's [[bourbaki-1968-theory]], II §1.1 (bottom of page 65 of English edition):}
+
+\blockquote{\p{From a "naive" point of view, many mathematical entities can be formalized as collections or "sets" of objects. We do not seek to formalize this notion, and in the formalistic interpretation of what follows, the word "set" is to be considered as strictly synonymous with "term".}}
+
+\p{We will just stipulate that everything in Mathematics may be considered as an instance of some abstract type we call an "object". We extend this with a subtype called a "set". All sets are objects.}
+
+\p{But some Mathematicians want to discuss the collection of all sets. This can't possibly be a set (otherwise we run into Russell's paradox), so we need to either modify our ontology (and work with "classes" instead of "sets", and call a class a "set" when it's a member of a class) or extend our ontology (to include a "class" as a third species of object). We will discuss this when the time comes, but the ontology is mildly flexible.}

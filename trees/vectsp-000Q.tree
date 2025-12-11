@@ -1,0 +1,15 @@
+\title{Linearly Independent Vectors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 2.15}
+\meta{source}{[[lankham-2016-linear]] Definition 5.2.1}
+
+\p{Let #{V} be a vector space over #{\FF}, we say #{v_{1},\dots,v_{m}\in V} are \define{Linearly Independent} if the only coefficients #{a_{1},\dots,a_{m}\in\FF} satisfying
+##{a_{1}v_{1}+\dots+a_{m}v_{m}=\vec{0}}
+is #{a_{1}=\dots=a_{m}=0}.}
+
+\p{Otherwise, we say #{v_{1},\dots,v_{m}\in V} are \define{Linearly Dependent}.}
+
+\p{Compare this to the [notion](ela-000R) from elementary linear algebra.}

@@ -1,0 +1,8 @@
+\title{Determinant of transpose is just the determinant}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. Then the determinant of the [transpose](matrix-0014) of #{\mat{A}} is just the determinant of #{\mat{A}}, i.e., #{\det(\transpose{\mat{A}})=\det(\mat{A})}.}

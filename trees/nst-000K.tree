@@ -1,0 +1,13 @@
+\title{Powerset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.5}
+\MML{zfmisc_1}{def 1}{K1}
+
+\p{Let #{X} be a set. We define the \define{Powerset} of #{X} to be the set #{\powerset{X}} such that for any set #{Z} we have #{Z\in\powerset{X}} iff #{Z\subset X}. That is to say, the powerset of #{X} is the set of all subsets of #{X}.}
+
+\p{For finite sets (especially small sets we can write out by hand), we can see this is a sensible thing to define. But for infinite sets, some Mathematicians historically were nervous about this being well-defined. The important thing is that we assert (either axiomatically or dogmatically) this is indeed a set.}
+
+\p{(In ZFC, this is given as an axiom.)}

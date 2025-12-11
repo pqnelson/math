@@ -1,0 +1,17 @@
+\title{Inner derivations of non-associative algebras}
+\author{richard-d-schafer}
+\date{1949}
+\taxon{reference}
+
+\meta{external}{https://www.ams.org/journals/bull/1949-55-08/S0002-9904-1949-09281-9/}
+\meta{doi}{10.1090/S0002-9904-1949-09281-9}
+\meta{bibtex}{\startverb
+@article{schafer1949inner,
+  title={Inner derivations of non-associative algebras},
+  author={Schafer, RD},
+  journal={Bulletin of the American Mathematical Society},
+  volume={55},
+  number={8},
+  pages={769--776},
+  year={1949}
+}\stopverb}

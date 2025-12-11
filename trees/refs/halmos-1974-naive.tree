@@ -1,0 +1,12 @@
+\title{Naive Set Theory}
+\author{paul-r-halmos}
+\taxon{reference}
+\date{1974}
+
+\meta{bibtex}{\startverb
+@book{halmos1974naive,
+  author={Halmos, Paul},
+  title={Naive Set Theory},
+  year={1974},
+  publisher={D. Van Nostrand Company Inc.}
+}\stopverb}

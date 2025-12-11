@@ -1,0 +1,18 @@
+\title{Inner product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 6.2}
+\meta{source}{[[lankham-2016-linear]] Definition 9.1.1}
+
+\p{Let #{\FF} be a subfield of #{\CC} (possibly #{\FF=\CC}). Let #{V} be a [[vectsp-000O]] over #{\FF}. An \define{Inner Product} on #{V} is a map
+##{\langle-,-\rangle\colon V\times V\to\FF}
+such that
+\ol{
+\li{Linearity in first slot: for all #{u,v,w\in V} we have #{\langle u+v,w\rangle=\langle u,w\rangle+\langle v,w\rangle}}
+\li{Positivity: for all #{v\in V} we have #{\langle v,v\rangle\geq0}}
+\li{Positive-definiteness: for all #{v\in V}, #{\langle v,v\rangle=0} iff #{v=0}}
+\li{Conjugate symmetry: for all #{u,v\in V} we have #{\langle v,u\rangle=\overline{\langle u,v\rangle}}}
+}
+}

@@ -1,0 +1,8 @@
+\title{Orthogonal complement is involutory}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 9.6.2}
+
+\p{Let #{V} be a [finite-dimensional](vectsp-001O) [[vectsp-0020]] over #{\FF}. Let #{U\subset V} be a subspace of #{V}. Then #{U=(U^{\perp})^{\perp}}.}

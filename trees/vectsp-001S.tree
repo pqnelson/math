@@ -1,0 +1,15 @@
+\title{Equivalent conditions to be an eigenvalue}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 5.7}
+\meta{source}{[[lankham-2016-linear]] Section 7.2}
+
+\p{Let #{V} be a finite-dimensional vector space over #{\FF}. Let #{L\colon V\to V} be a linear operator. Let #{\lambda\in\FF}. Then the following are equivalent:}
+\ol{
+\li{#{\lambda} is an [eigenvalue](vectsp-001P) of #{L}}
+\li{#{L-\lambda I} is not [injective](ela-001J)}
+\li{#{L-\lambda I} is not [surjective](ela-001I)}
+\li{#{L-\lambda I} is not invertible}
+}

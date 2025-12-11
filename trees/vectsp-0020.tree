@@ -1,0 +1,9 @@
+\title{Inner product space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 6.4}
+\meta{source}{[[lankham-2016-linear]] Definition 9.1.3}
+
+\p{An \define{Inner Product Space} is a vector space #{V} equipped with an [[vectsp-001Z]].}

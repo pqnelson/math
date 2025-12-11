@@ -1,0 +1,26 @@
+\title{Matrix Sum}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\import{ela}
+\taxon{example}
+
+\p{Let
+##{
+  \mat{A} = \begin{bmatrix}-4 & -4 & 5\\
+    3 & -1 & 4
+  \end{bmatrix}
+}
+and
+##{
+\mat{B} = \begin{bmatrix}-3 & 1 & 2\\ 6 & -3 & -5
+\end{bmatrix}.
+}
+Then
+##{
+\mat{A}+\mat{B} =\begin{bmatrix}-4-3 & -4+1 & 5+2\\
+3+6 & -1-3 & 4-5
+\end{bmatrix}=\begin{bmatrix}-7 & -3 & 7\\
+9 & -4 & -1
+\end{bmatrix}.
+}}

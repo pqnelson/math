@@ -1,0 +1,24 @@
+\title{Existence of eigenvalues}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 5.19}
+\meta{source}{[[lankham-2016-linear]] Theorem 7.4.1}
+
+\p{Let #{V\neq\{0\}} be a [[vectsp-000O]] over #{\CC}. Let #{L\colon V\to V} be a linear operator. Then #{L} has at least one eigenvalue.}
+
+\proof{\p{Let #{n=\dim(V)}, let #{v\in V} be a nonzero vector. We have the collection of vectors
+##{\{V, Tv, T^{2}v, \dots, T^{n}v\}}
+Since this contains #{n+1} vectors, it must be [linearly dependent](vectsp-000Q). Then there exists scalars #{a_{0},a_{1},\dots,a_{n}\in\CC} not all zero, such that
+##{0=a_{0}v+a_{1}Lv+a_{2}L^{2}v+\dots+a_{n}L^{n}v}
+Let #{m} be the largest index such that #{a_{m}\neq0} (so all #{a_{k}=0} for #{k>m} and we can just drop these terms). Since #{v\neq0}, we must have #{m>0} (and even possibly #{m=n}). Consider the polynomial
+##{p(z)=a_{0}+a_{1}z+\dots+a_{m}z^{m}.}
+Then using the [immediate consequences](complex-000N) of the fundamental theorem of algebra, we can factorize #{p(z)} as
+##{p(z)=c(z-\lambda_{1})(\dots)(z-\lambda_{m})}
+where #{c,\lambda_{1},\dots,\lambda_{m}\in\CC} and #{c\neq0}.}
+\p{Then
+##{0=a_{0}v+a_{1}Lv+a_{2}L^{2}v+\dots+a_{n}L^{n}v=p(L)v}
+and
+##{0=p(L)v=c(L-\lambda_{1}I)(\dots)(L-\lambda_{m}I)v}
+which means at least one of the factors #{L-\lambda_{j}I} must be non-injective. This means #{\lambda_{j}} must be an eigenvalue of #{L}.}}

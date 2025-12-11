@@ -1,0 +1,13 @@
+\title{Additive inverse is unique}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.27}
+\meta{source}{[[lankham-2016-linear]] Proposition 4.2.2}
+
+\p{Let #{V} be a vector space over #{\FF}. For each #{v\in V}, there is a unique additive inverse of #{v} in #{V}.}
+
+\proof{\p{Suppose #{w} and #{w'} are additive inverses of #{v}. Then
+##{w=w+0=w+(v+w')=(w+v)+w'=0+w'=w'}
+which gives us #{w=w'} as desired.}}

@@ -1,0 +1,8 @@
+\title{Matrix is nonsingular iff it has nonzero determinant}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. Then #{\mat{A}} is [nonsingular](matrix-001C) if and only if #{\det(\mat{A})\neq0}.}

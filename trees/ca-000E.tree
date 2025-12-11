@@ -1,0 +1,10 @@
+\title{Existence of rational roots of positive real numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{theorem}
+\meta{source}{[[baby-rudin]], 1.21}
+
+\p{Let #{x>0} be real and #{n>0} be an integer. Then there exists exactly one real number #{y\in\RR} such that #{y^{n}=x}.}
+
+\p{Since this #{y} is unique, we write it as #{y=x^{1/n}} or #{y=\sqrt[n]{x}} and call it the \define{#{n}-th root of #{x}}.}

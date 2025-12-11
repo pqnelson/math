@@ -1,0 +1,16 @@
+\title{Linear transformation is injective iff kernel is trivial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.15}
+\meta{source}{[[lankham-2016-linear]] Proposition 6.2.6}
+\import{ela}
+
+\p{Let #{L\colon V\to W} be a linear map. Then #{L} is [injective](ela-001J) if and only if #{\ker(L)=\{\vec{0}\}}.}
+
+\proof{\p{Assume #{L} is injective. We know #{\vec{0}\in\ker(L)}. Let #{v\in\ker(L)} be arbitrary. Then #{L(v)=\vec{0}_{W}=L(\vec{0_{V}})} which implies #{v=\vec{0}_{V}}. Hence #{\ker(L)=\{\vec{0}_{V}\}} as desired.}
+
+\p{Now, assume #{\ker(L)=\{\vec{0}\}}. We will show that #{L} is [injective](ela-001J) Let #{u,v\in V}. Suppose #{L(u)=L(v)}. Then
+##{\vec{0}_{W}=L(u)-L(v)=L(u-v),}
+so #{(u-v)\in\ker(L)}. But by assumption, this means #{(u-v)\in\{\vec{0}_{V}\}}, which implies #{u-v=\vec{0}_{V}}, which means (by adding #{v} to both sides) #{u=v}. Hence #{L} is injective.}}

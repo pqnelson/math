@@ -1,0 +1,10 @@
+\title{#{\CC^{n}} is an inner product space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\meta{source}{[[axler-1996-linear]] Example 6.3(a)}
+\meta{source}{[[lankham-2016-linear]] Example 9.1.4}
+
+\p{Let #{n\in\NN} be a positive integer. Then #{\CC^{n}} is a finite-dimensional inner product space, when we define the inner product as
+##{\langle u,v\rangle=\sum^{n}_{i=1}u_{i}\overline{v}_{i}}
+This generalizes the usual dot product from #{\RR^{n}}.}

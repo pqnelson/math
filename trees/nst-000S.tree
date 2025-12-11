@@ -1,0 +1,38 @@
+\title{Relations and functions in naive set theory}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+
+\transclude{nst-000T} % relation
+\transclude{nst-000V} % domain
+\transclude{nst-000W} % range of a relation
+\transclude{nst-000X} % field
+\transclude{nst-001F} % inverse of a relation
+\transclude{nst-000Y} % reflexive
+\transclude{nst-000Z} % symmetric
+\transclude{nst-0010} % transitive
+\transclude{nst-0011} % equivalence relation
+\transclude{nst-0012} % equivalence class
+\transclude{nst-0013} % composing relations
+\transclude{nst-001B} % composing relations is associative
+\transclude{nst-0014} % function
+\transclude{nst-0015} % set of all function
+\transclude{nst-0016} % inclusion function
+\transclude{nst-0017} % identity function
+\transclude{nst-0018} % restriction of a function
+\transclude{nst-0019} % projection of Cartesian product
+\transclude{nst-001M} % composition of functions
+\transclude{nst-001A} % composing functions is associative
+\transclude{nst-001C} % preimage of function
+\transclude{ela-001B} % image of a function
+\transclude{nst-001D} % image of a set under a function
+\transclude{nst-001E} % properties of preimage and image of a set under a function
+\transclude{nst-001J} % preimage preserves everything
+\transclude{nst-001K} % direct image preserves only unions
+\transclude{ela-001I} % surjective function
+\transclude{nst-001H} % surjective function have right inverse
+\transclude{ela-001J} % injective function
+\transclude{nst-001G} % injective function have left inverse
+\transclude{ela-001K} % bijective function
+\transclude{nst-001L} % inverse function
+\transclude{nst-001I} % bijective function have unique inverse

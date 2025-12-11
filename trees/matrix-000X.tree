@@ -1,0 +1,35 @@
+\title{Matrix Multiplication}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}=(a_{i,j})} be an #{m\times p} matrix, let #{\mat{B}=(b_{j,k})} be an #{p\times n} matrix. We define the \define{Matrix Multiplication} of #{\mat{A}} and #{\mat{B}} to be an #{m\times n} matrix #{\mat{C}=(c_{i,k})} whose components are defined by the equation
+##{c_{i,k} = \sum^{p}_{j=1}a_{i,j}b_{j,k}.}
+That is to say, it is formed by taking the dot product of the #{i^{\text{th}}} row of #{\mat{A}} with the #{j^{\text{th}}} column of #{\mat{B}},
+##{\left[\begin{array}{cccc}
+a_{1,1} & a_{1,2} & \dots & a_{1,p}\\
+a_{2,1} & a_{2,2} & \dots & a_{2,p}\\ 
+\vdots & \vdots &   & \vdots\\
+\color{red} a_{i,1} & \color{red} a_{i,2} & \color{red} \dots & \color{red} a_{i,p}\\
+\vdots & \vdots &   & \vdots\\
+a_{m,1} & a_{m,2} & \dots & a_{m,p}
+  \end{array}\right]
+\left[\begin{array}{cccccc}
+b_{1,1} & b_{1,2} & \dots & \color{red} b_{1,j} & \dots & b_{1,n}\\
+b_{2,1} & b_{2,2} & \dots & \color{red} b_{2,j} & \dots & b_{2,n}\\
+\vdots & \vdots &       & \color{red} \vdots  &       & \vdots\\
+b_{p,1} & b_{p,2} & \dots & \color{red} b_{p,j} & \dots & b_{p,n}
+  \end{array}\right]
+=
+\left[\begin{array}{cccccc}
+    c_{1,1} & c_{1,2} & \dots & c_{1,j} & \dots & c_{1,n}\\
+    c_{2,1} & c_{2,2} & \dots & c_{2,j} & \dots & c_{2,n}\\
+    \vdots & \vdots &       & \vdots  &       & \vdots\\
+    c_{i,1} & c_{i,2} & \dots & {\color{red}c_{i,j}} & \dots & c_{i,n}\\
+    \vdots & \vdots &        & \vdots &         & \vdots\\
+    c_{m,1} & c_{m,2} & \dots & c_{m,j} & \dots & c_{m,n}
+  \end{array}\right]
+}
+We denote the matrix multiplication of #{\mat{A}} and #{\mat{B}} by #{\mat{A}\mat{B}}.}

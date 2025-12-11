@@ -1,0 +1,28 @@
+\title{Left (and right) multiplication as a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-30}
+\taxon{example}
+\def\norm[x]{\Vert \x\Vert}
+\def\I{\mathbf{i}}
+\def\J{\mathbf{j}}
+\def\K{\mathbf{k}}
+
+\p{Consider a couple quaternions #{X=x + y\I + z\J + w\K} and #{Y = a + b\I + c\J + d\K}. Then we have #{L_{X}(Y)} correspond to:}
+
+##{L_{X}(Y) = \begin{pmatrix}x & -y & -z & -w\\
+y & x & -w & z\\
+z & w & x & -y\\
+w & -z & y & x
+\end{pmatrix}\begin{pmatrix}a\\ b\\ c\\ d\end{pmatrix}}
+
+\p{Similarly, we have #{R_{Y}(X)} correspond to:}
+
+##{R_{Y}(X) = \begin{pmatrix}a & -b & -c & -d\\
+b & a & d & -c\\
+c & -d & a & b\\
+d & c & -b & a\end{pmatrix}\begin{pmatrix}x\\ y\\ z\\ w\end{pmatrix}}
+
+\p{Observe, when #{\norm{X}=1}, we see #{L_{X}} is an orthogonal matrix of real numbers (similarly, when #{\norm{Y}=1}, we see #{R_{Y}} is an orthogonal matrix of real numbers).}
+
+\p{More generally, in a composition algebra #{\KK}, any unit #{u\in\KK} (i.e., element with #{\norm{u}=1}) has #{L_{u}} and #{R_{u}} both be orthogonal matrices.}

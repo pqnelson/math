@@ -1,0 +1,14 @@
+\title{Lower-triangular matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{We call an #{m\times n} matrix #{\mat{A}=(a_{i,j})} \define{Lower Triangular} if #{a_{i,j}=0} for #{i<j}, e.g., when #{m=n} it looks like: ##{\mat{A} = \begin{bmatrix}
+    a_{1,1} & 0      & 0       & \dots & 0\\
+    a_{2,1} & a_{2,2} & 0       & \dots & 0\\
+    a_{3,1} & a_{3,2} & a_{3,3} & \dots & 0\\
+    \vdots & \vdots & \vdots & \ddots & \vdots\\
+    a_{n,1} & a_{n,2} & a_{n,3} & \dots  & a_{n,n}
+  \end{bmatrix}}}

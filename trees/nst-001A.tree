@@ -1,0 +1,9 @@
+\title{Composing functions is associative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+
+\p{Let #{f\colon W\to X}, #{g\colon X\to Y}, #{h\colon Y\to Z} be functions. Then #{h\circ(g\circ f)=(h\circ g)\circ f}.}
+
+\p{This follows from [composing relations is associative](nst-001B).}

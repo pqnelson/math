@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5491</fr:anchor><fr:addr
+type="user">cohn-1966-structure</fr:addr><fr:route>cohn-1966-structure.xml</fr:route><fr:title
+text="On the structure of the {GL}_{2} of a ring">On the structure of the <fr:tex
+display="inline"><![CDATA[\mathrm {GL}_{2}]]></fr:tex> of a ring</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1966</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="paul-m-cohn.xml"
+addr="paul-m-cohn"
+title="Paul M. Cohn">Paul M. Cohn</fr:link></fr:author></fr:authors><fr:meta
+name="source">https://www.numdam.org/item/PMIHES_1966__30__5_0.pdf</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{cohn1966structure,
+  title={On the structure of the $ GL\_2 $ of a ring},
+  author={Cohn, Paul M},
+  journal={Publications Math{\'e}matiques de l'IH{\'E}S},
+  volume={30},
+  pages={5--53},
+  year={1966}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5493</fr:anchor><fr:addr
+type="user">sl-0006</fr:addr><fr:route>sl-0006.xml</fr:route><fr:title
+text="Derived subgroup of general linear group">Derived subgroup of general linear group</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can relate the commutator subgroup of <fr:tex
+display="inline"><![CDATA[\mathrm {GL}_{n}(R)]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex> under certain circumstances on <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. For skew-fields, the derived subgroup is equal to the elementary linear group.</fr:p><fr:ol><fr:li><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital ring of finite stable rank <fr:tex
+display="inline"><![CDATA[\mathrm {sr}(R)]]></fr:tex>. Then for every <fr:tex
+display="inline"><![CDATA[n>\mathrm {sr}(R)]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[[\mathrm {GL}_{n}(R),\mathrm {GL}_{n}(R)]=\mathrm {EL}_{n}(R)]]></fr:tex>.</fr:p>
+
+<fr:p>This follows from Vaserstein's injective stability theorem (theorem 10.15 in B. Magurn, <fr:em>An Algebraic Introduction to <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>-Theory</fr:em>, CUP, 2002).</fr:p></fr:li>
+
+<fr:li><fr:p>Bass proved this is true for <fr:em>any</fr:em> (associative) unital ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> when <fr:tex
+display="inline"><![CDATA[n\geq 3]]></fr:tex>. See <fr:link
+type="external"
+href="https://arxiv.org/abs/1510.07143">arXiv:1510.07143</fr:link>. Further when <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is commutative, <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex> has <fr:tex
+display="inline"><![CDATA[[\mathrm {GL}_{1}(R),\mathrm {GL}_{1}(R)]=\mathrm {EL}_{1}(R)]]></fr:tex>. For more about the <fr:tex
+display="inline"><![CDATA[n=2]]></fr:tex> case, see Cohn's "<fr:link
+type="local"
+href="cohn-1966-structure.xml"
+addr="cohn-1966-structure"
+title="On the structure of the {GL}_{2} of a ring">On the structure of the <fr:tex
+display="inline"><![CDATA[\mathrm {GL}_{2}]]></fr:tex> of a ring</fr:link>".</fr:p></fr:li>
+
+<fr:li><fr:p>In particular, for any field <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[[\mathrm {GL}_{n}(\mathbb {F}),\mathrm {GL}_{n}(\mathbb {F})]=\mathrm {EL}_{n}(\mathbb {F})]]></fr:tex> when either <fr:tex
+display="inline"><![CDATA[n\neq  2]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\mathbb {F}\neq \mathbb {F}_{2}]]></fr:tex>.</fr:p></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

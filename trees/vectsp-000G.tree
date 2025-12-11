@@ -1,0 +1,8 @@
+\title{Sum of subspaces is smallest subspace containing the summands}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.40}
+
+\p{Let #{U_{1},\dots,U_{m}\subset V} be subspaces of a vector space #{V}. Then #{U_{1}+\dots+U_{m}} is the smallest subspace of #{V} containing #{U_{1}}, \dots, #{U_{n}}.}

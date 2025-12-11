@@ -1,0 +1,17 @@
+\title{Elementary linear algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\def\mat[M]{\mathbf{\M}}
+\def\diag{\mathrm{diag}}
+\def\trace[M]{\mathrm{tr}(\M)}
+\def\transpose[M]{\M^{\mathsf{T}}}
+\def\span[S]{\mathrm{span}(\S)}
+\def\Proj[along][other]{\mathrm{Proj}_{\along}(\other)}
+
+\transclude{ela-0001}
+\transclude{ela-000A}
+\transclude{ela-000B}
+\transclude{ela-000C}
+\transclude{ela-000D}
+\transclude{ela-001Z}

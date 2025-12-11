@@ -1,0 +1,7 @@
+\title{Metric Space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+
+\p{We define a \define{Metric Space} to consist of a set #{X} equipped with a [[ca-000J]].}

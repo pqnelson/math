@@ -1,0 +1,7 @@
+\title{Ant-self-adjoint linear map}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+
+\p{Let #{V} be an [[vectsp-0020]]s over #{\FF}. Let #{L\in\mathcal{L}(V)} be a linear operator. We say #{L} is \define{Anti-Self-Adjoint} (or \define{Anti-Hermitian}) if #{L=-L^{*}}.} 

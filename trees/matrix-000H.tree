@@ -1,0 +1,23 @@
+\title{Matrix Addition with Zero Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{theorem}
+\import{ela}
+
+\p{For any #{m\times n} matrix #{\mat{A}=(a_{i,j})}, the sum of #{\mat{A}} with the #{m\times n} zero matrix #{\mat{0}} is #{\mat{A}}. That is to say, ##{\mat{A}+\mat{0}=\mat{A}.}
+We can use the [previous theorem](matrix-000G) to further conclude #{\mat{0}+\mat{A}=\mat{A}}.}
+
+\proof{
+\p{We see that the components of the zero matrix are all identically zero, #{\mat{0}=[(0)_{i,j}]}. So
+##{\mat{A}+\mat{0}}
+#{=} (by definition of matrix addition)
+##{[a_{i,j}+(0)_{i,j}]}
+#{=} (since #{(0)_{i,j} = 0} for all #{i}, #{j})
+##{[a_{i,j}+0]}
+#{=} (arithmetic)
+##{[a_{i,j}]}
+#{=} (definition of #{\mat{A}})
+##{\mat{A}.}
+Thus #{\mat{A}+\mat{0}=\mat{A}}.}
+}

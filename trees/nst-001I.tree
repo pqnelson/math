@@ -1,0 +1,12 @@
+\title{Bijective functions have unique inverse}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\MML{funct_1}{def 5}{K2}
+
+\p{Let #{f\colon X\to Y} be an [[ela-001K]]. Then there exists a function #{g\colon Y\to X} such that #{f\circ g=\id_{Y}} and #{g\circ f=\id_{X}}. Moreover this function #{g} is unique.}
+
+\p{We call such a #{g} the \define{Inverse} of #{f}, and we usually denote it by #{f^{-1}=g}.}
+
+\p{We see that if #{(x,y)\in f}, then #{(y,x)\in g}.}

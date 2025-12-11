@@ -1,0 +1,8 @@
+\title{Size of symmetric group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 8.1.4}
+
+\p{The number of elements in [[determinant-0002]] is #{n!}.}

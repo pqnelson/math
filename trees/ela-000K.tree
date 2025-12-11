@@ -1,0 +1,7 @@
+\title{Trivial subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+
+\p{Let #{V} be a real vector space. Then the \define{Trivial Subspace} of #{V} consists of just the zero vector.}

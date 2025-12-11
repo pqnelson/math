@@ -1,0 +1,9 @@
+\title{Modulus of complex number}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Definition 2.2.10}
+\meta{source}{[[axler-1996-linear]] Definition 4.2}
+
+\p{Let #{z=x+\I y} be a complex number with #{x,y\in\RR}. We define the \define{Modulus} of #{z} to be the value #{|z|=\sqrt{x^{2}+y^{2}}>0}. In particular, if #{x\in\RR}, then #{|x+\I 0|=\sqrt{x^{2}+0}=|x|} is just the absolute value.}

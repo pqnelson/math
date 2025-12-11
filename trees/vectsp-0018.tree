@@ -1,0 +1,14 @@
+\title{Algebraic properties of composition of linear transformations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.8}
+\meta{source}{[[lankham-2016-linear]] Section 6.1}
+
+\p{The following hold:}
+\ol{
+\li{Associativity: for any #{T_{1}\in\mathcal{L}(V_{1},V_{2})}, #{T_{2}\in\mathcal{L}(V_{2},V_{3})}, #{T_{3}\in\mathcal{L}(V_{3},V_{4})}, we have #{(T_{1}\circ T_{2})\circ T_{3}=T_{1}\circ(T_{2}\circ T_{3})}.}
+\li{Identity: #{I\circ T=T} and #{T\circ I=T} for any #{T\in\mathcal{L}(V,W)}}
+\li{Distributivity: #{(S_{1}+S_{2})\circ T=(S_{1}\circ T)+(S_{2}\circ T)} and #{S\circ(T_{1}+T_{2})=(S\circ T_{1})+(S\circ T_{2})} whenver these are defined.}
+}

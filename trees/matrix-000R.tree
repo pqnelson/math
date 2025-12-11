@@ -1,0 +1,8 @@
+\title{Transpose of Upper Triangular Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{exercise}
+\import{ela}
+
+\p{Let #{\mat{U}} be an #{n\times n} upper triangular matrix. Is #{\transpose{\mat{U}}} a triangular matrix?}

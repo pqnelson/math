@@ -1,0 +1,19 @@
+\title{Derived subgroup of general linear group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-25}
+\import{sl}
+\taxon{theorem}
+\def\sr[R]{\mathrm{sr}(\R)}
+
+\p{We can relate the commutator subgroup of #{\GL{n}{R}} to #{\SL{n}{R}} under certain circumstances on #{n} and #{R}. For skew-fields, the derived subgroup is equal to the elementary linear group.}
+
+\ol{
+\li{\p{Let #{R} be a unital ring of finite stable rank #{\sr{R}}. Then for every #{n>\sr{R}} we have #{[\GL{n}{R},\GL{n}{R}]=\EL{n}{R}}.}
+
+\p{This follows from Vaserstein's injective stability theorem (theorem 10.15 in B. Magurn, \emph{An Algebraic Introduction to #{K}-Theory}, CUP, 2002).}}
+
+\li{\p{Bass proved this is true for \emph{any} (associative) unital ring #{R} when #{n\geq3}. See \arXiv{1510.07143}. Further when #{R} is commutative, #{n=1} has #{[\GL{1}{R},\GL{1}{R}]=\EL{1}{R}}. For more about the #{n=2} case, see Cohn's "[[cohn-1966-structure]]".}}
+
+\li{\p{In particular, for any field #{\FF}, we have #{[\GL{n}{\FF},\GL{n}{\FF}]=\EL{n}{\FF}} when either #{n\neq 2} or #{\FF\neq\FF_{2}}.}}
+}

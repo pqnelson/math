@@ -1,0 +1,9 @@
+\title{Symmetric Group of degree #{n}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 9.31}
+\meta{source}{[[lankham-2016-linear]] Definition 8.1.1}
+
+\p{Let #{n\in\NN} be a positive integer. We define the \define{Symmetric Group of degree #{n}} to be the set #{S_{n}} of all permutations of #{n} elements equipped with [[nst-001M]] since composing two permutations of #{n} elements is another permutation of #{n} elements.}

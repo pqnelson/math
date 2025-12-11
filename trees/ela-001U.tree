@@ -1,0 +1,8 @@
+\title{Diagonalizable matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{M}} be an #{n\times n} matrix. We say #{\mat{M}} is \define{Diagonalizable} if there exists a [[matrix-0006]] #{\mat{D}} such that #{\mat{M}\sim\mat{D}}, i.e., if there exists an [invertible matrix](matrix-001C) #{\mat{P}} such that #{\mat{P}^{-1}\mat{D}\mat{P}=\mat{M}}.}

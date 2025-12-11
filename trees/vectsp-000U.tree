@@ -1,0 +1,10 @@
+\title{Basis reduction theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 2.30}
+\meta{source}{[[lankham-2016-linear]] Theorem 5.3.4}
+\import{ela}
+
+\p{If #{V=\span{v_{1},\dots,v_{m}}}, then either #{\{v_{1},\dots,v_{m}\}} forms a basis of #{V} or some #{v_{i}} can be removed to obtain a basis of #{V}.}

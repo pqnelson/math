@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6358</fr:anchor><fr:addr
+type="user">complex-0006</fr:addr><fr:route>complex-0006.xml</fr:route><fr:title
+text="Complex conjugation">Complex conjugation</fr:title><fr:taxon>Definition</fr:taxon><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 2.2.8</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Definition 4.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y\in \mathbb {C}]]></fr:tex> be a complex number with <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Complex Conjugate</html:dfn> of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> to be the complex number <fr:tex
+display="inline"><![CDATA[\overline {z}=x-\mathrm {i} y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6360</fr:anchor><fr:addr
+type="user">lankham-2016-linear</fr:addr><fr:route>lankham-2016-linear.xml</fr:route><fr:title
+text="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2016</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="isaiah-lankham.xml"
+addr="isaiah-lankham"
+title="Isaiah Lankham">Isaiah Lankham</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="bruno-nachtergaele.xml"
+addr="bruno-nachtergaele"
+title="Bruno Leo Zulma Nachtergaele">Bruno Leo Zulma Nachtergaele</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="anne-schilling.xml"
+addr="anne-schilling"
+title="Anne Schilling">Anne Schilling</fr:link></fr:author></fr:authors><fr:meta
+name="doi">10.1142/9808</fr:meta><fr:meta
+name="external">https://www.math.ucdavis.edu/~anne/linear_algebra/mat67_course_notes.pdf</fr:meta><fr:meta
+name="bibtex"><![CDATA[@book{lankham2016linear,
+  title={Linear algebra as an introduction to abstract mathematics},
+  author={Lankham, Isaiah and Nachtergaele, Bruno and Schilling, Anne},
+  year={2016},
+  publisher={World Scientific}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6364</fr:anchor><fr:addr
+type="user">axler-1996-linear</fr:addr><fr:route>axler-1996-linear.xml</fr:route><fr:title
+text="Linear Algebra Done Right">Linear Algebra Done Right</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1996</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="sheldon-jay-axler.xml"
+addr="sheldon-jay-axler"
+title="Sheldon Jay Axler">Sheldon Jay Axler</fr:link></fr:author></fr:authors><fr:meta
+name="doi">10.1007/978-3-031-41026-0</fr:meta><fr:meta
+name="external">https://linear.axler.net/</fr:meta><fr:meta
+name="bibtex"><![CDATA[@book{axler1996linear,
+  author={Axler, Sheldon},
+  title={Linear Algebra Done Right},
+  publisher={Springer},
+  year={1996},
+  edition={Fourth}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6366</fr:anchor><fr:addr
+type="user">ila-0001</fr:addr><fr:route>ila-0001.xml</fr:route><fr:title
+text="Complex numbers">Complex numbers</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>608</fr:anchor><fr:addr
+type="user">complex-0001</fr:addr><fr:route>complex-0001.xml</fr:route><fr:title
+text="Set of complex numbers">Set of complex numbers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> §2.1</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Set of Complex Numbers</html:dfn> <fr:tex
+display="inline"><![CDATA[\mathbb {C}=\{(x,y)\mid  x,y\in \mathbb {R}\}]]></fr:tex>. Given a complex number <fr:tex
+display="inline"><![CDATA[z=(x,y)]]></fr:tex>, we call <fr:tex
+display="inline"><![CDATA[\Re (z)=x]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Real Part</html:dfn> of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\Im (z)=y]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Imaginary Part</html:dfn> of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex>.</fr:p><fr:p>We write <fr:tex
+display="inline"><![CDATA[\mathrm {i}=(0,1)]]></fr:tex> for the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Imaginary Unit</html:dfn> and write <fr:tex
+display="inline"><![CDATA[z=(x,y)]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex>. (Electrical Engineers use <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> instead for the imaginary unit.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>610</fr:anchor><fr:addr
+type="user">complex-0003</fr:addr><fr:route>complex-0003.xml</fr:route><fr:title
+text="Properties of addition of complex numbers">Properties of addition of complex numbers</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.2.4</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 1.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z_{1},z_{2},z_{3}\in \mathbb {C}]]></fr:tex> be complex numbers. Then the following all hold:</fr:p><fr:ol><fr:li>Associativity: <fr:tex
+display="inline"><![CDATA[(z_{1}+z_{2})+z_{3}=z_{1}+(z_{2}+z_{3})]]></fr:tex></fr:li>
+<fr:li>Commutativity: <fr:tex
+display="inline"><![CDATA[z_{1}+z_{2}=z_{2}+z_{1}]]></fr:tex></fr:li>
+<fr:li>Additive identity: There is a unique complex number denoted <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> such that for any <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[0+z=z]]></fr:tex>. Moreover, <fr:tex
+display="inline"><![CDATA[0=(0,0)]]></fr:tex>.</fr:li>
+<fr:li>Additive inverse: For each <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> there exists a unique complex number denoted <fr:tex
+display="inline"><![CDATA[-z]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[z+(-z)=0]]></fr:tex>. Moreover, if <fr:tex
+display="inline"><![CDATA[z=(x,y)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[-z=(-x,-y)]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:addr
+type="user">complex-0002</fr:addr><fr:route>complex-0002.xml</fr:route><fr:title
+text="Addition of complex numbers">Addition of complex numbers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> §2.2.1</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Addition</html:dfn> of complex numbers as the binary operator <fr:tex
+display="inline"><![CDATA[+]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[(a+\mathrm {i} b)+(c+\mathrm {i} d)=(a+c)+\mathrm {i}(b+d)]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>614</fr:anchor><fr:addr
+type="user">complex-0004</fr:addr><fr:route>complex-0004.xml</fr:route><fr:title
+text="Properties of multiplying complex numbers">Properties of multiplying complex numbers</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.2.6</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 1.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z_{1},z_{2},z_{3}\in \mathbb {C}]]></fr:tex> be complex numbers. Then the following all hold:</fr:p><fr:ol><fr:li>Associativity: <fr:tex
+display="inline"><![CDATA[(z_{1}z_{2})z_{3}=z_{1}(z_{2}z_{3})]]></fr:tex></fr:li>
+<fr:li>Commutativity: <fr:tex
+display="inline"><![CDATA[z_{1}z_{2}=z_{2}z_{1}]]></fr:tex></fr:li>
+<fr:li>Multiplicative identity: There is a unique complex number denoted <fr:tex
+display="inline"><![CDATA[1]]></fr:tex> such that for any <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[1z=z]]></fr:tex>. Moreover, <fr:tex
+display="inline"><![CDATA[1=(1,0)]]></fr:tex>.</fr:li>
+<fr:li>Distributivity of multiplication over addition: <fr:tex
+display="inline"><![CDATA[z_{1}(z_{2}+z_{3})=z_{1}z_{2}+z_{1}z_{3}]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>616</fr:anchor><fr:addr
+type="user">complex-0005</fr:addr><fr:route>complex-0005.xml</fr:route><fr:title
+text="Multiplicative inverse of complex numbers">Multiplicative inverse of complex numbers</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.2.6</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Definition 1.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>For any nonzero <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[z\neq 0]]></fr:tex>, there exists a unique complex number denoted <fr:tex
+display="inline"><![CDATA[z^{-1}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[zz^{-1}=1]]></fr:tex>. Moreover, if <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[z^{-1}=\frac {x}{x^{2}+y^{2}}+\mathrm {i}\frac {-y}{x^{2}+y^{2}}]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>618</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Uniqueness:</fr:strong> Suppose there are two complex numbers <fr:tex
+display="inline"><![CDATA[w\in \mathbb {C}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[zv=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[zw=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[v=1v=(zw)v=(wz)v=w(zv)=w1=w]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[x^{2}+y^{2}>0]]></fr:tex> is nonzero, so the complex number
+<fr:tex
+display="block"><![CDATA[w=\frac {x}{x^{2}+y^{2}}+\mathrm {i}\frac {-y}{x^{2}+y^{2}}]]></fr:tex>
+is well-defined. We just need to check <fr:tex
+display="inline"><![CDATA[zw=1]]></fr:tex>, but the trick is <fr:tex
+display="inline"><![CDATA[(x+\mathrm {i} y)(x-\mathrm {i} y)=x^{2}+y^{2}]]></fr:tex> and the result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>620</fr:anchor><fr:addr
+type="user">complex-0006</fr:addr><fr:route>complex-0006.xml</fr:route><fr:title
+text="Complex conjugation">Complex conjugation</fr:title><fr:taxon>Definition</fr:taxon><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 2.2.8</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Definition 4.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y\in \mathbb {C}]]></fr:tex> be a complex number with <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Complex Conjugate</html:dfn> of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> to be the complex number <fr:tex
+display="inline"><![CDATA[\overline {z}=x-\mathrm {i} y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>622</fr:anchor><fr:addr
+type="user">complex-0007</fr:addr><fr:route>complex-0007.xml</fr:route><fr:title
+text="Properties of complex conjugation">Properties of complex conjugation</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.2.9</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 4.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[z_{2}\in \mathbb {C}]]></fr:tex> be complex numbers. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\overline {z_{1}+z_{2}}=\overline {z_{1}}+\overline {z_{2}}]]></fr:tex> (the conjugate of the sum is the sum of conjugates)</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\overline {z_{1}z_{2}}=\overline {z_{1}}\overline {z_{2}}]]></fr:tex> (the conjugate of products is the product of conjugates)</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\overline {1/z_{1}}=1/\overline {z_{1}}]]></fr:tex> when <fr:tex
+display="inline"><![CDATA[z_{1}\neq 0]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\overline {z_{1}}=z_{1}]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\Im (z_{1})=0]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\overline {\overline {z_{1}}}=z_{1}]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\Re (z_{1})=\frac {1}{2}(z_{1}+\overline {z_{1}})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Im (z_{1})=\frac {1}{2\mathrm {i}}(z_{1}-\overline {z_{1}})]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>624</fr:anchor><fr:addr
+type="user">complex-0008</fr:addr><fr:route>complex-0008.xml</fr:route><fr:title
+text="Modulus of complex number">Modulus of complex number</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 2.2.10</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Definition 4.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex> be a complex number with <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Modulus</html:dfn> of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> to be the value <fr:tex
+display="inline"><![CDATA[|z|=\sqrt {x^{2}+y^{2}}>0]]></fr:tex>. In particular, if <fr:tex
+display="inline"><![CDATA[x\in \mathbb {R}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[|x+\mathrm {i} 0|=\sqrt {x^{2}+0}=|x|]]></fr:tex> is just the absolute value.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>626</fr:anchor><fr:addr
+type="user">complex-0009</fr:addr><fr:route>complex-0009.xml</fr:route><fr:title
+text="Properties of modulus">Properties of modulus</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.2.11</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 4.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z_{1},z_{2}\in \mathbb {C}]]></fr:tex> be complex numbers. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[|z_{1}z_{2}|=|z_{1}|\cdot |z_{2}|]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[|z_{1}/z_{2}|=|z_{1}|/|z_{2}|]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[|\overline {z_{1}}|=|z_{1}|]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[|\Re (z_{1})|\leq |z_{1}|]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[|\Im (z_{1})|\leq |z_{1}|]]></fr:tex></fr:li>
+<fr:li>Triangle inequality: <fr:tex
+display="inline"><![CDATA[|z_{1}+z_{2}|\leq |z_{1}|+|z_{2}|]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[|z_{1}-z_{2}|\geq ||z_{1}|-|z_{2}||]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[z_{1}\overline {z_{1}}=|z_{1}|^{2}]]></fr:tex> which implies when <fr:tex
+display="inline"><![CDATA[z_{1}\neq 0]]></fr:tex>, <fr:tex
+display="block"><![CDATA[z_{1}^{-1}=\frac {\overline {z_{1}}}{|z_{1}|^{2}}]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>628</fr:anchor><fr:addr
+type="user">complex-000A</fr:addr><fr:route>complex-000A.xml</fr:route><fr:title
+text="Polar form for complex numbers">Polar form for complex numbers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> 2.3.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex> be a complex number where <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Argument</html:dfn> of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> to be the number <fr:tex
+display="inline"><![CDATA[\theta =\Arg (z)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[0\leq \theta <2\pi ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x=|z|\cos (\theta )]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y=|z|\sin (\theta )]]></fr:tex>.</fr:p><fr:p>We can also write this in exponential form as <fr:tex
+display="inline"><![CDATA[z=|z|\exp (\mathrm {i}\theta )]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>630</fr:anchor><fr:addr
+type="user">complex-000B</fr:addr><fr:route>complex-000B.xml</fr:route><fr:title
+text="Multiplication of complex numbers in exponential form">Multiplication of complex numbers in exponential form</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Lemma 2.3.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z_{1}=r_{1}\mathrm {e}^{\mathrm {i}\theta _{1}}, z_{2}=r_{2}\mathrm {e}^{\mathrm {i}\theta _{2}}\in \mathbb {C}]]></fr:tex> be complex numbers in exponential form. Then <fr:tex
+display="inline"><![CDATA[z_{1}z_{2}=r_{1}r_{2}\mathrm {e}^{\mathrm {i}(\theta _{1}+\theta _{2})}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>632</fr:anchor><fr:addr
+type="user">complex-000C</fr:addr><fr:route>complex-000C.xml</fr:route><fr:title
+text="De Moivre's formula">De Moivre's formula</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.3.3</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 4.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z=r(\cos (\theta )+\mathrm {i}\sin (\theta ))]]></fr:tex> be a complex number in polar form. Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then:</fr:p><fr:ol><fr:li>The exponentiation <fr:tex
+display="inline"><![CDATA[z^{n}=r^{n}(\cos (n\theta )+\mathrm {i}\sin (n\theta ))]]></fr:tex>;</fr:li>
+<fr:li>The <fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> roots of <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> are given by the <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> complex numbers <fr:tex
+display="inline"><![CDATA[z_{k}=r^{1/n}[\cos ((\theta +2\pi  k)/n)+\mathrm {i}\sin ((\theta +2\pi  k)/n)]]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>634</fr:anchor><fr:addr
+type="user">complex-000D</fr:addr><fr:route>complex-000D.xml</fr:route><fr:title
+text="Root of unity">Root of unity</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Section 2.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> Root of Unity</html:dfn> to be <fr:tex
+display="inline"><![CDATA[1^{1/n}=\cos (2\pi  k/n)+\mathrm {i}\sin (2\pi  k/n)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[k=1,…,n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>636</fr:anchor><fr:addr
+type="user">complex-000E</fr:addr><fr:route>complex-000E.xml</fr:route><fr:title
+text="Complex exponential">Complex exponential</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Section 2.3.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex> be a complex number with <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Complex Exponential</html:dfn> to be a function <fr:tex
+display="inline"><![CDATA[\exp \colon \mathbb {C}\to \mathbb {C}]]></fr:tex> defined by
+<fr:tex
+display="block"><![CDATA[\exp (z)=\mathrm {e}^{x}\mathrm {e}^{\mathrm {i} y}=\mathrm {e}^{x}(\cos (y)+\mathrm {i}\sin (y))]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:addr
+type="user">complex-000F</fr:addr><fr:route>complex-000F.xml</fr:route><fr:title
+text="Complex sine and cosine">Complex sine and cosine</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Section 2.3.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex> be a complex number with <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Complex Sine</html:dfn> function <fr:tex
+display="inline"><![CDATA[\sin \colon \mathbb {C}\to \mathbb {C}]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[\sin (z) = \frac {\mathrm {e}^{\mathrm {i} z}-\mathrm {e}^{-\mathrm {i} z}}{2\mathrm {i}}]]></fr:tex>
+Similarly we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Complex Cosine</html:dfn> function <fr:tex
+display="inline"><![CDATA[\cos \colon \mathbb {C}\to \mathbb {C}]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[\cos (z) = \frac {\mathrm {e}^{\mathrm {i} z}+\mathrm {e}^{-\mathrm {i} z}}{2\mathrm {i}}]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:addr
+type="user">complex-000G</fr:addr><fr:route>complex-000G.xml</fr:route><fr:title
+text="Properties of complex exponential and trigonometric functions">Properties of complex exponential and trigonometric functions</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.3.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[z_{1},z_{2}\in \mathbb {C}]]></fr:tex>. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathrm {e}^{z_{1}+z_{2}}=\mathrm {e}^{z_{1}}\mathrm {e}^{z_{2}}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathrm {e}^{z}\neq 0]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\sin ^{2}(z_{1})+\cos ^{2}(z_{1})=1]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\sin (z_{1}+z_{2})=\sin (z_{1})\cos (z_{2})+\cos (z_{1})\sin (z_{2})]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\cos (z_{1}+z_{2})=\cos (z_{1})\cos (z_{2})-\sin (z_{1})\sin (z_{2})]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

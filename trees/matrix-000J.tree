@@ -1,0 +1,14 @@
+\title{Properties of scalar product on matrices}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{r}, #{s} be numbers and #{\mat{A}}, #{\mat{B}} be appropriately sized matrices. Then the following hold:
+\ol{
+\li{ #{r(s\mat{A})=(rs)\mat{A}}}
+\li{ #{(r+s)\mat{A}=r\mat{A}+s\mat{A}} (distributivity)}
+\li{ #{r(\mat{A}+\mat{B})=r\mat{A}+r\mat{B}}}
+}}
+

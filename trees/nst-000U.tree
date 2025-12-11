@@ -1,0 +1,15 @@
+\title{Examples of common sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+
+\p{We have some very common sets encountered in Mathematics, so we have special notation for them:}
+
+\ul{
+\li{#{\NN_{0}=\{0,1,2,3,\dots\}} the set of all non-negative integers}
+\li{#{\NN=\{1,2,3,4,\dots\}} the set of all positive integers}
+\li{#{\ZZ=\{\dots,-3,-2,-1,0,1,2,3,\dots\}} the set of all integers}
+\li{#{\QQ=\{\frac{m}{n}\mid m\in\ZZ,n\in\NN} the set of all rational numbers}
+\li{#{\RR} the set of real numbers}
+\li{#{\CC=\{x+\I y\mid x,y\in\RR\}} the set of complex numbers}
+}

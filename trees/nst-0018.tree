@@ -1,0 +1,9 @@
+\title{Restriction of a function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.8}
+\MML{relat_1}{def 11}{K5}
+
+\p{Let #{g\colon Y\to Z} be a function, let #{X\subset Y}. We define the \define{Restriction} of #{g} to #{X} to be the function #{g|_{X}\colon X\to Z} such that for all #{x\in X}, #{g|_{X}(x)=g(x)}.}

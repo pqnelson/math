@@ -1,0 +1,26 @@
+\title{Division algebras, (pseudo)orthogonal groups and spinors}
+\date{1984}
+\taxon{reference}
+\author{anthony-sudbery}
+\import{notation}
+\meta{doi}{10.1088/0305-4470/17/5/018}
+
+\meta{bibtex}{\startverb
+@article{sudbery1984division,
+  title={Division algebras,(pseudo) orthogonal groups and spinors},
+  author={Sudbery, Anthony},
+  journal={Journal of Physics A: Mathematical and General},
+  volume={17},
+  number={5},
+  pages={939},
+  year={1984},
+  publisher={IOP Publishing}
+}\stopverb}
+
+\p{In section 5, Sudbery notes (page 950):}
+
+\blockquote{\p{
+The structure algebra of #{H_{3}(\KK)} is obtained from (3.18), as for #{H_{2}(\KK)}; factoring out the one-dimensional center, we obtain
+##{\mathrm{Str'}H_{3}(\KK) = L_{3}'(\KK)\oplus\mathrm{Der}(\KK)=\mathbf{sl}(3,\KK)\tag{5.5}}
+(this being a definition of #{\mathbf{sl}(3,\KK)} for non-associative #{\KK}). Equation (3.22) continues to hold for #{3\times3} matrices; hence the Lie brakcets in #{\mathbf{sl}(3,\KK)} are also given by (5.3) and (5.4). When #{\KK=\Octonions}, this Lie algebra is a non-compact form of the exceptional Lie algebra #{\mathrm{E}_{6}}, the maximal compact subalgebra being #{\mathrm{F}_{4}}.
+}}

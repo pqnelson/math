@@ -1,0 +1,10 @@
+\title{Determinant in 2 dimensions}
+\author{alex-nelson}
+\import{notation}
+\import{ela}
+\date{2025-12-08}
+\taxon{example}
+
+\p{The explicit formula for the determinant of a #{2\times 2}-matrix is:}
+
+##{\det\begin{pmatrix}a & b\\c & d\end{pmatrix}=ad-bc}

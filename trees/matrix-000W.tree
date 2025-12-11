@@ -1,0 +1,9 @@
+\title{Dot Product is Commutative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\import{ela}
+\taxon{theorem}
+
+\p{The dot product is commutative: for any #{n}-vectors #{\vec{a}} and #{\vec{b}} we have
+##{\vec{a}\cdot\vec{b}=\vec{b}\cdot\vec{a}.}}

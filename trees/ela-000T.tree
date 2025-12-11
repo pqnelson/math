@@ -1,0 +1,10 @@
+\title{Determinant is nonzero iff its columns are linearly independent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{M}} be an #{n\times n} matrix written as a list of #{n} column vectors:
+##{\mat{M}=(v_{1}\mid\dots\mid v_{n})}
+Then #{\det(\mat{M})\neq0} if and only if the columns #{v_{1}}, \dots, #{v_{n}} are linearly independent.}

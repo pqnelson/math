@@ -1,0 +1,11 @@
+\title{Linear combination}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 2.2}
+\meta{source}{[[lankham-2016-linear]] Section 5.1}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{v_{1},\dots,v_{n}\in V}. Then we define a \define{Linear Combination} of #{v_{1}}, \dots, #{v_{n}} to be #{a_{1}v_{1}+\dots+a_{n}v_{n}} for some #{a_{1},\dots,a_{n}\in\FF}.}
+
+\p{Compare this to the notion of [[ela-000M]] from elementary linear algebra.}

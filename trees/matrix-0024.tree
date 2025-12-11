@@ -1,0 +1,10 @@
+\title{Cyclic property of trace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{m\times n} matrix, let #{\mat{B}} be an #{n\times m} matrix. Then #{\trace{\mat{A}\mat{B}}=\trace{\mat{B}\mat{A}}}.}
+
+\p{More generally, if #{\mat{A}_{1}}, \dots, #{\mat{A}_{m}} are matrices of appropriate dimensions, then #{\trace{\mat{A}_{1}\mat{A}_{2}\dots\mat{A}_{m}}=\trace{\mat{A}_{2}\dots\mat{A}_{m}\mat{A}_{1}}}.}

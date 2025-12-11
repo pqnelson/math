@@ -1,0 +1,9 @@
+\title{Equivalence class}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.7}
+\MML{eqrel_1}{def}{K6}
+
+\p{Let #{X} be a set, let #{x\in X}, and let #{R} be an equivalence relation of #{X}. We define the \define{Equivalence Class} of #{x} with respect to #{R} is the set #{[x]_{R}=\{y\in X\mid (x,y)\in R\}} consisting of all elements equivalent to #{x} under #{R}.}

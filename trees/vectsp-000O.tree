@@ -1,0 +1,12 @@
+\title{Finite-Dimensional Vector Space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\import{ela}
+\meta{source}{[[axler-1996-linear]] Definition 2.9}
+\meta{source}{[[lankham-2016-linear]] Definition 5.1.3}
+
+\p{Let #{V} be a vector space. If there exists a finite subset #{S\subset V} such that #{\span{S}=V}, then we say #{V} is \define{Finite-Dimensional}.}
+
+\p{If there is no such finite set spanning the entire space, then we say #{V} is \define{Infinite-Dimensional}.}

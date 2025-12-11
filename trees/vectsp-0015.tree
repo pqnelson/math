@@ -1,0 +1,9 @@
+\title{Scalar multiplication of linear maps}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 3.5}
+\meta{source}{[[lankham-2016-linear]] Section 6.1}
+
+\p{Let #{V} and #{W} be vector spaces over #{\FF}. Let #{S\in\mathcal{L}(V,W)} be a linear transformation from #{V} to #{W} and #{a\in\FF}. Then we may define the \define{Scalar multiple} #{aS} to be the linear transformation defined by #{(aS)(v)=aS(v)} for all #{v\in V}.}

@@ -1,0 +1,19 @@
+\title{Image of linear map is a subspace of codomain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.18}
+\meta{source}{[[lankham-2016-linear]] Proposition 6.2.4}
+
+
+\p{Let #{L\colon V\to W} be a linear map. Then its image #{\ran(L)} is a subspace of #{W}.}
+
+\proof{\p{We will show #{\vec{0}\in\ran(L)} and #{\ran(L)} is closed under vector addition and scalar multiplication, then the [[vectsp-000D]] implies #{\ran(L)} is a subspace of #{W}.}
+\p{Well, since [[vectsp-0019]], we have established that #{L(\vec{0}_{V})=\vec{0}_{W}}.}
+\p{Let #{w_{1},w_{2}\in\ran(L)}. Then there exists #{v_{1},v_{2}\in V} such that #{L(v_{1})=w_{1}} and #{L(v_{2})=w_{2}}. Then
+##{L(v_{1}+v_{2})=L(v_{1})+L(v_{2})=w_{1}+w_{2}}
+Hence #{w_{1}+w_{2}\in\ran(L)}, which implies it is closed under vector addition.}
+\p{Let #{w\in\ran(L)} and #{a\in\FF}. Then there exists a #{v\in V} such that #{L(v)=w}. We see
+##{L(av)=aL(v)=aw}
+which implies #{aw\in\ran(L)}. Hence the result.}}

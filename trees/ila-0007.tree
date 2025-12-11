@@ -1,0 +1,22 @@
+\title{Determinants}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+
+\p{The determinant is sometimes viewed as a "kludge" (an inelegant tool or solution), but it is quite useful.}
+
+\transclude{determinant-0001}
+\transclude{determinant-0002}
+\transclude{determinant-0003}
+\transclude{determinant-0004}
+\transclude{determinant-0005}
+\transclude{determinant-0006}
+\transclude{determinant-0007}
+\transclude{determinant-0008}
+\transclude{determinant-0009}
+\transclude{determinant-000A}
+\transclude{determinant-000B}
+\transclude{determinant-000C}
+\transclude{determinant-000D}
+\transclude{determinant-000E}
+\transclude{determinant-000F}

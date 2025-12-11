@@ -1,0 +1,12 @@
+\title{Multiplying by Identity Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\import{ela}
+
+\p{Let #{mat{A}} be an #{m\times n} matrix, let #{\mat{I}_{m}} be the #{m\times m} [[matrix-0004]]. We see that
+##{\mat{I}_{m}\mat{A} = \mat{A}.}}
+\p{Similarly, if #{\mat{I}_{n}} is the #{n\times n} identity matrix, then
+##{\mat{A}\mat{I}_{n} = \mat{A}.}}
+
+\p{(We remarked that we should think of matrices as a generalization of numbers. From this perspective, the identity matrix "looks like" the number 1.)}

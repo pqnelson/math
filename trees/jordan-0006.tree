@@ -1,0 +1,18 @@
+\title{Classification of formally real Jordan algebras}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\import{jordan}
+\meta{source}{\cite{baez-2002-octonions}}
+
+\p{There are four infinite families of formally real Jordan algebras and one exception:}
+
+\ol{
+\li{The algebra #{\herm{n}{\Reals}} with the Jordan product}
+\li{The algebra #{\herm{n}{\Complex}} with the Jordan product}
+\li{The algebra #{\herm{n}{\Quaternions}} with the Jordan product}
+\li{The \define{Spin Factor} algebra #{\Reals^{n}\oplus\Reals} with the product #{(v,\alpha)\circ(w,\beta)=(\alpha w+\beta v, \langle v,w\rangle + \alpha\beta)}}
+\li{The \define{Exceptional Jordan algebra} #{\herm{3}{\Octonions}} with the Jordan product}
+}
+
+\p{(See section 3 of John Baez's [[baez-2002-octonions]], page 20 of the PDF.)}

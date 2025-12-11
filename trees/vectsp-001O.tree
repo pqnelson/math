@@ -1,0 +1,12 @@
+\title{Injective linear maps between finite-dimensional vector spaces are surjective}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.65}
+\meta{source}{[[lankham-2016-linear]] Theorem 6.7.7}
+
+\p{Let #{V} and #{W} be finite-dimensional vector spaces over #{\FF}. Let #{L\colon V\to W}. Then the following are equivalent:
+\ol{\li{#{L} is invertible}
+\li{#{L} is [surjective](ela-001I)}
+\li{#{L} is [injective](ela-001J)}}}

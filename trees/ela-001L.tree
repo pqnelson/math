@@ -1,0 +1,7 @@
+\title{Kernel of linear transformation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{L\colon V\to W} be a linear transformation of real vector spaces. We define the \define{Kernel} of #{L} to be the subset #{\ker(L)\subset V} equal to #{\ker(L)=\{v\in V\mid L(v)=\vec{0}_{W}\}}. In other words, the kernel consists of all elements of #{V} which are mapped to the zero vector of #{W}.}

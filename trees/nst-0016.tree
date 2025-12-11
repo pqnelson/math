@@ -1,0 +1,9 @@
+\title{Inclusion}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{example}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.8}
+\MML{funct_3}{def}{K6}
+
+\p{Let #{X} be a subset of #{Y}. Then the \define{Inclusion} of #{X} into #{Y} is the function #{i\colon X\to Y} defined by #{i(x)=x} for all #{x\in X}.}

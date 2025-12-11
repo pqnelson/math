@@ -1,0 +1,8 @@
+\title{Open Ball}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]], let #{x\in X} and #{r>0} be a positive real number. Then we define the \define{Open Ball} centered at #{x} of radius #{r} to be the set:}
+##{B_{r}(x) := \{y\in X\mid d(x,y)<r\}}

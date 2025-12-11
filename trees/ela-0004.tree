@@ -1,0 +1,14 @@
+\title{index notation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{notation}
+
+\p{We will rely heavily on index notation. Why? Well, there are 26 possible symbols (using lowercase Latin letters), which means we could not discuss anything beyond systems of 5 equations in 5 variables; if we also use the 26 uppercase Latin letters, then we cannot discuss anything beyond systems of 7 equations in 7 unknowns. Rather than struggle with new symbols, we will use indices: appending numbers as subscripts to letters to refer to distinct quantities. Thus we write #{x_{1}}, #{x_{2}}, #{x_{3}} instead of #{x}, #{y}, #{z}.}
+
+\p{We may use \define{Dummy Variables} to affix a variable as a subscript, writing #{x_{i}} where #{i} could be #{1}, #{2}, or #{3}. Here #{i} is the dummy variable in the expression #{x_{i}}. We often will write "#{x_{i}} where #{i=1,2,3}" to indicate #{i} is a dummy variable ranging over the values #{1}, #{2}, #{3}.}
+
+\p{We can have several indices [plural of "index"] affixed to a symbol. We have seen this with coefficients, which had two indices separated by a comma. Some authors use a comma to separate indices, other authors do not.}
+
+\p{Also we should note, some authors use superscripts indices. This will occur in some parts of mathematics, but we will avoid it in these notes whenever possible (because it's hard to tell if a superscript number is an exponent or an index).}
+

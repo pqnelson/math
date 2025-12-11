@@ -1,0 +1,12 @@
+\title{Properties of degrees of polynomials under arithmetic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Lemma 3.2.1}
+
+\p{Let #{p(z)} and #{q(z)} be nonzero polynomials. Then:}
+\ol{
+\li{#{\deg(p(z)\pm q(z))\leq\max(\deg(p(z)),\deg(q(z)))}, and}
+\li{#{\deg(p(z)q(z))=\deg(p(z))+\deg(q(z))}}
+}

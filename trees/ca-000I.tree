@@ -1,0 +1,8 @@
+\title{Euclidean norm}
+\author{alex-nelson}
+\import{notation}
+\taxon{example}
+
+\p{The function #{f\colon\RR^{n}\to\RR} defined by
+##{f(x_{1},\dots,x_{n})=\left(\sum^{n}_{i=1}x_{i}^{2}\right)^{1/2}}
+is a norm known as the "Euclidean norm".}

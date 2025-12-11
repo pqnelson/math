@@ -1,0 +1,9 @@
+\title{Identity function is a linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+
+\p{When we define a new sort of "morphism" (function between gadgets, like linear transformations), it is always good practice to check if the identity function qualifies. Let #{V} be any real vector space. We claim #{\id_{V}\colon V\to V} the identity function on #{V} is a linear operator.}
+
+\p{This is a linear transformation since #{\id_{V}(c_{1}u+c_{2}v)=c_{1}u+c_{2}v=c_{1}\id_{V}(u)+c_{2}\id_{V}(v)}.}

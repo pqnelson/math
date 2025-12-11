@@ -1,0 +1,9 @@
+\title{Operators cannot have more distinct eigenvalues than the dimension of its vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 5.12}
+\meta{source}{[[lankham-2016-linear]] Corollary 7.2.4}
+
+\p{Let #{V} be [[vectsp-000O]] over #{\FF}. Let #{L\colon V\to V} be a linear operator. Then #{L} has at most #{\dim(V)} distinct [eigenvalues](vectsp-0001Q).}

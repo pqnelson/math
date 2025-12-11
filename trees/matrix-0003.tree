@@ -1,0 +1,7 @@
+\title{zero matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\import{ela}
+
+\p{For any positive integers #{m}, #{n}, we have the #{m\times n} \define{Zero Matrix} to be the matrix whose components are all zero. We denote this by #{\mat{0}} or #{0} because it will play the analogous counterpart that #{0\in\Reals} plays.}

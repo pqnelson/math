@@ -1,0 +1,10 @@
+\title{Determinant of diagonal matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{D}=(d_{i,j})} be an #{n\times n} [diagonal matrix](matrix-0006). Then the determinant of #{\mat{D}} is just the product of diagonal entries:}
+
+##{\det(\mat{D})=\prod^{n}_{i}d_{i,i}}

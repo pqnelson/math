@@ -1,0 +1,14 @@
+\title{Relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.7}
+
+\p{We can define a \define{Relation} broadly is a set #{R} such that for all objects #{r\in R} there exists objects #{x} and #{y} such that #{r=(x,y)}. In other words, a relation is a set which consists of ordered pairs.}
+
+\p{When #{X} and #{Y} are sets, a \define{Relation} of #{X} and #{Y} is a subset #{R\subset X\times Y}.}
+
+\p{We will speak of a "Relation of #{X}" when referring to a subset #{R\subset X\times X}.}
+
+\p{If #{R} is a relation and #{(x,y)\in R}, then we will frequently abuse notation and write #{x\;R\;y}. Usually instead of #{R}, for particular relations we use #{\sim}, #{\approx}, #{\cong}, #{\equiv}, #{\lt}, or other notation which is more aesthetically pleasing.}

@@ -1,0 +1,10 @@
+\title{Dimension does not depend on choice of basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 2.34}
+\meta{source}{[[lankham-2016-linear]] Theorem 5.4.2}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional vector space. Then every basis #{B} of #{V} has #{\dim(V)=|B|}. In other words, the dimension of a finite-dimensional vector space is well-defined.}

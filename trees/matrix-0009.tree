@@ -1,0 +1,17 @@
+\title{Matrix Equality}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}=[a_{i,j}]} and #{\mat{B}=[b_{i,j}]} be two #{m\times n} matrices. We say #{\mat{A}} and #{\mat{B}} are \define{Equal} if they have identical components in identical positions, i.e., if for each #{i=1,\dots,m} and #{j=1,\dots,n} we have #{a_{i,j}=b_{i,j}}. We indicate the matrices are equal by writing #{\mat{A}=\mat{B}}.}
+
+\p{More formally: let #{\mat{A}} be an #{m\times n} matrix and #{\mat{B}} be an #{p\times q} matrix, if:
+\ol{
+\li{#{m = p} and #{n = q} and}
+\li{#{(\mat{A})_{ij}=(\mat{B})_{ij}} for all #{i=1,\dots,m} and #{j=1,\dots,n}}
+}
+then #{\mat{A} = #{\mat{B}}.}}
+
+\p{If #{\mat{A}} and #{\mat{B}} are not equal, then we write #{\mat{A}\neq\mat{B}}.}

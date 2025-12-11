@@ -1,0 +1,16 @@
+\title{Dimensional formula}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.21}
+\meta{source}{[[lankham-2016-linear]] Theorem 6.5.1}
+\import{ela}
+
+\p{Let #{V} be a [[vectsp-000O]] over #{\FF}. Let #{W} be a (not necessarily finite-dimensional) vector space over #{\FF}. Let #{L\colon V\to W} be a linear map. Then the following all hold:
+\ol{
+\li{#{\ran(L)} is a finite-dimensional subspace of #{W}, and}
+\li{#{\dim(V)=\dim(\ker(L))+\dim(\ran(L))}}
+}}
+
+\p{Note: this theorem goes by many names (e.g., [Axler](sheldon-jay-axler) calls it "the fundamental theorem of linear maps").}

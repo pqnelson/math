@@ -1,0 +1,7 @@
+\title{Canonical basis of #{\RR^{n}}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+
+\p{Let #{e_{j}\in\RR^{n}} have #{1} in its #{j^{\text{th}}} component and 0 in all other components. Then #{\{e_{1},\dots,e_{n}\}} forms a basis of #{\RR^{n}} is called the \define{Canonical Basis} of #{\RR^{n}}.}

@@ -1,0 +1,14 @@
+\title{Elements of Algebra}
+\author{leonhard-euler}
+\date{1765}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@book{euler2012elements,
+  title={Elements of algebra},
+  author={Euler, Leonhard},
+  year={2012},
+  publisher={Springer Science \& Business Media},
+  note={Translated by Scott L Hecht}
+}
+\stopverb}

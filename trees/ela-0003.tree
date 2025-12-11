@@ -1,0 +1,42 @@
+\title{Neo-Ricardian economics}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{example}
+\meta{source}{[[piero-sraffa]], [[sraffa-1960-production]]}
+
+\p{One class of systems of linear equations occurs naturally in Neo-Ricardian economics. Consider a hypothetical economy consisting of two industry sectors, wheat and iron, whose production processes are described by the system of equations (where the left of the arrow refers to the inputs at the start of the production period, and the quantities to the right of the arrows are produced at the end of the period, and then an annual market takes place where iron is traded for wheat):
+##{\begin{array}{rcl} \hbox{inputs} & \to & \hbox{outputs}\\
+280~\hbox{qr. wheat} + 12~\hbox{t. iron} & \to & 400~\hbox{qr. wheat}\\
+120~\hbox{qr. wheat} + 8~\hbox{t. iron}  & \to &  20~\hbox{t. iron}.
+\end{array}}
+The question we want to know: what is the exchange rate between quarters of wheat and tons of iron?}
+
+\p{(A "quarter" of wheat refers to an obscure measurement choice of 13th century England, because it can be found in the \em{Magna Carta}. By the 18th century, the measurement of 1 quarter of wheat in Britain varied port to port. It was finally standardized in 1824 to be 8 bushels (or 64 gallons).)} 
+
+\p{We can create a system of equations by introducing two unknowns #{p_{w}} for the price of 1 quarter of wheat, and #{p_{i}} for the price of 1 ton of iron. We assume society is in a "self reproducing state", in the sense that the wheat sector exchanges enough wheat-for-iron to continue producing wheat (and the iron sector exchanges enough iron-for-wheat to continue producing iron):
+##{\begin{array}{rcl}
+    280p_{w} + 12p_{i} &=& 400p_{w}\\
+    120p_{w} + 8p_{i} &=& 20p_{i}.
+\end{array}}
+We can rewrite the first equation (by subtracting both sides by #{280p_{w}}):
+##{\begin{array}{rcl}
+    12p_{i} &=& 120p_{w}\\
+    120p_{w} + 8p_{i} &=& 20p_{i}.
+\end{array}}
+Then we rewrite the second equation (by subtracting both sides by #{8p_{i}}):
+##{\begin{array}{rcl}
+    12p_{i} &=& 120p_{w}\\
+    120p_{w} &=& 12p_{i}.
+\end{array}}
+These are redundant equations! We end up with a class of solutions, described by
+##{\boxed{10p_{w} = p_{i},}}
+that is to say, the price of 1 ton iron is equal to the price of 10 quarters of wheat.}
+
+\p{Note that this method for solving such equations in Neo-Ricardian economics works when there is no surplus; that is to say, when there is exactly as much produced (for each commodity) used as inputs in the economy. However, when there is a surplus, we need a more sophisticated technique because we will have a generalized eigenvalue problem.}
+
+\p{Also note, as of 28 October 2022, it appears the going rate is 1.18925 quarters of wheat for 1 ton of iron. Well, 1 metric ton of iron ore [traded](https://www.dailymetalprice.com/metaltables.php?d=2022-10-28) for $93.010 whereas the [USDA reported](https://downloads.usda.library.cornell.edu/usda-esmis/files/c821gj76b/2n49vb91v/7d27b4012/agpr1122.pdf) the price for 1 quarter (= 8 bushels) of wheat was approximately $73.68, which means that 1.26 quarters of wheat exchanged for 1 metric ton of iron.}
+
+\p{As of 12 May 2025, it appears that 1 metric ton of iron ore is $98.19 (so 1 ton of iron is $89.07) and the price of 1 quarter (= 8 bushels) of wheat is $45.68, so the exchange rate is about 1.95 quarters wheat for 1 ton of iron (or 2.1495 quarters wheat for 1 metric ton of iron ore).}
+
+\p{Although the value of iron ore appears to be relatively stable, the value of wheat fluctuates more wildly.}

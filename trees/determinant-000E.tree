@@ -1,0 +1,19 @@
+\title{Properties of the determinant}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 8.2.3}
+
+\p{Let #{n\in\NN} be a positive integer, let #{A=(a_{ij})\in\FF^{n\times n}} be an #{n\times n} matrix with entries in the [[field-0001]] #{\FF}. Then the following all holds:}
+\ol{
+\li{Determinant of zero matrix is zero: #{\det(0_{n\times n})=0}}
+\li{Determinant of identity matrix is one: #{\det{I}=1}}
+\li{Let #{a_{1},\dots,a_{n}} be the column vectors of #{A}, so #{A=(a_{1}|\dots|a_{n}).} Then the determinant is a linear function of the columns #{\det(a_{1}|\dots|ca_{i}|\dots|a_{n})=c\det(a_{1}|\dots|a_{i}|\dots|a_{n})} for any #{c\in\FF}, and #{\det(a_{1}|\dots|a_{i}+b_{i}|\dots|a_{n})=\det(a_{1}|\dots|a_{i}|\dots|a_{n})+\det(a_{1}|\dots|b_{i}|\dots|a_{n})} for any column vector #{b_{i}\in\FF^{n}}.}
+\li{The determinant is an antisymmetric function of the columns of #{A}: for any #{\pi\in S_{n}}, letting #{a_{1},\dots,a_{n}} be the column vectors of #{A}, we have #{\pi(a_{\pi(1)}|\dots|a_{\pi(n)})=\sgn(\pi)\det(A)}.}
+\li{If #{A} has two identical columns, #{\det(A)=0}}
+\li{If #{A} has a column of zeroes, #{\det(A)=0}}
+\li{#{\det(\transpose{A})=\det(A)}}
+\li{For any #{B\in\FF^{n\times n}}, #{\det(AB)=\det(A)\det(B)}}
+\li{If #{A} is a triangular matrix, then #{\det(A)=\prod^{n}_{i=1}a_{i,i}} is just the product of the diagonal entries.}
+}

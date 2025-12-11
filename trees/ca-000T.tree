@@ -1,0 +1,7 @@
+\title{Rationals are neither open nor closed in reals}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{example}
+
+\p{The subset #{\QQ} of #{(\RR,|\cdot|)} is neither a [[ca-000P]] of #{\RR}, nor is it an [[ca-000M]].}

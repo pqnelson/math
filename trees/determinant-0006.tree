@@ -1,0 +1,8 @@
+\title{Inversion pair of a permutation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Definition 8.1.8}
+
+\p{Let #{\pi\in S_{n}} be a permutation. Then an \define{Inversion Pair} #{(i,j)} of #{\pi} is a pair of positive integers #{i,j\in\{1,\dots,n\}} such that #{i<j} but #{\pi(i)>\pi(j)}.}

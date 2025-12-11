@@ -1,0 +1,10 @@
+\title{Mixing Scalar and Matrix Multiplication}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{r} be a number, let #{\mat{A}} be an #{m\times n} matrix, let #{\mat{B}} be an #{n\times p} matrix. Then #{\mat{A}(r\mat{B})=r(\mat{A}\mat{B})=(r\mat{A})\mat{B}}.}
+
+\rmk{It is important that the number system we have been working with implicitly is the real or complex numbers (or the rationals). This is because multiplication in this number system is commutative \em{and} associative. If it is noncommutative, then #{\mat{A}(r\mat{B})\neq r(\mat{A}\mat{B})} which could be problematic.}

@@ -1,0 +1,16 @@
+\title{Upper-triangular matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{We call an #{m\times n} matrix #{\mat{A}=(a_{i,j})} \define{Upper Triangular} if #{a_{i,j}=0} for #{i>j}, e.g., when #{m=n} it looks like: ##{\mat{A} = \begin{bmatrix}
+    a_{1,1} & a_{1,2} & a_{1,3} & \dots & a_{1,n}\\
+    0      & a_{2,2} & a_{2,3} & \dots & a_{2,n}\\
+    0      & 0       & a_{3,3} & \dots & a_{3,n}\\
+    \vdots & \vdots & \vdots & \ddots & \vdots\\
+    0      & 0      & 0      & \dots  & a_{n,n}
+  \end{bmatrix}}}
+
+\p{Furthermore, if #{a_{i,i}=0}, then we call #{\mat{A}} \define{Strictly Upper Triangular}.}

@@ -1,0 +1,10 @@
+\title{Determinant of product is product of determinants}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} and #{\mat{B}} be two #{n\times n} matrices. Then:}
+
+##{\det(\mat{AB})=\det(\mat{A})\det(\mat{B}).}

@@ -1,0 +1,8 @@
+\title{Determinant of identity matrix is 1}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{lemma}
+\import{ela}
+
+\p{Let #{\mat{I}} be the #{n\times n} [[matrix-0004]]. Then #{\det(\mat{I})=1}.}

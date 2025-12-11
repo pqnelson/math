@@ -1,0 +1,8 @@
+\title{Matrix Transpose}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}=(a_{i,j})} be an #{m\times n} matrix. We define the \define{Transpose} of #{\mat{A}} to be the #{n\times m} matrix #{\transpose{\mat{A}}=(\transpose{a}_{j,i})} where #{\transpose{a}_{j,i}=a_{i,j}}.}

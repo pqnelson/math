@@ -1,0 +1,10 @@
+\title{Length of linearly independent list not greater than length of spanning set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 2.22}
+\meta{source}{[[lankham-2016-linear]] Theorem 5.2.9}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional vector space. Suppose that #{v_{1},\dots,v_{m}} are linearly independent vectors of #{V}, and suppose #{S\subset V} be a spanning set #{\span{S}=V}. Then #{m\leq|S|}.}

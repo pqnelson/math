@@ -1,0 +1,10 @@
+\title{Polar form for complex numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] 2.3.1}
+
+\p{Let #{z=x+\I y} be a complex number where #{x,y\in\RR}. Then we define the \define{Argument} of #{z} to be the number #{\theta=\Arg(z)} where #{0\leq\theta<2\pi} such that #{x=|z|\cos(\theta)} and #{y=|z|\sin(\theta)}.}
+
+\p{We can also write this in exponential form as #{z=|z|\exp(\I\theta)}.}

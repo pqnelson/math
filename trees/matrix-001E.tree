@@ -1,0 +1,10 @@
+\title{Inverse of a Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\import{ela}
+\taxon{exercise}
+
+\p{Consider the matrix
+##{\mat{E} = \begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}.}
+Is this invertible or noninvertible?}

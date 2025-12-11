@@ -1,0 +1,9 @@
+\title{Polynomials form a vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{example}
+\meta{source}{[[axler-1996-linear]] Example 1.23}
+\meta{source}{[[lankham-2016-linear]] Example 4.1.5}
+
+\p{Let #{\FF[z]} be the set of all polynomial with coefficients in #{\FF} and in unknown #{z}. Then defining #{(p+q)(z)=p(z)+q(z)} and #{(ap)(z)=ap(z)} for any #{a\in\FF} and #{p,q\in\FF[z]} forms vector addition and scalar multiplication.}

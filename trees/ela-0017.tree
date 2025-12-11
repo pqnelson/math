@@ -1,0 +1,10 @@
+\title{Linear transformations and linear operators}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} and #{W} be real vector spaces. A \define{Linear Transformation} from #{V} to #{W} is a function #{L\colon V\to W} such that for all #{u,v\in V} and coefficients #{c_{1},c_{2}\in\RR} we have
+##{L(c_{1}u+c_{2}v)=c_{1}L(u)+c_{2}L(v).}
+If further #{V=W}, then we call #{L} a \define{Linear Operator}.}

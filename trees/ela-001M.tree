@@ -1,0 +1,11 @@
+\title{Kernel of linear transformation is a subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+
+\p{Let #{L\colon V\to W} be a linear transformation of real vector spaces #{V} and #{W}. Then #{\ker(L)} is a [subspace](ela-000I) of #{V}.}
+
+\proof{\p{We see that for any #{v\in\ker(L)} and #{c\in\RR} that #{L(cv)=cL(v)} by linearity and #{cL(v)=c\vec{0}_{W}=\vec{0}_{W}}, so #{cv\in\ker(L)}.}
+\p{For any #{u,v\in\ker(L)}, we see #{L(u+v)=L(u)+L(v)} by linearity, and #{L(u)+L(v)=\vec{0}_{W}+\vec{0}_{W}=\vec{0}_{W}} by definition of the kernel. Hence #{u+v\in\ker(L)}.}
+\p{Hence by the [[ela-000J]], we see #{\ker(L)} is a subspace of #{V}.}}

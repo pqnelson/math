@@ -1,0 +1,11 @@
+\title{Symmetric and Antisymmetric Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. We call #{\mat{A}} \define{Symmetric} if it is equal to its transpose: #{\mat{A}=\transpose{\mat{A}}}.}
+
+\p{Similarly, we call #{\mat{A}} \define{Antisymmetric} if it is the negation of its transpose #{\mat{A}=-\transpose{\mat{A}}}.}
+

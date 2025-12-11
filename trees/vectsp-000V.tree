@@ -1,0 +1,9 @@
+\title{Existence of basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{corollary}
+\meta{source}{[[axler-1996-linear]] Theorem 2.31}
+\meta{source}{[[lankham-2016-linear]] Corollary 5.3.6}
+
+\p{Every finite-dimensional vector space has a basis.}

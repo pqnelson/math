@@ -1,0 +1,11 @@
+\title{Preface}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+
+\p{This is the forest of my notes on Mathematics. It's an attempt to describe the "mental landscape" of Mathematics, at least how I view it (based on how I learned it).}
+
+\transclude{preface-0001}
+\transclude{preface-0002}
+\transclude{preface-0003}
+

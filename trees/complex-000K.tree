@@ -1,0 +1,21 @@
+\title{Fundamental Theorem of Algebra via Extreme Value Theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\meta{source}{[[lankham-2016-linear]] Lemma 3.1}
+\meta{source}{[[axler-1996-linear]] Theorem 4.12}
+\taxon{proof}
+
+\p{By [[complex-000I]], we see that #{|f|} attains its minimum value. Let #{z_{0}\in\CC} be a point where the minimum is attained. We will show if #{f(z_{0})\neq0}, then #{z_{0}} is not a minimum (which proves by contrapositive that the minimum of #{|f(z)|} is zero, and therefore #{f(z_{0})=0}).}
+
+\p{If #{f(z_{0})\neq0}, then we can define a new function #{g\colon\CC\to\CC} by
+##{g(z) = \frac{f(z+z_{0})}{f(z_{0})}}
+This is a polynomial of degree #{n=\deg(f)}. We claim #{|f|} attains a minimum at #{z_{0}} if and only if #{|g|} attains a minimum value at #{z=0}. Moreover, #{g(0)=1}.}
+
+\p{We can write
+##{g(z)=1+a_{k}z^{k}+\dots+a_{n}z^{n}}
+where #{k} is the smallest positive integer such that the coefficient of #{z^{k}} of #{g} is nonzero, i.e., #{a_{k}\neq0}.}
+
+\p{Let #{b\in\CC} be such that #{b^{k}=-1/a_{k}}. There exists a constant #{c>1} such that if #{0<t<1}, then
+##{|g(tb)|\leq|1+a_{k}t^{k}b^{k}|+t^{k+1}c=1-t^{k}(1-tc)}
+Taking #{t=1/(2c)} in this inequality, we have #{|g(tb)|<1}. But this contradicts the assumption that the minimum of #{|g(z)|} is #{|g(0)|=1}. This contradiction implies the result.}

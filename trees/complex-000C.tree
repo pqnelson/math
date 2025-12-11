@@ -1,0 +1,13 @@
+\title{de Moivre's formula}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 2.3.3}
+\meta{source}{[[axler-1996-linear]] Theorem 4.4}
+
+\p{Let #{z=r(\cos(\theta)+\I\sin(\theta))} be a complex number in polar form. Let #{n\in\NN} be a positive integer. Then:}
+\ol{
+\li{The exponentiation #{z^{n}=r^{n}(\cos(n\theta)+\I\sin(n\theta))};}
+\li{The #{n^{\text{th}}} roots of #{z} are given by the #{n} complex numbers #{z_{k}=r^{1/n}[\cos((\theta+2\pi k)/n)+\I\sin((\theta+2\pi k)/n)]}.}
+}

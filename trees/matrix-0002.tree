@@ -1,0 +1,10 @@
+\title{components of a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{definition}
+\import{ela}
+
+\p{If we want to refer to a generic component of an #{m}-by-#{n} matrix #{\mat{A}}, we write #{\mat{A}=(a_{ij})} to indicate we will use #{a_{ij}} to refer to the component found in the #{i^{\text{th}}} row and #{j^{\text{th}}} column.}
+
+\p{Also, very important, if we have some #{m}-by-#{n} matrix #{\mat{A}=(a_{i,j})} and we wanted to refer to its component in row #{r}, column #{c}, we may refer to that component by writing #{(\mat{A})_{r,c}}. This is, of course, the same as #{a_{r,c}}, but it will be useful [much later] to take a matrix and refer to certain components without introducing #{(a_{i,j})} first.}

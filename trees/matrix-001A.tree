@@ -1,0 +1,10 @@
+\title{Matrix power for a 2-by-2 matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\import{ela}
+\taxon{exercise}
+
+\p{Let
+##{\mat{A} = \begin{bmatrix}1 & 1 \\ 0 & 1\end{bmatrix}.}
+Compute #{\mat{A}^{n}}. Start with #{n = 2,3,4} then try to generalize.}

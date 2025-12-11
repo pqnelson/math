@@ -1,0 +1,10 @@
+\title{Pythagorean theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.12}
+\meta{source}{[[lankham-2016-linear]] Theorem 9.3.2}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. Let #{u,v\in V}. If #{u\perp v}, then using the [[vectsp-0029]] we have
+##{\norm{u+v}=\norm{u}+\norm{v}}}

@@ -1,0 +1,23 @@
+\title{Terminology surrounding polynomials}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Section 3.2}
+
+\p{Let #{n\in\NN_{0}} be a non-negative integer. Let #{a_{0},\dots,a_{n}\in\CC} be complex numbers. Then we call the expression
+##{p(z)=a_{n}z^{n}+\dots+a_{1}z+a_{0}}
+a \define{Polynomial} in the variable #{z} with \define{Coefficients} #{a_{0}}, \dots, #{a_{n}}. If #{n\neq0}, we call #{n} the \define{Degree} of #{p} usually writing #{\deg(p)=n}. We call #{a_{n}} the \define{Leading Coefficient} of #{p(z)}. When #{a_{n}=1} we call #{p(z)} \define{Monic}.}
+
+\p{If #{n=a_{0}=0}, then we call #{p(z)=0} the \define{Zero Polynomial}. Convention dictates #{\deg(0)=-\infty}.}
+
+\p{We also call:}
+\ul{
+\li{degree zero polnomials are called \define{constant polynomials}}
+\li{degree one polnomials are called \define{linear polynomials}}
+\li{degree two polnomials are called \define{quadratic polynomials}}
+\li{degree three polnomials are called \define{cubic polynomials}}
+\li{degree four polnomials are called \define{quartic polynomials}}
+\li{degree five polnomials are called \define{quintic polynomials}}
+\li{\dots and so on.}
+}

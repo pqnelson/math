@@ -1,0 +1,11 @@
+\title{Distributivity of Matrix Multiplication over Matrix Addition}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\ol{
+\li{Left distributivity: Let #{\mat{A}} be an #{m\times n} matrix, let #{\mat{B}} and #{\mat{C}} be #{n\times p} matrices. Then #{\mat{A}(\mat{B}+\mat{C})=\mat{A}\mat{B}+\mat{A}\mat{C}}.}
+\li{Right distributivity: Let #{\mat{A}} and #{\mat{B}} be #{m\times n} matrices, let #{\mat{C}} be #{n\times p} matrices. Then #{(\mat{A}+\mat{B})\mat{C}=\mat{A}\mat{C}+\mat{B}\mat{C}}.}
+}

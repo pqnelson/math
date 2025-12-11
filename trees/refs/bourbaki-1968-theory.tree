@@ -1,0 +1,15 @@
+\title{Theory of Sets}
+\author{nicolas-bourbaki}
+\date{1968}
+\taxon{reference}
+\import{notation}
+
+\p{This actually describes an axiomatic set theory roughly as strong as Z (not ZF), but uses Hilbert's epsilon calculus which is much stronger than first-order logic. It gives Bourbaki something \emph{even stronger} than the global choice operator "for free".}
+
+\meta{bibtex}{\startverb
+@book{bourbaki1968theory,
+  author={Bourbaki, Nicolas},
+  title={Theory of Sets},
+  year={1968},
+  publisher={Springer}
+}\stopverb}

@@ -1,0 +1,8 @@
+\title{Simple Jordan algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\taxon{definition}
+\meta{source}{\cite{baez-2002-octonions}}
+
+\p{Now, we call a Jordan algebra #{(J,\circ)} \define{Simple} if the only [ideals](jordan-0004) are #{\{0\}} and #{J} itself.}

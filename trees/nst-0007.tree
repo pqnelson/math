@@ -1,0 +1,11 @@
+\title{Proper subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+
+\p{Let #{X} and #{Y} be sets. We define the predicate #{X\propersubset Y} to mean #{X\subset Y} and #{X\neq Y}.}
+
+\p{We also have the synonym #{Y\propersupset X} for #{X\propersubset Y}.}
+
+\p{The choice of notation varies wildly. Some authors do not even distinguish proper subsets from "improper" subsets. Worse, some use #{\propersubset} for improper subsets. We have chosen to use notation analogous to #{\leq} and #{\lt}.}

@@ -1,0 +1,25 @@
+\title{method of elimination}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+
+\p{One method to find a solution, which has been taught to high school students for decades, is to take the first equation and use it to rewrite one variable in terms of the remaining. For example, in:
+##{\begin{array}{rcrcrcl}
+    0      & + & 2x_{2} & + & 3x_{3} & = & 5\\
+    2x_{1} & + & 0      & + & 3x_{3} &=& -1\\
+    x_{1}  & + & x_{2}  & + & x_{3} &=& 1.
+  \end{array}}
+We would use the first equation to substitute #{x_{2}=(5 - 3x_{3})/2} in the remaining equations, and discard the first equation, giving us:
+##{\begin{array}{rcrcrcl}
+    2x_{1} & + & 0      & + & 3x_{3} &=& -1\\
+    x_{1}  & + & \displaystyle\left(\frac{5 - 3x_{3}}{2}\right)  & + & x_{3} &=& 1.
+  \end{array}}
+We do this again, to use the first equation to write #{x_{1} = (-1-3x_{3})/2}, and plug this into the last equation, which gives us a value for #{x_{3}}.}
+
+\p{We \emph{backsubstitute} this value for #{x_{3}} into the second equation to obtain a value for #{x_{1}}, then together these are backsubstituted into either the first or third equation of our original system to find the solution for #{x_{2}}.}
+
+\p{There are two problems with this method:}
+\ol{
+\li{It is tedious, and I do not want to do this work.}
+\li{It does not tell us \emph{when} a solution exists. There may not be a solution. Or, there may be infinitely many solutions (as we saw in [[ela-0003]]). It'd be nice to know before engaging in a computationally labourious process what we should expect.}
+}

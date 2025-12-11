@@ -1,0 +1,10 @@
+\title{Sum and product of symmetric matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{exercise}
+\import{ela}
+
+\p{Let #{\mat{S}} be a symmetric matrix. Is #{\mat{S}\transpose{\mat{S}}} symmetric? What about #{\mat{S} + \transpose{\mat{S}}}?}
+
+\p{Let #{\mat{T}} be another symmetric matrix. Is #{\mat{S}\transpose{\mat{T}}} symmetric? What about #{\mat{S} + \transpose{\mat{T}}}?}

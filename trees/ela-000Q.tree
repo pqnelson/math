@@ -1,0 +1,7 @@
+\title{Matrices are a subspace of tuples}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+
+\p{We claim that [the vector space of #{m\times n} matrices](ela-000H) #{\mathrm{Mat}(m,n,\RR)} is a subspace of [#{mn}-tuples](ela-000G) #{\RR^{m\times n}}.}

@@ -1,0 +1,15 @@
+\title{Elementary row matrix}
+\author{alex-nelson}
+\import{notation}
+\import{ela}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{\mat{E}_{\mu,\nu}} be the matrix which is 1 at row #{\mu} and column #{\nu}, but 0 otherwise.}
+\p{We define the \define{Elementary Row Matrices} to be one of the following:}
+
+\ol{
+\li{Adding a multiple of one row to another: #{\mat{I}+r\mat{E}_{\mu,\nu}} for some #{r} and #{1\leq\mu\leq n} and #{1\leq\nu\leq n} such that #{\mu\neq\nu}}
+\li{Swapping two rows: #{\mat{I}+\mat{E}_{\mu,\nu}+\mat{E}_{\nu,\mu}-\mat{E}_{\mu,\mu}-\mat{E}_{\nu,\nu}} which swaps rows #{\mu} and #{\nu}}
+\li{Multiplying a row by a nonzero constant: #{\mat{I}+r\mat{E}_{\mu,\mu}} where #{1+r\neq0}}
+}

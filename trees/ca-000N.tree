@@ -1,0 +1,7 @@
+\title{Neighborhood}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]], let #{x\in X}. We define a \define{Neighborhood} of #{x} to be an open subset #{N_{x}} of #{X} such that it contains #{x\in N_{x}}.}

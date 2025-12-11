@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5174</fr:anchor><fr:addr
+type="user">veldkamp-2000-octonions</fr:addr><fr:route>veldkamp-2000-octonions.xml</fr:route><fr:title
+text="Octonions, Jordan Algebras, and Exceptional Groups">Octonions, Jordan Algebras, and Exceptional Groups</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2000</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="tonny-a-springer.xml"
+addr="tonny-a-springer"
+title="Tonny A. Springer">Tonny A. Springer</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="ferdinand-d-veldkamp.xml"
+addr="ferdinand-d-veldkamp"
+title="Ferdinand D. Veldkamp">Ferdinand D. Veldkamp</fr:link></fr:author></fr:authors><fr:meta
+name="publisher">Springer-Verlag</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{veldkamp2000octonions,
+  title={Octonions, jordan algebras, and exceptional groups},
+  author={Veldkamp, F and Springer, TA},
+  journal={Springer Monographs in Mathematics (Springer-Verlag)},
+  year={2000}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5177</fr:anchor><fr:addr
+type="user">jordan-0001</fr:addr><fr:route>jordan-0001.xml</fr:route><fr:title
+text="Jordan algebra">Jordan algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Jordan algebra</html:dfn> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a nonassociative algebra <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> whose multiplication satisfies:</fr:p><fr:ol><fr:li>commutative: <fr:tex
+display="inline"><![CDATA[xy=yx]]></fr:tex></fr:li>
+<fr:li>Jordan identity: <fr:tex
+display="inline"><![CDATA[(xy)(xx)=x(y(xx))]]></fr:tex></fr:li></fr:ol><fr:p>Note that Springer and Veldkamp's <fr:link
+type="local"
+href="veldkamp-2000-octonions.xml"
+addr="veldkamp-2000-octonions"
+title="Octonions, Jordan Algebras, and Exceptional Groups">Octonions, Jordan Algebras, and Exceptional Groups</fr:link> (remark 5.1.7, pg 122) note that the character of <fr:tex
+display="inline"><![CDATA[\mathrm {char}(J)\neq  2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,41 @@
+\title{Determinant}
+\author{alex-nelson}
+\import{notation}
+\import{ela}
+\date{2025-07-18}
+\taxon{definition}
+
+\p{Let #{\mat{A}} be a square #{n\times n} matrix. We define the \define{Determinant} of #{\mat{A}} recursively on #{n}:}
+
+\p{When #{n=1}, so #{\mat{A} = (a_{1,1})}, then #{\det(\mat{A})=a_{1,1}}.}
+
+\p{When #{n\gt 1}, we define the determinant recursively as
+##{\begin{align*}
+\det(\mat{A}) &:= \begin {vmatrix}
+a_{1 1} & a_{1 2} & a_{1 3} & \cdots & a_{1 n} \\
+a_{2 1} & a_{2 2} & a_{2 3} & \cdots & a_{2 n} \\
+a_{3 1} & a_{3 2} & a_{3 3} & \cdots & a_{3 n} \\
+\vdots  &  \vdots &  \vdots & \ddots &  \vdots \\
+a_{n 1} & a_{n 2} & a_{n 3} & \cdots & a_{n n} \\
+\end {vmatrix}\\
+&= a_{1 1} \begin {vmatrix}
+a_{2 2} & a_{2 3} & \cdots & a_{2 n} \\
+a_{3 2} & a_{3 3} & \cdots & a_{3 n} \\
+\vdots  &  \vdots & \ddots &  \vdots \\
+a_{n 2} & a_{n 3} & \cdots & a_{n n} \\
+\end {vmatrix} - a_{1 2} \begin {vmatrix}
+a_{2 1} & a_{2 3} & \cdots & a_{2 n} \\
+a_{3 1} & a_{3 3} & \cdots & a_{3 n} \\
+\vdots  &  \vdots & \ddots &  \vdots \\
+a_{n 1} & a_{n 3} & \cdots & a_{n n} \\
+\end {vmatrix} + \cdots + (-1)^{n + 1} a_{1 n} \begin {vmatrix}
+a_{2 1} & a_{2 2} & \cdots & a_{2, n - 1} \\
+a_{3 1} & a_{3 3} & \cdots & a_{3, n - 1} \\
+\vdots  &  \vdots & \ddots &       \vdots \\
+a_{n 1} & a_{n 3} & \cdots & a_{n, n - 1} \\
+\end {vmatrix}
+\end{align*}
+}}
+\p{The notation for the determinant uses vertical lines as the delimiter to the matrix.}
+
+\p{Note: this is defined if the entries of the matrix are elements of a commutative ring. The notion of the determinant of a matrix over a noncommutative ring is not well-defined.}

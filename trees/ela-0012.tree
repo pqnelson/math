@@ -1,0 +1,12 @@
+\title{Change of basis matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional real vector space. Let #{B=(e_{1},\dots,e_{n})} and #{C=(f_{1},\dots,f_{n})} be two [ordered bases](ela-000Y) of #{V}. We may define the \define{Change of Basis Matrix} from #{B} to #{C} as the matrix
+##{M^{B}_{C}=([e_{1}]_{C}\mid\dots\mid[e_{n}]_{C})}
+so any vector #{v\in V} expressed in coordinates #{[v]_{B}} relative to #{B} may give us the coordinates of #{v} relative to #{C} as
+##{[v]_{C}=M^{B}_{C}[v]_{B}.}
+The subscript and superscripts are intended to convey an intuition that they behave "like" fractions. (Einstein is credited/blamed for this sort of convention.)}

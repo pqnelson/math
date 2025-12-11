@@ -1,0 +1,7 @@
+\title{Inverse relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+
+\p{Let #{R} be a relation. We define the \define{Inverse} of #{R} to be the relation #{R^{-1}=\{(y,x)\mid(x,y)\in R\}}.}

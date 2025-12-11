@@ -1,0 +1,11 @@
+\title{Direct sum of spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 1.36}
+\meta{source}{[[lankham-2016-linear]] Definition 4.4.3}
+
+\p{Let #{U_{1},U_{2}\subset V} be subspaces of a vector space. We call #{U_{1}+U_{2}} the \define{Direct Sum} if each element of #{U_{1}+U_{2}} can be written in only one way as a sum #{u_{1}+u_{2}} where #{u_{1}\in U_{1}} and #{u_{2}\in U_{2}}.}
+
+\p{In this case, we write #{U_{1}\oplus U_{2}}.}

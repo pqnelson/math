@@ -1,0 +1,25 @@
+\title{Real vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{A \define{Real Vector Space} consists of a set #{V} with two binary operators, scalar multiplication #{\odot\colon\RR\times V\to V} and vector addition #{\oplus\colon V\times V\to V}, such that:}
+
+\ol{
+\li{Closure of #{\oplus}: for any #{u,v\in V}, we have #{u\oplus v\in V};}
+\li{Commutativity of #{\oplus}: for any #{u,v\in V}, we have #{u\oplus v=v\oplus u};}
+\li{Associativity of #{\oplus}: for any #{u,v,w\in V}, we have #{(u\oplus v)\oplus w=u\oplus(v\oplus W)};}
+\li{Unit of #{\oplus}: there exists a #{\vec{0}\in V} such that for all #{u\in V} we have #{\vec{0}+u=u} and also #{u+\vec{0}=u};}
+\li{Existence of negation: for each #{u\in V}, there exists a #{-u\in V} such that #{u\oplus-u=\vec{0}};}
+\li{Closure of #{\odot}: for any real number #{c\in\RR} and for any #{u\in V}, we have #{c\odot u\in V};}
+\li{Left distributivity of #{\odot} over #{\oplus}: for any #{c\in\RR} and #{u,v\in V}, we have #{c\odot(u\oplus v)=(c\odot u)\oplus(c\odot v)};}
+\li{Right distributivity of #{\odot} over #{\oplus}: for any #{c,d\in\RR} and #{u,v\in V}, we have #{(c+d)\odot u=(c\odot u)\oplus(d\odot u)};}
+\li{Unit of #{\odot}: for any #{u\in V}, #{1\odot u=u}}
+}
+\p{We call elements of #{V} \define{Vectors} of #{V}.}
+
+\p{Notation varies book to book, especially with introductory linear algebra. Later on in Mathematics (and physics) we just write #{u+v} for vector addition and #{c\cdot u} or #{cu} for scalar multiplication. But since we are trying to be explicit and clear, we demarcate vector addition and scalar multiplication with separate notation from field operations.}
+
+\p{We could replace the real numbers #{\RR} with the complex numbers #{\CC} to define a notion of a complex vector space, nothing changes except where the scalars live.}

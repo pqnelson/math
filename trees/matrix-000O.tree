@@ -1,0 +1,12 @@
+\title{Transpose is idempotent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{theorem}
+\import{ela}
+
+\p{For any matrix #{\mat{A}}, we have #{\transpose{(\transpose{\mat{A}})}=\mat{A}}.}
+
+\proof{
+\p{Let #{\mat{B}=\transpose{\mat{A}}}. Then #{(\transpose{\mat{B}})_{i,j} = (\mat{B})_{j,i}} by definition of the transpose, and #{(\transpose{\mat{B}})_{i,j} = (\mat{B})_{j,i} = (\transpose{\mat{A}})_{j,i} = (\mat{A})_{i,j}}. Hence when we combine everything together we have #{\left(\transpose{(\transpose{\mat{A}})}\right)_{i,j} = (\mat{A})_{i,j}}, as desired.}
+}

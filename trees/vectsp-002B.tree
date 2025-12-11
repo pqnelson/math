@@ -1,0 +1,10 @@
+\title{Parallelogram law}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.21}
+\meta{source}{[[lankham-2016-linear]] Theorem 9.3.4}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. Let #{u,v\in V}. Then using the [[vectsp-0029]] we have
+##{\norm{u+v}^{2}+\norm{u-v}^{2}=2(\norm{u}^{2}+\norm{v}^{2})}}

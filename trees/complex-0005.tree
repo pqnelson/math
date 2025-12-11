@@ -1,0 +1,15 @@
+\title{Multiplicative inverse of complex numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 2.2.6}
+\meta{source}{[[axler-1996-linear]] Definition 1.5}
+
+\p{For any nonzero #{z\in\CC}, #{z\neq0}, there exists a unique complex number denoted #{z^{-1}} such that #{zz^{-1}=1}. Moreover, if #{z=x+\I y} with #{x,y\in\RR}, then
+##{z^{-1}=\frac{x}{x^{2}+y^{2}}+\I\frac{-y}{x^{2}+y^{2}}}}
+
+\proof{\p{\textbf{Uniqueness:} Suppose there are two complex numbers #{w\in\CC} and #{v\in\CC} such that #{zv=1} and #{zw=1}. Then #{v=1v=(zw)v=(wz)v=w(zv)=w1=w}.}
+\p{\textbf{Existence:} Let #{z=x+\I y}. We see #{x^{2}+y^{2}>0} is nonzero, so the complex number
+##{w=\frac{x}{x^{2}+y^{2}}+\I\frac{-y}{x^{2}+y^{2}}}
+is well-defined. We just need to check #{zw=1}, but the trick is #{(x+\I y)(x-\I y)=x^{2}+y^{2}} and the result follows immediately.}}

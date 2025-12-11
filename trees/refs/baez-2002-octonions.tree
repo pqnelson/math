@@ -1,0 +1,16 @@
+\title{The Octonions}
+\author{john-c-baez}
+\date{2002}
+\meta{external}{https://arxiv.org/abs/math/0105155}
+\taxon{reference}
+
+\meta{bibtext}{\startverb
+@article{baez2002octonions,
+  title={The octonions},
+  author={Baez, John},
+  journal={Bulletin of the american mathematical society},
+  volume={39},
+  number={2},
+  pages={145--205},
+  year={2002}
+}\stopverb}

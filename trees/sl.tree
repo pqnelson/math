@@ -1,0 +1,32 @@
+\title{Special linear group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\def\Mat[n][R]{\mathrm{Mat}_{\n}(\R)}
+\def\tr[x]{\mathrm{tr}(\x)}
+\def\SL[n][R]{\mathrm{SL}_{\n}(\R)}
+\def\sl[n][R]{\mathfrak{sl}_{\n}(\R)}
+\def\iso{\cong}
+\def\GL[n][R]{\mathrm{GL}_{\n}(\R)}
+\def\EL[n][R]{\mathrm{EL}_{\n}(\R)}
+\def\e[n]{\mathfrak{e}_{\n}}
+
+
+\transclude{sl-0001}
+\transclude{sl-0002}
+\transclude{sl-0003}
+\transclude{sl-0009}
+\transclude{sl-000A}
+\transclude{sl-000B}
+\transclude{sl-0007}
+\transclude{sl-0008}
+\transclude{sl-0004}
+\transclude{sl-0005}
+\transclude{sl-0006}
+\scope{
+% https://www.forester-notes.org/0069/
+  \put\transclude/toc{false} % do not include them in the table of contents
+  \put\transclude/heading{false} % inline the transclusions
+  \put\transclude/numbered{false} % irrelevant when /heading is false
+\transclude{sl-000C}
+}

@@ -1,0 +1,13 @@
+\title{Ordered pairs implement their specification}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.6}
+\MML{xtuple_0}{1}{T1}
+
+\p{Let #{a}, #{b}, #{c}, #{d} be objects. If #{(a,b)=(c,d)}, then #{a=c} and #{b=d}.}
+
+\proof{\p{We boild this proof down to two cases: either #{c=d} or not. We assume #{(a,b)=(c,d)}.}
+\p{\textbf{Case 1:} #{c=d}. Then #{(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}} and #{(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}} requires #{\{a,b\}=\{c\}} which implies #{a=b=c}. Hence #{a=b=c=d} which implies #{a=c} and #{b=d} as desired.}
+\p{\textbf{Case 2:} #{c\neq d}. Then #{\{a\}\neq\{c,d\}}, so #{\{a\}=\{c\}}, which means #{a=c}. Then we see #{(a,b)=(c,b)=(c,d)} which implies #{\{c,b\}=\{c,d\}} which means #{b=d}. Hence #{a=c} and #{b=d}.}}

@@ -1,0 +1,21 @@
+\title{Vector Space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 1.20}
+\meta{source}{[[lankham-2016-linear]] Definition 4.1.1}
+
+\p{Let #{\FF} be a [[field-0001]]. A \define{Vector Space} over #{\FF} consists of a set #{V} equipped with vector addition #{+\colon V\times V\to V} and scalar multiplication #{\cdot\colon\FF\times V\to V} such that:}
+
+\ol{
+\li{Commutativity: for all #{u,v\in V}, we have #{u+v=v+u}}
+\li{Associativity: for all #{u,v,w\in V}, we have #{(u+v)+w=u+(v+w)}}
+\li{Additive identity: there exists a #{\vec{0}\in V} such that for all #{v\in V} we have #{v+\vec{0}=v}}
+\li{Additive inverse: for each #{v\in V} there exists a #{w\in V} such that #{v+w=\vec{0}}}
+\li{Associativity of scalar multiplication: for all #{v\in V} and #{a,b\in\FF}, we have #{(ab)v=a(bv)}}
+\li{Multiplicative identity: The multiplicative unital element #{1\in\FF} is such that for all #{v\in V} we have #{1v=v}}
+\li{Distributivity: for all #{a,b\in\FF} and #{u,v\in V} we have #{a(u+v)=au+av} and #{(a+b)v=av+bv}}
+}
+
+\p{Compare this to the definition of a [[ela-000E]] from elementary linear algebra. When #{\FF=\RR}, we call #{V} a \define{real vector space}. When #{\FF=\CC}, we call #{V} a \define{Complex Vector Space}.}

@@ -1,0 +1,20 @@
+\title{Block Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{It is useful to draw horizontal and vertical lines (either dashed or slid, it makes no difference except for typography), to partition a matrix into blocks, permitting us to write
+##{\mat{A} = \left[
+    \begin{array}{c:c}
+        \mat{B} & \mat{C} \\ \hdashline
+        \mat{D} & \mat{E} 
+    \end{array}
+\right] = \left[
+    \begin{array}{c|c}
+        \mat{B} & \mat{C} \\ \hline
+        \mat{D} & \mat{E} 
+    \end{array}
+\right].}
+We could partition a matrix however we want, and we call the blocks \define{Submatrices} of #{\mat{A}}. Writing #{\mat{A}} in this manner is called a \define{Block Decomposition} of #{\mat{A}}.}

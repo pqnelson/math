@@ -1,0 +1,15 @@
+\title{Fundamental Theorem of Algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Lemma 3.1.1}
+
+\p{Let #{n\in\NN} be a positive integer, let #{a_{0},\dots,a_{n}\in\CC} be complex numbers with #{a_{n}\neq0}. Then the polynomial equation
+##{a_{n}z^{n}+\dots+a_{1}z+a_{0}=0}
+has at least one solution in #{z\in\CC}.}
+
+\p{(It seems like every field has its own proof of the fundamental theorem of algebra, so I will link them here:)}
+\ul{
+\li{Proof: [[complex-000K]]}
+}

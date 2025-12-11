@@ -1,0 +1,7 @@
+\title{Inverse function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+
+\p{Let #{f\colon X\to Y} be a function. We call a function #{g\colon Y\to X} the \define{Inverse} of #{f} if #{f\circ g=\id_{Y}} and #{g\circ f=\id_{X}}. When such a #{g} exists, we denote it by #{f^{-1}}.}

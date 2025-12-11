@@ -1,0 +1,16 @@
+\title{Linear Algebra Done Right}
+\taxon{reference}
+\date{1996}
+\author{sheldon-jay-axler}
+
+\meta{doi}{10.1007/978-3-031-41026-0}
+\meta{external}{https://linear.axler.net/}
+
+\meta{bibtex}{\startverb
+@book{axler1996linear,
+  author={Axler, Sheldon},
+  title={Linear Algebra Done Right},
+  publisher={Springer},
+  year={1996},
+  edition={Fourth}
+}\stopverb}

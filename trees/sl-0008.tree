@@ -1,0 +1,13 @@
+\title{Baez-ian Special Linear Group over Octonions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-25}
+\taxon{corollary}
+\import{sl}
+\meta{source}{Corollary 4.2 in \cite{petyt-2018-special}}
+
+\p{In particular, for #{n\geq3}, we have #{\SL{n}{\Octonions}\iso\SL{8n}{\Reals}}.}
+
+\proof{\p{From the [previous theorem](sl-0007.tree), we have #{\sl{n}{\Octonions}\iso\sl{8n}{\Reals}}. Then exponentiating this gives the result.}}
+
+\p{Compare this to Sudbery's definition, Eq (5.5) in \cite{sudbery-1984-division}, for #{\sl{n}{\Octonions}} as left multiplication by traceless elements of #{\mathfrak{h}_{n}(\Octonions)} together with its derivations. Chevalley and Schafer's "[[chevalley-1950-exceptional]]" prove this is isomorphic with #{\e{6}}.}

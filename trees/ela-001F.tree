@@ -1,0 +1,10 @@
+\title{Inverse of linear operator is a linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{V} be a real vector space. Let #{L\colon V\to V} be a linear operator of #{V}. If there exists an inverse function #{L^{-1}\colon V\to V}, then #{L^{-1}} is a linear operator on #{V}.}
+
+\proof{\p{More generally, if we have two linear transformations #{L_{1}\colon V\to W} and #{L_{2}\colon W\to X}, then their composition #{L_{2}\circ L_{1}} is a linear transformation from #{V} to #{X}. The result follows from the fact #{\id_{V}} and #{L} are linear operators.}}

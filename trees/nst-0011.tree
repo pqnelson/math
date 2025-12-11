@@ -1,0 +1,13 @@
+\title{Equivalence relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.7}
+\MML{eqrel_1}{def}{NM2}
+
+\p{Let #{X} be a set. We define an \define{Equivalence Relation} of #{X} to be a [reflexive](nst-000Y) [symmetric](nst-000Z) [transitive](nst-0010) relation of #{X}.}
+
+\p{For example, #{R=\{(x,x)\mid x\in X\}} is always an equivalence relation of #{X} which describes equality of elements of #{X}.}
+
+\p{More generally, an equivalence relation is a generalization of equality. Consequently, it is common to use notation like #{\sim}, #{\approx}, #{\equiv}, #{\cong} for equivalence relations.}

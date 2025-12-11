@@ -1,0 +1,19 @@
+\title{Properties of orthogonal projection}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.49}
+\meta{source}{[[lankham-2016-linear]] Section 9.6}
+
+\p{Let #{V} be a [finite-dimensional](vectsp-001O) [[vectsp-0020]] over #{\FF}. Let #{U\subset V} be a subspace of #{V}. Then the following all hold:}
+\ol{
+\li{#{P_{U}\in\mathcal{L}(V)} is a linear operator of #{V}}
+\li{For any #{u\in U}, we have #{P_{U}(u)=u}}
+\li{For any #{w\in U^{\perp}}, we have #{P_{U}(w)=\vec{0}}}
+\li{#{\ran(P_{U})=U}}
+\li{#{\ker(P_{U})=U^{\perp}}}
+\li{#{P_{U}^{2}=P_{U}}}
+\li{For each #{v\in V} we have #{v-P_{U}(v)\in U^{\perp}}}
+\li{For each #{v\in V}, we have #{\norm{P_{U}(v)}\leq\norm{v}}}
+}

@@ -1,0 +1,8 @@
+\title{Matrix Power obeys Power Law}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be any square matrix, let #{p} and #{q} be non-negative integers. Then #{(\mat{A}^{p})^{q} = \mat{A}^{pq}} and #{\mat{A}^{p}\mat{A}^{q}=\mat{A}^{p+q}}.}

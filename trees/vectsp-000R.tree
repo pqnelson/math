@@ -1,0 +1,14 @@
+\title{Linear Dependence Lemma}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{lemma}
+\meta{source}{[[axler-1996-linear]] Lemma 2.19}
+\meta{source}{[[lankham-2016-linear]] Lemma 5.2.7}
+\import{ela}
+
+\p{Let #{v_{1},\dots,v_{m}\in V} be [linearly dependent](vectsp-000Q). If #{v_{1}\neq0}, then there exists an index #{j\in\{2,\dots,m\}} such that the following hold:}
+\ol{
+\li{#{v_{j}\in\span{v_{1},\dots,v_{j-1}}}}
+\li{If #{v_{j}} is removed from #{\{v_{1},\dots,v_{m}\}}, then #{\span{v_{1},\dots,\hat{v}_{j},\dots,v_{m}}=\span{v_{1},\dots,v_{m}}}}
+}

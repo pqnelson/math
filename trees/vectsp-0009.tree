@@ -1,0 +1,15 @@
+\title{Scalar multiplication by zero gives zero vector}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.30}
+\meta{source}{[[lankham-2016-linear]] Proposition 4.2.3}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{v\in V} and #{0_{F}\in\FF}. Then #{0_{F}v=\vec{0}}.}
+
+\proof{\p{We see by distributivity,
+##{0_{F}v=(0_{F}+0_{F})v=0_{F}v+0_{F}v,}
+and then subtracting #{0_{F}v} from both sides yields
+##{\vec{0}=0_{F}v-0_{F}v=(0_{F}v+0_{F}v)-0_{F}v=0_{F}v}
+as desired.}}

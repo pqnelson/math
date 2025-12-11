@@ -1,0 +1,12 @@
+\title{Production of Commodities by Means of Commodities}
+\author{piero-sraffa}
+\date{1960}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@book{sraffa1960production,
+  author={Sraffa, Piero},
+  title={Production of Commodities by Means of Commodities},
+  year={1960},
+  publisher={Cambrdige University Press}
+}\stopverb}

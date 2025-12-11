@@ -1,0 +1,9 @@
+\title{Linear map lemma}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{lemma}
+\meta{source}{[[axler-1996-linear]] Lemma 3.4}
+\meta{source}{[[lankham-2016-linear]] Theorem 6.1.3}
+
+\p{Let #{V} and #{W} be finite-dimensional vector spaces over #{\FF}. Suppose #{v_{1},\dots,v_{n}} is a basis of #{V}, and suppose #{w_{1},\dots,w_{n}} is a basis of #{W}. Then there exists a unique linear map #{T\colon V\to W} such that #{T(v_{i})=w_{i}} for each #{i=1,\dots,n}.}

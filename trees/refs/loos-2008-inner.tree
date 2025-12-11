@@ -1,0 +1,20 @@
+\title{Inner derivations of alternative algebras over commutative rings}
+\taxon{reference}
+\date{2008}
+\author{ottmar-loos}
+\author{holger-petersson}
+\author{michel-racine}
+\meta{doi}{10.2140/ant.2008.2.927}
+\meta{external}{https://projecteuclid.org/journals/algebra-and-number-theory/volume-2/issue-8/Inner-derivations-of-alternative-algebras-over-commutative-rings/10.2140/ant.2008.2.927.full}
+
+\meta{bibtex}{\startverb
+@article{loos2008inner,
+  title={Inner derivations of alternative algebras over commutative rings},
+  author={Loos, Ottmar and Petersson, Holger and Racine, Michel},
+  journal={Algebra \& Number Theory},
+  volume={2},
+  number={8},
+  pages={927--968},
+  year={2008},
+  publisher={Mathematical Sciences Publishers}
+}\stopverb}

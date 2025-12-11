@@ -1,0 +1,13 @@
+\title{Jordan algebras}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\def\herm[n][A]{\mathfrak{H}(\n,\A)}
+\def\tracelessherm[n][A]{\mathfrak{H}_{0}(\n,\A)}
+
+\transclude{jordan-0001}
+\transclude{jordan-0002}
+\transclude{jordan-0003}
+\transclude{jordan-0004}
+\transclude{jordan-0005}
+\transclude{jordan-0006}

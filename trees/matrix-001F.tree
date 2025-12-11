@@ -1,0 +1,16 @@
+\title{Solving systems of equations with matrix inversion}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\import{ela}
+
+\p{So we can write a system of #{m} equations in #{n} unknowns using an #{m\times n} matrix #{\mat{A}} and a #{n}-vector #{\vec{b}} as
+##{\mat{A}\vec{x} = \vec{b}.}
+We can solve it by multiplying both sides by the left inverse of #{\mat{A}}. When #{m=n}, the left-hand side becomes:
+##{\begin{align*}
+\mat{A}^{-1}(\mat{A}\vec{x})&=(\mat{A}^{-1}\mat{A})\vec{x}\\
+&=\mat{I}_{n}\vec{x}\\
+&=\vec{x}
+\end{align*}}
+The right-hand side becomes #{\mat{A}^{-1}\vec{b}}. So we find the solution:
+##{\vec{x} = \mat{A}^{-1}\vec{b}.}}

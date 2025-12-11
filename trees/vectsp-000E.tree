@@ -1,0 +1,8 @@
+\title{Trivial subspaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{example}
+\meta{source}{[[lankham-2016-linear]] Example 4.3.4}
+
+\p{Let #{V} be a vector space over #{\FF}. Then #{V} is a subspace of #{V} and also #{\{\vec{0}\}} is a subspace of #{V}. They are called the \define{Trivial Subspaces} of #{V}.}

@@ -1,0 +1,8 @@
+\title{Matrix of a linear transformation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} and #{W} be finite-dimensional real vector spaces. Let #{B_{V}=(e_{1},\dots,e_{m})} and #{B_{W}=(f_{1},\dots,f_{n})} be [ordered bases](ela-000Y) for #{V} and #{W}, respectively. Let #{L\colon V\to W} be a linear transformation. Then we define the \define{Matrix} of #{L} relative to bases #{B_{V}} and #{B_{W}} to be the #{m\times n} matrix #{\mat{M}} such that the #{j^{\text{th}}} column is given by the [coordinates](ela-0011) #{[L(e_{j})]_{B_{W}}}.}

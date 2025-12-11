@@ -1,0 +1,15 @@
+\title{Determinant of linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 9.32}
+\meta{source}{[[lankham-2016-linear]] Definition 8.2.1}
+
+\p{Let #{V} be a [[vectsp-000O]] over #{\FF}. Let #{B=(e_{1},\dots,e_{n})} be an ordered basis of #{V}. Let #{L\colon V\to V} be a linear operator of #{V}. Suppose #{M(L)=(a_{ij})} is the matrix of #{L} with respect to #{B}. Then we define the \define{Determinant} of #{L} to be
+##{\det(L)=\sum_{\pi\in S_{n}}\sgn(\pi)a_{1,\pi(1)}a_{2,\pi(2)}(\dots)a_{n,\pi(n)}}
+where the sum is taken over all #{n!} permutations.}
+
+\p{Compare this to the [notion](matrix-001J) in elementary linear algebra.}
+
+\p{To prove this is well-defined, we should prove this is independent of choice of basis. If we changed basis to a basis #{C}, then #{[L]_{C}=M^{B}_{C}[L]_{B}M^{C}_{B}} and the determinant of both  sides are the same since #{M^{B}_{C}=(M^{C}_{B})^{-1}}, [[matrix-001Z]], and [[matrix-001V]].}

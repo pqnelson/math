@@ -1,0 +1,24 @@
+\title{mule and donkey}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{example}
+\meta{source}{[[euler-1765-elements]], Ch IV §4 question 3, par.612}
+
+\p{A mule and donkey carry a large load. The donkey complained of his load and said to the mule, "I need only 100 pounds of your load to make mine twice as heavy as yours would be." To which the mule answered, "But if you gave me 100 pounds of your load, I'd be carrying three times you would carry." How much did they carry?}
+
+\p{Let #{d} be the donkey's load, #{m} be the mule's load. The donkey's statement could be presented in the equation,
+##{d + 100 = 2(m - 100),}
+whereas the mule's response,
+##{m + 100 = 3(d - 100).}
+From the first of these equations, we find
+##{d = 2m - 300.}
+We plug this into the second equation to find
+##{\begin{split}
+  m + 100 &= 3(2m - 400)\\
+  &= 6m - 1200.
+\end{split}}
+Hence the mule carries,
+##{m = \frac{1300}{5} = 260~\hbox{pounds},}
+and this means the donkey carries,
+##{d = 520 - 300 = 220~\hbox{pounds}.}}

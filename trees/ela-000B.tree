@@ -1,0 +1,51 @@
+\title{Matrix Algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+
+\p{Now, we want to define binary operators on matrices.
+But we don't want these definitions to be arbitrary. We want:
+\ol{\li{Matrix multiplication produce a system of linear equations,}
+\li{Matrix addition of vectors recovers the familiar operation in vector calculus.}}}
+
+\transclude{matrix-000E}
+\transclude{matrix-000F}
+\transclude{matrix-000G}
+\transclude{matrix-000H}
+\transclude{matrix-000I}
+\transclude{matrix-000J}
+\transclude{matrix-000K}
+\transclude{matrix-000L}
+\transclude{matrix-000M}
+\transclude{matrix-000N}
+\transclude{matrix-000O}
+\transclude{matrix-000P}
+\transclude{matrix-000Q}
+\transclude{matrix-000R}
+\transclude{matrix-000S}
+\transclude{matrix-000T}
+\transclude{matrix-000U}
+\transclude{matrix-000V}
+\transclude{matrix-000W}
+\transclude{matrix-000X}
+\transclude{matrix-000Y}
+\transclude{matrix-000Z}
+\transclude{matrix-0010}
+\transclude{matrix-0011}
+\transclude{matrix-0012}
+\transclude{matrix-001B}
+\transclude{matrix-0013}
+\transclude{matrix-0014}
+\transclude{matrix-0015}
+\transclude{matrix-0016}
+\transclude{matrix-0017}
+\transclude{matrix-0018}
+\transclude{matrix-0019}
+\transclude{matrix-001A}
+\transclude{matrix-001C}
+\transclude{matrix-001D}
+\transclude{matrix-001E}
+\transclude{matrix-001F}
+\transclude{matrix-001G}
+\transclude{matrix-001H}
+\transclude{matrix-001I}

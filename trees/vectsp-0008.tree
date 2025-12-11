@@ -1,0 +1,10 @@
+\title{Additive inverse and vector subtraction}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{notation}
+\meta{source}{[[axler-1996-linear]] Notation 1.28}
+
+\p{Let #{V} be a vector space over #{\FF}. We denote by #{-v} the additive inverse of #{v\in V}.}
+
+\p{Similarly, for any #{v,w\in V}, we denote by #{v-w} the expression #{v+(-w)}.}

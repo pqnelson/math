@@ -1,0 +1,9 @@
+\title{Ideal of Jordan algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\taxon{definition}
+\meta{source}{\cite{baez-2002-octonions}}
+
+\p{We define an \define{Ideal} of #{(J,\circ)} to be a subspace #{B\subset J} such that #{b\in B} implies #{a\circ b\in B} for every #{a\in J}. This generalizes the familiar notion of an ideal from rings (and things).}
+

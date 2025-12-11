@@ -1,0 +1,9 @@
+\title{Existence of real field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{theorem}
+\meta{source}{[[baby-rudin]], 1.19}
+
+\p{There exists an ordered field #{R} which has the [[ca-0007]]. Moreover, #{R} contains the rational numbers #{\QQ} as a subfield.}
+

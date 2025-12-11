@@ -1,0 +1,9 @@
+\title{Surjective function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{f\colon X\to Y} be a function. We say #{f} is \define{Surjective} (or that it's a \emph{surjection}) if for each #{y\in Y} there is at least one #{x\in X} such that #{f(x)=y}.}
+
+\p{In other words, the [image](ela-001B) of #{f} is the [codomain](ela-001C) of #{f}. Or more vividly, #{f} "covers" all of #{Y}.}

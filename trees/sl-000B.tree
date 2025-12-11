@@ -1,0 +1,54 @@
+\title{Right multiplication by octonion as a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-06-01}
+
+\p{When multiplying an octonion \emph{on the right}, it is less elegantly expressed than as a block matrix of quaternionic operations. We recall,
+##{\begin{split}(a+\ell b)(c + \ell d)&=ac + \ell(\overline{a}d)+\ell(cb)-d\overline{b}\\
+&=ac - d\overline{b} + \ell(\overline{a}d + cb)\end{split}}
+which gives us the operation for multiplying on the right by #{c+\ell d}. The trick is to remember we are thinking of octonions as a vector of 8 real numbers (or, an ordered pair consisting of 4 real numbers each). Complex conjugation is just #{\mathrm{diag}(1,-1,-1,-1)=C}. Then we have
+##{R_{c+\ell d} = \begin{pmatrix}R_{c} & -L_{d}C\\
+R_{d}C & L_{c}\end{pmatrix}}
+At least, if I have done the algebra correctly. We also can express
+##{R_{c+d\ell} = \begin{pmatrix}R_{c} & -L_{\overline{d}}\\R_{d} & R_{\overline{c}}\end{pmatrix}}
+which does not require any "quaternion conjugation".}
+
+\p{We should have (according to section 2.3 of [[wilson-2023-octonionic]])
+##{L_{\ell} = (-R_{\ell}+R_{i}R_{i\ell}+R_{j}R_{j\ell}+R_{k}R_{k\ell})/2.}
+Do we have this? Well, it is not too hard to see
+##{\begin{split}
+R_{i\ell}(a_{0}+a_{1}i+a_{2}j+a_{3}k)
+&=(a_{0}+a_{1}i+a_{2}j+a_{3}k)(i\ell)\\
+&=(a_{0}i - a_{1} + a_{2}ij + a_{3}ik)\ell\end{split}}
+Then
+##{\begin{split}
+R_{i}R_{i\ell}(a_{0}+a_{1}i+a_{2}j+a_{3}k)
+&=(a_{0}i - a_{1} + a_{2}ij + a_{3}ik)\ell i\\
+&=(a_{0}i(-i) - a_{1}(-i) + a_{2}ij(-i) + a_{3}ik(-i))\ell\\
+&=(a_{0} + a_{1}i - a_{2}j - a_{3}k)\ell\end{split}}
+Similarly, we find
+##{R_{j}R_{j\ell}(a_{0}+a_{1}i+a_{2}j+a_{3}k)=(a_{0}-a_{1}i+a_{2}j-a_{3}k)\ell}
+and
+##{R_{k}R_{k\ell}(a_{0}+a_{1}i+a_{2}j+a_{3}k)=(a_{0}-a_{1}i-a_{2}j+a_{3}k)\ell}
+This gives us
+##{\boxed{\frac{1}{2}(-R_{\ell}+R_{i}R_{i\ell}+R_{j}R_{j\ell}+R_{k}R_{k\ell})a=\overline{a}\ell.}}
+We also find
+##{\begin{split}
+R_{i\ell}(b_{0}\ell + b_{1}i\ell + b_{2}j\ell + b_{3}k\ell)
+&= b_{0}\ell(i\ell)+b_{1}(i\ell)^{2}+b_{2}(j\ell)(i\ell)+b_{3}(k\ell)(i\ell)\\
+&= b_{0}i - b_{1} + b_{2}ij + b_{3}ik\end{split}}
+which then gives us
+##{\begin{split}
+R_{i}R_{i\ell}(b_{0}\ell + b_{1}i\ell + b_{2}j\ell + b_{3}k\ell)
+&= b_{0}i^{2} - b_{1}i + b_{2}iji + b_{3}iki\\
+&= - b_{0} - b_{1}i + b_{2}j + b_{3}k\end{split}}
+Similar reasoning gives analogous results for the other terms, giving us
+##{\boxed{(-R_{\ell}+R_{i}R_{i\ell}+R_{j}R_{j\ell}+R_{k}R_{k\ell})(b\ell)=-2\overline{b}.}}
+Combining these boxed equations together gives us the result for an arbitrary octonion #{a+b\ell}, provided we recall #{\ell a=\overline{a}\ell} and #{\ell(b\ell)=-\overline{b}}.}
+
+\p{It's not hard to see that
+##{L_{i}L_{i\ell} = (-R_{\ell}+R_{i}R_{i\ell}-R_{j}R_{j\ell}-R_{k}R_{k\ell})/2}
+and similar results for #{L_{j}L_{j\ell}} and #{L_{k}L_{k\ell}}. Combining results, we obtain
+##{\boxed{L_{\ell}+L_{i}L_{i\ell}+L_{j}L_{j\ell}+L_{k}L_{k\ell}=-2R_{\ell}.}}
+This allows us to write conjugation as
+##{-L_{\ell}R_{\ell}a=\overline{a}.}}

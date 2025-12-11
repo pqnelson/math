@@ -1,0 +1,12 @@
+\title{Puzzles about matrix equality}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\import{ela}
+
+\ol{
+\li{Will every matrix #{\mat{A}} satisfy #{\mat{A} = \mat{A}}? (Mathematicians call this property "reflexivity", and most "equality-like" relations should have it.)}
+\li{If #{\mat{A} = \mat{B}}, is it true or false that #{\mat{B} = \mat{A}}? Prove it or find a counter-example.}
+\li{If #{\mat{A} = \mat{B}} and #{\mat{B} = \mat{C}}, is it true or false that #{\mat{A} = \mat{C}}? Prove it or find a counter-example. These first three properties are true for 'equivalence relations' (binary relations which loosely resemble equality).}
+\li{Let #{n\neq p}. If #{\mat{A}} is an #{0\times n} matrix, and if #{\mat{B}} is a #{0\times p} matrix, then is it true or false that #{\mat{A}=\mat{B}}?}
+}

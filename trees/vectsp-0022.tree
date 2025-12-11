@@ -1,0 +1,12 @@
+\title{Inner products for polynomials}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\meta{source}{[[axler-1996-linear]] Example 6.3}
+\meta{source}{[[lankham-2016-linear]] Example 9.1.5}
+
+\p{Consider #{\CC[z]}. We can define several different inner products for #{\CC[z]}. Let #{p(z)} and #{q(z)} be polynomials. Then:}
+\ol{
+\li{#{\langle p,q\rangle = \int^{\infty}_{0}p(z)\overline{q(z)}\E^{-z}\,\D z} integrated along the real axis}
+\li{#{\langle p,q\rangle = \int_{D}p(z)\overline{q(z)}\,\D z} integrated over the unit disc #{D} centered at the origin}
+}

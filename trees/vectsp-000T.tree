@@ -1,0 +1,12 @@
+\title{Basis of vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 2.26}
+\meta{source}{[[lankham-2016-linear]] Definition 5.3.1}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional vector space over #{\FF}. Let #{v_{1},\dots,v_{m}\in V} be vectors. We say #{B=\{v_{1},\dots,v_{m}\}} is a \define{Basis} of #{V} if #{B} is [linearly independent](vectsp-000Q) and #{\span{B}=V}.}
+
+\p{Compare this to [[ela-000U]] from elementary linear algebra.}

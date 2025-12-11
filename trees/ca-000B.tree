@@ -1,0 +1,16 @@
+\title{Uniqueness of Real Field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{theorem}
+
+\p{Suppose we have two ordered fields #{R_{1}} and #{R_{2}} which both have the [[ca-0007]] and each contain the rational numbers #{\QQ} as a subfield. Then there exists an order-preserving field isomorphism #{f\colon R_{1}\to R_{2}}, i.e., #{R_{1}} is isomorphic to #{R_{2}}.}
+
+\p{Since the ordered field #{R} with the LUB property and containing #{\QQ} is essentially unique, we refer to it as the \define{Real Numbers} and write it as #{\RR}.}
+
+\proof{\p{Just a sketch of the proof.}
+\p{\strong{Step 1:} the fields #{R_{1}} and #{R_{2}} are both character zero, i.e., there is no #{n\in\NN} such that #{1_{R} + \cdots + 1_{R}=0} (the sum of #{n} copies of #{1_{R}} vanishes). This is never true for either #{R_{1}} or #{R_{2}}.}
+\p{\strong{Step 2:} #{\QQ} is order-dense in #{R_{i}}.}
+\p{\strong{Step 3:} Let #{f_{0}\colon \QQ\cap R_{1}\to R_{2}} be a function taking #{\QQ} to #{\QQ} in the sense that if #{q\in R_{1}\cap\QQ}, then #{f_{0}(q)=q}.}
+\p{We extend this #{f_{0}} to #{f\colon R_{1}\to R_{2}} by #{f(r)=\sup\{f(q)\mid q<r\}} for all #{r\in R_{1}}. Then by the order-density of #{\QQ}, this #{f} is an order isomorphism.}
+\p{\strong{Step 4:} The #{f} we just constructed is a field isomorphism.}}

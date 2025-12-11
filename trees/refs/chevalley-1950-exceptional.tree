@@ -1,0 +1,17 @@
+\title{The Exceptional Simple Lie Algebras F4 and E6}
+\author{claude-chevalley}
+\author{richard-d-schafer}
+\date{1950}
+\taxon{reference}
+\meta{external}{https://www.pnas.org/doi/pdf/10.1073/pnas.36.2.137}
+
+\meta{bibtex}{\startverb
+@article{chevalley1950exceptional,
+  title={The exceptional simple Lie algebras F4 and E6},
+  author={Chevalley, Claude and Schafer, Richard D},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={36},
+  number={2},
+  pages={137--141},
+  year={1950}
+}\stopverb}

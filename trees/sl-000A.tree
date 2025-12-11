@@ -1,0 +1,34 @@
+\title{Left multiplication by octonion as matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-30}
+\taxon{remark}
+
+\p{We can also determine a matrix representation for the operator #{L_{a+\ell b}} left multiplication by the Octonion #{a+\ell b} (where #{a\in\Quaternions} and #{b\in\Quaternions}). This looks like:
+
+##{L_{a+\ell b} = \begin{pmatrix}L_{a} & -R_{\overline{b}}\\
+R_{b} & L_{\overline{a}}\end{pmatrix}}
+
+where #{L_{a}} and #{R_{b}} are the matrices discussed in [[sl-0009]]. We also can see:
+
+##{L_{a+b\ell} = \begin{pmatrix}L_{a} & -R_{b}C\\L_{b}C & L_{a}\end{pmatrix}}
+
+where #{C = \mathrm{diag}(+1,-1,-1,-1)} is the ``quaternion conjugation'' operation as a matrix.}
+
+
+\p{To see this, we should recall that the Octonions may be expressed as #{a+\ell b} with #{a\in\Quaternions} and #{b\in\Quaternions}, and we have:
+\ol{\li{#{a(\ell b)=\ell(\overline{a}b)}}
+\li{#{(a\ell)b=(a\overline{b})\ell}}
+\li{#{(\ell a)(b\ell) = -\overline{ab}}}
+\li{#{a\ell=\ell\overline{a}}}
+\li{#{\ell a=\overline{a}\ell}}
+\li{#{(\ell a)b=\ell(ba)}}
+\li{#{a(b\ell)=(ba)\ell}}
+\li{#{(\ell a)(\ell b)=-b\overline{a}}}
+\li{#{(a\ell)(b\ell)=-\overline{b}a}}}
+Then consider #{(a+\ell b)(c + \ell d)}. We find
+##{(a+\ell b)(c + \ell d)=ac + \ell(\overline{a}d)+\ell(cb)-d\overline{b}}
+which can be represented in matrix form as
+##{L_{a+\ell b}\begin{pmatrix}c\\ d\end{pmatrix} = \begin{pmatrix}L_{a} & -R_{\overline{b}}\\
+R_{b} & L_{\overline{a}}\end{pmatrix}\begin{pmatrix}c\\ d\end{pmatrix}}
+Hence the result.}

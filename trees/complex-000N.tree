@@ -1,0 +1,17 @@
+\title{}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Lemma 3.2.2}
+
+\p{Let #{n\in\NN} be a positive integer, let #{a_{0},\dots,a_{n}\in\CC} with #{a_{n}\neq0}. We define the function #{f\colon\CC\to\CC} by
+##{f(z)=a_{n}z^{n}+\dots+a_{1}z+a_{0}}
+Then the following all hold:}
+\ol{
+\li{For any #{w\in\CC}, we have #{f(w)=0} if there exists a polynomial #{g\colon\CC\to\CC} of degree #{\deg(g)=n-1} such that #{f(z)=(z-w)g(z)};}
+\li{There are at most #{n} distinct complex numbers #{w\in\CC} for which #{f(w)=0}; i.e., #{f} has at most #{n} distinct roots;}
+\li{(Fundamental theorem of algebra, 2.0) There exists #{n+1} complex numbers #{w_{0},\dots,w_{n}\in\CC} (not necessarily distinct) such that
+##{f(z)=w_{0}(z-w_{1})(z-w_{2})(\dots)(z-w_{n})}
+In other words, every polynomial function with coefficients over #{\CC} can be factored into linear factors over #{\CC}}
+}

@@ -1,0 +1,15 @@
+\title{Properties of bases of finite-dimensional vector spaces and subspaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorems 2.37, 2.38, 2.42}
+\meta{source}{[[lankham-2016-linear]] Theorem 5.4.4}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional vector space with #{n=\dim(V)}. Then the following all hold:}
+\ol{
+\li{Every subspace #{U\subset V} has #{\dim(U)\leq\dim(V)}.}
+\li{If #{V=\span{v_{1},\dots,v_{n}}}, then #{\{v_{1},\dots,v_{n}\}} is a basis of #{V}.}
+\li{If #{\{v_{1},\dots,v_{n}\}} is linearly independent in #{V}, then #{\{v_{1},\dots,v_{n}\}} forms a basis of #{V}.}
+}

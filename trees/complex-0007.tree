@@ -1,0 +1,17 @@
+\title{Properties of complex conjugation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 2.2.9}
+\meta{source}{[[axler-1996-linear]] Theorem 4.4}
+
+\p{Let #{z_{1}} and #{z_{2}\in\CC} be complex numbers. Then the following all hold:}
+\ol{
+\li{#{\overline{z_{1}+z_{2}}=\overline{z_{1}}+\overline{z_{2}}} (the conjugate of the sum is the sum of conjugates)}
+\li{#{\overline{z_{1}z_{2}}=\overline{z_{1}}\overline{z_{2}}} (the conjugate of products is the product of conjugates)}
+\li{#{\overline{1/z_{1}}=1/\overline{z_{1}}} when #{z_{1}\neq0}}
+\li{#{\overline{z_{1}}=z_{1}} if and only if #{\Im(z_{1})=0}}
+\li{#{\overline{\overline{z_{1}}}=z_{1}}}
+\li{#{\Re(z_{1})=\frac{1}{2}(z_{1}+\overline{z_{1}})} and #{\Im(z_{1})=\frac{1}{2\I}(z_{1}-\overline{z_{1}})}.}
+}

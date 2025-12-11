@@ -1,0 +1,12 @@
+\title{Elementary linear group is a subgroup of special linear group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-25}
+\import{sl}
+\taxon{theorem}
+
+\p{Let #{R} be a unital associative \textbf{commutative} ring, let #{n} be a natural number. Then #{\EL{n}{R}} is a subgroup of #{\SL{n}{R}}.}
+
+\proof{
+\p{The determinant of each generator for the elementary linear group is #{\det(I+rE_{ij})=1}, which means that the generating set for #{\EL{n}{R}} is a subset of #{\SL{n}{R}}. Hence the result.}
+}

@@ -1,0 +1,14 @@
+\title{Formally real}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\taxon{definition}
+\meta{source}{\cite{hall-2024-sandwich}}
+
+\p{A Jordan algebra #{(J,\circ)} is called \define{formally real} whenever for any #{n\in\Nat} and for any #{x_{1},\dots,x_{n}\in J}, we have:}
+
+##{x_{1}^{2}+\cdots+x_{n}^{2}=0\quad\hbox{implies}\quad x_{1}=\cdots=x_{n}=0}
+
+\p{Observe #{(\Reals,\circ)} is formally real.}
+
+\p{We can decompose formally real Jordan algebras into the direct sum of [simple](jordan-0005) Jordan algebras.}

@@ -1,0 +1,8 @@
+\title{Trace is sum of eigenvalues}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{M}} be an #{n\times n} matrix. Let #{\lambda_{1}}, \dots, #{\lambda_{n}} be its eigenvalues. Then the [trace](matrix-0021) of #{\mat{M}} is just the sum of its [eigenvalues](ela-001Q) of the matrix, i.e., #{\trace{\mat{M}}=\sum^{n}_{j=1}\lambda_{j}}.}

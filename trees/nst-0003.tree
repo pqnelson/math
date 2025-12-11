@@ -1,0 +1,7 @@
+\title{Empty set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+
+\p{Let #{X} be a set. We say #{X} is \define{Empty} if there is no object #{x} such that #{x\in X}.}

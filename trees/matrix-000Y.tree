@@ -1,0 +1,36 @@
+\title{Calculate a Matrix Product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{example}
+\import{ela}
+
+\p{Let us consider an example just to show the ``mechanics'' of matrix multiplication. Let
+##{\mat{A} = \begin{bmatrix}3 & 1 & 6\\2 & 1 & 3
+\end{bmatrix}.}
+and
+##{\mat{B} = \begin{bmatrix}
+    2 & 1 & 7\\
+    6 & 1 & 0\\
+    1 & -1 & 5
+\end{bmatrix}.}
+We see that #{\mat{A}\mat{B}} should be a #{2\times 3} matrix.}
+
+\p{Now, we can start calculating the first components, leaving the entries yet to be calculated as question marks:
+##{\begin{align*}
+\mat{A}\mat{B} &= \begin{bmatrix}\color{red}3 & \color{red}1 & \color{red}6\\2 & 1 & 3
+\end{bmatrix}\begin{bmatrix}
+\color{red} 2 & 1 & 7\\
+\color{red} 6 & 1 & 0\\
+\color{red} 1 & -1 & 5
+\end{bmatrix}\\
+&=\begin{bmatrix}3\cdot2+1\cdot6+6\cdot1 & ? & ?\\
+? & ? & ?\end{bmatrix}\\
+&=\begin{bmatrix}18 & ? & ?\\
+? & ? & ?\end{bmatrix}
+\end{align*}}}
+
+\p{Continuing along in the same manner, the reader can verify:
+##{\mat{A}\mat{B} = \begin{bmatrix}18 & -2 & 51\\
+    13 & 0 & 29
+  \end{bmatrix}}}

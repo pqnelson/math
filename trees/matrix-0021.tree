@@ -1,0 +1,8 @@
+\title{Trace of a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}=(a_{i,j})} be an #{n\times n} matrix. We define the \define{Trace} of #{A} to be the number #{\trace{\mat{A}}=\sum_{i=1}^{n}a_{i,i}} obtained by adding up all the diagonal entries of #{\mat{A}}.}

@@ -1,0 +1,12 @@
+\title{Householder transformation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional real vector space. Let #{\widehat{x}\in V} be a unit vector. We define the \define{Householder transformation} with respect to #{\widehat{x}} to be the function
+##{H_{x}\colon V\to V}
+sending #{H_{x}(v)=v-(\widehat{x}\cdot v)\widehat{x}} which appeared in our discussion of [[ela-0016]].}
+
+\p{We see that #{H_{x}} is a linear transformation.}

@@ -1,0 +1,11 @@
+\title{Isomorphic vector spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 3.69}
+\meta{source}{[[lankham-2016-linear]] Definition 6.7.4}
+
+\p{Let #{V} and #{W} be vector spaces over #{\FF}. We say #{V} and #{W} are \define{Isomorphic} if there exists a bijective linear transformation #{L\colon V\to W}. We will often write #{V\iso W} to indicate #{V} and #{W} are isomorphic.}
+
+\p{In this case, we often call #{L} an \define{Isomorphism}.}

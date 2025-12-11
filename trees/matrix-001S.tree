@@ -1,0 +1,14 @@
+\title{Determinant in terms of Levi-Civita symbols}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{For a #{3\times 3} matrix #{\mat{A}=(a_{i,j})}, we have #{\det(\mat{A})=\sum^{3}_{i=1}\sum^{3}_{j=1}\sum^{3}_{k=1}\varepsilon_{i,j,k}a_{1,i}a_{2,j}a_{3,k}}.}
+
+\p{For a #{4\times 4} matrix #{\mat{A}=(a_{i,j})}, we have #{\det(\mat{A})=\sum^{4}_{i=1}\sum^{4}_{j=1}\sum^{4}_{k=1}\sum^{4}_{\ell=1}\varepsilon_{i,j,k,\ell}a_{1,i}a_{2,j}a_{3,k}a_{4,\ell}}.}
+
+\p{For a generic #{n\times n} matrix #{\mat{A}=(a_{i,j})}, we have:}
+
+##{\det(\mat{A})=\sum^{n}_{i_{1}=1}\sum^{n}_{i_{2}=1}\dots\sum^{n}_{i_{n}=1}\varepsilon_{i_{1},i_{2},\dots,i_{n}}a_{1,i_{1}}a_{2,i_{2}}(\cdots)a_{n,i_{n}}}

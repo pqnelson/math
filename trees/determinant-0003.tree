@@ -1,0 +1,11 @@
+\title{Two-line notation for permutations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 9.31}
+\meta{source}{[[lankham-2016-linear]] Definition 8.1.2}
+
+\p{Let #{\pi\in S_{n}} be a permutation, and let us write #{\pi_{i}=\pi(i)} for #{i=1,\dots,n}. Then we introduce the \define{two-line notation} for #{\pi} by using the #{2\times n} matrix
+##{\pi=\begin{pmatrix}1 & 2 & \dots & n\\\pi_{1} & \pi_{2} & \dots & \pi_{n}\end{pmatrix}}
+The \define{one-line notation} writes just the second row of this matrix.}

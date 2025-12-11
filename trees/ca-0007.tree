@@ -1,0 +1,9 @@
+\title{Least-Upper-Bound Property}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], 1.10}
+
+\p{An [[ca-0003]] #{S} is said to have the \define{Least-Upper-Bound Property} if the following is true:}
+\p{For any subset #{E\subset S}, if #{E} is non empty and #{E} is [bounded above](ca-0003), then #{\sup(E)} exists in #{S}.}

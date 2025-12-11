@@ -1,0 +1,9 @@
+\title{Extreme value theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Theorem 3.1.2}
+
+\p{Let #{f\colon D\to\RR} be a continuous function on the closed disc #{D_{R}=\{(x_{1},x_{2})\in\RR^{2}\mid x_{1}^{2}+x_{2}^{2}\leq R^{2}\}} of radius #{R}. Then #{f} is bounded and attains its minimum and maximum values on #{D}. In other words, there exists points #{x_{\text{min}},x_{\text{max}}\in D} such that for all #{x\in D} we have
+##{f(x_{\text{min}})\leq f(x)\leq f(x_{\text{max}})}}

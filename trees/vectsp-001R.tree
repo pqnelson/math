@@ -1,0 +1,10 @@
+\title{Eigenspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 5.2}
+\meta{source}{[[lankham-2016-linear]] Section 7.2}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{L\colon V\to V} be a linear operator on #{V}. Then #{\lambda\in\FF} be an eigenvalue of #{L}. Then we define the \define{Eigenspace} of #{L} to be
+##{V_{\lambda}=\{v\in V\mid L(v)=\lambda v\}}}

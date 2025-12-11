@@ -1,0 +1,12 @@
+\title{Metric}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+
+\p{Let #{X} be a set. We define a \define{Metric} on #{X} to be a function #{d\colon X\times X\to\RR} such that:}
+\ol{
+\li{For any #{x\in X}, we have #{d(x,x)=0};}
+\li{Positivity: For any #{x,y\in X}, #{d(x,y)\geq0} and moreover #{d(x,y)=0} iff #{x=y}.}
+\li{Symmetry: For any #{x,y\in X}, we have #{d(x,y)=d(y,x)}.}
+\li{Triangle inequality: For any #{x,y,z\in X}, we have #{d(x,y)+d(y,z)\geq d(x,z)}.}}

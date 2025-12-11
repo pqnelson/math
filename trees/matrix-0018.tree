@@ -1,0 +1,15 @@
+\title{Fibonacci numbers from Matrix powers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{example}
+\import{ela}
+
+\p{Recall the Fibonacci numbers are defined by
+##{F_{n+1} = F_{n} + F_{n-1}}
+with #{F_{0}=0} and #{F_{1}=1}. We see that
+##{F_{n+2} = F_{n+1} + F_{n} = 2F_{n} + F_{n-1}.}
+This means that
+##{\begin{bmatrix}1 & 1\\1 & 2\end{bmatrix}\begin{bmatrix}F_{n-1}\\ F_{n}\end{bmatrix} = \begin{bmatrix}F_{n+1} \\ F_{n+2}\end{bmatrix}.}
+We can rearrange this, and use matrix powers, to simplify calculations to
+##{\begin{bmatrix}1 & 1\\1 & 2\end{bmatrix}^{n}\begin{bmatrix}0\\ 1\end{bmatrix} = \begin{bmatrix}F_{n+1} \\ F_{n+2}\end{bmatrix}.}}

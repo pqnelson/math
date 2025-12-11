@@ -1,0 +1,12 @@
+\title{Matrix of a scalar multiple of a linear map}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.38}
+\meta{source}{[[lankham-2016-linear]] Section 6.6}
+\import{ela}
+
+\p{Let #{V} and #{W} be [[vectsp-000O]]s over #{\FF}, let #{L\colon V\to W} be a linear map, let #{a\in\FF}.}
+
+\p{Then the matrix of a [scalar multiple](vectsp-0015) of #{L} is a [scalar multiple](matrix-000I) of the matrix, i.e., #{M(aL)=aM(L)}.}

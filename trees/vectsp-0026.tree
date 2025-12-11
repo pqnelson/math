@@ -1,0 +1,7 @@
+\title{Norm induced by inner product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\meta{source}{[[axler-1996-linear]] Definition 6.4}
+
+\p{Let #{V} be an inner product space over #{\FF}. Then #{\norm{v}=\sqrt{\langle v,v\rangle}} is a norm on #{V}.}

@@ -1,0 +1,14 @@
+\title{Hermitian matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-21}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A} = (a_{ij})} be a matrix over #{\Complex}. We call #{\mat{A}} \define{Hermitian} (or \define{Self-Adjoint}) if it is equal to its complex-conjugate transpose:}
+
+##{a_{ij} = \overline{a_{ji}}}
+
+\p{Or equivalently:}
+
+##{\mat{A} = \overline{\transpose{A}}}

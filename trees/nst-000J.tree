@@ -1,0 +1,11 @@
+\title{Complement of a subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.5}
+\MML{subset_1}{def 4}{K3}
+
+\p{Let #{X} be a subset of #{Y}. We define the \define{Complement} of #{X} to be the subset #{\Complement{X}} of #{Y} equal to #{Y\setminus X}.}
+
+\p{Some texts use #{\complement X} or #{X'} for the complement of #{X}.}

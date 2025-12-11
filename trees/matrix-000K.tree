@@ -1,0 +1,12 @@
+\title{Matrix Subtraction}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}=(a_{i,j})}, #{\mat{B}=(b_{i,j})} be two #{m\times n} matrices. We define their \define{Difference} to be the matrix #{\mat{A}-\mat{B} = \mat{A} + -1\cdot\mat{B}}. This gives us the \define{Matrix Subtraction} binary operator on #{m\times n} matrices.}
+
+\p{Similarly, the \define{(Matrix) Negation} of #{\mat{A}} is the matrix #{-\mat{A}=-1\cdot\mat{A}}. This is a unary operator on #{m\times n} matrices.}
+
+\rmk{Formally, if we were formalizing matrices with a proof assistant, we should first define the negation of a matrix. Then we use matrix negation to define matrix subtraction.}

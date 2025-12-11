@@ -1,0 +1,23 @@
+\title{Recovering System of Linear Equations from Matrices}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\import{ela}
+
+\p{This is pretty random, why on Earth should we accept it? Well, the biggest reason is because we recover a system of linear equations by multiplying an #{m\times n} matrix by an #{n\times 1} column vector.}
+
+\p{If we write our #{m\times n} matrix #{\mat{A}} as #{m} row vectors
+##{\mat{A} = \begin{bmatrix}\transpose{\vec{a}}_{1}\\
+    \transpose{\vec{a}}_{2}\\
+    \vdots\\
+    \transpose{\vec{a}}_{m}
+  \end{bmatrix}}
+then we see that multiplying it by our column vector #{\vec{x}} produces
+##{\mat{A}\vec{x} = \begin{bmatrix}\vec{a}_{1}\cdot\vec{x}\\
+    \vec{a}_{2}\cdot\vec{x}\\
+    \vdots\\
+    \vec{a}_{m}\cdot\vec{x}
+  \end{bmatrix}.}
+If we have an #{m}-vector of constants #{\vec{b}}, and #{\vec{x}} were a vector of unknowns, then
+##{\mat{A}\vec{x} = \vec{b}}
+is precisely a system of #{m} linear equations in #{n} unknowns. This is wonderful: it's what we were trying to do all along!}

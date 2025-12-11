@@ -1,0 +1,29 @@
+\title{Transpose of Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{example}
+\import{ela}
+
+\p{If we have
+##{\mat{A} = 
+\left[\begin{array}{ccccc}
+{\color{red}a_{1,1}} & {\color{red}a_{1,2}} & {\color{red}a_{1,3}} & {\color{red}\dots} & {\color{red}a_{1,n}}\\
+a_{2,1} & a_{2,2} & a_{2,3} & \dots & a_{2,n}\\
+a_{3,1} & a_{3,2} & a_{3,3} & \dots & a_{3,n}\\
+\vdots & \vdots & \vdots & \ddots & \vdots\\
+a_{m,1} & a_{m,2} & a_{m,3} & \dots & a_{m,n}
+  \end{array}\right],
+}
+(highlighting the first row to see where it goes, along with several
+select entries), then we find
+##{\transpose{\mat{A}} =
+\left[\begin{array}{ccccc}
+{\color{red}a_{1,1}} & a_{2,1} & a_{3,1} & \dots & a_{m,1}\\
+{\color{red}a_{1,2}} & a_{2,2} & a_{3,2} & \dots & a_{m,2}\\
+{\color{red}a_{1,3}} & a_{2,3} & a_{3,3} & \dots & a_{m,3}\\
+{\color{red}\vdots} & \vdots & \vdots & \ddots & \vdots\\
+{\color{red}a_{1,n}} & a_{2,n} & a_{3,n} & \dots & a_{m,n}
+\end{array}\right].
+}
+}

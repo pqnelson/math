@@ -1,0 +1,11 @@
+\title{}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{example}
+
+\p{Let #{(\RR,|\cdot|)} be the real numbers equipped with the absolute value [[ca-000H]] as a [[ca-000J]]: #{d(x,y):=|x-y|}. This is a [[ca-000K]].}
+
+\p{Let #{E=\{1/n\mid n\in\NN\}}. We see that #{E} has one [[ca-000O]] at #{0}, but no #{x\in E} is a limit point. Then #{E} is not a [[ca-000P]] of #{\RR} because #{0\notin E}.}
+
+\p{But #{E} is not an [[ca-000M]] either. Look at #{B_{r}(1/2)=(\frac{1}{2}-r,\frac{1}{2}+r)} which is not contained in #{E} for any #{r>0}.}

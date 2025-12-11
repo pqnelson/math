@@ -1,0 +1,7 @@
+\title{Ordered Basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{V} be a finite-dimensional real vector space. We define an \define{Ordered Basis} of #{V} to be a tuple #{(f_{1},\dots,f_{n})} of vectors #{f_{i}\in V} for each #{i=1,\dots,n} such that #{B=\{f_{1},\dots,f_{n}\}} is a basis of #{V}.}

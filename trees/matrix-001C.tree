@@ -1,0 +1,14 @@
+\title{Matrix Inverse}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. We call an #{n\times n} matrix #{\mat{B}} an \define{Inverse} of #{\mat{A}} if
+##{\mat{A}\mat{B}=\mat{B}\mat{A}=\mat{I}_{n}.}
+In this case, we call #{\mat{A}} \define{Invertible} (or \define{Nonsingular}).}
+
+\p{Otherwise, if no such #{\mat{B}} exists, then #{\mat{A}} is called a \define{Noninvertible} (or \define{Singular}) matrix.}
+
+\rmk{Observe that the [[matrix-0004]] is its own inverse. Not every matrix has an inverse, for example [[matrix-0003]] has no inverse.}

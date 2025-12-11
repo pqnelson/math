@@ -1,0 +1,13 @@
+\title{Matrix Inverse is Idempotent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+
+\p{Let #{\mat{A}} be an invertible matrix. Then #{(\mat{A}^{-1})^{-1}=\mat{A}}.}
+
+\proof{\p{Set #{\mat{B}} equal to #{\mat{A}^{-1}}. Then
+##{\mat{A}\mat{B} = \mat{B}\mat{A} = \mat{I}_{n}.}
+This means #{\mat{A} = \mat{B}^{-1}} by definition of the matrix inverse, which means (unfolding the definition of #{\mat{B}}) we have #{\mat{A} = (\mat{A}^{-1})^{-1}} as desired.}}

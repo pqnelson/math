@@ -1,0 +1,9 @@
+\title{Transitive relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.7}
+\MML{relat_2}{def 16}{V8}
+
+\p{Let #{R} be a relation, let #{F} be its [field](nst-000X). We say #{R} is \define{Transitive} if for all #{x\in F}, #{y\in F}, and #{z\in F}, if #{(x,y)\in R} and #{(y,z)\in R}, then #{(x,z)\in R}.}

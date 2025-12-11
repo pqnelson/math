@@ -1,0 +1,10 @@
+\title{Preimage of a function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.10}
+
+\p{Let #{f\colon X\to Y} be a function, let #{B\subset Y}. We define the \define{Preimage} of #{B} under #{f} to be the set #{f^{-1}(A)=\{x\in X\mid f(x)\in B\}}.}
+
+\p{This is sometimes denoted #{f^{*}(B)} to avoid confusing the preimage with the inverse function of #{f}. This allows us to interpret #{f^{*}\colon\powerset{Y}\to\powerset{X}} without ambiguity.}

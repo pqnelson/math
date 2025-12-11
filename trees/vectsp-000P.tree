@@ -1,0 +1,12 @@
+\title{Vector space of polynomials is infinite-dimensional}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{example}
+\meta{source}{[[axler-1996-linear]] Example 2.14}
+\meta{source}{[[lankham-2016-linear]] Definition 5.1.1}
+\import{ela}
+
+\p{Let #{\FF} be a [[field-0001]]. Then the [vector space of polynomials](vectsp-0004) #{\FF[z]} is an infinite-dimensional vector space.}
+
+\p{Let #{S\subset\FF[z]} be any finite set, let #{N=\{\deg(p)\mid p\in S\}}. Then consider the smallest positive integer #{n\in\NN} which is not #{n\notin N}. Then #{z^{n}\notin\span{S}}. So #{\FF[z]} cannot be finite-dimensional.}

@@ -1,0 +1,11 @@
+\title{Set equality}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+
+\p{Let #{X} and #{Y} be sets. We define the predicate \define{Set Equality} (or just \emph{equality}) of #{X} and #{Y}, denoted #{X=Y}, to mean they have the same elements; i.e., for all objects #{x} we have #{x\in X} if and only if #{x\in Y}.}
+
+\p{When #{X} and #{Y} are not equal, we write #{X\neq Y}.}
+
+\p{(This is technically an axiom of ZFC called the "axiom of extensionality".)}

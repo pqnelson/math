@@ -1,0 +1,11 @@
+\title{Field-valued functions form a vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{example}
+\meta{source}{[[axler-1996-linear]] Example 1.25}
+\meta{source}{[[lankham-2016-linear]] Example 4.1.5}
+
+\p{Let #{D\neq\emptyset} be any set. Let #{\FF} be a field. Then the [[nst-0015]] #{\FF^{D}} forms a vector space. Vector addition of #{f,g\in\FF^{D}} is given by #{(f+g)(x)=f(x)+g(x)} for any #{x\in D}, and scalar multiplication is given by #{(af)(x)=af(x)} for any #{a\in\FF}.}
+
+\p{There are various related vector spaces of interest to Mathematicians. For example, when #{\FF=\RR} and #{D\subset\RR}, the set of all continuous real-valued functions on #{D} forms a subspace of #{\RR^{D}}.}

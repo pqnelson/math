@@ -1,0 +1,10 @@
+\title{Addition of complex numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] §2.2.1}
+\meta{source}{[[axler-1996-linear]] 1.1}
+
+\p{We define the \define{Addition} of complex numbers as the binary operator #{+} by
+##{(a+\I b)+(c+\I d)=(a+c)+\I(b+d)}}

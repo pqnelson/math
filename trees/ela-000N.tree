@@ -1,0 +1,12 @@
+\title{Span of a set of vectors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{V} be a real vector space, let #{S\subset V} be a (possibly infinite) set of vectors. We define the \define{Span} of #{S} to be the set of \emph{finite} linear combinations of elements of #{S}:}
+
+##{\span{S}=\{\sum^{k}_{j=1}\lambda_{j}v_{j}\mid\lambda_{j}\in\RR,v_{j}\in S,k\in\NN,j=1,\dots,k\}}
+
+\p{Furthermore, if #{W\subset V} is a subspace of #{V} such that #{\span{S}=W}, then we call #{S} a \define{Spanning Set} of #{W}.}

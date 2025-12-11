@@ -1,0 +1,12 @@
+\title{Linear maps take zero to zero}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.10}
+
+\p{Let #{L\colon V\to W} be a linear map of vector spaces. Then #{L(\vec{0}_{V})=\vec{0}_{W}}.}
+
+\proof{\p{We see
+##{L(\vec{0}_{V})=L(\vec{0}_{V}+\vec{0}_{V})=L(\vec{0}_{V})+L(\vec{0}_{V})}
+and then adding the inverse of #{L(\vec{0}_{V})} gives the result.}}

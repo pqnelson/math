@@ -1,0 +1,9 @@
+\title{Inverse Commutes with Transpose}
+\author{alex-nelson}
+\import{notation}
+\date{2025-07-18}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an invertible #{n\times n} matrix. Then
+##{\transpose{(\mat{A}^{-1})} = (\transpose{\mat{A}})^{-1}.}}

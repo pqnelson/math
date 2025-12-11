@@ -1,0 +1,12 @@
+\title{Dimension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 2.35}
+\meta{source}{[[lankham-2016-linear]] Definition 5.4.1}
+\import{ela}
+
+\p{Let #{B} be a basis of #{V}. Then the \define{Dimension} of #{V} is #{\dim(V)} equal to the cardinality of #{B}. In particular, if #{V} is infinite-dimensional, we just write #{\dim(V)=\infty}.}
+
+\p{Compare this to the [notion](ela-000X) from elementary linear algebra.}

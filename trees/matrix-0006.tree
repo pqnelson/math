@@ -1,0 +1,10 @@
+\title{diagonal matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{definition}
+\import{ela}
+
+\p{A square matrix #{\mat{A}=(a_{i,j})} for which #{a_{i,j}=0} when #{i\neq j} is called a \define{Diagonal Matrix}. We may write #{\mat{A}=\diag(a_{1,1}, a_{2,2},\dots, a_{n,n})} to indicate #{\mat{A}} is a diagonal matrix.}
+
+\p{Caution: some authors write #{\diag(\mat{A})} to refer to the \emph{diagonal components} of any matrix #{\mat{A}}. Just bear this in mind when you run into it "in the wild".} 

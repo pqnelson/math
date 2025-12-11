@@ -1,0 +1,13 @@
+\title{Composing relations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.7}
+\MML{relat_1}{def 8}{K3}
+
+\p{Let #{P} and #{R} be relations. We define their \define{Composition} to be the relation denoted #{PR} or #{R\circ P} such that for all objects #{x} and #{z} we have #{(x,z)\in PR} iff there exists an object #{y} such that #{(x,y)\in P} and #{(y,z)\in R}.}
+
+\p{The #{PR} notation means #{xPRz} iff there exists a #{y} such that #{xPyRz}.}
+
+\p{The #{R\circ P} notation is useful for working with functions.}

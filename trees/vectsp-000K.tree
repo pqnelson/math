@@ -1,0 +1,9 @@
+\title{Direct sum as Cartesian product of underlying sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{remark}
+
+\p{If we are just given any two vector spaces #{V_{1}} and #{V_{2}} over the same field #{\FF}, then we can still form the direct sum of these spaces. We just take #{V_{1}\oplus V_{2}=\{(v_{1},v_{2})\mid v_{1}\in V_{1},v_{2}\in V_{2}\}} and the operations are defined componentwise.}
+
+\p{This is known as the \define{External Direct Sum}, but it is not taught usually to undergraduates.}

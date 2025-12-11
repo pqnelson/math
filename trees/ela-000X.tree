@@ -1,0 +1,15 @@
+\title{Dimension of vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{V} be a real vector space.}
+
+\p{If there is a finite basis #{B} for #{V}, then we define the \define{Dimension} of #{V} to be the number #{\dim(V)} of elements of #{B}.}
+
+\p{Otherwise, we define the dimension of #{V} to be #{\dim(V)=\infty}.}
+
+\p{When #{\dim(V)<\infty}, we say #{V} is \define{Finite-Dimensional}. Otherwise #{V} is \define{Infinite-Dimensional}.}
+
+\p{For example, #{\dim(\RR^{n})=n} and #{\dim(\RR[x])=\infty}.}

@@ -1,0 +1,9 @@
+\title{Change of base matrix and matrix inverse}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional real vector space, let #{B} and #{C} be [ordered bases](ela-000Y) of #{V}. Then the [change of basis matrix](ela-0012) for these two bases are related by:
+##{\mat{M}^{C}_{B}=(\mat{M}^{B}_{C})^{-1}}}

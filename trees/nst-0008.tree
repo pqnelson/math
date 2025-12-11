@@ -1,0 +1,8 @@
+\title{Proving two sets are equal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{strategy}
+
+\p{Generically, when we want to prove [[nst-0004]] like proving #{X=Y}, we can use the [[nst-0006]] predicate to prove two claims: (1) #{X\subset Y}, (2) #{Y\subset X}.}
+

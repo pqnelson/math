@@ -1,0 +1,11 @@
+\title{Complex sine and cosine}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Section 2.3.4}
+
+\p{Let #{z=x+\I y} be a complex number with #{x,y\in\RR}. Then we define the \define{Complex Sine} function #{\sin\colon\CC\to\CC} by
+##{\sin(z) = \frac{\E^{\I z}-\E^{-\I z}}{2\I}}
+Similarly we define the \define{Complex Cosine} function #{\cos\colon\CC\to\CC} by
+##{\cos(z) = \frac{\E^{\I z}+\E^{-\I z}}{2\I}}}

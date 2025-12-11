@@ -1,0 +1,14 @@
+\title{Span}
+\author{alex-nelson}
+\import{notation}
+\import{ela}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 2.4}
+\meta{source}{[[lankham-2016-linear]] Definition 5.1.1}
+
+\p{Let #{V} be a vector space over #{\FF}, let #{v_{1},\dots,v_{m}\in V} be vectors. We define the \define{Span} of #{v_{1}}, \dots, #{v_{m}} to be
+##{\span{v_{1},\dots,v_{m}}=\{a_{1}v_{1}+\dots+a_{m}v_{m}\mid a_{1},\dots,a_{m}\in\FF\}}
+Moreover, the #{\span{v_{1},\dots,v_{m}}} is a subspace of #{V}.}
+
+\p{Compare this to the [[ela-000N]] from elementary linear algebra.}

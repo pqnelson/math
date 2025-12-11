@@ -1,0 +1,9 @@
+\title{Permutation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 9.31}
+\meta{source}{[[lankham-2016-linear]] Definition 8.1.1}
+
+\p{Let #{n\in\NN} be a positive integer. A \define{Permutation} #{\pi} of #{n} elements is a [bijection]() from the set #{\{1,2,\dots,n\}} to itself.}

@@ -1,0 +1,10 @@
+\title{Characteristic polynomial of a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{M}} be a #{n\times n} matrix over the reals (or some [[field-0001]]). We define the \define{Characteristic Polynomial} of #{\mat{M}} to be the polynomial #{p(\lambda)=\det(\mat{A}-\lambda\mat{I})}.}
+
+\p{Why is this a good notion? Well, with the eigenstuff for a matrix #{\mat{M}v=\lambda v} we have #{\mat{M}v-\lambda v=0}. But this is really #{(\mat{M}-\lambda\mat{I})v=0}. Then #{\mat{M}-\lambda\mat{I}} is a linear operator, and we're looking for its [kernel](ela-001L). The kernel is nontrivial if the determinant is zero, which means we want to find the values #{\lambda} such that #{\det(\mat{M}-\lambda\mat{I})=0}. But this is precisely the characteristic polynomial as we have defined it.}

@@ -1,0 +1,9 @@
+\title{Basis extension theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 2.32}
+\meta{source}{[[lankham-2016-linear]] Theorem 5.3.7}
+
+\p{Every linearly independent set in a finite-dimensional vector space #{V} can be extended to a basis of #{V}.}

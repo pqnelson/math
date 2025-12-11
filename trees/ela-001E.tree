@@ -1,0 +1,9 @@
+\title{Inverse function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{X} and #{Y} be sets, let #{f\colon X\to Y} be a function. If there is a function #{g\colon Y\to X} such that #{g\circ f=\id_{X}} and #{f\circ g=\id_{Y}}, where #{(g\circ f)(x)=g(f(x))} and #{(f\circ g)(y)=f(g(y))} for #{x\in X} and #{y\in Y} are the compositions of #{g} and #{f}, then we call #{g} the \define{Inverse Function} of #{f}.}
+
+\p{When an inverse function of #{f} exists, we denote it by #{f^{-1}}.}

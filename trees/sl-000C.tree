@@ -1,0 +1,6 @@
+\title{Blah blah blah}
+\author{alex-nelson}
+\import{notation}
+\date{2025-06-05}
+
+\p{This is an example tree without a title or an author. I do not know what will happen if I try to transclude it.}

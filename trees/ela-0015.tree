@@ -1,0 +1,25 @@
+\title{Grahm-Schmidt}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\import{ela}
+\taxon{algorithm}
+
+\p{Let #{V} be a finite-dimensional real vector space with a well-defined notion of a dot product. Let #{x_{1},\dots,x_{m}\in V} be [linearly independent vectors](ela-000R). Then we may form #{m} orthonormal vectors (which form an orthonormal ordered basis if #{\dim(V)=m}) by the following algorithm:}
+
+\p{\textbf{Step 1:} Set #{f_{1}=\widehat{x}_{1}} to be the unit vector of #{x_{1}}.}
+
+\p{\textbf{Step 2:} For each #{x_{2}}, \dots, #{x_{m}}, compute #{v_{k}} by
+##{v_{k}=x_{k}-\sum^{k-1}_{j=1}(x_{k}\cdot f_{j})f_{j},}
+and then we set
+##{f_{k}=\widehat{v_{k}}=\frac{v_{k}}{\sqrt{v_{k}\cdot v_{k}}}.}}
+
+\p{This will produce an ordered tuple #{(f_{1},\dots,f_{m})} of orthonormal vectors of #{V}.}
+
+\p{We can equivalently note that we can use [projections](ela-0013) to form a bunch of orthogonal vectors:}
+
+##{u_{1} = x_{1}}
+##{u_{2}=x_{2} - \Proj{u_{1}}{x_{2}}}
+##{u_{3}=x_{3} - \Proj{u_{1}}{x_{3}} - \Proj{u_{2}}{x_{3}}}
+##{\dots}
+##{u_{m} = x_{m} - \sum^{m-1}_{j=1}\Proj{u_{j}}{x_{m}}}

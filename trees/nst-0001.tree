@@ -1,0 +1,13 @@
+\title{Set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{provisional definition}
+
+\p{We [pretend to] define a [naive] \define{Set} to be a well-defined unordered collection of objects.}
+
+\p{If #{x} is an object and #{X} is a set, then we write #{x\in X} if #{x} is an element (or member) of #{X}. If #{x} is not an element of #{X}, then we write #{x\notin X}.}
+
+\p{We will also write #{X\ni x} as a synonym for #{x\in X}. We also write #{X\not\ni x}.}
+
+\p{This isn't really a definition, because set theory is given axiomatically. We usually give axioms to specify the behaviour of the binary infixed predicate #{\in}.}

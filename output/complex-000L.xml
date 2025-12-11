@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2834</fr:anchor><fr:addr
+type="user">complex-000L</fr:addr><fr:route>complex-000L.xml</fr:route><fr:title
+text="Terminology surrounding polynomials">Terminology surrounding polynomials</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Section 3.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}_{0}]]></fr:tex> be a non-negative integer. Let <fr:tex
+display="inline"><![CDATA[a_{0},…,a_{n}\in \mathbb {C}]]></fr:tex> be complex numbers. Then we call the expression
+<fr:tex
+display="block"><![CDATA[p(z)=a_{n}z^{n}+…+a_{1}z+a_{0}]]></fr:tex>
+a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Polynomial</html:dfn> in the variable <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> with <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Coefficients</html:dfn> <fr:tex
+display="inline"><![CDATA[a_{0}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[a_{n}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[n\neq 0]]></fr:tex>, we call <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Degree</html:dfn> of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> usually writing <fr:tex
+display="inline"><![CDATA[\deg (p)=n]]></fr:tex>. We call <fr:tex
+display="inline"><![CDATA[a_{n}]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Leading Coefficient</html:dfn> of <fr:tex
+display="inline"><![CDATA[p(z)]]></fr:tex>. When <fr:tex
+display="inline"><![CDATA[a_{n}=1]]></fr:tex> we call <fr:tex
+display="inline"><![CDATA[p(z)]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Monic</html:dfn>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[n=a_{0}=0]]></fr:tex>, then we call <fr:tex
+display="inline"><![CDATA[p(z)=0]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Zero Polynomial</html:dfn>. Convention dictates <fr:tex
+display="inline"><![CDATA[\deg (0)=-\infty ]]></fr:tex>.</fr:p><fr:p>We also call:</fr:p><fr:ul><fr:li>degree zero polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">constant polynomials</html:dfn></fr:li>
+<fr:li>degree one polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">linear polynomials</html:dfn></fr:li>
+<fr:li>degree two polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">quadratic polynomials</html:dfn></fr:li>
+<fr:li>degree three polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">cubic polynomials</html:dfn></fr:li>
+<fr:li>degree four polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">quartic polynomials</html:dfn></fr:li>
+<fr:li>degree five polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">quintic polynomials</html:dfn></fr:li>
+<fr:li>… and so on.</fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2836</fr:anchor><fr:addr
+type="user">lankham-2016-linear</fr:addr><fr:route>lankham-2016-linear.xml</fr:route><fr:title
+text="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2016</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="isaiah-lankham.xml"
+addr="isaiah-lankham"
+title="Isaiah Lankham">Isaiah Lankham</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="bruno-nachtergaele.xml"
+addr="bruno-nachtergaele"
+title="Bruno Leo Zulma Nachtergaele">Bruno Leo Zulma Nachtergaele</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="anne-schilling.xml"
+addr="anne-schilling"
+title="Anne Schilling">Anne Schilling</fr:link></fr:author></fr:authors><fr:meta
+name="doi">10.1142/9808</fr:meta><fr:meta
+name="external">https://www.math.ucdavis.edu/~anne/linear_algebra/mat67_course_notes.pdf</fr:meta><fr:meta
+name="bibtex"><![CDATA[@book{lankham2016linear,
+  title={Linear algebra as an introduction to abstract mathematics},
+  author={Lankham, Isaiah and Nachtergaele, Bruno and Schilling, Anne},
+  year={2016},
+  publisher={World Scientific}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2840</fr:anchor><fr:addr
+type="user">ila-0002</fr:addr><fr:route>ila-0002.xml</fr:route><fr:title
+text="Fundamental theorem of algebra">Fundamental theorem of algebra</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>644</fr:anchor><fr:addr
+type="user">complex-000H</fr:addr><fr:route>complex-000H.xml</fr:route><fr:title
+text="Extreme value theorem">Extreme value theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 3.1.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  D\to \mathbb {R}]]></fr:tex> be a continuous function on the closed disc <fr:tex
+display="inline"><![CDATA[D_{R}=\{(x_{1},x_{2})\in \mathbb {R}^{2}\mid  x_{1}^{2}+x_{2}^{2}\leq  R^{2}\}]]></fr:tex> of radius <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is bounded and attains its minimum and maximum values on <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>. In other words, there exists points <fr:tex
+display="inline"><![CDATA[x_{\text {min}},x_{\text {max}}\in  D]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  D]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[f(x_{\text {min}})\leq  f(x)\leq  f(x_{\text {max}})]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>646</fr:anchor><fr:addr
+type="user">complex-000I</fr:addr><fr:route>complex-000I.xml</fr:route><fr:title
+text="Modulus of complex polynomial attains a minimum value">Modulus of complex polynomial attains a minimum value</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Lemma 3.1.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon \mathbb {C}\to \mathbb {C}]]></fr:tex> be a polynomial function. Then there exists a <fr:tex
+display="inline"><![CDATA[z_{0}\in \mathbb {C}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum value in <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>648</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is a constant polynomial. Then <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum value at every point in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, so pick <fr:tex
+display="inline"><![CDATA[z_{0}=0]]></fr:tex> and we're done.</fr:p>
+
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is not a constant polynomial. Then we can write it out as <fr:tex
+display="inline"><![CDATA[f(z)=a_{n}z^{n}+…+a_{1}z+a_{0}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex> is the degree of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>. Set
+<fr:tex
+display="block"><![CDATA[A=\max \{|a_{0}|,…,|a_{n}|\}]]></fr:tex>
+Then we have <fr:tex
+display="inline"><![CDATA[A/|a_{n}|\geq 1]]></fr:tex>, so
+<fr:tex
+display="block"><![CDATA[|f(z)|\geq |a_{n}||z|^{n}\left (1-\frac {A}{|a_{n}|}\sum ^{\infty }_{k=1}\frac {1}{|z|^{k}}\right )=|a_{n}||z|^{n}\left (1-\frac {A}{|a_{n}|}\frac {1}{|z|-1}\right )]]></fr:tex>
+For all <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|z|\geq 2]]></fr:tex>, we can simplify this lower bound as
+<fr:tex
+display="block"><![CDATA[|f(z)|\geq |a_{n}||z|^{n}\left (1-\frac {2A}{|a_{n}||z|}\right )]]></fr:tex>
+This implies there exists an <fr:tex
+display="inline"><![CDATA[R>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|f(z)|>|f(0)|]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|z|>R]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[D\subseteq \mathbb {R}^{2}]]></fr:tex> be the close disk of radius <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> centered at the origin, then define <fr:tex
+display="inline"><![CDATA[g\colon  D\to \mathbb {R}]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[g(x,y)=|f(x+\mathrm {i} y)|.]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is continuous, we apply <fr:link
+type="local"
+href="complex-000H.xml"
+addr="complex-000H"
+title="Extreme value theorem">Extreme value theorem</fr:link> to obtain a point <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})\in  D]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> attains a minimum at <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex>. By the choice of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> we have that for <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}\setminus  D]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[|f(z)|>|g(0,0)|\geq |g(x_{0},y_{0})|]]></fr:tex>. Therefore <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum at <fr:tex
+display="inline"><![CDATA[z=x_{0}+\mathrm {i} y_{0}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr
+type="user">complex-000J</fr:addr><fr:route>complex-000J.xml</fr:route><fr:title
+text="Fundamental Theorem of Algebra">Fundamental Theorem of Algebra</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Lemma 3.1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer, let <fr:tex
+display="inline"><![CDATA[a_{0},…,a_{n}\in \mathbb {C}]]></fr:tex> be complex numbers with <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>. Then the polynomial equation
+<fr:tex
+display="block"><![CDATA[a_{n}z^{n}+…+a_{1}z+a_{0}=0]]></fr:tex>
+has at least one solution in <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex>.</fr:p><fr:p>(It seems like every field has its own proof of the fundamental theorem of algebra, so I will link them here:)</fr:p><fr:ul><fr:li>Proof: <fr:link
+type="local"
+href="complex-000K.xml"
+addr="complex-000K"
+title="Fundamental Theorem of Algebra via Extreme Value Theorem">Fundamental Theorem of Algebra via Extreme Value Theorem</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>652</fr:anchor><fr:addr
+type="user">complex-000L</fr:addr><fr:route>complex-000L.xml</fr:route><fr:title
+text="Terminology surrounding polynomials">Terminology surrounding polynomials</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Section 3.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}_{0}]]></fr:tex> be a non-negative integer. Let <fr:tex
+display="inline"><![CDATA[a_{0},…,a_{n}\in \mathbb {C}]]></fr:tex> be complex numbers. Then we call the expression
+<fr:tex
+display="block"><![CDATA[p(z)=a_{n}z^{n}+…+a_{1}z+a_{0}]]></fr:tex>
+a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Polynomial</html:dfn> in the variable <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> with <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Coefficients</html:dfn> <fr:tex
+display="inline"><![CDATA[a_{0}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[a_{n}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[n\neq 0]]></fr:tex>, we call <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Degree</html:dfn> of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> usually writing <fr:tex
+display="inline"><![CDATA[\deg (p)=n]]></fr:tex>. We call <fr:tex
+display="inline"><![CDATA[a_{n}]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Leading Coefficient</html:dfn> of <fr:tex
+display="inline"><![CDATA[p(z)]]></fr:tex>. When <fr:tex
+display="inline"><![CDATA[a_{n}=1]]></fr:tex> we call <fr:tex
+display="inline"><![CDATA[p(z)]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Monic</html:dfn>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[n=a_{0}=0]]></fr:tex>, then we call <fr:tex
+display="inline"><![CDATA[p(z)=0]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Zero Polynomial</html:dfn>. Convention dictates <fr:tex
+display="inline"><![CDATA[\deg (0)=-\infty ]]></fr:tex>.</fr:p><fr:p>We also call:</fr:p><fr:ul><fr:li>degree zero polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">constant polynomials</html:dfn></fr:li>
+<fr:li>degree one polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">linear polynomials</html:dfn></fr:li>
+<fr:li>degree two polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">quadratic polynomials</html:dfn></fr:li>
+<fr:li>degree three polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">cubic polynomials</html:dfn></fr:li>
+<fr:li>degree four polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">quartic polynomials</html:dfn></fr:li>
+<fr:li>degree five polnomials are called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">quintic polynomials</html:dfn></fr:li>
+<fr:li>… and so on.</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>654</fr:anchor><fr:addr
+type="user">complex-000M</fr:addr><fr:route>complex-000M.xml</fr:route><fr:title
+text="Properties of degrees of polynomials under arithmetic">Properties of degrees of polynomials under arithmetic</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Lemma 3.2.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p(z)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q(z)]]></fr:tex> be nonzero polynomials. Then:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\deg (p(z)\pm  q(z))\leq \max (\deg (p(z)),\deg (q(z)))]]></fr:tex>, and</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\deg (p(z)q(z))=\deg (p(z))+\deg (q(z))]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>656</fr:anchor><fr:addr
+type="user">complex-000N</fr:addr><fr:route>complex-000N.xml</fr:route><fr:title
+text="" /><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Lemma 3.2.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer, let <fr:tex
+display="inline"><![CDATA[a_{0},…,a_{n}\in \mathbb {C}]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>. We define the function <fr:tex
+display="inline"><![CDATA[f\colon \mathbb {C}\to \mathbb {C}]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[f(z)=a_{n}z^{n}+…+a_{1}z+a_{0}]]></fr:tex>
+Then the following all hold:</fr:p><fr:ol><fr:li>For any <fr:tex
+display="inline"><![CDATA[w\in \mathbb {C}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[f(w)=0]]></fr:tex> if there exists a polynomial <fr:tex
+display="inline"><![CDATA[g\colon \mathbb {C}\to \mathbb {C}]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[\deg (g)=n-1]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(z)=(z-w)g(z)]]></fr:tex>;</fr:li>
+<fr:li>There are at most <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> distinct complex numbers <fr:tex
+display="inline"><![CDATA[w\in \mathbb {C}]]></fr:tex> for which <fr:tex
+display="inline"><![CDATA[f(w)=0]]></fr:tex>; i.e., <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> has at most <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> distinct roots;</fr:li>
+<fr:li>(Fundamental theorem of algebra, 2.0) There exists <fr:tex
+display="inline"><![CDATA[n+1]]></fr:tex> complex numbers <fr:tex
+display="inline"><![CDATA[w_{0},…,w_{n}\in \mathbb {C}]]></fr:tex> (not necessarily distinct) such that
+<fr:tex
+display="block"><![CDATA[f(z)=w_{0}(z-w_{1})(z-w_{2})(…)(z-w_{n})]]></fr:tex>
+In other words, every polynomial function with coefficients over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex> can be factored into linear factors over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

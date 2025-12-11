@@ -1,0 +1,10 @@
+\title{Coordinates of vector compatible with matrix of a linear transformation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{V} and #{W} be finite-dimensional real vector spaces. Let #{B_{V}=(e_{1},\dots,e_{m})} and #{B_{W}=(f_{1},\dots,f_{n})} be [ordered bases](ela-000Y) for #{V} and #{W}, respectively. Let #{L\colon V\to W} be a linear transformation. Let #{\mat{M}} be the matrix of #{L} relative to bases #{B_{V}} and #{B_{W}}. Then for any vector #{v\in V}, we have
+##{[L(v)]_{B_{W}}=M[v]_{B_{V}}.}
+In other words, "this stuff works together".}

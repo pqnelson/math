@@ -1,0 +1,17 @@
+\title{Matrix of a linear map}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\meta{source}{[[axler-1996-linear]] Definition 3.31}
+\meta{source}{[[lankham-2016-linear]] Section 6.6}
+\import{ela}
+
+\p{Let #{V} and #{W} be [[vectsp-000O]]s over #{\FF}, let #{(e_{1},\dots,e_{n})} be an ordered basis of #{V}, let #{(f_{1},\dots,f_{m})} be an ordered basis of #{W}, let #{L\colon V\to W} be a linear map.}
+
+\p{There is an #{m\times n} [[matrix-0001]] with entries in #{\FF}
+##{M(L)=\begin{pmatrix}a_{11} & \dots & a_{1n}\\\vdots& \ddots &\vdots\\a_{m1}&\dots&a_{mn}\end{pmatrix}}
+where
+##{L(v_{j})=a_{1j}w_{1}+\dots+a_{mj}w_{m}}
+for #{j=1,\dots,n}.}
+
+\p{Compare this to the [notion](ela-001G) in elementary linear algebra.}

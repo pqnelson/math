@@ -1,0 +1,17 @@
+\title{Levi-Civita symbol}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{To prove properties about the determinant, it's helpful to introduce the \define{Levi-Civita symbol} which is a family of symbols usually denoted #{\varepsilon_{i_{1},\dots,i_{n}}} for some #{n\in\NN}.}
+
+\p{This is defined to be such that:}
+
+\ol{
+\li{#{\varepsilon_{1,2,3,\dots,n-1,n}=+1}, and}
+\li{swapping two adjacent indices costs us a sign, in the sense that #{\varepsilon_{i_{1},\dots,i_{j},i_{j+1},\dots,i_{n}}=-\varepsilon_{i_{1},\dots,i_{j+1},i_{j},\dots,i_{n}}}}
+}
+
+\p{As a consequence of that second property, any repeated indices give us a zero (e.g., #{\varepsilon_{i,j,j}=0}).}

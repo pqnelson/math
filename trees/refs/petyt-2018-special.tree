@@ -1,0 +1,20 @@
+\title{The special linear group for nonassociative rings}
+\author{harry-petyt}
+\taxon{reference}
+\date{2018}
+\meta{external}{https://arxiv.org/abs/1807.05227}
+\import{notation}
+
+\p{Fleshes out the definition for the special linear group over the Octonions which John Baez sketched out in his review paper on the Octonions. But Petyt arrives at a different result for #{\SL_{3}(\Octonions)} than Sudbury.}
+
+\meta{bibtex}{\startverb
+@article{petyt2020special,
+  title={The special linear group for nonassociative rings},
+  author={Petyt, Harry},
+  journal={Journal of Group Theory},
+  volume={23},
+  number={2},
+  pages={327--335},
+  year={2020},
+  publisher={De Gruyter}
+}\stopverb}

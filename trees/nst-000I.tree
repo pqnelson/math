@@ -1,0 +1,9 @@
+\title{Relative complement of a set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.5}
+\MML{xboole_0}{def 5}{K4}
+
+\p{Let #{X} and #{Y} be sets. We define the \define{Relative complement} of #{X} with respect to #{Y} to be the set #{Y\setminus X} such that for all objects #{x} we have #{x\in Y\setminus X} iff #{x\in Y} and #{x\notin X}.}

@@ -1,0 +1,8 @@
+\title{Inner product with zero vector is zero}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.6 (b) and (c)}
+
+\p{Let #{V} be an inner product space over #{\FF}. Let #{v\in V}. Then #{\langle\vec{0},v\rangle=0} and #{\langle v,\vec{0}\rangle=0}.}

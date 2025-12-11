@@ -1,0 +1,20 @@
+\title{Sentences in set theory}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.2}
+
+\p{The allowed sentences or predicates appearing in set builder notation may be described recursively.}
+
+\p{We can describe what possible formulas appear using the following:}
+\ul{
+\li{#{x\in X} and #{X=Y} are the atomic formulas}
+\li{"not <formula>"}
+\li{"<formula> and <formula>" or just a comma-separated list of formulas, all of which are expected to hold}
+\li{"<formula> or <formula>" for the disjunction of formulas (in the sense of "either <formula> or <formula> or both")}
+\li{"if <formula> then <formula>" (or "<formula> implies <formula>")}
+\li{"<formula> iff <formula>"}
+\li{"for all \dots"}
+\li{"for some \dots" (or "exists \dots")}
+}
+\p{\dots as well as using any predicates we've defined (like the [[nst-0006]] predicate).}

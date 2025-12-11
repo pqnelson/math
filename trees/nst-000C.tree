@@ -1,0 +1,16 @@
+\title{Proving well-definedness of terms}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{remark}
+
+\p{When we define a new term in Mathematics, we should prove it is well-defined. What this proof requires depends on what we're defining.}
+
+\ul{
+\li{A new constant (possibly parametrized by other objects) #{C} defined as satisfying some condition #{\Phi[C]} requires proving (1) its existence (i.e, proving #{\exists x\ldotp\Phi[x]}), and (2) its uniqueness (i.e., #{\forall x,y\ldotp\Phi[x]\land\Phi[y]\implies x=y}).}
+\li{A new constant #{C} which is defined as abbreviating some complicated expression is usually well-defined, sometimes we need to prove it has the "correct type".}
+\li{A new species of thing (like a vector space or a [[field-0001]]) should require proving the existence of at least one such gadget.}
+\li{All other types of definitions (predicates, adjectives, etc.) are well-defined.}
+}
+
+\p{One of the reasons why the ["definition" of a set](nst-0001) is not really a definition is because we should prove the existence of a set, but that's not possible. It's also why Mathematicians invented \emph{axiomatic} set theory: presumably there are mathematical objects called "sets" which already exist, and we're trying to specify their behaviour (or some reasonable approximation) using axioms.}

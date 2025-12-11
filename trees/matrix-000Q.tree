@@ -1,0 +1,13 @@
+\title{Matrix as sum of its antisymmetric and symmetric parts}
+\author{alex-nelson}
+\import{notation}
+\date{2025-06-01}
+\taxon{exercise}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} \textbf{square} matrix. We can introduce two matrices
+##{\mat{A}_{\text{ant}}=\frac{\mat{A}-\transpose{\mat{A}}}{2}}
+which is the "antisymmetric part" of #{\mat{A}}, and
+##{\mat{A}_{\text{sym}}=\frac{\mat{A}+\transpose{\mat{A}}}{2}}
+which is the "symmetric part" of #{\mat{A}}. Prove or find a counter-example:
+##{\mat{A} = \mat{A}_{\text{ant}}+\mat{A}_{\text{sym}}.}}

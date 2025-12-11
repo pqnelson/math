@@ -1,0 +1,15 @@
+\title{Set builder notation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.2}
+
+\p{There are times when the notation for [[nst-0002]] is clunky or impractical (e.g., write out the first #{10^{120}} prime numbers). We have another notation for describing a set: if #{P[x]} is a unary predicate and #{X} is a set, then we write
+##{\{x\in X\mid P[x]\}}
+which describes "The set of #{x\in X} such that #{P[x]} holds". The vertical bar ("|") is read "such that". The allowable predicates #{P[-]} must form a valid [sentence](nst-000A). (This form of set builder notation is called "the axiom scheme of specification" in ZFC set theory.)}
+
+\p{The other form of set builder notation which appears frequently: if #{F(-)} is some construction, and #{P[-]} is a unary predicate, and #{X} is a set, then
+##{\{F(x)\mid x\in X,P[x]\}}
+describes the set obtained by applying #{F} to each element of #{X} which satisfies the predicate #{P}.}
+
+\p{The Working Mathematician usually "suppresses" (omits) the #{x\in X} clause when it is understood.}

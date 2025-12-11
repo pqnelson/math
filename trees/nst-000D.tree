@@ -1,0 +1,17 @@
+\title{Union of two sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.4}
+\MML{xboole_0}{def 3}{K2}
+
+\p{Let #{X} and #{Y} be sets. We define the \define{Union} of #{X} and #{Y} to be the set #{X\cup Y} such that for all objects #{x} we have #{x\in X\cup Y} iff either #{x\in X} or #{x\in Y}.}
+
+\p{We see that this is commutative #{X\cup Y=Y\cup X} and idempotent #{X\cup X=X}.}
+
+\proof{\p{\textbf{Existence:} take #{X\cup Y=\bigcup\{X,Y\}}. We need to prove #{x\in X\cup Y\implies x\in\bigcup\{X,Y\}} and #{x\in\bigcup\{X,Y\}\implies x\in X\cup Y}, but these follow immediately.}
+
+\p{\textbf{Uniqueness:} Suppose #{A} is such that for all #{x} we have #{x\in A} iff #{x\in X} or #{x\in Y}, and #{B} is such that for all #{x} we have #{x\in B} iff #{x\in X} or #{x\in Y}. We will prove for all #{x} we have #{x\in A} iff #{x\in B}: let #{x} be an arbitrary object. Then
+##{x\in A\iff x\in A\mbox{ or }x\in A\iff x\in B}
+which implies #{x\in A\iff x\in B}. Hence #{A=B} by [[nst-0004]].}}

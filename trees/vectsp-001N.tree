@@ -1,0 +1,8 @@
+\title{Finite-dimensional vector spaces are isomorphic iff they are the same dimension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Proposition 6.7.3}
+
+\p{Let #{V} and #{W} be finite-dimension vector spaces over #{\FF}. Then #{V} is isomorphic to #{W} if and only if #{\dim(V)=\dim(W)}.}

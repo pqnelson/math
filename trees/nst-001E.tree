@@ -1,0 +1,13 @@
+\title{Properties of image and preimage of a function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.10}
+
+\p{Let #{f\colon X\to Y} be a function, let #{A\subset X}, and #{B\subset Y}. Then the following all hold:}
+
+\ol{
+\li{#{f(f^{-1}(B))\subset B}}
+\li{#{A\subset f^{-1}(f(A))}}
+}

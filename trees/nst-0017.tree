@@ -1,0 +1,8 @@
+\title{Identity function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{example}
+\MML{relat_1}{def 10}{K4}
+
+\p{Let #{X} be a set. We define the \define{Identity Function} of #{X} to be the function #{\id_{X}\colon X\to X} such that for all #{x\in X}, #{\id_{X}(x)=x}.}

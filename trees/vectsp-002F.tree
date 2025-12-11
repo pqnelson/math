@@ -1,0 +1,12 @@
+\title{Orthogonal complement}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 6.46}
+\meta{source}{[[lankham-2016-linear]] Definition 9.6.1}
+
+
+\p{Let #{V} be a [finite-dimensional](vectsp-001O) [[vectsp-0020]] over #{\FF}. Let #{U\subse V} be a subset (not necessarily a subspace). Then the \define{Orthogonal Complement} of #{U} is the set
+##{U^{\perp}=\{v\in V\mid \langle u,v\rangle=0\mbox{ for }u\in U\}}
+Moreover, #{U^{\perp}} is a subspace of #{V}.}

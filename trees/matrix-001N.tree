@@ -1,0 +1,8 @@
+\title{Determinant of matrix with a zero row or zero column is zero}
+\author{alex-nelson}
+\import{notation}
+\import{ela}
+\date{2025-12-08}
+\taxon{lemma}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. If a column of #{\mat{A}} is all zero (or if a row of #{\mat{A}} is all zero), then #{\det(\mat{A})=0}.}

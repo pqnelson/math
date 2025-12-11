@@ -1,0 +1,8 @@
+\title{Determinant of inverse is inverse of determinant}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an [invertible](matrix-001C) #{n\times n} matrix. Then #{\det(\mat{A}^{-1})=(\det(\mat{A}))^{-1}}.}

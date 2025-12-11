@@ -1,0 +1,6 @@
+\title{Specification for ordered pairs}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+
+\p{Let #{x} and #{y} be objects. Let #{a} and #{b} be objects. We expect the ordered pair #{(x,y)} to be such that: #{(x,y)=(a,b)} if and only if #{x=a} and #{y=b}.}

@@ -1,0 +1,8 @@
+\title{Archimedean Property of Reals}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{theorem}
+\meta{source}{[[baby-rudin]], 1.20(a)}
+
+\p{Let #{x\in\RR}, #{y\in\RR}, and #{x>0}. Then there exists a positive integer #{n} such that #{nx>y}.}

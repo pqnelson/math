@@ -1,0 +1,12 @@
+\title{Matrix of composition of linear transformations is matrix multiplication}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.43}
+\meta{source}{[[lankham-2016-linear]] Proposition 6.6.5}
+\import{ela}
+
+\p{Let #{U}, #{V}, and #{W} be [[vectsp-000O]]s over #{\FF}, let #{L_{1}\colon U\to V} and #{L_{2}\colon V\to W} be linear maps.}
+
+\p{Then the matrix of their [composition](vectsp-0017) is the [matrix multiplication](matrix-000X) of their respective matrices: #{M(L_{2}\circ L_{1})=M(L_{2})M(L_{1})}.}

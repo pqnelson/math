@@ -1,0 +1,15 @@
+\title{Span is smallest subset containing the supplied vectors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\import{ela}
+\meta{source}{[[axler-1996-linear]] Theorem 2.6}
+\meta{source}{[[lankham-2016-linear]] Lemma 5.1.2}
+
+\p{Let #{V} be a vector space over #{\FF}, let #{v_{1},\dots,v_{m}\in V} be vectors. Then
+\ol{
+\li{#{v_{j}\in\span{v_{1},\dots,v_{m}}} for each #{j}, and}
+\li{for any other subspace #{U\subset V} such that #{v_{j}\in U} for each #{j=1,\dots,m}, we have #{\span{v_{1},\dots,v_{m}}\subset U}.}
+}
+}

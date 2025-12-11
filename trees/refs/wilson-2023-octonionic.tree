@@ -1,0 +1,19 @@
+\title{An octonionic construction of E8 and the Lie algebra magic square}
+\author{robert-a-wilson}
+\author{tevian-dray}
+\author{corinne-a-manogue}
+\taxon{reference}
+\date{2023}
+\meta{arxiv}{2204.04996}
+
+\meta{bibtex}{\startverb
+@article{wilson2023octonionic,
+  title={An octonionic construction of E8 and the Lie algebra magic square},
+  author={Wilson, Robert A and Dray, Tevian and Manogue, Corinne A},
+  journal={Innovations in Incidence Geometry: Algebraic, Topological and Combinatorial},
+  volume={20},
+  number={2},
+  pages={611--634},
+  year={2023},
+  publisher={Mathematical Sciences Publishers}
+}\stopverb}

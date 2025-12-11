@@ -1,0 +1,22 @@
+\title{enter the matrix}
+\author{alex-nelson}
+\import{notation}
+\import{ela}
+\date{2025-05-12}
+\taxon{roadmap}
+
+\p{Remember what a system of 1 linear equation in 1 variable looks like? We saw it was #{ax=b}. We could solve this easily when #{a\neq0}, simply take #{x=b/a} or #{x = a^{-1}b}. It would be lovely if all systems of linear equations could be so easy.}
+
+\p{We will try to make it easy by generalizing the notion of a "number". Instead of writing a system of equations as
+##{\begin{array}{rcl}
+a_{1,1}x_{1} + a_{1,2}x_{2} + \dots + a_{1,n}x_{n} &=& b_{1}\\
+a_{2,1}x_{1} + a_{2,2}x_{2} + \dots + a_{2,n}x_{n} &=& b_{2}\\
+\vdots\quad \qquad\vdots\quad\qquad\ddots\quad\qquad\vdots\quad & \vdots & \vdots\\
+a_{m,1}x_{1} + a_{m,2}x_{2} + \dots + a_{m,n}x_{n} &=& b_{m}
+\end{array}}
+we will introduce a notion of a matrix #{\mat{A}} as an array of #{m} rows and #{n} columns, and vectors #{\vec{x}}, #{\vec{b}}, then rewrite our system as
+##{\mat{A}\vec{x}=\vec{b}.}
+Just as with our simpler system with one equation in one unknown #{ax=b} where we multiplied both sides by the number #{a^{-1}} (assuming #{a} is invertible), we can imitate this and try "multiplying" both sides by a matrix #{\mat{B}} to transform our system to something like
+##{\vec{x} = \mat{B}\vec{b}.}
+The problem: we will have to define a notion of matrix multiplication, and prove it satisfies the familiar properties which the multiplication of numbers enjoy.}
+

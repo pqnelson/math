@@ -1,0 +1,12 @@
+\title{Matrix of sum of linear maps}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 3.35}
+\meta{source}{[[lankham-2016-linear]] Section 6.6}
+\import{ela}
+
+\p{Let #{V} and #{W} be [[vectsp-000O]]s over #{\FF}, let #{L_{1},L_{2}\colon V\to W} be linear maps.}
+
+\p{Then the matrix of the [sum of linear maps](vectsp-0014) is the [matrix sum](matrix-000E) of respective matrices #{M(L_{1}+L_{2})=M(L_{1})+M(L_{2})}.}

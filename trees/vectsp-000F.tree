@@ -1,0 +1,13 @@
+\title{Sum of subspaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 1.36}
+\meta{source}{[[lankham-2016-linear]] Definition 4.4.1}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{U_{1},U_{2}\subset V} be subspaces of #{V}. We define the \define{(Subspace) Sum} of #{U_{1}} and #{U_{2}} to be the set #{U_{1}+U_{2}=\{u_{1}+u_{2}\mid u_{1}\in U_{1},u_{2}\in U_{2}\}}.}
+
+\p{More precisely, this is a subspace of #{V}.}
+
+\p{This can be extended to any finite number of subspaces of #{V}.}

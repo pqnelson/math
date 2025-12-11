@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4700</fr:anchor><fr:addr
+type="user">jordan-0005</fr:addr><fr:route>jordan-0005.xml</fr:route><fr:title
+text="Simple Jordan algebra">Simple Jordan algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baez-2002-octonions.xml"
+addr="baez-2002-octonions"
+title="The Octonions">[baez-2002-octonions]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Now, we call a Jordan algebra <fr:tex
+display="inline"><![CDATA[(J,\circ )]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Simple</html:dfn> if the only <fr:link
+type="local"
+href="jordan-0004.xml"
+addr="jordan-0004"
+title="Ideal of Jordan algebra">ideals</fr:link> are <fr:tex
+display="inline"><![CDATA[\{0\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> itself.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4702</fr:anchor><fr:addr
+type="user">baez-2002-octonions</fr:addr><fr:route>baez-2002-octonions.xml</fr:route><fr:title
+text="The Octonions">The Octonions</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2002</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="john-c-baez.xml"
+addr="john-c-baez"
+title="John C. Baez">John C. Baez</fr:link></fr:author></fr:authors><fr:meta
+name="external">https://arxiv.org/abs/math/0105155</fr:meta><fr:meta
+name="bibtext"><![CDATA[@article{baez2002octonions,
+  title={The octonions},
+  author={Baez, John},
+  journal={Bulletin of the american mathematical society},
+  volume={39},
+  number={2},
+  pages={145--205},
+  year={2002}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4704</fr:anchor><fr:addr
+type="user">jordan</fr:addr><fr:route>jordan.xml</fr:route><fr:title
+text="Jordan algebras">Jordan algebras</fr:title><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4630</fr:anchor><fr:addr
+type="user">jordan-0001</fr:addr><fr:route>jordan-0001.xml</fr:route><fr:title
+text="Jordan algebra">Jordan algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Jordan algebra</html:dfn> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a nonassociative algebra <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> whose multiplication satisfies:</fr:p><fr:ol><fr:li>commutative: <fr:tex
+display="inline"><![CDATA[xy=yx]]></fr:tex></fr:li>
+<fr:li>Jordan identity: <fr:tex
+display="inline"><![CDATA[(xy)(xx)=x(y(xx))]]></fr:tex></fr:li></fr:ol><fr:p>Note that Springer and Veldkamp's <fr:link
+type="local"
+href="veldkamp-2000-octonions.xml"
+addr="veldkamp-2000-octonions"
+title="Octonions, Jordan Algebras, and Exceptional Groups">Octonions, Jordan Algebras, and Exceptional Groups</fr:link> (remark 5.1.7, pg 122) note that the character of <fr:tex
+display="inline"><![CDATA[\mathrm {char}(J)\neq  2]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4632</fr:anchor><fr:addr
+type="user">jordan-0002</fr:addr><fr:route>jordan-0002.xml</fr:route><fr:title
+text="Hermitian matrices over a field forms a Jordan algebra">Hermitian matrices over a field forms a Jordan algebra</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="hall-2024-sandwich.xml"
+addr="hall-2024-sandwich"
+title="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras">[hall-2024-sandwich]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {A}]]></fr:tex> be a (real) normed division algebra. Let <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {A})]]></fr:tex> be the space of <fr:link
+type="local"
+href="matrix-0008.xml"
+addr="matrix-0008"
+title="Hermitian matrix">Hermitian <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex></fr:link> matrices with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {A}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathfrak {H}_{0}(n,\mathbb {A})]]></fr:tex> be the subspace of traceless matrices.</fr:p><fr:p>We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Jordan product</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {A})]]></fr:tex> to be:</fr:p><fr:tex
+display="block"><![CDATA[A\circ  B = \frac {1}{2}(AB+BA)]]></fr:tex><fr:p>When <fr:tex
+display="inline"><![CDATA[\mathbb {A}]]></fr:tex> is associative, this forms a Jordan algebra.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4614</fr:anchor><fr:addr
+type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The claim is that this forms a Jordan algebra. We need to verify that Jordan product satisfies both axioms (commutativity and the Jordan identity).</fr:p>
+
+<fr:p>We observe this product is commutative since <fr:tex
+display="inline"><![CDATA[AB+BA=BA+AB]]></fr:tex> (thanks to the commutativity of addition) and furthermore it is linear in the first slot (therefore bilinear, i.e., it distributes over addition).</fr:p>
+
+<fr:p>Let us now verify the Jordan product satisfies the Jordan identity.</fr:p>
+
+<fr:p>We see that:</fr:p>
+
+<fr:tex
+display="block"><![CDATA[\begin {align*} 8(A\circ  B)\circ (A\circ  A) &= 2(AB+BA)\circ (A^{2}+A^{2})\\ &= 2(AB+BA)A^{2} + 4A^{2}(AB+BA)\\ &= 2ABA^{2}+2BA^{3}+2A^{3}B+2A^{2}B \end {align*}]]></fr:tex>
+
+<fr:p>and</fr:p>
+
+<fr:tex
+display="block"><![CDATA[\begin {align*} 8A\circ (B\circ (A\circ  A)) &= 4A\circ (BA^{2}+A^{2}B)\\ &= 2A(BA^{2}+A^{2}B)+2(BA^{2}+A^{2}B)A\\ &= 2ABA^{2} + 2A^{3}B + 2BA^{3} + 2A^{2}B \end {align*}]]></fr:tex>
+
+<fr:p>We see that these two are equal to each other, therefore satisfies the Jordan identity. Hence it is a Jordan algebra.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4634</fr:anchor><fr:addr
+type="user">jordan-0003</fr:addr><fr:route>jordan-0003.xml</fr:route><fr:title
+text="Formally real">Formally real</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="hall-2024-sandwich.xml"
+addr="hall-2024-sandwich"
+title="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras">[hall-2024-sandwich]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A Jordan algebra <fr:tex
+display="inline"><![CDATA[(J,\circ )]]></fr:tex> is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">formally real</html:dfn> whenever for any <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> and for any <fr:tex
+display="inline"><![CDATA[x_{1},…,x_{n}\in  J]]></fr:tex>, we have:</fr:p><fr:tex
+display="block"><![CDATA[x_{1}^{2}+\cdots +x_{n}^{2}=0\quad \hbox {implies}\quad  x_{1}=\cdots =x_{n}=0]]></fr:tex><fr:p>Observe <fr:tex
+display="inline"><![CDATA[(\mathbb {R},\circ )]]></fr:tex> is formally real.</fr:p><fr:p>We can decompose formally real Jordan algebras into the direct sum of <fr:link
+type="local"
+href="jordan-0005.xml"
+addr="jordan-0005"
+title="Simple Jordan algebra">simple</fr:link> Jordan algebras.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4636</fr:anchor><fr:addr
+type="user">jordan-0004</fr:addr><fr:route>jordan-0004.xml</fr:route><fr:title
+text="Ideal of Jordan algebra">Ideal of Jordan algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baez-2002-octonions.xml"
+addr="baez-2002-octonions"
+title="The Octonions">[baez-2002-octonions]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>We define an <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[(J,\circ )]]></fr:tex> to be a subspace <fr:tex
+display="inline"><![CDATA[B\subseteq  J]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[b\in  B]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[a\circ  b\in  B]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[a\in  J]]></fr:tex>. This generalizes the familiar notion of an ideal from rings (and things).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4638</fr:anchor><fr:addr
+type="user">jordan-0005</fr:addr><fr:route>jordan-0005.xml</fr:route><fr:title
+text="Simple Jordan algebra">Simple Jordan algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baez-2002-octonions.xml"
+addr="baez-2002-octonions"
+title="The Octonions">[baez-2002-octonions]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Now, we call a Jordan algebra <fr:tex
+display="inline"><![CDATA[(J,\circ )]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Simple</html:dfn> if the only <fr:link
+type="local"
+href="jordan-0004.xml"
+addr="jordan-0004"
+title="Ideal of Jordan algebra">ideals</fr:link> are <fr:tex
+display="inline"><![CDATA[\{0\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> itself.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4640</fr:anchor><fr:addr
+type="user">jordan-0006</fr:addr><fr:route>jordan-0006.xml</fr:route><fr:title
+text="Classification of formally real Jordan algebras">Classification of formally real Jordan algebras</fr:title><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baez-2002-octonions.xml"
+addr="baez-2002-octonions"
+title="The Octonions">[baez-2002-octonions]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There are four infinite families of formally real Jordan algebras and one exception:</fr:p><fr:ol><fr:li>The algebra <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {R})]]></fr:tex> with the Jordan product</fr:li>
+<fr:li>The algebra <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {C})]]></fr:tex> with the Jordan product</fr:li>
+<fr:li>The algebra <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {H})]]></fr:tex> with the Jordan product</fr:li>
+<fr:li>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Spin Factor</html:dfn> algebra <fr:tex
+display="inline"><![CDATA[\mathbb {R}^{n}\oplus \mathbb {R}]]></fr:tex> with the product <fr:tex
+display="inline"><![CDATA[(v,\alpha )\circ (w,\beta )=(\alpha  w+\beta  v, \langle  v,w\rangle  + \alpha \beta )]]></fr:tex></fr:li>
+<fr:li>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Exceptional Jordan algebra</html:dfn> <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(3,\mathbb {O})]]></fr:tex> with the Jordan product</fr:li></fr:ol><fr:p>(See section 3 of John Baez's <fr:link
+type="local"
+href="baez-2002-octonions.xml"
+addr="baez-2002-octonions"
+title="The Octonions">The Octonions</fr:link>, page 20 of the PDF.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4706</fr:anchor><fr:addr
+type="user">jordan-0003</fr:addr><fr:route>jordan-0003.xml</fr:route><fr:title
+text="Formally real">Formally real</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="hall-2024-sandwich.xml"
+addr="hall-2024-sandwich"
+title="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras">[hall-2024-sandwich]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A Jordan algebra <fr:tex
+display="inline"><![CDATA[(J,\circ )]]></fr:tex> is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">formally real</html:dfn> whenever for any <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> and for any <fr:tex
+display="inline"><![CDATA[x_{1},…,x_{n}\in  J]]></fr:tex>, we have:</fr:p><fr:tex
+display="block"><![CDATA[x_{1}^{2}+\cdots +x_{n}^{2}=0\quad \hbox {implies}\quad  x_{1}=\cdots =x_{n}=0]]></fr:tex><fr:p>Observe <fr:tex
+display="inline"><![CDATA[(\mathbb {R},\circ )]]></fr:tex> is formally real.</fr:p><fr:p>We can decompose formally real Jordan algebras into the direct sum of <fr:link
+type="local"
+href="jordan-0005.xml"
+addr="jordan-0005"
+title="Simple Jordan algebra">simple</fr:link> Jordan algebras.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4708</fr:anchor><fr:addr
+type="user">jordan-0004</fr:addr><fr:route>jordan-0004.xml</fr:route><fr:title
+text="Ideal of Jordan algebra">Ideal of Jordan algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baez-2002-octonions.xml"
+addr="baez-2002-octonions"
+title="The Octonions">[baez-2002-octonions]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>We define an <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[(J,\circ )]]></fr:tex> to be a subspace <fr:tex
+display="inline"><![CDATA[B\subseteq  J]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[b\in  B]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[a\circ  b\in  B]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[a\in  J]]></fr:tex>. This generalizes the familiar notion of an ideal from rings (and things).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,28 @@
+\title{matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{m}, #{n} be positive integers. We define an #{m}-by-#{n} \define{Matrix} #{\mat{A}} to be a rectangular array of #{mn} real [or complex] numbers arranged in #{m} horizontal \define{Rows} and #{n} vertical \define{Columns}, written:
+##{\mat{A}
+= \left(\begin{array}{cccccc}
+  a_{11} & a_{12} & \dots & a_{1j} & \dots & a_{1n} \\
+a_{21} & a_{22} & \dots & a_{2j} & \dots & a_{2n}  \\
+\vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\
+a_{i1} & a_{i2} & \dots & a_{ij} & \dots & a_{in} \\
+\vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \dots   & a_{mj} & \dots  & a_{mn} 
+\end{array}\right)
+\begin{array}{c}
+  \\
+  \gets i^{\text{th}}\hbox{\ row}
+\end{array}}
+We have highlighted the #{i^{\text{th}}} row, and the #{j^{\text{th}}} column.}
+
+\p{If further #{m=n} (so we have an #{n}-by-#{n} matrix), then we call it a \define{Square Matrix}. In this case, we can refer to the \define{Main Diagonal} as the components #{a_{1,1}}, #{a_{2,2}}, \dots, #{a_{n,n}}.}
+
+\p{We abbreviate "#{m}-by-#{n} matrix" as "#{m\times n} matrix". The pair of numbers #{(m,n)} is called the \define{Dimensions} of the matrix. (We can also extend our definitions to allow #{m} or #{n} to be zero, but these are degenerate edgecases.)}
+
+\p{Also note, some people use parentheses in writing matrices, other people use square brackets. Both are acceptable.}

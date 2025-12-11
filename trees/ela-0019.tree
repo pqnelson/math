@@ -1,0 +1,10 @@
+\title{Translation is not a linear operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\import{ela}
+\taxon{non-example}
+
+\p{Let #{V} be a real vector space. Let #{u\in V} be a nonzero vector #{u\neq\vec{0}}. The function #{f\colon V\to V} defined by #{f(v)=u+v} is not a linear transformation.}
+
+\p{To see this, we find #{f(v+w)=u+(v+w)} but #{f(v)+f(w)=(u+v)+(u+w)=2u+(v+w)}, and #{u\neq2u} unless #{u=\vec{0}}. So #{f} cannot possibly be a linear transformation.}

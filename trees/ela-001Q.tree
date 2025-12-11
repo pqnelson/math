@@ -1,0 +1,10 @@
+\title{Eigenvector and eigenvalue of matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{M}} be an #{n\times n} matrix with coefficients in the real numbers #{\RR} or complex numbers #{\CC} (or more generally some [[field-0001]]). If there is an #{n}-column vector #{v} which is the zero vector, and if there is a nonzero number #{\lambda} such that
+##{\mat{M}v=\lambda v}
+then we call #{v} the \define{Eigenvector} of #{\mat{M}} with \define{Eigenvalue} #{\lambda}.}

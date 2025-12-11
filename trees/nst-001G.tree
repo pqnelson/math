@@ -1,0 +1,9 @@
+\title{Injective functions have a left inverse function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+
+\p{Let #{f\colon X\to Y} be an [[ela-001J]]. Then there exists a function #{g\colon Y\to X} such that #{g\circ f=\id_{X}}.}
+
+\p{We call such a #{g} a \define{Left Inverse} of #{f}.}

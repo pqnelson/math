@@ -1,0 +1,9 @@
+\title{Intersection of family of sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.4}
+\MML{setfam_1}{def 1}{K1}
+
+\p{Let #{F} be a family of sets (i.e., a set whose members are all sets). We define the \define{Intersection} of #{F} to be the set #{\bigcap F} such that for all objects #{x} we have #{x\in\bigcap F} iff for each set #{Y\in F} we have #{x\in Y}.}

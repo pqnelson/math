@@ -1,0 +1,11 @@
+\title{Least Upper Bound}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], 1.8}
+
+\p{Let #{S} be an [[ca-0003]], let #{E\subset S}, and suppose #{E} is [bounded above](ca-0003). Suppose there exists an #{\alpha\in S} such that:}
+\ol{\li{#{\alpha} is an [upper bound](ca-0003) of #{E}; and}
+\li{If #{\gamma<\alpha}, then #{\gamma} is not an upper bound of #{E}.}}
+\p{Then we call #{\alpha} the \define{Least Upper Bound} of #{E}, or the \define{Supremum} of #{E}, and we denote this by #{\alpha=\sup(E)}.}

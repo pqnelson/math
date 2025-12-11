@@ -1,0 +1,12 @@
+\title{Tuples of real numbers form a real vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{example}
+\import{ela}
+
+\p{Let #{n} be a real number. Let us denote by #{\RR^{n}} the set of all #{n}-tuples of real numbers #{(x_{1},\dots,x_{n})}. If we define
+##{(x_{1},\dots,x_{n})\oplus(y_{1},\dots,y_{n})=(x_{1}+y_{1},\dots,x_{n}+y_{n})}
+and similarly
+##{c\odot(x_{1},\dots,x_{n})=(cx_{1},\dots,cx_{n}).}
+Then we have a real vector space.}

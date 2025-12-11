@@ -1,0 +1,13 @@
+\title{Zero vector is unique}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.26}
+\meta{source}{[[lankham-2016-linear]] Proposition 4.2.1}
+
+\p{Let #{V} be a vector space over #{\FF}. Then the additive identity #{\vec{0}\in V} is unique.}
+
+\proof{\p{Suppose #{\vec{0}'} is another zero vector. Then
+##{\vec{0}'=\vec{0}'+\vec{0}=\vec{0}+\vec{0}'=\vec{0}}
+hence #{\vec{0}=\vec{0}'}.}}

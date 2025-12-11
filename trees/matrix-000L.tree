@@ -1,0 +1,12 @@
+\title{Subtracting a matrix from itself}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{theorem}
+\import{ela}
+
+\p{For any matrix #{\mat{A}}, we have #{\mat{A}-\mat{A}=\mat{0}}.}
+
+\proof{
+\p{Let #{\mat{A}=(a_{ij})}. Then #{\mat{A}-\mat{A}=(a_{ij}-a_{ij})=(0)}. Since every entry is zero, it must be equal to the [[matrix-0003]] by definition of [[matrix-0009]]. Hence the result.}
+}

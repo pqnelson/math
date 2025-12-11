@@ -1,0 +1,9 @@
+\title{Orthogonal basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{definition}
+% \meta{source}{[[axler-1996-linear]] Definition 6.21}
+\meta{source}{[[lankham-2016-linear]] Definition 9.4.1}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. Let #{B} be a basis of #{V}. We say the basis #{B} is \define{Orthogonal} if for all #{e_{i},e_{j}\in B} we have #{\langle e_{i},e_{j}\rangle=0} whenever #{i\neq j}.}

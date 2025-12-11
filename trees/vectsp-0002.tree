@@ -1,0 +1,11 @@
+\title{Finite tuples over a field form a vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{example}
+\meta{source}{[[lankham-2016-linear]] Example 4.1.2}
+
+\p{Consider #{\FF^{n}} the set of all #{n}-tuples with values in #{\FF}. This is a vector space with addition and multiplication defined by
+##{(u_{1},\dots,u_{n})+(v_{1},\dots,v_{n})=(u_{1}+v_{1},\dots,u_{n}+v_{n})}
+##{a(u_{1},\dots,u_{n})=(au_{1},\dots,au_{n})}
+Then this really is a vector space.}

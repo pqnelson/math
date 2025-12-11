@@ -1,0 +1,11 @@
+\title{Union of a family of sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.4}
+\MML{tarski}{def 4}{K3}
+
+\p{Let #{F} be a family of sets (i.e., set whose elements are sets). We define the \define{Union} of #{F} to be the set #{\bigcup F} such that for all objects #{x} we have #{x\in\bigcup F} iff there is some set #{X\in F} such that #{x\in X}.}
+
+\p{This defines a new constant and we should set about to [proving it is well-defined](nst-000C), but proving its existence is impossible because it is just stipulated to exist ("axiom of union").}

@@ -1,0 +1,12 @@
+\title{Inner product is antilinear in second slot}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.6 (d) and (e)}
+\meta{source}{[[lankham-2016-linear]] Lemma 9.1.6}
+
+\p{Let #{V} be an inner product space over #{\FF}. Then for all #{u,v,w\in V} and for all #{a\in\FF}, we have
+##{\langle u,v+w\rangle=\langle u,v\rangle+\langle u,w\rangle}
+and
+##{\langle u,av\rangle=\overline{a}\langle u,v\rangle}}

@@ -1,0 +1,8 @@
+\title{Spectral theorem for real matrices}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be a real #{n\times n} matrix. Assume #{\det(\mat{A})\neq0}. Then #{\mat{A}} is [diagonalizable](ela-001U) by an orthogonal matrix #{\mat{P}} (i.e., #{\mat{A}=\mat{P}\mat{D}\mat{P}^{-1}} where #{\mat{D}} is a diagonal matrix and #{\mat{P}^{-1}=\transpose{\mat{P}}}) if and only if #{\mat{A}} is symmetric #{\mat{A}=\transpose{\mat{A}}}.}

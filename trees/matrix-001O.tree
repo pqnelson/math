@@ -1,0 +1,12 @@
+\title{Determinant of triangular matrix is product of diagonal entries}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{T}=(t_{i,j})} be a triangular #{n\times n} matrix (either [[matrix-000B]] or [[matrix-000C]], it doesn't matter). Then the determinant of #{\det(\mat{T})} is just the product of the diagonal entries:}
+
+##{\det(\mat{T})=\prod^{n}_{i=1}t_{i,i}.}
+
+\proof{\p{The basic proof idea is to do this by induction on #{n}. The base case #{n=1} is obvious. The inductive case requires a bit of work, but amounts to following the definitions.}}

@@ -1,0 +1,12 @@
+\title{Domain and codomain of a function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{definition}
+
+\p{Let #{X} and #{Y} be sets, let #{f\colon X\to Y} be a function. We define:}
+\ol{
+\li{The \define{Domain} of #{f} to be the set #{\dom(f):=X} consisting of the inputs;}
+\li{The \define{Codomain} of #{f} to be the set #{\cod(f):=Y} consisting of all possible outputs.}
+}
+\p{Caution: the image is always a subset of the codomain of a function, but the domain could be larger than the image of a function.}

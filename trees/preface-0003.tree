@@ -1,0 +1,10 @@
+\title{Ordering material}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+
+\p{The choice to order material partially reflects how I learned it ([[ela]], followed by intermediate linear algebra, then [[ca]], and so on) and partially how I mentally think of the material: linear algebra is the "central" subject in Mathematics, and everything "branches off" from it.}
+
+\p{This means we successively review linear algebra in greater generality.}
+
+\p{Moreover, I have decided to "cluster" trees into "subforests" reflecting the course materials. This means each "identifier" for a tree is prefixed by some "slug" for the "subforest". Sometimes (like with \code{field} or \code{sl}) a mathematical object or gadget is used as the slug. Othertimes (like with \code{ela} or \code{ca}) the course name is used.}

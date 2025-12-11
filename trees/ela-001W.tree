@@ -1,0 +1,8 @@
+\title{Matrix is diagonalizable iff it has linearly independent eigenvectors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. Then #{\mat{A}} is [diagonalizable](ela-001U) if and only if #{\mat{A}} has #{n} linearly independent eigenvectors.}

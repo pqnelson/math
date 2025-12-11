@@ -1,0 +1,10 @@
+\title{Matrix Addition is Commutative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-26}
+\taxon{theorem}
+\import{ela}
+
+\p{For any two #{m\times n} matrices #{\mat{A}=(a_{i,j})} and #{\mat{B}=(b_{i,j})}, we have #{\mat{A}+\mat{B}=\mat{B}+\mat{A}}.}
+
+\proof{\p{We see #{\mat{A}+\mat{B}=(a_{i,j}+b_{i,j})} and for each component we have #{a_{i,j}+b_{i,j}=b_{i,j}+a_{i,j}} since componentwise we have addition of numbers (which is commutative). But the matrix with #{(b_{i,j}+a_{i,j})=\mat{B}+\mat{A}}. Hence we find #{\mat{A}+\mat{B}=\mat{B}+\mat{A}}.}}

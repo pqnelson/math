@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4213</fr:anchor><fr:addr
+type="user">ca-000B</fr:addr><fr:route>ca-000B.xml</fr:route><fr:title
+text="Uniqueness of Real Field">Uniqueness of Real Field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we have two ordered fields <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> which both have the <fr:link
+type="local"
+href="ca-0007.xml"
+addr="ca-0007"
+title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link> and each contain the rational numbers <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield. Then there exists an order-preserving field isomorphism <fr:tex
+display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p><fr:p>Since the ordered field <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> with the LUB property and containing <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is essentially unique, we refer to it as the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Real Numbers</html:dfn> and write it as <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3189</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just a sketch of the proof.</fr:p>
+<fr:p><fr:strong>Step 1:</fr:strong> the fields <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> are both character zero, i.e., there is no <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[1_{R} + \cdots  + 1_{R}=0]]></fr:tex> (the sum of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> copies of <fr:tex
+display="inline"><![CDATA[1_{R}]]></fr:tex> vanishes). This is never true for either <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is order-dense in <fr:tex
+display="inline"><![CDATA[R_{i}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 3:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[f_{0}\colon  \mathbb {Q}\cap  R_{1}\to  R_{2}]]></fr:tex> be a function taking <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> in the sense that if <fr:tex
+display="inline"><![CDATA[q\in  R_{1}\cap \mathbb {Q}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f_{0}(q)=q]]></fr:tex>.</fr:p>
+<fr:p>We extend this <fr:tex
+display="inline"><![CDATA[f_{0}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[f(r)=\sup \{f(q)\mid  q<r\}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[r\in  R_{1}]]></fr:tex>. Then by the order-density of <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, this <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is an order isomorphism.</fr:p>
+<fr:p><fr:strong>Step 4:</fr:strong> The <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> we just constructed is a field isomorphism.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4215</fr:anchor><fr:addr
+type="user">ca-0009</fr:addr><fr:route>ca-0009.xml</fr:route><fr:title
+text="Real Field">Real Field</fr:title><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3183</fr:anchor><fr:addr
+type="user">field-0001</fr:addr><fr:route>field-0001.xml</fr:route><fr:title
+text="Field">Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Field</html:dfn> is traditionally defined as a set <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> with two binary operators, addition (denoted <fr:tex
+display="inline"><![CDATA[+]]></fr:tex>) and multiplication (denoted <fr:tex
+display="inline"><![CDATA[\cdot ]]></fr:tex>), satisfying the field axioms:</fr:p><fr:ol><fr:li>Associativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x+y)+z=x+(y+z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x+y=y+x]]></fr:tex></fr:li>
+<fr:li>Additive identity: there exists a <fr:tex
+display="inline"><![CDATA[0\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[0+x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x+0=x]]></fr:tex></fr:li>
+<fr:li>Additive inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x+y=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y+x=0]]></fr:tex>; in this case, we usually denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[(-x)]]></fr:tex></fr:li>
+<fr:li>Associativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x\cdot  y)\cdot  z=x\cdot  (y\cdot  z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x\cdot  y=y\cdot  x]]></fr:tex></fr:li>
+<fr:li>Multiplicative identity: there exists a <fr:tex
+display="inline"><![CDATA[1\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[1\cdot  x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\cdot  1=x]]></fr:tex></fr:li>
+<fr:li>Multiplicative inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> which is nonzero <fr:tex
+display="inline"><![CDATA[x\neq 0]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\cdot  y=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\cdot  x=1]]></fr:tex>; usually we denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[x^{-1}]]></fr:tex></fr:li>
+<fr:li>Distributivity of multiplication over addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[x\cdot (y+z)=(x\cdot  y)+(x\cdot  z)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x+y)\cdot  z=(x\cdot  z)+(x\cdot  y)]]></fr:tex></fr:li></fr:ol><fr:p>Note that some of these are redundant.</fr:p><fr:p>Also note: fields are usually written in blackboard bold, and the generic field is either <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since the German word for field is "<fr:em>Körper</fr:em>").</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3185</fr:anchor><fr:addr
+type="user">ca-000A</fr:addr><fr:route>ca-000A.xml</fr:route><fr:title
+text="Existence of real field">Existence of real field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, 1.19</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There exists an ordered field <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> which has the <fr:link
+type="local"
+href="ca-0007.xml"
+addr="ca-0007"
+title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link>. Moreover, <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> contains the rational numbers <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3187</fr:anchor><fr:addr
+type="user">ca-000B</fr:addr><fr:route>ca-000B.xml</fr:route><fr:title
+text="Uniqueness of Real Field">Uniqueness of Real Field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we have two ordered fields <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> which both have the <fr:link
+type="local"
+href="ca-0007.xml"
+addr="ca-0007"
+title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link> and each contain the rational numbers <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield. Then there exists an order-preserving field isomorphism <fr:tex
+display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p><fr:p>Since the ordered field <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> with the LUB property and containing <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is essentially unique, we refer to it as the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Real Numbers</html:dfn> and write it as <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3189</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just a sketch of the proof.</fr:p>
+<fr:p><fr:strong>Step 1:</fr:strong> the fields <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> are both character zero, i.e., there is no <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[1_{R} + \cdots  + 1_{R}=0]]></fr:tex> (the sum of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> copies of <fr:tex
+display="inline"><![CDATA[1_{R}]]></fr:tex> vanishes). This is never true for either <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is order-dense in <fr:tex
+display="inline"><![CDATA[R_{i}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 3:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[f_{0}\colon  \mathbb {Q}\cap  R_{1}\to  R_{2}]]></fr:tex> be a function taking <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> in the sense that if <fr:tex
+display="inline"><![CDATA[q\in  R_{1}\cap \mathbb {Q}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f_{0}(q)=q]]></fr:tex>.</fr:p>
+<fr:p>We extend this <fr:tex
+display="inline"><![CDATA[f_{0}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[f(r)=\sup \{f(q)\mid  q<r\}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[r\in  R_{1}]]></fr:tex>. Then by the order-density of <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, this <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is an order isomorphism.</fr:p>
+<fr:p><fr:strong>Step 4:</fr:strong> The <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> we just constructed is a field isomorphism.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3191</fr:anchor><fr:addr
+type="user">ca-000C</fr:addr><fr:route>ca-000C.xml</fr:route><fr:title
+text="Archimedean Property of Reals">Archimedean Property of Reals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, 1.20(a)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x\in \mathbb {R}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y\in \mathbb {R}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[x>0]]></fr:tex>. Then there exists a positive integer <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[nx>y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3193</fr:anchor><fr:addr
+type="user">ca-000D</fr:addr><fr:route>ca-000D.xml</fr:route><fr:title
+text="Density of Rationals in Reals">Density of Rationals in Reals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, 1.20(b)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x\in \mathbb {R}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\in \mathbb {R}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[x<y]]></fr:tex>, then there exists a <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Q}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x<p<y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3195</fr:anchor><fr:addr
+type="user">ca-000E</fr:addr><fr:route>ca-000E.xml</fr:route><fr:title
+text="Existence of rational roots of positive real numbers">Existence of rational roots of positive real numbers</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, 1.21</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x>0]]></fr:tex> be real and <fr:tex
+display="inline"><![CDATA[n>0]]></fr:tex> be an integer. Then there exists exactly one real number <fr:tex
+display="inline"><![CDATA[y\in \mathbb {R}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[y^{n}=x]]></fr:tex>.</fr:p><fr:p>Since this <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> is unique, we write it as <fr:tex
+display="inline"><![CDATA[y=x^{1/n}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[y=\sqrt [n]{x}]]></fr:tex> and call it the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-th root of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex></html:dfn>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3197</fr:anchor><fr:addr
+type="user">ca-000F</fr:addr><fr:route>ca-000F.xml</fr:route><fr:title
+text="Product of nth roots">Product of nth roots</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, 1.21</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[a>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b>0]]></fr:tex> be real numbers. Let <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be a positive integer. Then
+<fr:tex
+display="block"><![CDATA[(ab)^{1/n}=a^{1/n}b^{1/n}]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4217</fr:anchor><fr:addr
+type="user">ca-0007</fr:addr><fr:route>ca-0007.xml</fr:route><fr:title
+text="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, 1.10</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>An <fr:link
+type="local"
+href="ca-0003.xml"
+addr="ca-0003"
+title="Ordered Set">Ordered Set</fr:link> <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is said to have the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Least-Upper-Bound Property</html:dfn> if the following is true:</fr:p><fr:p>For any subset <fr:tex
+display="inline"><![CDATA[E\subseteq  S]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is non empty and <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is <fr:link
+type="local"
+href="ca-0003.xml"
+addr="ca-0003"
+title="Ordered Set">bounded above</fr:link>, then <fr:tex
+display="inline"><![CDATA[\sup (E)]]></fr:tex> exists in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

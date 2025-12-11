@@ -1,0 +1,8 @@
+\title{Sign of inverse of a permutation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-10}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Definition 8.1.13}
+
+\p{Let #{\pi\in S_{n}} be a permutation. Then #{\sgn(\pi^{-1})=\sgn(\pi)}.}

@@ -1,0 +1,13 @@
+\title{Negating a vector by multiplying by minus one}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.32}
+\meta{source}{[[lankham-2016-linear]] Proposition 4.2.5}
+
+\p{Let #{V} be a vector space over #{\FF}. Let #{v\in V}. Then #{(-1)v=-v}.}
+
+\proof{\p{We see
+##{v+(-1)v=1v+(-1)v=(1+(-1))v=0v=\vec{0}}
+by [[vectsp-000A]].}}

@@ -1,0 +1,11 @@
+\title{Range of a relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.7}
+
+\p{Let #{R} be a relation. We define the \define{Range} of #{R} to be the set #{\ran(R)=\{y\mid\exists x\ldotp(x,y)\in R\}}.}
+
+\p{When #{R} is a relation of #{X} and #{Y}, we see #{\ran(R)\subset Y}.}
+

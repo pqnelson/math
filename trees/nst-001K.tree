@@ -1,0 +1,13 @@
+\title{Direct image preserves only union}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[nicolas-bourbaki]] [[bourbaki-1968-theory]] R§2.5}
+
+\p{Let #{f\colon X\to Y} be a function, let #{L\subset X} and #{R\subset X} be subsets. Then the following all hold:}
+\ol{
+\li{#{f(L\cup R)=f(L)\cup f(R)}}
+\li{#{f(L\cap R)\subset f(L)\cap f(R)}}
+\li{#{f(L\setminus R)\supset f(L)\setminus f(R)}}
+}

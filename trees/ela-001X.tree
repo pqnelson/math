@@ -1,0 +1,8 @@
+\title{Matrix is diagonalizable when the roots of its characteristic polynomial are unique}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+\import{ela}
+
+\p{Let #{\mat{A}} be an #{n\times n} matrix. If the roots of the characteristic polynomial of #{\mat{A}} are all distinct (i.e., the set of all roots is a set with #{n} distinct elements), then #{\mat{A}} is [diagonalizable](ela-001U).}

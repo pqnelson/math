@@ -1,0 +1,9 @@
+\title{Product of nth roots}
+\author{alex-nelson}
+\import{notation}
+\date{2025-10-19}
+\taxon{corollary}
+\meta{source}{[[baby-rudin]], 1.21}
+
+\p{Let #{a>0} and #{b>0} be real numbers. Let #{n} be a positive integer. Then
+##{(ab)^{1/n}=a^{1/n}b^{1/n}}}

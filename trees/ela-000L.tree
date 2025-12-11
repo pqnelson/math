@@ -1,0 +1,7 @@
+\title{Subspace iff closed under arbitrary linear combinations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-08}
+\taxon{theorem}
+
+\p{Let #{V} be a real vector space, let #{U\subset V}. Then #{U} is a subspace of #{V} if and only if for every #{u_{1},u_{2}\in U} and #{c_{1},c_{2}\in\RR} we have #{(c_{1}\odot u_{1})\oplus(c_{2}\odot u_{2})\in U}.}

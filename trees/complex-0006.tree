@@ -1,0 +1,8 @@
+\title{Complex conjugation}
+\author{alex-nelson}
+\import{notation}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Definition 2.2.8}
+\meta{source}{[[axler-1996-linear]] Definition 4.2}
+
+\p{Let #{z=x+\I y\in\CC} be a complex number with #{x,y\in\RR}. Then we define the \define{Complex Conjugate} of #{z} to be the complex number #{\overline{z}=x-\I y}.}

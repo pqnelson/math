@@ -1,0 +1,14 @@
+\title{identity matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-05-12}
+\import{ela}
+
+\p{For any positive integer #{n}, we have the #{n\times n} \define{Identity Matrix} to be
+##{\mat{I}_{n} = (\delta_{i,j}) = \begin{cases}1 &\hbox{if }i=j,\\
+    0 &\hbox{if }i\neq j
+  \end{cases}}
+where the components #{\delta_{i,j}} are referred to as the \define{Kronecker Delta}.}
+
+\p{If #{n} is clear from context, we may suppress the subscript and write #{\mat{I}} instead of #{\mat{I}_{n}}. Some authors write #{\mathbf{1}} for the identity matrix, because (as we will see) it is analogous to the number #{1\in\Reals}.}
+

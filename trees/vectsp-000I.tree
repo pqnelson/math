@@ -1,0 +1,9 @@
+\title{Criterion for direct sum}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 1.45}
+\meta{source}{[[lankham-2016-linear]] Proposition 4.4.6}
+
+\p{Let #{U_{1},U_{2}\subset V}. Then #{U_{1}+U_{2}} is a direct sum if and only if the only way we can write #{\vec{0}=u_{1}+u_{2}} with #{u_{1}\in U_{1}} and #{u_{2}\in U_{2}} is for #{u_{1}=u_{2}=\vec{0}}.}

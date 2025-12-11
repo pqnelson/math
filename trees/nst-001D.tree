@@ -1,0 +1,10 @@
+\title{Direct image of a function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-09}
+\taxon{definition}
+\meta{source}{[[paul-r-halmos]] [[halmos-1974-naive]] Ch.10}
+
+\p{Let #{f\colon X\to Y} be a function. Let #{A\subset X}. We define the \define{Direct Image} of #{A} under #{f} to be the set #{f(A)=\{f(x)\in Y\mid x\in A\}}.}
+
+\p{We sometimes use the notation #{f_{*}(A)} for the direct image of #{A} under #{f}, so we can describe a function #{f_{*}\colon\powerset{X}\to\powerset{Y}}.}
