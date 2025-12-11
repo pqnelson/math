@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6536</fr:anchor><fr:addr
+type="user">uni-stuttgart.de</fr:addr><fr:route>uni-stuttgart.de.xml</fr:route><fr:title
+text="University of Stuttgart">University of Stuttgart</fr:title><fr:taxon>Institution</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6537</fr:anchor><fr:addr
+type="user">uwe-semmelmann</fr:addr><fr:route>uwe-semmelmann.xml</fr:route><fr:title
+text="Uwe Semmelmann">Uwe Semmelmann</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+name="position">Professor, Chair of Geometry</fr:meta><fr:meta
+name="institution"><fr:link
+type="local"
+href="uni-stuttgart.de.xml"
+addr="uni-stuttgart.de"
+title="University of Stuttgart">University of Stuttgart</fr:link></fr:meta><fr:meta
+name="external">https://www.igt.uni-stuttgart.de/en/team/Semmelmann/</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

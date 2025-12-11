@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6409</fr:anchor><fr:addr
+type="user">paul-m-cohn</fr:addr><fr:route>paul-m-cohn.xml</fr:route><fr:title
+text="Paul M. Cohn">Paul M. Cohn</fr:title><fr:taxon>Person</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Contributions">Contributions</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6410</fr:anchor><fr:addr
+type="user">cohn-1966-structure</fr:addr><fr:route>cohn-1966-structure.xml</fr:route><fr:title
+text="On the structure of the {GL}_{2} of a ring">On the structure of the <fr:tex
+display="inline"><![CDATA[\mathrm {GL}_{2}]]></fr:tex> of a ring</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1966</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="paul-m-cohn.xml"
+addr="paul-m-cohn"
+title="Paul M. Cohn">Paul M. Cohn</fr:link></fr:author></fr:authors><fr:meta
+name="source">https://www.numdam.org/item/PMIHES_1966__30__5_0.pdf</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{cohn1966structure,
+  title={On the structure of the $ GL\_2 $ of a ring},
+  author={Cohn, Paul M},
+  journal={Publications Math{\'e}matiques de l'IH{\'E}S},
+  volume={30},
+  pages={5--53},
+  year={1966}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

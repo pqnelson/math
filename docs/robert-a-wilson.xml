@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6495</fr:anchor><fr:addr
+type="user">robert-a-wilson</fr:addr><fr:route>robert-a-wilson.xml</fr:route><fr:title
+text="Robert A. Wilson">Robert A. Wilson</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+name="position">Professor of Mathematics</fr:meta><fr:meta
+name="institution">Queen Mary, University of London</fr:meta><fr:meta
+name="external">https://webspace.maths.qmul.ac.uk/r.a.wilson/</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Also author of the book on the Finite Simple Groups.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Contributions">Contributions</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6496</fr:anchor><fr:addr
+type="user">wilson-2023-octonionic</fr:addr><fr:route>wilson-2023-octonionic.xml</fr:route><fr:title
+text="An octonionic construction of E8 and the Lie algebra magic square">An octonionic construction of E8 and the Lie algebra magic square</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2023</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="robert-a-wilson.xml"
+addr="robert-a-wilson"
+title="Robert A. Wilson">Robert A. Wilson</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="tevian-dray.xml"
+addr="tevian-dray"
+title="Tevian Dray">Tevian Dray</fr:link></fr:author><fr:author><fr:link
+type="local"
+href="corinne-a-manogue.xml"
+addr="corinne-a-manogue"
+title="Corinne A. Manogue">Corinne A. Manogue</fr:link></fr:author></fr:authors><fr:meta
+name="arxiv">2204.04996</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{wilson2023octonionic,
+  title={An octonionic construction of E8 and the Lie algebra magic square},
+  author={Wilson, Robert A and Dray, Tevian and Manogue, Corinne A},
+  journal={Innovations in Incidence Geometry: Algebraic, Topological and Combinatorial},
+  volume={20},
+  number={2},
+  pages={611--634},
+  year={2023},
+  publisher={Mathematical Sciences Publishers}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
