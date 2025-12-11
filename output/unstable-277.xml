@@ -7,18 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4469</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4754</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=(a_{i,j}+b_{i,j})]]></fr:tex> and for each component we have <fr:tex
-display="inline"><![CDATA[a_{i,j}+b_{i,j}=b_{i,j}+a_{i,j}]]></fr:tex> since componentwise we have addition of numbers (which is commutative). But the matrix with <fr:tex
-display="inline"><![CDATA[(b_{i,j}+a_{i,j})=\mathbf {B}+\mathbf {A}]]></fr:tex>. Hence we find <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important that the number system we have been working with implicitly is the real or complex numbers (or the rationals). This is because multiplication in this number system is commutative <fr:em>and</fr:em> associative. If it is noncommutative, then <fr:tex
+display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})\neq  r(\mathbf {A}\mathbf {B})]]></fr:tex> which could be problematic.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,17 +28,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4471</fr:anchor><fr:addr
-type="user">matrix-000G</fr:addr><fr:route>matrix-000G.xml</fr:route><fr:title
-text="Matrix Addition is Commutative">Matrix Addition is Commutative</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4756</fr:anchor><fr:addr
+type="user">matrix-0013</fr:addr><fr:route>matrix-0013.xml</fr:route><fr:title
+text="Mixing Scalar and Matrix Multiplication">Mixing Scalar and Matrix Multiplication</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any two <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}=(b_{i,j})]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[r]]></fr:tex> be a number, let <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[n\times  p]]></fr:tex> matrix. Then <fr:tex
+display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})=r(\mathbf {A}\mathbf {B})=(r\mathbf {A})\mathbf {B}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -53,17 +50,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3281</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3838</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=(a_{i,j}+b_{i,j})]]></fr:tex> and for each component we have <fr:tex
-display="inline"><![CDATA[a_{i,j}+b_{i,j}=b_{i,j}+a_{i,j}]]></fr:tex> since componentwise we have addition of numbers (which is commutative). But the matrix with <fr:tex
-display="inline"><![CDATA[(b_{i,j}+a_{i,j})=\mathbf {B}+\mathbf {A}]]></fr:tex>. Hence we find <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important that the number system we have been working with implicitly is the real or complex numbers (or the rationals). This is because multiplication in this number system is commutative <fr:em>and</fr:em> associative. If it is noncommutative, then <fr:tex
+display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})\neq  r(\mathbf {A}\mathbf {B})]]></fr:tex> which could be problematic.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

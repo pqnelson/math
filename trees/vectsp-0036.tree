@@ -1,0 +1,9 @@
+\title{If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{lemma}
+\meta{source}{[[lankham-2016-linear]] Corollary 9.5.5}
+\import{ela}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}, let #{L\colon V\to V} be a linear operator. If there is some basis #{B} of #{V} such that #{L} is an upper-triangular matrix with respect to #{B}, then there exists an orthonormal basis #{C} of #{V} such that #{L} is an upper triangular matrix with respect to #{C}.}

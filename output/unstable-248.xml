@@ -7,16 +7,19 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1655</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2234</fr:anchor><fr:addr
 type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
 <fr:tex
-display="block"><![CDATA[a\vec {0}=a(\vec {0}+\vec {0})=a\vec {0}+a\vec {0},]]></fr:tex>
-then adding the additive inverse of <fr:tex
-display="inline"><![CDATA[a\vec {0}]]></fr:tex> to both sides yields the result.</fr:p><html:span
+display="block"><![CDATA[v+(-1)v=1v+(-1)v=(1+(-1))v=0v=\vec {0}]]></fr:tex>
+by <fr:link
+type="local"
+href="vectsp-000A.xml"
+addr="vectsp-000A"
+title="Scalar multiples of zero vector are the zero vector">Scalar multiples of zero vector are the zero vector</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -33,9 +36,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1657</fr:anchor><fr:addr
-type="user">vectsp-000A</fr:addr><fr:route>vectsp-000A.xml</fr:route><fr:title
-text="Scalar multiples of zero vector are the zero vector">Scalar multiples of zero vector are the zero vector</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2236</fr:anchor><fr:addr
+type="user">vectsp-000B</fr:addr><fr:route>vectsp-000B.xml</fr:route><fr:title
+text="Negating a vector by multiplying by minus one">Negating a vector by multiplying by minus one</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -44,17 +47,16 @@ name="source"><fr:link
 type="local"
 href="axler-1996-linear.xml"
 addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 1.31</fr:meta><fr:meta
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 1.32</fr:meta><fr:meta
 name="source"><fr:link
 type="local"
 href="lankham-2016-linear.xml"
 addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 4.2.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 4.2.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[V]]></fr:tex> be a vector space over <fr:tex
 display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[\vec {0}\in  V]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[a\vec {0}=\vec {0}]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[v\in  V]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(-1)v=-v]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -64,16 +66,19 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>639</fr:anchor><fr:addr
 type="machine">#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
 <fr:tex
-display="block"><![CDATA[a\vec {0}=a(\vec {0}+\vec {0})=a\vec {0}+a\vec {0},]]></fr:tex>
-then adding the additive inverse of <fr:tex
-display="inline"><![CDATA[a\vec {0}]]></fr:tex> to both sides yields the result.</fr:p><html:span
+display="block"><![CDATA[v+(-1)v=1v+(-1)v=(1+(-1))v=0v=\vec {0}]]></fr:tex>
+by <fr:link
+type="local"
+href="vectsp-000A.xml"
+addr="vectsp-000A"
+title="Scalar multiples of zero vector are the zero vector">Scalar multiples of zero vector are the zero vector</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

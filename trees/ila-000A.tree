@@ -1,0 +1,8 @@
+\title{Concluding remarks}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+
+\p{We have covered a lot of ground discussing intermediate linear algebra. There's room for more topics like the Moore-Penrose pseudoinverse and Gershgorin's circle theorem. But these are usually left for numerical linear algebra.}
+
+\p{More advanced discussions of linear algebra will also be a core subject of abstract algebra. The second quarter of abstract algebra generalizes linear algebra to different number systems other than [[field-0001]]s.}

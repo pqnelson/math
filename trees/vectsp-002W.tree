@@ -1,0 +1,12 @@
+\title{Existence of orthonormal basis for finite-dimensional inner product spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.35}
+\meta{source}{[[lankham-2016-linear]] Corollary 9.5.3}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional [[vectsp-0020]] over #{\FF}. Then there exists an [[vectsp-002D]] for #{V}.}
+
+\proof{\p{Let #{n=\dim(V)}. Since #{V} is finite-dimensional, there exists a set of linearly independent vectors #{\{v_{1},\dots,v_{n}\}} such that #{V=\span{v_{1},\dots,v_{n}}} and there is no smaller set of vectors spanning #{V}. Then using the [[vectsp-002V]], we transform this set into an orthonormal basis of #{V}.}}

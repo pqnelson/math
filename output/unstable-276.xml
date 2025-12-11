@@ -7,41 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4465</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4750</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>We see that the components of the zero matrix are all identically zero, <fr:tex
-display="inline"><![CDATA[\mathbf {0}=[(0)_{i,j}]]]></fr:tex>. So
-<fr:tex
-display="block"><![CDATA[\mathbf {A}+\mathbf {0}]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (by definition of matrix addition)
-<fr:tex
-display="block"><![CDATA[[a_{i,j}+(0)_{i,j}]]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (since <fr:tex
-display="inline"><![CDATA[(0)_{i,j} = 0]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[j]]></fr:tex>)
-<fr:tex
-display="block"><![CDATA[[a_{i,j}+0]]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (arithmetic)
-<fr:tex
-display="block"><![CDATA[[a_{i,j}]]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (definition of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>)
-<fr:tex
-display="block"><![CDATA[\mathbf {A}.]]></fr:tex>
-Thus <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}]]></fr:tex>.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
+display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
+display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
+display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
+display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
+display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -56,26 +33,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4467</fr:anchor><fr:addr
-type="user">matrix-000H</fr:addr><fr:route>matrix-000H.xml</fr:route><fr:title
-text="Matrix Addition with Zero Matrix">Matrix Addition with Zero Matrix</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4752</fr:anchor><fr:addr
+type="user">matrix-0015</fr:addr><fr:route>matrix-0015.xml</fr:route><fr:title
+text="Matrix Multiplication in Plane Geometry">Matrix Multiplication in Plane Geometry</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, the sum of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> with the <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> zero matrix <fr:tex
-display="inline"><![CDATA[\mathbf {0}]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>. That is to say, <fr:tex
-display="block"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}.]]></fr:tex>
-We can use the <fr:link
-type="local"
-href="matrix-000G.xml"
-addr="matrix-000G"
-title="Matrix Addition is Commutative">previous theorem</fr:link> to further conclude <fr:tex
-display="inline"><![CDATA[\mathbf {0}+\mathbf {A}=\mathbf {A}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can look at <fr:tex
+display="inline"><![CDATA[2\times 2]]></fr:tex> matrices as acting on points <fr:tex
+display="inline"><![CDATA[(x,y)\in \mathbb {R}^{2}]]></fr:tex> on the plane. We turn <fr:tex
+display="inline"><![CDATA[(x,y)]]></fr:tex> into a column vector.</fr:p><fr:p>We have rotation anticlockwise by an angle <fr:tex
+display="inline"><![CDATA[\theta ]]></fr:tex> given by
+<fr:tex
+display="block"><![CDATA[\mathbf {A}_{\theta } = \begin {bmatrix}\cos (\theta ) & -\sin (\theta )\\ \sin (\theta ) & \cos (\theta )\end {bmatrix}.]]></fr:tex>
+Reflection about the <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>-axis is
+<fr:tex
+display="block"><![CDATA[\mathbf {R}  =\begin {bmatrix}1 & 0\\0 & -1 \end {bmatrix}.]]></fr:tex>
+Dilation by a positive real number <fr:tex
+display="inline"><![CDATA[\lambda \gt  0]]></fr:tex> is a diagonal matrix
+<fr:tex
+display="block"><![CDATA[  \mathbf {D}_{\lambda } =\begin {bmatrix}\lambda  & 0\\   0 & \lambda    \end {bmatrix}.]]></fr:tex>
+Observe for <fr:tex
+display="inline"><![CDATA[0\lt \lambda \lt 1]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\mathbf {D}_{\lambda }]]></fr:tex> be a contraction.</fr:p>
  
    
    <fr:tree
@@ -85,40 +66,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3285</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3844</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>We see that the components of the zero matrix are all identically zero, <fr:tex
-display="inline"><![CDATA[\mathbf {0}=[(0)_{i,j}]]]></fr:tex>. So
-<fr:tex
-display="block"><![CDATA[\mathbf {A}+\mathbf {0}]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (by definition of matrix addition)
-<fr:tex
-display="block"><![CDATA[[a_{i,j}+(0)_{i,j}]]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (since <fr:tex
-display="inline"><![CDATA[(0)_{i,j} = 0]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[j]]></fr:tex>)
-<fr:tex
-display="block"><![CDATA[[a_{i,j}+0]]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (arithmetic)
-<fr:tex
-display="block"><![CDATA[[a_{i,j}]]]></fr:tex>
-<fr:tex
-display="inline"><![CDATA[=]]></fr:tex> (definition of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>)
-<fr:tex
-display="block"><![CDATA[\mathbf {A}.]]></fr:tex>
-Thus <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}]]></fr:tex>.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
+display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
+display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
+display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
+display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
+display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

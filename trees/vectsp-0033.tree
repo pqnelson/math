@@ -1,0 +1,16 @@
+\title{Eigenvectors of normal operator are orthogonal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.22}
+\meta{source}{[[lankham-2016-linear]] Corollary 11.2.4}
+\import{ela}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\CC}. Let #{L\colon V\to V} be a [normal](vectsp-002P) linear operator. If #{\lambda,\mu\in\CC} are distinct eigenvalues of #{L} with eigenvectors #{v} and #{w} (respectively), then #{\langle v,w\rangle=0}.}
+
+\proof{\p{We see that
+##{(\lambda-\mu)\langle v,w\rangle=\langle\lambda v,w\rangle-\langle v,\overline{\mu}w\rangle=\langle Tv,w\rangle-\langle v,T^{*}w\rangle}
+but #{\langle Tv,w\rangle-\langle v,T^{*}w\rangle=0} by definition of [adjoint](vectsp-002K), so
+##{(\lambda-\mu)\langle v,w\rangle=0.}
+Since #{\lambda\neq\mu}, this means #{\langle v,w\rangle=0} as desired.}}

@@ -1,0 +1,12 @@
+\title{Every orthonormal list extends to an orthonormal basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.36}
+\meta{source}{[[lankham-2016-linear]] Corollary 9.5.4}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional [[vectsp-0020]] over #{\FF}. If #{e_{1},\dots,e_{m}\in V} are orthonormal vectors, then we may extend them to form an [[vectsp-002D]] of #{V}.}
+
+\proof{\p{By the [[vectsp-000W]], we may extend the vectors to form a basis #{e_{1},\dots,e_{m},v_{m+1},\dots,v_{n}} of #{V}. Then using [[vectsp-002V]], we transform these vectors into an orthonormal basis. But since #{e_{1},\dots,e_{m}} are already orthonormal, the Gram-Schmidt process leaves them alone.}}

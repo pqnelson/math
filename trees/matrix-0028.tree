@@ -1,0 +1,9 @@
+\title{Unitary matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Definition 11.4.3}
+\import{ela}
+
+\p{Let #{M} be an #{n\times n} matrix over #{\CC}. We say #{M} is \define{Unitary} if the [conjugate](complex-0006) transpose is its inverse #{\overline{\transpose{M}}=M^{-1}}.}

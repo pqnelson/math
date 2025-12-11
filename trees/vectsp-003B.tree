@@ -1,0 +1,11 @@
+\title{Unitary operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[axler-1996-linear]] Definition 7.51}
+\import{ela}
+
+\p{Let #{V} be a complex inner product space. Let #{L\colon V\to V} be a linear operator on #{V}. We say #{L} is \define{Unitary} if
+##{\langle Lv,w\rangle = \langle v,L^{-1}w\rangle}
+for all #{v,w\in V}.}

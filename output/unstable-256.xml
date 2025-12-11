@@ -7,30 +7,40 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2953</fr:anchor><fr:addr
-type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2262</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
-display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
-<fr:p>The backward direction: assume <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
-display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
-display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
-display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
-display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> take <fr:tex
+display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex
+display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -47,25 +57,37 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2955</fr:anchor><fr:addr
-type="user">ela-001N</fr:addr><fr:route>ela-001N.xml</fr:route><fr:title
-text="Linear transformation is injective iff kernel is trivial subspace">Linear transformation is injective iff kernel is trivial subspace</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2264</fr:anchor><fr:addr
+type="user">nst-000D</fr:addr><fr:route>nst-000D.xml</fr:route><fr:title
+text="Union of two sets">Union of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear transformation of real vector spaces. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
 type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> if and only if <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}]]></fr:tex> is the <fr:link
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
 type="local"
-href="ela-000K.xml"
-addr="ela-000K"
-title="Trivial subspace">Trivial subspace</fr:link> of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K2">xboole_0:def 3</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Union</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[X\cup  Y]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y]]></fr:tex> iff either <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see that this is commutative <fr:tex
+display="inline"><![CDATA[X\cup  Y=Y\cup  X]]></fr:tex> and idempotent <fr:tex
+display="inline"><![CDATA[X\cup  X=X]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -75,30 +97,40 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2957</fr:anchor><fr:addr
-type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>519</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
-display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
-<fr:p>The backward direction: assume <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
-display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
-display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
-display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
-display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> take <fr:tex
+display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex
+display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

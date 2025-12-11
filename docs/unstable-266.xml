@@ -7,20 +7,25 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4231</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
 <fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
+but <fr:tex
+display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
+type="local"
+href="vectsp-002K.xml"
+addr="vectsp-002K"
+title="Adjoint of linear map">adjoint</fr:link>, so
+<fr:tex
+display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
+display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -37,15 +42,39 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4233</fr:anchor><fr:addr
-type="user">matrix-001I</fr:addr><fr:route>matrix-001I.xml</fr:route><fr:title
-text="Matrix Inverse is Idempotent">Matrix Inverse is Idempotent</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>383</fr:anchor><fr:addr
+type="user">vectsp-0033</fr:addr><fr:route>vectsp-0033.xml</fr:route><fr:title
+text="Eigenvectors of normal operator are orthogonal">Eigenvectors of normal operator are orthogonal</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an invertible matrix. Then <fr:tex
-display="inline"><![CDATA[(\mathbf {A}^{-1})^{-1}=\mathbf {A}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.22</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.2.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> be an <fr:link
+type="local"
+href="vectsp-0020.xml"
+addr="vectsp-0020"
+title="Inner product space">Inner product space</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a <fr:link
+type="local"
+href="vectsp-002P.xml"
+addr="vectsp-002P"
+title="Normal operator">normal</fr:link> linear operator. If <fr:tex
+display="inline"><![CDATA[\lambda ,\mu \in \mathbb {C}]]></fr:tex> are distinct eigenvalues of <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> with eigenvectors <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[w]]></fr:tex> (respectively), then <fr:tex
+display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -55,20 +84,25 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3377</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
 <fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
+but <fr:tex
+display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
+type="local"
+href="vectsp-002K.xml"
+addr="vectsp-002K"
+title="Adjoint of linear map">adjoint</fr:link>, so
+<fr:tex
+display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
+display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

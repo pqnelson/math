@@ -7,12 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4461</fr:anchor><fr:addr
-type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4746</fr:anchor><fr:addr
+type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"Scalar multiplication" refers to the fact we are multiplying a matrix by a "scalar" [number], as opposed to multiplying by a vector or another matrix.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe that the <fr:link
+type="local"
+href="matrix-0004.xml"
+addr="matrix-0004"
+title="Identity matrix">identity matrix</fr:link> is its own inverse. Not every matrix has an inverse, for example <fr:link
+type="local"
+href="matrix-0003.xml"
+addr="matrix-0003"
+title="Zero matrix">zero matrix</fr:link> has no inverse.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,24 +35,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4463</fr:anchor><fr:addr
-type="user">matrix-000I</fr:addr><fr:route>matrix-000I.xml</fr:route><fr:title
-text="Scalar multiplication (on a matrix)">Scalar multiplication (on a matrix)</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4748</fr:anchor><fr:addr
+type="user">matrix-001C</fr:addr><fr:route>matrix-001C.xml</fr:route><fr:title
+text="Matrix Inverse">Matrix Inverse</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> be a real [or complex] number. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Scalar Multiple</html:dfn> of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> to be the <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix <fr:tex
-display="inline"><![CDATA[r\mathbf {A} = (ra_{i,j})]]></fr:tex> whose components are obtained by multiplying every component of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>. We can also write this as <fr:tex
-display="inline"><![CDATA[r\cdot  \mathbf {A}=r\mathbf {A}]]></fr:tex> to make the scalar multiplication explicit.</fr:p>
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. We call an <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrix <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> an <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Inverse</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> if
+<fr:tex
+display="block"><![CDATA[\mathbf {A}\mathbf {B}=\mathbf {B}\mathbf {A}=\mathbf {I}_{n}.]]></fr:tex>
+In this case, we call <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Invertible</html:dfn> (or <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Nonsingular</html:dfn>).</fr:p><fr:p>Otherwise, if no such <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> exists, then <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is called a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Noninvertible</html:dfn> (or <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Singular</html:dfn>) matrix.</fr:p>
  
    
    <fr:tree
@@ -54,11 +67,19 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1273</fr:anchor><fr:addr
-type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3858</fr:anchor><fr:addr
+type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"Scalar multiplication" refers to the fact we are multiplying a matrix by a "scalar" [number], as opposed to multiplying by a vector or another matrix.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe that the <fr:link
+type="local"
+href="matrix-0004.xml"
+addr="matrix-0004"
+title="Identity matrix">identity matrix</fr:link> is its own inverse. Not every matrix has an inverse, for example <fr:link
+type="local"
+href="matrix-0003.xml"
+addr="matrix-0003"
+title="Zero matrix">zero matrix</fr:link> has no inverse.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

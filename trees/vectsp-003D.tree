@@ -1,0 +1,10 @@
+\title{Singular value decomposition}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.70}
+
+\p{Let #{V}, #{W} be vector spaces over #{\FF}. Let #{L\colon V\to W} be a linear operator. Suppose the positive singular values of #{L} are #{s_{1},\dots,s_{m}}. Then there exists orthonormal #{e_{1},\dots,e_{m}\in V} and #{f_{1},\dots,f_{m}\in W} such that
+##{T(v)=s_{1}\langle v,e_{1}\rangle f_{1}+\dots+s_{m}\langle v,e_{m}\rangle f_{m}}
+for each #{v\in V}.}

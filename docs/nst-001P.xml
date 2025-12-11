@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>477</fr:anchor><fr:addr
+type="user">nst-001P</fr:addr><fr:route>nst-001P.xml</fr:route><fr:title
+text="Classes">Classes</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We will often informally refer to a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Proper) Class</html:dfn> as an unordered collection which is "too big" to be a set.</fr:p><fr:p>For example, the von Neumann universe <fr:tex
+display="inline"><![CDATA[\mathbf {V}]]></fr:tex> is the proper class of all sets.</fr:p><fr:p>In practice, we seldom need to work with proper classes directly. The Working Mathematician needs only sets (until we get to Category Theory, but we'll revisit this as needed).</fr:p><fr:p>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Axiom of limitation of size</html:dfn> asserts a collection <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> is a proper class if and only if there exists a surjective function from <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> to the von Neumann universe <fr:tex
+display="inline"><![CDATA[\mathbf {V}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>479</fr:anchor><fr:addr
+type="user">nst-000P</fr:addr><fr:route>nst-000P.xml</fr:route><fr:title
+text="Basic concepts and constructions of naive set theory">Basic concepts and constructions of naive set theory</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr
+type="user">nst-000R</fr:addr><fr:route>nst-000R.xml</fr:route><fr:title
+text="Ontology of Mathematics">Ontology of Mathematics</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>What are the basic "things" we work with in Mathematics? It may seem that we have numbers, functions, and quite possibly other objects.</fr:p><fr:p>Broadly speaking, we could describe Mathematics as working with "sets" (unordered collections of stuff) and "objects" (any generic term or object).</fr:p><fr:p>In practice, there are compelling reasons to stipulate that <fr:em>everything</fr:em> in Mathematics consists of sets. This should be understood as saying that sets form the "machine code" of Mathematics. This is explicitly stated in Bourbaki's <fr:link
+type="local"
+href="bourbaki-1968-theory.xml"
+addr="bourbaki-1968-theory"
+title="Theory of Sets">Theory of Sets</fr:link>, II §1.1 (bottom of page 65 of English edition):</fr:p>
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:p>From a "naive" point of view, many mathematical entities can be formalized as collections or "sets" of objects. We do not seek to formalize this notion, and in the formalistic interpretation of what follows, the word "set" is to be considered as strictly synonymous with "term".</fr:p></html:blockquote>
+<fr:p>We will just stipulate that everything in Mathematics may be considered as an instance of some abstract type we call an "object". We extend this with a subtype called a "set". All sets are objects.</fr:p><fr:p>But some Mathematicians want to discuss the collection of all sets. This can't possibly be a set (otherwise we run into Russell's paradox), so we need to either modify our ontology (and work with "classes" instead of "sets", and call a class a "set" when it's a member of a class) or extend our ontology (to include a "class" as a third species of object). We will discuss this when the time comes, but the ontology is mildly flexible.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>483</fr:anchor><fr:addr
+type="user">nst-0001</fr:addr><fr:route>nst-0001.xml</fr:route><fr:title
+text="Set">Set</fr:title><fr:taxon>Provisional definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We [pretend to] define a [naive] <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Set</html:dfn> to be a well-defined unordered collection of objects.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is an object and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a set, then we write <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is an element (or member) of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is not an element of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then we write <fr:tex
+display="inline"><![CDATA[x\notin  X]]></fr:tex>.</fr:p><fr:p>We will also write <fr:tex
+display="inline"><![CDATA[X\ni  x]]></fr:tex> as a synonym for <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. We also write <fr:tex
+display="inline"><![CDATA[X\not \ni  x]]></fr:tex>.</fr:p><fr:p>This isn't really a definition, because set theory is given axiomatically. We usually give axioms to specify the behaviour of the binary infixed predicate <fr:tex
+display="inline"><![CDATA[\in ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>485</fr:anchor><fr:addr
+type="user">nst-000C</fr:addr><fr:route>nst-000C.xml</fr:route><fr:title
+text="Proving well-definedness of terms">Proving well-definedness of terms</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When we define a new term in Mathematics, we should prove it is well-defined. What this proof requires depends on what we're defining.</fr:p><fr:ul><fr:li>A new constant (possibly parametrized by other objects) <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> defined as satisfying some condition <fr:tex
+display="inline"><![CDATA[\Phi [C]]]></fr:tex> requires proving (1) its existence (i.e, proving <fr:tex
+display="inline"><![CDATA[\exists  x\ldotp \Phi [x]]]></fr:tex>), and (2) its uniqueness (i.e., <fr:tex
+display="inline"><![CDATA[\forall  x,y\ldotp \Phi [x]\land \Phi [y]\implies  x=y]]></fr:tex>).</fr:li>
+<fr:li>A new constant <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> which is defined as abbreviating some complicated expression is usually well-defined, sometimes we need to prove it has the "correct type".</fr:li>
+<fr:li>A new species of thing (like a vector space or a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>) should require proving the existence of at least one such gadget.</fr:li>
+<fr:li>All other types of definitions (predicates, adjectives, etc.) are well-defined.</fr:li></fr:ul><fr:p>One of the reasons why the <fr:link
+type="local"
+href="nst-0001.xml"
+addr="nst-0001"
+title="Set">"definition" of a set</fr:link> is not really a definition is because we should prove the existence of a set, but that's not possible. It's also why Mathematicians invented <fr:em>axiomatic</fr:em> set theory: presumably there are mathematical objects called "sets" which already exist, and we're trying to specify their behaviour (or some reasonable approximation) using axioms.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>487</fr:anchor><fr:addr
+type="user">nst-000U</fr:addr><fr:route>nst-000U.xml</fr:route><fr:title
+text="Examples of common sets">Examples of common sets</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have some very common sets encountered in Mathematics, so we have special notation for them:</fr:p><fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {N}_{0}=\{0,1,2,3,…\}]]></fr:tex> the set of all non-negative integers</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {N}=\{1,2,3,4,…\}]]></fr:tex> the set of all positive integers</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {Z}=\{…,-3,-2,-1,0,1,2,3,…\}]]></fr:tex> the set of all integers</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {Q}=\{\frac {m}{n}\mid  m\in \mathbb {Z},n\in \mathbb {N}]]></fr:tex> the set of all rational numbers</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex> the set of real numbers</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {C}=\{x+\mathrm {i} y\mid  x,y\in \mathbb {R}\}]]></fr:tex> the set of complex numbers</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>489</fr:anchor><fr:addr
+type="user">nst-0002</fr:addr><fr:route>nst-0002.xml</fr:route><fr:title
+text="Finite sets">Finite sets</fr:title><fr:taxon>Notation</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If we have a set consisting of finitely many elements, we write it out as a comma-separated list delimited by <fr:tex
+display="inline"><![CDATA[\{…\}]]></fr:tex>.</fr:p><fr:p>For example, the set of prime numbers less than 10 is <fr:tex
+display="inline"><![CDATA[\{2,3,5,7\}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>491</fr:anchor><fr:addr
+type="user">nst-0003</fr:addr><fr:route>nst-0003.xml</fr:route><fr:title
+text="Empty set">Empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set. We say <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Empty</html:dfn> if there is no object <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>493</fr:anchor><fr:addr
+type="user">nst-0004</fr:addr><fr:route>nst-0004.xml</fr:route><fr:title
+text="Set equality">Set equality</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the predicate <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Set Equality</html:dfn> (or just <fr:em>equality</fr:em>) of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, denoted <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>, to mean they have the same elements; i.e., for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> are not equal, we write <fr:tex
+display="inline"><![CDATA[X\neq  Y]]></fr:tex>.</fr:p><fr:p>(This is technically an axiom of ZFC called the "axiom of extensionality".)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:addr
+type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
+text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define <fr:em>the</fr:em> empty set to be the constant denoted <fr:tex
+display="inline"><![CDATA[\emptyset ]]></fr:tex> (or sometimes <fr:tex
+display="inline"><![CDATA[\{\}]]></fr:tex>).</fr:p><fr:p>We need to prove this is well-defined. For constants, this means proving it exists and is unique.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
+display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
+
+<fr:p>(1) Assume <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">empty</fr:link>, so <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
+
+<fr:p>(2) The argument is the same but switching <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>499</fr:anchor><fr:addr
+type="user">nst-0006</fr:addr><fr:route>nst-0006.xml</fr:route><fr:title
+text="Subset">Subset</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the predicate <fr:tex
+display="inline"><![CDATA[X\subseteq  Y]]></fr:tex> to mean: for any object <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. In other words, all elements of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> are also elements of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. (This is very different than <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an element of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>!)</fr:p><fr:p>We write <fr:tex
+display="inline"><![CDATA[Y\supseteq  X]]></fr:tex> as a synonym for <fr:tex
+display="inline"><![CDATA[X\subseteq  Y]]></fr:tex>.</fr:p><fr:p>We also write <fr:tex
+display="inline"><![CDATA[X\nsubseteq  Y]]></fr:tex> as the antonym for <fr:tex
+display="inline"><![CDATA[X\subseteq  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[Y\nsupseteq  X]]></fr:tex> for the antonym of <fr:tex
+display="inline"><![CDATA[Y\supseteq  X]]></fr:tex>.</fr:p><fr:p>Observe that <fr:tex
+display="inline"><![CDATA[X\subseteq  X]]></fr:tex> for any set <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>501</fr:anchor><fr:addr
+type="user">nst-0007</fr:addr><fr:route>nst-0007.xml</fr:route><fr:title
+text="Proper subset">Proper subset</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the predicate <fr:tex
+display="inline"><![CDATA[X\subset  Y]]></fr:tex> to mean <fr:tex
+display="inline"><![CDATA[X\subseteq  Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X\neq  Y]]></fr:tex>.</fr:p><fr:p>We also have the synonym <fr:tex
+display="inline"><![CDATA[Y\supset  X]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[X\subset  Y]]></fr:tex>.</fr:p><fr:p>The choice of notation varies wildly. Some authors do not even distinguish proper subsets from "improper" subsets. Worse, some use <fr:tex
+display="inline"><![CDATA[\subset ]]></fr:tex> for improper subsets. We have chosen to use notation analogous to <fr:tex
+display="inline"><![CDATA[\leq ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\lt ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:addr
+type="user">nst-0008</fr:addr><fr:route>nst-0008.xml</fr:route><fr:title
+text="Proving two sets are equal">Proving two sets are equal</fr:title><fr:taxon>Strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Generically, when we want to prove <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link> like proving <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>, we can use the <fr:link
+type="local"
+href="nst-0006.xml"
+addr="nst-0006"
+title="Subset">Subset</fr:link> predicate to prove two claims: (1) <fr:tex
+display="inline"><![CDATA[X\subseteq  Y]]></fr:tex>, (2) <fr:tex
+display="inline"><![CDATA[Y\subseteq  X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>505</fr:anchor><fr:addr
+type="user">nst-0009</fr:addr><fr:route>nst-0009.xml</fr:route><fr:title
+text="Set builder notation">Set builder notation</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There are times when the notation for <fr:link
+type="local"
+href="nst-0002.xml"
+addr="nst-0002"
+title="Finite sets">Finite sets</fr:link> is clunky or impractical (e.g., write out the first <fr:tex
+display="inline"><![CDATA[10^{120}]]></fr:tex> prime numbers). We have another notation for describing a set: if <fr:tex
+display="inline"><![CDATA[P[x]]]></fr:tex> is a unary predicate and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a set, then we write
+<fr:tex
+display="block"><![CDATA[\{x\in  X\mid  P[x]\}]]></fr:tex>
+which describes "The set of <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P[x]]]></fr:tex> holds". The vertical bar ("|") is read "such that". The allowable predicates <fr:tex
+display="inline"><![CDATA[P[-]]]></fr:tex> must form a valid <fr:link
+type="local"
+href="nst-000A.xml"
+addr="nst-000A"
+title="Sentences in set theory">sentence</fr:link>. (This form of set builder notation is called "the axiom scheme of specification" in ZFC set theory.)</fr:p><fr:p>The other form of set builder notation which appears frequently: if <fr:tex
+display="inline"><![CDATA[F(-)]]></fr:tex> is some construction, and <fr:tex
+display="inline"><![CDATA[P[-]]]></fr:tex> is a unary predicate, and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a set, then
+<fr:tex
+display="block"><![CDATA[\{F(x)\mid  x\in  X,P[x]\}]]></fr:tex>
+describes the set obtained by applying <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> to each element of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> which satisfies the predicate <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p><fr:p>The Working Mathematician usually "suppresses" (omits) the <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> clause when it is understood.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>507</fr:anchor><fr:addr
+type="user">nst-000A</fr:addr><fr:route>nst-000A.xml</fr:route><fr:title
+text="Sentences in set theory">Sentences in set theory</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>The allowed sentences or predicates appearing in set builder notation may be described recursively.</fr:p><fr:p>We can describe what possible formulas appear using the following:</fr:p><fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex> are the atomic formulas</fr:li>
+<fr:li>"not &lt;formula&gt;"</fr:li>
+<fr:li>"&lt;formula&gt; and &lt;formula&gt;" or just a comma-separated list of formulas, all of which are expected to hold</fr:li>
+<fr:li>"&lt;formula&gt; or &lt;formula&gt;" for the disjunction of formulas (in the sense of "either &lt;formula&gt; or &lt;formula&gt; or both")</fr:li>
+<fr:li>"if &lt;formula&gt; then &lt;formula&gt;" (or "&lt;formula&gt; implies &lt;formula&gt;")</fr:li>
+<fr:li>"&lt;formula&gt; iff &lt;formula&gt;"</fr:li>
+<fr:li>"for all …"</fr:li>
+<fr:li>"for some …" (or "exists …")</fr:li></fr:ul><fr:p>… as well as using any predicates we've defined (like the <fr:link
+type="local"
+href="nst-0006.xml"
+addr="nst-0006"
+title="Subset">Subset</fr:link> predicate).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>509</fr:anchor><fr:addr
+type="user">nst-001N</fr:addr><fr:route>nst-001N.xml</fr:route><fr:title
+text="Russell's paradox">Russell's paradox</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we try defining the set
+<fr:tex
+display="block"><![CDATA[R=\{S\hbox { is a set}\mid  S\notin  S\}.]]></fr:tex>
+Then we obtain a contradiction if such a set exists. (The solution is to restrict what set-builder notation.)</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>373</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Well, assume <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> exists. We will prove we obtain a contradiction. Our proof is by cases: either <fr:tex
+display="inline"><![CDATA[R\in  R]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[R\notin  R]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[R\in  R]]></fr:tex>. Then this means <fr:tex
+display="inline"><![CDATA[R\notin  R]]></fr:tex>. But we have both <fr:tex
+display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[R\notin  R]]></fr:tex>. But this is the defining property for members of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. This implies <fr:tex
+display="inline"><![CDATA[R\in  R]]></fr:tex>. Again, we have both <fr:tex
+display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>511</fr:anchor><fr:addr
+type="user">nst-001O</fr:addr><fr:route>nst-001O.xml</fr:route><fr:title
+text="There is no set of all sets">There is no set of all sets</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An immediate consequence of <fr:link
+type="local"
+href="nst-001N.xml"
+addr="nst-001N"
+title="Russell's paradox">Russell's paradox</fr:link> is that there is no set of all sets. If there were a set <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> of all sets, then <fr:tex
+display="inline"><![CDATA[V\in  V]]></fr:tex> which leads to problems.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>513</fr:anchor><fr:addr
+type="user">nst-001P</fr:addr><fr:route>nst-001P.xml</fr:route><fr:title
+text="Classes">Classes</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We will often informally refer to a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Proper) Class</html:dfn> as an unordered collection which is "too big" to be a set.</fr:p><fr:p>For example, the von Neumann universe <fr:tex
+display="inline"><![CDATA[\mathbf {V}]]></fr:tex> is the proper class of all sets.</fr:p><fr:p>In practice, we seldom need to work with proper classes directly. The Working Mathematician needs only sets (until we get to Category Theory, but we'll revisit this as needed).</fr:p><fr:p>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Axiom of limitation of size</html:dfn> asserts a collection <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> is a proper class if and only if there exists a surjective function from <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> to the von Neumann universe <fr:tex
+display="inline"><![CDATA[\mathbf {V}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>515</fr:anchor><fr:addr
+type="user">nst-000B</fr:addr><fr:route>nst-000B.xml</fr:route><fr:title
+text="Union of a family of sets">Union of a family of sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/tarski.html#K3">tarski:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a family of sets (i.e., set whose elements are sets). We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Union</html:dfn> of <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[\bigcup  F]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in \bigcup  F]]></fr:tex> iff there is some set <fr:tex
+display="inline"><![CDATA[X\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p><fr:p>This defines a new constant and we should set about to <fr:link
+type="local"
+href="nst-000C.xml"
+addr="nst-000C"
+title="Proving well-definedness of terms">proving it is well-defined</fr:link>, but proving its existence is impossible because it is just stipulated to exist ("axiom of union").</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>517</fr:anchor><fr:addr
+type="user">nst-000D</fr:addr><fr:route>nst-000D.xml</fr:route><fr:title
+text="Union of two sets">Union of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K2">xboole_0:def 3</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Union</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[X\cup  Y]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y]]></fr:tex> iff either <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see that this is commutative <fr:tex
+display="inline"><![CDATA[X\cup  Y=Y\cup  X]]></fr:tex> and idempotent <fr:tex
+display="inline"><![CDATA[X\cup  X=X]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>519</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> take <fr:tex
+display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex
+display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>521</fr:anchor><fr:addr
+type="user">nst-000E</fr:addr><fr:route>nst-000E.xml</fr:route><fr:title
+text="Basic properties of union of two sets">Basic properties of union of two sets</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/boole.html#T1">boole:th1</fr:link></fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T4">xboole_1:th4</fr:link></fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T12">xboole_1:th12</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> be arbitrary sets. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[A\cup \emptyset =A]]></fr:tex></fr:li>
+<fr:li>Associativity: <fr:tex
+display="inline"><![CDATA[A\cup (B\cup  C)=(A\cup  B)\cup  C]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[A\subseteq  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[A\cup  B=B]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>523</fr:anchor><fr:addr
+type="user">nst-000F</fr:addr><fr:route>nst-000F.xml</fr:route><fr:title
+text="Intersection of two sets">Intersection of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K3">xboole_0:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Intersection</html:dfn> to be the set denoted <fr:tex
+display="inline"><![CDATA[X\cap  Y]]></fr:tex> such that: for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  X\cap  Y]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see this is commutative <fr:tex
+display="inline"><![CDATA[X\cap  Y=Y\cap  X]]></fr:tex> and idempotent <fr:tex
+display="inline"><![CDATA[X\cap  X=X]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>525</fr:anchor><fr:addr
+type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
+type="local"
+href="nst-0009.xml"
+addr="nst-0009"
+title="Set builder notation">set-builder notation</fr:link>  <fr:tex
+display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>527</fr:anchor><fr:addr
+type="user">nst-000G</fr:addr><fr:route>nst-000G.xml</fr:route><fr:title
+text="Basic properties of intersection of two sets">Basic properties of intersection of two sets</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/boole.html#T2">boole:2</fr:link></fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T17">xboole_1:17</fr:link></fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T28">xboole_1:28</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> be any three sets. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[A\cap \emptyset =\emptyset ]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[A\cap (B\cap  C)=(A\cap  B)\cap  C]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[A\subseteq  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[A\cap  B=A]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>529</fr:anchor><fr:addr
+type="user">nst-000H</fr:addr><fr:route>nst-000H.xml</fr:route><fr:title
+text="Intersection of family of sets">Intersection of family of sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/setfam_1.html#K1">setfam_1:def 1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a family of sets (i.e., a set whose members are all sets). We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Intersection</html:dfn> of <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[\bigcap  F]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in \bigcap  F]]></fr:tex> iff for each set <fr:tex
+display="inline"><![CDATA[Y\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>531</fr:anchor><fr:addr
+type="user">nst-000I</fr:addr><fr:route>nst-000I.xml</fr:route><fr:title
+text="Relative complement of a set">Relative complement of a set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.5</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K4">xboole_0:def 5</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Relative complement</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with respect to <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[Y\setminus  X]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  Y\setminus  X]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\notin  X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>533</fr:anchor><fr:addr
+type="user">nst-000J</fr:addr><fr:route>nst-000J.xml</fr:route><fr:title
+text="Complement of a subset">Complement of a subset</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.5</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/subset_1.html#K3">subset_1:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Complement</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be the subset <fr:tex
+display="inline"><![CDATA[X^{\complement }]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> equal to <fr:tex
+display="inline"><![CDATA[Y\setminus  X]]></fr:tex>.</fr:p><fr:p>Some texts use <fr:tex
+display="inline"><![CDATA[\complement  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[X']]></fr:tex> for the complement of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>535</fr:anchor><fr:addr
+type="user">nst-000K</fr:addr><fr:route>nst-000K.xml</fr:route><fr:title
+text="Powerset">Powerset</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.5</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/zfmisc_1.html#K1">zfmisc_1:def 1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Powerset</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[\mathcal {P}(X)]]></fr:tex> such that for any set <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[Z\in \mathcal {P}(X)]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[Z\subseteq  X]]></fr:tex>. That is to say, the powerset of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is the set of all subsets of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p><fr:p>For finite sets (especially small sets we can write out by hand), we can see this is a sensible thing to define. But for infinite sets, some Mathematicians historically were nervous about this being well-defined. The important thing is that we assert (either axiomatically or dogmatically) this is indeed a set.</fr:p><fr:p>(In ZFC, this is given as an axiom.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>537</fr:anchor><fr:addr
+type="user">nst-000L</fr:addr><fr:route>nst-000L.xml</fr:route><fr:title
+text="Specification for ordered pairs">Specification for ordered pairs</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be objects. Let <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> be objects. We expect the ordered pair <fr:tex
+display="inline"><![CDATA[(x,y)]]></fr:tex> to be such that: <fr:tex
+display="inline"><![CDATA[(x,y)=(a,b)]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[x=a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y=b]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>539</fr:anchor><fr:addr
+type="user">nst-000M</fr:addr><fr:route>nst-000M.xml</fr:route><fr:title
+text="Ordered pairs">Ordered pairs</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/tarski.html#K4">tarski:def 5</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be objects. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ordered Pair</html:dfn> to be the object <fr:tex
+display="inline"><![CDATA[(x,y) = \{\{x\},\{x,y\}\}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>541</fr:anchor><fr:addr
+type="user">nst-000N</fr:addr><fr:route>nst-000N.xml</fr:route><fr:title
+text="Ordered pairs implement their specification">Ordered pairs implement their specification</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xtuple_0.html#T1">xtuple_0:1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[c]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> be objects. If <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>543</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
+display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
+display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr
+type="user">nst-000O</fr:addr><fr:route>nst-000O.xml</fr:route><fr:title
+text="Cartesian product of two sets">Cartesian product of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/zfmisc_1.html#K2">zfmisc_1:def 2</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Cartesian product</html:dfn> to be the set <fr:tex
+display="inline"><![CDATA[X\times  Y]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[z]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[z\in  X\times  Y]]></fr:tex> if and only if there exists objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\in  Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[z=(x,y)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>547</fr:anchor><fr:addr
+type="user">nst-000Q</fr:addr><fr:route>nst-000Q.xml</fr:route><fr:title
+text="Properties of Cartesian product">Properties of Cartesian product</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> be sets. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[X\times  Y\subseteq \mathcal {P}(\mathcal {P}(X\cup  Y))]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[X\times  Y=\emptyset ]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[X=\emptyset ]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[Y=\emptyset ]]></fr:tex></fr:li> <fr:li>If <fr:tex
+display="inline"><![CDATA[X\times  Y=Y\times  X]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex></fr:li> <fr:li><fr:tex
+display="inline"><![CDATA[(X\cup  Y)\times  Z=(X\times  Z)\cup (Y\times  Z)]]></fr:tex></fr:li> <fr:li><fr:tex
+display="inline"><![CDATA[X\times (Y\cup  Z)=(X\times  Y)\cup (X\times  Z)]]></fr:tex></fr:li> <fr:li><fr:tex
+display="inline"><![CDATA[(X\cap  Y)\times  Z=(X\times  Z)\cap (Y\times  Z)]]></fr:tex></fr:li> <fr:li><fr:tex
+display="inline"><![CDATA[X\times (Y\cap  Z)=(X\times  Y)\cap (X\times  Z)]]></fr:tex></fr:li> <fr:li><fr:tex
+display="inline"><![CDATA[(X\setminus  Y)\times  Z=(X\times  Z)\setminus (Y\times  Z)]]></fr:tex></fr:li> <fr:li><fr:tex
+display="inline"><![CDATA[X\times (Y\setminus  Z)=(X\times  Y)\setminus (X\times  Z)]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,18 @@
+\title{Gram-Schmidt process for inner product spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.32}
+\meta{source}{[[lankham-2016-linear]] Theorem 9.5.1}
+\import{ela}
+
+\p{Let #{V} be an [[vectsp-0020]] over #{\FF}. Suppose #{v_{1},\dots,v_{m}\in V} are linearly independent vectors. Let #{f_{1}=v_{1}}. For #{k=2,\dots,m} we define #{f_{k}} recursively by
+##{f_{k}=v_{k}-\frac{\langle v_{k},f_{1}\rangle}{\langle f_{1},f_{1}\rangle}f_{1}-\dots-\frac{\langle v_{k},f_{k-1}\rangle}{\langle f_{k-1},f_{k-1}\rangle}f_{k-1}}
+For each #{k=1,\dots,m,} using the [[vectsp-0029]], let
+##{e_{k} = \frac{f_{k}}{\norm{f_{k}}}}
+Then #{e_{1},\dots,e_{m}} form an [[vectsp-002D]] for #{\span{v_{1},\dots,v_{m}}} and moreover
+##{\span{v_{1},\dots,v_{k}}=\span{e_{1},\dots,e_{k}}}
+for each #{k=1,\dots,m}.}
+
+\p{(Compare this to the [notion](ela-0015) in elementary linear algebra.)}

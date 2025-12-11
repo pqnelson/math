@@ -7,13 +7,39 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4247</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1117</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important that the number system we have been working with implicitly is the real or complex numbers (or the rationals). This is because multiplication in this number system is commutative <fr:em>and</fr:em> associative. If it is noncommutative, then <fr:tex
-display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})\neq  r(\mathbf {A}\mathbf {B})]]></fr:tex> which could be problematic.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective. We know <fr:tex
+display="inline"><![CDATA[\vec {0}\in \ker (L)]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> be arbitrary. Then <fr:tex
+display="inline"><![CDATA[L(v)=\vec {0}_{W}=L(\vec {0_{V}})]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[v=\vec {0}_{V}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\ker (L)=\{\vec {0}_{V}\}]]></fr:tex> as desired.</fr:p>
+
+<fr:p>Now, assume <fr:tex
+display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>. We will show that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+type="local"
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">injective</fr:link> Let <fr:tex
+display="inline"><![CDATA[u,v\in  V]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[L(u)=L(v)]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\vec {0}_{W}=L(u)-L(v)=L(u-v),]]></fr:tex>
+so <fr:tex
+display="inline"><![CDATA[(u-v)\in \ker (L)]]></fr:tex>. But by assumption, this means <fr:tex
+display="inline"><![CDATA[(u-v)\in \{\vec {0}_{V}\}]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[u-v=\vec {0}_{V}]]></fr:tex>, which means (by adding <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> to both sides) <fr:tex
+display="inline"><![CDATA[u=v]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -28,19 +54,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4249</fr:anchor><fr:addr
-type="user">matrix-0013</fr:addr><fr:route>matrix-0013.xml</fr:route><fr:title
-text="Mixing Scalar and Matrix Multiplication">Mixing Scalar and Matrix Multiplication</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1119</fr:anchor><fr:addr
+type="user">vectsp-001C</fr:addr><fr:route>vectsp-001C.xml</fr:route><fr:title
+text="Linear transformation is injective iff kernel is trivial">Linear transformation is injective iff kernel is trivial</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> be a number, let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[n\times  p]]></fr:tex> matrix. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})=r(\mathbf {A}\mathbf {B})=(r\mathbf {A})\mathbf {B}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 3.15</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.6</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+type="local"
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">injective</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -50,12 +87,38 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3341</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>727</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important that the number system we have been working with implicitly is the real or complex numbers (or the rationals). This is because multiplication in this number system is commutative <fr:em>and</fr:em> associative. If it is noncommutative, then <fr:tex
-display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})\neq  r(\mathbf {A}\mathbf {B})]]></fr:tex> which could be problematic.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective. We know <fr:tex
+display="inline"><![CDATA[\vec {0}\in \ker (L)]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> be arbitrary. Then <fr:tex
+display="inline"><![CDATA[L(v)=\vec {0}_{W}=L(\vec {0_{V}})]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[v=\vec {0}_{V}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\ker (L)=\{\vec {0}_{V}\}]]></fr:tex> as desired.</fr:p>
+
+<fr:p>Now, assume <fr:tex
+display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>. We will show that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+type="local"
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">injective</fr:link> Let <fr:tex
+display="inline"><![CDATA[u,v\in  V]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[L(u)=L(v)]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\vec {0}_{W}=L(u)-L(v)=L(u-v),]]></fr:tex>
+so <fr:tex
+display="inline"><![CDATA[(u-v)\in \ker (L)]]></fr:tex>. But by assumption, this means <fr:tex
+display="inline"><![CDATA[(u-v)\in \{\vec {0}_{V}\}]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[u-v=\vec {0}_{V}]]></fr:tex>, which means (by adding <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> to both sides) <fr:tex
+display="inline"><![CDATA[u=v]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

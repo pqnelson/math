@@ -7,18 +7,24 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4243</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
-display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n=\dim (V)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is finite-dimensional, there exists a set of linearly independent vectors <fr:tex
+display="inline"><![CDATA[\{v_{1},…,v_{n}\}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[V=\mathrm {span}(v_{1},…,v_{n})]]></fr:tex> and there is no smaller set of vectors spanning <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>. Then using the <fr:link
+type="local"
+href="vectsp-002V.xml"
+addr="vectsp-002V"
+title="Gram-Schmidt process for inner product spaces">Gram-Schmidt process for inner product spaces</fr:link>, we transform this set into an orthonormal basis of <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,30 +39,34 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4245</fr:anchor><fr:addr
-type="user">matrix-0015</fr:addr><fr:route>matrix-0015.xml</fr:route><fr:title
-text="Matrix Multiplication in Plane Geometry">Matrix Multiplication in Plane Geometry</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr
+type="user">vectsp-002W</fr:addr><fr:route>vectsp-002W.xml</fr:route><fr:title
+text="Existence of orthonormal basis for finite-dimensional inner product spaces">Existence of orthonormal basis for finite-dimensional inner product spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can look at <fr:tex
-display="inline"><![CDATA[2\times 2]]></fr:tex> matrices as acting on points <fr:tex
-display="inline"><![CDATA[(x,y)\in \mathbb {R}^{2}]]></fr:tex> on the plane. We turn <fr:tex
-display="inline"><![CDATA[(x,y)]]></fr:tex> into a column vector.</fr:p><fr:p>We have rotation anticlockwise by an angle <fr:tex
-display="inline"><![CDATA[\theta ]]></fr:tex> given by
-<fr:tex
-display="block"><![CDATA[\mathbf {A}_{\theta } = \begin {bmatrix}\cos (\theta ) & -\sin (\theta )\\ \sin (\theta ) & \cos (\theta )\end {bmatrix}.]]></fr:tex>
-Reflection about the <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>-axis is
-<fr:tex
-display="block"><![CDATA[\mathbf {R}  =\begin {bmatrix}1 & 0\\0 & -1 \end {bmatrix}.]]></fr:tex>
-Dilation by a positive real number <fr:tex
-display="inline"><![CDATA[\lambda \gt  0]]></fr:tex> is a diagonal matrix
-<fr:tex
-display="block"><![CDATA[  \mathbf {D}_{\lambda } =\begin {bmatrix}\lambda  & 0\\   0 & \lambda    \end {bmatrix}.]]></fr:tex>
-Observe for <fr:tex
-display="inline"><![CDATA[0\lt \lambda \lt 1]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[\mathbf {D}_{\lambda }]]></fr:tex> be a contraction.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 6.35</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 9.5.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional <fr:link
+type="local"
+href="vectsp-0020.xml"
+addr="vectsp-0020"
+title="Inner product space">Inner product space</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then there exists an <fr:link
+type="local"
+href="vectsp-002D.xml"
+addr="vectsp-002D"
+title="Orthonormal Basis">Orthonormal Basis</fr:link> for <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -66,17 +76,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3347</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>339</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
-display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n=\dim (V)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is finite-dimensional, there exists a set of linearly independent vectors <fr:tex
+display="inline"><![CDATA[\{v_{1},…,v_{n}\}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[V=\mathrm {span}(v_{1},…,v_{n})]]></fr:tex> and there is no smaller set of vectors spanning <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>. Then using the <fr:link
+type="local"
+href="vectsp-002V.xml"
+addr="vectsp-002V"
+title="Gram-Schmidt process for inner product spaces">Gram-Schmidt process for inner product spaces</fr:link>, we transform this set into an orthonormal basis of <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

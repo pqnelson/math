@@ -1,0 +1,11 @@
+\title{Coordinate vectors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+% \meta{source}{[[axler-1996-linear]] Theorem 6.37}
+\meta{source}{[[lankham-2016-linear]] Section 10.1}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional [[vectsp-0020]] over #{\FF}. Let #{B=(e_{1},\dots,e_{n})} be an ordered [[vectsp-002D]] of #{V}. Let #{v\in V} be any vector. We define the \define{Coordinate vector} of #{v} with respect to #{B} to be the column vector
+##{[v]_{B}=\begin{pmatrix}\langle v,e_{1}\rangle\\\vdots\\\langle v,e_{n}\rangle\end{pmatrix}}}

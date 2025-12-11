@@ -1,0 +1,20 @@
+\title{Operator is normal iff norm of operator equals norm of its adjoint}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.20}
+\meta{source}{[[lankham-2016-linear]]  Proposition 11.2.3}
+\import{ela}
+
+\p{Let #{V} be a vector space with a [[vectsp-0025]]. Let #{L\colon V\to V} be a linear operator. Then #{L} is normal if and only if
+##{\norm{Lv}=\norm{L^{*}v}}
+for all #{v\in V}.}
+\proof{\p{We see
+##{\begin{align*}
+T\mbox{ is normal}&\iff T^{*}T-TT^{*}=0\\
+&\iff \langle(T^{*}T-TT^{*})v,v\rangle=0\mbox{ for all }v\in V\\
+&\iff \langle T^{*}T,v\rangle=\langle -TT^{*}v,v\rangle\mbox{ for all }v\in V\\
+&\iff \norm{Tv}^{2}=\norm{T^{*}v}^{2}\mbox{ for all }v\in V
+\end{align*}}
+Hence the result.}}

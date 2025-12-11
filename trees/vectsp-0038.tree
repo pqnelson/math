@@ -1,0 +1,14 @@
+\title{Linear operator is diagonalizable iff its matrix is similar to a diagonal matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[lankham-2016-linear]] Proposition 11.4.2}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional vector space over #{\FF}. Let #{L\colon V\to V} be a linear operator. Let #{B} be a basis of #{V}. Then #{L} is diagonalizable if and only if there exists an invertible matrix #{S\in\FF^{n\times n}} such that
+##{S[L]_{B}S^{-1}=\begin{pmatrix}\lambda_{1} & & & \\
+& \lambda_{2} & &\\
+& & \ddots & \\
+& & & \lambda_{n}\end{pmatrix}}
+where #{[L]_{B}} is the matrix for #{L} with respect to #{B}.}

@@ -1,0 +1,10 @@
+\title{Change of basis transformation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Section 10.2}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional [[vectsp-0020]]s over #{\FF}. Suppose we have #{B=(e_{1},\dots,e_{n})} and #{C=(f_{1},\dots,f_{n})} are [orthonormal bases](vectsp-002D) for #{V}. We define the \define{Change of basis} linear transformation is the matrix #{S\in\FF^{n\times n}} defined by
+##{s_{i,j}=\langle e_{j},f_{i}\rangle}}

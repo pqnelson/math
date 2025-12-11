@@ -1,0 +1,9 @@
+\title{#{p}-norm}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{example}
+
+\p{Let #{p\geq1} be a real number. Let #{\FF} be #{\RR} or #{\CC} (or a subfield of one of these). The \define{#{p}-Norm} on #{\FF^{n}} is defined by
+##{\norm{\vec{x}}_{p}=\left(\sum^{n}_{i=1}|x_{i}|^{p}\right)^{1/p}}
+This generalizes the [[ca-000I]] in the sense that when #{p=2}, this is precisely the [[ca-000I]].}

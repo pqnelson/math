@@ -1,0 +1,13 @@
+\title{Classes}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{We will often informally refer to a \define{(Proper) Class} as an unordered collection which is "too big" to be a set.}
+
+\p{For example, the von Neumann universe #{\mathbf{V}} is the proper class of all sets.}
+
+\p{In practice, we seldom need to work with proper classes directly. The Working Mathematician needs only sets (until we get to Category Theory, but we'll revisit this as needed).}
+
+\p{The \define{Axiom of limitation of size} asserts a collection #{C} is a proper class if and only if there exists a surjective function from #{C} to the von Neumann universe #{\mathbf{V}}.}

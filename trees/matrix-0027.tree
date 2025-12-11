@@ -1,0 +1,9 @@
+\title{Orthogonal matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Definition 11.4.3}
+\import{ela}
+
+\p{Let #{M} be an #{n\times n} matrix over a [[field-0001]] #{\FF}. We say #{M} is \define{Orthogonal} if #{\transpose{M}=M^{-1}}.}

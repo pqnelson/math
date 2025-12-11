@@ -3,11 +3,27 @@
 \import{notation}
 \date{2025-12-10}
 
-\transclude{vectsp-002K}
-\transclude{vectsp-002L}
-\transclude{vectsp-002M}
-\transclude{vectsp-002N}
-\transclude{vectsp-002O}
+\transclude{vectsp-002K} % adjoint of linear map
+\transclude{vectsp-002L} % self-adjoint map
+\transclude{vectsp-002M} % anti-self-adjoint
+\transclude{vectsp-002N} % properties of adjoint
+\transclude{vectsp-002O} % eigenvalues of self-adjoint operators are real
 \transclude{vectsp-002P} % normal operator
+\transclude{vectsp-0031} % normal iff norm of operator = norm of adjoint
+\transclude{vectsp-0032} % kernel and image of normal operator
+\transclude{vectsp-0033} % Eigenvectors of normal operator are orthogonal
+\transclude{vectsp-0035} % Linear operators on complex vector spaces have an upper-triangular matrix
+\transclude{vectsp-0036} %
+\transclude{vectsp-0034} % spectral theorem 
+\transclude{vectsp-0037} % linear operator is diagonalizable iff its eigenvectors form a basis
+\transclude{vectsp-0038} % linear operator is diagonalizable iff it is similar to a diagonal matrix
+\transclude{matrix-0027} % orthogonal matrix
+\transclude{matrix-0028} % unitary matrix
 \transclude{vectsp-002Q} % positive operator
 \transclude{vectsp-002R} % square root of an operator
+\transclude{vectsp-0039} % positive operator has unique square root
+\transclude{vectsp-003B} % unitary operator
+\transclude{vectsp-003A} % polar decomposition
+\transclude{vectsp-003C} % singular values
+\transclude{vectsp-003D} % singular value decomposition
+

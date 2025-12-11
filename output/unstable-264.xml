@@ -7,30 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5086</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> for any <fr:tex
-display="inline"><![CDATA[u,v\in \ker (L)]]></fr:tex>, we claim <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex>. Observe <fr:tex
-display="inline"><![CDATA[L(u+v)=L(u)+L(v)=\vec {0}_{W}+\vec {0}_{W}=\vec {0}_{W}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Claim 2:</fr:strong> For any <fr:tex
-display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[L(av)=aL(v)=a\vec {0}_{W}=\vec {0}_{W}]]></fr:tex> by <fr:link
-type="local"
-href="vectsp-000A.xml"
-addr="vectsp-000A"
-title="Scalar multiples of zero vector are the zero vector">Scalar multiples of zero vector are the zero vector</fr:link>, hence <fr:tex
-display="inline"><![CDATA[av\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>From these two claims and by <fr:link
-type="local"
-href="vectsp-000D.xml"
-addr="vectsp-000D"
-title="Criteria for subset to be a subspace">Criteria for subset to be a subspace</fr:link>, we have the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
+display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
+display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
+display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
+<html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -47,26 +34,17 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:addr
-type="user">vectsp-001B</fr:addr><fr:route>vectsp-001B.xml</fr:route><fr:title
-text="Kernel is a subspace of the domain">Kernel is a subspace of the domain</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5088</fr:anchor><fr:addr
+type="user">sl-0005</fr:addr><fr:route>sl-0005.xml</fr:route><fr:title
+text="Elementary linear group is a subgroup of special linear group">Elementary linear group is a subgroup of special linear group</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
-type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 3.13</fr:meta><fr:meta
-name="source"><fr:link
-type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then <fr:tex
-display="inline"><![CDATA[\ker (L)]]></fr:tex> is a subspace of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital associative <fr:strong>commutative</fr:strong> ring, let <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be a natural number. Then <fr:tex
+display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subgroup of <fr:tex
+display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -76,30 +54,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>364</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4926</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> for any <fr:tex
-display="inline"><![CDATA[u,v\in \ker (L)]]></fr:tex>, we claim <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex>. Observe <fr:tex
-display="inline"><![CDATA[L(u+v)=L(u)+L(v)=\vec {0}_{W}+\vec {0}_{W}=\vec {0}_{W}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Claim 2:</fr:strong> For any <fr:tex
-display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[L(av)=aL(v)=a\vec {0}_{W}=\vec {0}_{W}]]></fr:tex> by <fr:link
-type="local"
-href="vectsp-000A.xml"
-addr="vectsp-000A"
-title="Scalar multiples of zero vector are the zero vector">Scalar multiples of zero vector are the zero vector</fr:link>, hence <fr:tex
-display="inline"><![CDATA[av\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>From these two claims and by <fr:link
-type="local"
-href="vectsp-000D.xml"
-addr="vectsp-000D"
-title="Criteria for subset to be a subspace">Criteria for subset to be a subspace</fr:link>, we have the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
+display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
+display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
+display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
+<html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

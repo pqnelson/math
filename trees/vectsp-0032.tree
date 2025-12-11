@@ -1,0 +1,15 @@
+\title{Kernel and image of normal operators}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.21}
+\meta{source}{[[lankham-2016-linear]] Corollary 11.2.4}
+\import{ela}
+
+\p{Let #{V} be a vector space with a [[vectsp-0025]]. Let #{L\colon V\to V} be a [normal](vectsp-002P) linear operator. Then the following all hold:}
+\ol{
+\li{#{\ker(L)=\ker(L^{*})}}
+\li{#{\ran(L)=\ran(L^{*})}}
+\li{#{V=\ker(L)\oplus\ran(L)}}
+}

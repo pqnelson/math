@@ -1,0 +1,10 @@
+\title{Writing a vector as a linear combination of an orthonormal basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.30}
+\meta{source}{[[lankham-2016-linear]] Theorem 9.4.6}
+
+\p{Let #{V} be a finite-dimensional [[vectsp-0020]] over #{\FF}. Let #{(e_{1},\dots,e_{n})} be an [[vectsp-002D]] for #{V}. Then for any vector #{v\in V}, we have
+##{v = \langle v,e_{1}\rangle e_{1} + \dots + \langle v,e_{n}\rangle e_{n}.}}

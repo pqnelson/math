@@ -1,0 +1,11 @@
+\title{Linear operators on complex vector spaces have an upper-triangular matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{lemma}
+\meta{source}{[[axler-1996-linear]] Theorem 5.45}
+\meta{source}{[[lankham-2016-linear]] Theorem 7.5.3}
+
+\p{Let #{V} be a finite-dimensional vector space over #{\CC}. Let #{L\colon V\to V} be a linear operator. Then there exists a basis #{B} for #{V} such that #{M(L)} is upper triangular matrix with respect to #{B}.}
+
+\proof{\p{The basic argument is that we will consider a chain of subspaces #{U_{1}\subset U_{2}\subset\dots\subset U_{n-1}\subset V} where #{\dim(U_{k})=k} for each #{k=1,\dots,n-1} and #{\dim(V)=n}. Moreover each #{U_{k}} is invariant under #{L}. Then we just need to find a basis #{v_{1},\dots,v_{n}} of #{V} such that #{v_{1},\dots,v_{k}} forms a basis of #{U_{k}}. The [[vectsp-001X]] implies #{M(L)} with respect to this basis is upper-triangular.}}

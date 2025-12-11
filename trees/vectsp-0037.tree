@@ -1,0 +1,10 @@
+\title{A linear operator is diagonalizable iff its eigenvectors form a basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.31}
+\meta{source}{[[lankham-2016-linear]] Theorem 11.4.1}
+\import{ela}
+
+\p{Let #{V} be finite-dimensional vector space over #{\CC}. Let #{L\colon V\to V} be a linear operator of #{V}. Then #{L} is diagonalizable if and only if there is a basis of #{V} consisting entirely of eigenvectors of #{L}.}

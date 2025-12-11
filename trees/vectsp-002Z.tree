@@ -1,0 +1,12 @@
+\title{Matrix for a linear transformation between inner product spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[lankham-2016-linear]] Section 10.1}
+\import{ela}
+
+\p{Let #{V} and #{W} be finite-dimensional [[vectsp-0020]]s over #{\FF}. Let #{L\colon V\to W} be a linear transformation. Suppose we have #{B=(e_{1},\dots,e_{m})} and #{C=(f_{1},\dots,f_{n})} are [orthonormal bases](vectsp-002D) for #{V} and #{W} respectively. Then the \define{Matrix} of #{L} with respect to #{B} and #{C} is the #{n\times m} matrix #{A=(a_{i,j})} with
+##{a_{i,j} = \langle L(e_{j}), f_{i}\rangle}}
+
+\p{(Compare this to the [notion](ela-001G) in elementary linear algebra.)}

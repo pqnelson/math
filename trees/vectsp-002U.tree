@@ -1,0 +1,9 @@
+\title{Bessel's inequality}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 6.26}
+
+\p{Let #{V} be a finite-dimensional [[vectsp-0020]] over #{\FF}. Let #{(e_{1},\dots,e_{n})} be an [[vectsp-002D]] for #{V}. Then for any vector #{v\in V}, we have
+##{|\langle v,e_{1}\rangle|^{2}+\dots+|\langle v,e_{n}\rangle|^{2}\leq\norm{v}^{2}.}}

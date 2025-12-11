@@ -1,0 +1,14 @@
+\title{Polar decomposition}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.93}
+\meta{source}{[[lankham-2016-linear]] Theorem 11.6.1}
+\import{ela}
+
+\p{Let #{V} be a (real or complex) inner product space. Let #{L\colon V\to V} be a linear operator. Then there exists a unitary #{U} such that
+##{L = U\sqrt{L^{*}L}}
+This is called the \define{Polar Decomposition} of #{L}.}
+
+\p{This is analogous to writing a complex number as #{z=r\E^{\I\theta}}. Here #{\E^{\I\theta}} is analogous to #{U}, and #{r} is analogous to #{\sqrt{L^{*}L}}.}

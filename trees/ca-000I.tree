@@ -5,4 +5,4 @@
 
 \p{The function #{f\colon\RR^{n}\to\RR} defined by
 ##{f(x_{1},\dots,x_{n})=\left(\sum^{n}_{i=1}x_{i}^{2}\right)^{1/2}}
-is a norm known as the "Euclidean norm".}
+is a norm known as the "Euclidean norm". It is an example of the [[vectsp-0026]].}

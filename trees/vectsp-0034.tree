@@ -1,0 +1,21 @@
+\title{Spectral theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.31}
+\meta{source}{[[lankham-2016-linear]] Corollary 11.3.1}
+\import{ela}
+
+\p{Let #{V} be a finite-dimensional [[vectsp-0020]] over #{\CC}. Let #{L\colon V\to V} be a linear operator. Then #{L} is normal if and only if there exists an [[vectsp-002D]] of #{V} consisting of [eigenvectors](vectsp-001Q) of #{L}.}
+
+\proof{\p{#{(\Longrightarrow)} Assume #{L} is normal. Then combining [[vectsp-0035]] and [[vectsp-0036]] implies there exists an orthonormal basis #{B=(e_{1},\dots,e_{n})} for which the matrix #{M(L)} is upper triangular.}
+\p{Let #{M(L)=(a_{i,j})} with #{a_{i,j}=0} for #{i>j} (since it's upper triangular). We claim that #{a_{i,j}=0} for #{i<j}. Observe, using [[vectsp-0031]],
+##{|a_{1,1}|^{2}=\norm{a_{1,1}e_{1}}^{2}=\norm{Le_{1}}^{2}=\norm{L^{*}e_{1}}^{2}}
+but by expanding #{\norm{Le_{1}}^{2}=\norm{L^{*}e_{1}}^{2}} this gives us
+##{|a_{1,1}|^{2}=\norm{\sum^{n}_{k=1}\overline{a}_{1,k}e_{k}}^{2}=\sum^{n}_{k=1}|a_{1,k}|^{2}}
+which implies #{|a_{1,2}|=\dots=|a_{1,k}|=0}.}
+\p{We can repeat this argument to find #{\norm{L^{*}e_{j}}^{2}=\sum^{n}_{k=1}|a_{j,k}|^{2}=|a_{j,j}|^{2}} which implies #{a_{i,j}=0} for #{i\neq j}, as desired.}
+\p{#{(\Longleftarrow)} Assume the eigenvectors of #{L} form an orthonormal basis for #{V}. Then #{M(L)} is diagonal with respect to this basis (since each basis vector is an eigenvector). Then
+##{M(LL^{*})=M(L)M(L^{*})=M(L^{*})M(L)=M(L^{*}L)}
+which implies #{LL^{*}=L^{*}L}, hence #{L} is normal.}}

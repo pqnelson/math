@@ -1,0 +1,7 @@
+\title{There is no set of all sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{corollary}
+
+\p{An immediate consequence of [[nst-001N]] is that there is no set of all sets. If there were a set #{V} of all sets, then #{V\in V} which leads to problems.}

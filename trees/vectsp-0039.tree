@@ -1,0 +1,12 @@
+\title{Positive operator has unique square root}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[axler-1996-linear]] Theorem 7.39}
+\meta{source}{[[lankham-2016-linear]] Section 11.5}
+\import{ela}
+
+\p{Let #{L} be a [[vectsp-002Q]] on #{V}. Then there exists a unique [square root](vectsp-002R) of #{L}.}
+
+\p{Consequently, we will unambiguously refer to #{\sqrt{L}} for the square root of #{L} when we know #{L} is a positive operator.}

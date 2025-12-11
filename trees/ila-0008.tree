@@ -3,24 +3,34 @@
 \import{notation}
 \date{2025-12-10}
 
-\transclude{vectsp-001Z}
-\transclude{vectsp-0022}
-\transclude{vectsp-0020}
-\transclude{vectsp-0021}
-\transclude{vectsp-0023}
-\transclude{vectsp-0024}
-\transclude{vectsp-0025}
-\transclude{vectsp-0026}
-\transclude{vectsp-0029}
-\transclude{vectsp-0027}
-\transclude{vectsp-0028}
-\transclude{vectsp-002A}
-\transclude{vectsp-002B}
-\transclude{vectsp-002C}
-\transclude{vectsp-002D}
-\transclude{vectsp-002E}
-\transclude{vectsp-002F}
-\transclude{vectsp-002G}
-\transclude{vectsp-002H}
-\transclude{vectsp-002I}
-\transclude{vectsp-002J}
+\transclude{vectsp-001Z} % inner product
+\transclude{vectsp-0022} % inner product for polynomials
+\transclude{vectsp-0020} % inner product space
+\transclude{vectsp-0021} % C^n is an inner product space
+\transclude{vectsp-0023} % inner product is antilinear in second slot
+\transclude{vectsp-0024} % inner product with zero vector is zero
+\transclude{vectsp-0025} % norm
+\transclude{vectsp-0026} % norm induced by inner product
+\transclude{ca-000I}     % Example: Euclidean norm
+\transclude{vectsp-002S} % Example: p-norm
+\transclude{vectsp-0029} % Canonical norm
+\transclude{vectsp-0027} % Orthogonal vectors
+\transclude{vectsp-0028} % Cauchy-schwarz inequality
+\transclude{vectsp-002A} % Pythagorean theorem
+\transclude{vectsp-002B} % Parallelogram law
+\transclude{vectsp-002C} % Orthogonal basis
+\transclude{vectsp-002D} % Orthonormal basis
+\transclude{vectsp-002I} % Coordinates wrt Orthonormal basis
+\transclude{vectsp-002J} % Bessel's inequality
+\transclude{vectsp-002E} % Orthogonal vectors are linearly independent
+\transclude{vectsp-002V} % Gram-Schmidt process for inner product spaces
+\transclude{vectsp-002W} % Existence of orthonormal basis
+\transclude{vectsp-002X} % Every orthonormal list extends to an orthonormal basis
+\transclude{vectsp-002F} % Orthogonal complement
+\transclude{vectsp-002G} % Direct sum of subspace and orthogonal complement is everything
+\transclude{vectsp-002H} % Orthogonal complement is involutory
+\transclude{vectsp-002I} % Orthogonal projection
+\transclude{vectsp-002J} % Properties of orthogonal projection
+\transclude{vectsp-002Y} % coordinate vector
+\transclude{vectsp-002Z} % Matrix for a linear transformation between inner product spaces
+\transclude{vectsp-0030} % Change of basis transformation

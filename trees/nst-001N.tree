@@ -1,0 +1,13 @@
+\title{Russell's paradox}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Suppose we try defining the set
+##{R=\{S\mbox{ is a set}\mid S\notin S\}.}
+Then we obtain a contradiction if such a set exists. (The solution is to restrict what set-builder notation.)}
+
+\proof{\p{Well, assume #{R} exists. We will prove we obtain a contradiction. Our proof is by cases: either #{R\in R} or #{R\notin R}.}
+\p{\textbf{Case 1:} Assume #{R\in R}. Then this means #{R\notin R}. But we have both #{R\in R} and #{R\notin R} which is a contradiction.}
+\p{\textbf{Case 2:} Assume #{R\notin R}. But this is the defining property for members of #{R}. This implies #{R\in R}. Again, we have both #{R\in R} and #{R\notin R} which is a contradiction.}}

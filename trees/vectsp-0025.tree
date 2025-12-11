@@ -6,7 +6,7 @@
 % \meta{source}{[[axler-1996-linear]] Definition 6.4}
 \meta{source}{[[lankham-2016-linear]] Definition 9.1.3}
 
-\p{Let #{V} be a vector space over #{\FF}. A \define{Norm} on #{V} is a function #{\norm{-}\colon V\to\RR} such that
+\p{Let #{V} be a vector space over #{\FF} (usually a subfield of #{\CC}, but if we can give #{\FF} a sensible "absolute value" operation, then that works fine). A \define{Norm} on #{V} is a function #{\norm{-}\colon V\to\RR} such that
 \ol{
 \li{Positive definiteness: #{\norm{v}=0} iff #{v=\vec{0}}}
 \li{Positive homogeneity: #{\norm{av}=|a|\norm{v}} for all #{a\in\FF} and #{v\in V}}

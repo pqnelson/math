@@ -17,6 +17,9 @@
 \transclude{nst-0008} % proving equality using subsets
 \transclude{nst-0009} % set-builder notation
 \transclude{nst-000A} % sentences in set theory
+\transclude{nst-001N} % Russell's paradox
+\transclude{nst-001O} % there is no set of all sets
+\transclude{nst-001P} % proper class
 \transclude{nst-000B} % union of a family of sets
 \transclude{nst-000D} % union of two sets
 \transclude{nst-000E} % basic properties of union of two sets
