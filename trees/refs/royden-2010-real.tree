@@ -1,0 +1,14 @@
+\title{Real Analysis}
+\date{2010}
+\author{halsey-l-royden}
+\author{patrick-m-fitzpatrick}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@book{royden2010real,
+  author={Royden, H.L. and Fitzpatrick, P.M.},
+  title={Real Analysis},
+  edition={Fourth},
+  publisher={Pearson},
+  year={2010}
+}\stopverb}

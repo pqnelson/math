@@ -6,3 +6,5 @@
 
 \p{Let #{(X,d)} and #{(Y,\rho)} be [[ca-000K]]s. We call a function #{f\colon X\to Y} \define{Lipschitz} if there is a #{c\geq0} such that for all #{u,v\in X},
 ##{\rho(f(u),f(v))\leq c\cdot d(u,v).}}
+
+\p{We also say #{f} is \define{#{c}-Lipschitz} if we want to specify the constant in the inequality. (This constant is also sometimes called the \define{Lipschitz Constant}.)}

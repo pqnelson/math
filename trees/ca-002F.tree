@@ -1,0 +1,8 @@
+\title{Infinite set of uniformly continuous functions which is not uniformly equicontinuous}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{non-example}
+
+\p{Consider the sequence #{f_{n}\colon[0,1]\to\RR} defined by #{f_{n}(x)=x^{n}}. By the [[ca-0025]], #{\{f_{n}\}} is a countably infinite set of uniformly continuous functions on the closed interval #{[0,1]}.}
+\p{But this collection is not equicontinuous at #{x=1}. For a fixed #{\varepsilon>0}, let #{0\leq x<1}, then #{|f_{n}(1)-f_{n}(x)|=1-x^{n}} and no matter how close to #{1} we take #{x}, #{x^{n}\to0}, so there is an #{n} such that #{1-x^{n}>\varepsilon}. This means #{\{f_{n}\}} is not equicontinuous.}

@@ -1,0 +1,15 @@
+\title{Sequences of functions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+
+\transclude{ca-0029} % pointwise convergence
+\transclude{ca-002A} % uniform convergence
+\transclude{ca-002B} % uniformly cauchy
+\transclude{ca-002C} % codomain is complete implies uniformly convergent iff uniformly cauchy
+\transclude{ca-002D} % uniform convergence of continuous functions is continuous
+\transclude{ca-002E} % uniformly equicontinuous
+\transclude{ca-002F} % infinite set of uniformly continuous functions which is not uniformly equicontinuous
+\transclude{ca-002G} % A uniformly convergent sequence of continuous functions on a compact metric space is a uniformly equicontinuous family of maps
+\transclude{ca-002H} % set of continuous real-valued functions on metric space
+\transclude{ca-002I} % Continuous real-valued functions on compact metric space is complete

@@ -1,0 +1,7 @@
+\title{Composition of continuous functions is continuous}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{proposition}
+
+\p{Let #{(X,\mathcal{T_{1}})}, #{(Y,\mathcal{T}_{2})}, and #{(Z,\mathcal{T}_{3})} be [[gt-0002]]s. Suppose #{f\colon X\to Y} and #{g\colon Y\to Z} are [continuous functions](gt-000P). Then #{g\circ f\colon X\to Z} is [continuous](gt-000P).}

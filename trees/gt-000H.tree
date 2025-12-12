@@ -1,0 +1,9 @@
+\title{Closure of a set is a closed set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{proposition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{E\subset X}. Then #{\closure{E}} is a [[gt-000E]].}
+
+\proof{\p{This follows from [[gt-000F]] (2).}}

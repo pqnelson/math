@@ -1,0 +1,9 @@
+\title{Separated space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{U_{1}}, #{U_{2}} be open subsets of #{X}. We say #{U_{1}} and #{U_{2}} \define{Separate} #{X} if #{U_{1}\cap U_{2}=\emptyset} and #{U_{1}\cup U_{2}=X}.}
+
+\p{In this case, we call #{U_{1}} and #{U_{2}} a \define{Separation} of #{X}.}

@@ -1,0 +1,7 @@
+\title{dense}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{E\subset X} be a subset of #{X}. We say #{E} is \define{Dense} in #{X} if #{\closure{E}=X}.}

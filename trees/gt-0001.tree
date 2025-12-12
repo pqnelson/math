@@ -1,0 +1,10 @@
+\title{Topology}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{X} be a set. A \define{Topology} of #{X} is a collection #{\mathcal{T}} of subsets of #{X} such that:
+\ol{\li{#{\emptyset\in\mathcal{T}} and #{X\in\mathcal{T}}}
+\li{Closed under finite intersections: If #{U_{1},\dots,U_{n}\in\mathcal{T}}, then #{U_{1}\cap\dots\cap U_{n}\in\mathcal{T}}.}
+\li{Closed under arbitrary unions: If #{\{U_{\alpha}\}_{\alpha\in A}\subset\mathcal{T}} is a collection of elements of #{\mathcal{T}}, then their union #{\bigcup_{\alpha\in A}U_{\alpha}\in\mathcal{T}} belongs to #{\mathcal{T}} as well.}}}

@@ -1,0 +1,7 @@
+\title{Connected Space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. We say the space #{(X,\mathcal{T})} is \define{Connected} if it cannot be [separated](gt-000S) by any pair of open subsets.}

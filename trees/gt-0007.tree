@@ -1,0 +1,8 @@
+\title{Topological Subspace}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]], let #{E\subset X} be some arbitrary subset. Then the \define{Subspace} #{(E,\mathcal{S})} of #{X} is given by the \define{Inherited Topology}
+##{\mathcal{S}=\{U\cap E\mid U\in\mathcal{T}\}.}}

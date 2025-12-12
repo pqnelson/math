@@ -1,0 +1,7 @@
+\title{Baire category theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{theorem}
+
+\p{If #{(X,d)} is a [[ca-001F]] and #{\{O_{n}\}} is a sequence of [open subsets](ca-000M) of #{X} each of which is [dense](ca-0018), then #{\bigcap^{\infty}_{n=1} O_{n}} is [dense](ca-0018).}

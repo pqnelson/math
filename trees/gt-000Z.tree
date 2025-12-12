@@ -1,0 +1,9 @@
+\title{Metric Topology is Hausdorff}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{example}
+
+\p{Let #{(X,d)} be a metric space. Then the [[gt-0004]] makes #{X} into a [[gt-000Y]].}
+
+\proof{\p{To see this, let #{x,y\in X} be arbitrary and distinct. Let #{r=d(x,y)}. Then #{B_{r / 2}(x)} and #{B_{r / 2}(y)} are disjoint open subsets containing #{x} and #{y}, respectively. Hence the claim.}}

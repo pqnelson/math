@@ -7,13 +7,39 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5893</fr:anchor><fr:addr
-type="machine">#304</fr:addr><fr:route>unstable-304.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1775</fr:anchor><fr:addr
+type="machine">#304</fr:addr><fr:route>unstable-304.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important that the number system we have been working with implicitly is the real or complex numbers (or the rationals). This is because multiplication in this number system is commutative <fr:em>and</fr:em> associative. If it is noncommutative, then <fr:tex
-display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})\neq  r(\mathbf {A}\mathbf {B})]]></fr:tex> which could be problematic.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an arbitrary <fr:link
+type="local"
+href="ca-001S.xml"
+addr="ca-001S"
+title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
+display="inline"><![CDATA[f(K)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. For each <fr:tex
+display="inline"><![CDATA[x\in  K]]></fr:tex>, there is an <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(x)\in  U_{\alpha }]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[x\in  f^{-1}(U_{\alpha })]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[\{f^{-1}(U_{\alpha })\}]]></fr:tex> is an open cover of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, since the <fr:link
+type="local"
+href="ca-001N.xml"
+addr="ca-001N"
+title="A function is continuous iff the preimage of open sets are open">A function is continuous iff the preimage of open sets are open</fr:link>. This means since <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> is compact there is a finite subcover <fr:tex
+display="inline"><![CDATA[\{f^{-1}(U_{\alpha _{i}})\mid  i=1,…,n\}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>. So
+<fr:tex
+display="block"><![CDATA[K\subseteq \bigcup ^{n}_{i=1}f^{-1}(U_{\alpha _{i}}).]]></fr:tex>
+Then <fr:tex
+display="inline"><![CDATA[f(K)\subseteq \bigcup ^{n}_{i=1}f(f^{-1}(U_{\alpha _{i}}))\subseteq \bigcup ^{n}_{i=1}U_{\alpha _{i}}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[f(K)]]></fr:tex> is compact.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -28,19 +54,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5895</fr:anchor><fr:addr
-type="user">matrix-0013</fr:addr><fr:route>matrix-0013.xml</fr:route><fr:title
-text="Mixing Scalar and Matrix Multiplication">Mixing Scalar and Matrix Multiplication</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1777</fr:anchor><fr:addr
+type="user">ca-001X</fr:addr><fr:route>ca-001X.xml</fr:route><fr:title
+text="Continuous image of a compact subset is compact">Continuous image of a compact subset is compact</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> be a number, let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[n\times  p]]></fr:tex> matrix. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})=r(\mathbf {A}\mathbf {B})=(r\mathbf {A})\mathbf {B}]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[K\subseteq  X]]></fr:tex> be a <fr:link
+type="local"
+href="ca-001T.xml"
+addr="ca-001T"
+title="Compact subset of a metric space">compact subset</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous</fr:link>. Then <fr:tex
+display="inline"><![CDATA[f(K)]]></fr:tex> is a compact subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -50,12 +89,38 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4819</fr:anchor><fr:addr
-type="machine">#304</fr:addr><fr:route>unstable-304.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>802</fr:anchor><fr:addr
+type="machine">#304</fr:addr><fr:route>unstable-304.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important that the number system we have been working with implicitly is the real or complex numbers (or the rationals). This is because multiplication in this number system is commutative <fr:em>and</fr:em> associative. If it is noncommutative, then <fr:tex
-display="inline"><![CDATA[\mathbf {A}(r\mathbf {B})\neq  r(\mathbf {A}\mathbf {B})]]></fr:tex> which could be problematic.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an arbitrary <fr:link
+type="local"
+href="ca-001S.xml"
+addr="ca-001S"
+title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
+display="inline"><![CDATA[f(K)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. For each <fr:tex
+display="inline"><![CDATA[x\in  K]]></fr:tex>, there is an <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(x)\in  U_{\alpha }]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[x\in  f^{-1}(U_{\alpha })]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[\{f^{-1}(U_{\alpha })\}]]></fr:tex> is an open cover of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, since the <fr:link
+type="local"
+href="ca-001N.xml"
+addr="ca-001N"
+title="A function is continuous iff the preimage of open sets are open">A function is continuous iff the preimage of open sets are open</fr:link>. This means since <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> is compact there is a finite subcover <fr:tex
+display="inline"><![CDATA[\{f^{-1}(U_{\alpha _{i}})\mid  i=1,…,n\}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>. So
+<fr:tex
+display="block"><![CDATA[K\subseteq \bigcup ^{n}_{i=1}f^{-1}(U_{\alpha _{i}}).]]></fr:tex>
+Then <fr:tex
+display="inline"><![CDATA[f(K)\subseteq \bigcup ^{n}_{i=1}f(f^{-1}(U_{\alpha _{i}}))\subseteq \bigcup ^{n}_{i=1}U_{\alpha _{i}}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[f(K)]]></fr:tex> is compact.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

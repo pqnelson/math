@@ -1,0 +1,9 @@
+\title{Metric topology}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{example}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. We can define the \define{Metric Topology} for #{X} consisting of all [open subsets](ca-000M) (defined using open balls) as the only open sets in the topology.}
+
+\rmk{We should look at point-set topology as generalizing everything from our discussion about the [[ca-000G]] to arbitrary sets.}

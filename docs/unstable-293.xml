@@ -7,27 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>728</fr:anchor><fr:addr
-type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>482</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
-but <fr:tex
-display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
 type="local"
-href="vectsp-002K.xml"
-addr="vectsp-002K"
-title="Adjoint of linear map">adjoint</fr:link>, so
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="ca-002A.xml"
+addr="ca-002A"
+title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -42,39 +33,25 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>730</fr:anchor><fr:addr
-type="user">vectsp-0033</fr:addr><fr:route>vectsp-0033.xml</fr:route><fr:title
-text="Eigenvectors of normal operator are orthogonal">Eigenvectors of normal operator are orthogonal</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:addr
+type="user">ca-002H</fr:addr><fr:route>ca-002H.xml</fr:route><fr:title
+text="Set of continuous real-valued functions on metric space">Set of continuous real-valued functions on metric space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.22</fr:meta><fr:meta
-name="source"><fr:link
-type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.2.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> be an <fr:link
-type="local"
-href="vectsp-0020.xml"
-addr="vectsp-0020"
-title="Inner product space">Inner product space</fr:link> over <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a <fr:link
-type="local"
-href="vectsp-002P.xml"
-addr="vectsp-002P"
-title="Normal operator">normal</fr:link> linear operator. If <fr:tex
-display="inline"><![CDATA[\lambda ,\mu \in \mathbb {C}]]></fr:tex> are distinct eigenvalues of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> with eigenvectors <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[w]]></fr:tex> (respectively), then <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex>.</fr:p>
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. We denote by <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> the set of all continuous real-valued functions on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p><fr:p>Moreover, this may be given the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Uniform Metric</html:dfn> defined by
+<fr:tex
+display="block"><![CDATA[\left  \lVert  f-g \right  \rVert _{\infty }:=\sup _{x\in  X}|f(x)-g(x)|]]></fr:tex>
+for any <fr:tex
+display="inline"><![CDATA[f,g\in \mathcal {C}(X)]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -84,26 +61,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>732</fr:anchor><fr:addr
-type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>486</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
-but <fr:tex
-display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
 type="local"
-href="vectsp-002K.xml"
-addr="vectsp-002K"
-title="Adjoint of linear map">adjoint</fr:link>, so
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+href="ca-002A.xml"
+addr="ca-002A"
+title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

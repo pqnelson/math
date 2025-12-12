@@ -7,30 +7,37 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4457</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4421</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
-display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
-<fr:p>The backward direction: assume <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
-display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
-display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
-display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
-display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
+display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
+
+<fr:p>(1) Assume <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">empty</fr:link>, so <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
+
+<fr:p>(2) The argument is the same but switching <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -47,25 +54,15 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4459</fr:anchor><fr:addr
-type="user">ela-001N</fr:addr><fr:route>ela-001N.xml</fr:route><fr:title
-text="Linear transformation is injective iff kernel is trivial subspace">Linear transformation is injective iff kernel is trivial subspace</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4423</fr:anchor><fr:addr
+type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
+text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear transformation of real vector spaces. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
-type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> if and only if <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}]]></fr:tex> is the <fr:link
-type="local"
-href="ela-000K.xml"
-addr="ela-000K"
-title="Trivial subspace">Trivial subspace</fr:link> of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define <fr:em>the</fr:em> empty set to be the constant denoted <fr:tex
+display="inline"><![CDATA[\emptyset ]]></fr:tex> (or sometimes <fr:tex
+display="inline"><![CDATA[\{\}]]></fr:tex>).</fr:p><fr:p>We need to prove this is well-defined. For constants, this means proving it exists and is unique.</fr:p>
  
    
    <fr:tree
@@ -75,30 +72,37 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4461</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2039</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
-display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
-<fr:p>The backward direction: assume <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
-display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
-display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
-display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
-display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
+display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
+
+<fr:p>(1) Assume <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">empty</fr:link>, so <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
+
+<fr:p>(2) The argument is the same but switching <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

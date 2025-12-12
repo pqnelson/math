@@ -1,0 +1,7 @@
+\title{Continuous real-valued functions on compact metric space is complete}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{proposition}
+
+\p{If #{(X,d)} is a [compact](ca-001T) [[ca-000K]], then #{\mathcal{C}(X)} is [complete](ca-001F).}

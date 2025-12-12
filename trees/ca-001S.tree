@@ -3,6 +3,7 @@
 \import{notation}
 \date{2025-12-11}
 \taxon{definition}
+\meta{source}{[[baby-rudin]], Definition 2.31}
 
 \p{Let #{(X,d)} be a [[ca-000K]]. Let #{E\subset X}. A collection of sets #{\{U_{\alpha}\}_{\alpha\in A}} is a \define{Cover} of #{E} if #{E\subset\bigcup_{\alpha\in A}U_{\alpha}}.}
 

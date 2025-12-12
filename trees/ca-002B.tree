@@ -1,0 +1,8 @@
+\title{Uniformly Cauchy}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be two [[ca-000K]]s. Let #{f_{n}\colon X\to Y} be a sequence of functions. We say #{(f_{n})} is \define{Uniformly Cauchy} if for each #{\varepsilon>0} there exists a positive integer #{N\in\NN} such that for all #{x\in X} and all #{m,n\geq N} we have
+##{\rho(f_{m}(x),f_{n}(x))<\varepsilon.}}

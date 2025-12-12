@@ -1,0 +1,22 @@
+\title{Heine-Cantor theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{theorem}
+\meta{source}{Gunning's [[gunning-2017-introduction]] Theorem 3.18}
+\meta{source}{Royden and Fitzpatrick's [[royden-2010-real]], Ch. 9 Proposition 23}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be [[ca-000K]]s. Assume that #{(X,d)} is [compact](ca-001T). Let #{f\colon X\to Y} be a [continuous function](ca-001L). Then #{f} is [uniformly continuous](ca-001P).}
+
+\proof{\p{Assume for contradiction #{f} is not uniformly continuous. Then there exists an #{\varepsilon>0} such that for every #{\delta>0} and for every #{a,b\in X} we have
+##{d(a,b)<\delta\quad\mbox{and}\quad\rho(f(a),f(b))\geq\varepsilon.}
+Since #{(X,d)} is compact, it is [sequentially compact](ca-0022) by [[ca-0023]]. Then for each #{n}, there exists #{x_{n}\in X} and #{y_{n}\in X} such that
+##{d(x_{n},y_{n})<\frac{1}{n}\quad\mbox{and}\quad\rho(f(x_{n}),f(y_{n}))\geq\varepsilon.}
+But by [sequential compactness](ca-0022) there exists an #{x\in X} and a subsequence #{(x_{n_{k}})} such that #{x_{n_{k}}\to x} converges. Then using the triangle inequality, we have
+##{\begin{align}
+d(y_{n_{k}},x) & \leq d(y_{n_{k}},x_{n_{k}}) + d(x_{n_{k}},x)\\
+&\leq\frac{1}{n_{k}}  + d(x_{n_{k}},x),
+\end{align}}
+which goes to zero for sufficiently large #{n_{k}}. Then #{(y_{n_{k}})\to x}. Then by continuity of #{f}, their images (using the triangle inequality):
+##{\rho(f(x_{n_{k}}), f(y_{n_{k}}))\leq\rho(f(x_{n_{k}}), f(x)) + \rho(f(x), f(y_{n_{k}})),}
+which goes to zero by continuity. But this contradicts #{\rho(f(x_{n_{k}}),f(x))\geq\varepsilon}, hence #{f} must be uniformly continuous.}}

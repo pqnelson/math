@@ -1,0 +1,10 @@
+\title{Subsets of Euclidean space are bounded iff totally bounded}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{theorem}
+
+\p{A subset of Euclidean space #{E\subset\RR^{n}} is [bounded](ca-001U) if and only if it is [totally bounded](ca-001Z).}
+
+\proof{\p{\backwardproof Obvious.}
+\p{\forwardproof For simplicity, suppose #{n=2} (the argument generalizes to other #{n}). Let #{\varepsilon>0}. Since #{E} is bounded, there is an [[ca-000L]] which totally contains #{E}. There is an #{a>0} sufficiently large such that #{E\subset[-a,a]\times[-a,a]}. Then we can take a partition #{P_{k}} of #{[-a,a]} such that each interval in the partition has length less than #{1 / k}. Then #{P_{k}\times P_{k}} is a partition of #{[-a,a]\times[-a,a]} and each square has diameter bounded by #{\sqrt{2} / k}. We can choose #{k} sufficiently large such that #{\sqrt{2} / k < \varepsilon}. There are finitely many such open squares which cover #{E}. This implies there are finitely many open balls of radius #{\varepsilon} covering #{E}. Hence the result.}}

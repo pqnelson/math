@@ -1,0 +1,10 @@
+\title{Intermediate Value Property}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+\meta{source}{Rudin [[baby-rudin]], Chapter 4 Exercise 19}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. We say #{(X,\mathcal{T})} has the \define{Intermediate Value Property} if the image of any continuous real-valued function on #{X} is an interval.}
+
+\rmk{This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...}

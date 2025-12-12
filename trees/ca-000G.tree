@@ -55,3 +55,7 @@
 \transclude{ca-0020} % subsequence
 \transclude{ca-0021} % subsequential limit
 \transclude{ca-0022} % sequentially compact subset
+\transclude{ca-0023} % characterization of compactness for metric spaces
+\transclude{ca-0024} % Subsets of Euclidean space are bounded iff totally bounded
+\transclude{ca-0025} % Heine-Cantor theorem
+\transclude{ca-0026} % Baire category theorem

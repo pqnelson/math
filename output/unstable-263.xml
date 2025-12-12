@@ -7,26 +7,33 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3239</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4409</fr:anchor><fr:addr
 type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
-type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">set-builder notation</fr:link>  <fr:tex
-display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
-display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">Set equality</fr:link>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
+display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
+display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -43,9 +50,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3241</fr:anchor><fr:addr
-type="user">nst-000F</fr:addr><fr:route>nst-000F.xml</fr:route><fr:title
-text="Intersection of two sets">Intersection of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4411</fr:anchor><fr:addr
+type="user">nst-000N</fr:addr><fr:route>nst-000N.xml</fr:route><fr:title
+text="Ordered pairs implement their specification">Ordered pairs implement their specification</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -58,20 +65,17 @@ title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
 type="local"
 href="halmos-1974-naive.xml"
 addr="halmos-1974-naive"
-title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
 name="source">MML <fr:link
 type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K3">xboole_0:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Intersection</html:dfn> to be the set denoted <fr:tex
-display="inline"><![CDATA[X\cap  Y]]></fr:tex> such that: for all objects <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[x\in  X\cap  Y]]></fr:tex> iff <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see this is commutative <fr:tex
-display="inline"><![CDATA[X\cap  Y=Y\cap  X]]></fr:tex> and idempotent <fr:tex
-display="inline"><![CDATA[X\cap  X=X]]></fr:tex>.</fr:p>
+href="https://mizar.uwb.edu.pl/version/current/html/xtuple_0.html#T1">xtuple_0:1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[c]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> be objects. If <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -81,26 +85,33 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>954</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2085</fr:anchor><fr:addr
 type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
-type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">set-builder notation</fr:link>  <fr:tex
-display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
-display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">Set equality</fr:link>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
+display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
+display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -1,0 +1,11 @@
+\title{Continuous Function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+\meta{source}{Munkres [[munkres-2000-topology]] Section 18}
+\MML{tops_2}{43}{T43}
+
+\p{Let #{(X,\mathcal{T_{1}})} and #{(Y,\mathcal{T}_{2})} be [[gt-0002]]s. Let #{f\colon X\to Y} be a function, let #{x\in X}. We say #{f} is \define{Continuous at a point} #{x} if for any [[gt-0003]] #{V} of #{f(x)}, there is a [[gt-0003]] #{U} of #{x} such that #{f(U)\subset V}.}
+
+\p{We say #{f} is \define{Continuous} if it is continuous at each point of #{x}.}

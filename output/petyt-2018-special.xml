@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6538</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7742</fr:anchor><fr:addr
 type="user">petyt-2018-special</fr:addr><fr:route>petyt-2018-special.xml</fr:route><fr:title
 text="The special linear group for nonassociative rings">The special linear group for nonassociative rings</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2018</fr:year></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -40,7 +40,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6540</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7744</fr:anchor><fr:addr
 type="user">sl-0007</fr:addr><fr:route>sl-0007.xml</fr:route><fr:title
 text="Baez-ian Special Linear Algebra for n3">Baez-ian Special Linear Algebra for <fr:tex
 display="inline"><![CDATA[n\geq 3]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -77,7 +77,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6542</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7746</fr:anchor><fr:addr
 type="user">sl-0008</fr:addr><fr:route>sl-0008.xml</fr:route><fr:title
 text="Baez-ian Special Linear Group over Octonions">Baez-ian Special Linear Group over Octonions</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -100,8 +100,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6059</fr:anchor><fr:addr
-type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7259</fr:anchor><fr:addr
+type="machine">#322</fr:addr><fr:route>unstable-322.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -130,7 +130,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6544</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7748</fr:anchor><fr:addr
 type="user">sl-0003</fr:addr><fr:route>sl-0003.xml</fr:route><fr:title
 text="Baez-ian Special linear group over the octonions">Baez-ian Special linear group over the octonions</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -152,7 +152,7 @@ display="inline"><![CDATA[I+aE_{i,j}]]></fr:tex>.</fr:p><fr:p>For alternative al
 <fr:tex
 display="block"><![CDATA[L_{E_{i}}L_{E_{i}}=L_{E_{i}^{2}}=\pm 1]]></fr:tex>
 and for <fr:tex
-display="inline"><![CDATA[E_{i}\neq  E_{j}]]></fr:tex>, using the associative <fr:tex
+display="inline"><![CDATA[E_{i}\neq  E_{j}]]></fr:tex>, using the associator <fr:tex
 display="inline"><![CDATA[[z,w,u]=(zw)u-z(wu)]]></fr:tex> we have:
 <fr:tex
 display="block"><![CDATA[0=[E_{i},E_{j},z] + [E_{j},E_{i},z] = L_{E_{i}E_{j}+E_{j}E_{i}}(z)-(L_{E_{i}}L_{E_{j}}+L_{E_{j}}L_{E_{i}})(z),]]></fr:tex>
@@ -166,7 +166,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6546</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7750</fr:anchor><fr:addr
 type="user">sl-0001</fr:addr><fr:route>sl-0001.xml</fr:route><fr:title
 text="Difficulties over a noncommutative ring">Difficulties over a noncommutative ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

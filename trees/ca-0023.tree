@@ -1,0 +1,38 @@
+\title{Characterization of compactness for metric spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. The following are equivalent:}
+\ol{
+\li{#{X} is [complete](ca-001F) and [totally bounded](ca-001Z)}
+\li{#{X} is [compact](ca-001T)}
+\li{#{X} is [[ca-0022]]}
+}
+
+\p{We will prove #{(1)\implies(2)\implies(3)\implies(1)}. We will provide these as separate proofs.}
+
+\proof{\p{#{(1)\implies(2)} Assume for contradiction that #{X} is not compact. Then consider an open cover #{\{U_{\alpha}\}} of #{X} such that it has no finite subcover. We will repeatedly use the following construction:}
+\p{(i) Since #{X} is totally bounded, we can consider a finite collection of open balls of radius #{r<1 / 2} which cover #{X}. Then at least one of these open balls #{B_{1}} that can not be covered by finitely many #{U_{\alpha}}. We call its closure #{A_{1}=\closure{B_{1}}}. Then #{A_{1}} is closed and #{\diam(A_{1})\leq 1}.}
+\p{Using totally boundedness again, repeating (i) but with balls of radius #{r < 1 / 4}, we find another open ball #{B_{2}} whose intersection with #{A_{1}} cannot be covered by finitely many #{U_{\alpha}}. We call the closure of this open ball intersected with #{A_{1}},
+##{A_{2} := \closure{A_{1}\cap B_{2}}.}
+We have #{B_{2}\cap A_{1}} cannot be covered by finitely many #{U_{\alpha}}. Then #{A_{2}} is closed and #{A_{2}\subset A_{1}} and #{\diam(A_{2}) < 1 / 2}.}
+\p{We repeat this process inductively and obtain a [[ca-001L]] of nonempty closed subsets #{(A_{n})}. We see #{\diam(A_{n})\leq 2^{-n}} and #{A_{n+1}\subset A_{n}}. Since #{X} is [complete](ca-001F), we can use [[ca-001K]]. (Each #{A_{n}} cannot be covered by finitely many #{U_{\alpha}}.) There exists a point #{x_{0}\in X} which is the unique intersection point
+##{\{x_{0}\} = \bigcap^{\infty}_{n=1}A_{n}}
+There exists a particular #{U_{\alpha_{0}}} in our open cover containing #{x_{0}\in U_{\alpha_{0}}}. (There may be several, we only need the fact there exists at least one.) Since #{U_{\alpha_{0}}} is [open](ca-0019), there exists an #{r_{0}>0} such that #{B_{r_{0}}(x_{0})\subset U_{\alpha_{0}}}. We know #{\diam(A_{n})\to0} so there exists some index #{N\in\NN} such that for all #{n\geq N} we have
+##{A_{n}\subset B_{r_{0}}(x_{0})\subset U_{\alpha_{0}}}
+This is a contradiction, because we specifically chose these #{A_{n}} to be impossible to cover with finitely many #{U_{\alpha}} (and we just covered them with a single one). Hence the contradiction. Hence #{X} is compact.}}
+
+\proof{\p{#{(2)\implies(3)} Assume #{X} is [compact](ca-001T). Let #{(x_{n})} be a sequence in #{X}. We want to show #{(x_{n})} has a convergent [[ca-0020]] in #{X}. Define the set
+##{E = \{x_{n}\in X\mid n\in\NN\}}
+to be the set of terms appearing in the sequence. Then either #{E} is a finite set or not.}
+
+\p{\textbf{Case 1:} Suppose #{E} is a finite set. Then we can use the pidgeonhole principle: there exists an #{x\in E} repeated infinitely many times, and a sequence #{(n_{k})} where #{n_{1} < n_{2} < \dots} of positive integers such that the subsequence #{(x_{n_{k}})} is identically #{x}. Then #{x_{n}\to x} converges.}
+
+\p{\textbf{Case 2:} Suppose #{E} is an infinite set. There are infinitely many distinct terms in #{(x_{n})}. We assume for contradiction that no point in #{X} is a [[ca-000O]] of #{E}. Then for each #{z\in X}, there is a [[ca-000N]] #{U_{z}\ni z} which intersects #{E\cap U_{z}=\{z\}} at most trivially. Then #{\{U_{z}\}_{z\in X}} is an [open cover](ca-001S) of #{X}. This contradicts the hypothesis that #{X} is compact. So we reject the assumption that #{E} has no limit point. Let us call that limit point #{x\in X}. Then we can choose the smallest index #{n_{1}} such that #{x_{n_{1}}\in B_{1}(x)}. We can choose #{n_{k}} to be the smallest index such that #{n_{k}>n_{k-1}} and #{x_{n_{k}}\in B_{1 / k}(x)}. Then we have constructed a subsequence #{(x_{n_{k}})\to x}. This proves the claim.}}
+
+\proof{\p{#{(3)\implies(1)} Assume #{X} is [sequentially compact](ca-0022). Assume for contradiction that #{X} is not [totally bounded](ca-001Z). Then there exists some #{\varepsilon>0} such that we cannot cover #{X} with finitely many [open balls](ca-000L) of radius #{\varepsilon}.}
+\p{We select a point #{x_{1}\in X}. Then #{X} cannot be covered by #{B_{\varepsilon}(x_{1})}. Then consider #{x_{2}\in X} such that #{d(x_{1},x_{2})\geq 2\varepsilon}. Then #{B_{\varepsilon}(x_{1})\cap B_{\varepsilon}(x_{2})=\emptyset} are disjoint, and #{B_{\varepsilon}(x_{1})\cup B_{\varepsilon}(x_{2})} does not cover #{X}.}
+\p{Inductively, we select #{x_{3}\in X} such that #{\diam(x_{3},x_{i})\geq2\varepsilon} for #{i=1,2}, so we can continue in this manner to get #{(x_{n})} a sequence with no convergent subsequence (because any two terms are at least #{\varepsilon} apart). This means #{X} is not sequentially compact. This is a contradiction. Hence #{X} is totally bounded.}
+\p{But we are not finished, we need to prove #{X} is [complete](ca-001F). Let #{(x_{n})} be an arbitrary [[ca-001D]]. Then #{(x_{n})} has a convergent [[ca-0020]] #{(x_{n_{k}})\to x} by [sequential compactness](ca-0022). Then #{(x_{n})\to x} since it is a Cauchy sequence (and the triangle inequality).}}

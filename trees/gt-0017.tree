@@ -1,0 +1,9 @@
+\title{Homeomorphic spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T_{1}})} and #{(Y,\mathcal{T}_{2})} be [[gt-0002]]s. We say #{(X,\mathcal{T_{1}})} and #{(Y,\mathcal{T}_{2})} \define{are Homeomorphic} if there exists a [[gt-0016]] between them.}
+
+\rmk{This forms an [[nst-0011]] on topological spaces.}

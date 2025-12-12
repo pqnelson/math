@@ -7,12 +7,57 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6103</fr:anchor><fr:addr
-type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1791</fr:anchor><fr:addr
+type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Formally, if we were formalizing matrices with a proof assistant, we should first define the negation of a matrix. Then we use matrix negation to define matrix subtraction.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is continuous. Let <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> be a continuous subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a point in the preimage <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. We must show that an open ball centered at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is a point in <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>, which is open in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, there is some <fr:tex
+display="inline"><![CDATA[r>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{r}(f(x))\subseteq  O]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous</fr:link> at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we can find a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{r}(f(x))\subseteq  O]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(O)]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the preimage under <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> of each open set of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. The open ball <fr:tex
+display="inline"><![CDATA[B_{\varepsilon }(f(x))]]></fr:tex> is an open subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+Then <fr:tex
+display="inline"><![CDATA[f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
+Note that <fr:tex
+display="inline"><![CDATA[x\in  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>, so we can choose a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>.
+That is, <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{\varepsilon }(f(x))]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,24 +72,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6105</fr:anchor><fr:addr
-type="user">matrix-000K</fr:addr><fr:route>matrix-000K.xml</fr:route><fr:title
-text="Matrix Subtraction">Matrix Subtraction</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1793</fr:anchor><fr:addr
+type="user">ca-001N</fr:addr><fr:route>ca-001N.xml</fr:route><fr:title
+text="A function is continuous iff the preimage of open sets are open">A function is continuous iff the preimage of open sets are open</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\mathbf {B}=(b_{i,j})]]></fr:tex> be two <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices. We define their <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Difference</html:dfn> to be the matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {B} = \mathbf {A} + -1\cdot \mathbf {B}]]></fr:tex>. This gives us the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Matrix Subtraction</html:dfn> binary operator on <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices.</fr:p><fr:p>Similarly, the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">(Matrix) Negation</html:dfn> of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is the matrix <fr:tex
-display="inline"><![CDATA[-\mathbf {A}=-1\cdot \mathbf {A}]]></fr:tex>. This is a unary operator on <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices.</fr:p>
+display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function. Then <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous</fr:link> if and only if for each <fr:link
+type="local"
+href="ca-000M.xml"
+addr="ca-000M"
+title="Open Set">open</fr:link> subset <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, the preimage <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex> is an open subset of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -54,11 +108,56 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4771</fr:anchor><fr:addr
-type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>774</fr:anchor><fr:addr
+type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Formally, if we were formalizing matrices with a proof assistant, we should first define the negation of a matrix. Then we use matrix negation to define matrix subtraction.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is continuous. Let <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> be a continuous subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a point in the preimage <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. We must show that an open ball centered at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is a point in <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>, which is open in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, there is some <fr:tex
+display="inline"><![CDATA[r>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{r}(f(x))\subseteq  O]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous</fr:link> at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we can find a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{r}(f(x))\subseteq  O]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(O)]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the preimage under <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> of each open set of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. The open ball <fr:tex
+display="inline"><![CDATA[B_{\varepsilon }(f(x))]]></fr:tex> is an open subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+Then <fr:tex
+display="inline"><![CDATA[f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
+Note that <fr:tex
+display="inline"><![CDATA[x\in  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>, so we can choose a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>.
+That is, <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{\varepsilon }(f(x))]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

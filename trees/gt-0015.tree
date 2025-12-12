@@ -1,0 +1,7 @@
+\title{Extreme value theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{corollary}
+
+\p{Let #{(X,\mathcal{T})} be a [compact](gt-0013) [[gt-000Y]]. Then a [continuous](gt-000P) real-valued function takes a maximum and minimum value on #{X}.}

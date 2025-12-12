@@ -1,0 +1,11 @@
+\title{Singleton sets are closed in Hausdorff spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{lemma}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-000Y]]. Let #{x\in X}. Then #{\{x\}} is a [closed subset](gt-000E) of #{X}.}
+
+\proof{\p{For each point #{y\neq x} in #{X}, consider the open subset #{U_{y}\subset X} such that #{y\in U_{y}} and there is a disjoint open subset containing #{x}, so #{x\notin U_{y}}. We claim the union of all such #{U_{y}} for #{y\neq x} is #{U=\bigcup_{y\in X\setminus\{x\}}U_{y}} is an open subset of #{X} and #{U^{\complement}=\{x\}}. Hence #{\{x\}} is closed, as desired.}}
+
+\rmk{An immediate corollary is that finite subsets of a Hausdorff space are closed.}

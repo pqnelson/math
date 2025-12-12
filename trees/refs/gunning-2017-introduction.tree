@@ -1,0 +1,13 @@
+\title{An Introduction to Analysis}
+\author{robert-c-gunning}
+\meta{external}{https://web.math.princeton.edu/~gunning/bk.pdf}
+\taxon{reference}
+\date{2017}
+
+\meta{bibtex}{\startverb
+@book{gunning2017introduction,
+  author={Gunning, Robert C.},
+  title={An Introduction to Analysis},
+  year={2017},
+  publisher={Princeton University Press}
+}\stopverb}

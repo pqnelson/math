@@ -1,0 +1,7 @@
+\title{Compact subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{K\subset X} be a subset of #{X}. We say #{K} is \define{Compact} if every [[gt-0012]] has a finite open subcover.}

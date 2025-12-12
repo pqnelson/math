@@ -7,17 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
-type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>488</fr:anchor><fr:addr
+type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align*} T\hbox { is normal}&\iff  T^{*}T-TT^{*}=0\\ &\iff  \langle (T^{*}T-TT^{*})v,v\rangle =0\hbox { for all }v\in  V\\ &\iff  \langle  T^{*}T,v\rangle =\langle  -TT^{*}v,v\rangle \hbox { for all }v\in  V\\ &\iff  \left  \lVert  Tv \right  \rVert ^{2}=\left  \lVert  T^{*}v \right  \rVert ^{2}\hbox { for all }v\in  V \end {align*}]]></fr:tex>
-Hence the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Observe that each function in a uniformly equicontinuous collection is uniformly continuous, but the converse is not always true.</fr:p>
+<fr:p>(2) A family of functions is broadly considered "equicontinuous" if all functions in the family are continuous and have equal variation over a given neighborhood (in a precise sense).</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -32,34 +28,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>736</fr:anchor><fr:addr
-type="user">vectsp-0031</fr:addr><fr:route>vectsp-0031.xml</fr:route><fr:title
-text="Operator is normal iff norm of operator equals norm of its adjoint">Operator is normal iff norm of operator equals norm of its adjoint</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:addr
+type="user">ca-002E</fr:addr><fr:route>ca-002E.xml</fr:route><fr:title
+text="Uniformly Equicontinuous">Uniformly Equicontinuous</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.20</fr:meta><fr:meta
-name="source"><fr:link
-type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link>  Proposition 11.2.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> be a vector space with a <fr:link
-type="local"
-href="vectsp-0025.xml"
-addr="vectsp-0025"
-title="Norm">Norm</fr:link>. Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is normal if and only if
-<fr:tex
-display="block"><![CDATA[\left  \lVert  Lv \right  \rVert =\left  \lVert  L^{*}v \right  \rVert ]]></fr:tex>
-for all <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex>.</fr:p>
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a family of functions from <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Uniformly Equicontinuous</html:dfn> if for any <fr:tex
+display="inline"><![CDATA[f\in  F]]></fr:tex>, for each <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that for any <fr:tex
+display="inline"><![CDATA[x,y\in  X]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[d(x,y)<\delta ]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[\rho (f(x),f(y))<\varepsilon ]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -69,16 +61,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>738</fr:anchor><fr:addr
-type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>492</fr:anchor><fr:addr
+type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align*} T\hbox { is normal}&\iff  T^{*}T-TT^{*}=0\\ &\iff  \langle (T^{*}T-TT^{*})v,v\rangle =0\hbox { for all }v\in  V\\ &\iff  \langle  T^{*}T,v\rangle =\langle  -TT^{*}v,v\rangle \hbox { for all }v\in  V\\ &\iff  \left  \lVert  Tv \right  \rVert ^{2}=\left  \lVert  T^{*}v \right  \rVert ^{2}\hbox { for all }v\in  V \end {align*}]]></fr:tex>
-Hence the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Observe that each function in a uniformly equicontinuous collection is uniformly continuous, but the converse is not always true.</fr:p>
+<fr:p>(2) A family of functions is broadly considered "equicontinuous" if all functions in the family are continuous and have equal variation over a given neighborhood (in a precise sense).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

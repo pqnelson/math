@@ -1,0 +1,15 @@
+\title{Topology}
+\author{james-r-munkres}
+\taxon{reference}
+\date{2000}
+
+\meta{bibtex}{\startverb
+@book{munkres2000topology,
+  author={Munkres, James R.},
+  title={Topology},
+  edition={second},
+  publisher={Prentice Hall},
+  year={2000}
+}\stopverb}
+
+\p{Hatcher once wrote something along the lines of: "It is hard for me to understand the enthusiasm for this rather pedestrian book." Honestly, same.}

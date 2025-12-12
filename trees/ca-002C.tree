@@ -1,0 +1,10 @@
+\title{For any sequence of functions to a complete metric space, uniformly convergence is equivalent to uniformly Cauchy}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]] and #{(Y,\rho)} be a [[ca-001F]]. Let #{f_{n}\colon X\to Y} be a sequence of functions. Then #{(f_{n})} is [uniformly convergent](ca-002A) if and only if it is [[ca-002B]].}
+
+\proof{\p{\forwardproof Obvious.}
+\p{\backwardproof Straightforward unfolding of definitions, and appeal to the triangle inequality.}}

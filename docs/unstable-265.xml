@@ -7,37 +7,40 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3247</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4417</fr:anchor><fr:addr
 type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> take <fr:tex
+display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</fr:p>
 
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex
+display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
 type="local"
 href="nst-0004.xml"
 addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -54,15 +57,37 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3249</fr:anchor><fr:addr
-type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
-text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4419</fr:anchor><fr:addr
+type="user">nst-000D</fr:addr><fr:route>nst-000D.xml</fr:route><fr:title
+text="Union of two sets">Union of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define <fr:em>the</fr:em> empty set to be the constant denoted <fr:tex
-display="inline"><![CDATA[\emptyset ]]></fr:tex> (or sometimes <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>).</fr:p><fr:p>We need to prove this is well-defined. For constants, this means proving it exists and is unique.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K2">xboole_0:def 3</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Union</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[X\cup  Y]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y]]></fr:tex> iff either <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see that this is commutative <fr:tex
+display="inline"><![CDATA[X\cup  Y=Y\cup  X]]></fr:tex> and idempotent <fr:tex
+display="inline"><![CDATA[X\cup  X=X]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -72,37 +97,40 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>926</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2061</fr:anchor><fr:addr
 type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> take <fr:tex
+display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</fr:p>
 
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex
+display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
 type="local"
 href="nst-0004.xml"
 addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

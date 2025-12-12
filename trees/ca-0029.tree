@@ -1,0 +1,14 @@
+\title{Pointwise convergence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be two [[ca-000K]]s. Let #{f_{n}\colon X\to Y} be a sequence of functions.}
+
+\ol{
+\li{We say #{f_{n}} \define{Converges at a point} #{x\in X} if the sequence of points #{(f(x_{n}))} converges to a point in #{Y}}
+\li{We say the sequence #{(f_{n})} \define{Converges pointwise} in #{X} if it converges at each point of #{x}, in which case the \define{Limit} of the sequence is the function #{f(x)} defined by
+##{f(x)=\lim_{n\to\infty}f_{n}(x)}
+for each #{x\in X}.}
+}

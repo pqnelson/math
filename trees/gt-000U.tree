@@ -1,0 +1,7 @@
+\title{Connected Subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{E\subset X} be a subset of #{X}. We say the set #{E} is \define{Connected} if the [subspace](gt-0007) given by #{E} is [connected](gt-000T).}

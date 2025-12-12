@@ -1,0 +1,7 @@
+\title{Trivial topology}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{example}
+
+\p{Let #{X} be any set. We have the \define{Trivial Topology} be #{\mathcal{T}=\{\emptyset,X\}}.}

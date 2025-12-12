@@ -1,0 +1,7 @@
+\title{Homeomorphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T_{1}})} and #{(Y,\mathcal{T}_{2})} be [[gt-0002]]s. Let #{f\colon X\to Y} be a [[gt-000P]]. We say #{f} is a \define{Homeomorphism} if it is a [[ela-001K]] and its [[nst-001L]] #{f^{-1}\colon Y\to X} is also continuous.}

@@ -1,0 +1,11 @@
+\title{A set is closed iff it is equal to its own closure}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{proposition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{E\subset X}. Then #{E} is a [closed set](gt-000E) if and only if #{E=\closure{E}}.}
+
+\proof{\p{We see that #{E\subset\closure{E}}. It suffices to show #{E} is closed iff #{\closure{E}\subset E}.}
+\p{If #{E} is closed, then #{E} is a closed set such that #{E\subset E}. Then by definition of the [[gt-000G]], #{\closure{E}\subset E}.}
+\p{If #{\closure{E}\subset E}, then #{E=\closure{E}}. Then by the [[gt-000F]] (specifically (2)), #{\closure{E}} is closed. So #{E} is closed.}}

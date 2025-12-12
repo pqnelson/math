@@ -1,0 +1,7 @@
+\title{Limit point}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{E\subset X} be a subset of #{X}. We say a point #{x\in X} is a \define{Limit Point} of #{E} if every [[gt-0003]] of #{x} contains a distinct #{y\in E} where #{y\neq x}.}

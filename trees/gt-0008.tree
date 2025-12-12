@@ -1,0 +1,7 @@
+\title{Base for topology}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. A \define{Base} for #{\mathcal{T}} is a collection #{\mathcal{B}} of open sets such that for every #{U\in\mathcal{T}}, there is a collection of elements #{B_{\alpha}\in\mathcal{B}} such that #{\bigcup_{\alpha}U_{\alpha}=G}.}

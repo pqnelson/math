@@ -1,0 +1,8 @@
+\title{Convergence of sequence in a topological space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{(x_{n})} be a sequence in #{X}. We say #{(x_{n})} \define{Converges} to #{x\in X} if for each [[gt-0003]] #{U} of #{x}, there is an integer #{N\in\NN} such that for each #{n\geq N} we have #{x_{n}\in U}.}
+\p{We call #{x} the \define{Limit} of #{(x_{n})}.}

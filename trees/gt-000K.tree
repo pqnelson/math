@@ -1,0 +1,7 @@
+\title{Closure of a set is smallest closed set containing it}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{proposition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{E\subset X} be a subset of #{X}. Then for any [closed set](gt-000E) #{F\subset X} such that #{E\subset F}, we have the [closure](gt-000G) of #{E} also be a subset #{\closure{E}\subset F}.}

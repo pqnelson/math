@@ -1,0 +1,12 @@
+\title{Properties of compact subsets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{theorem}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{K\subset X} be a subset of #{X}. Then the following all hold:}
+\ol{
+\li{If #{X} is [[gt-000Y]] and #{K} is [[gt-0013]], then #{K} is [closed](gt-000E).}
+\li{If #{K} is [[gt-0013]] and #{F\subset K} is [closed](gt-000E), then #{F} is compact.}
+\li{The continuous image of a compact set is compact.}
+}

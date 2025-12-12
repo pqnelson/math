@@ -1,0 +1,9 @@
+\title{Topological space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{A \define{Topological Space} is a set #{X} equipped with a [[gt-0001]] #{\mathcal{T}} of #{X}.}
+
+\p{The elements of the topology #{\mathcal{T}} are called \define{Open Subsets} of #{X}.}

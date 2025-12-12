@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9813</fr:anchor><fr:addr
+type="user">princeton</fr:addr><fr:route>princeton.xml</fr:route><fr:title
+text="Princeton University">Princeton University</fr:title><fr:taxon>Institution</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9814</fr:anchor><fr:addr
+type="user">robert-c-gunning</fr:addr><fr:route>robert-c-gunning.xml</fr:route><fr:title
+text="Robert C. Gunning">Robert C. Gunning</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+name="position">Professor of Mathematics</fr:meta><fr:meta
+name="institution"><fr:link
+type="local"
+href="princeton.xml"
+addr="princeton"
+title="Princeton University">Princeton University</fr:link></fr:meta><fr:meta
+name="external">https://web.math.princeton.edu/~gunning/</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,20 @@
+\title{Classical Set Theory: Theory of Sets and Classes}
+\author{taras-banakh}
+\date{2020}
+\taxon{reference}
+
+\meta{external}{https://arxiv.org/abs/2006.01613}
+\tag{nbg}
+
+\p{Lecture notes about #{\mathsf{NBG}} axioms.}
+
+\meta{bibtex}{\startverb
+@misc{banakh2020classical,
+      title={Classical Set Theory: Theory of Sets and Classes}, 
+      author={Taras Banakh},
+      year={2020},
+      eprint={2006.01613},
+      archivePrefix={arXiv},
+      primaryClass={math.LO},
+      url={https://arxiv.org/abs/2006.01613}, 
+}\stopverb}

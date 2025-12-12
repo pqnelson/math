@@ -1,0 +1,7 @@
+\title{Discrete topology}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{example}
+
+\p{Let #{X} be a set. We have the \define{Discrete Topology} defined by #{\mathcal{T}=\powerset{X}}. That is to say, \emph{every} subset of #{X} is open.}

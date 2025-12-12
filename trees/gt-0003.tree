@@ -1,0 +1,9 @@
+\title{Neighborhood}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{x\in X} be a point. A \define{Neighborhood} of #{x} is an open subset #{U} of #{X} which contains #{x\in U}.}
+
+\rmk{Some authors in older topology texts use a slightly different definition of a neighborhood. So just be careful when consulting a text if they use neighborhoods.}

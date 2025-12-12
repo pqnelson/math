@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7315</fr:anchor><fr:addr
+type="machine">#343</fr:addr><fr:route>unstable-343.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=(a_{i,j}+b_{i,j})]]></fr:tex> and for each component we have <fr:tex
+display="inline"><![CDATA[a_{i,j}+b_{i,j}=b_{i,j}+a_{i,j}]]></fr:tex> since componentwise we have addition of numbers (which is commutative). But the matrix with <fr:tex
+display="inline"><![CDATA[(b_{i,j}+a_{i,j})=\mathbf {B}+\mathbf {A}]]></fr:tex>. Hence we find <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7317</fr:anchor><fr:addr
+type="user">matrix-000G</fr:addr><fr:route>matrix-000G.xml</fr:route><fr:title
+text="Matrix Addition is Commutative">Matrix Addition is Commutative</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any two <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}=(b_{i,j})]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5905</fr:anchor><fr:addr
+type="machine">#343</fr:addr><fr:route>unstable-343.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=(a_{i,j}+b_{i,j})]]></fr:tex> and for each component we have <fr:tex
+display="inline"><![CDATA[a_{i,j}+b_{i,j}=b_{i,j}+a_{i,j}]]></fr:tex> since componentwise we have addition of numbers (which is commutative). But the matrix with <fr:tex
+display="inline"><![CDATA[(b_{i,j}+a_{i,j})=\mathbf {B}+\mathbf {A}]]></fr:tex>. Hence we find <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

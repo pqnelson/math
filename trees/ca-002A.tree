@@ -1,0 +1,10 @@
+\title{Uniform Convergence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be two [[ca-000K]]s. Let #{f_{n}\colon X\to Y} be a sequence of functions. We say #{(f_{n})} \define{Converges Uniformly} to #{f\colon X\to Y} if for each #{\varepsilon>0} there exists a positive integer #{N\in\NN} such that for all #{x\in X} we have
+##{\rho(f_{n}(x),f(x))<\varepsilon.}}
+
+\rmk{It should be obvious that uniform convergence implies [pointwise convergence](ca-0029).}

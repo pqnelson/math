@@ -1,0 +1,9 @@
+\title{Separable}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. We say #{(X,\mathcal{T})} is \define{Separable} if there exists a [[gt-000M]] subset of #{X}.}
+
+\rmk{This notion should \textbf{NOT} be confused with ["separated space"](gt-000S) or "separation" in a space.}

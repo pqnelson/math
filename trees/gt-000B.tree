@@ -1,0 +1,9 @@
+\title{Subbase for topology}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+\MML{cantor_1}{def 4}{V2}
+\MML{cantor_1}{def}{NM2}
+
+\p{Let #{X} be a set. A \define{Subbase} #{\mathcal{S}} is a subset family of #{X} (i.e., a set such that for #{E\in\mathcal{S}}, we see #{E\subset X}) such that #{\bigcup\mathcal{S}=X}.}

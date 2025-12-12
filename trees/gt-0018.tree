@@ -1,0 +1,7 @@
+\title{Fixed point}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{f\colon X\to X} be a function on a set #{X}. We say a point #{x\in X} is a \define{Fixed Point} of #{f} if #{f(x)=x}.}

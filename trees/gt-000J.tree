@@ -1,0 +1,7 @@
+\title{Closure is monotonic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{proposition}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{A\subset B\subset X}. Then #{\closure{A}\subset\closure{B}}.}

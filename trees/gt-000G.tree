@@ -1,0 +1,10 @@
+\title{Closure}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+\meta{source}{Munkres [[munkres-2000-topology]] Section 17}
+
+\p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Let #{E\subset X}. We define the \define{Closure} of #{E} to be the set #{\closure{E}} equal to the intersection of all closed sets containing #{E},
+##{\closure{E}:=\bigcap\{F\mid F\mbox{ is closed}, E\subset F\}.}}
+\p{Note that other possible notations for the closure of #{E} includes #{\mathop{\textrm{Cl}}(E)}.}

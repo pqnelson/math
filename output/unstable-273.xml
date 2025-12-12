@@ -7,28 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>666</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an <fr:link
-type="local"
-href="ca-001S.xml"
-addr="ca-001S"
-title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is closed, <fr:tex
-display="inline"><![CDATA[K\setminus  F]]></fr:tex> is open, so <fr:tex
-display="inline"><![CDATA[\{K\setminus  F\}\cup \{U_{\alpha }\}]]></fr:tex> is an open cover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, i.e., there are finitely many <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}]]></fr:tex>, …, <fr:tex
-display="inline"><![CDATA[U_{\alpha _{n}}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}\cup …\cup  U_{\alpha _{n}}=F]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary is that finite subsets of a Hausdorff space are closed.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -43,30 +27,25 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>668</fr:anchor><fr:addr
-type="user">ca-001W</fr:addr><fr:route>ca-001W.xml</fr:route><fr:title
-text="Closed subsets of a compact set are compact">Closed subsets of a compact set are compact</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:addr
+type="user">gt-0010</fr:addr><fr:route>gt-0010.xml</fr:route><fr:title
+text="Singleton sets are closed in Hausdorff spaces">Singleton sets are closed in Hausdorff spaces</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[K\subseteq  X]]></fr:tex> be a <fr:link
+href="gt-000Y.xml"
+addr="gt-000Y"
+title="Hausdorff space">Hausdorff space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{x\}]]></fr:tex> is a <fr:link
 type="local"
-href="ca-001T.xml"
-addr="ca-001T"
-title="Compact subset of a metric space">compact subset</fr:link> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[F\subseteq  K]]></fr:tex> be a <fr:link
-type="local"
-href="ca-000P.xml"
-addr="ca-000P"
-title="Closed Subset">closed</fr:link> subset. Then <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is compact.</fr:p>
+href="gt-000E.xml"
+addr="gt-000E"
+title="Closed set">closed subset</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -76,27 +55,42 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>436</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:addr
+type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an <fr:link
-type="local"
-href="ca-001S.xml"
-addr="ca-001S"
-title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is closed, <fr:tex
-display="inline"><![CDATA[K\setminus  F]]></fr:tex> is open, so <fr:tex
-display="inline"><![CDATA[\{K\setminus  F\}\cup \{U_{\alpha }\}]]></fr:tex> is an open cover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, i.e., there are finitely many <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}]]></fr:tex>, …, <fr:tex
-display="inline"><![CDATA[U_{\alpha _{n}}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}\cup …\cup  U_{\alpha _{n}}=F]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each point <fr:tex
+display="inline"><![CDATA[y\neq  x]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, consider the open subset <fr:tex
+display="inline"><![CDATA[U_{y}\subseteq  X]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[y\in  U_{y}]]></fr:tex> and there is a disjoint open subset containing <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[x\notin  U_{y}]]></fr:tex>. We claim the union of all such <fr:tex
+display="inline"><![CDATA[U_{y}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[y\neq  x]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[U=\bigcup _{y\in  X\setminus \{x\}}U_{y}]]></fr:tex> is an open subset of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[U^{\complement }=\{x\}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\{x\}]]></fr:tex> is closed, as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary is that finite subsets of a Hausdorff space are closed.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

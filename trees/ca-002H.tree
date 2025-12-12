@@ -1,0 +1,13 @@
+\title{Set of continuous real-valued functions on metric space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. We denote by #{\mathcal{C}(X)} the set of all continuous real-valued functions on #{X}.}
+
+\p{Moreover, this may be given the \define{Uniform Metric} defined by
+##{\norm{f-g}_{\infty}:=\sup_{x\in X}|f(x)-g(x)|}
+for any #{f,g\in\mathcal{C}(X)}.}
+
+\rmk{A sequence converges in #{\mathcal{C}(X)} converges with respect to the uniform metric if and only if it [converges uniformly](ca-002A) on #{X}.}

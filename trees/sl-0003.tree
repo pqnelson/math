@@ -12,7 +12,7 @@
 
 \p{For alternative algebras, this means
 ##{L_{E_{i}}L_{E_{i}}=L_{E_{i}^{2}}=\pm1}
-and for #{E_{i}\neq E_{j}}, using the associative #{[z,w,u]=(zw)u-z(wu)} we have:
+and for #{E_{i}\neq E_{j}}, using the associator #{[z,w,u]=(zw)u-z(wu)} we have:
 ##{0=[E_{i},E_{j},z] + [E_{j},E_{i},z] = L_{E_{i}E_{j}+E_{j}E_{i}}(z)-(L_{E_{i}}L_{E_{j}}+L_{E_{j}}L_{E_{i}})(z),}
 and hence:
 ##{L_{E_{i}}L_{E_{j}}=-L_{E_{j}}L_{E_{i}}.}
