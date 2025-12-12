@@ -1,0 +1,14 @@
+\title{Open subsets of metric subspaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(Y,d_{Y})} be a subspace of the [[ca-000K]] #{(X,d)}. Let #{E\subset Y}. Then #{E} is an [[ca-000M]] of #{Y} if and only if there exists an open set #{O\subset X} such that #{E=Y\cap O}.}
+
+\proof{\p{\forwardproof Assume #{E} is open in #{Y}. For each #{x\in E}, there is a radius #{r_{x}>0} such that the [[ca-000L]] #{B_{r_{x}}(x)=\{y\in Y\mid d(x,y)<r_{x}\}\subset E}. Let #{V_{x}} be the set of all #{y\in X} such that #{d(x,y)<r_{x}} (i.e., #{V_{x}} is the #{r_{x}}-neighborhood of #{x} in #{X}). Define
+##{O=\bigcup_{x\in E}V_{x}.}
+Then #{O} is an open subset of #{X} by the [[ca-0015]].}
+\p{Since for each #{x\in E}, we see #{x\in V_{x}} and #{E\subset Y\cap O}.}
+\p{By our choice of #{V_{x}}, we have #{V_{x}\cap Y=B_{x}\subset E} for each #{x\in X}. So #{O\cap Y\subset E}. Thus #{E=Y\cap O}.}
+\p{\backwardproof If #{O} is open in #{X} and #{E=Y\cap O}, then every point #{x\in E\subset O} has an open neighborhood #{N_{x}\subset O}. Then #{N_{x}\cap Y\subset E}, so #{E} is open relative to #{Y}.}}

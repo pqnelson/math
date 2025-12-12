@@ -1,0 +1,7 @@
+\title{Euclidean space is complete}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{example}
+
+\p{#{\RR^{n}} equipped with the [[ca-000I]] is [complete](ca-001F).}

@@ -1,0 +1,7 @@
+\title{Compact subset of a metric space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{K\subset X}. We call #{K} \define{Compact} if every [open cover](ca-001S) has a finite subcover.}

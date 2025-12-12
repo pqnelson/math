@@ -1,0 +1,14 @@
+\title{#{\omega} (the set of all finite ordinals)}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\MML{ordinal1}{def 11}{K4}
+
+\p{We define #{\omega} to be the ordinal such that:
+\ol{
+\li{contains zero: #{\emptyset\in\omega}, and}
+\li{limit: #{\omega} is a [[nst-0027]]}
+\li{smallest such ordinal: for any other ordinal #{A} such that #{\emptyset\in A} and #{A} is a [[nst-0027]], we have #{\omega\subset A}.}
+}}
+\p{This is the set theoretic construction of the natural numbers, where #{0} is identified as #{\emptyset}, and for any #{n\in\omega} we identify #{n+1} with #{\succ(n)}.}

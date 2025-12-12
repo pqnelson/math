@@ -1,0 +1,8 @@
+\title{Successor of ordinal is an ordinal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\MML{ordinal1}{17}{T17}
+
+\p{Let #{X} be an [[nst-0023]]. Then #{\succ(X)} is an [[nst-0023]], too.}

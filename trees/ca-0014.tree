@@ -1,0 +1,10 @@
+\title{A set is open iff its complement is closed}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{E\subset X} be a subset. Then #{E} is [open](ca-000M) if and only if #{X\setminus E} is [closed](ca-000P).}
+
+\proof{\p{\forwardproof  Assume #{E} is open in #{X}. Let #{x} be a [[ca-000O]] of #{X\setminus E}. Assume for contradiction #{x\in E}. Since #{E} is open, there is a [[ca-000N]] of #{x} contained in #{E} and thus disjoint from #{X\setminus E}. This implies #{x} is not a [[ca-000O]], which is a contradiction. Then #{x\notin E}, which means #{x\in X\setminus E} and therefore #{X\setminus E} is closed.}
+\p{\backwardproof Assume #{X\setminus E} is closed. For any #{x\in E}, #{x} is not a [[ca-000O]] of #{X\setminus E}. Then there exists a [[ca-000N]] #{N_{x}} of #{x} which does not intersect #{X\setminus E}, so #{N_{x}} is contained in #{E}. Therefore #{E} is [open](ca-000M).}}

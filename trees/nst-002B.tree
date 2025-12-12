@@ -1,0 +1,12 @@
+\title{Cardinality of a set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\MML{card_1}{def 2}{K1}
+
+\p{Let #{X} be a set. We define the \define{Cardinality} of #{X} to be the [[nst-002A]] #{|X|} such that #{X} is equipotent with #{|X|}.}
+
+\p{So the cardinality of #{X} is the smallest [[nst-0023]] bijective with #{X}.}
+
+\p{Usually, we only care if #{|X|} is finite or not.}

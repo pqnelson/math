@@ -1,0 +1,12 @@
+\title{Closure of a set is the smallest closed set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{E\subset X}. Then #{\closure{E}} is a closed subset of #{X}. Moreover, it is the smallest closed subset of #{X} containing #{E}, in the sense: if #{F\subset X} is closed and #{E\subset F}, then #{\closure{E}\subset F}.}
+
+\proof{\p{\textbf{Claim 1:} #{\closure{E}} is closed. We will prove #{\closure{E}} contains all its limit points (and therefore #{\closure{E}} is closed).}
+\p{Let #{x} be a [[ca-000O]] of #{\closure{E}}. If #{x\in E}, then by definition of [[ca-0016]], #{x\in\closure{E}}. But if #{x\notin E}, then let #{N_{x}} be a [[ca-000N]] of #{x}. There is a point #{x'\in\closure{E}\cap N_{x}} such that #{x'\neq x}. The by definition of #{\closure{E}}, either #{x'\in E} or #{x'} is a [[ca-000O]] of #{E}. (In the latter case, we're done.)}
+\p{If #{x'} is a limit point of #{E}, since #{N_{x}} is also a neighborhood of #{x'}, there is a point #{x''\in E\cap N_{x}} with #{x''\neq x'}. Therefore every neighborhood of #{x} intersects #{E} nontrivially and hence #{x\in\closure{E}}. So the set #{\closure{E}} is closed.}
+\p{\textbf{Claim 2:} If #{A\subset B}, then #{\closure{A}\subset\closure{B}}. So if #{F} is closed and contains #{E}, then #{\closure{E}\subset\closure{F}=F}.}}

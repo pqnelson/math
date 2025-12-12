@@ -1,0 +1,8 @@
+\title{Ordinal number}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\MML{ordinal1}{def 4}{V3}
+
+\p{We say a set #{X} is an \define{Ordinal} if #{X} is [[nst-0021]] and also [[nst-0022]].}

@@ -1,0 +1,7 @@
+\title{Sequentially compact subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. A subset #{K} of #{X} is called \define{Sequentially compact} if every sequence in #{K} has a [[ca-0020]] that converges to a point in #{K}.}

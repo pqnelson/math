@@ -1,0 +1,16 @@
+\title{Identify a subset of Dedekind cuts with the rational numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\meta{source}{[[baby-rudin]], Appendix to Ch. 1}
+
+\p{To each #{r\in\QQ}, the set #{r_{R}} consists of all rational numbers #{p\in\QQ} such that #{p<r}. It is clear that #{r_{R}} is a [[ca-000U]].}
+
+\p{Moreover, these cuts satisfy for any #{r,s\in\QQ}:}
+\ol{
+\li{#{r_{R}+s_{R}=(r+s)_{R}}; to see this, choose #{p\in r_{R}+s_{R}}. Then #{p=u+v} where #{u<r} and #{v<s}. Hence #{p<r+s}, which is equivalent to #{p\in(r+s)_{R}}. Conversely if #{p\in(r+s)_{R}}, then #{p<r+s}. Choosing #{t} such that #{2t=r+s-p}, put #{r'=r-t} and #{s'=s-t}. Then #{r'\in r_{R}} and #{s'\in s_{R}} and #{p=r'+s'}, so #{p\in r_{R}+s_{R}}.}
+\li{#{r_{R}s_{R}=(rs)_{R}}, the proof is similar to the previous condition.}
+\li{#{r_{R}<s_{R}} iff #{r<s}.}
+}
+\p{If #{r<s}, then #{r\in s_{R}} but #{r\notin r_{R}}, which implies #{r_{R}<s_{R}}.}
+\p{If #{r_{R}<s_{R}}, then there is a #{p\in s_{R}} such that #{p\notin r_{R}}. Hence #{r\leq p<s}, which implies #{r<s}.}

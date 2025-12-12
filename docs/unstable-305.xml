@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5897</fr:anchor><fr:addr
+type="machine">#305</fr:addr><fr:route>unstable-305.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Associativity is one of the more important properties of a binary operator. Whenever we define a new gadget with some notion of "multiplication" (or "addition" or some other binary operator) on it, we should really desire it to be associative.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5899</fr:anchor><fr:addr
+type="user">matrix-0012</fr:addr><fr:route>matrix-0012.xml</fr:route><fr:title
+text="Matrix Multiplication is Associative">Matrix Multiplication is Associative</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[n\times  p]]></fr:tex> matrix, and <fr:tex
+display="inline"><![CDATA[\mathbf {C}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[p\times  q]]></fr:tex> matrix. Then
+<fr:tex
+display="block"><![CDATA[(\mathbf {A}\mathbf {B})\mathbf {C} = \mathbf {A}(\mathbf {B}\mathbf {C}).]]></fr:tex>
+In other words, matrix multiplication is associative.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4813</fr:anchor><fr:addr
+type="machine">#305</fr:addr><fr:route>unstable-305.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Associativity is one of the more important properties of a binary operator. Whenever we define a new gadget with some notion of "multiplication" (or "addition" or some other binary operator) on it, we should really desire it to be associative.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

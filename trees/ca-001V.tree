@@ -1,0 +1,19 @@
+\title{Compact subsets of metric spaces are closed and bounded}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{K\subset X} be a [compact subset](ca-001T) of #{X}. Then #{K} is [closed](ca-000P) and [bounded](ca-001U).}
+
+\proof{\p{\textbf{Claim 1:} #{K} is closed. Let #{x\in X\setminus K}. Then for each #{z\in K}, let #{r_{z}>0} and #{s_{z}>0} be such that
+##{B_{r_{z}}(z)\cap B_{s_{z}}(x)=\emptyset.}
+We can do this for every #{z\in K}. Then #{\{B_{r_{z}}(z)\}} forms an [open cover](ca-001S) of #{K}. Since #{K} is [compact](001T), it has a finite subcover: #{B_{r_{1}}(z_{1})}, \dots, #{B_{r_{k}}(z_{k})} which covers #{K}. Let
+##{s=\min(s_{z_{j}}\mid j=1,\dots,k)\}}
+Then #{B_{s}(x)\cap B_{z_{j}}(z_{j})=\emptyset} for each #{j=1,\dots,k}. Then
+##{B_{s}(x)\cap(B_{r_{1}}(z_{1})\cup\dots\cup B_{r_{k}}(z_{k}))=\emptyset,}
+so we must have
+##{B_{s}(x)\subset X\setminus K.}
+Then #{X\setminus K} is open iff #{K} is closed (by [[ca-0014]]).}
+
+\p{\textbf{Claim 2:} #{K} is bounded. For any #{x_{0}\in K}, pick #{\{B_{n}(x_{0})\mid n\in\NN\}} as an open cover of #{K}. Then there exists a finite subcover. Since #{B_{m}(x_{0})\subset B_{n}(x_{0})} for any #{m\leq n}, this means there exists an #{N\in\NN} such that #{K\subset B_{N}(x_{0})}. This implies #{K} is bounded.}}

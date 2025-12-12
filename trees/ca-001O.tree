@@ -1,0 +1,7 @@
+\title{A function is continuous iff preimage of closed sets are closed}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{corollary}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be [[ca-000K]]s. Let #{f\colon X\to Y} be a function. Then #{f} is [continuous](ca-001L) if and only if for each [closed](ca-000P) subset #{F} of #{Y}, the preimage #{f^{-1}(F)} is a closed subset of #{X}.}

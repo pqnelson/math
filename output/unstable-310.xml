@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6111</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>We see that the components of the zero matrix are all identically zero, <fr:tex
+display="inline"><![CDATA[\mathbf {0}=[(0)_{i,j}]]]></fr:tex>. So
+<fr:tex
+display="block"><![CDATA[\mathbf {A}+\mathbf {0}]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (by definition of matrix addition)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}+(0)_{i,j}]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[(0)_{i,j} = 0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}+0]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (arithmetic)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (definition of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>)
+<fr:tex
+display="block"><![CDATA[\mathbf {A}.]]></fr:tex>
+Thus <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}]]></fr:tex>.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6113</fr:anchor><fr:addr
+type="user">matrix-000H</fr:addr><fr:route>matrix-000H.xml</fr:route><fr:title
+text="Matrix Addition with Zero Matrix">Matrix Addition with Zero Matrix</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, the sum of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> with the <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> zero matrix <fr:tex
+display="inline"><![CDATA[\mathbf {0}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>. That is to say, <fr:tex
+display="block"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}.]]></fr:tex>
+We can use the <fr:link
+type="local"
+href="matrix-000G.xml"
+addr="matrix-000G"
+title="Matrix Addition is Commutative">previous theorem</fr:link> to further conclude <fr:tex
+display="inline"><![CDATA[\mathbf {0}+\mathbf {A}=\mathbf {A}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4763</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>We see that the components of the zero matrix are all identically zero, <fr:tex
+display="inline"><![CDATA[\mathbf {0}=[(0)_{i,j}]]]></fr:tex>. So
+<fr:tex
+display="block"><![CDATA[\mathbf {A}+\mathbf {0}]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (by definition of matrix addition)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}+(0)_{i,j}]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[(0)_{i,j} = 0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}+0]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (arithmetic)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (definition of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>)
+<fr:tex
+display="block"><![CDATA[\mathbf {A}.]]></fr:tex>
+Thus <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}]]></fr:tex>.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

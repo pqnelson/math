@@ -1,0 +1,8 @@
+\title{Successor}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\MML{ordinal1}{def 1}{K1}
+
+\p{Let #{X} be a set. We define the \define{Successor} of #{X} to be the set ##{\succ(X):=X\cup\{X\}.}}

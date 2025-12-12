@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>722</fr:anchor><fr:addr
+type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is normal. Then combining <fr:link
+type="local"
+href="vectsp-0035.xml"
+addr="vectsp-0035"
+title="Linear operators on complex vector spaces have an upper-triangular matrix">Linear operators on complex vector spaces have an upper-triangular matrix</fr:link> and <fr:link
+type="local"
+href="vectsp-0036.xml"
+addr="vectsp-0036"
+title="If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix">If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix</fr:link> implies there exists an orthonormal basis <fr:tex
+display="inline"><![CDATA[B=(e_{1},…,e_{n})]]></fr:tex> for which the matrix <fr:tex
+display="inline"><![CDATA[M(L)]]></fr:tex> is upper triangular.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[M(L)=(a_{i,j})]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i>j]]></fr:tex> (since it's upper triangular). We claim that <fr:tex
+display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i<j]]></fr:tex>. Observe, using <fr:link
+type="local"
+href="vectsp-0031.xml"
+addr="vectsp-0031"
+title="Operator is normal iff norm of operator equals norm of its adjoint">Operator is normal iff norm of operator equals norm of its adjoint</fr:link>,
+<fr:tex
+display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  a_{1,1}e_{1} \right  \rVert ^{2}=\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex>
+but by expanding <fr:tex
+display="inline"><![CDATA[\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex> this gives us
+<fr:tex
+display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  \sum ^{n}_{k=1}\overline {a}_{1,k}e_{k} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{1,k}|^{2}]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[|a_{1,2}|=…=|a_{1,k}|=0]]></fr:tex>.</fr:p>
+<fr:p>We can repeat this argument to find <fr:tex
+display="inline"><![CDATA[\left  \lVert  L^{*}e_{j} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{j,k}|^{2}=|a_{j,j}|^{2}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i\neq  j]]></fr:tex>, as desired.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the eigenvectors of <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> form an orthonormal basis for <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[M(L)]]></fr:tex> is diagonal with respect to this basis (since each basis vector is an eigenvector). Then
+<fr:tex
+display="block"><![CDATA[M(LL^{*})=M(L)M(L^{*})=M(L^{*})M(L)=M(L^{*}L)]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[LL^{*}=L^{*}L]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is normal.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>724</fr:anchor><fr:addr
+type="user">vectsp-0034</fr:addr><fr:route>vectsp-0034.xml</fr:route><fr:title
+text="Spectral theorem">Spectral theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.31</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.3.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional <fr:link
+type="local"
+href="vectsp-0020.xml"
+addr="vectsp-0020"
+title="Inner product space">Inner product space</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is normal if and only if there exists an <fr:link
+type="local"
+href="vectsp-002D.xml"
+addr="vectsp-002D"
+title="Orthonormal Basis">Orthonormal Basis</fr:link> of <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> consisting of <fr:link
+type="local"
+href="vectsp-001Q.xml"
+addr="vectsp-001Q"
+title="Eigenvalues and eigenvectors">eigenvectors</fr:link> of <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:addr
+type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is normal. Then combining <fr:link
+type="local"
+href="vectsp-0035.xml"
+addr="vectsp-0035"
+title="Linear operators on complex vector spaces have an upper-triangular matrix">Linear operators on complex vector spaces have an upper-triangular matrix</fr:link> and <fr:link
+type="local"
+href="vectsp-0036.xml"
+addr="vectsp-0036"
+title="If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix">If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix</fr:link> implies there exists an orthonormal basis <fr:tex
+display="inline"><![CDATA[B=(e_{1},…,e_{n})]]></fr:tex> for which the matrix <fr:tex
+display="inline"><![CDATA[M(L)]]></fr:tex> is upper triangular.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[M(L)=(a_{i,j})]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i>j]]></fr:tex> (since it's upper triangular). We claim that <fr:tex
+display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i<j]]></fr:tex>. Observe, using <fr:link
+type="local"
+href="vectsp-0031.xml"
+addr="vectsp-0031"
+title="Operator is normal iff norm of operator equals norm of its adjoint">Operator is normal iff norm of operator equals norm of its adjoint</fr:link>,
+<fr:tex
+display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  a_{1,1}e_{1} \right  \rVert ^{2}=\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex>
+but by expanding <fr:tex
+display="inline"><![CDATA[\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex> this gives us
+<fr:tex
+display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  \sum ^{n}_{k=1}\overline {a}_{1,k}e_{k} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{1,k}|^{2}]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[|a_{1,2}|=…=|a_{1,k}|=0]]></fr:tex>.</fr:p>
+<fr:p>We can repeat this argument to find <fr:tex
+display="inline"><![CDATA[\left  \lVert  L^{*}e_{j} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{j,k}|^{2}=|a_{j,j}|^{2}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i\neq  j]]></fr:tex>, as desired.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the eigenvectors of <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> form an orthonormal basis for <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[M(L)]]></fr:tex> is diagonal with respect to this basis (since each basis vector is an eigenvector). Then
+<fr:tex
+display="block"><![CDATA[M(LL^{*})=M(L)M(L^{*})=M(L^{*})M(L)=M(L^{*}L)]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[LL^{*}=L^{*}L]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is normal.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,25 @@
+\title{The set of Dedekind cuts has the least-upper bound property}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\meta{source}{[[baby-rudin]], Appendix to Ch. 1}
+
+\p{We claim the set #{R} of Dedekind cuts has the [[ca-0007]].}
+
+\p{Let #{A} be a nonempty subset of #{R}, assume #{\beta\in R} is an [upper bound](ca-0004) of #{A}.}
+
+\p{Now, set #{\gamma = \bigcup A} the union of all elements of #{A}. We claim that (1) #{\gamma} is a Dedekind cut and (2) #{\gamma=\sup(A)}. The result follows from these two claims.}
+
+\p{\textbf{Claim 1:} #{\gamma} is a Dedekind cut. There are three criteria we need to prove:}
+
+\p{(I) #{\gamma} is not empty and #{\gamma\neq\QQ}. Since #{A} is not empty, there is some #{\alpha_{0}\in A} which means it is a proper subset #{\alpha_{0}\propersubset\gamma}. This means #{\gamma} is not empty.}
+
+\p{Since #{\beta} is an upper bound of #{A}, this means #{\gamma\propersubset\beta}. Therefore #{\gamma\neq\QQ}. This establishes the first property.}
+
+\p{(II) If #{p\in\gamma} and #{q\in\QQ} with #{q<p}, then #{q\in\gamma}. There is some #{\alpha_{1}\in A} with #{p\in\alpha_{1}}. If #{q<p}, then #{q\in\alpha_{1}}, which implies #{q\in\gamma}.}
+
+\p{(III) If #{p\in\gamma}, then there exists an #{r\in\gamma} such that #{p<r}. If #{p\in\gamma}, then there exists an #{\alpha_{1}\in A} with #{p\in\alpha_{1}}. If #{r\in\alpha_{1}} is chosen such that #{r>p}, then #{r\in\gamma} since #{\alpha_{1}\propersubset\gamma}. This proves (III).}
+
+\p{Then #{\gamma} is a Dedekind cut.}
+
+\p{\textbf{Claim 2:} #{\gamma=\sup(A)}. For any #{\delta<\gamma}, there is an #{s\in\gamma} such that #{s\notin\delta}. Since #{s\in\gamma}, there is some #{\alpha\in A} such that #{s\in\alpha}. Then #{\delta<\alpha} which means #{\delta} is not an upper bound of #{A}.}

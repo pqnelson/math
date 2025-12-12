@@ -1,0 +1,10 @@
+\title{Cardinal number}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\MML{card_1}{def 1}{V1}
+
+\p{Let #{A} be an [[nst-0023]]. We say #{A} is a \define{Cardinal number} if for every ordinal #{B} such that #{A} is bijective to #{B} we have #{A\subset B}.}
+
+

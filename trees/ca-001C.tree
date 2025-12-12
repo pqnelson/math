@@ -1,0 +1,12 @@
+\title{Subset is closed iff all convergent sequences on the subset have limits there}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{E} be a subset of #{X}. Then #{E} is closed if and only if whenever a sequence in #{E} converges to a limit #{x\in X}, the limit #{x} belongs to #{E} (i.e., #{x\in E}).}
+
+\proof{\p{Observe it suffices to prove a point #{x\in X\setminus E} is a [[ca-000O]] if and only if #{x} is the [limit](ca-001A) of a sequence of #{E}.}
+\p{\forwardproof For each #{n>0}, #{B_{1/n}(x)\cap E\neq\emptyset}, so we may choose a point #{x_{n}\in B_{1/n}(x)\cap E}. Then #{(x_{n})} is a sequence in #{E} and it converges to #{x}: for each #{\varepsilon>0}, there is an #{N\in\NN} such that #{1/N<\varepsilon}. Then, for all #{n\geq N},
+##{d(x,x_{n})<1/n\leq 1/N<\varepsilon.}}
+\p{\backwardproof If a sequence in #{E} converges to #{x}, then every ball centered at #{x} contains infinitely many terms of the sequence and therefore contains points in #{E}. So #{x} is a [[ca-000O]] of #{E}.}}

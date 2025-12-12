@@ -1,0 +1,8 @@
+\title{Subsequential limit}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{(x_{n})} be a [[nst-001W]] of #{X}. Let #{(x_{n_{k}})} be a [[ca-0020]] of #{(x_{n})}. If #{(x_{n_{k}})} converges, its limit is called a \define{Subsequential limit} of #{(x_{n})}.}

@@ -1,0 +1,14 @@
+\title{A function is continuous iff the preimage of open sets are open}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be [[ca-000K]]s. Let #{f\colon X\to Y} be a function. Then #{f} is [continuous](ca-001L) if and only if for each [open](ca-000M) subset #{O} of #{Y}, the preimage #{f^{-1}(O)} is an open subset of #{X}.}
+
+\proof{\p{\forwardproof Assume #{f} is continuous. Let #{O} be a continuous subset of #{Y}. Let #{x} be a point in the preimage #{f^{-1}(O)}. We must show that an open ball centered at #{x} is contained in #{f^{-1}(O)}. Since #{f(x)} is a point in #{O}, which is open in #{Y}, there is some #{r>0} such that #{B_{r}(f(x))\subset O}. Since #{f} is [continuous](ca-001L) at #{x}, we can find a #{\delta>0} such that #{f(B_{\delta}(x))\subset B_{r}(f(x))\subset O}. Then #{B_{\delta}(x)\subset f^{-1}(O)} and therefore #{f^{-1}(O)} is open in #{X}.}
+
+\p{\backwardproof Assume the preimage under #{f} of each open set of #{Y} is open in #{X}. Let #{x\in X}. Let #{\varepsilon>0}. The open ball #{B_{\varepsilon}(f(x))} is an open subset of #{Y}.
+Then #{f^{-1}(B_{\varepsilon}(f(x)))} is open in #{X}.
+Note that #{x\in f^{-1}(B_{\varepsilon}(f(x)))}, so we can choose a #{\delta>0} such that #{B_{\delta}(x)\subset f^{-1}(B_{\varepsilon}(f(x)))}.
+That is, #{f(B_{\delta}(x))\subset B_{\varepsilon}(f(x))}.}}

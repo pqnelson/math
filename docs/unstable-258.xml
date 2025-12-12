@@ -7,30 +7,29 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3476</fr:anchor><fr:addr
-type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>636</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
-display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
-<fr:p>The backward direction: assume <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
-display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
-display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
-display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
-display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, let us form a sequence <fr:tex
+display="inline"><![CDATA[(x_{n,k})]]></fr:tex> of elements of <fr:tex
+display="inline"><![CDATA[E_{n}]]></fr:tex>. Then we arrange these sequences into an infinite table
+<fr:tex
+display="block"><![CDATA[\begin {matrix} x_{1,1} & x_{1,2} & x_{1,3} & x_{1,4} & \ldots \\ x_{2,1} & x_{2,2} & x_{2,3} & x_{2,4} & \ldots \\ x_{3,1} & x_{3,2} & x_{3,3} & x_{3,4} & \ldots \\ x_{4,1} & x_{4,2} & x_{4,3} & x_{4,4} & \ldots \\ \vdots  & \vdots  & \vdots  & \vdots  & \ddots  \end {matrix}]]></fr:tex>
+Then we form a sequence by ordering the table as <fr:tex
+display="inline"><![CDATA[x_{1,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{2,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1,2}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{3,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{2,2}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1,3}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{4,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{3,2}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{2,3}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1,4}]]></fr:tex>, …, where we remove duplicate entries as they are encountered. This gives us a countably infinite sequence of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -47,25 +46,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3478</fr:anchor><fr:addr
-type="user">ela-001N</fr:addr><fr:route>ela-001N.xml</fr:route><fr:title
-text="Linear transformation is injective iff kernel is trivial subspace">Linear transformation is injective iff kernel is trivial subspace</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:addr
+type="user">nst-001Y</fr:addr><fr:route>nst-001Y.xml</fr:route><fr:title
+text="Cantor's diagonal argument">Cantor's diagonal argument</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear transformation of real vector spaces. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
 type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> if and only if <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}]]></fr:tex> is the <fr:link
-type="local"
-href="ela-000K.xml"
-addr="ela-000K"
-title="Trivial subspace">Trivial subspace</fr:link> of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.12</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[E_{n}]]></fr:tex> be a countable collection of countably infinite sets. Then
+<fr:tex
+display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
+is countably infinite.</fr:p>
  
    
    <fr:tree
@@ -75,30 +71,29 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3480</fr:anchor><fr:addr
-type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>492</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
-display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
-<fr:p>The backward direction: assume <fr:tex
-display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
-display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
-display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
-display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
-display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, let us form a sequence <fr:tex
+display="inline"><![CDATA[(x_{n,k})]]></fr:tex> of elements of <fr:tex
+display="inline"><![CDATA[E_{n}]]></fr:tex>. Then we arrange these sequences into an infinite table
+<fr:tex
+display="block"><![CDATA[\begin {matrix} x_{1,1} & x_{1,2} & x_{1,3} & x_{1,4} & \ldots \\ x_{2,1} & x_{2,2} & x_{2,3} & x_{2,4} & \ldots \\ x_{3,1} & x_{3,2} & x_{3,3} & x_{3,4} & \ldots \\ x_{4,1} & x_{4,2} & x_{4,3} & x_{4,4} & \ldots \\ \vdots  & \vdots  & \vdots  & \vdots  & \ddots  \end {matrix}]]></fr:tex>
+Then we form a sequence by ordering the table as <fr:tex
+display="inline"><![CDATA[x_{1,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{2,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1,2}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{3,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{2,2}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1,3}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{4,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{3,2}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{2,3}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1,4}]]></fr:tex>, …, where we remove duplicate entries as they are encountered. This gives us a countably infinite sequence of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

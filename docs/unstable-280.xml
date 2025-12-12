@@ -7,24 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4960</fr:anchor><fr:addr
-type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>694</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{ij})]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=(a_{ij}-a_{ij})=(0)]]></fr:tex>. Since every entry is zero, it must be equal to the <fr:link
-type="local"
-href="matrix-0003.xml"
-addr="matrix-0003"
-title="Zero matrix">zero matrix</fr:link> by definition of <fr:link
-type="local"
-href="matrix-0009.xml"
-addr="matrix-0009"
-title="Matrix Equality">Matrix Equality</fr:link>. Hence the result.</fr:p>
-<html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> converges in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then for each <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is an <fr:tex
+display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[n\geq  N]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[d(x,x_{n})<\frac {\varepsilon }{2}.]]></fr:tex>
+Then by the triangle inequality, for all <fr:tex
+display="inline"><![CDATA[m,n\geq  N]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[d(x_{n},x_{m})\leq  d(x_{n},x)+d(x,x_{m})<\varepsilon .]]></fr:tex></fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -41,15 +40,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4962</fr:anchor><fr:addr
-type="user">matrix-000L</fr:addr><fr:route>matrix-000L.xml</fr:route><fr:title
-text="Subtracting a matrix from itself">Subtracting a matrix from itself</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>696</fr:anchor><fr:addr
+type="user">ca-001E</fr:addr><fr:route>ca-001E.xml</fr:route><fr:title
+text="Convergent sequences are Cauchy">Convergent sequences are Cauchy</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=\mathbf {0}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> be a <fr:link
+type="local"
+href="ca-001A.xml"
+addr="ca-001A"
+title="Convergent sequence in a metric space">Convergent sequence in a metric space</fr:link>. Then <fr:tex
+display="inline"><![CDATA[x_{n}]]></fr:tex> is a <fr:link
+type="local"
+href="ca-001D.xml"
+addr="ca-001D"
+title="Cauchy sequence">Cauchy sequence</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -59,24 +71,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3794</fr:anchor><fr:addr
-type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{ij})]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=(a_{ij}-a_{ij})=(0)]]></fr:tex>. Since every entry is zero, it must be equal to the <fr:link
-type="local"
-href="matrix-0003.xml"
-addr="matrix-0003"
-title="Zero matrix">zero matrix</fr:link> by definition of <fr:link
-type="local"
-href="matrix-0009.xml"
-addr="matrix-0009"
-title="Matrix Equality">Matrix Equality</fr:link>. Hence the result.</fr:p>
-<html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> converges in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then for each <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is an <fr:tex
+display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[n\geq  N]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[d(x,x_{n})<\frac {\varepsilon }{2}.]]></fr:tex>
+Then by the triangle inequality, for all <fr:tex
+display="inline"><![CDATA[m,n\geq  N]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[d(x_{n},x_{m})\leq  d(x_{n},x)+d(x,x_{m})<\varepsilon .]]></fr:tex></fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

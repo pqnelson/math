@@ -1,0 +1,13 @@
+\title{Dedekind cuts}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], Appendix to Ch. 1}
+
+\p{A \define{Dedekind Cut} is a subset #{\alpha\propersubset\QQ} such that:
+\ol{
+\li{#{\alpha} is not empty and also #{\alpha\neq\QQ}}
+\li{If #{p\in\alpha} and #{q\in\QQ} with #{q<p}, then #{q\in\alpha}}
+\li{If #{p\in\alpha}, then there exists some #{r\in\alpha} such that #{r\in\alpha}}
+}}

@@ -1,0 +1,20 @@
+\title{Cantor's diagonal argument}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[baby-rudin]], Theorem 2.12}
+
+\p{Let #{E_{n}} be a countable collection of countably infinite sets. Then
+##{S=\bigcup^{\infty}_{n=1}E_{n}}
+is countably infinite.}
+
+\proof{\p{For each #{n\in\NN}, let us form a sequence #{(x_{n,k})} of elements of #{E_{n}}. Then we arrange these sequences into an infinite table
+##{\begin{matrix}
+x_{1,1} & x_{1,2} & x_{1,3} & x_{1,4} & \ldots\\
+x_{2,1} & x_{2,2} & x_{2,3} & x_{2,4} & \ldots\\
+x_{3,1} & x_{3,2} & x_{3,3} & x_{3,4} & \ldots\\
+x_{4,1} & x_{4,2} & x_{4,3} & x_{4,4} & \ldots\\
+\vdots & \vdots & \vdots & \vdots & \ddots
+\end{matrix}}
+Then we form a sequence by ordering the table as #{x_{1,1}}, #{x_{2,1}}, #{x_{1,2}}, #{x_{3,1}}, #{x_{2,2}}, #{x_{1,3}}, #{x_{4,1}}, #{x_{3,2}}, #{x_{2,3}}, #{x_{1,4}}, \dots, where we remove duplicate entries as they are encountered. This gives us a countably infinite sequence of #{S}.}}

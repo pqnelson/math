@@ -1,0 +1,11 @@
+\title{Continuous image of a compact subset is compact}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be [[ca-000K]]s. Let #{K\subset X} be a [compact subset](ca-001T) of #{X}. Let #{f\colon X\to Y} be [continuous](ca-001L). Then #{f(K)} is a compact subset of #{Y}.}
+
+\proof{\p{Let #{\{U_{\alpha}\}} be an arbitrary [open cover](ca-001S) of #{f(K)} in #{Y}. For each #{x\in K}, there is an #{\alpha} such that #{f(x)\in U_{\alpha}}. So #{x\in f^{-1}(U_{\alpha})}. This means #{\{f^{-1}(U_{\alpha})\}} is an open cover of #{K}, since the [[ca-001N]]. This means since #{K} is compact there is a finite subcover #{\{f^{-1}(U_{\alpha_{i}})\mid i=1,\dots,n\}} of #{K}. So
+##{K\subset\bigcup^{n}_{i=1}f^{-1}(U_{\alpha_{i}}).}
+Then #{f(K)\subset\bigcup^{n}_{i=1}f(f^{-1}(U_{\alpha_{i}}))\subset\bigcup^{n}_{i=1}U_{\alpha_{i}}}, hence #{f(K)} is compact.}}

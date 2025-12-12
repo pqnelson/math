@@ -1,0 +1,9 @@
+\title{Dense subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{E\subset X}. We say #{E} is \define{Dense} in #{X} if every point of #{X} is either a [[ca-000O]] of #{E} or belongs to #{E}.}
+
+\rmk{In other words, #{E} is dense in #{X} if and only if #{\closure{E}=X}.}

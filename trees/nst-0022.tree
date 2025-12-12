@@ -1,0 +1,8 @@
+\title{Connected set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\MML{ordinal1}{def 3}{V2}
+
+\p{Let #{X} be a set. We say #{X} is \define{Connected} if for all sets #{x\in X} and #{y\in X}, if #{x\notin y} and #{x\neq y}, then #{y\in x}.}

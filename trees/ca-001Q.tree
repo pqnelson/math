@@ -1,0 +1,8 @@
+\title{Lipschitz function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be [[ca-000K]]s. We call a function #{f\colon X\to Y} \define{Lipschitz} if there is a #{c\geq0} such that for all #{u,v\in X},
+##{\rho(f(u),f(v))\leq c\cdot d(u,v).}}

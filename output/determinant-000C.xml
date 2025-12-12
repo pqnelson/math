@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2148</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3129</fr:anchor><fr:addr
 type="user">determinant-000C</fr:addr><fr:route>determinant-000C.xml</fr:route><fr:title
 text="Sign of inverse of a permutation">Sign of inverse of a permutation</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -20,7 +20,7 @@ href="lankham-2016-linear.xml"
 addr="lankham-2016-linear"
 title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 8.1.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[\pi \in  S_{n}]]></fr:tex> be a permutation. Then <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\pi ^{-1})=\mathop {\mathrm {sgn}}\nolimits (\pi )]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\pi ^{-1})=\mathop {\textrm {sgn}}\nolimits (\pi )]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -35,7 +35,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2150</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3131</fr:anchor><fr:addr
 type="user">lankham-2016-linear</fr:addr><fr:route>lankham-2016-linear.xml</fr:route><fr:title
 text="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2016</fr:year></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -72,7 +72,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2154</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3135</fr:anchor><fr:addr
 type="user">ila-0007</fr:addr><fr:route>ila-0007.xml</fr:route><fr:title
 text="Determinants">Determinants</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -85,7 +85,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>787</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1410</fr:anchor><fr:addr
 type="user">determinant-0001</fr:addr><fr:route>determinant-0001.xml</fr:route><fr:title
 text="Permutation">Permutation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -115,7 +115,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>789</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1412</fr:anchor><fr:addr
 type="user">determinant-0002</fr:addr><fr:route>determinant-0002.xml</fr:route><fr:title
 text="Symmetric Group of degree n">Symmetric Group of degree <fr:tex
 display="inline"><![CDATA[n]]></fr:tex></fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -150,7 +150,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>791</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1414</fr:anchor><fr:addr
 type="user">determinant-0003</fr:addr><fr:route>determinant-0003.xml</fr:route><fr:title
 text="Two-line notation for permutations">Two-line notation for permutations</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -183,7 +183,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>793</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1416</fr:anchor><fr:addr
 type="user">determinant-0004</fr:addr><fr:route>determinant-0004.xml</fr:route><fr:title
 text="Size of symmetric group">Size of symmetric group</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -207,7 +207,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>795</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1418</fr:anchor><fr:addr
 type="user">determinant-0005</fr:addr><fr:route>determinant-0005.xml</fr:route><fr:title
 text="Properties of the symmetric group">Properties of the symmetric group</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -233,15 +233,15 @@ display="inline"><![CDATA[i=1,…,n]]></fr:tex></fr:li>
 <fr:li>Inverse element: for any <fr:tex
 display="inline"><![CDATA[\pi \in  S_{n}]]></fr:tex> there exists a <fr:tex
 display="inline"><![CDATA[\pi ^{-1}\in  S_{n}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\pi \circ \pi ^{-1}=\mathop {\mathrm {id}}\nolimits ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\pi ^{-1}\circ \pi =\mathop {\mathrm {id}}\nolimits ]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\pi \circ \pi ^{-1}=\mathop {\textrm {id}}\nolimits ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\pi ^{-1}\circ \pi =\mathop {\textrm {id}}\nolimits ]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>797</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1420</fr:anchor><fr:addr
 type="user">determinant-0006</fr:addr><fr:route>determinant-0006.xml</fr:route><fr:title
 text="Inversion pair of a permutation">Inversion pair of a permutation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -266,7 +266,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>799</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1422</fr:anchor><fr:addr
 type="user">determinant-0007</fr:addr><fr:route>determinant-0007.xml</fr:route><fr:title
 text="Transposition">Transposition</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -297,7 +297,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>801</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1424</fr:anchor><fr:addr
 type="user">determinant-0008</fr:addr><fr:route>determinant-0008.xml</fr:route><fr:title
 text="Sign of a permutation">Sign of a permutation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -319,22 +319,22 @@ display="inline"><![CDATA[N]]></fr:tex> be the number of inversion pairs of <fr:
 display="inline"><![CDATA[\pi ]]></fr:tex>. Then the <html:dfn
 xmlns:html="http://www.w3.org/1999/xhtml">Sign</html:dfn> of <fr:tex
 display="inline"><![CDATA[\pi ]]></fr:tex> is the integer <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\pi )]]></fr:tex> equal to
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\pi )]]></fr:tex> equal to
 <fr:tex
-display="block"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\pi )=(-1)^{N}]]></fr:tex>
+display="block"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\pi )=(-1)^{N}]]></fr:tex>
 We call <fr:tex
 display="inline"><![CDATA[\pi ]]></fr:tex> an <html:dfn
 xmlns:html="http://www.w3.org/1999/xhtml">Even Permutation</html:dfn> if <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\pi )=+1]]></fr:tex> and an <html:dfn
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\pi )=+1]]></fr:tex> and an <html:dfn
 xmlns:html="http://www.w3.org/1999/xhtml">Odd Permutation</html:dfn> if <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\pi )=-1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\pi )=-1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>803</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1426</fr:anchor><fr:addr
 type="user">determinant-0009</fr:addr><fr:route>determinant-0009.xml</fr:route><fr:title
 text="Sign of identity permutation">Sign of identity permutation</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -346,15 +346,15 @@ type="local"
 href="lankham-2016-linear.xml"
 addr="lankham-2016-linear"
 title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 8.1.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {id}}\nolimits \in  S_{n}]]></fr:tex> be the identity permutation. Then <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\mathop {\mathrm {id}}\nolimits )=+1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\mathop {\textrm {id}}\nolimits \in  S_{n}]]></fr:tex> be the identity permutation. Then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\mathop {\textrm {id}}\nolimits )=+1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>805</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1428</fr:anchor><fr:addr
 type="user">determinant-000A</fr:addr><fr:route>determinant-000A.xml</fr:route><fr:title
 text="Sign of transposition">Sign of transposition</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -369,14 +369,14 @@ title="Linear algebra as an introduction to abstract mathematics">Linear algebra
 display="inline"><![CDATA[t_{ij}\in  S_{n}]]></fr:tex> be a transposition with <fr:tex
 display="inline"><![CDATA[i,j\in \{1,…,n\}]]></fr:tex> such that <fr:tex
 display="inline"><![CDATA[i<j]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (t_{ij})=-1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (t_{ij})=-1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>807</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1430</fr:anchor><fr:addr
 type="user">determinant-000B</fr:addr><fr:route>determinant-000B.xml</fr:route><fr:title
 text="Sign of composition of permutations">Sign of composition of permutations</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -389,14 +389,14 @@ href="lankham-2016-linear.xml"
 addr="lankham-2016-linear"
 title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 8.1.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[\pi ,\sigma \in  S_{n}]]></fr:tex> be two permutations. Then <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\pi \circ \sigma )=\mathop {\mathrm {sgn}}\nolimits (\pi )\mathop {\mathrm {sgn}}\nolimits (\sigma ).]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\pi \circ \sigma )=\mathop {\textrm {sgn}}\nolimits (\pi )\mathop {\textrm {sgn}}\nolimits (\sigma ).]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>809</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1432</fr:anchor><fr:addr
 type="user">determinant-000C</fr:addr><fr:route>determinant-000C.xml</fr:route><fr:title
 text="Sign of inverse of a permutation">Sign of inverse of a permutation</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -409,14 +409,14 @@ href="lankham-2016-linear.xml"
 addr="lankham-2016-linear"
 title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 8.1.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[\pi \in  S_{n}]]></fr:tex> be a permutation. Then <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {sgn}}\nolimits (\pi ^{-1})=\mathop {\mathrm {sgn}}\nolimits (\pi )]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[\mathop {\textrm {sgn}}\nolimits (\pi ^{-1})=\mathop {\textrm {sgn}}\nolimits (\pi )]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>811</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1434</fr:anchor><fr:addr
 type="user">determinant-000D</fr:addr><fr:route>determinant-000D.xml</fr:route><fr:title
 text="Determinant of linear operator">Determinant of linear operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -449,7 +449,7 @@ display="inline"><![CDATA[B]]></fr:tex>. Then we define the <html:dfn
 xmlns:html="http://www.w3.org/1999/xhtml">Determinant</html:dfn> of <fr:tex
 display="inline"><![CDATA[L]]></fr:tex> to be
 <fr:tex
-display="block"><![CDATA[\det (L)=\sum _{\pi \in  S_{n}}\mathop {\mathrm {sgn}}\nolimits (\pi )a_{1,\pi (1)}a_{2,\pi (2)}(…)a_{n,\pi (n)}]]></fr:tex>
+display="block"><![CDATA[\det (L)=\sum _{\pi \in  S_{n}}\mathop {\textrm {sgn}}\nolimits (\pi )a_{1,\pi (1)}a_{2,\pi (2)}(…)a_{n,\pi (n)}]]></fr:tex>
 where the sum is taken over all <fr:tex
 display="inline"><![CDATA[n!]]></fr:tex> permutations.</fr:p><fr:p>Compare this to the <fr:link
 type="local"
@@ -473,7 +473,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>813</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1436</fr:anchor><fr:addr
 type="user">determinant-000E</fr:addr><fr:route>determinant-000E.xml</fr:route><fr:title
 text="Properties of the determinant">Properties of the determinant</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -509,7 +509,7 @@ display="inline"><![CDATA[A]]></fr:tex>: for any <fr:tex
 display="inline"><![CDATA[\pi \in  S_{n}]]></fr:tex>, letting <fr:tex
 display="inline"><![CDATA[a_{1},…,a_{n}]]></fr:tex> be the column vectors of <fr:tex
 display="inline"><![CDATA[A]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[\pi (a_{\pi (1)}|…|a_{\pi (n)})=\mathop {\mathrm {sgn}}\nolimits (\pi )\det (A)]]></fr:tex>.</fr:li>
+display="inline"><![CDATA[\pi (a_{\pi (1)}|…|a_{\pi (n)})=\mathop {\textrm {sgn}}\nolimits (\pi )\det (A)]]></fr:tex>.</fr:li>
 <fr:li>If <fr:tex
 display="inline"><![CDATA[A]]></fr:tex> has two identical columns, <fr:tex
 display="inline"><![CDATA[\det (A)=0]]></fr:tex></fr:li>
@@ -530,7 +530,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>815</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1438</fr:anchor><fr:addr
 type="user">determinant-000F</fr:addr><fr:route>determinant-000F.xml</fr:route><fr:title
 text="Determinant of derivative">Determinant of derivative</fr:title><fr:taxon>Puzzle</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

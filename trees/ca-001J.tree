@@ -1,0 +1,8 @@
+\title{Contracting sequence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{(E_{n})} be a descending sequence of nonempty subsets of #{X}, i.e., for all #{m\geq n} we have #{E_{m}\subset E_{n}}. Then #{(E_{n})} is called a \define{Contracting Sequence} if
+##{\lim_{n\to\infty}\diam(E_{n})=0}}

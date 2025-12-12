@@ -1,0 +1,27 @@
+\title{Cardinality and Ordinality}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+
+\transclude{nst-001Q}
+\transclude{nst-001S}
+\transclude{nst-001T}
+\transclude{nst-001U}
+\transclude{nst-001W}
+\transclude{nst-001X}
+\transclude{nst-001V}
+\transclude{nst-001Y}
+\transclude{nst-001Z}
+\transclude{nst-0020}
+\transclude{nst-0021} % transitive set
+\transclude{nst-0022} % connected set
+\transclude{nst-0023} % ordinal number
+\transclude{nst-0024} % successor
+\transclude{nst-0025} % successor of an ordinal is an ordinal
+\transclude{nst-0026} % union of an ordinal is an ordinal
+\transclude{nst-0027} % limit ordinal
+\transclude{nst-0028} % equivalent criteria for limit ordinals
+\transclude{nst-0029} % \omega
+\transclude{nst-002C} % there is no set of all ordinals
+\transclude{nst-002A} % Cardinal number
+\transclude{nst-002B} % Cardinality of a set

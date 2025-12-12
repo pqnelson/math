@@ -1,0 +1,10 @@
+\title{Metric subspace is complete iff it is a closed subset of parent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000F]]. Let #{E\subset X}. Then #{(E,d)} is [complete](ca-001F) if and only if #{E} is a [[ca-000P]] of #{X}.}
+
+\proof{\p{\forwardproof Assume #{(E,d)} is complete. Then by [[ca-001C]], we will show the limit of a convergent sequence in #{E} is contained in #{E}. Let #{(x_{n})} be a sequence in #{E} that converges to #{x\in X}. But since #{E} is complete and [[ca-001E]], this implies #{x\in E} as desired.}
+\p{\backwardproof Assume #{E} is a closed subset of #{X}. Let #{(x_{n})} be a [[ca-001D]] in #{E}. Then #{(x_{n})} is a Cauchy sequence in #{X} and #{X} is [complete](ca-001F), so #{(x_{n})} converges to a point #{x\in X}. But by [[ca-001C]], since #{E} is closed in #{X}, the limit of a convergent sequence in #{E} must belong to #{E}. Hence #{x\in E} and #{E} is a complete metric space.}}

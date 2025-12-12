@@ -1,0 +1,10 @@
+\title{Finite set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], Definition 2.4}
+
+\p{We call a set #{A} \define{Finite} if there exists a non-negative integer #{n\in\NN_{0}} such that #{\{k\in\NN\mid k\leq n\}} is bijective with #{A}.}
+
+\p{Otherwise, we call #{A} \define{Infinite}.}

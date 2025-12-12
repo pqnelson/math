@@ -1,0 +1,18 @@
+\title{Cantor intersection theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Then #{X} is [complete](ca-001F) if and only if whenever #{(E_{n})} is a [[ca-001J]] of nonempty [[ca-000P]]s of #{X}, there 
+is a point #{x\in X} such that
+##{\bigcap^{\infty}_{n=1}E_{n}=\{x\}.}}
+
+\proof{\p{\forwardproof Assume #{X} is [complete](ca-001F). Let #{(E_{n})} be a [[ca-001J]] of nonempty [[ca-000P]]s of #{X}. For each index #{n}, select #{x_{n}\in E_{n}}. We claim this #{(x_{n})} is a [[ca-001D]]. For each #{\varepsilon>0}, there is an #{N\in\NN} suchthat #{\diam(E_{N})<\varepsilon}. Since this is descending, if #{m,n\geq N}, then #{x_{n}\in E_{N}} and #{x_{m}\in E_{N}}, and therefore
+##{d(x_{n},x_{m})\leq\diam(E_{N})<\varepsilon.}
+Hence #{(x_{n})} is Cauchy. Since #{X} is complete, this sequence converges to #{x\in X}. Since #{E_{n}} is closed for each #{n} and #{(x_{k})_{k\geq n}} is a convergent sequence in #{E_{n}}, by [[ca-001C]] the limit #{x} belongs to #{E_{n}}. Thus
+##{x\in\bigcap^{\infty}_{n=1}E_{n}.}
+It is impossible for the intersection to contain two points #{u} and #{v}, because if it did, #{\lim_{n\to\infty}\diam(E_{n})\geq d(u,v)>0}.}
+\p{\backwardproof Assume that for any contracting sequence #{(E_{n})} of nonempty closed subsets of #{X}, there is a point #{x\in X} such that #{\bigcap^{\infty}_{n=1}E_{n}=\{x\}}. Let #{(x_{n})} be a Cauchy sequence in #{X}. For each index #{n}, define #{E_{n}} to be the closure of the nonempty set #{\{x_{k}\mid k\geq n\}}. Then #{(E_{n})} is a descending sequence of nonempty closed sets. Since #{(x_{n})} is Cauchy, the sequence #{(E_{n})} is contracting. So by assumption there is a point #{x\in X} such that
+##{\bigcap^{\infty}_{n=1}E_{n}=\{x\}.}
+For each #{n}, #{x} is a limit point of #{\{x_{k}\mid k\geq n\}}. Hence we may inductively select a strictly increasing set of integers #{\{n_{k}\}} such that for each index #{k}, #{d(x,x_{n_{k}})<1/ k}. The subsequence #{(x_{n_{k}})} converges to #{x}. Since #{(x_{n})} is Cauchy, the whole sequence #{(x_{n})} converges to #{x}. Therefore #{X} is complete.}}

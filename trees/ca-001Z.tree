@@ -1,0 +1,9 @@
+\title{Totally bounded subset of a metric space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{K\subset X}. We say #{K} is \define{Totally Bounded} if for each #{\varepsilon>0}, #{K} can be covered by a finite number of [[ca-000L]]s of radius #{\varepsilon}.}
+
+\rmk{A totally bounded set is [bounded](ca-001U).}

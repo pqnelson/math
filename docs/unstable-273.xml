@@ -7,20 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4738</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>666</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an <fr:link
+type="local"
+href="ca-001S.xml"
+addr="ca-001S"
+title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is closed, <fr:tex
+display="inline"><![CDATA[K\setminus  F]]></fr:tex> is open, so <fr:tex
+display="inline"><![CDATA[\{K\setminus  F\}\cup \{U_{\alpha }\}]]></fr:tex> is an open cover of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, i.e., there are finitely many <fr:tex
+display="inline"><![CDATA[U_{\alpha _{1}}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[U_{\alpha _{n}}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[U_{\alpha _{1}}\cup …\cup  U_{\alpha _{n}}=F]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -37,15 +43,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4740</fr:anchor><fr:addr
-type="user">matrix-001I</fr:addr><fr:route>matrix-001I.xml</fr:route><fr:title
-text="Matrix Inverse is Idempotent">Matrix Inverse is Idempotent</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>668</fr:anchor><fr:addr
+type="user">ca-001W</fr:addr><fr:route>ca-001W.xml</fr:route><fr:title
+text="Closed subsets of a compact set are compact">Closed subsets of a compact set are compact</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an invertible matrix. Then <fr:tex
-display="inline"><![CDATA[(\mathbf {A}^{-1})^{-1}=\mathbf {A}]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[K\subseteq  X]]></fr:tex> be a <fr:link
+type="local"
+href="ca-001T.xml"
+addr="ca-001T"
+title="Compact subset of a metric space">compact subset</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[F\subseteq  K]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000P.xml"
+addr="ca-000P"
+title="Closed Subset">closed</fr:link> subset. Then <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is compact.</fr:p>
  
    
    <fr:tree
@@ -55,20 +76,26 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3874</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>436</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an <fr:link
+type="local"
+href="ca-001S.xml"
+addr="ca-001S"
+title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is closed, <fr:tex
+display="inline"><![CDATA[K\setminus  F]]></fr:tex> is open, so <fr:tex
+display="inline"><![CDATA[\{K\setminus  F\}\cup \{U_{\alpha }\}]]></fr:tex> is an open cover of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover of <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, i.e., there are finitely many <fr:tex
+display="inline"><![CDATA[U_{\alpha _{1}}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[U_{\alpha _{n}}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[U_{\alpha _{1}}\cup …\cup  U_{\alpha _{n}}=F]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

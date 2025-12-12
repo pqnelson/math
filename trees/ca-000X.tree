@@ -1,0 +1,19 @@
+\title{Construct addition operator on the set of Dedekind cuts}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\meta{source}{[[baby-rudin]], Appendix to Ch. 1}
+
+\p{Let #{R} be the set of all [[ca-000U]]. Let #{\alpa,\beta\in R}. We will define the set #{\alpha+\beta=\{r+s\mid r\in\alpha,s\in\beta\}}.}
+
+\p{For the sake of clarity, we will denote #{0_{R}} to be the set of all negative rational numbers. We see #{0_{R}} is a [[ca-000U]]. We claim #{0_{R}} acts like the "zero" of #{R}.}
+
+\p{\textbf{Claim 1:} For any #{\alpha,\beta\in R}, we see #{\alpha+\beta} is a [[ca-000U]].}
+
+\p{\textbf{Claim 2:} For any #{\alpha,\beta\in R}, we see #{\alpha+\beta=\beta+\alpha}.}
+
+\p{\textbf{Claim 3:} For any #{\alpha,\beta,\gamma\in R}, we see #{(\alpha+\beta)+\gamma=\alpha+(\beta+\gamma)}}
+
+\p{\textbf{Claim 4:} #{0_{R}\in R} and for all #{\alpha\in R}, #{0_{R}+\alpha=\alpha}}
+
+\p{\textbf{Claim 5:} To every #{\alpha\in R} there exists an #{-\alpha\in R} such that #{\alpha+(-\alpha)=0_{R}}.}

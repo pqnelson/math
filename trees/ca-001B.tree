@@ -1,0 +1,9 @@
+\title{Product of metric spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X_{1},d_{1})} and #{(X_{2},d_{2})} be two [metric spaces](ca-000K). We define their \define{(Cartesian) Product} to be the metric space #{(X,d) = (X_{1}\times X_{2},d)} with the [[ca-000J]] defined by
+##{d((x_{1},x_{2}),(y_{1},y_{2}))=d_{1}(x_{1},y_{1})d_{2}(x_{2},y_{2})}
+for all #{x_{1},x_{2}\in X_{1}} and #{y_{1},y_{2}\in X_{2}}. Furthermore #{(X,d)} is a [[ca-000K]].}

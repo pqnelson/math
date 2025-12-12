@@ -1,0 +1,16 @@
+\title{Set of all sequences of #{\{0,1\}} is uncountable}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[baby-rudin]], Theorem 2.14}
+
+\p{Let #{A} be the set of all sequences of #{\{0,1\}}. Then the set #{A} is uncountable.}
+
+\proof{\p{Let #{E} be any countable subset of #{A}. Let us enumerate the elements of #{E} into a sequence #{x_{n}}. We can construct the sequence #{x} as follows:
+##{x(n) = \begin{cases}1 & \mbox{if }x_{n}(n)=0\\
+0 & \mbox{if }x_{n}(n)=1\end{cases}}
+Then #{x(n)\neq x_{n}(n)} for all #{n\in\NN}. Then #{x} differs from every element of #{E}, so #{x\in A\setminus E}.}
+\p{This means every countably infinite subset of #{A} is a proper subset. This means #{A} must be uncountable since otherwise it would be a proper subset of itself, which is impossible.}}
+
+\rmk{This implies #{\RR} is uncountable since #{A} contains the binary expansion of all real numbers between 0 and 1.}

@@ -1,0 +1,11 @@
+\title{Construct multiplication operator on subset of positive Dedekind cuts}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\meta{source}{[[baby-rudin]], Appendix to Ch. 1}
+
+\p{We define #{1_{R}} to be the set of rational numbers strictly less than 1. We claim this is a [[ca-000U]]. It will play the role of 1 in multiplying Dedekind cuts together.}
+
+\p{If #{\alpha\in R} and #{\beta\in R} are both positive #{0_{R}\propersubset\alpha} and #{0_{R}\propersubset\beta}, then we define #{\alpha\beta} to be the set of all #{p\in\QQ} such that #{p\leq rs} for some #{r\in\alpha} and #{s\in\beta} with #{r>0} and #{s>0}.}
+
+\p{Then this multiplication operation satisfies all the axioms for the [[field-0001]] restricted to #{R^{+}}.}

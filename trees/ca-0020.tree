@@ -1,0 +1,7 @@
+\title{Subsequence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{X} be a set. Let #{(x_{n})} be a [[nst-001W]] of #{X}. Consider a sequence #{(n_{k})} of positive integers such that #{n_{1}<n_{2}<n_{3}<\dots}. Then the sequence #{(x_{n_{k}})} is called a \define{Subsequence} of #{(x_{n})}.}

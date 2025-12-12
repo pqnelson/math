@@ -1,0 +1,7 @@
+\title{Complete Metric Space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. We say #{(X,d)} is \define{Complete} if every [Cauchy sequence](ca-001D) [converges](ca-001A).}

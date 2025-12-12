@@ -2,6 +2,9 @@
 \author{alex-nelson}
 \date{2025-05-12}
 
+\def\iso{cong}
+\def\Arg{\mathop{\textrm{Arg}}\nolimits}
+
 % Set theory
 \def\propersubset{\subset}
 \def\subset{\subseteq}
@@ -12,6 +15,8 @@
 
 \def\Complement[set]{\set^{\complement}}
 \def\powerset[set]{\mathcal{P}(\set)}
+\def\succ{\mathop{\textrm{S}}\nolimits}
+
 
 \def\AA{\mathbb{A}}
 \def\CC{\mathbb{C}}
@@ -33,16 +38,20 @@
 \def\Nat{\mathbb{N}}
 
 % functions
-\def\id{\mathop{\mathrm{id}}\nolimits}
-\def\dom{\mathop{\mathrm{dom}}\nolimits}
-\def\cod{\mathop{\mathrm{cod}}\nolimits}
-\def\ran{\mathop{\mathrm{ran}}\nolimits}
+\def\id{\mathop{\textrm{id}}\nolimits}
+\def\dom{\mathop{\textrm{dom}}\nolimits}
+\def\cod{\mathop{\textrm{cod}}\nolimits}
+\def\ran{\mathop{\textrm{ran}}\nolimits}
 
 % linear algebra
 \def\transpose[M]{\M^{\mathsf{T}}}
 \def\norm[x]{\left \lVert \x \right \rVert}
 
-\def\sgn{\mathop{\mathrm{sgn}}\nolimits}
+\def\sgn{\mathop{\textrm{sgn}}\nolimits}
+
+% topology
+\def\closure[x]{\overline{\x}}
+\def\diam{\mathop{\textrm{diam}}\nolimits}
 
 % matrix groups
 \def\SL{\mathrm{SL}}
@@ -110,6 +119,9 @@
 \def\define[definiendum]{\<html:dfn>{\definiendum}}
 
 \def\arXiv[number]{[arXiv:\number](https://arxiv.org/abs/\number)}
+
+\def\forwardproof{#{(\Longrightarrow)}}
+\def\backwardproof{#{(\Longleftarrow)}}
 
 % e.g., \MML{tarski}{def 4}{def 4}
 \def\MML[article][name][link-anchor]{\meta{source}{MML [\article:\name](https://mizar.uwb.edu.pl/version/current/html/\article.html#\link-anchor)}}

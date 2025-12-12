@@ -5,7 +5,7 @@
 \taxon{definition}
 \meta{source}{[[baby-rudin]], 1.5}
 
-\p{Let #{S} be a set. An \define{Order} on #{S} is a relation denoted #{<} such that:}
+\p{Let #{S} be a set. An \define{Order} on #{S} is a [[nst-000T]] denoted #{<} such that:}
 \ol{
 \li{Trichotomy: If #{x\in S} and #{y\in S}, then exactly one of the following is true: #{x<y} or #{x=y} or #{y<x};}
 \li{Transitivity: If #{x,y,z\in S}, if #{x<y} and #{y<z}, then #{x<z}.}

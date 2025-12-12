@@ -7,25 +7,30 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>381</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4457</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
-but <fr:tex
-display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
-type="local"
-href="vectsp-002K.xml"
-addr="vectsp-002K"
-title="Adjoint of linear map">adjoint</fr:link>, so
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
+display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
+display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
+<fr:p>The backward direction: assume <fr:tex
+display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
+display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
+display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
+display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
+display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
+display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
+display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
+display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -42,39 +47,25 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>383</fr:anchor><fr:addr
-type="user">vectsp-0033</fr:addr><fr:route>vectsp-0033.xml</fr:route><fr:title
-text="Eigenvectors of normal operator are orthogonal">Eigenvectors of normal operator are orthogonal</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4459</fr:anchor><fr:addr
+type="user">ela-001N</fr:addr><fr:route>ela-001N.xml</fr:route><fr:title
+text="Linear transformation is injective iff kernel is trivial subspace">Linear transformation is injective iff kernel is trivial subspace</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear transformation of real vector spaces. Then <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.22</fr:meta><fr:meta
-name="source"><fr:link
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">injective</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[\ker (L)=0_{V}]]></fr:tex> is the <fr:link
 type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.2.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> be an <fr:link
-type="local"
-href="vectsp-0020.xml"
-addr="vectsp-0020"
-title="Inner product space">Inner product space</fr:link> over <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a <fr:link
-type="local"
-href="vectsp-002P.xml"
-addr="vectsp-002P"
-title="Normal operator">normal</fr:link> linear operator. If <fr:tex
-display="inline"><![CDATA[\lambda ,\mu \in \mathbb {C}]]></fr:tex> are distinct eigenvalues of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> with eigenvectors <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[w]]></fr:tex> (respectively), then <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex>.</fr:p>
+href="ela-000K.xml"
+addr="ela-000K"
+title="Trivial subspace">Trivial subspace</fr:link> of <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -84,25 +75,30 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>385</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4461</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
-but <fr:tex
-display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
-type="local"
-href="vectsp-002K.xml"
-addr="vectsp-002K"
-title="Adjoint of linear map">adjoint</fr:link>, so
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The forward direction: assume <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective. For any <fr:tex
+display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[v\neq \vec {0}_{V}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[L(v)\neq  L(\vec {0}_{V})]]></fr:tex> by definition of injective functions, and this means <fr:tex
+display="inline"><![CDATA[L(v)\neq \vec {0}_{W}]]></fr:tex> by the fact linear transformations map the zero vector to the zero vector.</fr:p>
+<fr:p>The backward direction: assume <fr:tex
+display="inline"><![CDATA[\ker (L)=0_{V}=\{\vec {0}_{V}\}]]></fr:tex>. For any <fr:tex
+display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[L(v_{1})=L(v_{2})]]></fr:tex>, we will prove <fr:tex
+display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>. First, we see <fr:tex
+display="inline"><![CDATA[L(v_{1})-L(v_{2})=\vec {0}_{W}]]></fr:tex> and then by linearity, the left-hand side becomes <fr:tex
+display="inline"><![CDATA[L(v_{1}-v_{2})=\vec {0}_{W}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[v_{1}-v_{2}\in \ker (L)]]></fr:tex> by definition of the kernel. Then <fr:tex
+display="inline"><![CDATA[v_{1}-v_{2}\in \{\vec {0}_{V}\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[v_{1}-v_{2}=\vec {0}_{V}]]></fr:tex>. Then adding <fr:tex
+display="inline"><![CDATA[v_{2}]]></fr:tex> to both sides gives us <fr:tex
+display="inline"><![CDATA[v_{1}=v_{2}]]></fr:tex>, as desired. Hence <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

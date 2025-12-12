@@ -1,0 +1,8 @@
+\title{Convergent sequence in a metric space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{(x_{n})} be a sequence in #{X}. We say #{(x_{n})} \define{Converges} to #{x\in X} if for each #{\varepsilon>0} there is a corresponding #{N\in\NN} such that for all #{n\geq N}, #{d(x,x_{n})<\varepsilon}.}
+\p{We call #{x} the \define{Limit} of the sequence, and write #{x_{n}\to x} or #{x=\lim_{n\to\infty}x_{n}}.}

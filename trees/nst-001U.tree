@@ -1,0 +1,10 @@
+\title{A set bijective with a countably infinite set is countably infinite}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{A} be a set, let #{B} be a countably infinite set. Then #{A} is countably infinite iff there is a bijection #{f\colon A\to B}.}
+
+\proof{\p{Let #{g\colon B\to\NN} be an injective function (since #{B} is countable). If #{f\colon A\to B} is bijective, then #{g\circ f} is injective, hence #{A} is countable.}
+\p{If #{A} is countably infinite, then there is a bijection #{g\colon A\to\NN}. We have #{h\colon B\to\NN} be bijective (since #{B} is countable). Then #{h^{-1}\circ g\colon A\to B} is bijective.}}

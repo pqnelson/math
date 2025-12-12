@@ -7,17 +7,40 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5086</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3243</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
-display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
-display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
-display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
-<html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> take <fr:tex
+display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex
+display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -34,17 +57,37 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5088</fr:anchor><fr:addr
-type="user">sl-0005</fr:addr><fr:route>sl-0005.xml</fr:route><fr:title
-text="Elementary linear group is a subgroup of special linear group">Elementary linear group is a subgroup of special linear group</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3245</fr:anchor><fr:addr
+type="user">nst-000D</fr:addr><fr:route>nst-000D.xml</fr:route><fr:title
+text="Union of two sets">Union of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be a unital associative <fr:strong>commutative</fr:strong> ring, let <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> be a natural number. Then <fr:tex
-display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subgroup of <fr:tex
-display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K2">xboole_0:def 3</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Union</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> to be the set <fr:tex
+display="inline"><![CDATA[X\cup  Y]]></fr:tex> such that for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y]]></fr:tex> iff either <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see that this is commutative <fr:tex
+display="inline"><![CDATA[X\cup  Y=Y\cup  X]]></fr:tex> and idempotent <fr:tex
+display="inline"><![CDATA[X\cup  X=X]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -54,17 +97,40 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4926</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>948</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
-display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
-display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
-display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
-<html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> take <fr:tex
+display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex
+display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex
+display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

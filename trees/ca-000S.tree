@@ -1,7 +1,9 @@
-\title{Finite subsets are closed}
+\title{Finite subsets of metric spaces are closed}
 \author{alex-nelson}
 \import{notation}
 \date{2025-10-19}
 \taxon{example}
 
-\p{Any finite subset of #{X} is a [[ca-000P]] of #{X}. Let #{E=\{x_{1},\dots,x_{n}\}}. We will show #{X\setminus E} is an [[ca-000M]]. So for any #{x\in X\setminus E}, we find #{r>0} and #{r<\max\{d(x,x_{i})\mid x_{i}\in E\}}. So #{B_{r}(x)\subset E^{\complement}=X\setminus E}. This means #{E^{\complement}} is open. Hence #{E} is closed.}
+\p{Any finite subset of a metric space #{(X,d)} is a [[ca-000P]] of #{X}.}
+
+\proof{\p{Let #{E=\{x_{1},\dots,x_{n}\}}. We will show #{X\setminus E} is an [[ca-000M]]. So for any #{x\in X\setminus E}, we find #{r>0} and #{r<\max\{d(x,x_{i})\mid x_{i}\in E\}}. So #{B_{r}(x)\subset E^{\complement}=X\setminus E}. This means #{E^{\complement}} is open. Hence #{E} is closed.}}

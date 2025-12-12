@@ -1,0 +1,8 @@
+\title{Sequence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], Definition 2.7}
+
+\p{Let #{A} be a set. A \define{Sequence} of #{A} is a function #{f\colon\NN\to A}, where we usually write #{f_{n}} instead of #{f(n)}.}

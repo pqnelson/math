@@ -1,0 +1,10 @@
+\title{Enumerating elements of a set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\meta{source}{[[baby-rudin]], Definition 2.7}
+
+\p{Let #{A} be a countably infinite set. We \define{Enumerate} the elements of #{A} by producing an bijection #{\NN\to A} as a sequence.}
+
+\p{Conversely, if there is a sequence of #{A} which is bijective, then we call that sequence an \define{Enumeration} of #{A}.}

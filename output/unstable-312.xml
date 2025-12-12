@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6119</fr:anchor><fr:addr
+type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should prove, for any <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex>, their sum exists and is unique. This is "obvious enough".</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6121</fr:anchor><fr:addr
+type="user">matrix-000E</fr:addr><fr:route>matrix-000E.xml</fr:route><fr:title
+text="Matrix Addition">Matrix Addition</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}=(b_{i,j})]]></fr:tex> be two <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrices. We define <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Matrix Addition</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> to produce a third <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrix <fr:tex
+display="inline"><![CDATA[\mathbf {C}=(c_{i,j})]]></fr:tex> (called the <fr:em>sum</fr:em> of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) whose components are defined by <fr:tex
+display="inline"><![CDATA[c_{i,j}=a_{i,j}+b_{i,j}]]></fr:tex>.</fr:p><fr:p>We write <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {B}]]></fr:tex> for the sum of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2779</fr:anchor><fr:addr
+type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should prove, for any <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex>, their sum exists and is unique. This is "obvious enough".</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

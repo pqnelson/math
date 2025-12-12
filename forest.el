@@ -21,6 +21,10 @@
 ;;; Commentary: I have the bare essentials implements, but no syntax
 ;;; highlighting. 
 
+;; C-c n creates a new tree
+;; C-c d creates a new tree with "\taxon{definition}"
+;; C-c t creates a new tree with "\taxon{theorem}"
+
 ;; 
 
 ;;; Code:

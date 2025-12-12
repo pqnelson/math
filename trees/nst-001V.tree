@@ -1,0 +1,12 @@
+\title{Every infinite subset of a countably infinite set is countable}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\meta{source}{[[baby-rudin]], Theorem 2.8}
+
+\p{Let #{A} be a countably infinite set, let #{E\subset A} be infinite. Then #{E} is countable.}
+
+\proof{\p{Since #{A} is countably infinite, we can enumerate its elements as a sequence #{x_{n}}.}
+\p{We can construct a sequence #{(n_{k})} of positive integers such that #{x_{n_{k}}\in E}.}
+\p{Then we have the sequence #{f(k)=x_{n_{k}}} which enumerates the elements of #{E}.}}

@@ -1,18 +1,57 @@
-\title{Topology}
+\title{Topology of metric spaces}
 \author{alex-nelson}
 \import{notation}
 \date{2025-10-19}
 
-\transclude{vectsp-0025}
-\transclude{ca-000I}
-\transclude{ca-000J}
-\transclude{ca-000K}
-\transclude{ca-000L}
-\transclude{ca-000M}
-\transclude{ca-000N}
-\transclude{ca-000O}
-\transclude{ca-000P}
-\transclude{ca-000Q}
-\transclude{ca-000R}
-\transclude{ca-000S}
-\transclude{ca-000T}
+\p{The idea is to build an intuition of topology as a generalization of metric spaces. This is the pedagogically correct way to learn the material, even if it is not the easiest way to formalize it in a proof assistant.}
+
+\transclude{vectsp-0025} % norm
+\transclude{ca-000I} % Euclidean norm
+\transclude{ca-000J} % metric
+\transclude{ca-000K} % metric space
+\transclude{ca-000L} % open ball
+\transclude{ca-000M} % open set
+\transclude{ca-0013} % open ball is an open set
+\transclude{ca-000N} % neighborhood
+\transclude{ca-000O} % limit point
+\transclude{ca-000P} % closed subset
+\transclude{ca-000Q} % generalizing preceding notions
+\transclude{ca-000R} % a set that is neither open nor closed
+\transclude{ca-000S} % finite subsets of metric spaces are closed
+\transclude{ca-000T} % rationals are neither open nor closed in reals
+\transclude{ca-0014} % a set is open iff its complement is closed
+\transclude{ca-0015} % properties of open and closed subsets
+\transclude{ca-0016} % closure
+\transclude{ca-0017} % closure is smallest closed subset
+\transclude{ca-0018} % dense subset
+\transclude{ca-0019} % open subsets of metric subspaces
+\transclude{ca-001A} % convergent sequence in metric space
+\transclude{ca-001B} % product of metric spaces
+\transclude{ca-001C} % Subset is closed iff all convergent sequences on the subset have limits there
+\transclude{ca-001D} % cauchy sequence
+\transclude{ca-001E} % convergent sequences are cauchy
+\transclude{ca-001F} % Complete metric space
+\transclude{ca-001G} % Euclidean space is complete
+\transclude{ca-001H} % metric subspace is complete iff underlying set is closed
+\transclude{ca-001I} % diameter of subset
+\transclude{ca-001J} % contracting sequence
+\transclude{ca-001K} % Cantor intersection theorem
+\transclude{ca-001L} % continuous function between metric spaces
+\transclude{ca-001M} % continuous iff it maps convergent sequences to convergent sequences
+\transclude{ca-001N} % continuous iff preimage of open sets are open
+\transclude{ca-001O} % continuous iff preimage of closed sets are closed
+\transclude{ca-001P} % uniformly continuous function
+\transclude{ca-001Q} % Lipschitz
+\transclude{ca-001R} % Lipschitz functions are uniformly continuous
+
+\transclude{ca-001S} % cover of a subset of a metric space
+\transclude{ca-001T} % compact subset of a metric space
+\transclude{ca-001U} % bounded subset of a metric space
+\transclude{ca-001V} % compact subsets are closed and bounded
+\transclude{ca-001W} % closed subsets of a compact set are compact
+\transclude{ca-001X} % continuous image of compact subsets are compact
+\transclude{ca-001Y} % extreme value theorem
+\transclude{ca-001Z} % totally bounded subset of metric space
+\transclude{ca-0020} % subsequence
+\transclude{ca-0021} % subsequential limit
+\transclude{ca-0022} % sequentially compact subset

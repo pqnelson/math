@@ -1,0 +1,15 @@
+\title{Properties of open and closed subsets of metric spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Then the following all hold:}
+\ol{
+\li{#{X} is an open and closed subset of #{(X,d)}}
+\li{#{\emptyset} is an open and closed subset of #{(X,d)}}
+\li{The union of an arbitrary collection of open subsets of #{(X,d)} is an open subset}
+\li{The intersection of finitely many open subsets of #{(X,d)} is open}
+\li{The union of finitely many closed subsets of #{(X,d)} is closed}
+\li{The intersection of an arbitrary family of closed subsets of #{(X,d)} is closed}
+}

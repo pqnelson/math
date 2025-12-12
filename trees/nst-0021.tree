@@ -1,0 +1,8 @@
+\title{Transitive set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+\MML{ordinal1}{def 2}{V1}
+
+\p{Let #{X} be a set. We say #{X} is \define{Transitive} if for all sets #{x\in X} we have #{x\subset X}. In other words, if #{x\in X} and #{y\in X}, then #{y\in X}. So #{\in} forms a transitive relation on #{X}.}

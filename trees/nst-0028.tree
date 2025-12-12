@@ -1,0 +1,14 @@
+\title{Criteria for limit ordinal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+\MML{ordinal1}{28}{T28}
+\MML{ordinal1}{29}{T29}
+
+\p{Let #{A} be an ordinal number. Then the following are equivalent:}
+\ol{
+\li{#{A} is a [[nst-0027]]}
+\li{for each ordinal #{C\in A} we have #{\succ(C)\in A}}
+\li{there is no ordinal #{B} such that #{A=\succ(B)}}
+}

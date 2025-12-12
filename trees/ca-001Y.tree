@@ -1,0 +1,10 @@
+\title{Extreme value theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [compact](ca-001T) [[ca-000K]]. Let #{f\colon X\to\RR} be a [continuous function](ca-001L), then there are points #{a,b\in X} such that for all #{x\in X} we have
+##{f(a)\leq f(x)\leq f(b).}}
+
+\proof{\p{We see that #{f(X)} is compact because the [[ca-001X]], and therefore [closed](ca-000P) and [bounded](ca-001U) since [[ca-001V]]. Let #{\alpha:=\inf f(X)} and #{\beta:=\sup f(X)}. By [[ca-0007]] of #{\RR} and #{f(X)} is [closed](ca-000P), we see #{\alpha,\beta\in f(X)}.}}

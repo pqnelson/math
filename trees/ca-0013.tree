@@ -1,0 +1,13 @@
+\title{Every open ball is an open set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{B_{r}(x)} be an [[ca-000L]] in the [[ca-000K]] #{(X,d)} where #{r>0} and #{x\in X}. Then #{B_{r}(x)} is an [[ca-000M]].}
+
+\proof{\p{Suffices to show (by definition of open sets) that if #{x'\in B_{r}(x)} and
+##{r'=r-d(x,x'),}
+then #{B_{r'}(x')\subset B_{r}(x)}. Let #{y\in B_{r'}(x')}, then #{d(y,x')<r'}. Then the triangle inequality gives us
+##{d(x,y)\leq d(x,x')+d(x',y)<d(x,x')+r'=r.}
+So #{y\in B_{r}(x)}. Since #{y\in B_{r'}(x')} was arbitrary, this then implies #{B_{r'}(x')\subset B_{r}(x)}.}}

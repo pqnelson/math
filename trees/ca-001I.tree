@@ -1,0 +1,8 @@
+\title{Diameter of subset}
+\author{alex-nelson}
+\import{notation}
+\taxon{definition}
+\date{2025-12-11}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{E\subset X}. We define the \define{Diameter} of #{E} to be the real number
+##{\diam(E):=\sup\{d(x,y)\mid x,y\in E\}.}}

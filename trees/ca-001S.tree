@@ -1,0 +1,11 @@
+\title{Cover of a subset of a metric space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{E\subset X}. A collection of sets #{\{U_{\alpha}\}_{\alpha\in A}} is a \define{Cover} of #{E} if #{E\subset\bigcup_{\alpha\in A}U_{\alpha}}.}
+
+\p{A \define{Subcover} of #{E} is a subset of #{\{U_{\alpha}\}} which is also a cover of #{E}.}
+
+\p{We call a cover #{\{U_{\alpha}\}} an \define{Open Cover} of #{E} if each #{U_{\alpha}} is an [open subset](ca-000M) of #{X}.}

@@ -7,15 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5082</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3239</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>From the <fr:link
-type="external"
-href="sl-0007.tree">previous theorem</fr:link>, we have <fr:tex
-display="inline"><![CDATA[\mathfrak {sl}_{n}(\mathbb {O})\cong \mathfrak {sl}_{8n}(\mathbb {R})]]></fr:tex>. Then exponentiating this gives the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
+type="local"
+href="nst-0009.xml"
+addr="nst-0009"
+title="Set builder notation">set-builder notation</fr:link>  <fr:tex
+display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -32,20 +43,35 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5084</fr:anchor><fr:addr
-type="user">sl-0008</fr:addr><fr:route>sl-0008.xml</fr:route><fr:title
-text="Baez-ian Special Linear Group over Octonions">Baez-ian Special Linear Group over Octonions</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3241</fr:anchor><fr:addr
+type="user">nst-000F</fr:addr><fr:route>nst-000F.xml</fr:route><fr:title
+text="Intersection of two sets">Intersection of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Corollary 4.2 in <fr:link
+name="source"><fr:link
 type="local"
-href="petyt-2018-special.xml"
-addr="petyt-2018-special"
-title="The special linear group for nonassociative rings">[petyt-2018-special]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>In particular, for <fr:tex
-display="inline"><![CDATA[n\geq 3]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[\mathrm {SL}_{n}(\mathbb {O})\cong \mathrm {SL}_{8n}(\mathbb {R})]]></fr:tex>.</fr:p>
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K3">xboole_0:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Intersection</html:dfn> to be the set denoted <fr:tex
+display="inline"><![CDATA[X\cap  Y]]></fr:tex> such that: for all objects <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in  X\cap  Y]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see this is commutative <fr:tex
+display="inline"><![CDATA[X\cap  Y=Y\cap  X]]></fr:tex> and idempotent <fr:tex
+display="inline"><![CDATA[X\cap  X=X]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -55,27 +81,27 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4920</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>954</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>From the <fr:link
-type="external"
-href="sl-0007.tree">previous theorem</fr:link>, we have <fr:tex
-display="inline"><![CDATA[\mathfrak {sl}_{n}(\mathbb {O})\cong \mathfrak {sl}_{8n}(\mathbb {R})]]></fr:tex>. Then exponentiating this gives the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
+type="local"
+href="nst-0009.xml"
+addr="nst-0009"
+title="Set builder notation">set-builder notation</fr:link>  <fr:tex
+display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
+display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">Set equality</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
-<fr:p>Compare this to Sudbery's definition, Eq (5.5) in <fr:link
-type="local"
-href="sudbery-1984-division.xml"
-addr="sudbery-1984-division"
-title="Division algebras, (pseudo)orthogonal groups and spinors">[sudbery-1984-division]</fr:link>, for <fr:tex
-display="inline"><![CDATA[\mathfrak {sl}_{n}(\mathbb {O})]]></fr:tex> as left multiplication by traceless elements of <fr:tex
-display="inline"><![CDATA[\mathfrak {h}_{n}(\mathbb {O})]]></fr:tex> together with its derivations. Chevalley and Schafer's "<fr:link
-type="local"
-href="chevalley-1950-exceptional.xml"
-addr="chevalley-1950-exceptional"
-title="The Exceptional Simple Lie Algebras F4 and E6">The Exceptional Simple Lie Algebras F4 and E6</fr:link>" prove this is isomorphic with <fr:tex
-display="inline"><![CDATA[\mathfrak {e}_{6}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

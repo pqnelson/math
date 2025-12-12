@@ -1,0 +1,8 @@
+\title{Cauchy sequence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{(x_{n})} be a sequence in #{X}. We say #{(x_{n})} is \define{Cauchy} if for each #{\varepsilon>0} there is an #{N\in\NN} such that for all #{m,n\geq N} we have
+##{d(x_{n},x_{m})<\varepsilon}}

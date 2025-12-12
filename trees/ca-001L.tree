@@ -1,0 +1,10 @@
+\title{Continuous function between metric spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} and #{(Y,\rho)} be [[ca-000K]]s. A function #{f\colon X\to Y} is said to be \define{Continuous at a point} #{x\in X} if for each #{\varepsilon>0} there is a #{\delta>0} such that for any #{x\in X},
+##{d(x,a)<\delta\quad\mbox{implies}\quad\rho(f(x),f(a))<\varepsilon,}
+or equivalently #{f(B_{\delta}(x))\subset B_{\varepsilon}(f(x))}.}
+\p{Further, we say #{f} is \define{Continuous} if it is continuous at every point in #{X}.}

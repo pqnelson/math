@@ -7,37 +7,24 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2266</fr:anchor><fr:addr
-type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>632</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
-
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
+display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
+<fr:tex
+display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
+is countably infinite by <fr:link
 type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+href="nst-001Y.xml"
+addr="nst-001Y"
+title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -54,15 +41,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2268</fr:anchor><fr:addr
-type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
-text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>634</fr:anchor><fr:addr
+type="user">nst-001Z</fr:addr><fr:route>nst-001Z.xml</fr:route><fr:title
+text="{Q} is countable"><fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define <fr:em>the</fr:em> empty set to be the constant denoted <fr:tex
-display="inline"><![CDATA[\emptyset ]]></fr:tex> (or sometimes <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>).</fr:p><fr:p>We need to prove this is well-defined. For constants, this means proving it exists and is unique.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Corollary to Theorem 2.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>The set of rational numbers is countably infinite.</fr:p>
  
    
    <fr:tree
@@ -72,37 +63,24 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:addr
-type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
-
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
+display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
+<fr:tex
+display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
+is countably infinite by <fr:link
 type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+href="nst-001Y.xml"
+addr="nst-001Y"
+title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

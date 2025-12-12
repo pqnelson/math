@@ -1,0 +1,24 @@
+\title{Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\meta{source}{[[baby-rudin]], Appendix to Ch. 1}
+
+\p{We then define the multiplication for \emph{any arbitrary} [[ca-000U]] #{\alpha\in R} and #{\beta\in R} by
+##{\alpha\beta = \begin{cases}(-\alpha)(-\beta) & \mbox{if }\alpha<0_{R},\beta<0_{R},\\
+-[(-\alpha)\beta] & \mbox{if }\alpha<0_{R}<\beta\\
+-[\alpha\cdot(-\beta)] & \mbox{if }\beta<0_{R}<\alpha.
+\end{cases}}
+The product used in each of these cases is the one from [[ca-000Y]].}
+
+\p{Since #{\gamma=-(-\gamma)}, the axioms for multiplication of a [[field-0001]] holds for #{R} except we need to check distributivity.}
+
+\p{Let #{\alpha,\beta,\gamma\in R}. Then
+##{\alpha(\beta+\gamma)=\alpha\beta+\alpha\gamma.}
+The proof breaks up into cases depending on #{\alpha>0_{R}} or #{\alpha<0_{R}}, and separately #{\beta>0_{R}} or #{\beta<0_{R}}, and #{\beta+\gamma>0_{R}} or #{\beta+\gamma<0_{R}}.}
+
+\p{For example, #{\alpha>0_{R}} and #{\beta<0_{R}} and #{\beta+\gamma>0_{R}}. Then #{\gamma=(\beta+\gamma)+(-\beta)}, which means
+##{\alpha\gamma=\alpha(\beta+\gamma)+\alpha\cdot(-\beta)}
+But #{\alpha\cdot(-\beta)=-(\alpha\beta)}. Thus
+##{\alpha\beta+\alpha\gamma=\alpha(\beta+\gamma).}
+The remaining cases are proved similarly.}

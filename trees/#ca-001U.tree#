@@ -1,0 +1,7 @@
+\title{Bounded subset of a metric space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{definition}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{E\subset X} be a subset of #{X}. We say #{E} is \define{Bounded} if there is a point #{x\in X} and radius #{r>0} such that #{E\subset B_{r}(x)}.}

@@ -1,0 +1,9 @@
+\title{Closed subsets of a compact set are compact}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-11}
+\taxon{theorem}
+
+\p{Let #{(X,d)} be a [[ca-000K]]. Let #{K\subset X} be a [compact subset](ca-001T) of #{X}. Let #{F\subset K} be a [closed](ca-000P) subset. Then #{F} is compact.}
+
+\proof{\p{Let #{\{U_{\alpha}\}} be an [open cover](ca-001S) of #{F}. Since #{F} is closed, #{K\setminus F} is open, so #{\{K\setminus F\}\cup\{U_{\alpha}\}} is an open cover of #{K}. Then there exists a finite subcover of #{K}, i.e., there are finitely many #{U_{\alpha_{1}}}, \dots, #{U_{\alpha_{n}}} such that #{U_{\alpha_{1}}\cup\dots\cup U_{\alpha_{n}}=F}.}}
