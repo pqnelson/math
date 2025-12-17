@@ -7,14 +7,19 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1735</fr:anchor><fr:addr
-type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>458</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This implies <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is uncountable since <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> contains the binary expansion of all real numbers between 0 and 1.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This isn't necessarily unique, we may have multiple distinct greatest common divisors of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>. When it is unique, we call the ring a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">GCD Domain</html:dfn> (and it turns out to be an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,57 +34,41 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1737</fr:anchor><fr:addr
-type="user">nst-0020</fr:addr><fr:route>nst-0020.xml</fr:route><fr:title
-text="Set of all sequences of 0,1 is uncountable">Set of all sequences of <fr:tex
-display="inline"><![CDATA[\{0,1\}]]></fr:tex> is uncountable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
-type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.14</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be the set of all sequences of <fr:tex
-display="inline"><![CDATA[\{0,1\}]]></fr:tex>. Then the set <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is uncountable.</fr:p>
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1605</fr:anchor><fr:addr
-type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>460</fr:anchor><fr:addr
+type="user">ra-001R</fr:addr><fr:route>ra-001R.xml</fr:route><fr:title
+text="Greatest Common Divisor">Greatest Common Divisor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> be any countable subset of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>. Let us enumerate the elements of <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> into a sequence <fr:tex
-display="inline"><![CDATA[x_{n}]]></fr:tex>. We can construct the sequence <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> as follows:
-<fr:tex
-display="block"><![CDATA[x(n) = \begin {cases}1 & \hbox {if }x_{n}(n)=0\\ 0 & \hbox {if }x_{n}(n)=1\end {cases}]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[x(n)\neq  x_{n}(n)]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> differs from every element of <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[x\in  A\setminus  E]]></fr:tex>.</fr:p>
-<fr:p>This means every countably infinite subset of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is a proper subset. This means <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> must be uncountable since otherwise it would be a proper subset of itself, which is impossible.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[b\neq 0]]></fr:tex>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Greatest Common Divisor</html:dfn> of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is a nonzero element <fr:tex
+display="inline"><![CDATA[d\in  R]]></fr:tex> such that:
+<fr:ol><fr:li>It's a common <fr:link
+type="local"
+href="ra-001Q.xml"
+addr="ra-001Q"
+title="Divisor">divisor</fr:link>: <fr:tex
+display="inline"><![CDATA[d\mathrel {\bigm |} a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[d\mathrel {\bigm |} b]]></fr:tex>, and</fr:li>
+<fr:li>It's greatest: for any <fr:tex
+display="inline"><![CDATA[d'\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[d'\mathrel {\bigm |} a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[d'\mathrel {\bigm |} b]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[d'\mathrel {\bigm |} d]]></fr:tex>.</fr:li></fr:ol>
+A greatest common divisor of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is denoted by <fr:tex
+display="inline"><![CDATA[\gcd (a,b)]]></fr:tex> or (abusing notation) by <fr:tex
+display="inline"><![CDATA[(a,b)]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -89,13 +78,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:addr
-type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This implies <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is uncountable since <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> contains the binary expansion of all real numbers between 0 and 1.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This isn't necessarily unique, we may have multiple distinct greatest common divisors of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>. When it is unique, we call the ring a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">GCD Domain</html:dfn> (and it turns out to be an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

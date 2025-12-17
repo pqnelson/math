@@ -1,0 +1,11 @@
+\title{Conjugate subsets forms a symmetric relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\MML{group_3}{90}{T90}
+\import{iaa-0001}
+\taxon{proposition}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A\subset G} and #{B\subset G} be subsets of G. If #{A} [is conjugate to](gr-002E) #{B}, then #{B} is conjugate to #{A}.}
+
+\rmk{This means we can speak of "#{A} and #{B} are conjugate" or mix up the ordering of arguments in this predicate freely and wildly.}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4887</fr:anchor><fr:addr
+type="machine">#371</fr:addr><fr:route>unstable-371.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[b_{1},b_{2}\in  A]]></fr:tex> be inverses for <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\begin {align} b_{1}&=\mu (b_{1},e)\\ &=\mu (b_{1},\mu (a,b_{2}))\\ &=\mu (\mu (b_{1},a),b_{2})\hbox { by associativity}\\ &=\mu (e,b_{2})\\ &=b_{2}.\end {align}]]></fr:tex>
+Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4889</fr:anchor><fr:addr
+type="user">gr-000D</fr:addr><fr:route>gr-000D.xml</fr:route><fr:title
+text="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be an <fr:link
+type="local"
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link> on <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[e\in  A]]></fr:tex> be the <fr:link
+type="local"
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">Identity element</fr:link> for <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>. For any element <fr:tex
+display="inline"><![CDATA[a\in  A]]></fr:tex>, there is at most 1 <fr:link
+type="local"
+href="gr-000C.xml"
+addr="gr-000C"
+title="Inverse of an element with respect to a binary operator">inverse</fr:link> for <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> with respect to <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>898</fr:anchor><fr:addr
+type="machine">#371</fr:addr><fr:route>unstable-371.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[b_{1},b_{2}\in  A]]></fr:tex> be inverses for <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\begin {align} b_{1}&=\mu (b_{1},e)\\ &=\mu (b_{1},\mu (a,b_{2}))\\ &=\mu (\mu (b_{1},a),b_{2})\hbox { by associativity}\\ &=\mu (e,b_{2})\\ &=b_{2}.\end {align}]]></fr:tex>
+Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,16 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1767</fr:anchor><fr:addr
-type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4172</fr:anchor><fr:addr
+type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A totally bounded set is <fr:link
-type="local"
-href="ca-001U.xml"
-addr="ca-001U"
-title="">bounded</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>If I had to teach abstract algebra to undergraduates, I am torn between the traditional approaches (starting from van der Waerden's <fr:em>Moderne Algebra</fr:em> onwards) which I just outlined, and more modern adaptations which wrap everything in the framework of category theory. Aluffi's <fr:em>Algebra: Chapter Zero</fr:em> seemingly attempts a happy medium, and I am unhappy with it.</fr:p>
+<fr:p>One fortunate aspect to Forester is that I'm not forced to choose one or the other. I can outline the "traditional" presentation of topics, and the "modern" presentation of topics, and allow the reader to pick which manner of presentation they wish to peruse.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,28 +29,107 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1769</fr:anchor><fr:addr
-type="user">ca-001Z</fr:addr><fr:route>ca-001Z.xml</fr:route><fr:title
-text="Totally bounded subset of a metric space">Totally bounded subset of a metric space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4174</fr:anchor><fr:addr
+type="user">iaa-0003</fr:addr><fr:route>iaa-0003.xml</fr:route><fr:title
+text="Preferatory notes">Preferatory notes</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have already seen a number of different "species" of Mathematical Gadgets, like:</fr:p><fr:ul><fr:li><fr:link
+type="local"
+href="vectsp-0001.xml"
+addr="vectsp-0001"
+title="Vector Space">Vector Space</fr:link></fr:li>
+<fr:li><fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link></fr:li>
+<fr:li><fr:link
 type="local"
 href="ca-000K.xml"
 addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[K\subseteq  X]]></fr:tex>. We say <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Totally Bounded</html:dfn> if for each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> can be covered by a finite number of <fr:link
+title="Metric Space">Metric Space</fr:link></fr:li>
+<fr:li><fr:link
 type="local"
-href="ca-000L.xml"
-addr="ca-000L"
-title="Open Ball">Open Ball</fr:link>s of radius <fr:tex
-display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</fr:p>
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link></fr:li>
+<fr:li><fr:link
+type="local"
+href="nst-0001.xml"
+addr="nst-0001"
+title="Set">Set</fr:link></fr:li></fr:ul><fr:p>It turns out, all the information which was really interesting was encoded in the "structure-preserving transformations" between them. (That was the bulk of our time spent studying <fr:link
+type="local"
+href="ela.xml"
+addr="ela"
+title="Elementary linear algebra">Elementary linear algebra</fr:link> and <fr:link
+type="local"
+href="ila.xml"
+addr="ila"
+title="Intermediate linear algebra">Intermediate linear algebra</fr:link>, after all!)</fr:p><fr:p>We can form an abstraction describing this situation where we have a [gadget] and [transformations] between them: this is category theory.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2092</fr:anchor><fr:addr
+type="user">iaa-0005</fr:addr><fr:route>iaa-0005.xml</fr:route><fr:title
+text="Traditional way of teaching abstract algebra">Traditional way of teaching abstract algebra</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The traditional way we teach undergraduates is by introducing several types of gadgets in abstract algebra in the following order:</fr:p><fr:ol><fr:li>Initially, there's some discussion of set theory sufficient for developing algebra. This is "time honored tradition" starting with van der Waerden's book.</fr:li>
+<fr:li>When the structure-preserving transformations leave something invariant (e.g., <fr:link
+type="local"
+href="vectsp-001P.xml"
+addr="vectsp-001P"
+title="Invariant subspace">Invariant subspace</fr:link>s in linear algebra), composing such transformations also leaves the thing invariant. This is the guiding intuition of what a "symmetry" is, and the "collection of symmetries" is precisely what a "group" is (originally, they were a "group of symmetries" or a <fr:em>symmetry group</fr:em>).</fr:li>
+<fr:li><fr:p>(a) But we also saw how, e.g., square matrices have a neat <fr:link
+type="local"
+href="ela-000B.xml"
+addr="ela-000B"
+title="Matrix Algebra">algebraic structure</fr:link> with matrix addition and matrix multiplication. They act like a "number system". This is precisely what is studied with number ring (or just a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>). A sufficiently nice ring is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>.</fr:p>
+<fr:p>(b) We can generalize linear algebra to describe "vector spaces over arbitrary rings", and these are modules.</fr:p></fr:li>
+<fr:li>Galois theory is offered as the pinnacle of abstract algebra, connecting group theory to field theory. Honestly, I never understood the excitement behind Galois theory, since the beautiful parts of it are just the representation theory of groups (describing how "the same symmetries appearing in different situations").</fr:li></fr:ol><fr:p>This is just the first 7 chapters of van der Waerden's <fr:link
+type="local"
+href="van-der-waerden-1949-modern1.xml"
+addr="van-der-waerden-1949-modern1"
+title="Modern Algebra, Vol. I">Modern Algebra, Vol. I</fr:link>. Most textbooks have followed this manner of presentation: Dummit and Foote's <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> covers this material in the first 14 chapters; Hungerford's <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> does this in the first 6 chapters.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2094</fr:anchor><fr:addr
+type="user">iaa-0006</fr:addr><fr:route>iaa-0006.xml</fr:route><fr:title
+text="Modern ways to teach abstract algebra">Modern ways to teach abstract algebra</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The more modern approaches to teaching abstract algebra incorporates some degree of category theory into the mix.</fr:p><fr:p>Aluffi's <fr:link
+type="local"
+href="aluffi-2009-algebra.xml"
+addr="aluffi-2009-algebra"
+title="Algebra: Chapter 0">Algebra: Chapter 0</fr:link> is perhaps the most bold attempt to reorganize abstract algebra around category theory entirely. Instead of ending at Galois theory, Aluffi concludes with homological algebra.</fr:p><fr:p>Some ideas from the traditional approach (like "groups with operators") turn out to be confused and muddled (which should be replaced with groups acting on other groups).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
    
    <fr:tree
@@ -62,15 +139,13 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>810</fr:anchor><fr:addr
-type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2096</fr:anchor><fr:addr
+type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A totally bounded set is <fr:link
-type="local"
-href="ca-001U.xml"
-addr="ca-001U"
-title="">bounded</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>If I had to teach abstract algebra to undergraduates, I am torn between the traditional approaches (starting from van der Waerden's <fr:em>Moderne Algebra</fr:em> onwards) which I just outlined, and more modern adaptations which wrap everything in the framework of category theory. Aluffi's <fr:em>Algebra: Chapter Zero</fr:em> seemingly attempts a happy medium, and I am unhappy with it.</fr:p>
+<fr:p>One fortunate aspect to Forester is that I'm not forced to choose one or the other. I can outline the "traditional" presentation of topics, and the "modern" presentation of topics, and allow the reader to pick which manner of presentation they wish to peruse.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

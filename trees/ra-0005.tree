@@ -1,0 +1,24 @@
+\title{Quaternions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+
+\p{The \define{Quaternions} is a generalization of the [complex numbers](complex-0001), denoted as #{\HH} (after William Hamilton) consisting of #{t+ix+jy+kz} where #{t,x,y,z\in\RR} are real numbers, where the imaginary "numbers" satisfy
+##{i^{2}=j^{2}=k^{2}=ijk=-1.}
+It's not hard to deduce that
+##{jk=-kj=i}
+##{ki=-ik=j}
+##{ij=-ji=k}
+Addition is given by
+##{(a+ib+jc+kd)+(t+ix+jy+kz)=(a+t)+i(b+x)+j(c+y)+k(d+z)}
+and multiplication is given by
+##{\begin{align*}
+(a+ib+jc+kd)(t+ix+jy+kz)
+&=(at-bx-cy-dz)\\
+&\quad+i(at+bx+cz-dy)\\
+&\quad+j(ct-bz+cy+dx)\\
+&\quad+k(az+by-cx+dt)\end{align*}}
+This means the quaternions form a noncommutative ring.}
+
+\rmk{\p{(1) Quaternions turn out to be useful for 3d computer graphics.}
+\p{(2) Although Springer's LaTeX macros uses \code{\startverb\mathrm{i}\stopverb} for #{\sqrt{-1}}, the conventions for the imaginary quaternions #{i}, #{j}, #{k} varies wildly. Wikipedia uses bold symbols. Michael Kinyon told me on [Bluesky](https://bsky.app/profile/profkinyon.bsky.social/post/3m7dpefbsdc2r) that "Gibbs, in his 1881 \textit{Elements of Vector Analysis} book (more like a pamphlet), just used the math typeface of his day for i,j,k."}}

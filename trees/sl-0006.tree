@@ -9,7 +9,7 @@
 \p{We can relate the commutator subgroup of #{\GL{n}{R}} to #{\SL{n}{R}} under certain circumstances on #{n} and #{R}. For skew-fields, the derived subgroup is equal to the elementary linear group.}
 
 \ol{
-\li{\p{Let #{R} be a unital ring of finite stable rank #{\sr{R}}. Then for every #{n>\sr{R}} we have #{[\GL{n}{R},\GL{n}{R}]=\EL{n}{R}}.}
+\li{\p{Let #{R} be a unital [ring](ring-0001) of finite stable rank #{\sr{R}}. Then for every #{n>\sr{R}} we have #{[\GL{n}{R},\GL{n}{R}]=\EL{n}{R}}.}
 
 \p{This follows from Vaserstein's injective stability theorem (theorem 10.15 in B. Magurn, \emph{An Algebraic Introduction to #{K}-Theory}, CUP, 2002).}}
 

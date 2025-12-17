@@ -1,0 +1,8 @@
+\title{Orbit}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{G} be a [[gr-000G]] and #{X} be a set. Suppose #{G} [acts](gr-004Y) on #{X}. Let #{x\in X}. The \define{Orbit} of #{x} is the subset #{G\cdot x} of #{X} equal to
+##{G\cdot x:=\{g\cdot x\in X\mid g\in G\}.}}

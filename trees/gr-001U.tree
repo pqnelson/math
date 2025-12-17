@@ -1,0 +1,7 @@
+\title{Image of subgroup under morphism is a subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{theorem}
+
+\p{Let #{G_{1}}, #{G_{2}} be [[gr-000G]]s. Let #{\varphi\colon G_{1}\to G_{2}} be a [[gr-000T]]. Let #{H\subgroup G_{1}} be a [[gr-001B]] of #{G_{1}}. Then #{\varphi(H)\subgroup G_{2}} the image of #{H} under #{\varphi} is a subgroup of #{G_{2}}.}

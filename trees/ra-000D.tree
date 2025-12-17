@@ -1,0 +1,9 @@
+\title{Set of invertible elements of a ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{R} be a unital (possibly nonassociative) [[ring-0001]]. We define the \define{Set of Invertible Elements} of #{R} to be the [set of elements with two-sided inverses](gr-000H):
+##{\UnitGroup{R}:=\{x\in R\mid\exists x^{-1}\in R\ldotp xx^{-1}=x^{-1}x=1\}.}
+Furthermore, if multiplication is associative, then this [forms a group](gr-000I).}

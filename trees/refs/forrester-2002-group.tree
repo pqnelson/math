@@ -1,0 +1,13 @@
+\title{Group objects and internal categories}
+\author{magnus-forrester-barker}
+\taxon{reference}
+\date{2002-12-04}
+\meta{external}{https://arxiv.org/abs/math/0212065}
+
+\meta{bibtex}{\startverb
+@article{forrester2002group,
+  title={Group objects and internal categories},
+  author={Forrester-Barker, Magnus},
+  journal={arXiv preprint math/0212065},
+  year={2002}
+}\stopverb}

@@ -1,0 +1,7 @@
+\title{Permutation of a set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+
+\p{Let #{X} be a set. A \define{Permutation} of #{X} is a [[ela-001K]] #{f\colon X\to X}.}

@@ -7,3 +7,5 @@
 \MML{tarski}{def 5}{K4}
 
 \p{Let #{x} and #{y} be objects. We define the \define{Ordered Pair} to be the object #{(x,y) = \{\{x\},\{x,y\}\}}.}
+
+\rmk{A better definition would be #{(x,y)=\{\{0,x\},\{1,y\}\}} because then the [[nst-000O]] coincides with the [[nst-002E]] when #{I=\{0,1\}} is the indexing set.}

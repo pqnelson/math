@@ -1,0 +1,13 @@
+\title{Product law}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{proposition}
+\MML{group_1}{33}{T33}
+
+\p{Let #{G} be a [[gr-000G]], let #{g\in G}, let #{m,n\in\ZZ}. Then
+##{g^{m}g^{n}=g^{m+n}.}}
+
+\proof{\p{By induction on #{n}.}
+\p{\textbf{Base case:} #{n=0}. We see #{g^{m}g^{0}=g^{m}e=g^{m}=g^{m+n}}.}
+\p{\textbf{Inductive case:} Assume the inductive hypothesis #{g^{m}g^{n}=g^{m+n}} for arbitrary #{n\in\ZZ}. We want to show #{g^{m}g^{n+1}=g^{m+n+1}} and also #{g^{m}g^{n-1}=g^{m+n-1}}, but this follows by the inductive hypothesis and associativity.}}

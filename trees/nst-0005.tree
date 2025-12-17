@@ -12,6 +12,6 @@
 
 \p{\textbf{Uniqueness:} Suppose we have #{X} and #{Y} both be empty sets. We want to prove #{X=Y}. Then for any object #{x}, we want to prove (1) if #{x\in X} then #{x\in Y}, and (2) if #{x\in Y} then #{x\in X}.}
 
-\p{(1) Assume #{x\in X}. But #{X} is [empty](nst-0004), so #{X} cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular #{x\in Y}.}
+\p{(1) [[nst-002J]]. Assume #{x\in X}. But #{X} is [empty](nst-0004), so #{X} cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular #{x\in Y}.}
 
 \p{(2) The argument is the same but switching #{X} and #{Y}.}}

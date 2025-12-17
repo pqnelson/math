@@ -1,0 +1,21 @@
+\title{Early proofs of Hilbert's Nullstellensatz}
+\author{jan-stevens}
+\date{2023-09-25}
+\taxon{reference}
+\import{notation}
+
+\meta{external}{https://arxiv.org/abs/2309.14024}
+
+\p{For a discussion about the reverse Mathematics of Hilbert's Nullstellensatz, see Dhruv Kulshreshtha's "A Reverse Mathematical Analysis of Hilbert's Nullstellensatz and Basis Theorem" (\arXiv{2406.01336}, 35 pages).}
+
+\meta{bibtex}{\startverb
+@misc{stevens2023early,
+      title={Early proofs of Hilbert's Nullstellensatz}, 
+      author={Jan Stevens},
+      year={2023},
+      eprint={2309.14024},
+      archivePrefix={arXiv},
+      primaryClass={math.AG},
+      url={https://arxiv.org/abs/2309.14024},
+      pages={33}
+}\stopverb}

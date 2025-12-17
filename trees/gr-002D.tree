@@ -1,0 +1,11 @@
+\title{Conjugacy class of an element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_3}{def 8}{K}
+\import{iaa-0001}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{g\in G} be an element. We define the \define{Conjugacy Class} of #{g} to be the subset #{\Cl(g)} of #{G} equal to
+##{\Cl(g)=\{g^{b}\in G\mid b\in G\}.}
+In other words, #{\Cl(g)} is the set of elements #{a\in G} such that #{a} [is conjugate to](gr-0028) #{g}.}

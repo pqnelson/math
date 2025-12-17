@@ -1,0 +1,15 @@
+\title{Associativity of product of subgroups with group elements}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\MML{group_2}{105}{T105}
+\MML{group_2}{106}{T106}
+\MML{group_2}{107}{T107}
+
+\p{Let #{G} be a [[gr-000G]], let #{H\subgroup G} be a [[gr-001B]] of #{G}, let #{g\in G} and #{h\in G} be elements of #{G}. Then the following all hold:}
+\ol{
+\li{#{(gh)H=g(hH)}}
+\li{#{(gH)h=g(Hh)}}
+\li{#{(Hg)h=H(gh)}}
+}

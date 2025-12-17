@@ -1,0 +1,18 @@
+\title{Abstrakter Aufbau der Idealtheorie in algebraischen Zahl- und Funktionenkörpern}
+\author{emmy-noether}
+\taxon{reference}
+\meta{doi}{10.1007/BF01209152}
+\date{1927}
+
+\meta{bibtex}{\startverb
+@article{noether1927abstrakter,
+  title={Abstrakter aufbau der idealtheorie in algebraischen zahl-und funktionenk{\"o}rpern},
+  author={Noether, Emmy},
+  journal={Mathematische Annalen},
+  doi={10.1007/BF01209152},
+  volume={96},
+  number={1},
+  pages={26--61},
+  year={1927},
+  publisher={Springer}
+}\stopverb}

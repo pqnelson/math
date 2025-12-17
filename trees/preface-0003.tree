@@ -8,3 +8,5 @@
 \p{This means we successively review linear algebra in greater generality.}
 
 \p{Moreover, I have decided to "cluster" trees into "subforests" reflecting the course materials. This means each "identifier" for a tree is prefixed by some "slug" for the "subforest". Sometimes (like with \code{field} or \code{sl}) a mathematical object or gadget is used as the slug. Othertimes (like with \code{ela} or \code{ca}) the course name is used.}
+
+\p{I'll typically try to follow the [categories used by arXiv](https://arxiv.org/archive/math).}

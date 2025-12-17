@@ -1,0 +1,17 @@
+\title{Quaternion Group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{example}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.5}
+\meta{source}{Hungerford [[hungerford-1974-algebra]] Exercise 1.2.3}
+
+\p{We may define the \define{Quaternion Group} as consisting of the set #{Q_{8}=\{-1\}\cup\{i^{m}j^{n}k^{p}\mid 0\leq m,n,p\leq 3\}} where we identify #{1=i^{0}j^{0}k^{0}} and it obeys the identities
+##{i^{2}=j^{2}=k^{2}=ijk=-1}
+and so we write #{-i=i^{3}}, #{-j=j^{3}}, and #{-k=k^{3}}, and also
+##{(-1)^{2}=1.}
+We have #{(-1)i=-i}, #{(-1)j=-j}, and #{(-1)k=-k}.
+After a bit of work, we find
+##{ij=-ji=k}
+##{jk=-kj=i}
+##{ki=-ik=j}}

@@ -7,15 +7,24 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1847</fr:anchor><fr:addr
-type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2142</fr:anchor><fr:addr
+type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align*} T\hbox { is normal}&\iff  T^{*}T-TT^{*}=0\\ &\iff  \langle (T^{*}T-TT^{*})v,v\rangle =0\hbox { for all }v\in  V\\ &\iff  \langle  T^{*}T,v\rangle =\langle  -TT^{*}v,v\rangle \hbox { for all }v\in  V\\ &\iff  \left  \lVert  Tv \right  \rVert ^{2}=\left  \lVert  T^{*}v \right  \rVert ^{2}\hbox { for all }v\in  V \end {align*}]]></fr:tex>
-Hence the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a Sylow subgroup, by <fr:link
+type="local"
+href="gr-004X.xml"
+addr="gr-004X"
+title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> there is a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P\leq  S^{g}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[|S|=|S^{g}|]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S^{g}]]></fr:tex> is another Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -32,34 +41,38 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1849</fr:anchor><fr:addr
-type="user">vectsp-0031</fr:addr><fr:route>vectsp-0031.xml</fr:route><fr:title
-text="Operator is normal iff norm of operator equals norm of its adjoint">Operator is normal iff norm of operator equals norm of its adjoint</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2144</fr:anchor><fr:addr
+type="user">gr-004W</fr:addr><fr:route>gr-004W.xml</fr:route><fr:title
+text="Sylow &quot;Development&quot; Theorem">Sylow "Development" Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">I. Martin Isaacs <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.20</fr:meta><fr:meta
-name="source"><fr:link
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.14 (Sylow D-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> be a <fr:link
 type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link>  Proposition 11.2.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> be a vector space with a <fr:link
+href="gr-004O.xml"
+addr="gr-004O"
+title="P-Group"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:link> of a finite <fr:link
 type="local"
-href="vectsp-0025.xml"
-addr="vectsp-0025"
-title="Norm">Norm</fr:link>. Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is normal if and only if
-<fr:tex
-display="block"><![CDATA[\left  \lVert  Lv \right  \rVert =\left  \lVert  L^{*}v \right  \rVert ]]></fr:tex>
-for all <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is contained in some <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p><fr:p>In other words, Sylow subgroups are "maximal" among the <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroups of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -69,15 +82,24 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1851</fr:anchor><fr:addr
-type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1342</fr:anchor><fr:addr
+type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align*} T\hbox { is normal}&\iff  T^{*}T-TT^{*}=0\\ &\iff  \langle (T^{*}T-TT^{*})v,v\rangle =0\hbox { for all }v\in  V\\ &\iff  \langle  T^{*}T,v\rangle =\langle  -TT^{*}v,v\rangle \hbox { for all }v\in  V\\ &\iff  \left  \lVert  Tv \right  \rVert ^{2}=\left  \lVert  T^{*}v \right  \rVert ^{2}\hbox { for all }v\in  V \end {align*}]]></fr:tex>
-Hence the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a Sylow subgroup, by <fr:link
+type="local"
+href="gr-004X.xml"
+addr="gr-004X"
+title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> there is a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P\leq  S^{g}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[|S|=|S^{g}|]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S^{g}]]></fr:tex> is another Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

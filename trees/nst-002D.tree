@@ -1,0 +1,9 @@
+\title{Indexed family of sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+
+\p{Let #{I} be a set. A \define{Family of Sets Indexed by #{I}} is a function-like set #{\mathcal{F}} such that #{\dom(\mathcal{F})=I}.}
+
+\p{We usually write #{\mathcal{F}=\{F_{i}\}_{i\in I}}.}

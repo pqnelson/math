@@ -1,0 +1,7 @@
+\title{Function composition is a binary operator on the set of all functions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{example}
+
+\p{Let #{A} be a set. Then #{X=\hom(A,A)} the [[nst-0015]] from #{A} to #{A} has a binary operator, namely [[nst-001M]].}

@@ -1,0 +1,9 @@
+\title{Centralizer is fixed-point of conjugation action}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+
+\p{Let #{G} be a [[gr-000G]]. Consider the [[gr-004H]] of #{G} on itself. Let #{g\in G}. Then the [centralizer](gr-001Q) #{C_{G}(g)} of #{g} is the set of all fixed-points of #{g} under this action.}
+
+\proof{\p{Let #{h\in C_{G}(g)}, then #{hg=gh} and so #{g=h^{-1}gh=g^{h}}. This means #{h} is a fixed-point of #{g\cdot-}. This argument holds backwards, which establishes the bijection.}}

@@ -1,0 +1,16 @@
+\title{Properties of ring morphisms}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+\MML{ring_2}{7}{T7}
+\MML{ring_2}{8}{T8}
+\MML{ring_2}{9}{T9}
+
+\p{Let #{R} and #{S} be [[ring-0001]]s. Let #{\varphi\colon R\to S} be a [[ra-000T]]. Then the following all hold:}
+\ol{
+\li{For any #{x\in R}, #{\varphi(-x)=-\varphi(x)}}
+\li{For any #{x,y\in R}, #{\varphi(x-y)=\varphi(x)-\varphi(y)}}
+\li{If #{R} is unital, then either #{\varphi(1)=1} or #{\varphi(1)=0}.}
+\li{For any ring #{T} and [[ra-000T]] #{\psi\colon S\to T}, we see #{\psi\circ\varphi\colon R\to T} is a ring morphism}
+}

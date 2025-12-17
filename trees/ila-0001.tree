@@ -3,19 +3,19 @@
 \import{notation}
 \date{2025-12-09}
 
-\transclude{complex-0001}
-\transclude{complex-0003}
-\transclude{complex-0002}
-\transclude{complex-0004}
-\transclude{complex-0005}
-\transclude{complex-0006}
-\transclude{complex-0007}
-\transclude{complex-0008}
-\transclude{complex-0009}
-\transclude{complex-000A}
-\transclude{complex-000B}
-\transclude{complex-000C}
-\transclude{complex-000D}
-\transclude{complex-000E}
-\transclude{complex-000F}
-\transclude{complex-000G}
+\transclude{complex-0001} % set of complex numbers
+\transclude{complex-0002} % addition of complex numbers
+\transclude{complex-0003} % properties of addition of complex numbers
+\transclude{complex-0005} % multiplying complex numbers
+\transclude{complex-0004} % properties of multiplying complex numbers
+\transclude{complex-0006} % complex conjugation
+\transclude{complex-0007} % properties of conjugation
+\transclude{complex-0008} % modulus of complex numbers
+\transclude{complex-0009} % properties of modulus
+\transclude{complex-000A} % polar form of complex numbers
+\transclude{complex-000B} % multiplication of polar form of complex numbers
+\transclude{complex-000C} % de Moivre's formula
+\transclude{complex-000D} % root of unity
+\transclude{complex-000E} % complex exponential
+\transclude{complex-000F} % complex sine and cosine
+\transclude{complex-000G} % properties of complex exp and trig functions

@@ -1,0 +1,14 @@
+\title{Greatest Common Divisor}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{R} be a [[ra-0003]]. Let #{a,b\in R} with #{b\neq0}. A \define{Greatest Common Divisor} of #{a} and #{b} is a nonzero element #{d\in R} such that:
+\ol{
+\li{It's a common [divisor](ra-001Q): #{d\divides a} and #{d\divides b}, and}
+\li{It's greatest: for any #{d'\in R} such that #{d'\divides a} and #{d'\divides b}, we have #{d'\divides d}.}
+}
+A greatest common divisor of #{a} and #{b} is denoted by #{\gcd(a,b)} or (abusing notation) by #{(a,b)}.}
+
+\rmk{This isn't necessarily unique, we may have multiple distinct greatest common divisors of #{a} and #{b}. When it is unique, we call the ring a \define{GCD Domain} (and it turns out to be an [[ra-000H]]).}

@@ -1,0 +1,16 @@
+\title{Criteria for a subset to be a subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{theorem}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 2.1.1}
+
+\p{Let #{G} be a [[gr-000G]], let #{H\neq\emptyset} be a nonempty subset of #{G}. If for any #{x,y\in H} we have #{xy^{-1}\in H}, then #{H} forms a [[gr-001B]].}
+
+\p{Furthermore, if #{H} is finite, then it suffices to check that #{H} is closed under multiplication (i.e., for any #{x,y\in H} we have #{xy\in H}).}
+
+\proof{\p{If #{x=y}, then #{xx^{-1}=e\in H} contains the identity element.}
+\p{For any #{x\in H}, we have #{ex^{-1}=x^{-1}\in H}, so #{H} is closed under inverting elements.}
+\p{For any #{x,y\in H}, we have #{y^{-1}\in H}, so #{x(y^{-1})^{-1}=xy\in H}, which means #{H} is closed under its binary operator.}
+\p{Hence altogether #{H} forms a subgroup of #{G}.}}

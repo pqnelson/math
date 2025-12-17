@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13177</fr:anchor><fr:addr
+type="user">baez-2001-finite</fr:addr><fr:route>baez-2001-finite.xml</fr:route><fr:title
+text="From Finite Sets to Feynman Diagrams">From Finite Sets to Feynman Diagrams</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2001</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="john-c-baez.xml"
+addr="john-c-baez"
+title="John C. Baez">John C. Baez</fr:link></fr:author><fr:author>james-dolan</fr:author></fr:authors><fr:meta
+name="external">https://arxiv.org/abs/math/0004133</fr:meta><fr:meta
+name="bibtex"><![CDATA[@incollection{baez2001finite,
+  title={From finite sets to Feynman diagrams},
+  author={Baez, John C and Dolan, James},
+  booktitle={Mathematics unlimited---2001 and beyond},
+  pages={29--50},
+  year={2001},
+  publisher={Springer}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree>

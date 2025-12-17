@@ -1,0 +1,14 @@
+\title{Multiplying a subset of a group by a group element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_2}{def 3}{K4}
+\MML{group_2}{def 4}{K5}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{g\in G} be an element of #{G}. Let #{A\subset G} be a subset of #{G}.}
+\ol{
+\li{We define #{gA} to be the subset of #{G} equal to #{gA:=\{g\}A}}
+\li{We define #{Ag} to be the subset of #{G} equal to #{Ag:=A\{g\}}}
+}
+\p{Equivalently, #{x\in gA} iff there is an #{a\in A} such that #{x=ga}; and #{x\in Ag} iff there is an #{a\in A} such that #{x=ag}.}

@@ -7,12 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>586</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important to stress that the ring must be associative. The <fr:link
+type="local"
+href="sedonion-0001.xml"
+addr="sedonion-0001"
+title="Sedonions">Sedonions</fr:link> are a nonassociative unital ring where nonzero elements have a multiplicative inverse <fr:em>and</fr:em> there are also zero divisors.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,26 +31,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:addr
-type="user">gt-000W</fr:addr><fr:route>gt-000W.xml</fr:route><fr:title
-text="Intermediate Value Property">Intermediate Value Property</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>588</fr:anchor><fr:addr
+type="user">ra-000J</fr:addr><fr:route>ra-000J.xml</fr:route><fr:title
+text="Ring elements are either units or some kind of zero divisor">Ring elements are either units or some kind of zero divisor</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Rudin <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:em>associative</fr:em> <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Chapter 4 Exercise 19</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> be any arbitrary element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then either <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. We say <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> has the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Intermediate Value Property</html:dfn> if the image of any continuous real-valued function on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is an interval.</fr:p>
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">Unit</fr:link> or <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000E.xml"
+addr="ra-000E"
+title="Zero Divisor">Zero Divisor</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -56,11 +64,44 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>582</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a left zero divisor, then there is a <fr:tex
+display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[xy=0]]></fr:tex>. But if <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> were also a unit, then
+<fr:tex
+display="block"><![CDATA[\begin {align*}0&=x^{-1}0\\ &=x^{-1}(xy)\\ &=(x^{-1}x)y\\ &=1y=y\end {align*}]]></fr:tex>
+which contradicts the condition that <fr:tex
+display="inline"><![CDATA[y\neq 0]]></fr:tex> in the definition of a zero divisor.</fr:p>
+<fr:p>The situation for <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> being a right zero divisor is similar.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>584</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important to stress that the ring must be associative. The <fr:link
+type="local"
+href="sedonion-0001.xml"
+addr="sedonion-0001"
+title="Sedonions">Sedonions</fr:link> are a nonassociative unital ring where nonzero elements have a multiplicative inverse <fr:em>and</fr:em> there are also zero divisors.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

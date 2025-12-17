@@ -1,0 +1,8 @@
+\title{Product of subsets of a group is associative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\MML{group_2}{10}{T10}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A}, #{B}, #{C} be subsets of #{G}. Then #{A(BC)=(AB)C}.}

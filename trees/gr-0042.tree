@@ -1,0 +1,11 @@
+\title{Semidirect product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{H} and #{K} be [[gr-000G]]s. Let #{\varphi\colon K\to\Aut(H)} be a group morphism. Then we define the \define{Semidirect product} of #{H} with #{K} with respect to #{\varphi} to be the [strict] group #{\Semidirect{H}{K}{\varphi}} consisting of all ordered pairs #{(h,k)} where #{h\in H} and #{k\in K} and
+##{(h,k)(h',k')=(h\cdot\varphi(k)h',kk')}
+is its binary operator.}
+
+\rmk{The exact ordering of components of the ordered pair #{(h,k)} doesn't matter; we could have #{(k,h)} instead. The important thing is being consistent. The notation for #{(k,h)} is usually #{K\ltimes_{\varphi}H}.}

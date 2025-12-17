@@ -7,14 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5649</fr:anchor><fr:addr
-type="machine">#331</fr:addr><fr:route>unstable-331.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2162</fr:anchor><fr:addr
+type="machine">#331</fr:addr><fr:route>unstable-331.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The basic proof idea is to do this by induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>. The base case <fr:tex
-display="inline"><![CDATA[n=1]]></fr:tex> is obvious. The inductive case requires a bit of work, but amounts to following the definitions.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[|Z(G)|=1]]></fr:tex>, then we need <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}[G : C_{G}(x)]]]></fr:tex> for each coset representative <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in each orbit, but this would require <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}|G|-|Z(G)|]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} p^{\nu }-1]]></fr:tex> which contradicts our assumption.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -31,25 +34,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5651</fr:anchor><fr:addr
-type="user">matrix-001O</fr:addr><fr:route>matrix-001O.xml</fr:route><fr:title
-text="Determinant of triangular matrix is product of diagonal entries">Determinant of triangular matrix is product of diagonal entries</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2164</fr:anchor><fr:addr
+type="user">gr-004P</fr:addr><fr:route>gr-004P.xml</fr:route><fr:title
+text="P-groups have nontrivial center">P-groups have nontrivial center</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {T}=(t_{i,j})]]></fr:tex> be a triangular <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> matrix (either <fr:link
+display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be prime, <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
 type="local"
-href="matrix-000B.xml"
-addr="matrix-000B"
-title="Upper-triangular matrix">Upper-triangular matrix</fr:link> or <fr:link
-type="local"
-href="matrix-000C.xml"
-addr="matrix-000C"
-title="Lower-triangular matrix">Lower-triangular matrix</fr:link>, it doesn't matter). Then the determinant of <fr:tex
-display="inline"><![CDATA[\det (\mathbf {T})]]></fr:tex> is just the product of the diagonal entries:</fr:p><fr:tex
-display="block"><![CDATA[\det (\mathbf {T})=\prod ^{n}_{i=1}t_{i,i}.]]></fr:tex>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. If <fr:tex
+display="inline"><![CDATA[|G|=p^{\nu }]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[\nu \in \mathbb {N}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[|Z(G)|>1]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -59,14 +59,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5653</fr:anchor><fr:addr
-type="machine">#331</fr:addr><fr:route>unstable-331.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1314</fr:anchor><fr:addr
+type="machine">#331</fr:addr><fr:route>unstable-331.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The basic proof idea is to do this by induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>. The base case <fr:tex
-display="inline"><![CDATA[n=1]]></fr:tex> is obvious. The inductive case requires a bit of work, but amounts to following the definitions.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[|Z(G)|=1]]></fr:tex>, then we need <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}[G : C_{G}(x)]]]></fr:tex> for each coset representative <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in each orbit, but this would require <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}|G|-|Z(G)|]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} p^{\nu }-1]]></fr:tex> which contradicts our assumption.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

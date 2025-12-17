@@ -7,20 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1755</fr:anchor><fr:addr
-type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>490</fr:anchor><fr:addr
+type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We're playing "fast and loose" with things here, but for a discussion of axiomatic set theory based on classes (using the NBG axioms), see <fr:link
-type="local"
-href="taras-banakh.xml"
-addr="taras-banakh"
-title="Taras Banakh">Taras Banakh</fr:link>'s <fr:link
-type="local"
-href="banakh-2020-classical.xml"
-addr="banakh-2020-classical"
-title="Classical Set Theory: Theory of Sets and Classes">Classical Set Theory: Theory of Sets and Classes</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
+<fr:p>(2) The condition that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
+display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
+<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
+type="external"
+href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -35,19 +35,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1757</fr:anchor><fr:addr
-type="user">nst-001P</fr:addr><fr:route>nst-001P.xml</fr:route><fr:title
-text="Classes">Classes</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>492</fr:anchor><fr:addr
+type="user">ra-001H</fr:addr><fr:route>ra-001H.xml</fr:route><fr:title
+text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We will often informally refer to a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">(Proper) Class</html:dfn> as an unordered collection which is "too big" to be a set.</fr:p><fr:p>For example, the von Neumann universe <fr:tex
-display="inline"><![CDATA[\mathbf {V}]]></fr:tex> is the proper class of all sets.</fr:p><fr:p>In practice, we seldom need to work with proper classes directly. The Working Mathematician needs only sets (until we get to Category Theory, but we'll revisit this as needed).</fr:p><fr:p>The <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Axiom of limitation of size</html:dfn> asserts a collection <fr:tex
-display="inline"><![CDATA[C]]></fr:tex> is a proper class if and only if there exists a surjective function from <fr:tex
-display="inline"><![CDATA[C]]></fr:tex> to the von Neumann universe <fr:tex
-display="inline"><![CDATA[\mathbf {V}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Krull's <fr:link
+type="local"
+href="krull-1929-idealtheorie.xml"
+addr="krull-1929-idealtheorie"
+title="Idealtheorie in Ringen ohne Endlichkeitsbedingung">Idealtheorie in Ringen ohne Endlichkeitsbedingung</fr:link> (1929)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R\neq 0]]></fr:tex> be a nonzero unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then there exists a <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">maximal ideal</fr:link> <fr:tex
+display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -57,19 +67,44 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1759</fr:anchor><fr:addr
-type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>486</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We're playing "fast and loose" with things here, but for a discussion of axiomatic set theory based on classes (using the NBG axioms), see <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
 type="local"
-href="taras-banakh.xml"
-addr="taras-banakh"
-title="Taras Banakh">Taras Banakh</fr:link>'s <fr:link
+href="ra-0013.xml"
+addr="ra-0013"
+title="Trivial ideal">Trivial ideal</fr:link>). Then Zorn's lemma implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>488</fr:anchor><fr:addr
+type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="banakh-2020-classical.xml"
-addr="banakh-2020-classical"
-title="Classical Set Theory: Theory of Sets and Classes">Classical Set Theory: Theory of Sets and Classes</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
+<fr:p>(2) The condition that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
+display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
+<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
+type="external"
+href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,52 +7,33 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>506</fr:anchor><fr:addr
-type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9577</fr:anchor><fr:addr
+type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume for contradiction <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is not uniformly continuous. Then there exists an <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex> such that for every <fr:tex
-display="inline"><![CDATA[\delta >0]]></fr:tex> and for every <fr:tex
-display="inline"><![CDATA[a,b\in  X]]></fr:tex> we have
-<fr:tex
-display="block"><![CDATA[d(a,b)<\delta \quad \hbox {and}\quad \rho (f(a),f(b))\geq \varepsilon .]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> is compact, it is <fr:link
-type="local"
-href="ca-0022.xml"
-addr="ca-0022"
-title="Sequentially compact subset">sequentially compact</fr:link> by <fr:link
-type="local"
-href="ca-0023.xml"
-addr="ca-0023"
-title="Characterization of compactness for metric spaces">Characterization of compactness for metric spaces</fr:link>. Then for each <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, there exists <fr:tex
-display="inline"><![CDATA[x_{n}\in  X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y_{n}\in  X]]></fr:tex> such that
-<fr:tex
-display="block"><![CDATA[d(x_{n},y_{n})<\frac {1}{n}\quad \hbox {and}\quad \rho (f(x_{n}),f(y_{n}))\geq \varepsilon .]]></fr:tex>
-But by <fr:link
-type="local"
-href="ca-0022.xml"
-addr="ca-0022"
-title="Sequentially compact subset">sequential compactness</fr:link> there exists an <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> and a subsequence <fr:tex
-display="inline"><![CDATA[(x_{n_{k}})]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[x_{n_{k}}\to  x]]></fr:tex> converges. Then using the triangle inequality, we have
-<fr:tex
-display="block"><![CDATA[\begin {align} d(y_{n_{k}},x) & \leq  d(y_{n_{k}},x_{n_{k}}) + d(x_{n_{k}},x)\\ &\leq \frac {1}{n_{k}}  + d(x_{n_{k}},x), \end {align}]]></fr:tex>
-which goes to zero for sufficiently large <fr:tex
-display="inline"><![CDATA[n_{k}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(y_{n_{k}})\to  x]]></fr:tex>. Then by continuity of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, their images (using the triangle inequality):
-<fr:tex
-display="block"><![CDATA[\rho (f(x_{n_{k}}), f(y_{n_{k}}))\leq \rho (f(x_{n_{k}}), f(x)) + \rho (f(x), f(y_{n_{k}})),]]></fr:tex>
-which goes to zero by continuity. But this contradicts <fr:tex
-display="inline"><![CDATA[\rho (f(x_{n_{k}}),f(x))\geq \varepsilon ]]></fr:tex>, hence <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> must be uniformly continuous.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
+display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
+display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -69,44 +50,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>508</fr:anchor><fr:addr
-type="user">ca-0025</fr:addr><fr:route>ca-0025.xml</fr:route><fr:title
-text="Heine-Cantor theorem">Heine-Cantor theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9579</fr:anchor><fr:addr
+type="user">nst-000N</fr:addr><fr:route>nst-000N.xml</fr:route><fr:title
+text="Ordered pairs implement their specification">Ordered pairs implement their specification</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Gunning's <fr:link
+name="source"><fr:link
 type="local"
-href="gunning-2017-introduction.xml"
-addr="gunning-2017-introduction"
-title="An Introduction to Analysis">An Introduction to Analysis</fr:link> Theorem 3.18</fr:meta><fr:meta
-name="source">Royden and Fitzpatrick's <fr:link
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
 type="local"
-href="royden-2010-real.xml"
-addr="royden-2010-real"
-title="Real Analysis">Real Analysis</fr:link>, Ch. 9 Proposition 23</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
-type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>s. Assume that <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> is <fr:link
-type="local"
-href="ca-001T.xml"
-addr="ca-001T"
-title="Compact subset of a metric space">compact</fr:link>. Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
-type="local"
-href="ca-001L.xml"
-addr="ca-001L"
-title="Continuous function between metric spaces">continuous function</fr:link>. Then <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is <fr:link
-type="local"
-href="ca-001P.xml"
-addr="ca-001P"
-title="Uniformly Continuous function">uniformly continuous</fr:link>.</fr:p>
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/xtuple_0.html#T1">xtuple_0:1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[c]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> be objects. If <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -116,52 +85,33 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr
-type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3939</fr:anchor><fr:addr
+type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume for contradiction <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is not uniformly continuous. Then there exists an <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex> such that for every <fr:tex
-display="inline"><![CDATA[\delta >0]]></fr:tex> and for every <fr:tex
-display="inline"><![CDATA[a,b\in  X]]></fr:tex> we have
-<fr:tex
-display="block"><![CDATA[d(a,b)<\delta \quad \hbox {and}\quad \rho (f(a),f(b))\geq \varepsilon .]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> is compact, it is <fr:link
-type="local"
-href="ca-0022.xml"
-addr="ca-0022"
-title="Sequentially compact subset">sequentially compact</fr:link> by <fr:link
-type="local"
-href="ca-0023.xml"
-addr="ca-0023"
-title="Characterization of compactness for metric spaces">Characterization of compactness for metric spaces</fr:link>. Then for each <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, there exists <fr:tex
-display="inline"><![CDATA[x_{n}\in  X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y_{n}\in  X]]></fr:tex> such that
-<fr:tex
-display="block"><![CDATA[d(x_{n},y_{n})<\frac {1}{n}\quad \hbox {and}\quad \rho (f(x_{n}),f(y_{n}))\geq \varepsilon .]]></fr:tex>
-But by <fr:link
-type="local"
-href="ca-0022.xml"
-addr="ca-0022"
-title="Sequentially compact subset">sequential compactness</fr:link> there exists an <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> and a subsequence <fr:tex
-display="inline"><![CDATA[(x_{n_{k}})]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[x_{n_{k}}\to  x]]></fr:tex> converges. Then using the triangle inequality, we have
-<fr:tex
-display="block"><![CDATA[\begin {align} d(y_{n_{k}},x) & \leq  d(y_{n_{k}},x_{n_{k}}) + d(x_{n_{k}},x)\\ &\leq \frac {1}{n_{k}}  + d(x_{n_{k}},x), \end {align}]]></fr:tex>
-which goes to zero for sufficiently large <fr:tex
-display="inline"><![CDATA[n_{k}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(y_{n_{k}})\to  x]]></fr:tex>. Then by continuity of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, their images (using the triangle inequality):
-<fr:tex
-display="block"><![CDATA[\rho (f(x_{n_{k}}), f(y_{n_{k}}))\leq \rho (f(x_{n_{k}}), f(x)) + \rho (f(x), f(y_{n_{k}})),]]></fr:tex>
-which goes to zero by continuity. But this contradicts <fr:tex
-display="inline"><![CDATA[\rho (f(x_{n_{k}}),f(x))\geq \varepsilon ]]></fr:tex>, hence <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> must be uniformly continuous.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
+display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
+display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

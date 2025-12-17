@@ -7,12 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>583</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[x+(-1)\star  x=1\star  x+(-1)\star  x]]></fr:tex> and then distributivity gives us <fr:tex
+display="inline"><![CDATA[x+(-1)\star  x=(1-1)\star  x=0\star  x]]></fr:tex> and from <fr:link
+type="local"
+href="ra-0007.xml"
+addr="ra-0007"
+title="Multiplication by Zero is Zero in a ring">Multiplication by Zero is Zero in a ring</fr:link> we have the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,26 +35,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:addr
-type="user">gt-000W</fr:addr><fr:route>gt-000W.xml</fr:route><fr:title
-text="Intermediate Value Property">Intermediate Value Property</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>585</fr:anchor><fr:addr
+type="user">ra-000B</fr:addr><fr:route>ra-000B.xml</fr:route><fr:title
+text="Negation in a unital ring is multiplying by minus one">Negation in a unital ring is multiplying by minus one</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Rudin <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Chapter 4 Exercise 19</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
-type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. We say <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> has the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Intermediate Value Property</html:dfn> if the image of any continuous real-valued function on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is an interval.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. For any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[-x=(-1)\star  x]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -56,11 +58,19 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>587</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[x+(-1)\star  x=1\star  x+(-1)\star  x]]></fr:tex> and then distributivity gives us <fr:tex
+display="inline"><![CDATA[x+(-1)\star  x=(1-1)\star  x=0\star  x]]></fr:tex> and from <fr:link
+type="local"
+href="ra-0007.xml"
+addr="ra-0007"
+title="Multiplication by Zero is Zero in a ring">Multiplication by Zero is Zero in a ring</fr:link> we have the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,15 @@
+\title{Product of family of sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\MML{card_3}{def 5}{K4}
+\meta{source}{[Proofwiki](https://proofwiki.org/wiki/Definition:Cartesian_Product/Family_of_Sets)}
+
+\p{Let #{I} be a set, let #{\mathcal{F}=\{F_{i}\}_{i\in I}} be an [[nst-002D]] indexed by #{I}. We define the \define{Product} of #{\{F_{i}\}_{i\in I}} to be the set #{\prod\mathcal{F}=\prod_{i\in I}F_{i}} such that for any object #{x}, we have #{x\in\prod_{i\in I}} if and only if #{x} if function-like and #{\dom(x)=\dom(\mathcal{F})} and for each #{i\in I} we have #{x_{i}\in F_{i}}.}
+
+\proof{\p{\textbf{Well-definedness:} We should prove this is well-defined, but we see this is equivalent to:
+##{\prod_{i\in I}F_{i}=\{x\in\hom(I,\bigcup_{i\in I}F_{i})\mid\forall i\in I\ldotp x(i)\in F_{i}\}.}
+This is obvious a well-defined set using [[nst-0009]].}}
+
+\rmk{We see that when #{I=\{0,1\}}, this is bijective (but not equal) to #{F_{0}\times F_{1}}.}

@@ -1,0 +1,15 @@
+\title{Element is prime iff it generates a nonzero prime ideal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+
+\p{Let #{R} be a [[ra-0003]], let #{p\in R}. Then #{p} is a [[ra-001T]] if and only if #{(p)} is a nonzero [[ra-001D]].}
+
+\proof{\p{\forwardproof Let #{p} be a [[ra-001T]]. Then for any #{a,b\in R},
+##{\begin{align*}ab\in(p)
+&\iff \exists r\in R\ldotp ab=pr\\
+&\iff p\divides ab \mbox{ iff }p\divides a\mbox{ or }p\divides b\\
+&\iff a\in(p)\mbox{ or }b\in(p)\\
+&\iff (p) \mbox{ is a prime ideal}\end{align*}}}
+\p{\backwardproof Let #{P=(p)} be a nonzero prime ideal. For any #{a,b\in R}, if #{p\divides ab}, then #{ab\in P}, which implies #{a\in P} or #{b\in P} by definition of prime ideals. So we have #{p\divides a} or #{p\divides b}. Hence #{p} is a prime element of #{R}.}}

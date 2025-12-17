@@ -3,6 +3,7 @@
 \import{notation}
 \date{2025-12-08}
 \taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.4}
 
 \p{A \define{Field} is traditionally defined as a set #{F} with two binary operators, addition (denoted #{+}) and multiplication (denoted #{\cdot}), satisfying the field axioms:}
 

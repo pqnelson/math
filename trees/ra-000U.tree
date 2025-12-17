@@ -1,0 +1,9 @@
+\title{Inclusion of factor into direct product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{non-example}
+
+\p{Consider #{i\colon\QQ\into\QQ\times\QQ} defined by #{i(x)=(x,0)}. We claim #{i} is not a [[ra-000T]].}
+
+\proof{\p{We see that #{i(1)=(1,0)\neq(1,1)} so #{i} cannot possibly be multiplicative.}}

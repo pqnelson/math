@@ -1,0 +1,9 @@
+\title{Epitome of nonsplit extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{example}
+
+\p{Let #{p\in\NN} be a prime number. We see the extension of commutative groups,
+##{0\to p\ZZ / p^{2}\ZZ\to \ZZ / p^{2}\ZZ\to \ZZ / p\ZZ\to 0,}
+is \emph{the} example of a nonspit extension.}

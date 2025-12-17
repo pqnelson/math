@@ -7,12 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7307</fr:anchor><fr:addr
-type="machine">#341</fr:addr><fr:route>unstable-341.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2202</fr:anchor><fr:addr
+type="machine">#341</fr:addr><fr:route>unstable-341.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"Scalar multiplication" refers to the fact we are multiplying a matrix by a "scalar" [number], as opposed to multiplying by a vector or another matrix.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The exact ordering of components of the ordered pair <fr:tex
+display="inline"><![CDATA[(h,k)]]></fr:tex> doesn't matter; we could have <fr:tex
+display="inline"><![CDATA[(k,h)]]></fr:tex> instead. The important thing is being consistent. The notation for <fr:tex
+display="inline"><![CDATA[(k,h)]]></fr:tex> is usually <fr:tex
+display="inline"><![CDATA[K\ltimes _{\varphi }H]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,24 +31,31 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7309</fr:anchor><fr:addr
-type="user">matrix-000I</fr:addr><fr:route>matrix-000I.xml</fr:route><fr:title
-text="Scalar multiplication (on a matrix)">Scalar multiplication (on a matrix)</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2204</fr:anchor><fr:addr
+type="user">gr-0042</fr:addr><fr:route>gr-0042.xml</fr:route><fr:title
+text="Semidirect product">Semidirect product</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> be a real [or complex] number. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Scalar Multiple</html:dfn> of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> to be the <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix <fr:tex
-display="inline"><![CDATA[r\mathbf {A} = (ra_{i,j})]]></fr:tex> whose components are obtained by multiplying every component of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>. We can also write this as <fr:tex
-display="inline"><![CDATA[r\cdot  \mathbf {A}=r\mathbf {A}]]></fr:tex> to make the scalar multiplication explicit.</fr:p>
+display="inline"><![CDATA[H]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> be <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  K\to \mathop {\textrm {Aut}}\nolimits (H)]]></fr:tex> be a group morphism. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Semidirect product</html:dfn> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> with respect to <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to be the [strict] group <fr:tex
+display="inline"><![CDATA[H\rtimes _{\varphi }K]]></fr:tex> consisting of all ordered pairs <fr:tex
+display="inline"><![CDATA[(h,k)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[h\in  H]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[k\in  K]]></fr:tex> and
+<fr:tex
+display="block"><![CDATA[(h,k)(h',k')=(h\cdot \varphi (k)h',kk')]]></fr:tex>
+is its binary operator.</fr:p>
  
    
    <fr:tree
@@ -54,11 +65,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3971</fr:anchor><fr:addr
-type="machine">#341</fr:addr><fr:route>unstable-341.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1252</fr:anchor><fr:addr
+type="machine">#341</fr:addr><fr:route>unstable-341.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"Scalar multiplication" refers to the fact we are multiplying a matrix by a "scalar" [number], as opposed to multiplying by a vector or another matrix.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The exact ordering of components of the ordered pair <fr:tex
+display="inline"><![CDATA[(h,k)]]></fr:tex> doesn't matter; we could have <fr:tex
+display="inline"><![CDATA[(k,h)]]></fr:tex> instead. The important thing is being consistent. The notation for <fr:tex
+display="inline"><![CDATA[(k,h)]]></fr:tex> is usually <fr:tex
+display="inline"><![CDATA[K\ltimes _{\varphi }H]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

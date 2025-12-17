@@ -1,0 +1,10 @@
+\title{Proof by induction}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+
+\p{If we have a claim which is a formula indexed by natural numbers #{P[n]}, then a proof by induction on #{n} looks like:}
+\ol{
+\li{\textbf{Base case:} For #{n=0} (or #{n=1}), prove #{P[0]} (resp., #{P[1]}).}
+\li{\textbf{Inductive argument:} For arbitrary #{n}, prove the claim "If #{P[n]} then #{P[n+1]}". Usually this is done by a [[nst-002G]] and we call the statement "Assume #{P[n]}" the \define{Inductive Hypothesis}.}
+}

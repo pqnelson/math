@@ -1,0 +1,16 @@
+\title{Right ideal of a ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\MML{ideal_1}{def 2}{M2}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 7.3}
+\meta{source}{Artin [[artin-2010-algebra]] Section 11.3}
+\meta{source}{Hungerford [[hungerford-1974-algebra]] Section III.2}
+
+\p{Let #{R} be a [[ring-0001]]. A \define{Right Ideal} of #{R} is a nonempty subset #{I\subset R} such that
+\ol{
+\li{for any #{r\in R} and #{x\in I} we have #{xr\in I}; and}
+\li{for any #{x,y\in I} we have #{x+y\in I}.}
+}}

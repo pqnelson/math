@@ -1,0 +1,13 @@
+\title{Algebra}
+\author{michael-artin}
+\taxon{reference}
+\date{2010}
+
+\meta{bibtex}{\startverb
+@book{artin2010algebra,
+  author={Michael Artin},
+  title={Algebra},
+  edition={second},
+  year={2010},
+  publisher={McGraw Hill}
+}\stopverb}

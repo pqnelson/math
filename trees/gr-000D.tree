@@ -1,0 +1,16 @@
+\title{Inverse with respect to an associative binary operator is unique}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{proposition}
+
+\p{Let #{A} be a set, let #{\mu} be an [[gr-0003]] on #{A}. Let #{e\in A} be the [[gr-0005]] for #{\mu}. For any element #{a\in A}, there is at most 1 [inverse](gr-000C) for #{a} with respect to #{\mu}.}
+
+\proof{\p{Let #{b_{1},b_{2}\in A} be inverses for #{a}. Then
+##{\begin{align}
+b_{1}&=\mu(b_{1},e)\\
+&=\mu(b_{1},\mu(a,b_{2}))\\
+&=\mu(\mu(b_{1},a),b_{2})\mbox{ by associativity}\\
+&=\mu(e,b_{2})\\
+&=b_{2}.\end{align}}
+Hence the result.}}

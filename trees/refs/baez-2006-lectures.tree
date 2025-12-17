@@ -1,0 +1,14 @@
+\title{Lectures on n-Categories and Cohomology}
+\author{john-c-baez}
+\author{michael-shulman}
+\taxon{reference}
+\date{2006}
+\meta{external}{https://arxiv.org/abs/math/0608420}
+
+\meta{bibtex}{\startverb
+@article{baez2006lectures,
+  title={Lectures on n-Categories and Cohomology},
+  author={Baez, John C and Shulman, Michael},
+  journal={arXiv preprint math/0608420},
+  year={2006}
+}\stopverb}

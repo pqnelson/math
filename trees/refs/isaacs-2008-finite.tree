@@ -1,0 +1,13 @@
+\title{Finite Group Theory}
+\author{i-martin-isaacs}
+\taxon{reference}
+\date{2008}
+
+\meta{bibtex}{\startverb
+@book{isaacs2008finite,
+  title={Finite Group Theory},
+  author={Isaacs, I Martin},
+  volume={92},
+  year={2008},
+  publisher={American Mathematical Society}
+}\stopverb}

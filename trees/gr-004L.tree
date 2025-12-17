@@ -1,0 +1,15 @@
+\title{Cosets of stabilizer are bijective with the orbits}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\meta{source}{Artin's [[artin-2010-algebra]] Proposition 6.8.4}
+
+\p{Let #{G} be a [[gr-000G]], let #{X} be a set, suppose #{G} [acts](gr-004Y) on #{X}. Let #{x\in X} be arbitrary. The function
+##{\begin{split}\overline{f}\colon &G/\Stabilizer{G}{x}\to G\cdot x\\ &g\Stabilizer{G}{x}\mapsto g\cdot x\end{split}}
+% ##{\begin{split}f\colon &G\to X\\ &g\mapsto g\cdot x\end{split}}
+is a bijection between the [left cosets](gr-003H) #{G/\Stabilizer{G}{x}} and the orbit #{G\cdot x}.}
+
+\proof{\p{We need to show #{\overline{f}} is a well-defined [[nst-0014]]. We see if #{a\Stabilizer{G}{x}=b\Stabilizer{G}{x}}, then #{a^{-1}b\in\Stabilizer{G}{x}} and by definition of the [[gr-004C]] we see #{a^{-1}b\cdot x=x} and therefore #{a\cdot x=b\cdot x}. Therefore this is a well-defined function.}
+\p{Reading this argument backwards, we establish #{\overline{f}} is [injective](ela-001J).}
+\p{Since #{\overline{f}} maps #{g\Stabilizer{G}{x}} to #{g\cdot x}, and #{g\cdot x} can be an arbitrary element of #{G\cdot x}, this means #{\overline{f}} is [surjective](ela-001I). Hence #{\overline{f}} is [bijective](ela-001K).}}

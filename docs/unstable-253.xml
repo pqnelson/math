@@ -7,32 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1723</fr:anchor><fr:addr
-type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4796</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume for contradiction that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a set such that for all ordinals <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[A\in  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define a unital ring as an <fr:link
 type="local"
-href="nst-0021.xml"
-addr="nst-0021"
-title="Transitive set">Transitive set</fr:link> and <fr:link
-type="local"
-href="nst-0022.xml"
-addr="nst-0022"
-title="Connected set">Connected set</fr:link>, which implies <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is an <fr:link
-type="local"
-href="nst-0023.xml"
-addr="nst-0023"
-title="Ordinal number">Ordinal number</fr:link>. Then <fr:tex
-display="inline"><![CDATA[X\in  X]]></fr:tex>, which is impossible.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="gr-000J.xml"
+addr="gr-000J"
+title="Abelian group">Abelian group</fr:link> equipped with a monoid structure. The axioms for a unital ring would be satisfied automatically.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -47,19 +31,41 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1725</fr:anchor><fr:addr
-type="user">nst-002C</fr:addr><fr:route>nst-002C.xml</fr:route><fr:title
-text="There is no set of all ordinals">There is no set of all ordinals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4798</fr:anchor><fr:addr
+type="user">ring-0001</fr:addr><fr:route>ring-0001.xml</fr:route><fr:title
+text="Ring">Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/card_1.html#T25">card_1:25</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There is no set <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> such that for all ordinals <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[A\in  X]]></fr:tex>. In other words, there is no set of all ordinal numbers.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Unital) Ring</html:dfn> consists of a set <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> equipped with
+<fr:ul><fr:li>an Abelian group structure <fr:tex
+display="inline"><![CDATA[(R,+,0)]]></fr:tex>, and</fr:li>
+<fr:li>a multiplication <fr:tex
+display="inline"><![CDATA[\star \colon  R\times  R\to  R]]></fr:tex>, and</fr:li>
+<fr:li>(Optional) a "one" element <fr:tex
+display="inline"><![CDATA[1\in  R]]></fr:tex></fr:li></fr:ul>
+such that for any <fr:tex
+display="inline"><![CDATA[a,b,c\in  R]]></fr:tex>,
+<fr:ol><fr:li>Associativity of addition: <fr:tex
+display="inline"><![CDATA[a+(b+c)=(a+b)+c]]></fr:tex></fr:li>
+<fr:li>Additive identity element: <fr:tex
+display="inline"><![CDATA[a+0=0+a=a]]></fr:tex></fr:li>
+<fr:li>Additive inverse: <fr:tex
+display="inline"><![CDATA[a+(-a)=0]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: <fr:tex
+display="inline"><![CDATA[a+b=b+a]]></fr:tex></fr:li>
+<fr:li>(Optional) Associativity of multiplication: <fr:tex
+display="inline"><![CDATA[a\star (b\star  c)=(a\star  b)\star  c]]></fr:tex></fr:li>
+<fr:li>(Optional) Unital property (i.e., multiplicative identity element): <fr:tex
+display="inline"><![CDATA[a\star 1=1\star  a=a]]></fr:tex></fr:li>
+<fr:li>Left distributivity of multiplication over addition: <fr:tex
+display="inline"><![CDATA[a\star (b+c)=(a\star  b)+(a\star  c)]]></fr:tex></fr:li>
+<fr:li>Right distributivity of multiplication over addition <fr:tex
+display="inline"><![CDATA[(a+b)\star  c=(a\star  c)+(b\star  c)]]></fr:tex></fr:li></fr:ol>
+Some rings don't have a multiplicative unit <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, in which case they are "nonunital rings". If we don't care about the existence of the multiplicative unit, we'll just speak of "rings".</fr:p><fr:p>We also don't require all rings to be associative (i.e., multiplication may or may not be associative). When it matters, we will speak of "associative rings" and "nonassociative rings", but by default we will assume rings as associative.</fr:p>
  
    
    <fr:tree
@@ -69,52 +75,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1629</fr:anchor><fr:addr
-type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>643</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume for contradiction that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a set such that for all ordinals <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[A\in  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define a unital ring as an <fr:link
 type="local"
-href="nst-0021.xml"
-addr="nst-0021"
-title="Transitive set">Transitive set</fr:link> and <fr:link
-type="local"
-href="nst-0022.xml"
-addr="nst-0022"
-title="Connected set">Connected set</fr:link>, which implies <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is an <fr:link
-type="local"
-href="nst-0023.xml"
-addr="nst-0023"
-title="Ordinal number">Ordinal number</fr:link>. Then <fr:tex
-display="inline"><![CDATA[X\in  X]]></fr:tex>, which is impossible.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1631</fr:anchor><fr:addr
-type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"The collection of all ordinal numbers" is another example of a <fr:link
-type="local"
-href="nst-001P.xml"
-addr="nst-001P"
-title="Classes">proper class</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="gr-000J.xml"
+addr="gr-000J"
+title="Abelian group">Abelian group</fr:link> equipped with a monoid structure. The axioms for a unital ring would be satisfied automatically.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

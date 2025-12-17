@@ -7,20 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7077</fr:anchor><fr:addr
-type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2145</fr:anchor><fr:addr
+type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[h\in  C_{G}(g)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[hg=gh]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[g=h^{-1}gh=g^{h}]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[h]]></fr:tex> is a fixed-point of <fr:tex
+display="inline"><![CDATA[g\cdot -]]></fr:tex>. This argument holds backwards, which establishes the bijection.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -37,15 +34,31 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7079</fr:anchor><fr:addr
-type="user">matrix-001I</fr:addr><fr:route>matrix-001I.xml</fr:route><fr:title
-text="Matrix Inverse is Idempotent">Matrix Inverse is Idempotent</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2147</fr:anchor><fr:addr
+type="user">gr-004M</fr:addr><fr:route>gr-004M.xml</fr:route><fr:title
+text="Centralizer is fixed-point of conjugation action">Centralizer is fixed-point of conjugation action</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an invertible matrix. Then <fr:tex
-display="inline"><![CDATA[(\mathbf {A}^{-1})^{-1}=\mathbf {A}]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Consider the <fr:link
+type="local"
+href="gr-004H.xml"
+addr="gr-004H"
+title="Conjugation action">Conjugation action</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on itself. Let <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>. Then the <fr:link
+type="local"
+href="gr-001Q.xml"
+addr="gr-001Q"
+title="Centralizer of an element">centralizer</fr:link> <fr:tex
+display="inline"><![CDATA[C_{G}(g)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is the set of all fixed-points of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> under this action.</fr:p>
  
    
    <fr:tree
@@ -55,20 +68,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6001</fr:anchor><fr:addr
-type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1287</fr:anchor><fr:addr
+type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[h\in  C_{G}(g)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[hg=gh]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[g=h^{-1}gh=g^{h}]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[h]]></fr:tex> is a fixed-point of <fr:tex
+display="inline"><![CDATA[g\cdot -]]></fr:tex>. This argument holds backwards, which establishes the bijection.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

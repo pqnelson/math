@@ -1,0 +1,13 @@
+\title{Review of the integers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+
+\transclude{nt-0001} % well-ordering principle
+\transclude{nt-0002} % division algorithm
+\transclude{nt-0003} % Greatest common divisor
+\transclude{nt-0004} % Unique Prime Factorization
+\transclude{nt-0005} % Euler totient
+\transclude{nt-0006} % \varphi(mn)=\varphi(m)\varphi(n)
+\transclude{nt-0007} % quotient set
+\transclude{nt-0008} % integers modulo #{n}

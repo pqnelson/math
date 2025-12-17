@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2319</fr:anchor><fr:addr
+type="user">gr-004X</fr:addr><fr:route>gr-004X.xml</fr:route><fr:title
+text="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.11</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> be an arbitrary <fr:link
+type="local"
+href="gr-004O.xml"
+addr="gr-004O"
+title="P-Group"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be any <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1332</fr:anchor><fr:addr
+type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Omega =\{Sx\mid  x\in  G\}]]></fr:tex> be the set of <fr:link
+type="local"
+href="gr-003I.xml"
+addr="gr-003I"
+title="Right cosets of a subgroup">right cosets</fr:link> of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Observe <fr:tex
+display="inline"><![CDATA[|\Omega |=[G : S]]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts by right multiplication on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> acts too, and <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbits. Since <fr:tex
+display="inline"><![CDATA[|\Omega ]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, there must exist some <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>By the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is the index in <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> of some subgroup. It follows that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|P|]]></fr:tex>, which is a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is both a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, so the only possibility is <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=1]]></fr:tex>. Since the members of <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> are right cosets of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, we can consider <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}=\{Sg\}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[Sg]]></fr:tex> is alone in a <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit, it follows that it is fixed under the action of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[Sgu=Sg]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[u\in  P]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[gu\in  Sg]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[u\in  g^{-1}Sg=S^{g}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2321</fr:anchor><fr:addr
+type="user">isaacs-2008-finite</fr:addr><fr:route>isaacs-2008-finite.xml</fr:route><fr:title
+text="Finite Group Theory">Finite Group Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2008</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="i-martin-isaacs.xml"
+addr="i-martin-isaacs"
+title="I. Martin Isaacs">I. Martin Isaacs</fr:link></fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[@book{isaacs2008finite,
+  title={Finite Group Theory},
+  author={Isaacs, I Martin},
+  volume={92},
+  year={2008},
+  publisher={American Mathematical Society}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2323</fr:anchor><fr:addr
+type="user">gr-004T</fr:addr><fr:route>gr-004T.xml</fr:route><fr:title
+text="Sylow's theorems">Sylow's theorems</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Sylow theorems tell us about the existence and (non)uniqueness of <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link>s of a finite group. The numbering differs book to book, so we will be following <fr:link
+type="local"
+href="i-martin-isaacs.xml"
+addr="i-martin-isaacs"
+title="I. Martin Isaacs">I. Martin Isaacs</fr:link>'s <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> in describing these theorems.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1324</fr:anchor><fr:addr
+type="user">gr-004U</fr:addr><fr:route>gr-004U.xml</fr:route><fr:title
+text="Existence of a Sylow p-Subgroup">Existence of a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.7 (Sylow E-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a prime number. Then <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> has a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1326</fr:anchor><fr:addr
+type="machine">#329</fr:addr><fr:route>unstable-329.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
+type="local"
+href="gr-003K.xml"
+addr="gr-003K"
+title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1328</fr:anchor><fr:addr
+type="machine">#330</fr:addr><fr:route>unstable-330.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(Wielendt) Let <fr:tex
+display="inline"><![CDATA[|G|=p^{a}m]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a\geq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p\nmid  m]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Omega =\{A\subseteq  G\mid  |A|=p^{a}\}]]></fr:tex>. We see that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> by right multiplication. Since this is an action, <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into orbits, and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is the sum of the orbit sizes.</fr:p>
+<fr:p>But
+<fr:tex
+display="block"><![CDATA[|\Omega |=\binom {p^{a}m}{p^{a}}\equiv  m\not \equiv 0\pmod {p},]]></fr:tex>
+and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then there exists some orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[X\in \mathcal {O}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H=G_{X}]]></fr:tex> be the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=|G|/|H|]]></fr:tex> by the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, and since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|G|]]></fr:tex>, we must conclude <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex>, and in particular <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> stabilizes <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> under right multiplication, we see if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[xH\subseteq  X]]></fr:tex>, and then <fr:tex
+display="inline"><![CDATA[|H|=|xH|\leq |X|=p^{a}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|\leq  p^{a}]]></fr:tex>, we must have <fr:tex
+display="inline"><![CDATA[|H|=p^{a}]]></fr:tex>, and this is a Sylow subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as desired.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1330</fr:anchor><fr:addr
+type="user">gr-004X</fr:addr><fr:route>gr-004X.xml</fr:route><fr:title
+text="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.11</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> be an arbitrary <fr:link
+type="local"
+href="gr-004O.xml"
+addr="gr-004O"
+title="P-Group"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be any <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1332</fr:anchor><fr:addr
+type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Omega =\{Sx\mid  x\in  G\}]]></fr:tex> be the set of <fr:link
+type="local"
+href="gr-003I.xml"
+addr="gr-003I"
+title="Right cosets of a subgroup">right cosets</fr:link> of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Observe <fr:tex
+display="inline"><![CDATA[|\Omega |=[G : S]]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts by right multiplication on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> acts too, and <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbits. Since <fr:tex
+display="inline"><![CDATA[|\Omega ]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, there must exist some <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>By the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is the index in <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> of some subgroup. It follows that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|P|]]></fr:tex>, which is a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is both a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, so the only possibility is <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=1]]></fr:tex>. Since the members of <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> are right cosets of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, we can consider <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}=\{Sg\}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[Sg]]></fr:tex> is alone in a <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit, it follows that it is fixed under the action of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[Sgu=Sg]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[u\in  P]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[gu\in  Sg]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[u\in  g^{-1}Sg=S^{g}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1334</fr:anchor><fr:addr
+type="user">gr-004V</fr:addr><fr:route>gr-004V.xml</fr:route><fr:title
+text="Sylow p-Subgroups are conjugate">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroups are conjugate</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.12 (Sylow C-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> be <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link>s of a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, then there exists a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[T=S^{g}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1336</fr:anchor><fr:addr
+type="machine">#327</fr:addr><fr:route>unstable-327.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows immediately from <fr:link
+type="local"
+href="gr-004X.xml"
+addr="gr-004X"
+title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> taking <fr:tex
+display="inline"><![CDATA[P=T]]></fr:tex> gives us <fr:tex
+display="inline"><![CDATA[T\subseteq  S^{g}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>. Since both <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> are Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroups, we have <fr:tex
+display="inline"><![CDATA[|S|=|T|=|S^{g}|]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[T=S^{g}]]></fr:tex> as desired.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1338</fr:anchor><fr:addr
+type="machine">#328</fr:addr><fr:route>unstable-328.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a "finite analog" of a result in Lie theory where all maximal tori are conjugate to each other.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1340</fr:anchor><fr:addr
+type="user">gr-004W</fr:addr><fr:route>gr-004W.xml</fr:route><fr:title
+text="Sylow &quot;Development&quot; Theorem">Sylow "Development" Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.14 (Sylow D-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> be a <fr:link
+type="local"
+href="gr-004O.xml"
+addr="gr-004O"
+title="P-Group"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:link> of a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is contained in some <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p><fr:p>In other words, Sylow subgroups are "maximal" among the <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroups of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1342</fr:anchor><fr:addr
+type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a Sylow subgroup, by <fr:link
+type="local"
+href="gr-004X.xml"
+addr="gr-004X"
+title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> there is a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P\leq  S^{g}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[|S|=|S^{g}|]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S^{g}]]></fr:tex> is another Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2325</fr:anchor><fr:addr
+type="user">gr-004V</fr:addr><fr:route>gr-004V.xml</fr:route><fr:title
+text="Sylow p-Subgroups are conjugate">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroups are conjugate</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.12 (Sylow C-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> be <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link>s of a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, then there exists a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[T=S^{g}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1336</fr:anchor><fr:addr
+type="machine">#327</fr:addr><fr:route>unstable-327.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows immediately from <fr:link
+type="local"
+href="gr-004X.xml"
+addr="gr-004X"
+title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> taking <fr:tex
+display="inline"><![CDATA[P=T]]></fr:tex> gives us <fr:tex
+display="inline"><![CDATA[T\subseteq  S^{g}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>. Since both <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> are Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroups, we have <fr:tex
+display="inline"><![CDATA[|S|=|T|=|S^{g}|]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[T=S^{g}]]></fr:tex> as desired.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1338</fr:anchor><fr:addr
+type="machine">#328</fr:addr><fr:route>unstable-328.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a "finite analog" of a result in Lie theory where all maximal tori are conjugate to each other.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2327</fr:anchor><fr:addr
+type="user">gr-004W</fr:addr><fr:route>gr-004W.xml</fr:route><fr:title
+text="Sylow &quot;Development&quot; Theorem">Sylow "Development" Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.14 (Sylow D-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> be a <fr:link
+type="local"
+href="gr-004O.xml"
+addr="gr-004O"
+title="P-Group"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:link> of a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is contained in some <fr:link
+type="local"
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p><fr:p>In other words, Sylow subgroups are "maximal" among the <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroups of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1342</fr:anchor><fr:addr
+type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a Sylow subgroup, by <fr:link
+type="local"
+href="gr-004X.xml"
+addr="gr-004X"
+title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> there is a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P\leq  S^{g}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[|S|=|S^{g}|]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S^{g}]]></fr:tex> is another Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2329</fr:anchor><fr:addr
+type="user">gr-004G</fr:addr><fr:route>gr-004G.xml</fr:route><fr:title
+text="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 4.1.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a nonempty set. Suppose <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> <fr:link
+type="local"
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">acts</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Then for each <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, the <fr:link
+type="local"
+href="nst-002B.xml"
+addr="nst-002B"
+title="Cardinality of a set">cardinality</fr:link> of the <fr:link
+type="local"
+href="gr-004B.xml"
+addr="gr-004B"
+title="Orbit">Orbit</fr:link> <fr:tex
+display="inline"><![CDATA[G\cdot  x]]></fr:tex> is equal to the <fr:link
+type="local"
+href="gr-003J.xml"
+addr="gr-003J"
+title="Index of a subgroup">index</fr:link> of the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[[G : G_{x}]=|G\cdot  x|.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2331</fr:anchor><fr:addr
+type="user">gr-003I</fr:addr><fr:route>gr-003I.xml</fr:route><fr:title
+text="Right cosets of a subgroup">Right cosets of a subgroup</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_2.html#K16">group_2:def 16</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>, let <fr:tex
+display="inline"><![CDATA[H\leq  G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-001B.xml"
+addr="gr-001B"
+title="Subgroup">Subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Right Cosets of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex></html:dfn> to be the family of subsets of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> equal to <fr:tex
+display="inline"><![CDATA[\{Hg\subseteq  G\mid  g\in  G\}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2333</fr:anchor><fr:addr
+type="user">gr-004S</fr:addr><fr:route>gr-004S.xml</fr:route><fr:title
+text="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_10.html#R3">group_10:def 18</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Let <fr:tex
+display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be prime. Let <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> be a <fr:link
+type="local"
+href="gr-004O.xml"
+addr="gr-004O"
+title="P-Group"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[p\nmid [G : P]]]></fr:tex> (<fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide <fr:tex
+display="inline"><![CDATA[[G : P]]]></fr:tex>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2335</fr:anchor><fr:addr
+type="user">gr-004O</fr:addr><fr:route>gr-004O.xml</fr:route><fr:title
+text="P-Group">P-Group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_10.html#V2">group_10:def 17</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a prime number. Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. We say <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Group</html:dfn> if there is some <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|G|=p^{n}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2337</fr:anchor><fr:addr
+type="user">gr-000G</fr:addr><fr:route>gr-000G.xml</fr:route><fr:title
+text="Group">Group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#NM1">group_1:def</fr:link></fr:meta><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Group</html:dfn> consists of a set <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> equipped with an <fr:link
+type="local"
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link> <fr:tex
+display="inline"><![CDATA[\star ]]></fr:tex> and an <fr:link
+type="local"
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">Identity element</fr:link> with respect to <fr:tex
+display="inline"><![CDATA[\star ]]></fr:tex>, usually denoted either <fr:tex
+display="inline"><![CDATA[e\in  G]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[1\in  G]]></fr:tex>, such that every element has a unique <fr:link
+type="local"
+href="gr-000C.xml"
+addr="gr-000C"
+title="Inverse of an element with respect to a binary operator">inverse</fr:link>,
+<fr:tex
+display="block"><![CDATA[\forall  a\in  G\ldotp \exists  a^{-1}\in  A\ldotp  a\star  a^{-1}=a^{-1}\star  a=e.]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>902</fr:anchor><fr:addr
+type="machine">#370</fr:addr><fr:route>unstable-370.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) When the binary operator for the group is commutative, we usually use <fr:tex
+display="inline"><![CDATA[+]]></fr:tex> for the binary operator and <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> for the identity element.</fr:p>
+<fr:p>(2) The "exact formalization" varies. For example, we could have equipped <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with a binary operator <fr:tex
+display="inline"><![CDATA[\star ]]></fr:tex>, a unary operator <fr:tex
+display="inline"><![CDATA[(-)^{-1}\colon  G\to  G]]></fr:tex>, and a constant element <fr:tex
+display="inline"><![CDATA[e\in  G]]></fr:tex>; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.</fr:p>
+<fr:p>(3) The intuition is that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> consists of <fr:link
+type="local"
+href="ela-001K.xml"
+addr="ela-001K"
+title="Bijective function">bijections</fr:link> from a set to itself, and the binary operator is just the <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link> and the identity element is just the <fr:link
+type="local"
+href="nst-0017.xml"
+addr="nst-0017"
+title="Identity function">Identity function</fr:link>. These bijections are "symmetries" of the set.</fr:p>
+<fr:p>(4) See also Forrester-Barker's <fr:link
+type="local"
+href="forrester-2002-group.xml"
+addr="forrester-2002-group"
+title="Group objects and internal categories">Group objects and internal categories</fr:link> for a way to generalize the notion of groups to other settings.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

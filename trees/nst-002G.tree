@@ -1,0 +1,8 @@
+\title{Direct proof}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{proof strategy}
+
+\p{When trying to prove a claim of the form "If #{P}, then #{Q}", a direct proof has the following skeleton:}
+\blockquote{Assume #{P}. [Intermediate proof steps] Thus #{Q}.}

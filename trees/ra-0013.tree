@@ -1,0 +1,7 @@
+\title{Trivial ideal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{example}
+
+\p{Let #{R} be any [[ring-0001]]. Then #{\{0\}} gives us an [[ra-0011]] of #{R} called the \define{Trivial Ideal}.}

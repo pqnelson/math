@@ -1,0 +1,12 @@
+\title{Fields only have trivial ideals}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 7.4.9(2)}
+
+\p{Let #{R} be a [[ra-0003]]. Then #{R} is a [[field-0001]] if and only if its only ideals are #{0} and #{R}.}
+
+\proof{\p{We see #{R} is a field iff every nonzero element is a unit (by [definition of a field](field-0001)).}
+\p{\forwardproof If #{R} is a field, then every nonzero ideal contains a unit, which means that #{R} is the only nonzero ideal.}
+\p{\backwardproof Suppose the only ideals of #{R} is the trivial ideal and #{R} itself. Let #{u} be any nonzero element of #{R}. Then #{(u)=R} so #{1\in(u)}. Hence there must be some #{v\in R} such that #{1=vu} (i.e., #{u} is a [unit](ra-000I)). Therefore every nonzero element of #{R} is a unit, hence #{R} must be a field.}}

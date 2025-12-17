@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2262</fr:anchor><fr:addr
+type="machine">#415</fr:addr><fr:route>unstable-415.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We should prove this is a well-defined notion.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> The collection of subgroups may be formed by looking at the elements of <fr:tex
+display="inline"><![CDATA[\mathcal {P}(G)]]></fr:tex> which may be given a subgroup structure. We may then use <fr:link
+type="local"
+href="nst-0009.xml"
+addr="nst-0009"
+title="Set builder notation">Set builder notation</fr:link> to form the conjugacy class of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> immediate.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2264</fr:anchor><fr:addr
+type="user">gr-002O</fr:addr><fr:route>gr-002O.xml</fr:route><fr:title
+text="Conjugacy class of subgroup">Conjugacy class of subgroup</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Let <fr:tex
+display="inline"><![CDATA[H\leq  G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-001B.xml"
+addr="gr-001B"
+title="Subgroup">Subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Conjugacy Class</html:dfn> of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> to be the collection <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Cl}}\nolimits (H)]]></fr:tex> of subsets of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> such that: for any object <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[x\in \mathop {\textrm {Cl}}\nolimits (H)]]></fr:tex> if and only if there exists a subgroup <fr:tex
+display="inline"><![CDATA[K\leq  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x=K]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> <fr:link
+type="local"
+href="gr-002K.xml"
+addr="gr-002K"
+title="Predicate &quot;is conjugate to&quot; for subgroups">is conjugate to</fr:link> <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1114</fr:anchor><fr:addr
+type="machine">#415</fr:addr><fr:route>unstable-415.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We should prove this is a well-defined notion.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> The collection of subgroups may be formed by looking at the elements of <fr:tex
+display="inline"><![CDATA[\mathcal {P}(G)]]></fr:tex> which may be given a subgroup structure. We may then use <fr:link
+type="local"
+href="nst-0009.xml"
+addr="nst-0009"
+title="Set builder notation">Set builder notation</fr:link> to form the conjugacy class of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> immediate.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

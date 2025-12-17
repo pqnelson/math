@@ -1,0 +1,7 @@
+\title{Rings as number systems}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{remark}
+
+\p{From the past few examples, it should be clear that we should think of rings as \emph{number systems}. In the 19th century, many Mathematicians explored different "number systems" by adding new "numbers" analogous to #{\I=\sqrt{-1}}. This was how Hamilton invented the [[ra-0005]]. Many other rings were invented in this manner, and it's the best intuition to have in mind while we continue to study rings.}

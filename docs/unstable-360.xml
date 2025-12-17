@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4820</fr:anchor><fr:addr
+type="machine">#360</fr:addr><fr:route>unstable-360.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
+<fr:tex
+display="block"><![CDATA[\begin {align}1_{H}\varphi (1_{G})&=\varphi (1_{G})\\ &=\varphi (1_{G}1_{G})\\ &=\varphi (1_{G})\varphi (1_{G})\end {align}]]></fr:tex>
+and then the <fr:link
+type="local"
+href="gr-000R.xml"
+addr="gr-000R"
+title="Cancellation law">Cancellation law</fr:link> gives the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4822</fr:anchor><fr:addr
+type="user">gr-000X</fr:addr><fr:route>gr-000X.xml</fr:route><fr:title
+text="Group morphism preserves identity element">Group morphism preserves identity element</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#T31">group_6:31</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>s, let <fr:tex
+display="inline"><![CDATA[\varphi \colon  G\to  H]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000T.xml"
+addr="gr-000T"
+title="Group Morphism">Group Morphism</fr:link>. If <fr:tex
+display="inline"><![CDATA[1_{G}]]></fr:tex> is the identity element of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[1_{H}]]></fr:tex> is the identity element of <fr:tex
+display="inline"><![CDATA[H]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\varphi (1_{G})=1_{H}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1165</fr:anchor><fr:addr
+type="machine">#360</fr:addr><fr:route>unstable-360.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
+<fr:tex
+display="block"><![CDATA[\begin {align}1_{H}\varphi (1_{G})&=\varphi (1_{G})\\ &=\varphi (1_{G}1_{G})\\ &=\varphi (1_{G})\varphi (1_{G})\end {align}]]></fr:tex>
+and then the <fr:link
+type="local"
+href="gr-000R.xml"
+addr="gr-000R"
+title="Cancellation law">Cancellation law</fr:link> gives the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

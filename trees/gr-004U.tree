@@ -1,0 +1,18 @@
+\title{Existence of a Sylow #{p}-Subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\meta{source}{I. Martin Isaacs [[isaacs-2008-finite]] Theorem 1.7 (Sylow E-Theorem)}
+
+\p{Let #{G} be a finite [[gr-000G]]. Let #{p} be a prime number. Then #{G} has a Sylow #{p}-subgroup.}
+
+\rmk{This may be viewed as a partial converse of [[gr-003K]].}
+
+\proof{\p{(Wielendt) Let #{|G|=p^{a}m} where #{a\geq0} and #{p\nmid m}. Let #{\Omega=\{A\subset G\mid |A|=p^{a}\}}. We see that #{G} acts on #{\Omega} by right multiplication. Since this is an action, #{\Omega} is partitioned into orbits, and so #{|\Omega|} is the sum of the orbit sizes.}
+\p{But
+##{|\Omega|=\binom{p^{a}m}{p^{a}}\equiv m\not\equiv0\pmod{p},}
+and so #{|\Omega|} is not divisible by #{p}. Then there exists some orbit #{\mathcal{O}} such that #{|\mathcal{O}|} is not divisible by #{p}.}
+\p{Let #{X\in\mathcal{O}} and #{H=\Stabilizer{G}{X}} be the [[gr-004C]] of #{X} in #{G}. Then #{|\mathcal{O}|=|G|/|H|} by the [[gr-004G]], and since #{p} does not divide #{|\mathcal{O}|} but #{p^{a}} divides #{|G|}, we must conclude #{p^{a}} divides #{|H|}, and in particular #{p^{a}\leq|H|}.}
+\p{Since #{H} stabilizes #{X} under right multiplication, we see if #{x\in X} then #{xH\subset X}, and then #{|H|=|xH|\leq|X|=p^{a}}.}
+\p{Since #{p^{a}\leq|H|\leq p^{a}}, we must have #{|H|=p^{a}}, and this is a Sylow subgroup of #{G} as desired.}}

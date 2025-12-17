@@ -38,4 +38,4 @@ a_{n 1} & a_{n 3} & \cdots & a_{n, n - 1} \\
 }}
 \p{The notation for the determinant uses vertical lines as the delimiter to the matrix.}
 
-\p{Note: this is defined if the entries of the matrix are elements of a commutative ring. The notion of the determinant of a matrix over a noncommutative ring is not well-defined.}
+\p{Note: this is defined if the entries of the matrix are elements of a commutative [ring](ring-0001). The notion of the determinant of a matrix over a noncommutative ring is not well-defined.}

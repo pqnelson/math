@@ -1,0 +1,17 @@
+\title{Jordan–Hölder theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+
+\p{Let #{G} be a [[gr-000G]]. If
+##{\TrivialSubgroup{G}=H_{0}\propernormalsubgroup H_{1}\propernormalsubgroup\dots\propernormalsubgroup H_{n}=G,}
+and
+##{\TrivialSubgroup{G}=K_{0}\propernormalsubgroup K_{1}\propernormalsubgroup\dots\propernormalsubgroup K_{m}=G,}
+are two [[gr-003X]]s for #{G}, then #{m=n} and there exists a permutation #{\pi\in S_{n}} such that #{H_{j+1} / H_{j}\iso K_{\sigma(j) + 1} / K_{\sigma(j)}}.}
+
+\p{In other words, the [[gr-003X]] for a group is unique.}
+
+\proof{\p{[[nst-002K]] on #{\min(m,n)}.}
+\p{\textbf{Base case:} if #{\min(m,n)=1}, then #{G} is [[gr-003W]], hence any other composition series is of length 1 and the unique subquotient is #{G}.}
+\p{\textbf{Inductive argument:} This is rather lengthy, I'll return to it.}}

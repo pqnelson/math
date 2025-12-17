@@ -1,0 +1,12 @@
+\title{Quotient Group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_6}{def 4}{K5}
+
+\p{Let #{G} be a [[gr-000G]], let #{N\normalsubgroup G} be a [[gr-002P]] of #{G}. We define the \define{Quotient Group} #{G/N} to consist of [left cosets](gr-003H) of #{N} and the binary operator is given by
+##{(gN)(hN)=(gh)N}
+for any #{g,h\in G}. The inverse element of #{gN} is #{g^{-1}N}.}
+
+\rmk{This is well-defined because [[gr-003N]].}

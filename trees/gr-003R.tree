@@ -1,0 +1,7 @@
+\title{Normal subgroup of a subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{notation}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{B\subgroup G} be a [[gr-001B]] of #{G}, let #{N\normalsubgroup G} be a [[gr-002P]] of #{G}. If #{M\subgroup B} is a subgroup of #{B}, then we will denote #{(M)_{B}} for #{M\normalsubgroup B} as a normal subgroup of #{B}.}

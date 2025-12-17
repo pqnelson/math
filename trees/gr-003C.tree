@@ -1,0 +1,11 @@
+\title{Product of subgroups with subsets of the group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{H\subgroup G} be a [[gr-001B]] of #{G}. Let #{A\subset G} be a subset of #{G}. Let #{U_{H}} be the subset of #{G} equal to the elements of #{H}. Then we define:
+\ol{
+\li{#{AH} to be the subset of #{G} equal to #{AU_{H}}}
+\li{#{HA} to be the subset of #{G} equal to #{U_{H}A}}
+}}

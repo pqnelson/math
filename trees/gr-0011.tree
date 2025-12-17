@@ -1,0 +1,11 @@
+\title{Direct sum of groups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Exercise 5.1.17}
+\MML{group_7}{def 9}{K3}
+
+\p{Let #{\{\mathcal{F}_{i}\}_{i\in I}} be a family of groups. We define the \define{Direct Sum} #{\bigoplus_{i\in I}\mathcal{F}_{i}} whose underlying set is the product of the underlying sets of the family where only finitely many components are not the identity element, where the binary operator is defined by, for any #{g,h\in \prod_{i\in I}\mathcal{F}_{i}},
+##{(gh)_{i}=g_{i}h_{i}}
+For #{I} being a finite indexing set, this coincides with [[gr-0010]].}

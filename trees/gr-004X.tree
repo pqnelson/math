@@ -1,0 +1,12 @@
+\title{Any #{p}-subgroup is contained in a conjugate of a Sylow subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{lemma}
+\meta{source}{I. Martin Isaacs [[isaacs-2008-finite]] Theorem 1.11}
+
+\p{Let #{P} be an arbitrary [#{p}-subgroup](gr-004O) of a finite [[gr-000G]] #{G}, let #{S} be any [[gr-004S]] of #{G}. Then there exists a #{g\in G} such that #{P\subset S^{g}}.}
+
+\proof{\p{Let #{\Omega=\{Sx\mid x\in G\}} be the set of [right cosets](gr-003I) of #{S} in #{G}. Observe #{|\Omega|=\Index{G}{S}} is not divisible by #{p} since #{S} is a Sylow #{p}-subgroup of #{G}. We know #{G} acts by right multiplication on #{\Omega}, and so #{P} acts too, and #{\Omega} is partitioned into #{P}-orbits. Since #{|\Omega} is not divisible by #{p}, there must exist some #{P}-orbit #{\mathcal{O}} such that #{|\mathcal{O}|} is not divisible by #{p}.}
+\p{By the [[gr-004G]], #{|\mathcal{O}|} is the index in #{P} of some subgroup. It follows that #{|\mathcal{O}|} divides #{|P|}, which is a power of #{p}. Then #{|\mathcal{O}|} is both a power of #{p} and not divisible by #{p}, so the only possibility is #{|\mathcal{O}|=1}. Since the members of #{\Omega} are right cosets of #{S} in #{G}, we can consider #{g\in G} such that #{\mathcal{O}=\{Sg\}}.}
+\p{Since #{Sg} is alone in a #{P}-orbit, it follows that it is fixed under the action of #{P}, so #{Sgu=Sg} for all #{u\in P}. Then #{gu\in Sg}, hence #{u\in g^{-1}Sg=S^{g}}. Hence #{P\subset S^{g}}.}}

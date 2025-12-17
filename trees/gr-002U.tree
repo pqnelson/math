@@ -1,0 +1,13 @@
+\title{Product of elements in a nonempty magma}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_4}{def 2}{K3}
+
+\p{Let #{M} be a nonempty multiplicative magma (i.e., a set equipped with a multiplication operator with no properties imposed). Let #{(a_{i})_{i=1,\dots,n}} be a finite sequence of elements of #{M}. We define the \define{Product} of #{(a_{i})} to be the element
+##{\prod^{1}_{i=1}a_{i}=a_{1}}
+and for any #{k+1\leq n+1}
+##{\prod^{k+1}_{i=1}a_{i}=\left(\prod^{k}_{i=1}a_{i}\right)a_{k+1}.}
+So generically
+##{\prod^{n+1}_{i=1}a_{i}=((((a_{1}a_{2})a_{3})\dots)a_{n})a_{n+1}.}}

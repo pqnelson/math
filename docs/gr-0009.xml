@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5009</fr:anchor><fr:addr
+type="user">gr-0009</fr:addr><fr:route>gr-0009.xml</fr:route><fr:title
+text="Examples of identity element for a binary operator">Examples of identity element for a binary operator</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Examples of identity elements for binary operators we have already seen in Mathematics:</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is a set and <fr:tex
+display="inline"><![CDATA[X=\hom (A,A)]]></fr:tex> is the <fr:link
+type="local"
+href="nst-0015.xml"
+addr="nst-0015"
+title="Set of all functions">Set of all functions</fr:link> from <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> to itself, we know <fr:link
+type="local"
+href="gr-0002.xml"
+addr="gr-0002"
+title="Function composition is a binary operator on the set of all functions">Function composition is a binary operator on the set of all functions</fr:link>. It turns out that the <fr:link
+type="local"
+href="nst-0017.xml"
+addr="nst-0017"
+title="Identity function">Identity function</fr:link> is the identity element for the <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link>.</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, then its 0 acts as an identity element for addition and 1 acts as an identity element for multiplication.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
+type="local"
+href="matrix-0001.xml"
+addr="matrix-0001"
+title="Matrix">matrices</fr:link> with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> we see that <fr:link
+type="local"
+href="matrix-0010.xml"
+addr="matrix-0010"
+title="Multiplying by Identity Matrix">Multiplying by Identity Matrix</fr:link> acts like an identity element for matrix multiplication; and also <fr:link
+type="local"
+href="matrix-000H.xml"
+addr="matrix-000H"
+title="Matrix Addition with Zero Matrix">Matrix Addition with Zero Matrix</fr:link> has the <fr:link
+type="local"
+href="matrix-0003.xml"
+addr="matrix-0003"
+title="Zero matrix">zero matrix</fr:link> act like the identity element for matrix addition.</fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5011</fr:anchor><fr:addr
+type="user">iaa-0004</fr:addr><fr:route>iaa-0004.xml</fr:route><fr:title
+text="Binary and unary operators">Binary and unary operators</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have implicitly used binary operators when discussion the <fr:link
+type="local"
+href="ela-000B.xml"
+addr="ela-000B"
+title="Matrix Algebra">algebra of matrices</fr:link>, <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>s, <fr:link
+type="local"
+href="vectsp-0001.xml"
+addr="vectsp-0001"
+title="Vector Space">Vector Space</fr:link>s, and so on. Some concrete examples include <fr:link
+type="local"
+href="matrix-000E.xml"
+addr="matrix-000E"
+title="Matrix Addition">Matrix Addition</fr:link>, <fr:link
+type="local"
+href="matrix-000K.xml"
+addr="matrix-000K"
+title="Matrix Subtraction">Matrix Subtraction</fr:link>, and <fr:link
+type="local"
+href="matrix-000X.xml"
+addr="matrix-000X"
+title="Matrix Multiplication">Matrix Multiplication</fr:link>.</fr:p><fr:p>Unary operators have been infrequently mentioned. For example, the <fr:link
+type="local"
+href="matrix-000M.xml"
+addr="matrix-000M"
+title="Matrix Transpose">Matrix Transpose</fr:link> is a unary operator on the set of matrices.</fr:p><fr:p>Tradition dictates we explicitly formalize the notions of binary and unary operators.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>857</fr:anchor><fr:addr
+type="user">gr-0001</fr:addr><fr:route>gr-0001.xml</fr:route><fr:title
+text="Binary operator">Binary operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Binary Operator</html:dfn> (or, more archaically, <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Law of Composition</html:dfn>) is a function <fr:tex
+display="inline"><![CDATA[\mu \colon  X\times  X\to  X]]></fr:tex> which is various denoted using infixed notation <fr:tex
+display="inline"><![CDATA[a\star  b]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[a\cdot  b]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[ab]]></fr:tex> (or, if commutative, <fr:tex
+display="inline"><![CDATA[a+b]]></fr:tex>) for any <fr:tex
+display="inline"><![CDATA[a,b\in  X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>859</fr:anchor><fr:addr
+type="user">gr-0002</fr:addr><fr:route>gr-0002.xml</fr:route><fr:title
+text="Function composition is a binary operator on the set of all functions">Function composition is a binary operator on the set of all functions</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a set. Then <fr:tex
+display="inline"><![CDATA[X=\hom (A,A)]]></fr:tex> the <fr:link
+type="local"
+href="nst-0015.xml"
+addr="nst-0015"
+title="Set of all functions">Set of all functions</fr:link> from <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> has a binary operator, namely <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>861</fr:anchor><fr:addr
+type="user">gr-0003</fr:addr><fr:route>gr-0003.xml</fr:route><fr:title
+text="Associative binary operator">Associative binary operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link
+type="local"
+href="gr-0001.xml"
+addr="gr-0001"
+title="Binary operator">Binary operator</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Associative</html:dfn> if
+<fr:tex
+display="block"><![CDATA[\forall  a,b,c\in  X\ldotp  \mu (a,\mu (b,c))=\mu (\mu (a,b),c)]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>863</fr:anchor><fr:addr
+type="user">gr-0006</fr:addr><fr:route>gr-0006.xml</fr:route><fr:title
+text="Examples of associative binary operators">Examples of associative binary operators</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Examples of associative binary operators we have already seen in Mathematics:</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is a set and <fr:tex
+display="inline"><![CDATA[X=\hom (A,A)]]></fr:tex> is the <fr:link
+type="local"
+href="nst-0015.xml"
+addr="nst-0015"
+title="Set of all functions">Set of all functions</fr:link> from <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> to itself, we know <fr:link
+type="local"
+href="gr-0002.xml"
+addr="gr-0002"
+title="Function composition is a binary operator on the set of all functions">Function composition is a binary operator on the set of all functions</fr:link>. It turns out that <fr:link
+type="local"
+href="nst-001A.xml"
+addr="nst-001A"
+title="Composing functions is associative">Composing functions is associative</fr:link>.</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, then both addition and multiplication is associative.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
+type="local"
+href="matrix-0001.xml"
+addr="matrix-0001"
+title="Matrix">matrices</fr:link> with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> has <fr:link
+type="local"
+href="matrix-0012.xml"
+addr="matrix-0012"
+title="Matrix Multiplication is Associative">Matrix Multiplication is Associative</fr:link>.</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>865</fr:anchor><fr:addr
+type="user">gr-0008</fr:addr><fr:route>gr-0008.xml</fr:route><fr:title
+text="Matrix commutator is not associative">Matrix commutator is not associative</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
+type="local"
+href="matrix-0001.xml"
+addr="matrix-0001"
+title="Matrix">matrices</fr:link> with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> can be equipped with the <fr:link
+type="local"
+href="matrix-0029.xml"
+addr="matrix-0029"
+title="Commutator">Commutator</fr:link> which is a binary operator denoted
+<fr:tex
+display="block"><![CDATA[[A,B]=AB-BA]]></fr:tex>
+for any <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. The commutator is not associative, i.e., in general we have
+<fr:tex
+display="block"><![CDATA[[A, [B, C]] \neq  [[A,B],C]]]></fr:tex>
+but it satisfies a variant called the <fr:link
+type="local"
+href="matrix-002A.xml"
+addr="matrix-002A"
+title="Jacobi Identity">Jacobi Identity</fr:link>:
+<fr:tex
+display="block"><![CDATA[[A, [B, C]] + [B, [C, A]] + [C, [A, B]] = 0]]></fr:tex>
+for any <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>.</fr:li></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>867</fr:anchor><fr:addr
+type="user">gr-0004</fr:addr><fr:route>gr-0004.xml</fr:route><fr:title
+text="Commutative binary operator">Commutative binary operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link
+type="local"
+href="gr-0001.xml"
+addr="gr-0001"
+title="Binary operator">Binary operator</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Commutative</html:dfn> if
+<fr:tex
+display="block"><![CDATA[\forall  a,b\in  X\ldotp  \mu (a,b)=\mu (b,a)]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>869</fr:anchor><fr:addr
+type="user">gr-0007</fr:addr><fr:route>gr-0007.xml</fr:route><fr:title
+text="Examples of commutative binary operators">Examples of commutative binary operators</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Examples of commutative binary operators we have already seen in Mathematics:</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, then both addition and multiplication is commutative.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
+type="local"
+href="matrix-0001.xml"
+addr="matrix-0001"
+title="Matrix">matrices</fr:link> with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we see <fr:link
+type="local"
+href="matrix-000G.xml"
+addr="matrix-000G"
+title="Matrix Addition is Commutative">Matrix Addition is Commutative</fr:link>.</fr:li></fr:ul><fr:p>Some <fr:strong>non-examples:</fr:strong></fr:p><fr:ul><fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
+type="local"
+href="matrix-0001.xml"
+addr="matrix-0001"
+title="Matrix">matrices</fr:link> with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we see <fr:link
+type="local"
+href="matrix-0011.xml"
+addr="matrix-0011"
+title="Matrix Multiplication is not commutative">Matrix Multiplication is not commutative</fr:link>.</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>871</fr:anchor><fr:addr
+type="user">gr-0005</fr:addr><fr:route>gr-0005.xml</fr:route><fr:title
+text="Identity element">Identity element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link
+type="local"
+href="gr-0001.xml"
+addr="gr-0001"
+title="Binary operator">Binary operator</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[e\in  X]]></fr:tex> be an element. We say <fr:tex
+display="inline"><![CDATA[e]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Unit</html:dfn> (or <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">identity element</html:dfn>) for <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> if
+<fr:tex
+display="block"><![CDATA[\forall  a\in  X\ldotp  \mu (a,e)=a\land  \mu (e,a)=a.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>873</fr:anchor><fr:addr
+type="user">gr-0009</fr:addr><fr:route>gr-0009.xml</fr:route><fr:title
+text="Examples of identity element for a binary operator">Examples of identity element for a binary operator</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Examples of identity elements for binary operators we have already seen in Mathematics:</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is a set and <fr:tex
+display="inline"><![CDATA[X=\hom (A,A)]]></fr:tex> is the <fr:link
+type="local"
+href="nst-0015.xml"
+addr="nst-0015"
+title="Set of all functions">Set of all functions</fr:link> from <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> to itself, we know <fr:link
+type="local"
+href="gr-0002.xml"
+addr="gr-0002"
+title="Function composition is a binary operator on the set of all functions">Function composition is a binary operator on the set of all functions</fr:link>. It turns out that the <fr:link
+type="local"
+href="nst-0017.xml"
+addr="nst-0017"
+title="Identity function">Identity function</fr:link> is the identity element for the <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link>.</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, then its 0 acts as an identity element for addition and 1 acts as an identity element for multiplication.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
+type="local"
+href="matrix-0001.xml"
+addr="matrix-0001"
+title="Matrix">matrices</fr:link> with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> we see that <fr:link
+type="local"
+href="matrix-0010.xml"
+addr="matrix-0010"
+title="Multiplying by Identity Matrix">Multiplying by Identity Matrix</fr:link> acts like an identity element for matrix multiplication; and also <fr:link
+type="local"
+href="matrix-000H.xml"
+addr="matrix-000H"
+title="Matrix Addition with Zero Matrix">Matrix Addition with Zero Matrix</fr:link> has the <fr:link
+type="local"
+href="matrix-0003.xml"
+addr="matrix-0003"
+title="Zero matrix">zero matrix</fr:link> act like the identity element for matrix addition.</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>875</fr:anchor><fr:addr
+type="user">gr-000A</fr:addr><fr:route>gr-000A.xml</fr:route><fr:title
+text="Commutator of matrices has no identity element">Commutator of matrices has no identity element</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
+href="matrix-0029.xml"
+addr="matrix-0029"
+title="Commutator">Commutator</fr:link> of matrices over a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (or a suitable <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link>). It turns out, the commutator has no identity element. If it had one, say <fr:tex
+display="inline"><![CDATA[\mathbf {E}]]></fr:tex>, then for any matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> we would have
+<fr:tex
+display="block"><![CDATA[[\mathbf {E},\mathbf {A}]=\mathbf {A}]]></fr:tex>
+and by anticommutativity of the commutator
+<fr:tex
+display="block"><![CDATA[[\mathbf {A},\mathbf {E}]=-\mathbf {A}.]]></fr:tex>
+But then we find the <fr:link
+type="local"
+href="matrix-002A.xml"
+addr="matrix-002A"
+title="Jacobi Identity">Jacobi Identity</fr:link> fails to hold:
+<fr:tex
+display="block"><![CDATA[[\mathbf {E},[\mathbf {B},\mathbf {C}]] + [\mathbf {B}, [\mathbf {C}, \mathbf {E}]] + [\mathbf {C}, [\mathbf {E}, \mathbf {B}]] = [\mathbf {C},\mathbf {B}]\neq 0.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>877</fr:anchor><fr:addr
+type="user">gr-000B</fr:addr><fr:route>gr-000B.xml</fr:route><fr:title
+text="Identity element is at most unique">Identity element is at most unique</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link
+type="local"
+href="gr-0001.xml"
+addr="gr-0001"
+title="Binary operator">Binary operator</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Then there exists at most 1 <fr:link
+type="local"
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">Identity element</fr:link> for <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>879</fr:anchor><fr:addr
+type="machine">#372</fr:addr><fr:route>unstable-372.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[e_{1}\in  A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[e_{2}\in  A]]></fr:tex> are two possible identity elements, then
+<fr:tex
+display="block"><![CDATA[e_{1}=\mu (e_{1},e_{2})=e_{2}.]]></fr:tex></fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>881</fr:anchor><fr:addr
+type="user">gr-000C</fr:addr><fr:route>gr-000C.xml</fr:route><fr:title
+text="Inverse of an element with respect to a binary operator">Inverse of an element with respect to a binary operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a set equipped with a <fr:link
+type="local"
+href="gr-0001.xml"
+addr="gr-0001"
+title="Binary operator">Binary operator</fr:link> <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> with an <fr:link
+type="local"
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">identity element</fr:link> <fr:tex
+display="inline"><![CDATA[e\in  A]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[a\in  A]]></fr:tex>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Two-Sided) Inverse</html:dfn> of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is an element <fr:tex
+display="inline"><![CDATA[b\in  A]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[\mu (a,b)=\mu (b,a)=e.]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>883</fr:anchor><fr:addr
+type="machine">#371</fr:addr><fr:route>unstable-371.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> is an <fr:link
+type="local"
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link>, then we can just speak of "inverses" of elements without the "two-sided" prefix. This is because the <fr:link
+type="local"
+href="gr-000D.xml"
+addr="gr-000D"
+title="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:link></fr:p>
+<fr:p>(2) If there are multiple binary operators on <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, then we should specify that <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is an inverse of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> <fr:em>with respect to <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex></fr:em>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>885</fr:anchor><fr:addr
+type="user">gr-000D</fr:addr><fr:route>gr-000D.xml</fr:route><fr:title
+text="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be an <fr:link
+type="local"
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link> on <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[e\in  A]]></fr:tex> be the <fr:link
+type="local"
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">Identity element</fr:link> for <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>. For any element <fr:tex
+display="inline"><![CDATA[a\in  A]]></fr:tex>, there is at most 1 <fr:link
+type="local"
+href="gr-000C.xml"
+addr="gr-000C"
+title="Inverse of an element with respect to a binary operator">inverse</fr:link> for <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> with respect to <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>887</fr:anchor><fr:addr
+type="machine">#370</fr:addr><fr:route>unstable-370.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[b_{1},b_{2}\in  A]]></fr:tex> be inverses for <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\begin {align} b_{1}&=\mu (b_{1},e)\\ &=\mu (b_{1},\mu (a,b_{2}))\\ &=\mu (\mu (b_{1},a),b_{2})\hbox { by associativity}\\ &=\mu (e,b_{2})\\ &=b_{2}.\end {align}]]></fr:tex>
+Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5013</fr:anchor><fr:addr
+type="user">gr-0002</fr:addr><fr:route>gr-0002.xml</fr:route><fr:title
+text="Function composition is a binary operator on the set of all functions">Function composition is a binary operator on the set of all functions</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a set. Then <fr:tex
+display="inline"><![CDATA[X=\hom (A,A)]]></fr:tex> the <fr:link
+type="local"
+href="nst-0015.xml"
+addr="nst-0015"
+title="Set of all functions">Set of all functions</fr:link> from <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> has a binary operator, namely <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5015</fr:anchor><fr:addr
+type="user">nst-001M</fr:addr><fr:route>nst-001M.xml</fr:route><fr:title
+text="Composition of functions">Composition of functions</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g\colon  Y\to  Z]]></fr:tex> be functions. Then the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Composition</html:dfn> of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> followed by <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is the function <fr:tex
+display="inline"><![CDATA[g\circ  f\colon  X\to  Z]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[(g\circ  f)(x)=g(f(x))]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p><fr:p>Observe this is just the <fr:link
+type="local"
+href="nst-0013.xml"
+addr="nst-0013"
+title="Composing relations">Composing relations</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5017</fr:anchor><fr:addr
+type="user">nst-0017</fr:addr><fr:route>nst-0017.xml</fr:route><fr:title
+text="Identity function">Identity function</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/relat_1.html#K4">relat_1:def 10</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Identity Function</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to be the function <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {id}}\nolimits _{X}\colon  X\to  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {id}}\nolimits _{X}(x)=x]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5019</fr:anchor><fr:addr
+type="user">nst-0015</fr:addr><fr:route>nst-0015.xml</fr:route><fr:title
+text="Set of all functions">Set of all functions</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.8</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/funct_2.html#K1">funct_2:def 2</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> be sets. We denote the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Set of all functions</html:dfn> from <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> as either <fr:tex
+display="inline"><![CDATA[Y^{X}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\hom (X,Y)]]></fr:tex>.</fr:p><fr:p>We see this really is a set, since a function is a subset of <fr:tex
+display="inline"><![CDATA[X\times  Y]]></fr:tex>, so the set of all functions is a subset of <fr:tex
+display="inline"><![CDATA[\mathcal {P}(X\times  Y)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5021</fr:anchor><fr:addr
+type="user">field-0001</fr:addr><fr:route>field-0001.xml</fr:route><fr:title
+text="Field">Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Field</html:dfn> is traditionally defined as a set <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> with two binary operators, addition (denoted <fr:tex
+display="inline"><![CDATA[+]]></fr:tex>) and multiplication (denoted <fr:tex
+display="inline"><![CDATA[\cdot ]]></fr:tex>), satisfying the field axioms:</fr:p><fr:ol><fr:li>Associativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x+y)+z=x+(y+z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x+y=y+x]]></fr:tex></fr:li>
+<fr:li>Additive identity: there exists a <fr:tex
+display="inline"><![CDATA[0\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[0+x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x+0=x]]></fr:tex></fr:li>
+<fr:li>Additive inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x+y=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y+x=0]]></fr:tex>; in this case, we usually denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[(-x)]]></fr:tex></fr:li>
+<fr:li>Associativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x\cdot  y)\cdot  z=x\cdot  (y\cdot  z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x\cdot  y=y\cdot  x]]></fr:tex></fr:li>
+<fr:li>Multiplicative identity: there exists a <fr:tex
+display="inline"><![CDATA[1\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[1\cdot  x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\cdot  1=x]]></fr:tex></fr:li>
+<fr:li>Multiplicative inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> which is nonzero <fr:tex
+display="inline"><![CDATA[x\neq 0]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\cdot  y=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\cdot  x=1]]></fr:tex>; usually we denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[x^{-1}]]></fr:tex></fr:li>
+<fr:li>Distributivity of multiplication over addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[x\cdot (y+z)=(x\cdot  y)+(x\cdot  z)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x+y)\cdot  z=(x\cdot  z)+(x\cdot  y)]]></fr:tex></fr:li></fr:ol><fr:p>Note that some of these are redundant.</fr:p><fr:p>Also note: fields are usually written in blackboard bold, and the generic field is either <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since the German word for field is "<fr:em>Körper</fr:em>").</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5023</fr:anchor><fr:addr
+type="user">matrix-0010</fr:addr><fr:route>matrix-0010.xml</fr:route><fr:title
+text="Multiplying by Identity Matrix">Multiplying by Identity Matrix</fr:title><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[mat{A}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex
+display="inline"><![CDATA[\mathbf {I}_{m}]]></fr:tex> be the <fr:tex
+display="inline"><![CDATA[m\times  m]]></fr:tex> <fr:link
+type="local"
+href="matrix-0004.xml"
+addr="matrix-0004"
+title="Identity matrix">identity matrix</fr:link>. We see that
+<fr:tex
+display="block"><![CDATA[\mathbf {I}_{m}\mathbf {A} = \mathbf {A}.]]></fr:tex></fr:p><fr:p>Similarly, if <fr:tex
+display="inline"><![CDATA[\mathbf {I}_{n}]]></fr:tex> is the <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> identity matrix, then
+<fr:tex
+display="block"><![CDATA[\mathbf {A}\mathbf {I}_{n} = \mathbf {A}.]]></fr:tex></fr:p><fr:p>(We remarked that we should think of matrices as a generalization of numbers. From this perspective, the identity matrix "looks like" the number 1.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5025</fr:anchor><fr:addr
+type="user">matrix-000H</fr:addr><fr:route>matrix-000H.xml</fr:route><fr:title
+text="Matrix Addition with Zero Matrix">Matrix Addition with Zero Matrix</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, the sum of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> with the <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> zero matrix <fr:tex
+display="inline"><![CDATA[\mathbf {0}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>. That is to say, <fr:tex
+display="block"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}.]]></fr:tex>
+We can use the <fr:link
+type="local"
+href="matrix-000G.xml"
+addr="matrix-000G"
+title="Matrix Addition is Commutative">previous theorem</fr:link> to further conclude <fr:tex
+display="inline"><![CDATA[\mathbf {0}+\mathbf {A}=\mathbf {A}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3454</fr:anchor><fr:addr
+type="machine">#437</fr:addr><fr:route>unstable-437.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>We see that the components of the zero matrix are all identically zero, <fr:tex
+display="inline"><![CDATA[\mathbf {0}=[(0)_{i,j}]]]></fr:tex>. So
+<fr:tex
+display="block"><![CDATA[\mathbf {A}+\mathbf {0}]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (by definition of matrix addition)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}+(0)_{i,j}]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[(0)_{i,j} = 0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}+0]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (arithmetic)
+<fr:tex
+display="block"><![CDATA[[a_{i,j}]]]></fr:tex>
+<fr:tex
+display="inline"><![CDATA[=]]></fr:tex> (definition of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>)
+<fr:tex
+display="block"><![CDATA[\mathbf {A}.]]></fr:tex>
+Thus <fr:tex
+display="inline"><![CDATA[\mathbf {A}+\mathbf {0}=\mathbf {A}]]></fr:tex>.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5027</fr:anchor><fr:addr
+type="user">matrix-0001</fr:addr><fr:route>matrix-0001.xml</fr:route><fr:title
+text="Matrix">Matrix</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[m]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be positive integers. We define an <fr:tex
+display="inline"><![CDATA[m]]></fr:tex>-by-<fr:tex
+display="inline"><![CDATA[n]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Matrix</html:dfn> <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> to be a rectangular array of <fr:tex
+display="inline"><![CDATA[mn]]></fr:tex> real [or complex] numbers arranged in <fr:tex
+display="inline"><![CDATA[m]]></fr:tex> horizontal <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Rows</html:dfn> and <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> vertical <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Columns</html:dfn>, written:
+<fr:tex
+display="block"><![CDATA[\mathbf {A} = \left (\begin {array}{cccccc}   a_{11} & a_{12} & … & a_{1j} & … & a_{1n} \\ a_{21} & a_{22} & … & a_{2j} & … & a_{2n}  \\ \vdots  & \vdots  & \ddots  & \vdots  & \ddots  & \vdots  \\ a_{i1} & a_{i2} & … & a_{ij} & … & a_{in} \\ \vdots  & \vdots  & \ddots  & \vdots  & \ddots  & \vdots  \\ a_{m1} & a_{m2} & …   & a_{mj} & …  & a_{mn}  \end {array}\right ) \begin {array}{c}   \\   \gets  i^{\text {th}}\hbox {\ row} \end {array}]]></fr:tex>
+We have highlighted the <fr:tex
+display="inline"><![CDATA[i^{\text {th}}]]></fr:tex> row, and the <fr:tex
+display="inline"><![CDATA[j^{\text {th}}]]></fr:tex> column.</fr:p><fr:p>If further <fr:tex
+display="inline"><![CDATA[m=n]]></fr:tex> (so we have an <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-by-<fr:tex
+display="inline"><![CDATA[n]]></fr:tex> matrix), then we call it a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Square Matrix</html:dfn>. In this case, we can refer to the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Main Diagonal</html:dfn> as the components <fr:tex
+display="inline"><![CDATA[a_{1,1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[a_{2,2}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[a_{n,n}]]></fr:tex>.</fr:p><fr:p>We abbreviate "<fr:tex
+display="inline"><![CDATA[m]]></fr:tex>-by-<fr:tex
+display="inline"><![CDATA[n]]></fr:tex> matrix" as "<fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrix". The pair of numbers <fr:tex
+display="inline"><![CDATA[(m,n)]]></fr:tex> is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Dimensions</html:dfn> of the matrix. (We can also extend our definitions to allow <fr:tex
+display="inline"><![CDATA[m]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> to be zero, but these are degenerate edgecases.)</fr:p><fr:p>Also note, some people use parentheses in writing matrices, other people use square brackets. Both are acceptable.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5029</fr:anchor><fr:addr
+type="user">matrix-0003</fr:addr><fr:route>matrix-0003.xml</fr:route><fr:title
+text="Zero matrix">Zero matrix</fr:title><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any positive integers <fr:tex
+display="inline"><![CDATA[m]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, we have the <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Zero Matrix</html:dfn> to be the matrix whose components are all zero. We denote this by <fr:tex
+display="inline"><![CDATA[\mathbf {0}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> because it will play the analogous counterpart that <fr:tex
+display="inline"><![CDATA[0\in \mathbb {R}]]></fr:tex> plays.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

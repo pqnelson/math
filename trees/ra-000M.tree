@@ -1,0 +1,16 @@
+\title{Multi-index}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{n\in\NN} be a positive integer. An #{n}-dimensional \define{Multi-Index} is an #{n} tuple
+##{\alpha=(\alpha_{1},\dots,\alpha_{n})}
+where each component #{\alpha_{i}\in\NN_{0}} is a non-negative integer.}
+\p{We have the following operations defined:}
+\ol{
+\li{Componentwise sum and difference: #{\alpha\pm\beta=(\alpha_{1}\pm\beta_{1},\dots,\alpha_{n}\pm\beta_{n})}}
+\li{Sum of components #{|\alpha|=\alpha_{1}+\dots+\alpha_{n}}}
+\li{Factorial #{\alpha!=\alpha_{1}!(\dots)!\alpha_{n}!}}
+\li{If #{x=(x_{1},\dots,x_{n})} is a tuple of unknowns (or knowns), then #{x^{\alpha}=x_{1}^{\alpha_{1}}(\dots)x_{n}^{\alpha_{n}}}}
+}

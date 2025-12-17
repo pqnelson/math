@@ -1,0 +1,16 @@
+\title{Existence and Uniqueness of GCD in Euclidean Domains}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ra-001N]]. Then for any nonzero #{a,b\in R},
+\ol{
+\li{There exists a unique #{d\in R} (up to unit multiple) such that #{d=\gcd(a,b)}; and}
+\li{there exists #{x,y\in R} such that #{\gcd(a,b)=ax+by}.}
+}}
+
+\proof{\p{This follows by performing Euclid's algorithm; i.e., we repeatedly apply the division algorithm to find #{b=q_{1}a+r_{1}}, #{a=q_{2}r_{1}+r_{2}}, #{r_{1}=q_{3}r_{2}+r_{3}}, \dots, #{r_{n+1}=q_{n+3}r_{n+2}}. Then #{r_{n+2}=\gcd(a,b)} since:}
+\p{(1) #{(r_{n+2})\subset(a,b)}}
+\p{(2) #{(a,b)\subset(r_{n+2})}}
+\p{Hence by (1) and (2) and since [[ra-001P]], we have #{(r_{n+2})=(a,b)} which implies the result.}}

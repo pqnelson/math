@@ -1,0 +1,9 @@
+\title{Jacobi Identity}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{n\in\NN} be a positive integer, let #{\mat{A}}, #{\mat{B}}, #{\mat{C}} be #{n\times n} matrices over a [[field-0001]] (or a [ring](ring-0001) or...). Then we define the \define{Jacobi Identity} to be the condition
+##{[\mat{A},[\mat{B},\mat{C}]] + [\mat{B}, [\mat{C}, \mat{A}]] + [\mat{C}, [\mat{A}, \mat{B}]] = 0.}}

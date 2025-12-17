@@ -7,28 +7,25 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1761</fr:anchor><fr:addr
-type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>493</fr:anchor><fr:addr
+type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Well, assume <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> exists. We will prove we obtain a contradiction. Our proof is by cases: either <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Then this means <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But this is the defining property for members of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Again, we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This notion does not generalize to noncommutative rings. If we tried "naively" looking for ideals of <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{2}(\mathbb {C})]]></fr:tex> which are prime, then we will not find any. It remains an open problem how to define prime ideals for noncommutative rings.</fr:p>
+<fr:p>(2) Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Exercise 9(b) in Section III.2 asks the reader to prove: if <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is a division ring and <fr:tex
+display="inline"><![CDATA[R=\mathop {\mathrm {Mat}}\nolimits _{n}(D)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> has zero divisors and so the trivial ideal <fr:tex
+display="inline"><![CDATA[(0)]]></fr:tex> is prime, which means <fr:tex
+display="inline"><![CDATA[R\cong  R/(0)]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is not an integral domain. This is because <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is not a commutative ring. (See? Things get really weird when trying to think about prime ideals in a noncommutative ring.)</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -43,16 +40,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1763</fr:anchor><fr:addr
-type="user">nst-001N</fr:addr><fr:route>nst-001N.xml</fr:route><fr:title
-text="Russell's paradox">Russell's paradox</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>495</fr:anchor><fr:addr
+type="user">ra-001D</fr:addr><fr:route>ra-001D.xml</fr:route><fr:title
+text="Prime Ideal">Prime Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we try defining the set
-<fr:tex
-display="block"><![CDATA[R=\{S\hbox { is a set}\mid  S\notin  S\}.]]></fr:tex>
-Then we obtain a contradiction if such a set exists. (The solution is to restrict what set-builder notation.)</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. An <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">ideal</fr:link> <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq } R]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Quasi-Prime</html:dfn> if for any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[ab\in  P]]></fr:tex>, then either <fr:tex
+display="inline"><![CDATA[a\in  P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[b\in  P]]></fr:tex>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[P\mathrel {\triangleleft } R]]></fr:tex> is a proper quasi-prime ideal, then we say it is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Prime Ideal</html:dfn>.</fr:p>
  
    
    <fr:tree
@@ -62,27 +73,24 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1765</fr:anchor><fr:addr
-type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:addr
+type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Well, assume <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> exists. We will prove we obtain a contradiction. Our proof is by cases: either <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Then this means <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But this is the defining property for members of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Again, we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This notion does not generalize to noncommutative rings. If we tried "naively" looking for ideals of <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{2}(\mathbb {C})]]></fr:tex> which are prime, then we will not find any. It remains an open problem how to define prime ideals for noncommutative rings.</fr:p>
+<fr:p>(2) Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Exercise 9(b) in Section III.2 asks the reader to prove: if <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is a division ring and <fr:tex
+display="inline"><![CDATA[R=\mathop {\mathrm {Mat}}\nolimits _{n}(D)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> has zero divisors and so the trivial ideal <fr:tex
+display="inline"><![CDATA[(0)]]></fr:tex> is prime, which means <fr:tex
+display="inline"><![CDATA[R\cong  R/(0)]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is not an integral domain. This is because <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is not a commutative ring. (See? Things get really weird when trying to think about prime ideals in a noncommutative ring.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

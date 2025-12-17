@@ -1,0 +1,9 @@
+\title{Universal property of product groups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+
+\p{Let #{\mathcal{F}=\{F_{i}\}_{i\in I}} be an indexed family of groups. For any group #{G} and for any family of [[gr-000T]]s #{\varphi_{i}\colon G\to F_{i}}, there exists a unique morphism #{\varphi\colon G\to\prod\mathcal{F}} such that for each #{i\in I} we have #{\pi_{i}\circ\varphi=\varphi_{i}} where #{\pi_{i}(x)=x_{i}} is the projection onto the #{i^{\text{th}}} factor of the product group #{\pi_{i}\colon\prod\mathcal{F}\to F_{i}}.}
+
+\rmk{This reflects how morphisms contain all the interesting information about constructions.}

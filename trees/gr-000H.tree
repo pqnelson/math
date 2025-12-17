@@ -1,0 +1,8 @@
+\title{Set of all invertible elements}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+
+\p{Let #{A} be a set, let #{\mu} be a [[gr-0001]] with [[gr-0005]] #{e\in A}. We define the \define{Set of all invertible elements} in #{A} to be the set of all elements with a (two-sided) inverse,
+##{\UnitGroup{A}=\{a\in A\mid \exists a^{-1}\in A\ldotp \mu(a,a^{-1})=\mu(a^{-1},a)=e\}.}}

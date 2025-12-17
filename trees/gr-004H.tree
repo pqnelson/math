@@ -1,0 +1,8 @@
+\title{Conjugation action}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 2.2}
+
+\p{Let #{G} be a [[gr-000G]]. The \define{Conjugation Action} is an [action](gr-004Y) of #{G} on itself given by #{g\cdot x:=g^{-1}xg} [conjugation](gr-001X).}

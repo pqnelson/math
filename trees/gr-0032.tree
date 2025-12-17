@@ -1,0 +1,12 @@
+\title{Product of subsets of a group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_2}{def 2}{K2}
+
+\p{Let #{G} be a [[gr-000G]], let #{A} and #{B} be subsets of #{G}. We define their \define{Product} to be the subset #{AB} of #{G} equal to
+##{AB=\{ab\in G\mid a\in A,b\in B\}.}}
+
+\rmk{\p{(1) This definition can be generalized to any nonempty multiplicative magma.}
+\p{(2) There is no standard term for this product. Historically, van der Waerden called it the "complex product" (or "products of complexes"). Others have called it the Frobenius product.}}

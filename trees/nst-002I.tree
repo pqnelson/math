@@ -1,0 +1,7 @@
+\title{Proof by contrapositive}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+
+\p{We can take advantage of the fact that "If #{P} then #{Q}" has the same truth table as "If not #{Q}, then not #{P}". This "Not #{Q} implies not #{P}" is called the \define{Contrapositive} of "#{P} implies #{Q}". Usually we embark on a [[nst-002G]] and so the proof looks like:}
+\blockquote{Assume not #{Q}. [Intermediate proof steps.] Hence not #{P}.}

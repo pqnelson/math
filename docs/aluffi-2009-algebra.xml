@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13115</fr:anchor><fr:addr
+type="user">aluffi-2009-algebra</fr:addr><fr:route>aluffi-2009-algebra.xml</fr:route><fr:title
+text="Algebra: Chapter 0">Algebra: Chapter 0</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2009</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="paolo-aluffi.xml"
+addr="paolo-aluffi"
+title="Paolo Aluffi">Paolo Aluffi</fr:link></fr:author></fr:authors><fr:meta
+name="bibtex"><![CDATA[@book{aluffi2009algebra,
+  title={Algebra: Chapter 0},
+  author={Aluffi, Paolo},
+  volume={104},
+  year={2009},
+  publisher={American Mathematical Society}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13117</fr:anchor><fr:addr
+type="user">iaa-0006</fr:addr><fr:route>iaa-0006.xml</fr:route><fr:title
+text="Modern ways to teach abstract algebra">Modern ways to teach abstract algebra</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The more modern approaches to teaching abstract algebra incorporates some degree of category theory into the mix.</fr:p><fr:p>Aluffi's <fr:link
+type="local"
+href="aluffi-2009-algebra.xml"
+addr="aluffi-2009-algebra"
+title="Algebra: Chapter 0">Algebra: Chapter 0</fr:link> is perhaps the most bold attempt to reorganize abstract algebra around category theory entirely. Instead of ending at Galois theory, Aluffi concludes with homological algebra.</fr:p><fr:p>Some ideas from the traditional approach (like "groups with operators") turn out to be confused and muddled (which should be replaced with groups acting on other groups).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

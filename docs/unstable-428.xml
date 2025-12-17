@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12042</fr:anchor><fr:addr
+type="machine">#428</fr:addr><fr:route>unstable-428.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Since the matrix inverse is unique, this means we can write <fr:tex
+display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex> for the inverse of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> when it exists.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12044</fr:anchor><fr:addr
+type="user">matrix-001D</fr:addr><fr:route>matrix-001D.xml</fr:route><fr:title
+text="Uniqueness of Matrix Inverse">Uniqueness of Matrix Inverse</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be square matrices. If <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> is an inverse of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, then it is unique.</fr:p><fr:p>What does this mean? It means if there is any other square matrix <fr:tex
+display="inline"><![CDATA[\mathbf {C}]]></fr:tex> which is also an inverse of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, then necessarily
+<fr:tex
+display="block"><![CDATA[\mathbf {B}=\mathbf {C}.]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3536</fr:anchor><fr:addr
+type="machine">#428</fr:addr><fr:route>unstable-428.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Since the matrix inverse is unique, this means we can write <fr:tex
+display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex> for the inverse of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> when it exists.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

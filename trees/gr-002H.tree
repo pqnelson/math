@@ -1,0 +1,9 @@
+\title{Conjugation is a transitive relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\MML{group_3}{91}{T91}
+\import{iaa-0001}
+\taxon{proposition}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A\subset G}, #{B\subset G}, and #{C\subset G} be subsets of G. If #{A} [is conjugate to](gr-002E) #{B}, and if #{B} is conjugate to #{C}, then #{A} is conjugate to #{C}.}

@@ -1,0 +1,17 @@
+\title{Set of invertible elements for associative binary operator is a group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{lemma}
+
+\p{Let #{A} be a set equipped with an [[gr-0003]] #{\mu} with an [[gr-0005]] #{e\in A}. Then the [[gr-000H]] equipped with #{\mu} forms a [[gr-000G]].}
+
+\proof{\p{We need to show that #{\UnitGroup{A}} is closed with respect to #{\mu}, i.e., for any #{a,b\in \UnitGroup{A}}, we have #{\mu(a,b)\in A} and also #{e\in \UnitGroup{A}}.}
+\p{Well, we see #{\mu(e,e)=e} which implies #{e^{-1}=e} and therefore #{e\in \UnitGroup{A}.}}
+\p{Let #{a,b\in \UnitGroup{A}}. Then we claim #{\mu(b^{-1},a^{-1})} is the inverse element for #{\mu(a,b)}, since
+##{\begin{align}\mu(\mu(b^{-1},a^{-1}),\mu(a,b)) &=\mu(b^{-1},\mu(a^{-1},\mu(a,b)))\mbox{ by associativity}\\ &=\mu(b^{-1},\mu(\mu(a^{-1},a),b))\mbox{ by associativity}\\
+&=\mu(b^{-1},\mu(e,b))\\
+&=\mu(b^{-1},b)=e,\end{align}}
+and similar reasoning shows
+##{\mu(\mu(a,b), \mu(b^{-1},a^{-1}))=e.}
+Hence multiplying two elements of #{\UnitGroup{A}} together yields another element in #{\UnitGroup{A}}. So we have a group.}}

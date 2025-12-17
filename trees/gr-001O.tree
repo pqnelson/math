@@ -1,0 +1,10 @@
+\title{Centralizer of a subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 2.2}
+
+\MML{group_22}{def 4}{K1}
+
+\p{Let #{G} be a [[gr-000G]], let #{A} be a subset of #{G}. Then the \define{Centralizer} of #{A} is the subgroup #{C_{G}(A)=\{g\in G\mid\forall a\in A\ldotp gag^{-1}=a\}} consisting of all elements of #{G} which commutes with every element of #{A}.}

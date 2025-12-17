@@ -1,0 +1,10 @@
+\title{Isomorphic groups is symmetric predicate}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{proposition}
+\MML{group_6}{66}{T66}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s. If #{G} and #{H} [are isomorphic](gr-000V), then #{H} and #{G} are isomorphic.}
+
+\proof{\p{This is because the inverse function of a group isomorphism is itself a group isomorphism.}}

@@ -1,0 +1,11 @@
+\title{Collection of ideals forms a set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+
+\p{Let #{R} be a [[ring-0001]]. Then the collection of left/right/two-sided ideals of #{R} forms a set.}
+
+\proof{\p{Look at the set
+##{\mathcal{I}=\{I\in\powerset{R}\mid I\mbox{ is an ideal}\},}
+where "is an ideal" means the subset is a left/right/two-sided ideal (depending on what the reader wants). This is clearly a subset of #{\powerset{R}}, which means #{\mathcal{I}} is the set sought.}}

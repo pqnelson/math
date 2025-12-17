@@ -7,15 +7,28 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7319</fr:anchor><fr:addr
-type="machine">#344</fr:addr><fr:route>unstable-344.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2214</fr:anchor><fr:addr
+type="machine">#344</fr:addr><fr:route>unstable-344.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should prove, for any <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>, their sum exists and is unique. This is "obvious enough".</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For any group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, either there exists a nontrivial proper <fr:link
+type="local"
+href="gr-002P.xml"
+addr="gr-002P"
+title="Normal subgroup">Normal subgroup</fr:link> <fr:tex
+display="inline"><![CDATA[N\mathrel {\triangleleft } G]]></fr:tex> or it doesn't. If it does, then we can ask about the <fr:link
+type="local"
+href="gr-003L.xml"
+addr="gr-003L"
+title="Quotient Group">Quotient Group</fr:link> <fr:tex
+display="inline"><![CDATA[G/N]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[N]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[G/N]]></fr:tex> is simple, then we turn our attention to proper normal subgroups of <fr:tex
+display="inline"><![CDATA[N]]></fr:tex>. We can repeat this questioning, and this gives us a composition series for <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as a way of "breaking up" <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -30,27 +43,35 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7321</fr:anchor><fr:addr
-type="user">matrix-000E</fr:addr><fr:route>matrix-000E.xml</fr:route><fr:title
-text="Matrix Addition">Matrix Addition</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2216</fr:anchor><fr:addr
+type="user">gr-003X</fr:addr><fr:route>gr-003X.xml</fr:route><fr:title
+text="Composition Series">Composition Series</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}=(b_{i,j})]]></fr:tex> be two <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices. We define <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Matrix Addition</html:dfn> of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> to produce a third <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix <fr:tex
-display="inline"><![CDATA[\mathbf {C}=(c_{i,j})]]></fr:tex> (called the <fr:em>sum</fr:em> of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) whose components are defined by <fr:tex
-display="inline"><![CDATA[c_{i,j}=a_{i,j}+b_{i,j}]]></fr:tex>.</fr:p><fr:p>We write <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}]]></fr:tex> for the sum of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Composition Series</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is a finite sequence <fr:tex
+display="inline"><![CDATA[H_{i}]]></fr:tex> of subgroups of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[\mathbf {1}_{G}=H_{0}\mathrel {\triangleleft } H_{1}\mathrel {\triangleleft }…\mathrel {\triangleleft } H_{n}=G,]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[H_{i}\mathrel {\triangleleft } H_{i+1}]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[i=0,…,n-1]]></fr:tex>, and in particular <fr:tex
+display="inline"><![CDATA[H_{i+1}/H_{i}]]></fr:tex> is <fr:link
+type="local"
+href="gr-003W.xml"
+addr="gr-003W"
+title="Simple">Simple</fr:link>.</fr:p><fr:p><fr:strong>Note:</fr:strong> There is no requirement that <fr:tex
+display="inline"><![CDATA[H_{i}]]></fr:tex> is a normal subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> except for when <fr:tex
+display="inline"><![CDATA[i=n-1]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -60,14 +81,27 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3953</fr:anchor><fr:addr
-type="machine">#344</fr:addr><fr:route>unstable-344.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1234</fr:anchor><fr:addr
+type="machine">#344</fr:addr><fr:route>unstable-344.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should prove, for any <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>, their sum exists and is unique. This is "obvious enough".</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For any group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, either there exists a nontrivial proper <fr:link
+type="local"
+href="gr-002P.xml"
+addr="gr-002P"
+title="Normal subgroup">Normal subgroup</fr:link> <fr:tex
+display="inline"><![CDATA[N\mathrel {\triangleleft } G]]></fr:tex> or it doesn't. If it does, then we can ask about the <fr:link
+type="local"
+href="gr-003L.xml"
+addr="gr-003L"
+title="Quotient Group">Quotient Group</fr:link> <fr:tex
+display="inline"><![CDATA[G/N]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[N]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[G/N]]></fr:tex> is simple, then we turn our attention to proper normal subgroups of <fr:tex
+display="inline"><![CDATA[N]]></fr:tex>. We can repeat this questioning, and this gives us a composition series for <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as a way of "breaking up" <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

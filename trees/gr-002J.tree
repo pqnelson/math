@@ -1,0 +1,8 @@
+\title{Conjugation of a subgroup by an element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_3}{def 6}{K6}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{H\subgroup G} be a [[gr-001B]] of #{G}. Let #{g\in G} be an element of #{G}. Then we define the \define{Conjugation} of #{H} by #{g} to be the \textbf{subgroup} #{H^{g}} of #{G} such that its underlying set is given by [the conjugation of the subset by #{g}](gr-001Z); i.e., for any #{a\in G}, we have #{a\in H^{g}} if and only if there is an #{h\in H} such that #{a=h^{g}}.}

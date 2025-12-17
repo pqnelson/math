@@ -7,26 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4413</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>505</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
-type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">set-builder notation</fr:link>  <fr:tex
-display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
-display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">Set equality</fr:link>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Only the first two results needs to be proven.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -43,35 +29,36 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4415</fr:anchor><fr:addr
-type="user">nst-000F</fr:addr><fr:route>nst-000F.xml</fr:route><fr:title
-text="Intersection of two sets">Intersection of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>507</fr:anchor><fr:addr
+type="user">ra-0019</fr:addr><fr:route>ra-0019.xml</fr:route><fr:title
+text="Second Isomorphism Theorem of Rings">Second Isomorphism Theorem of Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="paul-r-halmos.xml"
-addr="paul-r-halmos"
-title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[A\subseteq  R]]></fr:tex> be a <fr:link
 type="local"
-href="halmos-1974-naive.xml"
-addr="halmos-1974-naive"
-title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K3">xboole_0:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Intersection</html:dfn> to be the set denoted <fr:tex
-display="inline"><![CDATA[X\cap  Y]]></fr:tex> such that: for all objects <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[x\in  X\cap  Y]]></fr:tex> iff <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see this is commutative <fr:tex
-display="inline"><![CDATA[X\cap  Y=Y\cap  X]]></fr:tex> and idempotent <fr:tex
-display="inline"><![CDATA[X\cap  X=X]]></fr:tex>.</fr:p>
+href="ra-000Q.xml"
+addr="ra-000Q"
+title="Subring">Subring</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[A\cap  I\mathrel {\trianglelefteq } A]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[A+I\subseteq  R]]></fr:tex> is a subring</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[A/(A\cap  I)\cong (A+I)/I]]></fr:tex> with the isomorphism defined by <fr:tex
+display="inline"><![CDATA[a\mapsto  a+I]]></fr:tex></fr:li></fr:ol>
  
    
    <fr:tree
@@ -81,26 +68,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2067</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>509</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
-type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">set-builder notation</fr:link>  <fr:tex
-display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
-display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">Set equality</fr:link>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Only the first two results needs to be proven.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

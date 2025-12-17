@@ -1,0 +1,15 @@
+\title{Algebra}
+\author{thomas-w-hungerford}
+\taxon{reference}
+\date{1974}
+
+\p{Uses NBG set theory as its foundations.}
+
+\meta{bibtex}{\startverb
+@book{hungerford1974algebra,
+  author={Hungerford, Thomas W.},
+  title={Algebra},
+  publisher={Springer},
+  year={1974},
+  printing={twelfth}
+}\stopverb}

@@ -1,0 +1,14 @@
+\title{Second Isomorphism Theorem of Rings}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ring-0001]], let #{A\subset R} be a [[ra-000Q]] of #{R}, and let #{I\ideal R} be an [[ra-0011]] of #{R}. Then the following all hold:}
+\ol{
+\li{#{A\cap I\ideal A}}
+\li{#{A+I\subset R} is a subring}
+\li{#{A/(A\cap I)\iso(A+I)/I} with the isomorphism defined by #{a\mapsto a+I}}
+}
+
+\proof{\p{Only the first two results needs to be proven.}}

@@ -6,4 +6,4 @@
 
 \p{Let #{(X,\mathcal{T_{1}})} and #{(Y,\mathcal{T}_{2})} be [[gt-0002]]s. Let #{f\colon X\to Y} be a [[gt-000P]]. If #{E\subset X} is a [[gt-000U]], then #{f(E)\subset Y} is a connected subset.}
 
-\proof{\p{Assume for contradiction #{f(E)} is not connected. Then let #{V_{1}} and #{V_{2}} be open subsets of #{f(E)} which [separate](gt-000S) #{f(E)}, so #{V_{1}\cap V_{2}=\emptyset} and #{V_{1}\cup V_{2}=f(E)}. Then by continuity, #{f^{-1}(V_{1})} and #{f^{-1}(V_{2})} are disjoint open subsets of #{X} whose union is #{E}. This means #{f^{-1}(V_{1})} and #{f^{-1}(V_{2})} separate #{E}, which contradicts #{E} being connected.}}
+\proof{\p{[[nst-002J]]. Assume for contradiction #{f(E)} is not connected. Then let #{V_{1}} and #{V_{2}} be open subsets of #{f(E)} which [separate](gt-000S) #{f(E)}, so #{V_{1}\cap V_{2}=\emptyset} and #{V_{1}\cup V_{2}=f(E)}. Then by continuity, #{f^{-1}(V_{1})} and #{f^{-1}(V_{2})} are disjoint open subsets of #{X} whose union is #{E}. This means #{f^{-1}(V_{1})} and #{f^{-1}(V_{2})} separate #{E}, which contradicts #{E} being connected.}}

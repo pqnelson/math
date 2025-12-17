@@ -1,0 +1,15 @@
+\title{Group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\MML{group_1}{def}{NM1}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.1}
+
+\p{A \define{Group} consists of a set #{G} equipped with an [[gr-0003]] #{\star} and an [[gr-0005]] with respect to #{\star}, usually denoted either #{e\in G} or #{1\in G}, such that every element has a unique [inverse](gr-000C),
+##{\forall a\in G\ldotp\exists a^{-1}\in A\ldotp a\star a^{-1}=a^{-1}\star a=e.}}
+
+\rmk{\p{(1) When the binary operator for the group is commutative, we usually use #{+} for the binary operator and #{0} for the identity element.}
+\p{(2) The "exact formalization" varies. For example, we could have equipped #{G} with a binary operator #{\star}, a unary operator #{(-)^{-1}\colon G\to G}, and a constant element #{e\in G}; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.}
+\p{(3) The intuition is that #{G} consists of [bijections](ela-001K) from a set to itself, and the binary operator is just the [[nst-001M]] and the identity element is just the [[nst-0017]]. These bijections are "symmetries" of the set.}
+\p{(4) See also Forrester-Barker's [[forrester-2002-group]] for a way to generalize the notion of groups to other settings.}}

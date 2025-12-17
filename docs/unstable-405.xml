@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11558</fr:anchor><fr:addr
+type="machine">#405</fr:addr><fr:route>unstable-405.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just a sketch of the proof.</fr:p>
+<fr:p><fr:strong>Step 1:</fr:strong> the fields <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> are both character zero, i.e., there is no <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[1_{R} + \cdots  + 1_{R}=0]]></fr:tex> (the sum of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> copies of <fr:tex
+display="inline"><![CDATA[1_{R}]]></fr:tex> vanishes). This is never true for either <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is order-dense in <fr:tex
+display="inline"><![CDATA[R_{i}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 3:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[f_{0}\colon  \mathbb {Q}\cap  R_{1}\to  R_{2}]]></fr:tex> be a function taking <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> in the sense that if <fr:tex
+display="inline"><![CDATA[q\in  R_{1}\cap \mathbb {Q}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f_{0}(q)=q]]></fr:tex>.</fr:p>
+<fr:p>We extend this <fr:tex
+display="inline"><![CDATA[f_{0}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[f(r)=\sup \{f(q)\mid  q<r\}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[r\in  R_{1}]]></fr:tex>. Then by the order-density of <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, this <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is an order isomorphism.</fr:p>
+<fr:p><fr:strong>Step 4:</fr:strong> The <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> we just constructed is a field isomorphism.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11560</fr:anchor><fr:addr
+type="user">ca-000B</fr:addr><fr:route>ca-000B.xml</fr:route><fr:title
+text="Uniqueness of Real Field">Uniqueness of Real Field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we have two ordered fields <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> which both have the <fr:link
+type="local"
+href="ca-0007.xml"
+addr="ca-0007"
+title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link> and each contain the rational numbers <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield. Then there exists an order-preserving field isomorphism <fr:tex
+display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p><fr:p>Since the ordered field <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> with the LUB property and containing <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is essentially unique, we refer to it as the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Real Numbers</html:dfn> and write it as <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6824</fr:anchor><fr:addr
+type="machine">#405</fr:addr><fr:route>unstable-405.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just a sketch of the proof.</fr:p>
+<fr:p><fr:strong>Step 1:</fr:strong> the fields <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> are both character zero, i.e., there is no <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[1_{R} + \cdots  + 1_{R}=0]]></fr:tex> (the sum of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> copies of <fr:tex
+display="inline"><![CDATA[1_{R}]]></fr:tex> vanishes). This is never true for either <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is order-dense in <fr:tex
+display="inline"><![CDATA[R_{i}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Step 3:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[f_{0}\colon  \mathbb {Q}\cap  R_{1}\to  R_{2}]]></fr:tex> be a function taking <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> in the sense that if <fr:tex
+display="inline"><![CDATA[q\in  R_{1}\cap \mathbb {Q}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f_{0}(q)=q]]></fr:tex>.</fr:p>
+<fr:p>We extend this <fr:tex
+display="inline"><![CDATA[f_{0}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[f(r)=\sup \{f(q)\mid  q<r\}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[r\in  R_{1}]]></fr:tex>. Then by the order-density of <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, this <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is an order isomorphism.</fr:p>
+<fr:p><fr:strong>Step 4:</fr:strong> The <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> we just constructed is a field isomorphism.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

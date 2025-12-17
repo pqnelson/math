@@ -1,0 +1,13 @@
+\title{Distributivity of multiplying subgroups with group elements over intersecting subgroups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\MML{group_2}{125}{T125}
+\MML{group_2}{126}{T126}
+
+\p{Let #{G} be a [[gr-000G]], let #{H_{1}\subgroup G} and #{H_{2}\subgroup G} be [[gr-001B]]s of #{G}, let #{a\in G} be an element of #{G}. Then the following all hold:}
+\ol{
+\li{#{a(H_{1}\cap H_{2})=(aH_{1})\cap(aH_{2})}}
+\li{#{(H_{1}\cap H_{2})a=(H_{1}a)\cap(H_{2}a)}}
+}

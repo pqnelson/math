@@ -7,35 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4409</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>499</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
-display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
-display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
-display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For commutative rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, all three notions coincide.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -50,32 +28,52 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4411</fr:anchor><fr:addr
-type="user">nst-000N</fr:addr><fr:route>nst-000N.xml</fr:route><fr:title
-text="Ordered pairs implement their specification">Ordered pairs implement their specification</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>501</fr:anchor><fr:addr
+type="user">ra-001C</fr:addr><fr:route>ra-001C.xml</fr:route><fr:title
+text="Maximal ideal">Maximal ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="paul-r-halmos.xml"
-addr="paul-r-halmos"
-title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>.</fr:p><fr:ol><fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Right Ideal</html:dfn> is a proper <fr:link
 type="local"
-href="halmos-1974-naive.xml"
-addr="halmos-1974-naive"
-title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/xtuple_0.html#T1">xtuple_0:1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[c]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> be objects. If <fr:tex
-display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p>
+href="ra-0010.xml"
+addr="ra-0010"
+title="Right ideal of a ring">right ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other right ideal <fr:tex
+display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Left Ideal</html:dfn> is a proper <fr:link
+type="local"
+href="ra-000Z.xml"
+addr="ra-000Z"
+title="Left ideal of a ring">left ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other left ideal <fr:tex
+display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal (Two-Sided) Ideal</html:dfn> is a proper <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\mathrel {\triangleleft } R]]></fr:tex> such that for any other ideal <fr:tex
+display="inline"><![CDATA[J\mathrel {\trianglelefteq } R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li></fr:ol><fr:p>When we drop the condition that <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is proper, then we have a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Quasi-Maximal</html:dfn> left/right/two-sided ideal.</fr:p>
  
    
    <fr:tree
@@ -85,34 +83,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2085</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
-display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
-display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
-display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For commutative rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, all three notions coincide.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

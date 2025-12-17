@@ -1,0 +1,13 @@
+\title{Isomorphism theorems}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+
+\p{The three (sometimes four) isomorphism theorems are important, but no one agrees with how to enumerate them: the first isomorphism theorem is usually the same, but all bets are off for the remaining isomorphism theorems.}
+
+\p{These isomorphism theorems may be traced back to [[emmy-noether]]'s [[noether-1927-abstrakter]] (1927).}
+
+\transclude{gr-003P} % first isomorphism theorem
+\transclude{gr-003R} % notation for a subgroup as a normal subgroup
+\transclude{gr-003S} % second isomorphism theorem
+\transclude{gr-003T} % third isomorphism theorem

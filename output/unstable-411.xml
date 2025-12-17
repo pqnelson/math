@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:addr
+type="machine">#411</fr:addr><fr:route>unstable-411.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We have a more general notion of an "action" of a group on an object depend on the kind of morphisms on the object. For example, a group acting on a vector space will have <fr:tex
+display="inline"><![CDATA[g\cdot -]]></fr:tex> be a linear transformation of the vector space when we fix <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>.</fr:p>
+<fr:p>(2) We have a closely related notion of a "representation" of a group. Historically this emerged in a confused and haphazard way, describing several variations like a <fr:link
+type="local"
+href="gr-004A.xml"
+addr="gr-004A"
+title="Permutation representation">Permutation representation</fr:link> or a linear representation. Category theory clarified this as an object <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and a group morphism <fr:tex
+display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (X)]]></fr:tex>. This may be viewed as a "curried" form of a group action.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:addr
+type="user">gr-004Y</fr:addr><fr:route>gr-004Y.xml</fr:route><fr:title
+text="Left group action">Left group action</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>, let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Left Action</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a function <fr:tex
+display="inline"><![CDATA[\alpha \colon  G\times  X\to  X]]></fr:tex> such that:</fr:p><fr:ol><fr:li>Identity: for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\alpha (1_{G},x)=x]]></fr:tex>; and</fr:li>
+<fr:li>Compatibility: for all <fr:tex
+display="inline"><![CDATA[g,h\in  G]]></fr:tex> and for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, <fr:tex
+display="block"><![CDATA[\alpha (g,\alpha (h,x))=\alpha (gh,x)]]></fr:tex></fr:li></fr:ol><fr:p>Note: usually we write <fr:tex
+display="inline"><![CDATA[g\cdot  x]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\alpha (g,x)]]></fr:tex> when the action is unambiguous.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>642</fr:anchor><fr:addr
+type="machine">#411</fr:addr><fr:route>unstable-411.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We have a more general notion of an "action" of a group on an object depend on the kind of morphisms on the object. For example, a group acting on a vector space will have <fr:tex
+display="inline"><![CDATA[g\cdot -]]></fr:tex> be a linear transformation of the vector space when we fix <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>.</fr:p>
+<fr:p>(2) We have a closely related notion of a "representation" of a group. Historically this emerged in a confused and haphazard way, describing several variations like a <fr:link
+type="local"
+href="gr-004A.xml"
+addr="gr-004A"
+title="Permutation representation">Permutation representation</fr:link> or a linear representation. Category theory clarified this as an object <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and a group morphism <fr:tex
+display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (X)]]></fr:tex>. This may be viewed as a "curried" form of a group action.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,14 @@
+\title{Centralizes}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\meta{source}{Bourbaki's [[bourbaki-1974-algebra]] I §5.3}
+
+\p{Let #{G} be a [[gr-000G]].}
+\ol{
+\li{Let #{a\in G} be an element, let #{B\subset G} be a subset. We say #{a} \define{Centralizes} #{B} if for each #{b\in B} we have #{ab=ba}. In other words, #{a\in C_{G}(B)} is an element of the [centralizer](gr-001O) of #{B}.}
+\li{Let #{A\subset G} and #{B\subset G} be subsets. We say #{A} \define{Centralizes} #{B} if every element #{a\in A} centralizes #{B}; i.e., #{A\subset C_{G}(B)} is a subset of the centralizer of #{B}.}
+\li{Let #{H\subgroup G} be a [[gr-001B]] of #{G}, let #{B\subset G} be a subset. We say #{H} \define{Centralizes} #{B} if every #{h\in H} centralizes #{B}. In other words, #{H\subgroup C_{G}(B)} is a subgroup of the centralizer of #{B}.}
+}
+\p{In the preceding three definitions, we may replace #{B} with a subgroup #{K\subgroup G} or an element #{b\in G}.}

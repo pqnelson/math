@@ -1,0 +1,13 @@
+\title{Algebra: Chapter 0}
+\author{paolo-aluffi}
+\date{2009}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@book{aluffi2009algebra,
+  title={Algebra: Chapter 0},
+  author={Aluffi, Paolo},
+  volume={104},
+  year={2009},
+  publisher={American Mathematical Society}
+}\stopverb}

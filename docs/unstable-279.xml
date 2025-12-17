@@ -7,16 +7,25 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>422</fr:anchor><fr:addr
-type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>595</fr:anchor><fr:addr
+type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This notion should <fr:strong>NOT</fr:strong> be confused with <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">"separated space"</fr:link> or "separation" in a space.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> that <fr:tex
+display="inline"><![CDATA[(0+0)\star  x=0\star  x]]></fr:tex>. But distributivity rewrites the left-hand side as <fr:tex
+display="inline"><![CDATA[(0\star  x)+(0\star  x)=0\star  x]]></fr:tex>, then subtracting <fr:tex
+display="inline"><![CDATA[0\star  x]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> as desired.</fr:p>
+<fr:p>Similarly, from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x\star (0+0)=x\star  0]]></fr:tex>. Distributivity allows us to rewrite the left-hand side again as <fr:tex
+display="inline"><![CDATA[(x\star 0)+(x\star 0)=x\star 0]]></fr:tex> and then subtracting <fr:tex
+display="inline"><![CDATA[x\star 0]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[x\star 0=0]]></fr:tex> as desired.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,25 +40,21 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>424</fr:anchor><fr:addr
-type="user">gt-000N</fr:addr><fr:route>gt-000N.xml</fr:route><fr:title
-text="Separable">Separable</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>597</fr:anchor><fr:addr
+type="user">ra-0007</fr:addr><fr:route>ra-0007.xml</fr:route><fr:title
+text="Multiplication by Zero is Zero in a ring">Multiplication by Zero is Zero in a ring</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a (possibly non-unital) <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. We say <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> is <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Separable</html:dfn> if there exists a <fr:link
-type="local"
-href="gt-000M.xml"
-addr="gt-000M"
-title="Dense">dense</fr:link> subset of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. For any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex>, we see <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\star  0=0]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -59,15 +64,24 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr
-type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>599</fr:anchor><fr:addr
+type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This notion should <fr:strong>NOT</fr:strong> be confused with <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">"separated space"</fr:link> or "separation" in a space.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> that <fr:tex
+display="inline"><![CDATA[(0+0)\star  x=0\star  x]]></fr:tex>. But distributivity rewrites the left-hand side as <fr:tex
+display="inline"><![CDATA[(0\star  x)+(0\star  x)=0\star  x]]></fr:tex>, then subtracting <fr:tex
+display="inline"><![CDATA[0\star  x]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> as desired.</fr:p>
+<fr:p>Similarly, from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x\star (0+0)=x\star  0]]></fr:tex>. Distributivity allows us to rewrite the left-hand side again as <fr:tex
+display="inline"><![CDATA[(x\star 0)+(x\star 0)=x\star 0]]></fr:tex> and then subtracting <fr:tex
+display="inline"><![CDATA[x\star 0]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[x\star 0=0]]></fr:tex> as desired.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

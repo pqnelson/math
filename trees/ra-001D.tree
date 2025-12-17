@@ -1,0 +1,12 @@
+\title{Prime Ideal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{R} be a [[ra-0003]]. An [ideal](ra-0011) #{P\ideal R} is \define{Quasi-Prime} if for any #{a,b\in R} such that #{ab\in P}, then either #{a\in P} or #{b\in P}.}
+
+\p{If #{P\properideal R} is a proper quasi-prime ideal, then we say it is a \define{Prime Ideal}.}
+
+\rmk{\p{(1) This notion does not generalize to noncommutative rings. If we tried "naively" looking for ideals of #{\Mat_{2}(\CC)} which are prime, then we will not find any. It remains an open problem how to define prime ideals for noncommutative rings.}
+\p{(2) Hungerford [[hungerford-1974-algebra]] Exercise 9(b) in Section III.2 asks the reader to prove: if #{D} is a division ring and #{R=\Mat_{n}(D)}, then #{R} has zero divisors and so the trivial ideal #{(0)} is prime, which means #{R\iso R/(0)} but #{R} is not an integral domain. This is because #{R} is not a commutative ring. (See? Things get really weird when trying to think about prime ideals in a noncommutative ring.)}}

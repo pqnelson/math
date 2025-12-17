@@ -1,0 +1,7 @@
+\title{Fields with addition form a commutative group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{example}
+
+\p{Let #{\FF} be a [[field-0001]]. Then #{\FF} equipped with its addition operation forms a group where the identity element is the zero #{\in\FF}.}

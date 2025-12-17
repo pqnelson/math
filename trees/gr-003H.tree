@@ -1,0 +1,8 @@
+\title{Left cosets of a subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_2}{def 15}{K15}
+
+\p{Let #{G} be a [[gr-000G]], let #{H\subgroup G} be a [[gr-001B]] of #{G}. We define the \define{Left Cosets of #{H}} to be the family of subsets of #{G} equal to #{\{gH\subset G\mid g\in G\}}.}

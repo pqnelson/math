@@ -1,0 +1,12 @@
+\title{Extension problem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+
+\p{\textbf{Given:} #{H} and #{K} be [[gr-000G]]s.}
+\p{\textbf{Problem:} find which groups #{G} fit a [short exact sequence](gr-0043)
+##{\mathbf{1}\to H\to G\xrightarrow{\pi}K\to\mathbf{1}}
+where #{K\iso G/\ker(\pi)} and #{\ker(\pi)\iso H}.}
+\p{We can study this further using group chomology (specifically the first group cohomology #{H^{1}(K,-)}).}
+
+\rmk{The terminology over the years here is rather confused, unfortunately. But it seems the way to think of it is that #{G} is an extension of #{K} by #{H}. It is becoming more common to choose #{\widehat{K}} instead of #{G} for the extension of #{K}.}

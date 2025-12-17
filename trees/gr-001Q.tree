@@ -1,0 +1,10 @@
+\title{Centralizer of an element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+
+\p{Let #{G} be a [[gr-000G]], let #{a\in G} be an element of the group. We define the \define{Centralizer} of #{a} to be the [[gr-001B]] #{C_{G}(a)} of #{G} whose underlying set equals
+##{C_{G}(a)=\{g\in G\mid ag=ga\}.}
+Observe this is the same thing as #{C_{G}(a)=C_{G}(\{a\})} the [centralizer](gr-001O) of the singleton #{\{a\}}.}
+

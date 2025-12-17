@@ -1,0 +1,9 @@
+\title{Division algorithm}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 0.2}
+
+\p{For any integers #{a,b\in\ZZ}, there exists #{q,r\in\ZZ} such that #{0\leq r<|b|} and #{a=qb+r}.}
+
+\p{We could take #{A=\{a-qb\mid q\in\ZZ,a-qb\geq0\}}, then apply the [[nt-0001]] to give us #{r} as a minimal element of #{A}.}

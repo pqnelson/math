@@ -1,0 +1,9 @@
+\title{Torsion subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Exercise 2.1.6}
+
+\p{Let #{G} be an Abelian group. We define the \define{Torsion Subgroup} of #{G} to be the [[gr-001B]] #{H=\{g\in G\mid\ord(g)<\infty\}}.}

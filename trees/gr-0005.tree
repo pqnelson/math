@@ -1,0 +1,9 @@
+\title{Identity element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.1}
+
+\p{Let #{X} be a set, let #{\mu} be a [[gr-0001]] on #{X}. Let #{e\in X} be an element. We say #{e} is a \define{Unit} (or \define{identity element}) for #{\mu} if
+##{\forall a\in X\ldotp \mu(a,e)=a\land \mu(e,a)=a.}}

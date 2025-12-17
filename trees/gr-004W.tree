@@ -1,0 +1,12 @@
+\title{Sylow "Development" Theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\meta{source}{I. Martin Isaacs [[isaacs-2008-finite]] Theorem 1.14 (Sylow D-Theorem)}
+
+\p{Let #{P} be a [#{p}-Subgroup](gr-004O) of a finite [[gr-000G]] #{G}. Then #{P} is contained in some [[gr-004S]] of #{G}.}
+
+\p{In other words, Sylow subgroups are "maximal" among the #{p}-subgroups of #{G}.}
+
+\proof{\p{Let #{S} be a Sylow subgroup, by [[gr-004X]] there is a #{g\in G} such that #{P\subgroup S^{g}}. Since #{|S|=|S^{g}|}, #{S^{g}} is another Sylow #{p}-Subgroup of #{G}.}}

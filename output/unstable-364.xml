@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4859</fr:anchor><fr:addr
+type="machine">#364</fr:addr><fr:route>unstable-364.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Some authors prefer <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> to be infinite if there is no smallest positive integer <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g^{n}=e]]></fr:tex>, but it can complicate some results.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4861</fr:anchor><fr:addr
+type="user">gr-000O</fr:addr><fr:route>gr-000O.xml</fr:route><fr:title
+text="Order of a group element">Order of a group element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#K6">group_1:def 11</fr:link></fr:meta><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Let <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>. We define <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Order</html:dfn> of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is the integer <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> equal to <fr:em>either</fr:em> the smallest positive integer <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g^{n}=e]]></fr:tex> <fr:em>or</fr:em> if no such positive integer exists, it is defined to be zero.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>962</fr:anchor><fr:addr
+type="machine">#364</fr:addr><fr:route>unstable-364.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Some authors prefer <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> to be infinite if there is no smallest positive integer <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g^{n}=e]]></fr:tex>, but it can complicate some results.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

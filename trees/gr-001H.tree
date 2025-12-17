@@ -1,0 +1,8 @@
+\title{Subgroups with the same sets are equal to each other}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{theorem}
+\MML{group_2}{59}{T59}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{H_{1}} and #{H_{2}} be [[gr-001B]]s of #{G}. If #{H_{1}} and #{H_{2}} have the same set of elements, then #{H_{1}=H_{2}}.}

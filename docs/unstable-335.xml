@@ -7,18 +7,37 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7089</fr:anchor><fr:addr
-type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2157</fr:anchor><fr:addr
+type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
-display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\chi =\{G\cdot  g\mid  g\in  G\}]]></fr:tex> be the set of orbits. Since the <fr:link
+type="local"
+href="gr-004J.xml"
+addr="gr-004J"
+title="Conjugacy Classes of a group">Conjugacy Classes of a group</fr:link> partitions <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, we see
+<fr:tex
+display="block"><![CDATA[|G|=\sum _{G\cdot  g\in \chi }|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+and the conjugacy classes of elements <fr:tex
+display="inline"><![CDATA[z\in  Z(G)]]></fr:tex> of the <fr:link
+type="local"
+href="gr-002X.xml"
+addr="gr-002X"
+title="Center of a group">center</fr:link> is <fr:tex
+display="inline"><![CDATA[C(z)=\{z\}]]></fr:tex>, we see that
+<fr:tex
+display="block"><![CDATA[|G|=\sum _{g\in  Z(G)}|\mathop {\textrm {Cl}}\nolimits (g)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|=|Z(G)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+Hence the result since <fr:link
+type="local"
+href="gr-004N.xml"
+addr="gr-004N"
+title="Index of centralizer is size of conjugacy class">we proved <fr:tex
+display="inline"><![CDATA[|\mathop {\textrm {Cl}}\nolimits (g)|=[G : C_{G}(g)]]]></fr:tex></fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,30 +52,38 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7091</fr:anchor><fr:addr
-type="user">matrix-0015</fr:addr><fr:route>matrix-0015.xml</fr:route><fr:title
-text="Matrix Multiplication in Plane Geometry">Matrix Multiplication in Plane Geometry</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2159</fr:anchor><fr:addr
+type="user">gr-004I</fr:addr><fr:route>gr-004I.xml</fr:route><fr:title
+text="Class equation">Class equation</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can look at <fr:tex
-display="inline"><![CDATA[2\times 2]]></fr:tex> matrices as acting on points <fr:tex
-display="inline"><![CDATA[(x,y)\in \mathbb {R}^{2}]]></fr:tex> on the plane. We turn <fr:tex
-display="inline"><![CDATA[(x,y)]]></fr:tex> into a column vector.</fr:p><fr:p>We have rotation anticlockwise by an angle <fr:tex
-display="inline"><![CDATA[\theta ]]></fr:tex> given by
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 4.3.7</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/weddwitt.html#T14">weddwitt:14</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Then
 <fr:tex
-display="block"><![CDATA[\mathbf {A}_{\theta } = \begin {bmatrix}\cos (\theta ) & -\sin (\theta )\\ \sin (\theta ) & \cos (\theta )\end {bmatrix}.]]></fr:tex>
-Reflection about the <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>-axis is
-<fr:tex
-display="block"><![CDATA[\mathbf {R}  =\begin {bmatrix}1 & 0\\0 & -1 \end {bmatrix}.]]></fr:tex>
-Dilation by a positive real number <fr:tex
-display="inline"><![CDATA[\lambda \gt  0]]></fr:tex> is a diagonal matrix
-<fr:tex
-display="block"><![CDATA[  \mathbf {D}_{\lambda } =\begin {bmatrix}\lambda  & 0\\   0 & \lambda    \end {bmatrix}.]]></fr:tex>
-Observe for <fr:tex
-display="inline"><![CDATA[0\lt \lambda \lt 1]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[\mathbf {D}_{\lambda }]]></fr:tex> be a contraction.</fr:p>
+display="block"><![CDATA[|G| = |Z(G)| + \sum _{x}[G : C_{G}(x)]]]></fr:tex>
+where the sum is taken over representatives from the representatives from distinct <fr:link
+type="local"
+href="gr-002D.xml"
+addr="gr-002D"
+title="Conjugacy class of an element">conjugacy classes</fr:link> disjoint from the <fr:link
+type="local"
+href="gr-002X.xml"
+addr="gr-002X"
+title="Center of a group">center</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -66,17 +93,55 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5971</fr:anchor><fr:addr
-type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1295</fr:anchor><fr:addr
+type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
-display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\chi =\{G\cdot  g\mid  g\in  G\}]]></fr:tex> be the set of orbits. Since the <fr:link
+type="local"
+href="gr-004J.xml"
+addr="gr-004J"
+title="Conjugacy Classes of a group">Conjugacy Classes of a group</fr:link> partitions <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, we see
+<fr:tex
+display="block"><![CDATA[|G|=\sum _{G\cdot  g\in \chi }|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+and the conjugacy classes of elements <fr:tex
+display="inline"><![CDATA[z\in  Z(G)]]></fr:tex> of the <fr:link
+type="local"
+href="gr-002X.xml"
+addr="gr-002X"
+title="Center of a group">center</fr:link> is <fr:tex
+display="inline"><![CDATA[C(z)=\{z\}]]></fr:tex>, we see that
+<fr:tex
+display="block"><![CDATA[|G|=\sum _{g\in  Z(G)}|\mathop {\textrm {Cl}}\nolimits (g)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|=|Z(G)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+Hence the result since <fr:link
+type="local"
+href="gr-004N.xml"
+addr="gr-004N"
+title="Index of centralizer is size of conjugacy class">we proved <fr:tex
+display="inline"><![CDATA[|\mathop {\textrm {Cl}}\nolimits (g)|=[G : C_{G}(g)]]]></fr:tex></fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1297</fr:anchor><fr:addr
+type="machine">#336</fr:addr><fr:route>unstable-336.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Nothing in the proof required <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> being specifically finite, but we end up with a decomposition of infinite cardinal numbers in the infinite <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> case...which is not as useful...</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

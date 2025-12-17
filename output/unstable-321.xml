@@ -7,57 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6609</fr:anchor><fr:addr
-type="machine">#321</fr:addr><fr:route>unstable-321.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5892</fr:anchor><fr:addr
+type="machine">#321</fr:addr><fr:route>unstable-321.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Step 1:</fr:strong> Define <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> as the set of all <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just an outline of the strategy.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is a base and its generated topology is <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex>. Then showing the two conditions are satisfied is straightforward "unfolding the definitions".</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> be a base for some topology satisfying the two conditions. Then we check the topology generated satisfies the axioms for a <fr:link
 type="local"
-href="ca-000U.xml"
-addr="ca-000U"
-title="Dedekind cuts">Dedekind cuts</fr:link></fr:p>
-<fr:p><fr:strong>Step 2:</fr:strong> <fr:link
-type="local"
-href="ca-000V.xml"
-addr="ca-000V"
-title="Ordering the Dedekind cuts">Ordering the Dedekind cuts</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 3:</fr:strong> <fr:link
-type="local"
-href="ca-000W.xml"
-addr="ca-000W"
-title="The set of Dedekind cuts has the least-upper bound property">The set of Dedekind cuts has the least-upper bound property</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 4:</fr:strong> <fr:link
-type="local"
-href="ca-000X.xml"
-addr="ca-000X"
-title="Construct addition operator on the set of Dedekind cuts">Construct addition operator on the set of Dedekind cuts</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 5:</fr:strong> <fr:link
-type="local"
-href="ca-000Y.xml"
-addr="ca-000Y"
-title="Addition of Dedekind cuts satisfies the relevant ordered field axioms">Addition of Dedekind cuts satisfies the relevant ordered field axioms</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 6:</fr:strong> <fr:link
-type="local"
-href="ca-000Z.xml"
-addr="ca-000Z"
-title="Construct multiplication operator on subset of positive Dedekind cuts">Construct multiplication operator on subset of positive Dedekind cuts</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 7:</fr:strong> <fr:link
-type="local"
-href="ca-0010.xml"
-addr="ca-0010"
-title="Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field">Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 8:</fr:strong> <fr:link
-type="local"
-href="ca-0011.xml"
-addr="ca-0011"
-title="Identify a subset of Dedekind cuts with the rational numbers">Identify a subset of Dedekind cuts with the rational numbers</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 9:</fr:strong> <fr:link
-type="local"
-href="ca-0012.xml"
-addr="ca-0012"
-title="The &quot;rational&quot; Dedekind cuts are isomorphic to the field of rational numbers">The "rational" Dedekind cuts are isomorphic to the field of rational numbers</fr:link>.</fr:p><html:span
+href="gt-0001.xml"
+addr="gt-0001"
+title="Topology">Topology</fr:link>. The fact <fr:tex
+display="inline"><![CDATA[\emptyset \in \mathcal {T}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X\in \mathcal {T}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex> is closed under finite intersection are straightforward. The proof that it is closed under arbitrary union requires a bit more work.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -74,25 +43,42 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6611</fr:anchor><fr:addr
-type="user">ca-000A</fr:addr><fr:route>ca-000A.xml</fr:route><fr:title
-text="Existence of real field">Existence of real field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5894</fr:anchor><fr:addr
+type="user">gt-000A</fr:addr><fr:route>gt-000A.xml</fr:route><fr:title
+text="Topology generated by a base really is a topology">Topology generated by a base really is a topology</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set. Let <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> be a collection of subsets for <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex> be the <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, 1.19</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There exists an ordered field <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> which has the <fr:link
+href="gt-0009.xml"
+addr="gt-0009"
+title="Topology Generated by a base">Topology Generated by a base</fr:link>. Then <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is a <fr:link
 type="local"
-href="ca-0007.xml"
-addr="ca-0007"
-title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link>. Moreover, <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> contains the rational numbers <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield.</fr:p>
+href="gt-0008.xml"
+addr="gt-0008"
+title="Base for topology">base</fr:link> for <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex> (and <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex> really is a <fr:link
+type="local"
+href="gt-0001.xml"
+addr="gt-0001"
+title="Topology">Topology</fr:link>) if and only if both
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> covers <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[X=\bigcup \mathcal {B}]]></fr:tex>; and also</fr:li>
+<fr:li>for all <fr:tex
+display="inline"><![CDATA[B_{1},B_{2}\in \mathcal {B}]]></fr:tex>, for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[x\in  B_{1}\cap  B_{2}]]></fr:tex>, then there exists a <fr:tex
+display="inline"><![CDATA[B\in \mathcal {B}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\in  B\subseteq  B_{1}\cap  B_{2}]]></fr:tex>.</fr:li></fr:ol></fr:p>
  
    
    <fr:tree
@@ -102,57 +88,43 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1257</fr:anchor><fr:addr
-type="machine">#321</fr:addr><fr:route>unstable-321.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5888</fr:anchor><fr:addr
+type="machine">#320</fr:addr><fr:route>unstable-320.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Step 1:</fr:strong> Define <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> as the set of all <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A topology may be generated by many distinct bases. So the base is not unique.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5890</fr:anchor><fr:addr
+type="machine">#321</fr:addr><fr:route>unstable-321.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="ca-000U.xml"
-addr="ca-000U"
-title="Dedekind cuts">Dedekind cuts</fr:link></fr:p>
-<fr:p><fr:strong>Step 2:</fr:strong> <fr:link
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just an outline of the strategy.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> is a base and its generated topology is <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex>. Then showing the two conditions are satisfied is straightforward "unfolding the definitions".</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[\mathcal {B}]]></fr:tex> be a base for some topology satisfying the two conditions. Then we check the topology generated satisfies the axioms for a <fr:link
 type="local"
-href="ca-000V.xml"
-addr="ca-000V"
-title="Ordering the Dedekind cuts">Ordering the Dedekind cuts</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 3:</fr:strong> <fr:link
-type="local"
-href="ca-000W.xml"
-addr="ca-000W"
-title="The set of Dedekind cuts has the least-upper bound property">The set of Dedekind cuts has the least-upper bound property</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 4:</fr:strong> <fr:link
-type="local"
-href="ca-000X.xml"
-addr="ca-000X"
-title="Construct addition operator on the set of Dedekind cuts">Construct addition operator on the set of Dedekind cuts</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 5:</fr:strong> <fr:link
-type="local"
-href="ca-000Y.xml"
-addr="ca-000Y"
-title="Addition of Dedekind cuts satisfies the relevant ordered field axioms">Addition of Dedekind cuts satisfies the relevant ordered field axioms</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 6:</fr:strong> <fr:link
-type="local"
-href="ca-000Z.xml"
-addr="ca-000Z"
-title="Construct multiplication operator on subset of positive Dedekind cuts">Construct multiplication operator on subset of positive Dedekind cuts</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 7:</fr:strong> <fr:link
-type="local"
-href="ca-0010.xml"
-addr="ca-0010"
-title="Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field">Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 8:</fr:strong> <fr:link
-type="local"
-href="ca-0011.xml"
-addr="ca-0011"
-title="Identify a subset of Dedekind cuts with the rational numbers">Identify a subset of Dedekind cuts with the rational numbers</fr:link>.</fr:p>
-<fr:p><fr:strong>Step 9:</fr:strong> <fr:link
-type="local"
-href="ca-0012.xml"
-addr="ca-0012"
-title="The &quot;rational&quot; Dedekind cuts are isomorphic to the field of rational numbers">The "rational" Dedekind cuts are isomorphic to the field of rational numbers</fr:link>.</fr:p><html:span
+href="gt-0001.xml"
+addr="gt-0001"
+title="Topology">Topology</fr:link>. The fact <fr:tex
+display="inline"><![CDATA[\emptyset \in \mathcal {T}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X\in \mathcal {T}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex> is closed under finite intersection are straightforward. The proof that it is closed under arbitrary union requires a bit more work.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

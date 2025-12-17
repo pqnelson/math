@@ -1,0 +1,11 @@
+\title{Determinant is a group morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{example}
+
+\p{Let #{\FF} be a [[field-0001]], let #{n\in\NN}. The [determinant](determinant-000D) #{\det\colon\GL_{n}(\FF)\to\UnitGroup{\FF}} is a [[gr-000T]].}
+
+\proof{\p{This follows from [[determinant-000E]], specifically property (8), and elements of #{\GL_{n}(\FF)} have nonzero determinant.}}
+
+\rmk{This generalizes to any commutative unital [ring](ring-0001) or even ringoid instead of #{\FF}.}

@@ -4,6 +4,7 @@
 \date{2025-12-09}
 
 
+\transclude{nst-002H} % proof strategies
 \transclude{nst-000R} % remark about ontology of mathematics
 \transclude{nst-0001} % "definition" of a set
 \transclude{nst-000C} % remark about well-definedness of definitions

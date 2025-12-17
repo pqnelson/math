@@ -7,14 +7,19 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7081</fr:anchor><fr:addr
-type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2170</fr:anchor><fr:addr
+type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Since the matrix inverse is unique, this means we can write <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex> for the inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> when it exists.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[h\in  C_{G}(g)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[hg=gh]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[g=h^{-1}gh=g^{h}]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[h]]></fr:tex> is a fixed-point of <fr:tex
+display="inline"><![CDATA[g\cdot -]]></fr:tex>. This argument holds backwards, which establishes the bijection.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,21 +34,31 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7083</fr:anchor><fr:addr
-type="user">matrix-001D</fr:addr><fr:route>matrix-001D.xml</fr:route><fr:title
-text="Uniqueness of Matrix Inverse">Uniqueness of Matrix Inverse</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2172</fr:anchor><fr:addr
+type="user">gr-004M</fr:addr><fr:route>gr-004M.xml</fr:route><fr:title
+text="Centralizer is fixed-point of conjugation action">Centralizer is fixed-point of conjugation action</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be square matrices. If <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> is an inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, then it is unique.</fr:p><fr:p>What does this mean? It means if there is any other square matrix <fr:tex
-display="inline"><![CDATA[\mathbf {C}]]></fr:tex> which is also an inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, then necessarily
-<fr:tex
-display="block"><![CDATA[\mathbf {B}=\mathbf {C}.]]></fr:tex></fr:p>
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Consider the <fr:link
+type="local"
+href="gr-004H.xml"
+addr="gr-004H"
+title="Conjugation action">Conjugation action</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on itself. Let <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>. Then the <fr:link
+type="local"
+href="gr-001Q.xml"
+addr="gr-001Q"
+title="Centralizer of an element">centralizer</fr:link> <fr:tex
+display="inline"><![CDATA[C_{G}(g)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is the set of all fixed-points of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> under this action.</fr:p>
  
    
    <fr:tree
@@ -53,13 +68,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5989</fr:anchor><fr:addr
-type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1298</fr:anchor><fr:addr
+type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Since the matrix inverse is unique, this means we can write <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex> for the inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> when it exists.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[h\in  C_{G}(g)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[hg=gh]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[g=h^{-1}gh=g^{h}]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[h]]></fr:tex> is a fixed-point of <fr:tex
+display="inline"><![CDATA[g\cdot -]]></fr:tex>. This argument holds backwards, which establishes the bijection.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

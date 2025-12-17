@@ -1,0 +1,10 @@
+\title{Order of a group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\MML{group_1}{def 11}{K6}
+
+\p{Let #{G} be a [[gr-000G]]. We define the \define{Order} of #{G} to be #{\ord(G)=|G|} the [cardinality](nst-002B) of the underlying set of elements of #{G}.}
+
+\p{If the underlying set of elements of #{G} is not finite, then we typically just assign #{\ord(G)=\infty}.}

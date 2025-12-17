@@ -1,0 +1,11 @@
+\title{Inverse of one is one in a ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+
+\p{Let #{R} be a unital [[ring-0001]]. Then #{1^{-1}=1} and #{(-1)^{-1}=-1} in #{R}.}
+
+\proof{\p{We see #{1=1\star 1^{-1}=1^{-1}} the first equality by definition of multiplicative inverse, the second equality by the unital property.}
+\p{Similarly #{1=(-1)\star(-1)^{-1}} so then adding #{-1} to both sides gives us #{0=1-1=(-1)\star(-1)^{-1}+(-1)} and distributivity allows us to rewrite #{(-1)\star(-1)^{-1}+(-1)=(-1)\star((-1)^{-1}+1)=0}. So either #{-1=0} or #{(-1)^{-1}+1=0}.}
+\p{If #{-1=0}, then #{1=0} and so #{(-1)^{-1}=-1=0}.}
+\p{If #{(-1)^{-1}+1=0}, then adding #{-1} to both sides gives us the result.}}

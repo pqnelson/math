@@ -1,0 +1,9 @@
+\title{Inverse of subset of a group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_2}{def 1}{K1}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A\subset G} be a subset of #{G}. We define the \define{Inverse} of #{A} to be the subset #{A^{-1}} of #{G} equal to
+##{A^{-1}=\{a^{-1}\in G\mid a\in A\}.}}

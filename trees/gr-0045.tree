@@ -1,0 +1,11 @@
+\title{Split extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{H}, #{G}, #{\widehat{G}} be [[gr-000G]]s. Let
+##{\mathbf{1}\to H\to \widehat{G}\xrightarrow{\pi}G\to\mathbf{1}}
+be a [short exact sequence](gr-0043). We say the extension #{\widehat{G}} is \define{Split} if there is a group morphism #{\sigma\colon G\to\widehat{G}} such that #{\pi\circ\sigma=\id_{G}}.}
+
+\p{If #{\widehat{G}} is not split, then we say it is a "nonsplit extension" of #{G}.}

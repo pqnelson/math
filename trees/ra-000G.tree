@@ -1,0 +1,7 @@
+\title{Domain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{A [[ring-0001]] is called a \define{Domain} if it has no [[ra-000E]]s.}

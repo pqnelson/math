@@ -1,0 +1,12 @@
+\title{Third isomorphism theorem}
+\author{alex-nelson}
+\import{notation}
+\taxon{theorem}
+\MML{group_6}{80}{T80}
+
+\p{Let #{G} be a [[gr-000G]].
+Let #{N\normalsubgroup G} be a [[gr-002P]] of #{G}.
+Let #{M\normalsubgroup G} and #{J\normalsubgroup G} be [strict] [[gr-002P]]s of #{G}.
+If #{J = N/(M)_{N}} and #{M\subgroup N},
+then
+##{\frac{G/M}{J}\iso G/N.}}

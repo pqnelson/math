@@ -1,0 +1,8 @@
+\title{Trivial Subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\MML{group_2}{def 7}{K6}
+
+\p{Let #{G} be a group. Then the \define{Trivial Subgroup} of #{G} is the subgroup #{\TrivialSubgroup{G}} consisting of only the identity element: for any #{x}, we have #{x\in\TrivialSubgroup{G}} if and only if #{x=e}.}

@@ -1,0 +1,18 @@
+\title{Dihedral group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.2}
+\meta{source}{Hungerford [[hungerford-1974-algebra]] Theorem 1.6.13}
+% Artin's \textit{Algebra}, second ed., Proposition 6.4.3
+
+\p{Let #{n\in\NN} be a positive integer. We define the \define{Dihedral group} #{D_{n}} to consist of the set #{\{x^{k}y^{j}\mid 0\leq k<n,0\leq j\leq 1\}} where we also write #{x^{0}y^{0}=1}, such that
+##{x^{n}=y^{2}=1}
+and also
+##{yx=x^{-1}y.}
+It's not hard to see #{yx^{k}=x^{-k}y} by applying that second relation #{k} times.}
+
+\rmk{\p{(1) The dihedral group describes the symmetries of the regular #{n}-gon in the plane, where #{x} is rotation anticlockwise by #{2\pi / n} and #{y} is reflection about a line through the origin.}
+\p{(2) Some authors (like Dummit and Foote) call this group #{D_{2n}} because it is of [order](gr-000P) #{2n}.}
+\p{(3) #{D_{1}} has #{x=1} and #{D_{0}} is degenerate.}}

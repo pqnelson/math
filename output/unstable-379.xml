@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5914</fr:anchor><fr:addr
+type="machine">#379</fr:addr><fr:route>unstable-379.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
+type="local"
+href="ca-002A.xml"
+addr="ca-002A"
+title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5916</fr:anchor><fr:addr
+type="user">ca-002H</fr:addr><fr:route>ca-002H.xml</fr:route><fr:title
+text="Set of continuous real-valued functions on metric space">Set of continuous real-valued functions on metric space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. We denote by <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> the set of all continuous real-valued functions on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p><fr:p>Moreover, this may be given the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Uniform Metric</html:dfn> defined by
+<fr:tex
+display="block"><![CDATA[\left  \lVert  f-g \right  \rVert _{\infty }:=\sup _{x\in  X}|f(x)-g(x)|]]></fr:tex>
+for any <fr:tex
+display="inline"><![CDATA[f,g\in \mathcal {C}(X)]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5918</fr:anchor><fr:addr
+type="machine">#379</fr:addr><fr:route>unstable-379.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
+type="local"
+href="ca-002A.xml"
+addr="ca-002A"
+title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

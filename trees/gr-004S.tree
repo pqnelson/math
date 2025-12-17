@@ -1,0 +1,9 @@
+\title{Sylow #{p}-subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_10}{def 18}{R3}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{p\in\NN} be prime. Let #{P} be a [#{p}-subgroup](gr-004O) of #{G}. We say #{P} is a \define{Sylow #{p}-Subgroup} of #{G} if #{p\nmid\Index{G}{P}} (#{p} does not divide #{\Index{G}{P}}).}
+

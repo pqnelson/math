@@ -1,0 +1,9 @@
+\title{Short exact sequence of groups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{A}, #{B}, #{C} be [[gr-000G]]s. Let #{\mathbf{1}} be the trivial group. A \define{Short Exact Sequence} describes
+##{\mathbf{1}\to A\xrightarrow{f} B\xrightarrow{g}C\to\mathbf{1}}
+where #{f\colon A\to B} and #{g\colon B\to C} are [[gr-000T]]s such that #{\im(f)=\ker(g)}.}

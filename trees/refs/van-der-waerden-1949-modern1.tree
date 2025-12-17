@@ -1,0 +1,17 @@
+\title{Modern Algebra, Vol. I}
+\author{bartel-van-der-waerden}
+\taxon{reference}
+\date{1949}
+
+\p{English translation of the second revised German edition, with revisions and additions by the author. Translator Fred Blum.}
+
+\p{All the hardwork was done by [[emmy-noether]], but she never gets credit for inventing modern abstract algebra. Instead, sadly and unfairly, van der Waerden gets credit.}
+
+\meta{bibtex}{\startverb
+@book{vanderwaerden1949modern1,
+  author={van der Waerden, Bartel L},
+  title={Modern Algebra, Vol.~I},
+  year={1949},
+  publisher={Frederick Ungar Publishing Co.},
+  pages={264}
+}\stopverb}

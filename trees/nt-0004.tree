@@ -1,0 +1,11 @@
+\title{Unique prime factorization}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 0.2}
+
+\p{For any #{n\in\NN}, we may write it as a product
+##{n=p_{1}^{\alpha_{1}}(\dots)p_{k}^{\alpha_{k}}}
+of distinct primes #{p_{i}} and exponents #{\alpha_{i}\in\NN}. Here "uniqueness" means if we have another factorization
+##{n=q_{1}^{\beta_{1}}(\dots)q_{\ell}^{\beta_{\ell}},}
+then #{k=\ell} and we have a bijection #{\sigma\colon\{1,\dots,k\}\to\{1,\dots,\ell\}} such that #{p_{i}=q_{\sigma(i)}} and #{\alpha_{i}=\beta_{\sigma(i)}}. In other words, the two factorizations differ only in the ordering of factors.}

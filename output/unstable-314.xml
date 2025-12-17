@@ -7,58 +7,35 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1815</fr:anchor><fr:addr
-type="machine">#314</fr:addr><fr:route>unstable-314.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5850</fr:anchor><fr:addr
+type="machine">#314</fr:addr><fr:route>unstable-314.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is open in <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>. For each <fr:tex
-display="inline"><![CDATA[x\in  E]]></fr:tex>, there is a radius <fr:tex
-display="inline"><![CDATA[r_{x}>0]]></fr:tex> such that the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="ca-000L.xml"
-addr="ca-000L"
-title="Open Ball">Open Ball</fr:link> <fr:tex
-display="inline"><![CDATA[B_{r_{x}}(x)=\{y\in  Y\mid  d(x,y)<r_{x}\}\subseteq  E]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[V_{x}]]></fr:tex> be the set of all <fr:tex
-display="inline"><![CDATA[y\in  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[d(x,y)<r_{x}]]></fr:tex> (i.e., <fr:tex
-display="inline"><![CDATA[V_{x}]]></fr:tex> is the <fr:tex
-display="inline"><![CDATA[r_{x}]]></fr:tex>-neighborhood of <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>). Define
-<fr:tex
-display="block"><![CDATA[O=\bigcup _{x\in  E}V_{x}.]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[O]]></fr:tex> is an open subset of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> by the <fr:link
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
+display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
 type="local"
-href="ca-0015.xml"
-addr="ca-0015"
-title="Properties of open and closed subsets of metric spaces">Properties of open and closed subsets of metric spaces</fr:link>.</fr:p>
-<fr:p>Since for each <fr:tex
-display="inline"><![CDATA[x\in  E]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[x\in  V_{x}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[E\subseteq  Y\cap  O]]></fr:tex>.</fr:p>
-<fr:p>By our choice of <fr:tex
-display="inline"><![CDATA[V_{x}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[V_{x}\cap  Y=B_{x}\subseteq  E]]></fr:tex> for each <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[O\cap  Y\subseteq  E]]></fr:tex>. Thus <fr:tex
-display="inline"><![CDATA[E=Y\cap  O]]></fr:tex>.</fr:p>
-<fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> If <fr:tex
-display="inline"><![CDATA[O]]></fr:tex> is open in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[E=Y\cap  O]]></fr:tex>, then every point <fr:tex
-display="inline"><![CDATA[x\in  E\subseteq  O]]></fr:tex> has an open neighborhood <fr:tex
-display="inline"><![CDATA[N_{x}\subseteq  O]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[N_{x}\cap  Y\subseteq  E]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is open relative to <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+href="gt-000S.xml"
+addr="gt-000S"
+title="Separated space">separate</fr:link> <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -75,28 +52,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1817</fr:anchor><fr:addr
-type="user">ca-0019</fr:addr><fr:route>ca-0019.xml</fr:route><fr:title
-text="Open subsets of metric subspaces">Open subsets of metric subspaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5852</fr:anchor><fr:addr
+type="user">gt-000V</fr:addr><fr:route>gt-000V.xml</fr:route><fr:title
+text="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(Y,d_{Y})]]></fr:tex> be a subspace of the <fr:link
+display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> be <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link> <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[E\subseteq  Y]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is an <fr:link
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
 type="local"
-href="ca-000M.xml"
-addr="ca-000M"
-title="Open Set">Open Set</fr:link> of <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> if and only if there exists an open set <fr:tex
-display="inline"><![CDATA[O\subseteq  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[E=Y\cap  O]]></fr:tex>.</fr:p>
+href="gt-000P.xml"
+addr="gt-000P"
+title="Continuous Function">Continuous Function</fr:link>. If <fr:tex
+display="inline"><![CDATA[E\subseteq  X]]></fr:tex> is a <fr:link
+type="local"
+href="gt-000U.xml"
+addr="gt-000U"
+title="Connected Subset">Connected Subset</fr:link>, then <fr:tex
+display="inline"><![CDATA[f(E)\subseteq  Y]]></fr:tex> is a connected subset.</fr:p>
  
    
    <fr:tree
@@ -106,58 +85,35 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
-type="machine">#314</fr:addr><fr:route>unstable-314.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3977</fr:anchor><fr:addr
+type="machine">#314</fr:addr><fr:route>unstable-314.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is open in <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>. For each <fr:tex
-display="inline"><![CDATA[x\in  E]]></fr:tex>, there is a radius <fr:tex
-display="inline"><![CDATA[r_{x}>0]]></fr:tex> such that the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="ca-000L.xml"
-addr="ca-000L"
-title="Open Ball">Open Ball</fr:link> <fr:tex
-display="inline"><![CDATA[B_{r_{x}}(x)=\{y\in  Y\mid  d(x,y)<r_{x}\}\subseteq  E]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[V_{x}]]></fr:tex> be the set of all <fr:tex
-display="inline"><![CDATA[y\in  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[d(x,y)<r_{x}]]></fr:tex> (i.e., <fr:tex
-display="inline"><![CDATA[V_{x}]]></fr:tex> is the <fr:tex
-display="inline"><![CDATA[r_{x}]]></fr:tex>-neighborhood of <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>). Define
-<fr:tex
-display="block"><![CDATA[O=\bigcup _{x\in  E}V_{x}.]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[O]]></fr:tex> is an open subset of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> by the <fr:link
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
+display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
 type="local"
-href="ca-0015.xml"
-addr="ca-0015"
-title="Properties of open and closed subsets of metric spaces">Properties of open and closed subsets of metric spaces</fr:link>.</fr:p>
-<fr:p>Since for each <fr:tex
-display="inline"><![CDATA[x\in  E]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[x\in  V_{x}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[E\subseteq  Y\cap  O]]></fr:tex>.</fr:p>
-<fr:p>By our choice of <fr:tex
-display="inline"><![CDATA[V_{x}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[V_{x}\cap  Y=B_{x}\subseteq  E]]></fr:tex> for each <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[O\cap  Y\subseteq  E]]></fr:tex>. Thus <fr:tex
-display="inline"><![CDATA[E=Y\cap  O]]></fr:tex>.</fr:p>
-<fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> If <fr:tex
-display="inline"><![CDATA[O]]></fr:tex> is open in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[E=Y\cap  O]]></fr:tex>, then every point <fr:tex
-display="inline"><![CDATA[x\in  E\subseteq  O]]></fr:tex> has an open neighborhood <fr:tex
-display="inline"><![CDATA[N_{x}\subseteq  O]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[N_{x}\cap  Y\subseteq  E]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is open relative to <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+href="gt-000S.xml"
+addr="gt-000S"
+title="Separated space">separate</fr:link> <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

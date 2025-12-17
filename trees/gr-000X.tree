@@ -1,0 +1,14 @@
+\title{Group morphism preserves identity element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{proposition}
+\MML{group_6}{31}{T31}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s, let #{\varphi\colon G\to H} be a [[gr-000T]]. If #{1_{G}} is the identity element of #{G} and #{1_{H}} is the identity element of #{H}, then #{\varphi(1_{G})=1_{H}}.}
+
+\proof{\p{We see
+##{\begin{align}1_{H}\varphi(1_{G})&=\varphi(1_{G})\\
+&=\varphi(1_{G}1_{G})\\
+&=\varphi(1_{G})\varphi(1_{G})\end{align}}
+and then the [[gr-000R]] gives the result.}}

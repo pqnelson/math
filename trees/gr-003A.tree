@@ -1,0 +1,10 @@
+\title{Intersection of two subgroups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_2}{def 10}{K9}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{H\subgroup G} and #{K\subgroup G} be [[gr-001B]]s of #{G}. Then the intersection #{H\cap K} is a [strict] subgroup of #{G}.}
+
+\p{We can check #{H\cap K=K\cap H}.}

@@ -1,0 +1,8 @@
+\title{Modern ways to teach abstract algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+
+\p{The more modern approaches to teaching abstract algebra incorporates some degree of category theory into the mix.}
+\p{Aluffi's [[aluffi-2009-algebra]] is perhaps the most bold attempt to reorganize abstract algebra around category theory entirely. Instead of ending at Galois theory, Aluffi concludes with homological algebra.}
+\p{Some ideas from the traditional approach (like "groups with operators") turn out to be confused and muddled (which should be replaced with groups acting on other groups).}

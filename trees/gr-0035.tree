@@ -1,0 +1,8 @@
+\title{Inverse of products of subsets is reverse product of inverses}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{proposition}
+\MML{group_2}{11}{T11}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A} and #{B} be subsets of #{G}. Then #{(AB)^{-1}=B^{-1}A^{-1}}.}

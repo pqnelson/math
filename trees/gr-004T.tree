@@ -1,0 +1,11 @@
+\title{Sylow's theorems}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+
+\p{The Sylow theorems tell us about the existence and (non)uniqueness of [[gr-004S]]s of a finite group. The numbering differs book to book, so we will be following [[i-martin-isaacs]]'s [[isaacs-2008-finite]] in describing these theorems.}
+
+\transclude{gr-004U}
+\transclude{gr-004X}
+\transclude{gr-004V}
+\transclude{gr-004W}

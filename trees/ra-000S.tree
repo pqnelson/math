@@ -1,0 +1,16 @@
+\title{Subrings of matrix ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{example}
+
+\p{Let #{n\in\NN} and #{R} be a [[ring-0001]]. Then some common subrings of #{\Mat_{n}(R)} include:}
+\ol{
+\li{[Diagonal matrices](matrix-0006) form a subring}
+\li{[Upper-triangular matrices](matrix-000B) form a subring}
+\li{[Lower-triangular matrices](matrix-000C) form a subring}
+}
+
+\p{\textbf{Exercise:} Do the collection of [orthogonal matrices](matrix-0027) form a subring or not?}
+
+\p{\textbf{Exercise:} Do the collection of [unitary matrices](matrix-0027) form a subring of #{\Mat_{n}(\CC)} or not?}

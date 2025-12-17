@@ -7,33 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>428</fr:anchor><fr:addr
-type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>602</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
-display="inline"><![CDATA[E\subseteq \overline {E}]]></fr:tex>. It suffices to show <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed iff <fr:tex
-display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed, then <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is a closed set such that <fr:tex
-display="inline"><![CDATA[E\subseteq  E]]></fr:tex>. Then by definition of the <fr:link
-type="local"
-href="gt-000G.xml"
-addr="gt-000G"
-title="Closure">Closure</fr:link>, <fr:tex
-display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[E=\overline {E}]]></fr:tex>. Then by the <fr:link
-type="local"
-href="gt-000F.xml"
-addr="gt-000F"
-title="Properties of closed subsets">Properties of closed subsets</fr:link> (specifically (2)), <fr:tex
-display="inline"><![CDATA[\overline {E}]]></fr:tex> is closed. So <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> that <fr:tex
+display="inline"><![CDATA[(0+0)\star  x=0\star  x]]></fr:tex>. But distributivity rewrites the left-hand side as <fr:tex
+display="inline"><![CDATA[(0\star  x)+(0\star  x)=0\star  x]]></fr:tex>, then subtracting <fr:tex
+display="inline"><![CDATA[0\star  x]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> as desired.</fr:p>
+<fr:p>Similarly, from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x\star (0+0)=x\star  0]]></fr:tex>. Distributivity allows us to rewrite the left-hand side again as <fr:tex
+display="inline"><![CDATA[(x\star 0)+(x\star 0)=x\star 0]]></fr:tex> and then subtracting <fr:tex
+display="inline"><![CDATA[x\star 0]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[x\star 0=0]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -50,25 +40,21 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>430</fr:anchor><fr:addr
-type="user">gt-000I</fr:addr><fr:route>gt-000I.xml</fr:route><fr:title
-text="A set is closed iff it is equal to its own closure">A set is closed iff it is equal to its own closure</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>604</fr:anchor><fr:addr
+type="user">ra-0007</fr:addr><fr:route>ra-0007.xml</fr:route><fr:title
+text="Multiplication by Zero is Zero in a ring">Multiplication by Zero is Zero in a ring</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a (possibly non-unital) <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[E\subseteq  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is a <fr:link
-type="local"
-href="gt-000E.xml"
-addr="gt-000E"
-title="Closed set">closed set</fr:link> if and only if <fr:tex
-display="inline"><![CDATA[E=\overline {E}]]></fr:tex>.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. For any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex>, we see <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\star  0=0]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -78,33 +64,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>432</fr:anchor><fr:addr
-type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>606</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
-display="inline"><![CDATA[E\subseteq \overline {E}]]></fr:tex>. It suffices to show <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed iff <fr:tex
-display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed, then <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is a closed set such that <fr:tex
-display="inline"><![CDATA[E\subseteq  E]]></fr:tex>. Then by definition of the <fr:link
-type="local"
-href="gt-000G.xml"
-addr="gt-000G"
-title="Closure">Closure</fr:link>, <fr:tex
-display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[E=\overline {E}]]></fr:tex>. Then by the <fr:link
-type="local"
-href="gt-000F.xml"
-addr="gt-000F"
-title="Properties of closed subsets">Properties of closed subsets</fr:link> (specifically (2)), <fr:tex
-display="inline"><![CDATA[\overline {E}]]></fr:tex> is closed. So <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> that <fr:tex
+display="inline"><![CDATA[(0+0)\star  x=0\star  x]]></fr:tex>. But distributivity rewrites the left-hand side as <fr:tex
+display="inline"><![CDATA[(0\star  x)+(0\star  x)=0\star  x]]></fr:tex>, then subtracting <fr:tex
+display="inline"><![CDATA[0\star  x]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> as desired.</fr:p>
+<fr:p>Similarly, from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x\star (0+0)=x\star  0]]></fr:tex>. Distributivity allows us to rewrite the left-hand side again as <fr:tex
+display="inline"><![CDATA[(x\star 0)+(x\star 0)=x\star 0]]></fr:tex> and then subtracting <fr:tex
+display="inline"><![CDATA[x\star 0]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[x\star 0=0]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

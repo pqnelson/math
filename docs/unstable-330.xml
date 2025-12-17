@@ -7,30 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3366</fr:anchor><fr:addr
-type="machine">#330</fr:addr><fr:route>unstable-330.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2137</fr:anchor><fr:addr
+type="machine">#330</fr:addr><fr:route>unstable-330.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> for any <fr:tex
-display="inline"><![CDATA[u,v\in \ker (L)]]></fr:tex>, we claim <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex>. Observe <fr:tex
-display="inline"><![CDATA[L(u+v)=L(u)+L(v)=\vec {0}_{W}+\vec {0}_{W}=\vec {0}_{W}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Claim 2:</fr:strong> For any <fr:tex
-display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[L(av)=aL(v)=a\vec {0}_{W}=\vec {0}_{W}]]></fr:tex> by <fr:link
-type="local"
-href="vectsp-000A.xml"
-addr="vectsp-000A"
-title="Scalar multiples of zero vector are the zero vector">Scalar multiples of zero vector are the zero vector</fr:link>, hence <fr:tex
-display="inline"><![CDATA[av\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>From these two claims and by <fr:link
-type="local"
-href="vectsp-000D.xml"
-addr="vectsp-000D"
-title="Criteria for subset to be a subspace">Criteria for subset to be a subspace</fr:link>, we have the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[|Z(G)|=1]]></fr:tex>, then we need <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}[G : C_{G}(x)]]]></fr:tex> for each coset representative <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in each orbit, but this would require <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}|G|-|Z(G)|]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} p^{\nu }-1]]></fr:tex> which contradicts our assumption.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -47,26 +34,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3368</fr:anchor><fr:addr
-type="user">vectsp-001B</fr:addr><fr:route>vectsp-001B.xml</fr:route><fr:title
-text="Kernel is a subspace of the domain">Kernel is a subspace of the domain</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2139</fr:anchor><fr:addr
+type="user">gr-004P</fr:addr><fr:route>gr-004P.xml</fr:route><fr:title
+text="P-groups have nontrivial center">P-groups have nontrivial center</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be prime, <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 3.13</fr:meta><fr:meta
-name="source"><fr:link
-type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then <fr:tex
-display="inline"><![CDATA[\ker (L)]]></fr:tex> is a subspace of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. If <fr:tex
+display="inline"><![CDATA[|G|=p^{\nu }]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[\nu \in \mathbb {N}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[|Z(G)|>1]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -76,30 +59,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2488</fr:anchor><fr:addr
-type="machine">#330</fr:addr><fr:route>unstable-330.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1303</fr:anchor><fr:addr
+type="machine">#330</fr:addr><fr:route>unstable-330.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> for any <fr:tex
-display="inline"><![CDATA[u,v\in \ker (L)]]></fr:tex>, we claim <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex>. Observe <fr:tex
-display="inline"><![CDATA[L(u+v)=L(u)+L(v)=\vec {0}_{W}+\vec {0}_{W}=\vec {0}_{W}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Claim 2:</fr:strong> For any <fr:tex
-display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[L(av)=aL(v)=a\vec {0}_{W}=\vec {0}_{W}]]></fr:tex> by <fr:link
-type="local"
-href="vectsp-000A.xml"
-addr="vectsp-000A"
-title="Scalar multiples of zero vector are the zero vector">Scalar multiples of zero vector are the zero vector</fr:link>, hence <fr:tex
-display="inline"><![CDATA[av\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>From these two claims and by <fr:link
-type="local"
-href="vectsp-000D.xml"
-addr="vectsp-000D"
-title="Criteria for subset to be a subspace">Criteria for subset to be a subspace</fr:link>, we have the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[|Z(G)|=1]]></fr:tex>, then we need <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}[G : C_{G}(x)]]]></fr:tex> for each coset representative <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> in each orbit, but this would require <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}|G|-|Z(G)|]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} p^{\nu }-1]]></fr:tex> which contradicts our assumption.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

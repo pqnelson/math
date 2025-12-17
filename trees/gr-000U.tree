@@ -1,0 +1,11 @@
+\title{Group Isomorphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.6}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s. Let #{\varphi\colon G\to H} be a [[gr-000T]]. We say #{\varphi} is a \define{Group Isomorphism} (or just \define{Isomorphism}) if it is bijective and has an inverse function which is a also a group morphism.}
+
+\p{When #{G=H}, we say #{\varphi} is a \define{Automorphism} of #{G}.}
+

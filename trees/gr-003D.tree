@@ -1,0 +1,21 @@
+\title{Associativity of product of subsets and subgroups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\MML{group_2}{96}{T96}
+\MML{group_2}{97}{T97}
+\MML{group_2}{98}{T98}
+\MML{group_2}{99}{T99}
+\MML{group_2}{100}{T100}
+\MML{group_2}{101}{T101}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{H\subgroup G} and #{K\subgroup G} be [[gr-001B]]s of #{G}. Let #{A\subset G} and #{B\subset G} be subsets of #{G}. Let #{U_{K}\subset G} be the set of elements of #{K}. Then the following all hold:}
+\ol{
+\li{#{(AB)H=A(BH)}}
+\li{#{(AH)B=A(HB)}}
+\li{#{(HA)B=H(AB)}}
+\li{#{(AH)K=A(HU_{K})}}
+\li{#{(HA)K=H(AK)}}
+\li{#{(HU_{K})A=H(KA)}}
+}

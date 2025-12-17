@@ -1,0 +1,9 @@
+\title{Commutator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{n\in\NN} be a positive integer, let #{\mat{A}} and #{\mat{B}} be #{n\times n} matrices over a [[field-0001]] (or a [ring](ring-0001) or...). Then we define their \define{Commutator} to be the #{n\times n} matrix
+##{[\mat{A},\mat{B}] := \mat{A}\mat{B}-\mat{B}\mat{A}.}}

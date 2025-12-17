@@ -1,0 +1,11 @@
+\title{Stuff, Structure, and Properties}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{remark}
+
+\p{When we define a [[gr-000G]] (or [[vectsp-0001]] or...), we typically have a kind of "template" for the definition which looks like:}
+\blockquote{\p{A \define{Gadget} consists of some \textbf{stuff} (sets or other gadgets like fields) equipped with some \textbf{structure} (functions, subsets, subset families like topologies, or specific elements) such that a bunch of \textbf{properties} (usually equations) hold.}}
+\p{John Baez and James Dolan were the first to explore this template for definitions. See also Sections 2.4 and 3.1 of [Baez and Shulman](baez-2006-lectures).}
+\p{Model theorists typically describe this as a tuple (all the "stuff" and "structure" are crammed together into one tuple) which satisfy some axioms (the "properties"). While this is neat, it lacks some of the desired "inheritance" (like a [[field-0001]] \emph{really is} an Abelian group with addition, extended with a multiplication operator and a "one" element). Computer Scientists would suggest using a "finite map" instead of a tuple.}
+\p{There is also some tension between "Mathematical Practice" and what is desirable when formalizing concepts in a proof assistant. For example, we would often want to define a group as a group object internal to the category of sets, but that adds a lot of needless complications to formalizing this in a proof assistant (where we would want as Spartan a structure as possible).}

@@ -1,0 +1,10 @@
+\title{Conjugacy class of a subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\import{iaa-0001}
+\MML{group_3}{def 10}{K8}
+
+\p{Let #{G} be a [[gr-000G]], let #{A\subset G} be a subset of #{G}. Then we define the \define{Conjugacy Class} of #{A} to be the family of subsets #{\Cl(A)} of #{G} equal to
+##{\Cl(A):=\{A^{g}\subset G\mid g\in G\}.}}

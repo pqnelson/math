@@ -1,0 +1,11 @@
+\title{Integers modulo a prime form a field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+
+\p{Let #{p\in\NN} be a prime number. Then #{\FF_{p}:=\ZZ / p\ZZ} forms a [[field-0001]].}
+
+\proof{\p{Let us write #{\overline{n}} for the element of #{\FF_{p}} corresponding to the equivalence class containing #{n\in\ZZ}.}
+\p{\textbf{Claim 1:} #{\FF_{p}} forms an Abelian group with addition and #{\overline{0}}.}
+\p{\textbf{Claim 2:} #{\FF_{p}} forms a commutative unital ring with multiplication and multiplicative identity #{\overline{1}}.}
+\p{\textbf{Claim 3:} Every nonzero #{\overline{n}\in\FF_{p}} has a multiplicative inverse.}}

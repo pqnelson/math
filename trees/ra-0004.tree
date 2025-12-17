@@ -1,0 +1,8 @@
+\title{Matrix ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{example}
+
+\p{Let #{R} be a [[ring-0001]], let #{n\in\NN_{0}} be any non-negative integer. We define the \define{Matrix Ring} #{\Mat_{n}(R)} to consist of all #{n\times n} matrices equipped with [[matrix-000E]] and [[matrix-000X]] forms a ring.}
+\p{Moreover, if #{R} is unital, then #{\Mat_{n}(R)} is unital where its multiplicative identity is the [[matrix-0004]] (and we see it satisfies [the unit axioms](matrix-0010)).}

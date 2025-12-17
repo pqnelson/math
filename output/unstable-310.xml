@@ -7,93 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1799</fr:anchor><fr:addr
-type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5828</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
-type="local"
-href="ca-001F.xml"
-addr="ca-001F"
-title="Complete Metric Space">complete</fr:link>. Let <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> be a <fr:link
-type="local"
-href="ca-001J.xml"
-addr="ca-001J"
-title="Contracting sequence">Contracting sequence</fr:link> of nonempty <fr:link
-type="local"
-href="ca-000P.xml"
-addr="ca-000P"
-title="Closed Subset">Closed Subset</fr:link>s of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. For each index <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, select <fr:tex
-display="inline"><![CDATA[x_{n}\in  E_{n}]]></fr:tex>. We claim this <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is a <fr:link
-type="local"
-href="ca-001D.xml"
-addr="ca-001D"
-title="Cauchy sequence">Cauchy sequence</fr:link>. For each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex>, there is an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> suchthat <fr:tex
-display="inline"><![CDATA[\mathop {\textrm {diam}}\nolimits (E_{N})<\varepsilon ]]></fr:tex>. Since this is descending, if <fr:tex
-display="inline"><![CDATA[m,n\geq  N]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[x_{n}\in  E_{N}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x_{m}\in  E_{N}]]></fr:tex>, and therefore
-<fr:tex
-display="block"><![CDATA[d(x_{n},x_{m})\leq \mathop {\textrm {diam}}\nolimits (E_{N})<\varepsilon .]]></fr:tex>
-Hence <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is Cauchy. Since <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is complete, this sequence converges to <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex> is closed for each <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(x_{k})_{k\geq  n}]]></fr:tex> is a convergent sequence in <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>, by <fr:link
-type="local"
-href="ca-001C.xml"
-addr="ca-001C"
-title="Subset is closed iff all convergent sequences on the subset have limits there">Subset is closed iff all convergent sequences on the subset have limits there</fr:link> the limit <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> belongs to <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>. Thus
-<fr:tex
-display="block"><![CDATA[x\in \bigcap ^{\infty }_{n=1}E_{n}.]]></fr:tex>
-It is impossible for the intersection to contain two points <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>, because if it did, <fr:tex
-display="inline"><![CDATA[\lim _{n\to \infty }\mathop {\textrm {diam}}\nolimits (E_{n})\geq  d(u,v)>0]]></fr:tex>.</fr:p>
-<fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume that for any contracting sequence <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> of nonempty closed subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, there is a point <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\bigcap ^{\infty }_{n=1}E_{n}=\{x\}]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> be a Cauchy sequence in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. For each index <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, define <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex> to be the closure of the nonempty set <fr:tex
-display="inline"><![CDATA[\{x_{k}\mid  k\geq  n\}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> is a descending sequence of nonempty closed sets. Since <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is Cauchy, the sequence <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> is contracting. So by assumption there is a point <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> such that
-<fr:tex
-display="block"><![CDATA[\bigcap ^{\infty }_{n=1}E_{n}=\{x\}.]]></fr:tex>
-For each <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> is a limit point of <fr:tex
-display="inline"><![CDATA[\{x_{k}\mid  k\geq  n\}]]></fr:tex>. Hence we may inductively select a strictly increasing set of integers <fr:tex
-display="inline"><![CDATA[\{n_{k}\}]]></fr:tex> such that for each index <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[d(x,x_{n_{k}})<1/ k]]></fr:tex>. The subsequence <fr:tex
-display="inline"><![CDATA[(x_{n_{k}})]]></fr:tex> converges to <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is Cauchy, the whole sequence <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> converges to <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>. Therefore <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is complete.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
+display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
+display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -110,37 +35,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1801</fr:anchor><fr:addr
-type="user">ca-001K</fr:addr><fr:route>ca-001K.xml</fr:route><fr:title
-text="Cantor intersection theorem">Cantor intersection theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5830</fr:anchor><fr:addr
+type="user">gt-000Z</fr:addr><fr:route>gt-000Z.xml</fr:route><fr:title
+text="Metric Topology is Hausdorff">Metric Topology is Hausdorff</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a metric space. Then the <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. Then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+href="gt-0004.xml"
+addr="gt-0004"
+title="Metric topology">Metric topology</fr:link> makes <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> into a <fr:link
 type="local"
-href="ca-001F.xml"
-addr="ca-001F"
-title="Complete Metric Space">complete</fr:link> if and only if whenever <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> is a <fr:link
-type="local"
-href="ca-001J.xml"
-addr="ca-001J"
-title="Contracting sequence">Contracting sequence</fr:link> of nonempty <fr:link
-type="local"
-href="ca-000P.xml"
-addr="ca-000P"
-title="Closed Subset">Closed Subset</fr:link>s of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, there 
-is a point <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> such that
-<fr:tex
-display="block"><![CDATA[\bigcap ^{\infty }_{n=1}E_{n}=\{x\}.]]></fr:tex></fr:p>
+href="gt-000Y.xml"
+addr="gt-000Y"
+title="Hausdorff space">Hausdorff space</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -150,93 +61,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>764</fr:anchor><fr:addr
-type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5832</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
-type="local"
-href="ca-001F.xml"
-addr="ca-001F"
-title="Complete Metric Space">complete</fr:link>. Let <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> be a <fr:link
-type="local"
-href="ca-001J.xml"
-addr="ca-001J"
-title="Contracting sequence">Contracting sequence</fr:link> of nonempty <fr:link
-type="local"
-href="ca-000P.xml"
-addr="ca-000P"
-title="Closed Subset">Closed Subset</fr:link>s of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. For each index <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, select <fr:tex
-display="inline"><![CDATA[x_{n}\in  E_{n}]]></fr:tex>. We claim this <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is a <fr:link
-type="local"
-href="ca-001D.xml"
-addr="ca-001D"
-title="Cauchy sequence">Cauchy sequence</fr:link>. For each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex>, there is an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> suchthat <fr:tex
-display="inline"><![CDATA[\mathop {\textrm {diam}}\nolimits (E_{N})<\varepsilon ]]></fr:tex>. Since this is descending, if <fr:tex
-display="inline"><![CDATA[m,n\geq  N]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[x_{n}\in  E_{N}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x_{m}\in  E_{N}]]></fr:tex>, and therefore
-<fr:tex
-display="block"><![CDATA[d(x_{n},x_{m})\leq \mathop {\textrm {diam}}\nolimits (E_{N})<\varepsilon .]]></fr:tex>
-Hence <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is Cauchy. Since <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is complete, this sequence converges to <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex> is closed for each <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(x_{k})_{k\geq  n}]]></fr:tex> is a convergent sequence in <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>, by <fr:link
-type="local"
-href="ca-001C.xml"
-addr="ca-001C"
-title="Subset is closed iff all convergent sequences on the subset have limits there">Subset is closed iff all convergent sequences on the subset have limits there</fr:link> the limit <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> belongs to <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>. Thus
-<fr:tex
-display="block"><![CDATA[x\in \bigcap ^{\infty }_{n=1}E_{n}.]]></fr:tex>
-It is impossible for the intersection to contain two points <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>, because if it did, <fr:tex
-display="inline"><![CDATA[\lim _{n\to \infty }\mathop {\textrm {diam}}\nolimits (E_{n})\geq  d(u,v)>0]]></fr:tex>.</fr:p>
-<fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume that for any contracting sequence <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> of nonempty closed subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, there is a point <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\bigcap ^{\infty }_{n=1}E_{n}=\{x\}]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> be a Cauchy sequence in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. For each index <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, define <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex> to be the closure of the nonempty set <fr:tex
-display="inline"><![CDATA[\{x_{k}\mid  k\geq  n\}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> is a descending sequence of nonempty closed sets. Since <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is Cauchy, the sequence <fr:tex
-display="inline"><![CDATA[(E_{n})]]></fr:tex> is contracting. So by assumption there is a point <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> such that
-<fr:tex
-display="block"><![CDATA[\bigcap ^{\infty }_{n=1}E_{n}=\{x\}.]]></fr:tex>
-For each <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> is a limit point of <fr:tex
-display="inline"><![CDATA[\{x_{k}\mid  k\geq  n\}]]></fr:tex>. Hence we may inductively select a strictly increasing set of integers <fr:tex
-display="inline"><![CDATA[\{n_{k}\}]]></fr:tex> such that for each index <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[d(x,x_{n_{k}})<1/ k]]></fr:tex>. The subsequence <fr:tex
-display="inline"><![CDATA[(x_{n_{k}})]]></fr:tex> converges to <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> is Cauchy, the whole sequence <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> converges to <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>. Therefore <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is complete.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
+display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
+display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

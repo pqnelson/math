@@ -1,0 +1,22 @@
+\title{Associativity of products of subsets and group elements}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{proposition}
+\MML{group_2}{28}{T28}
+\MML{group_2}{29}{T29}
+\MML{group_2}{30}{T30}
+\MML{group_2}{31}{T31}
+\MML{group_2}{32}{T32}
+\MML{group_2}{33}{T33}
+\MML{group_2}{34}{T34}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A\subset G} and #{B\subset G} be subsets of #{G}. Let #{g,h\in G} be elements of #{G}. Then the following all hold:}
+\ol{
+\li{#{(gA)B=g(AB)}}
+\li{#{(Ag)B=A(gB)}}
+\li{#{(AB)g=A(Bg)}}
+\li{#{(gh)A=g(hA)}}
+\li{#{(gA)h=g(Ah)}}
+\li{#{(Ag)h=A(gh)}}
+}

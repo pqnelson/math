@@ -1,0 +1,6 @@
+\title{Rationals, reals, complex numbers are a ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+
+\p{The rational numbers #{\QQ}, the real numbers #{\RR}, and the [complex numbers](complex-0001) form a ring.}

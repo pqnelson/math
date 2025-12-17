@@ -1,0 +1,9 @@
+\title{Internal direct product}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{I\subset\NN} be #{I=\{1,\dots,n\}}. Let #{\mathcal{F}=\{F_{i}\}_{i\in I}} be an indexed family of subgroups of #{G}. If for each #{i\in I} we have #{F_{i}\normalsubgroup G} is a [[gr-002P]] of #{G}, and if and the [[gr-001M]] #{F_{1}F_{2}(\dots)F_{n}=G} as sets, and if for each #{j\in I} we have #{F_{1}(\dots)F_{j-1}\cap F_{j}=\emptyset}, then #{F_{1}\times\dots\times F_{n}\iso G}.}
+
+\p{In this situation, we typically call #{G} the \define{Internal Direct Product} of #{\mathcal{F}}.}

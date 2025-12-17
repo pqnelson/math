@@ -1,0 +1,14 @@
+\title{Zero Divisor}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\MML{ringfrac}{def 1}{V1}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{x\neq0} be a nonzero element of #{R}. We say #{x} is:
+\ol{
+\li{a \define{Left Zero Divisor} if there exists a #{y\in R} such that #{y\neq 0} and #{xy=0};}
+\li{a \define{Right Zero Divisor} if there exists a #{y\in R} such that #{y\neq 0} and #{yx=0};}
+\li{a \define{(Two Sided) Zero Divisor} if there exists a #{y\in R} such that #{y\neq0} and #{xy=0} and #{yx=0}.}
+}
+The way to remember left and right zero divisors is which side #{x} appears.}

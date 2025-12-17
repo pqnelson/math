@@ -1,0 +1,12 @@
+\title{Abelian group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+
+\p{When a [[gr-000G]] has a [commutative binary operator](gr-0004), we call it an \define{Abelian} group (or a \define{Commutative} group).}
+
+\p{Typically, for Abelian groups, we write the binary operator as addition, and the [identity element](gr-000B) as 0.}
+
+\rmk{\p{I have grown to believe over the years that an Abelian group should be reserved for a generalization of a [[vectsp-0001]] if we just forget about scalar multiplication and the field. This is how most proof assistants handle it.}
+\p{Commutative groups are groups which are, well, equipped with a [[gr-0004]].}}

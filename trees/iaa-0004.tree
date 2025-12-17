@@ -1,0 +1,24 @@
+\title{Binary and unary operators}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+
+\p{We have implicitly used binary operators when discussion the [algebra of matrices](ela-000B), [[field-0001]]s, [[vectsp-0001]]s, and so on. Some concrete examples include [[matrix-000E]], [[matrix-000K]], and [[matrix-000X]].}
+
+\p{Unary operators have been infrequently mentioned. For example, the [[matrix-000M]] is a unary operator on the set of matrices.}
+
+\p{Tradition dictates we explicitly formalize the notions of binary and unary operators.}
+
+\transclude{gr-0001} % binary operator
+\transclude{gr-0002} % composition of functions is a binary operator
+\transclude{gr-0003} % associative binary operator
+\transclude{gr-0006} % examples of associative binary operators
+\transclude{gr-0008} % commutator of matrices is not associative
+\transclude{gr-0004} % commutative binary operator
+\transclude{gr-0007} % examples of commutative binary operators
+\transclude{gr-0005} % identity element for a binary operator
+\transclude{gr-0009} % examples of identity elements for binary operators
+\transclude{gr-000A} % commutator has no identity element
+\transclude{gr-000B} % identity element is at most unique
+\transclude{gr-000C} % inverse for an element
+\transclude{gr-000D} % inverse for an element is unique when wrt associative binop

@@ -1,0 +1,7 @@
+\title{Integers form a group under addition}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{example}
+
+\p{The integers #{\ZZ} form a group when equipped with addition. The identity element is #{0\in\ZZ}. This is another commutative group.}

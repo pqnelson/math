@@ -7,7 +7,7 @@
 \p{Let #{(X,\mathcal{T})} be a [[gt-0002]]. Then #{X} has [[gt-000W]] if and only if #{X} is a [[gt-000T]].}
 
 \proof{\p{\backwardproof Since [[gt-000V]], the result follows immediately (if one has already proven intervals of #{\RR} are connected).}
-\p{\forwardproof We prove the contrapositive; i.e., we prove the equivalent claim if #{X} is not connected, then #{X} does not have the intermediate value property. Since #{X} is not connected, let #{U_{1},U_{2}\subset X} be a [separation](gt-000S). Define a function #{f\colon X\to\RR} by
+\p{\forwardproof [[nst-002I]]. We prove the contrapositive; i.e., we prove the equivalent claim if #{X} is not connected, then #{X} does not have the intermediate value property. Since #{X} is not connected, let #{U_{1},U_{2}\subset X} be a [separation](gt-000S). Define a function #{f\colon X\to\RR} by
 ##{f(x) = \begin{cases}0 & \mbox{if }x\in U_{1}\\
 1 & \mbox{if }x\in U_{2}.\end{cases}}
 Then #{f} is continuous, since for every open subset #{A\subset\RR}, the preimage #{f^{-1}(A)} is open (by [[gt-000Q]]). However, #{f(X)} is not an interval, so we found a counter-example needed to conclude #{X} fails to have the intermediate value property.}}

@@ -27,7 +27,7 @@ since #{0\leq c<1}, the numerator is bounded by #{1-c^{m-n}\leq 1} which is how 
 \p{We want to prove #{x_{*}} is a fixed point. Since #{f} is [Lipschitz](ca-001Q), it is continuous. So
 ##{f(x_{*})=\lim_{n\to\infty}f(x_{n})=\lim_{n\to\infty}x_{n+1}=x_{*},}
 hence #{x_{*}} is a fixed-point. This establishes the existence of a fixed-point.}
-\p{\textbf{Claim 2: Uniqueness of fixed-point.} Assume for contradiction we have two fixed-points #{u=f(u)} and #{v=f(v)}. Then the distance
+\p{\textbf{Claim 2: Uniqueness of fixed-point.} [[nst-002J]]. Assume for contradiction we have two fixed-points #{u=f(u)} and #{v=f(v)}. Then the distance
 ##{\begin{align}
 d(u,v) & = d(f(u),f(v)) \mbox{ by being fixed-points}\\
 &\leq c\cdot d(u,v)\mbox{ by Lipschitz.}\end{align}}

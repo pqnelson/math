@@ -1,0 +1,15 @@
+\title{First Isomorphism Theorem for Rings}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{theorem}
+\MML{ring_2}{15}{T15}
+
+\p{Let #{\varphi\colon R\to S} be a [[ra-000T]]. Then the following all holds:}
+\ol{
+\li{#{\ker(\varphi)\ideal R} is an [[ra-0011]] of #{R}}
+\li{#{\im(\varphi)\iso R/\ker(\varphi)}}
+\li{#{\im(\varphi)\subset S} is a [[ra-000Q]].}
+}
+
+\proof{\p{The [[ra-0016]] of #{\ker(\varphi)} is the [[ra-000X]] being sought.}}

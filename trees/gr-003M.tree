@@ -1,0 +1,7 @@
+\title{Product of normal subgroup with group element is commutative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+
+\p{Let #{G} be a [[gr-000G]], let #{N\normalsubgroup G} be a [[gr-002P]] of #{G}. For any #{a\in G}, we have #{aN=Na}.}

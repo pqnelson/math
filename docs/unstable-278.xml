@@ -7,31 +7,27 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>416</fr:anchor><fr:addr
-type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>589</fr:anchor><fr:addr
+type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume for contradiction <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
-display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separate</fr:link> <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[1=1\star  1^{-1}=1^{-1}]]></fr:tex> the first equality by definition of multiplicative inverse, the second equality by the unital property.</fr:p>
+<fr:p>Similarly <fr:tex
+display="inline"><![CDATA[1=(-1)\star (-1)^{-1}]]></fr:tex> so then adding <fr:tex
+display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us <fr:tex
+display="inline"><![CDATA[0=1-1=(-1)\star (-1)^{-1}+(-1)]]></fr:tex> and distributivity allows us to rewrite <fr:tex
+display="inline"><![CDATA[(-1)\star (-1)^{-1}+(-1)=(-1)\star ((-1)^{-1}+1)=0]]></fr:tex>. So either <fr:tex
+display="inline"><![CDATA[-1=0]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[-1=0]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[1=0]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[(-1)^{-1}=-1=0]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>, then adding <fr:tex
+display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us the result.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -48,30 +44,21 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>418</fr:anchor><fr:addr
-type="user">gt-000V</fr:addr><fr:route>gt-000V.xml</fr:route><fr:title
-text="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>591</fr:anchor><fr:addr
+type="user">ra-000A</fr:addr><fr:route>ra-000A.xml</fr:route><fr:title
+text="Inverse of one is one in a ring">Inverse of one is one in a ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> be <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>s. Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
-type="local"
-href="gt-000P.xml"
-addr="gt-000P"
-title="Continuous Function">Continuous Function</fr:link>. If <fr:tex
-display="inline"><![CDATA[E\subseteq  X]]></fr:tex> is a <fr:link
-type="local"
-href="gt-000U.xml"
-addr="gt-000U"
-title="Connected Subset">Connected Subset</fr:link>, then <fr:tex
-display="inline"><![CDATA[f(E)\subseteq  Y]]></fr:tex> is a connected subset.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then <fr:tex
+display="inline"><![CDATA[1^{-1}=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(-1)^{-1}=-1]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -81,31 +68,27 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>420</fr:anchor><fr:addr
-type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>593</fr:anchor><fr:addr
+type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume for contradiction <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
-display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separate</fr:link> <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[1=1\star  1^{-1}=1^{-1}]]></fr:tex> the first equality by definition of multiplicative inverse, the second equality by the unital property.</fr:p>
+<fr:p>Similarly <fr:tex
+display="inline"><![CDATA[1=(-1)\star (-1)^{-1}]]></fr:tex> so then adding <fr:tex
+display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us <fr:tex
+display="inline"><![CDATA[0=1-1=(-1)\star (-1)^{-1}+(-1)]]></fr:tex> and distributivity allows us to rewrite <fr:tex
+display="inline"><![CDATA[(-1)\star (-1)^{-1}+(-1)=(-1)\star ((-1)^{-1}+1)=0]]></fr:tex>. So either <fr:tex
+display="inline"><![CDATA[-1=0]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[-1=0]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[1=0]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[(-1)^{-1}=-1=0]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>, then adding <fr:tex
+display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us the result.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

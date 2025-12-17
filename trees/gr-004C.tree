@@ -1,0 +1,8 @@
+\title{Stabilizer}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{G} be a [[gr-000G]] and #{X} be a set. Suppose #{G} [acts](gr-004Y) on #{X}. Let #{x\in X}. The \define{Stabilizer} of #{x} is the [[gr-001B]] (not necessarily normal) #{\Stabilizer{G}{x}} of #{G} equal to
+##{\Stabilizer{G}{x}:=\{g\in G\mid g\cdot x=x\}.}}

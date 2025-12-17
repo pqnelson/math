@@ -7,20 +7,24 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>566</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
-display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
-display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link
+type="local"
+href="ra-000M.xml"
+addr="ra-000M"
+title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
+display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
+and so on.</fr:p>
+<fr:p>(2) We could generalize this to noncommutative <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -35,23 +39,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr
-type="user">gt-000Z</fr:addr><fr:route>gt-000Z.xml</fr:route><fr:title
-text="Metric Topology is Hausdorff">Metric Topology is Hausdorff</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>568</fr:anchor><fr:addr
+type="user">ra-000L</fr:addr><fr:route>ra-000L.xml</fr:route><fr:title
+text="Polynomial ring">Polynomial ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a metric space. Then the <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="gt-0004.xml"
-addr="gt-0004"
-title="Metric topology">Metric topology</fr:link> makes <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> into a <fr:link
-type="local"
-href="gt-000Y.xml"
-addr="gt-000Y"
-title="Hausdorff space">Hausdorff space</fr:link>.</fr:p>
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x\notin  R]]></fr:tex> be a formal variable (just a symbol, not a number). We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Polynomials</html:dfn> with coefficients <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and in unknown <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> to be the ring <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> consisting of formal polynomials which are finite sums
+<fr:tex
+display="block"><![CDATA[p(x)=\sum ^{n}_{k=0}a_{k}x^{k}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>, addition is done with the coefficients of each power, and multiplication is done using the Cauchy convolution product
+<fr:tex
+display="block"><![CDATA[\left (\sum ^{m}_{j=0}a_{j}x^{j}\right )\left (\sum ^{n}_{k=0}b_{k}x^{k}\right )=\sum ^{m+n}_{k=0}\left (\sum ^{k}_{j=0}a_{j}b_{k-j}\right )x^{k}.]]></fr:tex>
+Then this forms a commutative ring.</fr:p>
  
    
    <fr:tree
@@ -61,19 +72,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>570</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
-display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
-display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link
+type="local"
+href="ra-000M.xml"
+addr="ra-000M"
+title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
+display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
+and so on.</fr:p>
+<fr:p>(2) We could generalize this to noncommutative <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

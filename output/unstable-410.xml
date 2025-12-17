@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>632</fr:anchor><fr:addr
+type="machine">#410</fr:addr><fr:route>unstable-410.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>If <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a right action of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then we may construct a <fr:link
+type="local"
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">left action</fr:link> <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\lambda (g,x)=\alpha (x,g^{-1})]]></fr:tex>. The identity property holds. The compatibility property: <fr:tex
+display="block"><![CDATA[\begin {align*}\lambda (g,\lambda (h,x)) &=\alpha (\alpha (x,h^{-1}),g^{-1})\\ &=\alpha (x,h^{-1}g^{-1})\\ &=\alpha (x,(gh)^{-1})\\ &=\lambda (gh,x)\end {align*}]]></fr:tex>
+as desired. For this reason, it suffices to study the left action of a group.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>634</fr:anchor><fr:addr
+type="user">gr-004Z</fr:addr><fr:route>gr-004Z.xml</fr:route><fr:title
+text="Right group action">Right group action</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>, let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Right Action</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a function <fr:tex
+display="inline"><![CDATA[\alpha \colon  X\times  G\to  X]]></fr:tex> such that:</fr:p><fr:ol><fr:li>Identity: for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\alpha (x,1_{G})=x]]></fr:tex>; and</fr:li>
+<fr:li>Compatibility: for all <fr:tex
+display="inline"><![CDATA[g,h\in  G]]></fr:tex> and for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, <fr:tex
+display="block"><![CDATA[\alpha (\alpha (x,g),h)=\alpha (x,gh)]]></fr:tex></fr:li></fr:ol><fr:p>Note: usually we write <fr:tex
+display="inline"><![CDATA[x\cdot  g]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\alpha (x,g)]]></fr:tex> when the action is unambiguous.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>636</fr:anchor><fr:addr
+type="machine">#410</fr:addr><fr:route>unstable-410.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>If <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a right action of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, then we may construct a <fr:link
+type="local"
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">left action</fr:link> <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\lambda (g,x)=\alpha (x,g^{-1})]]></fr:tex>. The identity property holds. The compatibility property: <fr:tex
+display="block"><![CDATA[\begin {align*}\lambda (g,\lambda (h,x)) &=\alpha (\alpha (x,h^{-1}),g^{-1})\\ &=\alpha (x,h^{-1}g^{-1})\\ &=\alpha (x,(gh)^{-1})\\ &=\lambda (gh,x)\end {align*}]]></fr:tex>
+as desired. For this reason, it suffices to study the left action of a group.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

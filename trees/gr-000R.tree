@@ -1,0 +1,16 @@
+\title{Cancellation law}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{proposition}
+\MML{group_1}{6}{T6}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 1.1.2}
+
+\p{Let #{G} be a [[gr-000G]], let #{a,b,c\in G}. Then the following all hold:
+\ol{
+\li{If #{ac=bc}, then #{a=b}; and}
+\li{If #{ca=cb}, then #{a=b}.}
+}}
+
+\proof{\p{(1) Assume #{ac=bc}, then multiply both sides on the right by #{c^{-1}}, we see the left-hand side becomes #{(ac)c^{-1}=a(cc^{-1})=ae=a} by assocativity and inverse, and the right-hand side becomes #{(bc)c^{-1}=b(cc^{-1})=be=b}. Hence #{a=b}.}
+\p{(2) Assume #{ca=cb}. Multiply both sides on the left by #{c^{-1}} gives the result by similar reasoning as (1).}}

@@ -1,0 +1,27 @@
+\title{Ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+
+\p{A \define{(Unital) Ring} consists of a set #{R} equipped with
+\ul{
+\li{an Abelian group structure #{(R,+,0)}, and}
+\li{a multiplication #{\star\colon R\times R\to R}, and}
+\li{(Optional) a "one" element #{1\in R}}
+}
+such that for any #{a,b,c\in R},
+\ol{
+\li{Associativity of addition: #{a+(b+c)=(a+b)+c}}
+\li{Additive identity element: #{a+0=0+a=a}}
+\li{Additive inverse: #{a+(-a)=0}}
+\li{Commutativity of addition: #{a+b=b+a}}
+\li{(Optional) Associativity of multiplication: #{a\star(b\star c)=(a\star b)\star c}}
+\li{(Optional) Unital property (i.e., multiplicative identity element): #{a\star1=1\star a=a}}
+\li{Left distributivity of multiplication over addition: #{a\star(b+c)=(a\star b)+(a\star c)}}
+\li{Right distributivity of multiplication over addition #{(a+b)\star c=(a\star c)+(b\star c)}}
+}
+Some rings don't have a multiplicative unit #{1}, in which case they are "nonunital rings". If we don't care about the existence of the multiplicative unit, we'll just speak of "rings".}
+\p{We also don't require all rings to be associative (i.e., multiplication may or may not be associative). When it matters, we will speak of "associative rings" and "nonassociative rings", but by default we will assume rings as associative.}
+
+\rmk{We could define a unital ring as an [[gr-000J]] equipped with a monoid structure. The axioms for a unital ring would be satisfied automatically.}

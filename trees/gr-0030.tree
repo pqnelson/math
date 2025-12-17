@@ -1,0 +1,8 @@
+\title{Composing group morphisms yields a group morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\MML{group_6}{39}{T39}
+
+\p{Let #{G_{1}}, #{G_{2}}, and #{G_{3}} be [[gr-000G]]s. Let #{\varphi\colon G_{1}\to G_{2}} and #{\psi\colon G_{2}\to G_{3}} be [[gr-000T]]s. Then their [composition](nst-001M) #{\psi\circ\varphi\colon G_{1}\to G_{3}} is a group morphism.}

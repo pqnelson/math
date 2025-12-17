@@ -1,0 +1,11 @@
+\title{Inverse of an element with respect to a binary operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+
+\p{Let #{A} be a set equipped with a [[gr-0001]] #{\mu} with an [identity element](gr-0005) #{e\in A}, let #{a\in A}. A \define{(Two-Sided) Inverse} of #{a} is an element #{b\in A} such that
+##{\mu(a,b)=\mu(b,a)=e.}}
+
+\rmk{\p{(1) If #{\mu} is an [[gr-0003]], then we can just speak of "inverses" of elements without the "two-sided" prefix. This is because the [[gr-000D]]}
+\p{(2) If there are multiple binary operators on #{A}, then we should specify that #{b} is an inverse of #{a} \emph{with respect to #{\mu}}.}}

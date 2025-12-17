@@ -1,0 +1,9 @@
+\title{Conjugation forms an equivalence relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{remark}
+
+\p{Taking [[gr-002B]] together with [[gr-0029]] and [[gr-002A]] means that the predicate "is conjugate to" forms an [[nst-0011]].}
+
+\p{Consequently, we will be able to say "#{a} and #{b} are conjugate" instead of caring especially about the ordering of arguments to the predicate.}

@@ -1,0 +1,8 @@
+\title{Euclidean Domains are Principal Ideal Domains}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 8.1.1}
+\taxon{proposition}
+
+\p{Every ideal in a [[ra-001N]] is [principal](ra-001B): if #{R} is any Euclidean domain and #{I\ideal R} with #{0\neq I}, then #{I=(d)} where #{d} is any nonzero element of #{I} of minimum norm.}

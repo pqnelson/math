@@ -1,0 +1,12 @@
+\title{Greatest common divisor}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 0.2}
+
+\p{If #{a,b\in\ZZ} are nonzero integers, there exists a unique positive integer called the \define{Greatest Common Divisor} of #{a} and #{b}, usually denoted #{\gcd(a,b)}, such that:}
+\ol{
+\li{#{\gcd(a,b)\divides a} and #{\gcd(a,b)\divides b} (so #{\gcd(a,b)} is a common divisor of #{a} and #{b})}
+\li{if #{e\divides a} and #{e\divides b} is another integer, then #{e\divides\gcd(a,b)} (so #{\gcd(a,b)} is the \emph{greatest} such divisor).}
+}
+\p{If #{\gcd(a,b)=1} we say #{a} and {b} are \define{Coprime} (or are \define{Relatively Prime}).}

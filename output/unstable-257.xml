@@ -7,24 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1739</fr:anchor><fr:addr
-type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>464</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
-display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite by <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-href="nst-001Y.xml"
-addr="nst-001Y"
-title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
+href="ra-0012.xml"
+addr="ra-0012"
+title="Kernel of a ring morphism">Kernel of a ring morphism</fr:link> is an ideal. The kernel of a nonzero morphism is a proper ideal, hence must be 0 by <fr:link
+type="local"
+href="ra-001L.xml"
+addr="ra-001L"
+title="Field morphisms are injective nonzero ring morphisms">Field morphisms are injective nonzero ring morphisms</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -41,19 +37,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1741</fr:anchor><fr:addr
-type="user">nst-001Z</fr:addr><fr:route>nst-001Z.xml</fr:route><fr:title
-text="{Q} is countable"><fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:addr
+type="user">ra-001L</fr:addr><fr:route>ra-001L.xml</fr:route><fr:title
+text="Field morphisms are injective nonzero ring morphisms">Field morphisms are injective nonzero ring morphisms</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Corollary to Theorem 2.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>The set of rational numbers is countably infinite.</fr:p>
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Corollary 7.4.10</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, then any nonzero <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link> from <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> into another ring must be an <fr:link
+type="local"
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">Injective function</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -63,24 +72,20 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1573</fr:anchor><fr:addr
-type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>468</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
-display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite by <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-href="nst-001Y.xml"
-addr="nst-001Y"
-title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
+href="ra-0012.xml"
+addr="ra-0012"
+title="Kernel of a ring morphism">Kernel of a ring morphism</fr:link> is an ideal. The kernel of a nonzero morphism is a proper ideal, hence must be 0 by <fr:link
+type="local"
+href="ra-001L.xml"
+addr="ra-001L"
+title="Field morphisms are injective nonzero ring morphisms">Field morphisms are injective nonzero ring morphisms</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

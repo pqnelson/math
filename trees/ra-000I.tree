@@ -1,0 +1,7 @@
+\title{Unit}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{R} be a unital (possibly nonassociative) [[ring-0001]]. Let #{x\in R} be an element of #{R}. We say #{x} is a \define{Unit} if it has a two-sided inverse #{x^{-1}\in R} such that #{x^{-1}x=xx^{-1}=1}.}

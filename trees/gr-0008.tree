@@ -1,0 +1,14 @@
+\title{Matrix commutator is not associative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{example}
+
+\li{Let #{\FF} be a [[field-0001]], let #{n\in\NN} be a positive integer. Then the set of #{n\times n} [matrices](matrix-0001) with entries in #{\FF} can be equipped with the [[matrix-0029]] which is a binary operator denoted
+##{[A,B]=AB-BA}
+for any #{n\times n} matrices #{A} and #{B} over #{\FF}. The commutator is not associative, i.e., in general we have
+##{[A, [B, C]] \neq [[A,B],C]}
+but it satisfies a variant called the [[matrix-002A]]:
+##{[A, [B, C]] + [B, [C, A]] + [C, [A, B]] = 0}
+for any #{n\times n} matrices #{A}, #{B}, and #{C}.}
+

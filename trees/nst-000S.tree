@@ -36,3 +36,7 @@
 \transclude{ela-001K} % bijective function
 \transclude{nst-001L} % inverse function
 \transclude{nst-001I} % bijective function have unique inverse
+
+\transclude{nst-002D} % indexed family of sets\
+\transclude{nst-002F} % unions and intersections of indexed families of sets
+\transclude{nst-002E} % product of a family of sets

@@ -7,37 +7,21 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4421</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>518</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
-
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+href="ra-0016.xml"
+addr="ra-0016"
+title="Canonical ring morphism">Canonical ring morphism</fr:link> of <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is the <fr:link
+type="local"
+href="ra-000X.xml"
+addr="ra-000X"
+title="Ring Isomorphism">Ring Isomorphism</fr:link> being sought.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -54,15 +38,35 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4423</fr:anchor><fr:addr
-type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
-text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>520</fr:anchor><fr:addr
+type="user">ra-0018</fr:addr><fr:route>ra-0018.xml</fr:route><fr:title
+text="First Isomorphism Theorem for Rings">First Isomorphism Theorem for Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define <fr:em>the</fr:em> empty set to be the constant denoted <fr:tex
-display="inline"><![CDATA[\emptyset ]]></fr:tex> (or sometimes <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>).</fr:p><fr:p>We need to prove this is well-defined. For constants, this means proving it exists and is unique.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#T15">ring_2:15</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> be a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>. Then the following all holds:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\ker (\varphi )\mathrel {\trianglelefteq } R]]></fr:tex> is an <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Im}}\nolimits (\varphi )\cong  R/\ker (\varphi )]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Im}}\nolimits (\varphi )\subseteq  S]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000Q.xml"
+addr="ra-000Q"
+title="Subring">Subring</fr:link>.</fr:li></fr:ol>
  
    
    <fr:tree
@@ -72,37 +76,21 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2039</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>522</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
-
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+href="ra-0016.xml"
+addr="ra-0016"
+title="Canonical ring morphism">Canonical ring morphism</fr:link> of <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is the <fr:link
+type="local"
+href="ra-000X.xml"
+addr="ra-000X"
+title="Ring Isomorphism">Ring Isomorphism</fr:link> being sought.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

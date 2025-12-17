@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4850</fr:anchor><fr:addr
+type="machine">#367</fr:addr><fr:route>unstable-367.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I have grown to believe over the years that an Abelian group should be reserved for a generalization of a <fr:link
+type="local"
+href="vectsp-0001.xml"
+addr="vectsp-0001"
+title="Vector Space">Vector Space</fr:link> if we just forget about scalar multiplication and the field. This is how most proof assistants handle it.</fr:p>
+<fr:p>Commutative groups are groups which are, well, equipped with a <fr:link
+type="local"
+href="gr-0004.xml"
+addr="gr-0004"
+title="Commutative binary operator">Commutative binary operator</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4852</fr:anchor><fr:addr
+type="user">gr-000J</fr:addr><fr:route>gr-000J.xml</fr:route><fr:title
+text="Abelian group">Abelian group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> has a <fr:link
+type="local"
+href="gr-0004.xml"
+addr="gr-0004"
+title="Commutative binary operator">commutative binary operator</fr:link>, we call it an <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Abelian</html:dfn> group (or a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Commutative</html:dfn> group).</fr:p><fr:p>Typically, for Abelian groups, we write the binary operator as addition, and the <fr:link
+type="local"
+href="gr-000B.xml"
+addr="gr-000B"
+title="Identity element is at most unique">identity element</fr:link> as 0.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>933</fr:anchor><fr:addr
+type="machine">#367</fr:addr><fr:route>unstable-367.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I have grown to believe over the years that an Abelian group should be reserved for a generalization of a <fr:link
+type="local"
+href="vectsp-0001.xml"
+addr="vectsp-0001"
+title="Vector Space">Vector Space</fr:link> if we just forget about scalar multiplication and the field. This is how most proof assistants handle it.</fr:p>
+<fr:p>Commutative groups are groups which are, well, equipped with a <fr:link
+type="local"
+href="gr-0004.xml"
+addr="gr-0004"
+title="Commutative binary operator">Commutative binary operator</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

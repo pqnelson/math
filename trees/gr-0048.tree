@@ -1,0 +1,9 @@
+\title{Extension of a group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s. We say a group #{\widehat{G}} is a \define{Extension} of #{G} by #{H} if there is a [short exact sequence](gr-0043)
+##{\mathbf{1}\to H\to\widehat{G}\xrightarrow{\pi}G\to\mathbf{1}}
+where #{\pi\colon\widehat{G}\to G} is a surjective group morphism such that #{\widehat{G}/\ker(\pi)\iso G}.}

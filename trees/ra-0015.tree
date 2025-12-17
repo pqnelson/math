@@ -1,0 +1,24 @@
+\title{Quotient Ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 7.3.6}
+\meta{source}{Artin [[artin-2010-algebra]] Section 11.3}
+\meta{source}{Hungerford [[hungerford-1974-algebra]] Theorem III.2.7}
+\MML{ring_1}{def 6}{K2}
+
+\p{Let #{R} be a [[ring-0001]] and #{I\ideal R} be an [[ring-0011]] of #{R}. Then the additive quotient group #{R/I} is a ring under the following binary operators
+##{(r+I)+(s+I)=(r+s)+I}
+and
+##{(r+I)(s+I)=(rs)+I}
+for all #{r,s\in R}.}
+
+\p{Furthermore,
+\ol{
+\li{If #{R} is commutative, then #{R/I} is commutative.}
+\li{If #{R} is unital, then #{R/I} is unital.}
+}}
+
+\proof{\p{To prove well-definedness, we should prove #{R/I} equipped with these operators form a ring (since existence and uniqueness follow from the quotient group). Specifically, that multiplication exists and satisfies the various axioms.}}

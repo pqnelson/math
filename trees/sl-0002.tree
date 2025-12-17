@@ -5,4 +5,4 @@
 \taxon{definition}
 \import{sl}
 
-\p{Let #{R} be a commutative ring. We define the \define{Special Linear Group} over #{R} to be the group #{\SL{n}{R} = \{g\in\GL{n}{R}\mid\det(g)=1\}}. That is to say, it is the kernel of the determinant homomorphism.}
+\p{Let #{R} be a commutative [ring](ring-0001). We define the \define{Special Linear Group} over #{R} to be the group #{\SL{n}{R} = \{g\in\GL{n}{R}\mid\det(g)=1\}}. That is to say, it is the kernel of the [determinant homomorphism](gr-0014).}

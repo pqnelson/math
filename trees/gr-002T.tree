@@ -1,0 +1,8 @@
+\title{Normal subgroups have their normalizer be the entire group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\MML{group_3}{137}{T137}
+
+\p{Let #{G} be a [strict] [[gr-000G]], let #{H\subgroup G} be a [strict] [[gr-001B]] of #{G}. Then #{H} is a [[gr-002P]] of #{G} if and only if its [[gr-001R]] #{N_{G}(H)=G}.}

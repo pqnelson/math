@@ -1,0 +1,11 @@
+\title{Matrix ring has zero divisors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{example}
+
+\p{Consider #{\varepsilon\in\Mat_{2}(\CC)} defined as
+##{\varepsilon=\begin{pmatrix}0 & 1\\ 0 & 0\end{pmatrix}}
+We see that #{\varepsilon^{2}=0}. Hence #{\varepsilon} is a zero divisor.}
+
+\p{This example generalizes to any #{n\geq 2} and any unital [[ring-0001]] #{R} (with a single nonzero entry instead of #{1} for non-unital rings).}

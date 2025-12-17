@@ -1,0 +1,7 @@
+\title{Ring of formal polynomials with coefficients in integral domain forms an integral domain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+
+\p{Let #{R} be an [[ra-000H]]. Let #{x} be a formal polynomial. Then the [[ra-000L]] #{R[x]} is an integral domain.}

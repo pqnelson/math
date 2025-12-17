@@ -6,4 +6,4 @@
 \meta{source}{[[axler-1996-linear]] Definition 9.31}
 \meta{source}{[[lankham-2016-linear]] Definition 8.1.1}
 
-\p{Let #{n\in\NN} be a positive integer. A \define{Permutation} #{\pi} of #{n} elements is a [bijection]() from the set #{\{1,2,\dots,n\}} to itself.}
+\p{Let #{n\in\NN} be a positive integer. A \define{Permutation} #{\pi} of #{n} elements is a [bijection](ela-001K) from the set #{\{1,2,\dots,n\}} to itself.}

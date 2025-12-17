@@ -1,0 +1,9 @@
+\title{Negation in a unital ring is multiplying by minus one}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+
+\p{Let #{R} be a unital [[ring-0001]]. For any #{x\in R} we have #{-x=(-1)\star x}.}
+
+\proof{\p{We see #{x+(-1)\star x=1\star x+(-1)\star x} and then distributivity gives us #{x+(-1)\star x=(1-1)\star x=0\star x} and from [[ra-0007]] we have the result.}}

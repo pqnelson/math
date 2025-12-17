@@ -1,0 +1,17 @@
+\title{Center of a group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_5}{def 10}{K10}
+\import{iaa-0001}
+
+\p{Let #{G} be a [[gr-000G]]. We define the \define{Center} of #{G} to be the [[gr-001B]] #{Z(G)} of #{G} consisting of all elements which commute with all of #{G}: for any #{z\in G}, we have #{z\in Z(G)} if and only if for every #{g\in G} we have #{zg=gz}.}
+
+\rmk{We could define this more generally for any nonempty multiplicative magma, in which case it would be a submagma.}
+
+\proof{\p{\textbf{Existence:} We see that #{\IdentityElement{G}\in Z(G)} since #{\IdentityElement{G}g=g=g\IdentityElement{G}}.}
+\p{We also see for any #{x,y\in Z(G)} and any #{g\in G} we have #{(xy)g=x(yg)=x(gy)=(xg)y=(gx)y=g(xy)} which means #{Z(G)} is closed under multiplication.}
+\p{We also see for any #{x\in Z(G)} and #{g\in G} that #{x^{-1}g=((x^{-1}g)^{-1})^{-1}=(g^{-1}x)^{-1}=(xg^{-1})^{-1}=gx^{-1}} which implies #{x^{-1}\in Z(G)}.}
+\p{Hence #{Z(G)} has a group structure induced from #{G}.}
+\p{\textbf{Uniqueness:} [[gr-001H]].}}

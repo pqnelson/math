@@ -7,12 +7,24 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>559</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary is that finite subsets of a Hausdorff space are closed.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link
+type="local"
+href="ra-000M.xml"
+addr="ra-000M"
+title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
+display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
+and so on.</fr:p>
+<fr:p>(2) We could generalize this to noncommutative <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,25 +39,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:addr
-type="user">gt-0010</fr:addr><fr:route>gt-0010.xml</fr:route><fr:title
-text="Singleton sets are closed in Hausdorff spaces">Singleton sets are closed in Hausdorff spaces</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>561</fr:anchor><fr:addr
+type="user">ra-000L</fr:addr><fr:route>ra-000L.xml</fr:route><fr:title
+text="Polynomial ring">Polynomial ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="gt-000Y.xml"
-addr="gt-000Y"
-title="Hausdorff space">Hausdorff space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{x\}]]></fr:tex> is a <fr:link
-type="local"
-href="gt-000E.xml"
-addr="gt-000E"
-title="Closed set">closed subset</fr:link> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x\notin  R]]></fr:tex> be a formal variable (just a symbol, not a number). We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Polynomials</html:dfn> with coefficients <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and in unknown <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> to be the ring <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> consisting of formal polynomials which are finite sums
+<fr:tex
+display="block"><![CDATA[p(x)=\sum ^{n}_{k=0}a_{k}x^{k}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>, addition is done with the coefficients of each power, and multiplication is done using the Cauchy convolution product
+<fr:tex
+display="block"><![CDATA[\left (\sum ^{m}_{j=0}a_{j}x^{j}\right )\left (\sum ^{n}_{k=0}b_{k}x^{k}\right )=\sum ^{m+n}_{k=0}\left (\sum ^{k}_{j=0}a_{j}b_{k-j}\right )x^{k}.]]></fr:tex>
+Then this forms a commutative ring.</fr:p>
  
    
    <fr:tree
@@ -55,42 +72,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:addr
-type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>563</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each point <fr:tex
-display="inline"><![CDATA[y\neq  x]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, consider the open subset <fr:tex
-display="inline"><![CDATA[U_{y}\subseteq  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[y\in  U_{y}]]></fr:tex> and there is a disjoint open subset containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[x\notin  U_{y}]]></fr:tex>. We claim the union of all such <fr:tex
-display="inline"><![CDATA[U_{y}]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[y\neq  x]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[U=\bigcup _{y\in  X\setminus \{x\}}U_{y}]]></fr:tex> is an open subset of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[U^{\complement }=\{x\}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\{x\}]]></fr:tex> is closed, as desired.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link
 type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary is that finite subsets of a Hausdorff space are closed.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="ra-000M.xml"
+addr="ra-000M"
+title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
+display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
+and so on.</fr:p>
+<fr:p>(2) We could generalize this to noncommutative <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,9 @@
+\title{Maximal ideals of a commutative ring are prime}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{corollary}
+
+\p{Let #{R} be a [[ra-0003]]. If #{M\properideal R} is a [[ra-001C]], then #{M} is [prime](ra-001D).}
+
+\proof{\p{Assume #{M} is maximal. Then #{R/M} is a field (since [[ra-001E]]). Then #{R/M} is a [[field-0001]]. Then #{M} is prime by [[ra-001F]].}}

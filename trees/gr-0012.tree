@@ -1,0 +1,10 @@
+\title{General Linear Group of matrices}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.4}
+
+\p{Let #{\FF} be a [[field-0001]], let #{n\in\NN_{0}} be a non-negative integer. Let #{\Mat_{n}(\FF)} be the set of all #{n\times n} [matrices](matrix-0001) over #{\FF}. We define the \define{General Linear Group} #{\GL_{n}(\FF)=\UnitGroup{\Mat_{n}(\FF)}} the [group of invertible elements](gr-000I) of #{\Mat_{n}(\FF)} under matrix multiplication.}
+
+\rmk{This can be defined more generally replacing #{\FF} with a unital (possibly noncommutative) [ring](ring-0001) #{R}, or even a ringoid (where we don't require additive inverses to exist).}

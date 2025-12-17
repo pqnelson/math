@@ -1,0 +1,21 @@
+\title{Preferatory notes}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-14}
+
+\p{We have already seen a number of different "species" of Mathematical Gadgets, like:}
+\ul{
+\li{[[vectsp-0001]]}
+\li{[[field-0001]]}
+\li{[[ca-000K]]}
+\li{[[gt-0002]]}
+\li{[[nst-0001]]}
+}
+\p{It turns out, all the information which was really interesting was encoded in the "structure-preserving transformations" between them. (That was the bulk of our time spent studying [[ela]] and [[ila]], after all!)}
+\p{We can form an abstraction describing this situation where we have a [gadget] and [transformations] between them: this is category theory.}
+\transclude{iaa-0005}
+\transclude{iaa-0006}
+
+\rmk{
+\p{If I had to teach abstract algebra to undergraduates, I am torn between the traditional approaches (starting from van der Waerden's \textit{Moderne Algebra} onwards) which I just outlined, and more modern adaptations which wrap everything in the framework of category theory. Aluffi's \textit{Algebra: Chapter Zero} seemingly attempts a happy medium, and I am unhappy with it.}
+\p{One fortunate aspect to Forester is that I'm not forced to choose one or the other. I can outline the "traditional" presentation of topics, and the "modern" presentation of topics, and allow the reader to pick which manner of presentation they wish to peruse.}}

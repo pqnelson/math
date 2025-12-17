@@ -1,0 +1,10 @@
+\title{Commutator of group elements}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_5}{def 2}{K2}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{a,b\in G} be elements of #{G}. We define their \define{Commutator} to be the element #{[a,b]} of #{G} equal to
+##{[a,b]:=a^{-1}b^{-1}ab}.}
+\p{\textbf{Caution:} Many group theorists prefer defining the commutator #{[a,b]=aba^{-1}b^{-1}} which is more useful in Lie groups.}

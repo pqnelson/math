@@ -1,0 +1,14 @@
+\title{Examples of commutative binary operators}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+
+\p{Examples of commutative binary operators we have already seen in Mathematics:}
+\ul{
+\li{If #{\FF} is a [[field-0001]], then both addition and multiplication is commutative.}
+\li{Let #{\FF} be a [[field-0001]], let #{n\in\NN} be a positive integer. Then the set of #{n\times n} [matrices](matrix-0001) with entries in #{\FF}, we see [[matrix-000G]].}
+}
+\p{Some \textbf{non-examples:}}
+\ul{
+\li{Let #{\FF} be a [[field-0001]], let #{n\in\NN} be a positive integer. Then the set of #{n\times n} [matrices](matrix-0001) with entries in #{\FF}, we see [[matrix-0011]].}
+}

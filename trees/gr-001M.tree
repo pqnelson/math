@@ -1,0 +1,13 @@
+\title{Frobenius Product of Subgroups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+
+\MML{group_4}{def 8}{K7}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{H_{1}\subgroup G} and #{H_{2}\subgroup G} be [[gr-001B]]s of #{G}. We define the \define{Frobenius Product} of #{H_{1}} with #{H_{2}} to be the \textbf{subset} #{H_{1}H_{2}} of #{G} equal to
+##{H_{1}H_{2}=\{h_{1}h_{2}\in G\mid h_{1}\in H_{1}, h_{2}\in H_{2}\}.}
+We stress this is not a subgroup.}
+
+\rmk{This operator usually doesn't have a standard name. The only place I have seen it called "the Frobenius product" is in Adolfo Ballester-Bolinches, Ramon Esteban-Romero, and Mohamed Asaad's \textit{Products of Finite Groups} (Walter de Gruyter, 2010, pg 1). In van der Waerden's \textit{Algebra}, this was called the "product of complexes" or "complex product" (terminology which Kurzweil and Stellmacher use in their \textit{Finite Group Theory} on page 6 of the English edition, right before proposition 1.1.5).}

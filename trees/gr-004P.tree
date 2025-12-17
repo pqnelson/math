@@ -1,0 +1,9 @@
+\title{p-groups have nontrivial center}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{corollary}
+
+\p{Let #{p\in\NN} be prime, #{G} be a [[gr-000G]]. If #{|G|=p^{\nu}} for some #{\nu\in\NN}, then #{|Z(G)|>1}.}
+
+\proof{\p{If #{|Z(G)|=1}, then we need #{p\divides\Index{G}{C_{G}(x)}} for each coset representative #{x} in each orbit, but this would require #{p\divides|G|-|Z(G)|}, i.e., #{p\divides p^{\nu}-1} which contradicts our assumption.}}

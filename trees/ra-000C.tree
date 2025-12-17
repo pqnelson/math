@@ -1,0 +1,8 @@
+\title{Set of nonzero elements in a ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{R} be an arbitrary [[ring-0001]]. Then the \define{Set of Nonzero Elements} of #{R} is denoted by
+##{R^{*}:=\{x\in R\mid x\neq0\}.}}

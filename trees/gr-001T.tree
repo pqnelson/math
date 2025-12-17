@@ -1,0 +1,8 @@
+\title{Image of a group morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\MML{group_6}{def 10}{K10}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s, let #{\varphi\colon G\to H} be a [[gr-000T]]. We define the \define{Image} of #{\varphi} to be the subgroup #{\im(\varphi)} of #{H} equal to #{\im(\varphi)=\varphi(G)}.}

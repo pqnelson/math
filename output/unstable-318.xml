@@ -7,27 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1831</fr:anchor><fr:addr
-type="machine">#318</fr:addr><fr:route>unstable-318.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5872</fr:anchor><fr:addr
+type="machine">#318</fr:addr><fr:route>unstable-318.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suffices to show (by definition of open sets) that if <fr:tex
-display="inline"><![CDATA[x'\in  B_{r}(x)]]></fr:tex> and
-<fr:tex
-display="block"><![CDATA[r'=r-d(x,x'),]]></fr:tex>
-then <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[d(y,x')<r']]></fr:tex>. Then the triangle inequality gives us
-<fr:tex
-display="block"><![CDATA[d(x,y)\leq  d(x,x')+d(x',y)<d(x,x')+r'=r.]]></fr:tex>
-So <fr:tex
-display="inline"><![CDATA[y\in  B_{r}(x)]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex> was arbitrary, this then implies <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Usually <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is used as the variable for closed sets, because Bourbaki used it (since the French word for "closed" is <fr:em>Fermé</fr:em>).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -42,30 +28,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1833</fr:anchor><fr:addr
-type="user">ca-0013</fr:addr><fr:route>ca-0013.xml</fr:route><fr:title
-text="Every open ball is an open set">Every open ball is an open set</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5874</fr:anchor><fr:addr
+type="user">gt-000E</fr:addr><fr:route>gt-000E.xml</fr:route><fr:title
+text="Closed set">Closed set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[B_{r}(x)]]></fr:tex> be an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Munkres <fr:link
 type="local"
-href="ca-000L.xml"
-addr="ca-000L"
-title="Open Ball">Open Ball</fr:link> in the <fr:link
+href="munkres-2000-topology.xml"
+addr="munkres-2000-topology"
+title="Topology">Topology</fr:link> Section 17</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link> <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[r>0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r}(x)]]></fr:tex> is an <fr:link
-type="local"
-href="ca-000M.xml"
-addr="ca-000M"
-title="Open Set">Open Set</fr:link>.</fr:p>
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[E\subseteq  X]]></fr:tex> be a subset of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Closed</html:dfn> if <fr:tex
+display="inline"><![CDATA[E^{\complement }=X\setminus  E]]></fr:tex> is open.</fr:p>
  
    
    <fr:tree
@@ -75,26 +59,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>698</fr:anchor><fr:addr
-type="machine">#318</fr:addr><fr:route>unstable-318.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5876</fr:anchor><fr:addr
+type="machine">#318</fr:addr><fr:route>unstable-318.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suffices to show (by definition of open sets) that if <fr:tex
-display="inline"><![CDATA[x'\in  B_{r}(x)]]></fr:tex> and
-<fr:tex
-display="block"><![CDATA[r'=r-d(x,x'),]]></fr:tex>
-then <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[d(y,x')<r']]></fr:tex>. Then the triangle inequality gives us
-<fr:tex
-display="block"><![CDATA[d(x,y)\leq  d(x,x')+d(x',y)<d(x,x')+r'=r.]]></fr:tex>
-So <fr:tex
-display="inline"><![CDATA[y\in  B_{r}(x)]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex> was arbitrary, this then implies <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Usually <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is used as the variable for closed sets, because Bourbaki used it (since the French word for "closed" is <fr:em>Fermé</fr:em>).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

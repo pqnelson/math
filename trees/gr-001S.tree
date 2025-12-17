@@ -1,0 +1,14 @@
+\title{Normalizes}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\meta{source}{Bourbaki's [[bourbaki-1974-algebra]] I §5.3}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{B\subset G} be a subset of #{G}.}
+\ol{
+\li{Let #{a\in G} be an element. We say #{a} \define{Normalizes} #{B} if #{a^{-1}Ba=B}; in other words #{a\in N_{G}(B)}.}
+\li{Let #{A\subset G} be a subset of #{G}. We say #{A} \define{Normalizes} #{B} if every element of #{A} normalizes #{B}.}
+\li{Let #{H\subgroup G} be a subgroup of #{G}. We say #{H} \define{Normalizes} #{B} if every element of #{H} normalizes #{B}.}
+}
+\p{We can replace #{B} with a subgroup #{K\subgroup G} and the definition of "normalizes" generalizes accordingly; and we can replace #{B} with an element #{b}, and the definition "normalizes #{b}" is just a synonym for "normalizes #{\{b\}}".}

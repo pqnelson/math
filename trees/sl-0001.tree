@@ -4,7 +4,7 @@
 \date{2025-05-21}
 \import{sl}
 
-\p{The determinant is only really well-defined for matrices in #{\Mat{n}{R}} where #{R} is a commutative ring. This is because the determinant "behaves as we expect" for matrices over commutative rings.}
+\p{The determinant is only really well-defined for matrices in #{\Mat{n}{R}} where #{R} is a commutative [ring](ring-0001). This is because the determinant "behaves as we expect" for matrices over commutative rings.}
 
 \p{There are ways to generalize to noncommutative rings, but it depends on how "nice" the ring is.}
 

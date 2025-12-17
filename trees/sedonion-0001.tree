@@ -1,0 +1,7 @@
+\title{Sedonions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{The \define{Sedonions} may be obtained by the Cayley-Dickson construction applied to the Octonions as a real algebra. It is a nonassociative algebra over #{\RR} (and may be considered as a nonassociative unital ring).}

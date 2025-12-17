@@ -1,0 +1,15 @@
+\title{Normalizer}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\MML{group_3}{def 14}{K10}
+\MML{group_3}{def 15}{K11}
+
+\p{Let #{G} be a [[gr-000G]], let #{A\subset G} be a subset. We define the \define{Normalizer} of #{A} to be the subgroup #{N_{G}(A)} such that
+##{N_{G}(A)=\{h\in G\mid Ah=hA\}}
+In other words, for any #{a\in A} and for any #{h\in N_{G}(A)}, we have #{h^{-1}ah\in A}.}
+
+\p{Similarly, for any elemen #{g\in G}, we can define the \define{Normalizer} of #{g} to be #{N_{G}(g):=N_{G}(\{g\})} the normalizer of the singleton #{\{g\}}.}
+
+\p{And if #{H\subgroup G} is a [[gr-001B]], then we define the \define{Normalizer} of #{H} to be the subgroup #{N_{G}(H)} which is just the normalizer of the underlying set of #{H}.}

@@ -1,0 +1,13 @@
+\title{Composition Series}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{G} be a [[gr-000G]]. A \define{Composition Series} of #{G} is a finite sequence #{H_{i}} of subgroups of #{G} such that
+##{\TrivialSubgroup{G}=H_{0}\propernormalsubgroup H_{1}\propernormalsubgroup\dots\propernormalsubgroup H_{n}=G,}
+where #{H_{i}\propernormalsubgroup H_{i+1}} for each #{i=0,\dots,n-1}, and in particular #{H_{i+1}/H_{i}} is [[gr-003W]].}
+
+\p{\textbf{Note:} There is no requirement that #{H_{i}} is a normal subgroup of #{G} except for when #{i=n-1}.}
+
+\rmk{For any group #{G}, either there exists a nontrivial proper [[gr-002P]] #{N\propernormalsubgroup G} or it doesn't. If it does, then we can ask about the [[gr-003L]] #{G/N} and #{N}. If #{G/N} is simple, then we turn our attention to proper normal subgroups of #{N}. We can repeat this questioning, and this gives us a composition series for #{G} as a way of "breaking up" #{G}.}

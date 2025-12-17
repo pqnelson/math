@@ -8,10 +8,13 @@
 
 \ol{
 \li{[[preface]]}
-\li{[[ela]]}
-\li{[[nst]]}
-\li{[[ila]]}
-\li{[[ca]]}
+\li{[[ela]]} % elementary linear algebra
+\li{[[nst]]} % naive set theory
+\li{[[ila]]} % intermediate linear algebra
+\li{[[ca]]}  % classical analysis
+\li{[[iaa]]} % introduction to abstract algebra
+% graduate-level topics
+\li{[[ac]]}  % commutative algebra
 \li{[[sl]]}
 \li{[[jordan]]}
 }

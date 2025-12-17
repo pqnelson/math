@@ -7,26 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7299</fr:anchor><fr:addr
-type="machine">#339</fr:addr><fr:route>unstable-339.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2194</fr:anchor><fr:addr
+type="machine">#339</fr:addr><fr:route>unstable-339.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{ij})]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=(a_{ij}-a_{ij})=(0)]]></fr:tex>. Since every entry is zero, it must be equal to the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is a "curried" form of a <fr:link
 type="local"
-href="matrix-0003.xml"
-addr="matrix-0003"
-title="Zero matrix">zero matrix</fr:link> by definition of <fr:link
-type="local"
-href="matrix-0009.xml"
-addr="matrix-0009"
-title="Matrix Equality">Matrix Equality</fr:link>. Hence the result.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">Left group action</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -41,15 +31,44 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7301</fr:anchor><fr:addr
-type="user">matrix-000L</fr:addr><fr:route>matrix-000L.xml</fr:route><fr:title
-text="Subtracting a matrix from itself">Subtracting a matrix from itself</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2196</fr:anchor><fr:addr
+type="user">gr-004A</fr:addr><fr:route>gr-004A.xml</fr:route><fr:title
+text="Permutation representation">Permutation representation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=\mathbf {0}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 4.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Permutation Representation</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a group morphism <fr:tex
+display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Sym}}\nolimits (X)]]></fr:tex> from <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> to the <fr:link
+type="local"
+href="gr-000F.xml"
+addr="gr-000F"
+title="Symmetric group of a set">symmetric group of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex></fr:link>.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>, we write <fr:tex
+display="inline"><![CDATA[g\cdot  x]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\rho (g)(x)]]></fr:tex>. If there's ambiguity, we'll write <fr:tex
+display="inline"><![CDATA[\rho _{g}(x)]]></fr:tex> to stress which representation we're using.</fr:p><fr:p>More generally, a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Permutation Representation</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> (without any mention of the representation space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>) consists of a set <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> equipped with a group morphism <fr:tex
+display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Sym}}\nolimits (X)]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -59,25 +78,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5921</fr:anchor><fr:addr
-type="machine">#339</fr:addr><fr:route>unstable-339.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1272</fr:anchor><fr:addr
+type="machine">#339</fr:addr><fr:route>unstable-339.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{ij})]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=(a_{ij}-a_{ij})=(0)]]></fr:tex>. Since every entry is zero, it must be equal to the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is a "curried" form of a <fr:link
 type="local"
-href="matrix-0003.xml"
-addr="matrix-0003"
-title="Zero matrix">zero matrix</fr:link> by definition of <fr:link
-type="local"
-href="matrix-0009.xml"
-addr="matrix-0009"
-title="Matrix Equality">Matrix Equality</fr:link>. Hence the result.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">Left group action</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

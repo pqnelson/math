@@ -1,0 +1,10 @@
+\title{Power law}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\MML{group_1}{35}{T35}
+
+\p{Let #{G} be a [[gr-000G]], let #{g\in G}, let #{m,n\in\ZZ} be integers. Then
+##{(g^{m})^{n}=g^{mn}.}}
+
+\proof{\p{Divide this up into the four cases where #{m\geq0} or #{-m>0} (i.e,, #{m<0}), and separately #{n\geq0} or #{-n>0} (i.e., #{n<0}). It's useful to note #{g^{-m}=(g^{-1})^{m}=(g^{m})^{-1}}.}}

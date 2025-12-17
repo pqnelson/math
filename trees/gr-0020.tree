@@ -1,0 +1,8 @@
+\title{Conjugation of an element by a subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_3}{def 5}{K5}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{a\in G} be an element of #{G}. Let #{B\subset G} be a subset of #{G}. We define #{a^{B}=\{a^{b}\in G\mid b\in B\}} to be the \define{Conjugate} of #{a} by #{B}.}

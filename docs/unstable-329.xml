@@ -7,37 +7,60 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3362</fr:anchor><fr:addr
-type="machine">#329</fr:addr><fr:route>unstable-329.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2133</fr:anchor><fr:addr
+type="machine">#329</fr:addr><fr:route>unstable-329.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. We know <fr:tex
-display="inline"><![CDATA[\vec {0}\in \ker (L)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> be arbitrary. Then <fr:tex
-display="inline"><![CDATA[L(v)=\vec {0}_{W}=L(\vec {0_{V}})]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[v=\vec {0}_{V}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}_{V}\}]]></fr:tex> as desired.</fr:p>
-
-<fr:p>Now, assume <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>. We will show that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
-type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> Let <fr:tex
-display="inline"><![CDATA[u,v\in  V]]></fr:tex>. Suppose <fr:tex
-display="inline"><![CDATA[L(u)=L(v)]]></fr:tex>. Then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(Wielendt) Let <fr:tex
+display="inline"><![CDATA[|G|=p^{a}m]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a\geq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p\nmid  m]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Omega =\{A\subseteq  G\mid  |A|=p^{a}\}]]></fr:tex>. We see that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> by right multiplication. Since this is an action, <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into orbits, and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is the sum of the orbit sizes.</fr:p>
+<fr:p>But
 <fr:tex
-display="block"><![CDATA[\vec {0}_{W}=L(u)-L(v)=L(u-v),]]></fr:tex>
-so <fr:tex
-display="inline"><![CDATA[(u-v)\in \ker (L)]]></fr:tex>. But by assumption, this means <fr:tex
-display="inline"><![CDATA[(u-v)\in \{\vec {0}_{V}\}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[u-v=\vec {0}_{V}]]></fr:tex>, which means (by adding <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> to both sides) <fr:tex
-display="inline"><![CDATA[u=v]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+display="block"><![CDATA[|\Omega |=\binom {p^{a}m}{p^{a}}\equiv  m\not \equiv 0\pmod {p},]]></fr:tex>
+and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then there exists some orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[X\in \mathcal {O}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H=G_{X}]]></fr:tex> be the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=|G|/|H|]]></fr:tex> by the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, and since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|G|]]></fr:tex>, we must conclude <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex>, and in particular <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> stabilizes <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> under right multiplication, we see if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[xH\subseteq  X]]></fr:tex>, and then <fr:tex
+display="inline"><![CDATA[|H|=|xH|\leq |X|=p^{a}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|\leq  p^{a}]]></fr:tex>, we must have <fr:tex
+display="inline"><![CDATA[|H|=p^{a}]]></fr:tex>, and this is a Sylow subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -54,30 +77,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3364</fr:anchor><fr:addr
-type="user">vectsp-001C</fr:addr><fr:route>vectsp-001C.xml</fr:route><fr:title
-text="Linear transformation is injective iff kernel is trivial">Linear transformation is injective iff kernel is trivial</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2135</fr:anchor><fr:addr
+type="user">gr-004U</fr:addr><fr:route>gr-004U.xml</fr:route><fr:title
+text="Existence of a Sylow p-Subgroup">Existence of a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">I. Martin Isaacs <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 3.15</fr:meta><fr:meta
-name="source"><fr:link
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.7 (Sylow E-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
 type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.6</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
-type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> if and only if <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a prime number. Then <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> has a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup.</fr:p>
  
    
    <fr:tree
@@ -87,37 +107,81 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2494</fr:anchor><fr:addr
-type="machine">#329</fr:addr><fr:route>unstable-329.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1315</fr:anchor><fr:addr
+type="machine">#328</fr:addr><fr:route>unstable-328.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. We know <fr:tex
-display="inline"><![CDATA[\vec {0}\in \ker (L)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> be arbitrary. Then <fr:tex
-display="inline"><![CDATA[L(v)=\vec {0}_{W}=L(\vec {0_{V}})]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[v=\vec {0}_{V}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}_{V}\}]]></fr:tex> as desired.</fr:p>
-
-<fr:p>Now, assume <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>. We will show that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
 type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> Let <fr:tex
-display="inline"><![CDATA[u,v\in  V]]></fr:tex>. Suppose <fr:tex
-display="inline"><![CDATA[L(u)=L(v)]]></fr:tex>. Then
+href="gr-003K.xml"
+addr="gr-003K"
+title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1317</fr:anchor><fr:addr
+type="machine">#329</fr:addr><fr:route>unstable-329.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(Wielendt) Let <fr:tex
+display="inline"><![CDATA[|G|=p^{a}m]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a\geq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p\nmid  m]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Omega =\{A\subseteq  G\mid  |A|=p^{a}\}]]></fr:tex>. We see that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> by right multiplication. Since this is an action, <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into orbits, and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is the sum of the orbit sizes.</fr:p>
+<fr:p>But
 <fr:tex
-display="block"><![CDATA[\vec {0}_{W}=L(u)-L(v)=L(u-v),]]></fr:tex>
-so <fr:tex
-display="inline"><![CDATA[(u-v)\in \ker (L)]]></fr:tex>. But by assumption, this means <fr:tex
-display="inline"><![CDATA[(u-v)\in \{\vec {0}_{V}\}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[u-v=\vec {0}_{V}]]></fr:tex>, which means (by adding <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> to both sides) <fr:tex
-display="inline"><![CDATA[u=v]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
+display="block"><![CDATA[|\Omega |=\binom {p^{a}m}{p^{a}}\equiv  m\not \equiv 0\pmod {p},]]></fr:tex>
+and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then there exists some orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[X\in \mathcal {O}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H=G_{X}]]></fr:tex> be the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=|G|/|H|]]></fr:tex> by the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, and since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|G|]]></fr:tex>, we must conclude <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex>, and in particular <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> stabilizes <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> under right multiplication, we see if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[xH\subseteq  X]]></fr:tex>, and then <fr:tex
+display="inline"><![CDATA[|H|=|xH|\leq |X|=p^{a}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|\leq  p^{a}]]></fr:tex>, we must have <fr:tex
+display="inline"><![CDATA[|H|=p^{a}]]></fr:tex>, and this is a Sylow subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

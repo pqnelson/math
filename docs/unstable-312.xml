@@ -7,25 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1807</fr:anchor><fr:addr
-type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5819</fr:anchor><fr:addr
+type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> converges in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, then for each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
-display="inline"><![CDATA[n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x,x_{n})<\frac {\varepsilon }{2}.]]></fr:tex>
-Then by the triangle inequality, for all <fr:tex
-display="inline"><![CDATA[m,n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x_{n},x_{m})\leq  d(x_{n},x)+d(x,x_{m})<\varepsilon .]]></fr:tex></fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -40,28 +27,26 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1809</fr:anchor><fr:addr
-type="user">ca-001E</fr:addr><fr:route>ca-001E.xml</fr:route><fr:title
-text="Convergent sequences are Cauchy">Convergent sequences are Cauchy</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5821</fr:anchor><fr:addr
+type="user">gt-000W</fr:addr><fr:route>gt-000W.xml</fr:route><fr:title
+text="Intermediate Value Property">Intermediate Value Property</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Rudin <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> be a <fr:link
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Chapter 4 Exercise 19</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
 type="local"
-href="ca-001A.xml"
-addr="ca-001A"
-title="Convergent sequence in a metric space">Convergent sequence in a metric space</fr:link>. Then <fr:tex
-display="inline"><![CDATA[x_{n}]]></fr:tex> is a <fr:link
-type="local"
-href="ca-001D.xml"
-addr="ca-001D"
-title="Cauchy sequence">Cauchy sequence</fr:link>.</fr:p>
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>. We say <fr:tex
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> has the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Intermediate Value Property</html:dfn> if the image of any continuous real-valued function on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an interval.</fr:p>
  
    
    <fr:tree
@@ -71,24 +56,11 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:addr
-type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5823</fr:anchor><fr:addr
+type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> converges in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, then for each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
-display="inline"><![CDATA[n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x,x_{n})<\frac {\varepsilon }{2}.]]></fr:tex>
-Then by the triangle inequality, for all <fr:tex
-display="inline"><![CDATA[m,n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x_{n},x_{m})\leq  d(x_{n},x)+d(x,x_{m})<\varepsilon .]]></fr:tex></fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

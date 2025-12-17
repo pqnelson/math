@@ -1,0 +1,8 @@
+\title{Ideal is prime iff quotient ring is integral domain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{theorem}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 7.4.13}
+
+\p{Let #{R} be a [[ra-0003]], let #{P\properideal R} be an ideal. Then #{P} is [[ra-001D]] if and only if the [[ra-0015]] #{R/P} is a [[ra-000H]].}

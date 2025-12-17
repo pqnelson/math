@@ -1,0 +1,14 @@
+\title{Group morphism preserves inverse of element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{proposition}
+\MML{group_6}{32}{T32}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s, let #{\varphi\colon G\to H} be a [[gr-000T]]. Let #{1_{G}} be the identity element of #{G} and let #{1_{H}} be the identity element of #{H}. If #{g\in G} is any element of #{G}, then #{\varphi(g^{-1})=\varphi(g)^{-1}}.}
+
+\proof{\p{We see that
+##{\begin{align}\varphi(g^{-1})\varphi(g) &= \varphi(g^{-1}g)\\
+&= \varphi(1_{G})\\
+&= 1_{H}\end{align}}
+then multiplying both sides on the right by #{\varphi(g)^{-1}} gives the result.}}

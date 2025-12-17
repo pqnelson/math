@@ -1,0 +1,16 @@
+\title{Left group action}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\import{iaa-0001}
+
+\p{Let #{G} be a [[gr-000G]], let #{X} be a set. A \define{Left Action} of #{G} on #{X} is a function #{\alpha\colon G\times X\to X} such that:}
+\ol{
+\li{Identity: for all #{x\in X}, #{\alpha(\IdentityElement{G},x)=x}; and}
+\li{Compatibility: for all #{g,h\in G} and for all #{x\in X}, ##{\alpha(g,\alpha(h,x))=\alpha(gh,x)}}
+}
+\p{Note: usually we write #{g\cdot x} instead of #{\alpha(g,x)} when the action is unambiguous.}
+
+\rmk{\p{(1) We have a more general notion of an "action" of a group on an object depend on the kind of morphisms on the object. For example, a group acting on a vector space will have #{g\cdot-} be a linear transformation of the vector space when we fix #{g\in G}.}
+\p{(2) We have a closely related notion of a "representation" of a group. Historically this emerged in a confused and haphazard way, describing several variations like a [[gr-004A]] or a linear representation. Category theory clarified this as an object #{X} and a group morphism #{\rho\colon G\to\Aut(X)}. This may be viewed as a "curried" form of a group action.}}

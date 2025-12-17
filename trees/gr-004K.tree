@@ -1,0 +1,15 @@
+\title{Conjugacy classes are either disjoint or equal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+
+\MML{group_3}{85}{T85}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{a\in G} and #{b\in G} be elements of #{G}. Then #{\Cl(a)=\Cl(b)} iff #{\Cl(a)\cap\Cl(b)\neq\emptyset}.}
+
+\proof{\p{\forwardproof Assume #{\Cl(a)=\Cl(b)}. Then #{\Cl(a)\cap\Cl(b)\neq\emptyset}.}
+\p{\backwardproof Assume #{\Cl(a)\cap\Cl(b)\neq\emptyset}. Then there exists an element #{x} of #{G} such that #{x\in\Cl(a)} and #{x\in\Cl(b)}.}
+\p{We see that #{\Cl(a)\subset\Cl(b)}: for any #{y\in\Cl(a)}, we see #{y} is conjugate to #{a} and #{a} is conjugate to #{x} and #{x} is conjugate to #{b}. Then #{b} is conjugate to #{y} by [[gr-002C]]. Hence #{y\in\Cl(b)}, which proves #{\Cl(a)\subset\Cl(b)}.}
+\p{We see that #{\Cl(b)\subset\Cl(a)}: let #{y\in\Cl(b)} be arbitrary. Then #{y} is conjugate to #{b} and #{b} is conjugate to #{x} and #{x} is conjugate to #{a}, which means #{y} is conjugate to #{a} by [[gr-002C]]. Hence #{y\in\Cl(a)}, which establishes #{\Cl(b)\subset\Cl(a)}.}
+\p{Hence [the sets #{\Cl(a)} and #{\Cl(b)} are equal](nst-0008).}}

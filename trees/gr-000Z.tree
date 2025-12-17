@@ -1,0 +1,10 @@
+\title{Product group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.1}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s. We define the \define{Product Group} #{G\times H} whose underlying set is the [[nst-000O]] of the sets underlying #{G} and #{H}, whose binary operator is given by
+##{(g_{1},h_{1})(g_{2},h_{2})=(g_{1}g_{2},h_{1}h_{2})}
+and the identity element is #{1_{G\times H}=(1_{G},1_{H})}.}

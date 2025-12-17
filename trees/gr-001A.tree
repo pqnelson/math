@@ -1,0 +1,7 @@
+\title{Bijective group morphisms are isomorphisms}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{theorem}
+
+\p{Let #{G} and #{H} be two [[gr-000G]]s. Let #{\varphi\colon G\to H} be a [[gr-000T]]. If #{\varphi} is [bijective](ela-001K), then #{\varphi} is an [isomorphism](gr-000U).}

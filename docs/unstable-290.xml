@@ -7,29 +7,24 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5643</fr:anchor><fr:addr
-type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7298</fr:anchor><fr:addr
+type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that for any <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[c\in \mathbb {R}]]></fr:tex> that <fr:tex
-display="inline"><![CDATA[L(cv)=cL(v)]]></fr:tex> by linearity and <fr:tex
-display="inline"><![CDATA[cL(v)=c\vec {0}_{W}=\vec {0}_{W}]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[cv\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>For any <fr:tex
-display="inline"><![CDATA[u,v\in \ker (L)]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[L(u+v)=L(u)+L(v)]]></fr:tex> by linearity, and <fr:tex
-display="inline"><![CDATA[L(u)+L(v)=\vec {0}_{W}+\vec {0}_{W}=\vec {0}_{W}]]></fr:tex> by definition of the kernel. Hence <fr:tex
-display="inline"><![CDATA[u+v\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>Hence by the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
+display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
+<fr:tex
+display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
+is countably infinite by <fr:link
 type="local"
-href="ela-000J.xml"
-addr="ela-000J"
-title="Criteria for a subset being a subspace">Criteria for a subset being a subspace</fr:link>, we see <fr:tex
-display="inline"><![CDATA[\ker (L)]]></fr:tex> is a subspace of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p><html:span
+href="nst-001Y.xml"
+addr="nst-001Y"
+title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -46,22 +41,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5645</fr:anchor><fr:addr
-type="user">ela-001M</fr:addr><fr:route>ela-001M.xml</fr:route><fr:title
-text="Kernel of linear transformation is a subspace">Kernel of linear transformation is a subspace</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7300</fr:anchor><fr:addr
+type="user">nst-001Z</fr:addr><fr:route>nst-001Z.xml</fr:route><fr:title
+text="{Q} is countable"><fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear transformation of real vector spaces <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\ker (L)]]></fr:tex> is a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
 type="local"
-href="ela-000I.xml"
-addr="ela-000I"
-title="Subspace of a real vector space">subspace</fr:link> of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+href="baby-rudin.xml"
+addr="baby-rudin"
+title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Corollary to Theorem 2.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>The set of rational numbers is countably infinite.</fr:p>
  
    
    <fr:tree
@@ -71,29 +63,24 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5647</fr:anchor><fr:addr
-type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7204</fr:anchor><fr:addr
+type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that for any <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[c\in \mathbb {R}]]></fr:tex> that <fr:tex
-display="inline"><![CDATA[L(cv)=cL(v)]]></fr:tex> by linearity and <fr:tex
-display="inline"><![CDATA[cL(v)=c\vec {0}_{W}=\vec {0}_{W}]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[cv\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>For any <fr:tex
-display="inline"><![CDATA[u,v\in \ker (L)]]></fr:tex>, we see <fr:tex
-display="inline"><![CDATA[L(u+v)=L(u)+L(v)]]></fr:tex> by linearity, and <fr:tex
-display="inline"><![CDATA[L(u)+L(v)=\vec {0}_{W}+\vec {0}_{W}=\vec {0}_{W}]]></fr:tex> by definition of the kernel. Hence <fr:tex
-display="inline"><![CDATA[u+v\in \ker (L)]]></fr:tex>.</fr:p>
-<fr:p>Hence by the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
+display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
+<fr:tex
+display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
+is countably infinite by <fr:link
 type="local"
-href="ela-000J.xml"
-addr="ela-000J"
-title="Criteria for a subset being a subspace">Criteria for a subset being a subspace</fr:link>, we see <fr:tex
-display="inline"><![CDATA[\ker (L)]]></fr:tex> is a subspace of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p><html:span
+href="nst-001Y.xml"
+addr="nst-001Y"
+title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

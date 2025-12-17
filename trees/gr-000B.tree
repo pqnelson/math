@@ -1,0 +1,10 @@
+\title{Identity element is at most unique}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{lemma}
+
+\p{Let #{X} be a set, let #{\mu} be a [[gr-0001]] on #{X}. Then there exists at most 1 [[gr-0005]] for #{\mu} in #{X}.}
+
+\proof{\p{If #{e_{1}\in A} and #{e_{2}\in A} are two possible identity elements, then
+##{e_{1}=\mu(e_{1},e_{2})=e_{2}.}}}

@@ -1,0 +1,20 @@
+\title{Right group action}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\import{iaa-0001}
+
+\p{Let #{G} be a [[gr-000G]], let #{X} be a set. A \define{Right Action} of #{G} on #{X} is a function #{\alpha\colon X\times G\to X} such that:}
+\ol{
+\li{Identity: for all #{x\in X}, #{\alpha(x,\IdentityElement{G})=x}; and}
+\li{Compatibility: for all #{g,h\in G} and for all #{x\in X}, ##{\alpha(\alpha(x,g),h)=\alpha(x,gh)}}
+}
+\p{Note: usually we write #{x\cdot g} instead of #{\alpha(x,g)} when the action is unambiguous.}
+
+\rmk{If #{\alpha} is a right action of #{G} on #{X}, then we may construct a [left action](gr-004Y) #{\lambda} of #{G} on #{X} by #{\lambda(g,x)=\alpha(x,g^{-1})}. The identity property holds. The compatibility property: ##{\begin{align*}\lambda(g,\lambda(h,x))
+&=\alpha(\alpha(x,h^{-1}),g^{-1})\\
+&=\alpha(x,h^{-1}g^{-1})\\
+&=\alpha(x,(gh)^{-1})\\
+&=\lambda(gh,x)\end{align*}}
+as desired. For this reason, it suffices to study the left action of a group.}

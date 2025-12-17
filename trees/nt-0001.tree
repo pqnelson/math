@@ -1,0 +1,8 @@
+\title{Well-ordering principle}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 0.2}
+
+\p{Every nonempty subset #{A\subset\NN} has a minimal element:}
+##{\forall A\subset\NN\ldotp A\neq\emptyset\implies \exists a\in A\ldotp\forall x\in A\ldotp a\leq x.}

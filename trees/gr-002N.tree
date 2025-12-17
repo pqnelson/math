@@ -1,0 +1,11 @@
+\title{Conjugation forms a transitive relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\MML{group_3}{105}{T105}
+\import{iaa-0001}
+\taxon{proposition}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{H_{1}\subgroup G}, #{H_{2}\subgroup G}, and #{H_{3}\subgroup G} be [[gr-001B]]s of #{G}. If #{H_{1}} [is conjugate to](gr-002E) #{H_{2}}, and if #{H_{2}} is conjugate to #{H_{3}}, then #{H_{1}} is conjugate to #{H_{3}}.}
+
+\rmk{This means that, along with [[gr-002L]] and [[gr-002M]], conjugation of subgroups forms an [[nst-0011]].}

@@ -1,0 +1,11 @@
+\title{Properties of degree of formal polynomials}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+
+\p{Let #{R} be a [[ra-0003]], let #{p,q\in R[x_{1},\dots,x_{n}]} be nonzero formal polynomials. Then the following all hold:}
+\ol{
+\li{#{\deg(f(x)+g(x))\leq\max(\deg(f),\deg(g))}}
+\li{#{\deg(fg)=\deg(f)+\deg(g)}}
+}

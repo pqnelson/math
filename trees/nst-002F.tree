@@ -1,0 +1,15 @@
+\title{Unions and intersections of indexed families of sets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{remark}
+
+\p{We adopt the notation that, when #{I} is an indexing and #{\mathcal{F}=\{F_{i}\}_{i\in I}} is an [[nst-002D]], we write
+##{\bigcup_{i\in I}F_{i}:=\bigcup\mathcal{F}}
+and
+##{\bigcap_{i\in I}F_{i}:=\bigcap\mathcal{F}.}
+When #{I=\NN} we write
+##{\bigcup_{i=1}^{\infty}F_{i}:=\bigcup\mathcal{F}}
+and
+##{\bigcap_{i=1}^{\infty}F_{i}:=\bigcap\mathcal{F}.}
+Similarly, for finite unions ranging over specific indices in an ordered indexing set, we use the lower and upper limits to demarcate the range of the subfamily of sets.}

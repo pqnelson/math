@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12457</fr:anchor><fr:addr
+type="machine">#440</fr:addr><fr:route>unstable-440.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The claim is that this forms a Jordan algebra. We need to verify that Jordan product satisfies both axioms (commutativity and the Jordan identity).</fr:p>
+
+<fr:p>We observe this product is commutative since <fr:tex
+display="inline"><![CDATA[AB+BA=BA+AB]]></fr:tex> (thanks to the commutativity of addition) and furthermore it is linear in the first slot (therefore bilinear, i.e., it distributes over addition).</fr:p>
+
+<fr:p>Let us now verify the Jordan product satisfies the Jordan identity.</fr:p>
+
+<fr:p>We see that:</fr:p>
+
+<fr:tex
+display="block"><![CDATA[\begin {align*} 8(A\circ  B)\circ (A\circ  A) &= 2(AB+BA)\circ (A^{2}+A^{2})\\ &= 2(AB+BA)A^{2} + 4A^{2}(AB+BA)\\ &= 2ABA^{2}+2BA^{3}+2A^{3}B+2A^{2}B \end {align*}]]></fr:tex>
+
+<fr:p>and</fr:p>
+
+<fr:tex
+display="block"><![CDATA[\begin {align*} 8A\circ (B\circ (A\circ  A)) &= 4A\circ (BA^{2}+A^{2}B)\\ &= 2A(BA^{2}+A^{2}B)+2(BA^{2}+A^{2}B)A\\ &= 2ABA^{2} + 2A^{3}B + 2BA^{3} + 2A^{2}B \end {align*}]]></fr:tex>
+
+<fr:p>We see that these two are equal to each other, therefore satisfies the Jordan identity. Hence it is a Jordan algebra.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12459</fr:anchor><fr:addr
+type="user">jordan-0002</fr:addr><fr:route>jordan-0002.xml</fr:route><fr:title
+text="Hermitian matrices over a field forms a Jordan algebra">Hermitian matrices over a field forms a Jordan algebra</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="hall-2024-sandwich.xml"
+addr="hall-2024-sandwich"
+title="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras">[hall-2024-sandwich]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {A}]]></fr:tex> be a (real) normed division algebra. Let <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {A})]]></fr:tex> be the space of <fr:link
+type="local"
+href="matrix-0008.xml"
+addr="matrix-0008"
+title="Hermitian matrix">Hermitian <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex></fr:link> matrices with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {A}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathfrak {H}_{0}(n,\mathbb {A})]]></fr:tex> be the subspace of traceless matrices.</fr:p><fr:p>We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Jordan product</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {A})]]></fr:tex> to be:</fr:p><fr:tex
+display="block"><![CDATA[A\circ  B = \frac {1}{2}(AB+BA)]]></fr:tex><fr:p>When <fr:tex
+display="inline"><![CDATA[\mathbb {A}]]></fr:tex> is associative, this forms a Jordan algebra.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12461</fr:anchor><fr:addr
+type="machine">#440</fr:addr><fr:route>unstable-440.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The claim is that this forms a Jordan algebra. We need to verify that Jordan product satisfies both axioms (commutativity and the Jordan identity).</fr:p>
+
+<fr:p>We observe this product is commutative since <fr:tex
+display="inline"><![CDATA[AB+BA=BA+AB]]></fr:tex> (thanks to the commutativity of addition) and furthermore it is linear in the first slot (therefore bilinear, i.e., it distributes over addition).</fr:p>
+
+<fr:p>Let us now verify the Jordan product satisfies the Jordan identity.</fr:p>
+
+<fr:p>We see that:</fr:p>
+
+<fr:tex
+display="block"><![CDATA[\begin {align*} 8(A\circ  B)\circ (A\circ  A) &= 2(AB+BA)\circ (A^{2}+A^{2})\\ &= 2(AB+BA)A^{2} + 4A^{2}(AB+BA)\\ &= 2ABA^{2}+2BA^{3}+2A^{3}B+2A^{2}B \end {align*}]]></fr:tex>
+
+<fr:p>and</fr:p>
+
+<fr:tex
+display="block"><![CDATA[\begin {align*} 8A\circ (B\circ (A\circ  A)) &= 4A\circ (BA^{2}+A^{2}B)\\ &= 2A(BA^{2}+A^{2}B)+2(BA^{2}+A^{2}B)A\\ &= 2ABA^{2} + 2A^{3}B + 2BA^{3} + 2A^{2}B \end {align*}]]></fr:tex>
+
+<fr:p>We see that these two are equal to each other, therefore satisfies the Jordan identity. Hence it is a Jordan algebra.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

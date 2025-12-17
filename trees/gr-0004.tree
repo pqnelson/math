@@ -1,0 +1,9 @@
+\title{Commutative binary operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.1}
+
+\p{Let #{X} be a set, let #{\mu} be a [[gr-0001]] on #{X}. We say #{\mu} is \define{Commutative} if
+##{\forall a,b\in X\ldotp \mu(a,b)=\mu(b,a)}}

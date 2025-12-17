@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4003</fr:anchor><fr:addr
+type="user">nst-002K</fr:addr><fr:route>nst-002K.xml</fr:route><fr:title
+text="Proof by induction">Proof by induction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If we have a claim which is a formula indexed by natural numbers <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex>, then a proof by induction on <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> looks like:</fr:p><fr:ol><fr:li><fr:strong>Base case:</fr:strong> For <fr:tex
+display="inline"><![CDATA[n=0]]></fr:tex> (or <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>), prove <fr:tex
+display="inline"><![CDATA[P[0]]]></fr:tex> (resp., <fr:tex
+display="inline"><![CDATA[P[1]]]></fr:tex>).</fr:li>
+<fr:li><fr:strong>Inductive argument:</fr:strong> For arbitrary <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, prove the claim "If <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[P[n+1]]]></fr:tex>". Usually this is done by a <fr:link
+type="local"
+href="nst-002G.xml"
+addr="nst-002G"
+title="Direct proof">Direct proof</fr:link> and we call the statement "Assume <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex>" the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Inductive Hypothesis</html:dfn>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4005</fr:anchor><fr:addr
+type="user">nst-002H</fr:addr><fr:route>nst-002H.xml</fr:route><fr:title
+text="Proof strategies">Proof strategies</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>There are various common "strategies" for proving various claims in Mathematics. We will review the basic strategies here.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3641</fr:anchor><fr:addr
+type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
+text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When trying to prove a claim of the form "If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>", a direct proof has the following skeleton:</fr:p>
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml">Assume <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>. [Intermediate proof steps] Thus <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>.</html:blockquote>
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3643</fr:anchor><fr:addr
+type="user">nst-002I</fr:addr><fr:route>nst-002I.xml</fr:route><fr:title
+text="Proof by contrapositive">Proof by contrapositive</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can take advantage of the fact that "If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>" has the same truth table as "If not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>, then not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>". This "Not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> implies not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>" is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Contrapositive</html:dfn> of "<fr:tex
+display="inline"><![CDATA[P]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>". Usually we embark on a <fr:link
+type="local"
+href="nst-002G.xml"
+addr="nst-002G"
+title="Direct proof">Direct proof</fr:link> and so the proof looks like:</fr:p>
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml">Assume not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>. [Intermediate proof steps.] Hence not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</html:blockquote>
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3645</fr:anchor><fr:addr
+type="user">nst-002J</fr:addr><fr:route>nst-002J.xml</fr:route><fr:title
+text="Proof by contradiction">Proof by contradiction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When trying to prove the claim <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, it is useful to use the fact that its double negation "Not (not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>)" is logically equivalent to <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, and then use the fact  that "Not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>" is logically equivalent to "If <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> then contradiction". Taken together, <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is logically equivalent to "If not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, then contradiction." This is a proof by contradiction.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is an implication "If <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>", a proof by contradiction looks like "If <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> and not <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, then contradiction".</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3647</fr:anchor><fr:addr
+type="user">nst-002K</fr:addr><fr:route>nst-002K.xml</fr:route><fr:title
+text="Proof by induction">Proof by induction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If we have a claim which is a formula indexed by natural numbers <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex>, then a proof by induction on <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> looks like:</fr:p><fr:ol><fr:li><fr:strong>Base case:</fr:strong> For <fr:tex
+display="inline"><![CDATA[n=0]]></fr:tex> (or <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>), prove <fr:tex
+display="inline"><![CDATA[P[0]]]></fr:tex> (resp., <fr:tex
+display="inline"><![CDATA[P[1]]]></fr:tex>).</fr:li>
+<fr:li><fr:strong>Inductive argument:</fr:strong> For arbitrary <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, prove the claim "If <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[P[n+1]]]></fr:tex>". Usually this is done by a <fr:link
+type="local"
+href="nst-002G.xml"
+addr="nst-002G"
+title="Direct proof">Direct proof</fr:link> and we call the statement "Assume <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex>" the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Inductive Hypothesis</html:dfn>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4007</fr:anchor><fr:addr
+type="user">gr-003Z</fr:addr><fr:route>gr-003Z.xml</fr:route><fr:title
+text="Jordan–Hölder theorem">Jordan–Hölder theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. If
+<fr:tex
+display="block"><![CDATA[\mathbf {1}_{G}=H_{0}\mathrel {\triangleleft } H_{1}\mathrel {\triangleleft }…\mathrel {\triangleleft } H_{n}=G,]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\mathbf {1}_{G}=K_{0}\mathrel {\triangleleft } K_{1}\mathrel {\triangleleft }…\mathrel {\triangleleft } K_{m}=G,]]></fr:tex>
+are two <fr:link
+type="local"
+href="gr-003X.xml"
+addr="gr-003X"
+title="Composition Series">Composition Series</fr:link>s for <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[m=n]]></fr:tex> and there exists a permutation <fr:tex
+display="inline"><![CDATA[\pi \in  S_{n}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[H_{j+1} / H_{j}\cong  K_{\sigma (j) + 1} / K_{\sigma (j)}]]></fr:tex>.</fr:p><fr:p>In other words, the <fr:link
+type="local"
+href="gr-003X.xml"
+addr="gr-003X"
+title="Composition Series">Composition Series</fr:link> for a group is unique.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1238</fr:anchor><fr:addr
+type="machine">#343</fr:addr><fr:route>unstable-343.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[\min (m,n)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> if <fr:tex
+display="inline"><![CDATA[\min (m,n)=1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:link
+type="local"
+href="gr-003W.xml"
+addr="gr-003W"
+title="Simple">Simple</fr:link>, hence any other composition series is of length 1 and the unique subquotient is <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive argument:</fr:strong> This is rather lengthy, I'll return to it.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4009</fr:anchor><fr:addr
+type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
+text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When trying to prove a claim of the form "If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>", a direct proof has the following skeleton:</fr:p>
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml">Assume <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>. [Intermediate proof steps] Thus <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>.</html:blockquote>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

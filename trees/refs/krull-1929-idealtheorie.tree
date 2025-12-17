@@ -1,0 +1,17 @@
+\title{Idealtheorie in Ringen ohne Endlichkeitsbedingung}
+\author{wolfgang-krull}
+\taxon{reference}
+\date{1929}
+\meta{doi}{10.1007/BF01454872}
+
+\meta{bibtex}{\startverb
+@article{krull1929idealtheorie,
+  title={Idealtheorie in Ringen ohne Endlichkeitsbedingung},
+  author={Krull, Wolfgang},
+  journal={Mathematische Annalen},
+  volume={101},
+  number={1},
+  pages={729--744},
+  year={1929},
+  publisher={Springer}
+}\stopverb}

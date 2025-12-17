@@ -1,0 +1,12 @@
+\title{Euclidean Domain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 8.1}
+
+
+\p{An [[ra-000H]] #{R} is said to be a \define{Euclidean Domain} if there is a norm #{N\colon R\to\NN_{0}} such that for any two elements #{a,b\in R} with #{b\neq0}, there exists elements [the quotient] #{q\in R} and [the remainder] #{r\in R} such that
+##{a=qb+r}
+and
+##{r=0\quad\mbox{or}\quad N(r)<N(b).}}

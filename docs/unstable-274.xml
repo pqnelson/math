@@ -7,18 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>565</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
-display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
-display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let us write <fr:tex
+display="inline"><![CDATA[\overline {n}]]></fr:tex> for the element of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> corresponding to the equivalence class containing <fr:tex
+display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms an Abelian group with addition and <fr:tex
+display="inline"><![CDATA[\overline {0}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms a commutative unital ring with multiplication and multiplicative identity <fr:tex
+display="inline"><![CDATA[\overline {1}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 3:</fr:strong> Every nonzero <fr:tex
+display="inline"><![CDATA[\overline {n}\in \mathbb {F}_{p}]]></fr:tex> has a multiplicative inverse.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -35,23 +40,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:addr
-type="user">gt-000Z</fr:addr><fr:route>gt-000Z.xml</fr:route><fr:title
-text="Metric Topology is Hausdorff">Metric Topology is Hausdorff</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>567</fr:anchor><fr:addr
+type="user">ra-000K</fr:addr><fr:route>ra-000K.xml</fr:route><fr:title
+text="Integers modulo a prime form a field">Integers modulo a prime form a field</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a metric space. Then the <fr:link
+display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be a prime number. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}:=\mathbb {Z} / p\mathbb {Z}]]></fr:tex> forms a <fr:link
 type="local"
-href="gt-0004.xml"
-addr="gt-0004"
-title="Metric topology">Metric topology</fr:link> makes <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> into a <fr:link
-type="local"
-href="gt-000Y.xml"
-addr="gt-000Y"
-title="Hausdorff space">Hausdorff space</fr:link>.</fr:p>
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -61,18 +62,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
-display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
-display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let us write <fr:tex
+display="inline"><![CDATA[\overline {n}]]></fr:tex> for the element of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> corresponding to the equivalence class containing <fr:tex
+display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms an Abelian group with addition and <fr:tex
+display="inline"><![CDATA[\overline {0}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms a commutative unital ring with multiplication and multiplicative identity <fr:tex
+display="inline"><![CDATA[\overline {1}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 3:</fr:strong> Every nonzero <fr:tex
+display="inline"><![CDATA[\overline {n}\in \mathbb {F}_{p}]]></fr:tex> has a multiplicative inverse.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -1,0 +1,8 @@
+\title{Ideal is maximal iff quotient ring is field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{theorem}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 7.4.12}
+
+\p{Let #{R} be a [[ra-0003]], let #{M\properideal R} be an ideal. Then #{M} is [[ra-001C]] if and only if the [[ra-0015]] #{R/M} is a [[field-0001]].}

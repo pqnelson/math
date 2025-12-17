@@ -1,0 +1,10 @@
+\title{Field morphisms are injective nonzero ring morphisms}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{corollary}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Corollary 7.4.10}
+
+\p{If #{\FF} is a [[field-0001]], then any nonzero [[ra-000T]] from #{\FF} into another ring must be an [[ela-001J]].}
+
+\proof{\p{The [[ra-0012]] is an ideal. The kernel of a nonzero morphism is a proper ideal, hence must be 0 by [[ra-001L]].}}

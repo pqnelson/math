@@ -1,0 +1,10 @@
+\title{Canonical ring morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\MML{ring_2}{def 7}{K6}
+
+\p{Let #{R} be a [[ring-0001]], let #{I\ideal R} be an [[ra-0011]] of #{R}. The \define{Canonical Morphism} #{\canHom\colon R\to R/I} is defined by: for any #{a\in R}, #{\canHom(a)=a+I}.}
+
+\rmk{There is no standard notation for the canonical morphism, and I was debating between #{\gamma} (Greek lowercase "c" for "canonical") and #{\pi} since it's a sort of projection.}

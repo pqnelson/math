@@ -7,25 +7,63 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1841</fr:anchor><fr:addr
-type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2138</fr:anchor><fr:addr
+type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
-but <fr:tex
-display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Omega =\{Sx\mid  x\in  G\}]]></fr:tex> be the set of <fr:link
 type="local"
-href="vectsp-002K.xml"
-addr="vectsp-002K"
-title="Adjoint of linear map">adjoint</fr:link>, so
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
+href="gr-003I.xml"
+addr="gr-003I"
+title="Right cosets of a subgroup">right cosets</fr:link> of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Observe <fr:tex
+display="inline"><![CDATA[|\Omega |=[G : S]]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts by right multiplication on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> acts too, and <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbits. Since <fr:tex
+display="inline"><![CDATA[|\Omega ]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, there must exist some <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>By the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is the index in <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> of some subgroup. It follows that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|P|]]></fr:tex>, which is a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is both a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, so the only possibility is <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=1]]></fr:tex>. Since the members of <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> are right cosets of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, we can consider <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}=\{Sg\}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[Sg]]></fr:tex> is alone in a <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit, it follows that it is fixed under the action of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[Sgu=Sg]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[u\in  P]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[gu\in  Sg]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[u\in  g^{-1}Sg=S^{g}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -42,39 +80,39 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1843</fr:anchor><fr:addr
-type="user">vectsp-0033</fr:addr><fr:route>vectsp-0033.xml</fr:route><fr:title
-text="Eigenvectors of normal operator are orthogonal">Eigenvectors of normal operator are orthogonal</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2140</fr:anchor><fr:addr
+type="user">gr-004X</fr:addr><fr:route>gr-004X.xml</fr:route><fr:title
+text="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">I. Martin Isaacs <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.22</fr:meta><fr:meta
-name="source"><fr:link
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.11</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> be an arbitrary <fr:link
 type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.2.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> be an <fr:link
+href="gr-004O.xml"
+addr="gr-004O"
+title="P-Group"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of a finite <fr:link
 type="local"
-href="vectsp-0020.xml"
-addr="vectsp-0020"
-title="Inner product space">Inner product space</fr:link> over <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a <fr:link
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link> <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be any <fr:link
 type="local"
-href="vectsp-002P.xml"
-addr="vectsp-002P"
-title="Normal operator">normal</fr:link> linear operator. If <fr:tex
-display="inline"><![CDATA[\lambda ,\mu \in \mathbb {C}]]></fr:tex> are distinct eigenvalues of <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> with eigenvectors <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[w]]></fr:tex> (respectively), then <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex>.</fr:p>
+href="gr-004S.xml"
+addr="gr-004S"
+title="Sylow p-subgroup">Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -84,25 +122,63 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1845</fr:anchor><fr:addr
-type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1332</fr:anchor><fr:addr
+type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
-but <fr:tex
-display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Omega =\{Sx\mid  x\in  G\}]]></fr:tex> be the set of <fr:link
 type="local"
-href="vectsp-002K.xml"
-addr="vectsp-002K"
-title="Adjoint of linear map">adjoint</fr:link>, so
-<fr:tex
-display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</fr:p><html:span
+href="gr-003I.xml"
+addr="gr-003I"
+title="Right cosets of a subgroup">right cosets</fr:link> of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Observe <fr:tex
+display="inline"><![CDATA[|\Omega |=[G : S]]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts by right multiplication on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> acts too, and <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbits. Since <fr:tex
+display="inline"><![CDATA[|\Omega ]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, there must exist some <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>By the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is the index in <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> of some subgroup. It follows that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|P|]]></fr:tex>, which is a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is both a power of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, so the only possibility is <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=1]]></fr:tex>. Since the members of <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> are right cosets of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, we can consider <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathcal {O}=\{Sg\}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[Sg]]></fr:tex> is alone in a <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>-orbit, it follows that it is fixed under the action of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[Sgu=Sg]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[u\in  P]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[gu\in  Sg]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[u\in  g^{-1}Sg=S^{g}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

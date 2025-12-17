@@ -1,0 +1,12 @@
+\title{"Abstract" groups and "group of transformations"}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{remark}
+
+\meta{source}{van der Waerden's [[van-der-waerden-1949-modern1]], Section 6}
+
+\p{Some older books distinguish 'abstract groups' from 'groups of transformations'. This distinction appears in van der Waerden's [[van-der-waerden-1949-modern1]], Section 6, if not earlier.}
+\p{Briefly, an 'abstract group' is presented in terms of 'generators' and 'relations'. For example, we did this implicitly when discussing the [[gr-0016]] and the [[gr-0013]].}
+\p{A 'group of transformations' is an automorphism group of a Mathematical object. For example, the [[gr-0019]] describes the automorphism group of a vector space, the [[gr-000E]] describes the automorphism group of a set. This is a bit anachronistic as a description, since van der Waerden thought of a group of transformations as "just" bijections of some set.}
+\p{We should think of an "abstract group" as "just meaningless symbols satisfying some equations", but a "group of transformations" are "concrete realizations" of symmetries "in the wild".}

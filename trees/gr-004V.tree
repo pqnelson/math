@@ -1,0 +1,12 @@
+\title{Sylow #{p}-Subgroups are conjugate}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\meta{source}{I. Martin Isaacs [[isaacs-2008-finite]] Theorem 1.12 (Sylow C-Theorem)}
+
+\p{Let #{S} and #{T} be [[gr-004S]]s of a finite [[gr-000G]] #{G}, then there exists a #{g\in G} such that #{T=S^{g}}.}
+
+\proof{\p{This follows immediately from [[gr-004X]] taking #{P=T} gives us #{T\subset S^{g}} for some #{g}. Since both #{S} and #{T} are Sylow #{p}-subgroups, we have #{|S|=|T|=|S^{g}|} we have #{T=S^{g}} as desired.}}
+
+\rmk{This may be viewed as a "finite analog" of a result in Lie theory where all maximal tori are conjugate to each other.}

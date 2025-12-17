@@ -1,0 +1,9 @@
+\title{Division rings have trivial left ideals}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{theorem}
+
+\p{Let #{D} be a [[ra-0008]]. Then the only left ideals of #{D} are #{D} itself and the [[ra-0013]].}
+
+\proof{\p{Let #{I} be a [left ideal](ra-000Z) of #{D}. Let #{x\in I} be nonzero #{x\neq 0}. Then there exists a #{x^{-1}\in D} such that #{x^{-1}x=1\in I} and then all of #{D} is contained in #{I}.}}

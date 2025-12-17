@@ -7,14 +7,49 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7081</fr:anchor><fr:addr
-type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2149</fr:anchor><fr:addr
+type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Since the matrix inverse is unique, this means we can write <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex> for the inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> when it exists.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to show <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is a well-defined <fr:link
+type="local"
+href="nst-0014.xml"
+addr="nst-0014"
+title="Function">Function</fr:link>. We see if <fr:tex
+display="inline"><![CDATA[aG_{x}=bG_{x}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a^{-1}b\in G_{x}]]></fr:tex> and by definition of the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> we see <fr:tex
+display="inline"><![CDATA[a^{-1}b\cdot  x=x]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[a\cdot  x=b\cdot  x]]></fr:tex>. Therefore this is a well-defined function.</fr:p>
+<fr:p>Reading this argument backwards, we establish <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+type="local"
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">injective</fr:link>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> maps <fr:tex
+display="inline"><![CDATA[gG_{x}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[g\cdot  x]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[g\cdot  x]]></fr:tex> can be an arbitrary element of <fr:tex
+display="inline"><![CDATA[G\cdot  x]]></fr:tex>, this means <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+type="local"
+href="ela-001I.xml"
+addr="ela-001I"
+title="Surjective function">surjective</fr:link>. Hence <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+type="local"
+href="ela-001K.xml"
+addr="ela-001K"
+title="Bijective function">bijective</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,21 +64,40 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7083</fr:anchor><fr:addr
-type="user">matrix-001D</fr:addr><fr:route>matrix-001D.xml</fr:route><fr:title
-text="Uniqueness of Matrix Inverse">Uniqueness of Matrix Inverse</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2151</fr:anchor><fr:addr
+type="user">gr-004L</fr:addr><fr:route>gr-004L.xml</fr:route><fr:title
+text="Cosets of stabilizer are bijective with the orbits">Cosets of stabilizer are bijective with the orbits</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be square matrices. If <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> is an inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, then it is unique.</fr:p><fr:p>What does this mean? It means if there is any other square matrix <fr:tex
-display="inline"><![CDATA[\mathbf {C}]]></fr:tex> which is also an inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, then necessarily
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Artin's <fr:link
+type="local"
+href="artin-2010-algebra.xml"
+addr="artin-2010-algebra"
+title="Algebra">Algebra</fr:link> Proposition 6.8.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>, let <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> be a set, suppose <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> <fr:link
+type="local"
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">acts</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> be arbitrary. The function
 <fr:tex
-display="block"><![CDATA[\mathbf {B}=\mathbf {C}.]]></fr:tex></fr:p>
+display="block"><![CDATA[\begin {split}\overline {f}\colon  &G/G_{x}\to  G\cdot  x\\ &gG_{x}\mapsto  g\cdot  x\end {split}]]></fr:tex>
+is a bijection between the <fr:link
+type="local"
+href="gr-003H.xml"
+addr="gr-003H"
+title="Left cosets of a subgroup">left cosets</fr:link> <fr:tex
+display="inline"><![CDATA[G/G_{x}]]></fr:tex> and the orbit <fr:tex
+display="inline"><![CDATA[G\cdot  x]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -53,13 +107,48 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5989</fr:anchor><fr:addr
-type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1279</fr:anchor><fr:addr
+type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Since the matrix inverse is unique, this means we can write <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex> for the inverse of <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> when it exists.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to show <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is a well-defined <fr:link
+type="local"
+href="nst-0014.xml"
+addr="nst-0014"
+title="Function">Function</fr:link>. We see if <fr:tex
+display="inline"><![CDATA[aG_{x}=bG_{x}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a^{-1}b\in G_{x}]]></fr:tex> and by definition of the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> we see <fr:tex
+display="inline"><![CDATA[a^{-1}b\cdot  x=x]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[a\cdot  x=b\cdot  x]]></fr:tex>. Therefore this is a well-defined function.</fr:p>
+<fr:p>Reading this argument backwards, we establish <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+type="local"
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">injective</fr:link>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> maps <fr:tex
+display="inline"><![CDATA[gG_{x}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[g\cdot  x]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[g\cdot  x]]></fr:tex> can be an arbitrary element of <fr:tex
+display="inline"><![CDATA[G\cdot  x]]></fr:tex>, this means <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+type="local"
+href="ela-001I.xml"
+addr="ela-001I"
+title="Surjective function">surjective</fr:link>. Hence <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+type="local"
+href="ela-001K.xml"
+addr="ela-001K"
+title="Bijective function">bijective</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

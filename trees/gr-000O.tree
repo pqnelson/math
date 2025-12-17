@@ -1,0 +1,11 @@
+\title{Order of a group element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\MML{group_1}{def 11}{K6}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.1}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{g\in G}. We define \define{Order} of #{g} is the integer #{\ord(g)} equal to \emph{either} the smallest positive integer #{n\in\NN} such that #{g^{n}=e} \emph{or} if no such positive integer exists, it is defined to be zero.}
+
+\rmk{Some authors prefer #{\ord(g)} to be infinite if there is no smallest positive integer #{n} such that #{g^{n}=e}, but it can complicate some results.}

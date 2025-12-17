@@ -7,18 +7,19 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>434</fr:anchor><fr:addr
-type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>608</fr:anchor><fr:addr
+type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
-type="local"
-href="gt-000F.xml"
-addr="gt-000F"
-title="Properties of closed subsets">Properties of closed subsets</fr:link> (2).</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Quaternions turn out to be useful for 3d computer graphics.</fr:p>
+<fr:p>(2) Although Springer's LaTeX macros uses <fr:code><![CDATA[\mathrm{i}]]></fr:code> for <fr:tex
+display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>, the conventions for the imaginary quaternions <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> varies wildly. Wikipedia uses bold symbols. Michael Kinyon told me on <fr:link
+type="external"
+href="https://bsky.app/profile/profkinyon.bsky.social/post/3m7dpefbsdc2r">Bluesky</fr:link> that "Gibbs, in his 1881 <fr:em>Elements of Vector Analysis</fr:em> book (more like a pamphlet), just used the math typeface of his day for i,j,k."</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,24 +34,37 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>436</fr:anchor><fr:addr
-type="user">gt-000H</fr:addr><fr:route>gt-000H.xml</fr:route><fr:title
-text="Closure of a set is a closed set">Closure of a set is a closed set</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>610</fr:anchor><fr:addr
+type="user">ra-0005</fr:addr><fr:route>ra-0005.xml</fr:route><fr:title
+text="Quaternions">Quaternions</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Quaternions</html:dfn> is a generalization of the <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[E\subseteq  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\overline {E}]]></fr:tex> is a <fr:link
-type="local"
-href="gt-000E.xml"
-addr="gt-000E"
-title="Closed set">Closed set</fr:link>.</fr:p>
+href="complex-0001.xml"
+addr="complex-0001"
+title="Set of complex numbers">complex numbers</fr:link>, denoted as <fr:tex
+display="inline"><![CDATA[\mathbb {H}]]></fr:tex> (after William Hamilton) consisting of <fr:tex
+display="inline"><![CDATA[t+ix+jy+kz]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[t,x,y,z\in \mathbb {R}]]></fr:tex> are real numbers, where the imaginary "numbers" satisfy
+<fr:tex
+display="block"><![CDATA[i^{2}=j^{2}=k^{2}=ijk=-1.]]></fr:tex>
+It's not hard to deduce that
+<fr:tex
+display="block"><![CDATA[jk=-kj=i]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[ki=-ik=j]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[ij=-ji=k]]></fr:tex>
+Addition is given by
+<fr:tex
+display="block"><![CDATA[(a+ib+jc+kd)+(t+ix+jy+kz)=(a+t)+i(b+x)+j(c+y)+k(d+z)]]></fr:tex>
+and multiplication is given by
+<fr:tex
+display="block"><![CDATA[\begin {align*} (a+ib+jc+kd)(t+ix+jy+kz) &=(at-bx-cy-dz)\\ &\quad +i(at+bx+cz-dy)\\ &\quad +j(ct-bz+cy+dx)\\ &\quad +k(az+by-cx+dt)\end {align*}]]></fr:tex>
+This means the quaternions form a noncommutative ring.</fr:p>
  
    
    <fr:tree
@@ -60,17 +74,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>438</fr:anchor><fr:addr
-type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:addr
+type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
-type="local"
-href="gt-000F.xml"
-addr="gt-000F"
-title="Properties of closed subsets">Properties of closed subsets</fr:link> (2).</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Quaternions turn out to be useful for 3d computer graphics.</fr:p>
+<fr:p>(2) Although Springer's LaTeX macros uses <fr:code><![CDATA[\mathrm{i}]]></fr:code> for <fr:tex
+display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>, the conventions for the imaginary quaternions <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> varies wildly. Wikipedia uses bold symbols. Michael Kinyon told me on <fr:link
+type="external"
+href="https://bsky.app/profile/profkinyon.bsky.social/post/3m7dpefbsdc2r">Bluesky</fr:link> that "Gibbs, in his 1881 <fr:em>Elements of Vector Analysis</fr:em> book (more like a pamphlet), just used the math typeface of his day for i,j,k."</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

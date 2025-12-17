@@ -1,0 +1,9 @@
+\title{Conjugation of identity element is identity element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\MML{group_3}{17}{T17}
+\import{iaa-0001}
+\taxon{proposition}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{g\in G} be an element of #{G}. Then #{\identity{G}^{g}=\identity{G}}.}

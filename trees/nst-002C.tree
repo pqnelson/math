@@ -7,6 +7,6 @@
 
 \p{There is no set #{X} such that for all ordinals #{A} we have #{A\in X}. In other words, there is no set of all ordinal numbers.}
 
-\proof{\p{Assume for contradiction that #{X} is a set such that for all ordinals #{A}, we have #{A\in X}. Then #{X} is [[nst-0021]] and [[nst-0022]], which implies #{X} is an [[nst-0023]]. Then #{X\in X}, which is impossible.}}
+\proof{\p{[[nst-002J]]. Assume for contradiction that #{X} is a set such that for all ordinals #{A}, we have #{A\in X}. Then #{X} is [[nst-0021]] and [[nst-0022]], which implies #{X} is an [[nst-0023]]. Then #{X\in X}, which is impossible.}}
 
 \rmk{"The collection of all ordinal numbers" is another example of a [proper class](nst-001P).}

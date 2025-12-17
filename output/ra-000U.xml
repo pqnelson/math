@@ -1,0 +1,3125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1598</fr:anchor><fr:addr
+type="user">ra-000U</fr:addr><fr:route>ra-000U.xml</fr:route><fr:title
+text="Inclusion of factor into direct product">Inclusion of factor into direct product</fr:title><fr:taxon>Non-example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider <fr:tex
+display="inline"><![CDATA[i\colon \mathbb {Q}\hookrightarrow \mathbb {Q}\times \mathbb {Q}]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[i(x)=(x,0)]]></fr:tex>. We claim <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> is not a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>564</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[i(1)=(1,0)\neq (1,1)]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> cannot possibly be multiplicative.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1600</fr:anchor><fr:addr
+type="user">iaa-0008</fr:addr><fr:route>iaa-0008.xml</fr:route><fr:title
+text="Traditional Introduction to Rings and Modules">Traditional Introduction to Rings and Modules</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>648</fr:anchor><fr:addr
+type="user">ring-0001</fr:addr><fr:route>ring-0001.xml</fr:route><fr:title
+text="Ring">Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Unital) Ring</html:dfn> consists of a set <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> equipped with
+<fr:ul><fr:li>an Abelian group structure <fr:tex
+display="inline"><![CDATA[(R,+,0)]]></fr:tex>, and</fr:li>
+<fr:li>a multiplication <fr:tex
+display="inline"><![CDATA[\star \colon  R\times  R\to  R]]></fr:tex>, and</fr:li>
+<fr:li>(Optional) a "one" element <fr:tex
+display="inline"><![CDATA[1\in  R]]></fr:tex></fr:li></fr:ul>
+such that for any <fr:tex
+display="inline"><![CDATA[a,b,c\in  R]]></fr:tex>,
+<fr:ol><fr:li>Associativity of addition: <fr:tex
+display="inline"><![CDATA[a+(b+c)=(a+b)+c]]></fr:tex></fr:li>
+<fr:li>Additive identity element: <fr:tex
+display="inline"><![CDATA[a+0=0+a=a]]></fr:tex></fr:li>
+<fr:li>Additive inverse: <fr:tex
+display="inline"><![CDATA[a+(-a)=0]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: <fr:tex
+display="inline"><![CDATA[a+b=b+a]]></fr:tex></fr:li>
+<fr:li>(Optional) Associativity of multiplication: <fr:tex
+display="inline"><![CDATA[a\star (b\star  c)=(a\star  b)\star  c]]></fr:tex></fr:li>
+<fr:li>(Optional) Unital property (i.e., multiplicative identity element): <fr:tex
+display="inline"><![CDATA[a\star 1=1\star  a=a]]></fr:tex></fr:li>
+<fr:li>Left distributivity of multiplication over addition: <fr:tex
+display="inline"><![CDATA[a\star (b+c)=(a\star  b)+(a\star  c)]]></fr:tex></fr:li>
+<fr:li>Right distributivity of multiplication over addition <fr:tex
+display="inline"><![CDATA[(a+b)\star  c=(a\star  c)+(b\star  c)]]></fr:tex></fr:li></fr:ol>
+Some rings don't have a multiplicative unit <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, in which case they are "nonunital rings". If we don't care about the existence of the multiplicative unit, we'll just speak of "rings".</fr:p><fr:p>We also don't require all rings to be associative (i.e., multiplication may or may not be associative). When it matters, we will speak of "associative rings" and "nonassociative rings", but by default we will assume rings as associative.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>650</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define a unital ring as an <fr:link
+type="local"
+href="gr-000J.xml"
+addr="gr-000J"
+title="Abelian group">Abelian group</fr:link> equipped with a monoid structure. The axioms for a unital ring would be satisfied automatically.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>652</fr:anchor><fr:addr
+type="user">ra-0001</fr:addr><fr:route>ra-0001.xml</fr:route><fr:title
+text="Integers are a ring">Integers are a ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The integers <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> equipped with the usual addition and multiplication forms a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>624</fr:anchor><fr:addr
+type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to prove that all 8 axioms are satisfied, but they are straightforward arithmetic.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>626</fr:anchor><fr:addr
+type="machine">#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The integers are the <fr:em>epitome</fr:em> of a ring.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>654</fr:anchor><fr:addr
+type="user">ra-0002</fr:addr><fr:route>ra-0002.xml</fr:route><fr:title
+text="Rationals, reals, complex numbers are a ring">Rationals, reals, complex numbers are a ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The rational numbers <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, the real numbers <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, and the <fr:link
+type="local"
+href="complex-0001.xml"
+addr="complex-0001"
+title="Set of complex numbers">complex numbers</fr:link> form a ring.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>656</fr:anchor><fr:addr
+type="user">ra-0004</fr:addr><fr:route>ra-0004.xml</fr:route><fr:title
+text="Matrix ring">Matrix ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}_{0}]]></fr:tex> be any non-negative integer. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Matrix Ring</html:dfn> <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> to consist of all <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices equipped with <fr:link
+type="local"
+href="matrix-000E.xml"
+addr="matrix-000E"
+title="Matrix Addition">Matrix Addition</fr:link> and <fr:link
+type="local"
+href="matrix-000X.xml"
+addr="matrix-000X"
+title="Matrix Multiplication">Matrix Multiplication</fr:link> forms a ring.</fr:p><fr:p>Moreover, if <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital, then <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> is unital where its multiplicative identity is the <fr:link
+type="local"
+href="matrix-0004.xml"
+addr="matrix-0004"
+title="Identity matrix">identity matrix</fr:link> (and we see it satisfies <fr:link
+type="local"
+href="matrix-0010.xml"
+addr="matrix-0010"
+title="Multiplying by Identity Matrix">the unit axioms</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>658</fr:anchor><fr:addr
+type="user">ra-0003</fr:addr><fr:route>ra-0003.xml</fr:route><fr:title
+text="Commutative Ring">Commutative Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. We say <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Commutative</html:dfn> if its multiplication operator is a <fr:link
+type="local"
+href="gr-0004.xml"
+addr="gr-0004"
+title="Commutative binary operator">Commutative binary operator</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>618</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We see <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex> are commutative rings. But in general the <fr:link
+type="local"
+href="ra-0004.xml"
+addr="ra-0004"
+title="Matrix ring">Matrix ring</fr:link> is noncommutative since <fr:link
+type="local"
+href="matrix-0011.xml"
+addr="matrix-0011"
+title="Matrix Multiplication is not commutative">Matrix Multiplication is not commutative</fr:link> generally.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>660</fr:anchor><fr:addr
+type="user">ra-0005</fr:addr><fr:route>ra-0005.xml</fr:route><fr:title
+text="Quaternions">Quaternions</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Quaternions</html:dfn> is a generalization of the <fr:link
+type="local"
+href="complex-0001.xml"
+addr="complex-0001"
+title="Set of complex numbers">complex numbers</fr:link>, denoted as <fr:tex
+display="inline"><![CDATA[\mathbb {H}]]></fr:tex> (after William Hamilton) consisting of <fr:tex
+display="inline"><![CDATA[t+ix+jy+kz]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[t,x,y,z\in \mathbb {R}]]></fr:tex> are real numbers, where the imaginary "numbers" satisfy
+<fr:tex
+display="block"><![CDATA[i^{2}=j^{2}=k^{2}=ijk=-1.]]></fr:tex>
+It's not hard to deduce that
+<fr:tex
+display="block"><![CDATA[jk=-kj=i]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[ki=-ik=j]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[ij=-ji=k]]></fr:tex>
+Addition is given by
+<fr:tex
+display="block"><![CDATA[(a+ib+jc+kd)+(t+ix+jy+kz)=(a+t)+i(b+x)+j(c+y)+k(d+z)]]></fr:tex>
+and multiplication is given by
+<fr:tex
+display="block"><![CDATA[\begin {align*} (a+ib+jc+kd)(t+ix+jy+kz) &=(at-bx-cy-dz)\\ &\quad +i(at+bx+cz-dy)\\ &\quad +j(ct-bz+cy+dx)\\ &\quad +k(az+by-cx+dt)\end {align*}]]></fr:tex>
+This means the quaternions form a noncommutative ring.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>612</fr:anchor><fr:addr
+type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Quaternions turn out to be useful for 3d computer graphics.</fr:p>
+<fr:p>(2) Although Springer's LaTeX macros uses <fr:code><![CDATA[\mathrm{i}]]></fr:code> for <fr:tex
+display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>, the conventions for the imaginary quaternions <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> varies wildly. Wikipedia uses bold symbols. Michael Kinyon told me on <fr:link
+type="external"
+href="https://bsky.app/profile/profkinyon.bsky.social/post/3m7dpefbsdc2r">Bluesky</fr:link> that "Gibbs, in his 1881 <fr:em>Elements of Vector Analysis</fr:em> book (more like a pamphlet), just used the math typeface of his day for i,j,k."</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>662</fr:anchor><fr:addr
+type="user">ra-0006</fr:addr><fr:route>ra-0006.xml</fr:route><fr:title
+text="Rings as number systems">Rings as number systems</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>From the past few examples, it should be clear that we should think of rings as <fr:em>number systems</fr:em>. In the 19th century, many Mathematicians explored different "number systems" by adding new "numbers" analogous to <fr:tex
+display="inline"><![CDATA[\mathrm {i}=\sqrt {-1}]]></fr:tex>. This was how Hamilton invented the <fr:link
+type="local"
+href="ra-0005.xml"
+addr="ra-0005"
+title="Quaternions">Quaternions</fr:link>. Many other rings were invented in this manner, and it's the best intuition to have in mind while we continue to study rings.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>664</fr:anchor><fr:addr
+type="user">ra-0007</fr:addr><fr:route>ra-0007.xml</fr:route><fr:title
+text="Multiplication by Zero is Zero in a ring">Multiplication by Zero is Zero in a ring</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a (possibly non-unital) <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. For any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex>, we see <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\star  0=0]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>606</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> that <fr:tex
+display="inline"><![CDATA[(0+0)\star  x=0\star  x]]></fr:tex>. But distributivity rewrites the left-hand side as <fr:tex
+display="inline"><![CDATA[(0\star  x)+(0\star  x)=0\star  x]]></fr:tex>, then subtracting <fr:tex
+display="inline"><![CDATA[0\star  x]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[0\star  x=0]]></fr:tex> as desired.</fr:p>
+<fr:p>Similarly, from <fr:tex
+display="inline"><![CDATA[0+0=0]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x\star (0+0)=x\star  0]]></fr:tex>. Distributivity allows us to rewrite the left-hand side again as <fr:tex
+display="inline"><![CDATA[(x\star 0)+(x\star 0)=x\star 0]]></fr:tex> and then subtracting <fr:tex
+display="inline"><![CDATA[x\star 0]]></fr:tex> from both sides gives us <fr:tex
+display="inline"><![CDATA[x\star 0=0]]></fr:tex> as desired.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>666</fr:anchor><fr:addr
+type="user">ra-0008</fr:addr><fr:route>ra-0008.xml</fr:route><fr:title
+text="Division ring">Division ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/vectsp_1.html#NM4">vectsp_1:def</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[1\neq 0]]></fr:tex> is called a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Division Ring</html:dfn> (or <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Skew Field</html:dfn>) if for every nonzero element <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> there exists a multiplicative inverse, i.e., there exists a <fr:tex
+display="inline"><![CDATA[b\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[ab=ba=1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>668</fr:anchor><fr:addr
+type="user">ra-0009</fr:addr><fr:route>ra-0009.xml</fr:route><fr:title
+text="Multiplicative inverse">Multiplicative inverse</fr:title><fr:taxon>Notation</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link> with <fr:tex
+display="inline"><![CDATA[1\neq 0]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> has a unique <fr:link
+type="local"
+href="gr-000C.xml"
+addr="gr-000C"
+title="Inverse of an element with respect to a binary operator">multiplicative two-sided inverse</fr:link>, then we will just denote it by <fr:tex
+display="inline"><![CDATA[x^{-1}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:addr
+type="user">ra-000I</fr:addr><fr:route>ra-000I.xml</fr:route><fr:title
+text="Unit">Unit</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital (possibly nonassociative) <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> be an element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Unit</html:dfn> if it has a two-sided inverse <fr:tex
+display="inline"><![CDATA[x^{-1}\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x^{-1}x=xx^{-1}=1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:addr
+type="user">ra-000A</fr:addr><fr:route>ra-000A.xml</fr:route><fr:title
+text="Inverse of one is one in a ring">Inverse of one is one in a ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then <fr:tex
+display="inline"><![CDATA[1^{-1}=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(-1)^{-1}=-1]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>600</fr:anchor><fr:addr
+type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[1=1\star  1^{-1}=1^{-1}]]></fr:tex> the first equality by definition of multiplicative inverse, the second equality by the unital property.</fr:p>
+<fr:p>Similarly <fr:tex
+display="inline"><![CDATA[1=(-1)\star (-1)^{-1}]]></fr:tex> so then adding <fr:tex
+display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us <fr:tex
+display="inline"><![CDATA[0=1-1=(-1)\star (-1)^{-1}+(-1)]]></fr:tex> and distributivity allows us to rewrite <fr:tex
+display="inline"><![CDATA[(-1)\star (-1)^{-1}+(-1)=(-1)\star ((-1)^{-1}+1)=0]]></fr:tex>. So either <fr:tex
+display="inline"><![CDATA[-1=0]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[-1=0]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[1=0]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[(-1)^{-1}=-1=0]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>, then adding <fr:tex
+display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:addr
+type="user">ra-000B</fr:addr><fr:route>ra-000B.xml</fr:route><fr:title
+text="Negation in a unital ring is multiplying by minus one">Negation in a unital ring is multiplying by minus one</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. For any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[-x=(-1)\star  x]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>594</fr:anchor><fr:addr
+type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[x+(-1)\star  x=1\star  x+(-1)\star  x]]></fr:tex> and then distributivity gives us <fr:tex
+display="inline"><![CDATA[x+(-1)\star  x=(1-1)\star  x=0\star  x]]></fr:tex> and from <fr:link
+type="local"
+href="ra-0007.xml"
+addr="ra-0007"
+title="Multiplication by Zero is Zero in a ring">Multiplication by Zero is Zero in a ring</fr:link> we have the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>676</fr:anchor><fr:addr
+type="user">ra-000C</fr:addr><fr:route>ra-000C.xml</fr:route><fr:title
+text="Set of nonzero elements in a ring">Set of nonzero elements in a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be an arbitrary <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Set of Nonzero Elements</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is denoted by
+<fr:tex
+display="block"><![CDATA[R^{*}:=\{x\in  R\mid  x\neq 0\}.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:addr
+type="user">ra-000D</fr:addr><fr:route>ra-000D.xml</fr:route><fr:title
+text="Set of invertible elements of a ring">Set of invertible elements of a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital (possibly nonassociative) <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Set of Invertible Elements</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> to be the <fr:link
+type="local"
+href="gr-000H.xml"
+addr="gr-000H"
+title="Set of all invertible elements">set of elements with two-sided inverses</fr:link>:
+<fr:tex
+display="block"><![CDATA[R^{\times }:=\{x\in  R\mid \exists  x^{-1}\in  R\ldotp  xx^{-1}=x^{-1}x=1\}.]]></fr:tex>
+Furthermore, if multiplication is associative, then this <fr:link
+type="local"
+href="gr-000I.xml"
+addr="gr-000I"
+title="Set of invertible elements for associative binary operator is a group">forms a group</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:addr
+type="user">ra-000E</fr:addr><fr:route>ra-000E.xml</fr:route><fr:title
+text="Zero Divisor">Zero Divisor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ringfrac.html#V1">ringfrac:def 1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x\neq 0]]></fr:tex> be a nonzero element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is:
+<fr:ol><fr:li>a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Left Zero Divisor</html:dfn> if there exists a <fr:tex
+display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[y\neq  0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[xy=0]]></fr:tex>;</fr:li>
+<fr:li>a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Right Zero Divisor</html:dfn> if there exists a <fr:tex
+display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[y\neq  0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[yx=0]]></fr:tex>;</fr:li>
+<fr:li>a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Two Sided) Zero Divisor</html:dfn> if there exists a <fr:tex
+display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[y\neq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[xy=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[yx=0]]></fr:tex>.</fr:li></fr:ol>
+The way to remember left and right zero divisors is which side <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> appears.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:addr
+type="user">ra-000F</fr:addr><fr:route>ra-000F.xml</fr:route><fr:title
+text="Matrix ring has zero divisors">Matrix ring has zero divisors</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider <fr:tex
+display="inline"><![CDATA[\varepsilon \in \mathop {\mathrm {Mat}}\nolimits _{2}(\mathbb {C})]]></fr:tex> defined as
+<fr:tex
+display="block"><![CDATA[\varepsilon =\begin {pmatrix}0 & 1\\ 0 & 0\end {pmatrix}]]></fr:tex>
+We see that <fr:tex
+display="inline"><![CDATA[\varepsilon ^{2}=0]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\varepsilon ]]></fr:tex> is a zero divisor.</fr:p><fr:p>This example generalizes to any <fr:tex
+display="inline"><![CDATA[n\geq  2]]></fr:tex> and any unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (with a single nonzero entry instead of <fr:tex
+display="inline"><![CDATA[1]]></fr:tex> for non-unital rings).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>684</fr:anchor><fr:addr
+type="user">ra-000J</fr:addr><fr:route>ra-000J.xml</fr:route><fr:title
+text="Ring elements are either units or some kind of zero divisor">Ring elements are either units or some kind of zero divisor</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:em>associative</fr:em> <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> be any arbitrary element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then either <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">Unit</fr:link> or <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000E.xml"
+addr="ra-000E"
+title="Zero Divisor">Zero Divisor</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>582</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a left zero divisor, then there is a <fr:tex
+display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[xy=0]]></fr:tex>. But if <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> were also a unit, then
+<fr:tex
+display="block"><![CDATA[\begin {align*}0&=x^{-1}0\\ &=x^{-1}(xy)\\ &=(x^{-1}x)y\\ &=1y=y\end {align*}]]></fr:tex>
+which contradicts the condition that <fr:tex
+display="inline"><![CDATA[y\neq 0]]></fr:tex> in the definition of a zero divisor.</fr:p>
+<fr:p>The situation for <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> being a right zero divisor is similar.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>584</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important to stress that the ring must be associative. The <fr:link
+type="local"
+href="sedonion-0001.xml"
+addr="sedonion-0001"
+title="Sedonions">Sedonions</fr:link> are a nonassociative unital ring where nonzero elements have a multiplicative inverse <fr:em>and</fr:em> there are also zero divisors.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:addr
+type="user">ra-000G</fr:addr><fr:route>ra-000G.xml</fr:route><fr:title
+text="Domain">Domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link> is called a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Domain</html:dfn> if it has no <fr:link
+type="local"
+href="ra-000E.xml"
+addr="ra-000E"
+title="Zero Divisor">Zero Divisor</fr:link>s.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:addr
+type="user">ra-000H</fr:addr><fr:route>ra-000H.xml</fr:route><fr:title
+text="Integral domain">Integral domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Integral Domain</html:dfn> is a commutative <fr:link
+type="local"
+href="ra-000G.xml"
+addr="ra-000G"
+title="Domain">Domain</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>690</fr:anchor><fr:addr
+type="user">field-0001</fr:addr><fr:route>field-0001.xml</fr:route><fr:title
+text="Field">Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Field</html:dfn> is traditionally defined as a set <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> with two binary operators, addition (denoted <fr:tex
+display="inline"><![CDATA[+]]></fr:tex>) and multiplication (denoted <fr:tex
+display="inline"><![CDATA[\cdot ]]></fr:tex>), satisfying the field axioms:</fr:p><fr:ol><fr:li>Associativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x+y)+z=x+(y+z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x+y=y+x]]></fr:tex></fr:li>
+<fr:li>Additive identity: there exists a <fr:tex
+display="inline"><![CDATA[0\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[0+x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x+0=x]]></fr:tex></fr:li>
+<fr:li>Additive inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x+y=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y+x=0]]></fr:tex>; in this case, we usually denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[(-x)]]></fr:tex></fr:li>
+<fr:li>Associativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x\cdot  y)\cdot  z=x\cdot  (y\cdot  z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x\cdot  y=y\cdot  x]]></fr:tex></fr:li>
+<fr:li>Multiplicative identity: there exists a <fr:tex
+display="inline"><![CDATA[1\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[1\cdot  x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\cdot  1=x]]></fr:tex></fr:li>
+<fr:li>Multiplicative inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> which is nonzero <fr:tex
+display="inline"><![CDATA[x\neq 0]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\cdot  y=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\cdot  x=1]]></fr:tex>; usually we denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[x^{-1}]]></fr:tex></fr:li>
+<fr:li>Distributivity of multiplication over addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[x\cdot (y+z)=(x\cdot  y)+(x\cdot  z)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x+y)\cdot  z=(x\cdot  z)+(x\cdot  y)]]></fr:tex></fr:li></fr:ol><fr:p>Note that some of these are redundant.</fr:p><fr:p>Also note: fields are usually written in blackboard bold, and the generic field is either <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since the German word for field is "<fr:em>Körper</fr:em>").</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>692</fr:anchor><fr:addr
+type="user">ra-000K</fr:addr><fr:route>ra-000K.xml</fr:route><fr:title
+text="Integers modulo a prime form a field">Integers modulo a prime form a field</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be a prime number. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}:=\mathbb {Z} / p\mathbb {Z}]]></fr:tex> forms a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>576</fr:anchor><fr:addr
+type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let us write <fr:tex
+display="inline"><![CDATA[\overline {n}]]></fr:tex> for the element of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> corresponding to the equivalence class containing <fr:tex
+display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms an Abelian group with addition and <fr:tex
+display="inline"><![CDATA[\overline {0}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms a commutative unital ring with multiplication and multiplicative identity <fr:tex
+display="inline"><![CDATA[\overline {1}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 3:</fr:strong> Every nonzero <fr:tex
+display="inline"><![CDATA[\overline {n}\in \mathbb {F}_{p}]]></fr:tex> has a multiplicative inverse.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>694</fr:anchor><fr:addr
+type="user">ra-000L</fr:addr><fr:route>ra-000L.xml</fr:route><fr:title
+text="Polynomial ring">Polynomial ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x\notin  R]]></fr:tex> be a formal variable (just a symbol, not a number). We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Polynomials</html:dfn> with coefficients <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and in unknown <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> to be the ring <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> consisting of formal polynomials which are finite sums
+<fr:tex
+display="block"><![CDATA[p(x)=\sum ^{n}_{k=0}a_{k}x^{k}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>, addition is done with the coefficients of each power, and multiplication is done using the Cauchy convolution product
+<fr:tex
+display="block"><![CDATA[\left (\sum ^{m}_{j=0}a_{j}x^{j}\right )\left (\sum ^{n}_{k=0}b_{k}x^{k}\right )=\sum ^{m+n}_{k=0}\left (\sum ^{k}_{j=0}a_{j}b_{k-j}\right )x^{k}.]]></fr:tex>
+Then this forms a commutative ring.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>570</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link
+type="local"
+href="ra-000M.xml"
+addr="ra-000M"
+title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
+display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
+and so on.</fr:p>
+<fr:p>(2) We could generalize this to noncommutative <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>696</fr:anchor><fr:addr
+type="user">ra-000M</fr:addr><fr:route>ra-000M.xml</fr:route><fr:title
+text="Multi-index">Multi-index</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. An <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-dimensional <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Multi-Index</html:dfn> is an <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> tuple
+<fr:tex
+display="block"><![CDATA[\alpha =(\alpha _{1},…,\alpha _{n})]]></fr:tex>
+where each component <fr:tex
+display="inline"><![CDATA[\alpha _{i}\in \mathbb {N}_{0}]]></fr:tex> is a non-negative integer.</fr:p><fr:p>We have the following operations defined:</fr:p><fr:ol><fr:li>Componentwise sum and difference: <fr:tex
+display="inline"><![CDATA[\alpha \pm \beta =(\alpha _{1}\pm \beta _{1},…,\alpha _{n}\pm \beta _{n})]]></fr:tex></fr:li>
+<fr:li>Sum of components <fr:tex
+display="inline"><![CDATA[|\alpha |=\alpha _{1}+…+\alpha _{n}]]></fr:tex></fr:li>
+<fr:li>Factorial <fr:tex
+display="inline"><![CDATA[\alpha !=\alpha _{1}!(…)!\alpha _{n}!]]></fr:tex></fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[x=(x_{1},…,x_{n})]]></fr:tex> is a tuple of unknowns (or knowns), then <fr:tex
+display="inline"><![CDATA[x^{\alpha }=x_{1}^{\alpha _{1}}(…)x_{n}^{\alpha _{n}}]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>698</fr:anchor><fr:addr
+type="user">ra-000N</fr:addr><fr:route>ra-000N.xml</fr:route><fr:title
+text="Degree of a formal polynomial">Degree of a formal polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x_{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[x_{m}]]></fr:tex> be formal variables. Let
+<fr:tex
+display="block"><![CDATA[p(x) = \sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha }]]></fr:tex>
+be a formal polynomial, i.e., <fr:tex
+display="inline"><![CDATA[p\in  R[x_{1},…,x_{m}]]]></fr:tex> with some <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> having <fr:tex
+display="inline"><![CDATA[|\alpha |=n]]></fr:tex> being such that <fr:tex
+display="inline"><![CDATA[a_{\alpha }\neq 0]]></fr:tex>. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Degree</html:dfn> of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> to be the non-negative integer <fr:tex
+display="inline"><![CDATA[\deg (p)]]></fr:tex> equal to <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>700</fr:anchor><fr:addr
+type="user">ra-000O</fr:addr><fr:route>ra-000O.xml</fr:route><fr:title
+text="Properties of degree of formal polynomials">Properties of degree of formal polynomials</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[p,q\in  R[x_{1},…,x_{n}]]]></fr:tex> be nonzero formal polynomials. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\deg (f(x)+g(x))\leq \max (\deg (f),\deg (g))]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\deg (fg)=\deg (f)+\deg (g)]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>702</fr:anchor><fr:addr
+type="user">ra-000P</fr:addr><fr:route>ra-000P.xml</fr:route><fr:title
+text="Ring of formal polynomials with coefficients in integral domain forms an integral domain">Ring of formal polynomials with coefficients in integral domain forms an integral domain</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal polynomial. Then the <fr:link
+type="local"
+href="ra-000L.xml"
+addr="ra-000L"
+title="Polynomial ring">Polynomial ring</fr:link> <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> is an integral domain.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>704</fr:anchor><fr:addr
+type="user">ra-000Q</fr:addr><fr:route>ra-000Q.xml</fr:route><fr:title
+text="Subring">Subring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/c0sp1.html#M1">c0sp1:def 3</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Subring</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a ring <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[S\subseteq  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[0\in  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[+_{R}|_{S}=+_{S}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\star _{R}|_{S}=\star _{S}]]></fr:tex>. In other words, every element of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is an element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>'s binary operators restricted to <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> coincide with <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>'s binary operators.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a unital ring and <fr:tex
+display="inline"><![CDATA[1\in  S]]></fr:tex>, then we say <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Unital Subring</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>706</fr:anchor><fr:addr
+type="user">ra-000R</fr:addr><fr:route>ra-000R.xml</fr:route><fr:title
+text="Common subrings">Common subrings</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[\mathbb {Z}\subseteq \mathbb {Q}\subseteq \mathbb {R}\subseteq \mathbb {C}\subseteq \mathbb {H}]]></fr:tex> are subrings.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>708</fr:anchor><fr:addr
+type="user">ra-000S</fr:addr><fr:route>ra-000S.xml</fr:route><fr:title
+text="Subrings of matrix ring">Subrings of matrix ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then some common subrings of <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> include:</fr:p><fr:ol><fr:li><fr:link
+type="local"
+href="matrix-0006.xml"
+addr="matrix-0006"
+title="Diagonal matrix">Diagonal matrices</fr:link> form a subring</fr:li>
+<fr:li><fr:link
+type="local"
+href="matrix-000B.xml"
+addr="matrix-000B"
+title="Upper-triangular matrix">Upper-triangular matrices</fr:link> form a subring</fr:li>
+<fr:li><fr:link
+type="local"
+href="matrix-000C.xml"
+addr="matrix-000C"
+title="Lower-triangular matrix">Lower-triangular matrices</fr:link> form a subring</fr:li></fr:ol><fr:p><fr:strong>Exercise:</fr:strong> Do the collection of <fr:link
+type="local"
+href="matrix-0027.xml"
+addr="matrix-0027"
+title="Orthogonal matrix">orthogonal matrices</fr:link> form a subring or not?</fr:p><fr:p><fr:strong>Exercise:</fr:strong> Do the collection of <fr:link
+type="local"
+href="matrix-0027.xml"
+addr="matrix-0027"
+title="Orthogonal matrix">unitary matrices</fr:link> form a subring of <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {C})]]></fr:tex> or not?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>710</fr:anchor><fr:addr
+type="user">ra-000T</fr:addr><fr:route>ra-000T.xml</fr:route><fr:title
+text="Ring morphism">Ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.3</fr:meta><fr:meta
+name="source">Artin <fr:link
+type="local"
+href="artin-2010-algebra.xml"
+addr="artin-2010-algebra"
+title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Section III.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>s. We define a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring Morphism</html:dfn> (or just a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Morphism</html:dfn> if unambiguous) to be a function <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> such that:</fr:p><fr:ol><fr:li>Additive: for any <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\varphi (x+y)=\varphi (x)+\varphi (y)]]></fr:tex></fr:li>
+<fr:li>Preserves zero: <fr:tex
+display="inline"><![CDATA[\varphi (0_{R})=0_{S}]]></fr:tex></fr:li>
+<fr:li>Multiplicative: for any <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\varphi (xy)=\varphi (x)\varphi (y)]]></fr:tex></fr:li>
+<fr:li>Preserves one (when between unital rings): <fr:tex
+display="inline"><![CDATA[\varphi (1_{R})=1_{S}]]></fr:tex> when there is a <fr:tex
+display="inline"><![CDATA[1_{R}\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[1_{S}\in  S]]></fr:tex></fr:li></fr:ol><fr:p><fr:strong>Exercise:</fr:strong> Do we really need <fr:tex
+display="inline"><![CDATA[\varphi (0)=0]]></fr:tex> or is this a consequence of additivity?</fr:p><fr:p><fr:strong>Exercise:</fr:strong> Do we really need <fr:tex
+display="inline"><![CDATA[\varphi (1_{R})=1_{S}]]></fr:tex> or is this a consequence of the multiplicative property?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>712</fr:anchor><fr:addr
+type="user">ra-000U</fr:addr><fr:route>ra-000U.xml</fr:route><fr:title
+text="Inclusion of factor into direct product">Inclusion of factor into direct product</fr:title><fr:taxon>Non-example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider <fr:tex
+display="inline"><![CDATA[i\colon \mathbb {Q}\hookrightarrow \mathbb {Q}\times \mathbb {Q}]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[i(x)=(x,0)]]></fr:tex>. We claim <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> is not a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>564</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[i(1)=(1,0)\neq (1,1)]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> cannot possibly be multiplicative.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>714</fr:anchor><fr:addr
+type="user">ra-000V</fr:addr><fr:route>ra-000V.xml</fr:route><fr:title
+text="Not all rings have morphisms between them">Not all rings have morphisms between them</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be prime. Then there is no ring morphism <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}_{p}\to \mathbb {Z}]]></fr:tex> from any <fr:link
+type="local"
+href="ra-000K.xml"
+addr="ra-000K"
+title="Integers modulo a prime form a field">finite field</fr:link> to the integers.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>558</fr:anchor><fr:addr
+type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume there were a ring morphism. Then <fr:tex
+display="inline"><![CDATA[\varphi (1+(p-1))=\varphi (1)+\varphi (p-1)]]></fr:tex> by additivity, but <fr:tex
+display="inline"><![CDATA[\varphi (1+(p-1))=\varphi (p)=\varphi (0)=0]]></fr:tex>, so we must have <fr:tex
+display="inline"><![CDATA[\varphi (1)+\varphi (p-1)=0]]></fr:tex> which then implies <fr:tex
+display="inline"><![CDATA[0=\varphi (1)+\varphi (p)-\varphi (1)=\varphi (p)]]></fr:tex>. But this means <fr:tex
+display="inline"><![CDATA[p=\varphi (\sum ^{p}_{i=1}1)=0]]></fr:tex> which is a contradiction.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>716</fr:anchor><fr:addr
+type="user">ra-000Y</fr:addr><fr:route>ra-000Y.xml</fr:route><fr:title
+text="Identity function is a ring morphism">Identity function is a ring morphism</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {id}}\nolimits _{R}\colon  R\to  R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>718</fr:anchor><fr:addr
+type="user">ra-000W</fr:addr><fr:route>ra-000W.xml</fr:route><fr:title
+text="Properties of ring morphisms">Properties of ring morphisms</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#T7">ring_2:7</fr:link></fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#T8">ring_2:8</fr:link></fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#T9">ring_2:9</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> be a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>. Then the following all hold:</fr:p><fr:ol><fr:li>For any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\varphi (-x)=-\varphi (x)]]></fr:tex></fr:li>
+<fr:li>For any <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\varphi (x-y)=\varphi (x)-\varphi (y)]]></fr:tex></fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital, then either <fr:tex
+display="inline"><![CDATA[\varphi (1)=1]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\varphi (1)=0]]></fr:tex>.</fr:li>
+<fr:li>For any ring <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> and <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link> <fr:tex
+display="inline"><![CDATA[\psi \colon  S\to  T]]></fr:tex>, we see <fr:tex
+display="inline"><![CDATA[\psi \circ \varphi \colon  R\to  T]]></fr:tex> is a ring morphism</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>720</fr:anchor><fr:addr
+type="user">ra-000Z</fr:addr><fr:route>ra-000Z.xml</fr:route><fr:title
+text="Left ideal of a ring">Left ideal of a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ideal_1.html#M1">ideal_1:def 1</fr:link></fr:meta><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.3</fr:meta><fr:meta
+name="source">Artin <fr:link
+type="local"
+href="artin-2010-algebra.xml"
+addr="artin-2010-algebra"
+title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Section III.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Left Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex
+display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that
+<fr:ol><fr:li>for any <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in  I]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[rx\in  I]]></fr:tex>; and</fr:li>
+<fr:li>for any <fr:tex
+display="inline"><![CDATA[x,y\in  I]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x+y\in  I]]></fr:tex>.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>552</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could speak of ideals in more general settings, e.g., rings without negation.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>722</fr:anchor><fr:addr
+type="user">ra-0010</fr:addr><fr:route>ra-0010.xml</fr:route><fr:title
+text="Right ideal of a ring">Right ideal of a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ideal_1.html#M2">ideal_1:def 2</fr:link></fr:meta><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.3</fr:meta><fr:meta
+name="source">Artin <fr:link
+type="local"
+href="artin-2010-algebra.xml"
+addr="artin-2010-algebra"
+title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Section III.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Right Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex
+display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that
+<fr:ol><fr:li>for any <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\in  I]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[xr\in  I]]></fr:tex>; and</fr:li>
+<fr:li>for any <fr:tex
+display="inline"><![CDATA[x,y\in  I]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x+y\in  I]]></fr:tex>.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>724</fr:anchor><fr:addr
+type="user">ra-0011</fr:addr><fr:route>ra-0011.xml</fr:route><fr:title
+text="Ideal">Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.3</fr:meta><fr:meta
+name="source">Artin <fr:link
+type="local"
+href="artin-2010-algebra.xml"
+addr="artin-2010-algebra"
+title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Section III.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Two-Sided) Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex
+display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000Z.xml"
+addr="ra-000Z"
+title="Left ideal of a ring">left ideal</fr:link> and a <fr:link
+type="local"
+href="ra-0010.xml"
+addr="ra-0010"
+title="Right ideal of a ring">right ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><fr:p>Furthermore, when <fr:tex
+display="inline"><![CDATA[I\neq  R]]></fr:tex> we say <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Proper (two-sided) ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><fr:p>Some authors use the notation <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq }R]]></fr:tex> to indicate <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is an ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, as well as <fr:tex
+display="inline"><![CDATA[I\mathrel {\triangleleft }R]]></fr:tex> for proper ideals, analogous to the notation used for <fr:link
+type="local"
+href="gr-002P.xml"
+addr="gr-002P"
+title="Normal subgroup">Normal subgroup</fr:link>s.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>546</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) For commutative rings, any left ideal is also a right ideal, and so we just speak of "ideals".</fr:p>
+<fr:p>(2) "Ideal" originally described "ideal elements" adjoined to a ring, which are not "real".</fr:p>
+<fr:p>(3) A two-sided ideal forms a <fr:link
+type="local"
+href="ra-000Q.xml"
+addr="ra-000Q"
+title="Subring">Subring</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, same for one-sided ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+<fr:p>(4) Traditionally, the historic notation used to indicate we're working with ideals was to use fraktur letters (<fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathfrak {c}]]></fr:tex>, and so on). This was a horrible decision. Modern conventions use <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>, and variants using apostrophes or indices.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>726</fr:anchor><fr:addr
+type="user">ra-001I</fr:addr><fr:route>ra-001I.xml</fr:route><fr:title
+text="Collection of ideals forms a set">Collection of ideals forms a set</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then the collection of left/right/two-sided ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> forms a set.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>480</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Look at the set
+<fr:tex
+display="block"><![CDATA[\mathcal {I}=\{I\in \mathcal {P}(R)\mid  I\hbox { is an ideal}\},]]></fr:tex>
+where "is an ideal" means the subset is a left/right/two-sided ideal (depending on what the reader wants). This is clearly a subset of <fr:tex
+display="inline"><![CDATA[\mathcal {P}(R)]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[\mathcal {I}]]></fr:tex> is the set sought.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>728</fr:anchor><fr:addr
+type="user">ra-0012</fr:addr><fr:route>ra-0012.xml</fr:route><fr:title
+text="Kernel of a ring morphism">Kernel of a ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> be a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Kernel</html:dfn> of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to be the (two-sided) <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link> <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> defined by: for all <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\in \ker (\varphi )]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\varphi (x)=0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>730</fr:anchor><fr:addr
+type="user">ra-0013</fr:addr><fr:route>ra-0013.xml</fr:route><fr:title
+text="Trivial ideal">Trivial ideal</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be any <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then <fr:tex
+display="inline"><![CDATA[\{0\}]]></fr:tex> gives us an <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Trivial Ideal</html:dfn>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>732</fr:anchor><fr:addr
+type="user">ra-0014</fr:addr><fr:route>ra-0014.xml</fr:route><fr:title
+text="Division rings have trivial left ideals">Division rings have trivial left ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0008.xml"
+addr="ra-0008"
+title="Division ring">Division ring</fr:link>. Then the only left ideals of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> are <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> itself and the <fr:link
+type="local"
+href="ra-0013.xml"
+addr="ra-0013"
+title="Trivial ideal">Trivial ideal</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>540</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> be a <fr:link
+type="local"
+href="ra-000Z.xml"
+addr="ra-000Z"
+title="Left ideal of a ring">left ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  I]]></fr:tex> be nonzero <fr:tex
+display="inline"><![CDATA[x\neq  0]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[x^{-1}\in  D]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x^{-1}x=1\in  I]]></fr:tex> and then all of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:addr
+type="user">ra-0015</fr:addr><fr:route>ra-0015.xml</fr:route><fr:title
+text="Quotient Ring">Quotient Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 7.3.6</fr:meta><fr:meta
+name="source">Artin <fr:link
+type="local"
+href="artin-2010-algebra.xml"
+addr="artin-2010-algebra"
+title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Theorem III.2.7</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_1.html#K2">ring_1:def 6</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link> and <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link
+type="external"
+href="ring-0011">ring-0011</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then the additive quotient group <fr:tex
+display="inline"><![CDATA[R/I]]></fr:tex> is a ring under the following binary operators
+<fr:tex
+display="block"><![CDATA[(r+I)+(s+I)=(r+s)+I]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[(r+I)(s+I)=(rs)+I]]></fr:tex>
+for all <fr:tex
+display="inline"><![CDATA[r,s\in  R]]></fr:tex>.</fr:p><fr:p>Furthermore,
+<fr:ol><fr:li>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is commutative, then <fr:tex
+display="inline"><![CDATA[R/I]]></fr:tex> is commutative.</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital, then <fr:tex
+display="inline"><![CDATA[R/I]]></fr:tex> is unital.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>534</fr:anchor><fr:addr
+type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To prove well-definedness, we should prove <fr:tex
+display="inline"><![CDATA[R/I]]></fr:tex> equipped with these operators form a ring (since existence and uniqueness follow from the quotient group). Specifically, that multiplication exists and satisfies the various axioms.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>736</fr:anchor><fr:addr
+type="user">ra-0016</fr:addr><fr:route>ra-0016.xml</fr:route><fr:title
+text="Canonical ring morphism">Canonical ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#K6">ring_2:def 7</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Canonical Morphism</html:dfn> <fr:tex
+display="inline"><![CDATA[\pi \colon  R\to  R/I]]></fr:tex> is defined by: for any <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\pi (a)=a+I]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>528</fr:anchor><fr:addr
+type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There is no standard notation for the canonical morphism, and I was debating between <fr:tex
+display="inline"><![CDATA[\gamma ]]></fr:tex> (Greek lowercase "c" for "canonical") and <fr:tex
+display="inline"><![CDATA[\pi ]]></fr:tex> since it's a sort of projection.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>738</fr:anchor><fr:addr
+type="user">ra-000X</fr:addr><fr:route>ra-000X.xml</fr:route><fr:title
+text="Ring Isomorphism">Ring Isomorphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>s. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring Isomorphism</html:dfn> from <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> such that there exists a ring morphism <fr:tex
+display="inline"><![CDATA[\psi \colon  S\to  R]]></fr:tex> satisfying <fr:tex
+display="inline"><![CDATA[\varphi \circ \psi =\mathop {\textrm {id}}\nolimits _{S}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\psi \circ \varphi =\mathop {\textrm {id}}\nolimits _{R}]]></fr:tex>.</fr:p><fr:p>We say rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">are isomorphic</html:dfn> (denoted <fr:tex
+display="inline"><![CDATA[R\cong  S]]></fr:tex>) if there exists a ring isomorphism <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:addr
+type="user">ra-0017</fr:addr><fr:route>ra-0017.xml</fr:route><fr:title
+text="Criterion for ring isomorphism">Criterion for ring isomorphism</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> be a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>. Then <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000X.xml"
+addr="ra-000X"
+title="Ring Isomorphism">Ring Isomorphism</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is <fr:link
+type="local"
+href="ela-001K.xml"
+addr="ela-001K"
+title="Bijective function">bijective</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:addr
+type="user">ra-0018</fr:addr><fr:route>ra-0018.xml</fr:route><fr:title
+text="First Isomorphism Theorem for Rings">First Isomorphism Theorem for Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#T15">ring_2:15</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> be a <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>. Then the following all holds:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\ker (\varphi )\mathrel {\trianglelefteq } R]]></fr:tex> is an <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Im}}\nolimits (\varphi )\cong  R/\ker (\varphi )]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Im}}\nolimits (\varphi )\subseteq  S]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000Q.xml"
+addr="ra-000Q"
+title="Subring">Subring</fr:link>.</fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>522</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
+href="ra-0016.xml"
+addr="ra-0016"
+title="Canonical ring morphism">Canonical ring morphism</fr:link> of <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is the <fr:link
+type="local"
+href="ra-000X.xml"
+addr="ra-000X"
+title="Ring Isomorphism">Ring Isomorphism</fr:link> being sought.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr
+type="user">ra-0019</fr:addr><fr:route>ra-0019.xml</fr:route><fr:title
+text="Second Isomorphism Theorem of Rings">Second Isomorphism Theorem of Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[A\subseteq  R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-000Q.xml"
+addr="ra-000Q"
+title="Subring">Subring</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[A\cap  I\mathrel {\trianglelefteq } A]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[A+I\subseteq  R]]></fr:tex> is a subring</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[A/(A\cap  I)\cong (A+I)/I]]></fr:tex> with the isomorphism defined by <fr:tex
+display="inline"><![CDATA[a\mapsto  a+I]]></fr:tex></fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>516</fr:anchor><fr:addr
+type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Only the first two results needs to be proven.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:addr
+type="user">ra-001A</fr:addr><fr:route>ra-001A.xml</fr:route><fr:title
+text="Third Isomorphism Theorem of Rings">Third Isomorphism Theorem of Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[I,J\mathrel {\trianglelefteq } R]]></fr:tex> be <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">Ideal</fr:link>s of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[J / I\mathrel {\trianglelefteq } R / I]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\frac {R / I}{J / I}\cong  R / J.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:addr
+type="user">ra-001B</fr:addr><fr:route>ra-001B.xml</fr:route><fr:title
+text="Principal Ideal">Principal Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then:</fr:p><fr:ol><fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Left Principal Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the ideal <fr:tex
+display="inline"><![CDATA[Ra=\{xa\in  R\mid  x\in  R\}]]></fr:tex> for some fixed <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Right Principal Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the ideal <fr:tex
+display="inline"><![CDATA[aR=\{ay\in  R\mid  y\in  R\}]]></fr:tex> for some fixed <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Left Principal Ideal</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the ideal <fr:tex
+display="inline"><![CDATA[RaR=\{xay\in  R\mid  x,y\in  R\}]]></fr:tex> for some fixed <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex>.</fr:li></fr:ol><fr:p>When <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, all three notions coincide and we write <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> for the principal ideal generated by <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>750</fr:anchor><fr:addr
+type="user">ra-001C</fr:addr><fr:route>ra-001C.xml</fr:route><fr:title
+text="Maximal ideal">Maximal ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>.</fr:p><fr:ol><fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Right Ideal</html:dfn> is a proper <fr:link
+type="local"
+href="ra-0010.xml"
+addr="ra-0010"
+title="Right ideal of a ring">right ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other right ideal <fr:tex
+display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Left Ideal</html:dfn> is a proper <fr:link
+type="local"
+href="ra-000Z.xml"
+addr="ra-000Z"
+title="Left ideal of a ring">left ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other left ideal <fr:tex
+display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal (Two-Sided) Ideal</html:dfn> is a proper <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\mathrel {\triangleleft } R]]></fr:tex> such that for any other ideal <fr:tex
+display="inline"><![CDATA[J\mathrel {\trianglelefteq } R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li></fr:ol><fr:p>When we drop the condition that <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is proper, then we have a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Quasi-Maximal</html:dfn> left/right/two-sided ideal.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For commutative rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, all three notions coincide.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:addr
+type="user">ra-001E</fr:addr><fr:route>ra-001E.xml</fr:route><fr:title
+text="Ideal is maximal iff quotient ring is field">Ideal is maximal iff quotient ring is field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 7.4.12</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> be an ideal. Then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">Maximal ideal</fr:link> if and only if the <fr:link
+type="local"
+href="ra-0015.xml"
+addr="ra-0015"
+title="Quotient Ring">Quotient Ring</fr:link> <fr:tex
+display="inline"><![CDATA[R/M]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>754</fr:anchor><fr:addr
+type="user">ra-001D</fr:addr><fr:route>ra-001D.xml</fr:route><fr:title
+text="Prime Ideal">Prime Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. An <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">ideal</fr:link> <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq } R]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Quasi-Prime</html:dfn> if for any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[ab\in  P]]></fr:tex>, then either <fr:tex
+display="inline"><![CDATA[a\in  P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[b\in  P]]></fr:tex>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[P\mathrel {\triangleleft } R]]></fr:tex> is a proper quasi-prime ideal, then we say it is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Prime Ideal</html:dfn>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>504</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This notion does not generalize to noncommutative rings. If we tried "naively" looking for ideals of <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{2}(\mathbb {C})]]></fr:tex> which are prime, then we will not find any. It remains an open problem how to define prime ideals for noncommutative rings.</fr:p>
+<fr:p>(2) Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Exercise 9(b) in Section III.2 asks the reader to prove: if <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is a division ring and <fr:tex
+display="inline"><![CDATA[R=\mathop {\mathrm {Mat}}\nolimits _{n}(D)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> has zero divisors and so the trivial ideal <fr:tex
+display="inline"><![CDATA[(0)]]></fr:tex> is prime, which means <fr:tex
+display="inline"><![CDATA[R\cong  R/(0)]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is not an integral domain. This is because <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is not a commutative ring. (See? Things get really weird when trying to think about prime ideals in a noncommutative ring.)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:addr
+type="user">ra-001F</fr:addr><fr:route>ra-001F.xml</fr:route><fr:title
+text="Ideal is prime iff quotient ring is integral domain">Ideal is prime iff quotient ring is integral domain</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 7.4.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[P\mathrel {\triangleleft } R]]></fr:tex> be an ideal. Then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is <fr:link
+type="local"
+href="ra-001D.xml"
+addr="ra-001D"
+title="Prime Ideal">Prime Ideal</fr:link> if and only if the <fr:link
+type="local"
+href="ra-0015.xml"
+addr="ra-0015"
+title="Quotient Ring">Quotient Ring</fr:link> <fr:tex
+display="inline"><![CDATA[R/P]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>758</fr:anchor><fr:addr
+type="user">ra-001G</fr:addr><fr:route>ra-001G.xml</fr:route><fr:title
+text="Maximal ideals of a commutative ring are prime">Maximal ideals of a commutative ring are prime</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. If <fr:tex
+display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">Maximal ideal</fr:link>, then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is <fr:link
+type="local"
+href="ra-001D.xml"
+addr="ra-001D"
+title="Prime Ideal">prime</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>498</fr:anchor><fr:addr
+type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is maximal. Then <fr:tex
+display="inline"><![CDATA[R/M]]></fr:tex> is a field (since <fr:link
+type="local"
+href="ra-001E.xml"
+addr="ra-001E"
+title="Ideal is maximal iff quotient ring is field">Ideal is maximal iff quotient ring is field</fr:link>). Then <fr:tex
+display="inline"><![CDATA[R/M]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>. Then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is prime by <fr:link
+type="local"
+href="ra-001F.xml"
+addr="ra-001F"
+title="Ideal is prime iff quotient ring is integral domain">Ideal is prime iff quotient ring is integral domain</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>760</fr:anchor><fr:addr
+type="user">ra-001H</fr:addr><fr:route>ra-001H.xml</fr:route><fr:title
+text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Krull's <fr:link
+type="local"
+href="krull-1929-idealtheorie.xml"
+addr="krull-1929-idealtheorie"
+title="Idealtheorie in Ringen ohne Endlichkeitsbedingung">Idealtheorie in Ringen ohne Endlichkeitsbedingung</fr:link> (1929)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R\neq 0]]></fr:tex> be a nonzero unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then there exists a <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">maximal ideal</fr:link> <fr:tex
+display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>486</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
+type="local"
+href="ra-0013.xml"
+addr="ra-0013"
+title="Trivial ideal">Trivial ideal</fr:link>). Then Zorn's lemma implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>488</fr:anchor><fr:addr
+type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
+<fr:p>(2) The condition that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
+display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
+<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
+type="external"
+href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>762</fr:anchor><fr:addr
+type="user">ra-001J</fr:addr><fr:route>ra-001J.xml</fr:route><fr:title
+text="Ideal generated by a set">Ideal generated by a set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link> with <fr:tex
+display="inline"><![CDATA[1\neq 0]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[A\subseteq  R]]></fr:tex> be any subset of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ideal Generated by <fr:tex
+display="inline"><![CDATA[A]]></fr:tex></html:dfn> is the ideal <fr:tex
+display="inline"><![CDATA[\langle  A\rangle ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> equal to
+<fr:tex
+display="block"><![CDATA[\langle  A\rangle  = \bigcap _{A\subseteq  I\mathrel {\trianglelefteq } R}I.]]></fr:tex>
+This is the smallest ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[A=\{a_{1},…,a_{n}\}]]></fr:tex> is a finite set, then we just write <fr:tex
+display="inline"><![CDATA[\langle  a_{1},…,a_{n}\rangle ]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[(a_{1},…,a_{n})]]></fr:tex> for the ideal generated by <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.</fr:p><fr:p><fr:strong>Exercise:</fr:strong> What is <fr:tex
+display="inline"><![CDATA[\langle \emptyset \rangle ]]></fr:tex> the ideal generated by the empty set?</fr:p><fr:p><fr:strong>Exercise:</fr:strong> If we allow <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> to be a nonunital ring, then is the ideal generated by a set still well-defined?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>764</fr:anchor><fr:addr
+type="user">ra-001K</fr:addr><fr:route>ra-001K.xml</fr:route><fr:title
+text="Fields only have trivial ideals">Fields only have trivial ideals</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 7.4.9(2)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> if and only if its only ideals are <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>474</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field iff every nonzero element is a unit (by <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">definition of a field</fr:link>).</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field, then every nonzero ideal contains a unit, which means that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the only nonzero ideal.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose the only ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the trivial ideal and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> itself. Let <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> be any nonzero element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(u)=R]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[1\in (u)]]></fr:tex>. Hence there must be some <fr:tex
+display="inline"><![CDATA[v\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[1=vu]]></fr:tex> (i.e., <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link>). Therefore every nonzero element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a unit, hence <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> must be a field.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>766</fr:anchor><fr:addr
+type="user">ra-001L</fr:addr><fr:route>ra-001L.xml</fr:route><fr:title
+text="Field morphisms are injective nonzero ring morphisms">Field morphisms are injective nonzero ring morphisms</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Corollary 7.4.10</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, then any nonzero <fr:link
+type="local"
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link> from <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> into another ring must be an <fr:link
+type="local"
+href="ela-001J.xml"
+addr="ela-001J"
+title="Injective function">Injective function</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>468</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
+href="ra-0012.xml"
+addr="ra-0012"
+title="Kernel of a ring morphism">Kernel of a ring morphism</fr:link> is an ideal. The kernel of a nonzero morphism is a proper ideal, hence must be 0 by <fr:link
+type="local"
+href="ra-001L.xml"
+addr="ra-001L"
+title="Field morphisms are injective nonzero ring morphisms">Field morphisms are injective nonzero ring morphisms</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>768</fr:anchor><fr:addr
+type="user">ra-001M</fr:addr><fr:route>ra-001M.xml</fr:route><fr:title
+text="Principal Ideal Domain">Principal Ideal Domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>An <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is called a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Principal Ideal Domain</html:dfn> if every ideal is <fr:link
+type="local"
+href="ra-001B.xml"
+addr="ra-001B"
+title="Principal Ideal">principal</fr:link> (i.e., generated by a single element).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>770</fr:anchor><fr:addr
+type="user">ra-001N</fr:addr><fr:route>ra-001N.xml</fr:route><fr:title
+text="Euclidean Domain">Euclidean Domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 8.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>An <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is said to be a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Euclidean Domain</html:dfn> if there is a norm <fr:tex
+display="inline"><![CDATA[N\colon  R\to \mathbb {N}_{0}]]></fr:tex> such that for any two elements <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[b\neq 0]]></fr:tex>, there exists elements [the quotient] <fr:tex
+display="inline"><![CDATA[q\in  R]]></fr:tex> and [the remainder] <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[a=qb+r]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[r=0\quad \hbox {or}\quad  N(r)<N(b).]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>772</fr:anchor><fr:addr
+type="user">ra-001O</fr:addr><fr:route>ra-001O.xml</fr:route><fr:title
+text="Integers are a Euclidean Domain">Integers are a Euclidean Domain</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The integers form a Euclidean domain when given the absolute value as its norm <fr:tex
+display="inline"><![CDATA[N(x)=|x|]]></fr:tex>. This is because of the <fr:link
+type="local"
+href="nt-0002.xml"
+addr="nt-0002"
+title="Division algorithm">Division algorithm</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>774</fr:anchor><fr:addr
+type="user">ra-001P</fr:addr><fr:route>ra-001P.xml</fr:route><fr:title
+text="Euclidean Domains are Principal Ideal Domains">Euclidean Domains are Principal Ideal Domains</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 8.1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Every ideal in a <fr:link
+type="local"
+href="ra-001N.xml"
+addr="ra-001N"
+title="Euclidean Domain">Euclidean Domain</fr:link> is <fr:link
+type="local"
+href="ra-001B.xml"
+addr="ra-001B"
+title="Principal Ideal">principal</fr:link>: if <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is any Euclidean domain and <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[0\neq  I]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[I=(d)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> is any nonzero element of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> of minimum norm.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>776</fr:anchor><fr:addr
+type="user">ra-001Q</fr:addr><fr:route>ra-001Q.xml</fr:route><fr:title
+text="Divisor">Divisor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[b\neq 0]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Multiple</html:dfn> of <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> if there exists some <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a=bx]]></fr:tex>. In this case, we say <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">divides</html:dfn> <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> (or <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">is a divisor of</html:dfn> <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>) and we write <fr:tex
+display="inline"><![CDATA[b\mathrel {\bigm |} a]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>778</fr:anchor><fr:addr
+type="user">ra-001R</fr:addr><fr:route>ra-001R.xml</fr:route><fr:title
+text="Greatest Common Divisor">Greatest Common Divisor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[b\neq 0]]></fr:tex>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Greatest Common Divisor</html:dfn> of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is a nonzero element <fr:tex
+display="inline"><![CDATA[d\in  R]]></fr:tex> such that:
+<fr:ol><fr:li>It's a common <fr:link
+type="local"
+href="ra-001Q.xml"
+addr="ra-001Q"
+title="Divisor">divisor</fr:link>: <fr:tex
+display="inline"><![CDATA[d\mathrel {\bigm |} a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[d\mathrel {\bigm |} b]]></fr:tex>, and</fr:li>
+<fr:li>It's greatest: for any <fr:tex
+display="inline"><![CDATA[d'\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[d'\mathrel {\bigm |} a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[d'\mathrel {\bigm |} b]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[d'\mathrel {\bigm |} d]]></fr:tex>.</fr:li></fr:ol>
+A greatest common divisor of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is denoted by <fr:tex
+display="inline"><![CDATA[\gcd (a,b)]]></fr:tex> or (abusing notation) by <fr:tex
+display="inline"><![CDATA[(a,b)]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>462</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This isn't necessarily unique, we may have multiple distinct greatest common divisors of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>. When it is unique, we call the ring a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">GCD Domain</html:dfn> (and it turns out to be an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>).</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>780</fr:anchor><fr:addr
+type="user">ra-001S</fr:addr><fr:route>ra-001S.xml</fr:route><fr:title
+text="Existence and Uniqueness of GCD in Euclidean Domains">Existence and Uniqueness of GCD in Euclidean Domains</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001N.xml"
+addr="ra-001N"
+title="Euclidean Domain">Euclidean Domain</fr:link>. Then for any nonzero <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>,
+<fr:ol><fr:li>There exists a unique <fr:tex
+display="inline"><![CDATA[d\in  R]]></fr:tex> (up to unit multiple) such that <fr:tex
+display="inline"><![CDATA[d=\gcd (a,b)]]></fr:tex>; and</fr:li>
+<fr:li>there exists <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\gcd (a,b)=ax+by]]></fr:tex>.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>456</fr:anchor><fr:addr
+type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows by performing Euclid's algorithm; i.e., we repeatedly apply the division algorithm to find <fr:tex
+display="inline"><![CDATA[b=q_{1}a+r_{1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[a=q_{2}r_{1}+r_{2}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[r_{1}=q_{3}r_{2}+r_{3}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[r_{n+1}=q_{n+3}r_{n+2}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[r_{n+2}=\gcd (a,b)]]></fr:tex> since:</fr:p>
+<fr:p>(1) <fr:tex
+display="inline"><![CDATA[(r_{n+2})\subseteq (a,b)]]></fr:tex></fr:p>
+<fr:p>(2) <fr:tex
+display="inline"><![CDATA[(a,b)\subseteq (r_{n+2})]]></fr:tex></fr:p>
+<fr:p>Hence by (1) and (2) and since <fr:link
+type="local"
+href="ra-001P.xml"
+addr="ra-001P"
+title="Euclidean Domains are Principal Ideal Domains">Euclidean Domains are Principal Ideal Domains</fr:link>, we have <fr:tex
+display="inline"><![CDATA[(r_{n+2})=(a,b)]]></fr:tex> which implies the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>782</fr:anchor><fr:addr
+type="user">ra-001T</fr:addr><fr:route>ra-001T.xml</fr:route><fr:title
+text="Prime element">Prime element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex> be a nonzero element which is not a <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link>. We say <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Prime</html:dfn> if whenever <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>784</fr:anchor><fr:addr
+type="user">ra-001V</fr:addr><fr:route>ra-001V.xml</fr:route><fr:title
+text="Element is prime iff it generates a nonzero prime ideal">Element is prime iff it generates a nonzero prime ideal</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">Prime element</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is a nonzero <fr:link
+type="local"
+href="ra-001D.xml"
+addr="ra-001D"
+title="Prime Ideal">Prime Ideal</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>450</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">Prime element</fr:link>. Then for any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[\begin {align*}ab\in (p) &\iff  \exists  r\in  R\ldotp  ab=pr\\ &\iff  p\mathrel {\bigm |} ab \hbox { iff }p\mathrel {\bigm |} a\hbox { or }p\mathrel {\bigm |} b\\ &\iff  a\in (p)\hbox { or }b\in (p)\\ &\iff  (p) \hbox { is a prime ideal}\end {align*}]]></fr:tex></fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[P=(p)]]></fr:tex> be a nonzero prime ideal. For any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[ab\in  P]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[a\in  P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[b\in  P]]></fr:tex> by definition of prime ideals. So we have <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a prime element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>786</fr:anchor><fr:addr
+type="user">ra-001U</fr:addr><fr:route>ra-001U.xml</fr:route><fr:title
+text="Irreducible element">Irreducible element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex> be a nonzero element which is not a <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link>. We say <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Irreducible</html:dfn> if whenever <fr:tex
+display="inline"><![CDATA[d\mathrel {\bigm |} p]]></fr:tex>, then we have either <fr:tex
+display="inline"><![CDATA[d=pu]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[d=u]]></fr:tex> for some <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link> <fr:tex
+display="inline"><![CDATA[u\in  R]]></fr:tex>.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is not irreducible, we say it is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Reducible</html:dfn>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1602</fr:anchor><fr:addr
+type="user">ra-000T</fr:addr><fr:route>ra-000T.xml</fr:route><fr:title
+text="Ring morphism">Ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.3</fr:meta><fr:meta
+name="source">Artin <fr:link
+type="local"
+href="artin-2010-algebra.xml"
+addr="artin-2010-algebra"
+title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Section III.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>s. We define a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring Morphism</html:dfn> (or just a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Morphism</html:dfn> if unambiguous) to be a function <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> such that:</fr:p><fr:ol><fr:li>Additive: for any <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\varphi (x+y)=\varphi (x)+\varphi (y)]]></fr:tex></fr:li>
+<fr:li>Preserves zero: <fr:tex
+display="inline"><![CDATA[\varphi (0_{R})=0_{S}]]></fr:tex></fr:li>
+<fr:li>Multiplicative: for any <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\varphi (xy)=\varphi (x)\varphi (y)]]></fr:tex></fr:li>
+<fr:li>Preserves one (when between unital rings): <fr:tex
+display="inline"><![CDATA[\varphi (1_{R})=1_{S}]]></fr:tex> when there is a <fr:tex
+display="inline"><![CDATA[1_{R}\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[1_{S}\in  S]]></fr:tex></fr:li></fr:ol><fr:p><fr:strong>Exercise:</fr:strong> Do we really need <fr:tex
+display="inline"><![CDATA[\varphi (0)=0]]></fr:tex> or is this a consequence of additivity?</fr:p><fr:p><fr:strong>Exercise:</fr:strong> Do we really need <fr:tex
+display="inline"><![CDATA[\varphi (1_{R})=1_{S}]]></fr:tex> or is this a consequence of the multiplicative property?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

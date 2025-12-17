@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3930</fr:anchor><fr:addr
+type="user">nst-002J</fr:addr><fr:route>nst-002J.xml</fr:route><fr:title
+text="Proof by contradiction">Proof by contradiction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When trying to prove the claim <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, it is useful to use the fact that its double negation "Not (not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>)" is logically equivalent to <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, and then use the fact  that "Not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>" is logically equivalent to "If <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> then contradiction". Taken together, <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is logically equivalent to "If not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, then contradiction." This is a proof by contradiction.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is an implication "If <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>", a proof by contradiction looks like "If <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> and not <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, then contradiction".</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3932</fr:anchor><fr:addr
+type="user">nst-002H</fr:addr><fr:route>nst-002H.xml</fr:route><fr:title
+text="Proof strategies">Proof strategies</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>There are various common "strategies" for proving various claims in Mathematics. We will review the basic strategies here.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3616</fr:anchor><fr:addr
+type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
+text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When trying to prove a claim of the form "If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>", a direct proof has the following skeleton:</fr:p>
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml">Assume <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>. [Intermediate proof steps] Thus <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>.</html:blockquote>
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3618</fr:anchor><fr:addr
+type="user">nst-002I</fr:addr><fr:route>nst-002I.xml</fr:route><fr:title
+text="Proof by contrapositive">Proof by contrapositive</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can take advantage of the fact that "If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>" has the same truth table as "If not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>, then not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>". This "Not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> implies not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>" is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Contrapositive</html:dfn> of "<fr:tex
+display="inline"><![CDATA[P]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>". Usually we embark on a <fr:link
+type="local"
+href="nst-002G.xml"
+addr="nst-002G"
+title="Direct proof">Direct proof</fr:link> and so the proof looks like:</fr:p>
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml">Assume not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>. [Intermediate proof steps.] Hence not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</html:blockquote>
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3620</fr:anchor><fr:addr
+type="user">nst-002J</fr:addr><fr:route>nst-002J.xml</fr:route><fr:title
+text="Proof by contradiction">Proof by contradiction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When trying to prove the claim <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, it is useful to use the fact that its double negation "Not (not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>)" is logically equivalent to <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, and then use the fact  that "Not <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>" is logically equivalent to "If <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> then contradiction". Taken together, <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is logically equivalent to "If not <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, then contradiction." This is a proof by contradiction.</fr:p><fr:p>When <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is an implication "If <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>", a proof by contradiction looks like "If <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> and not <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, then contradiction".</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3622</fr:anchor><fr:addr
+type="user">nst-002K</fr:addr><fr:route>nst-002K.xml</fr:route><fr:title
+text="Proof by induction">Proof by induction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If we have a claim which is a formula indexed by natural numbers <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex>, then a proof by induction on <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> looks like:</fr:p><fr:ol><fr:li><fr:strong>Base case:</fr:strong> For <fr:tex
+display="inline"><![CDATA[n=0]]></fr:tex> (or <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>), prove <fr:tex
+display="inline"><![CDATA[P[0]]]></fr:tex> (resp., <fr:tex
+display="inline"><![CDATA[P[1]]]></fr:tex>).</fr:li>
+<fr:li><fr:strong>Inductive argument:</fr:strong> For arbitrary <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, prove the claim "If <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[P[n+1]]]></fr:tex>". Usually this is done by a <fr:link
+type="local"
+href="nst-002G.xml"
+addr="nst-002G"
+title="Direct proof">Direct proof</fr:link> and we call the statement "Assume <fr:tex
+display="inline"><![CDATA[P[n]]]></fr:tex>" the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Inductive Hypothesis</html:dfn>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3934</fr:anchor><fr:addr
+type="user">gt-001A</fr:addr><fr:route>gt-001A.xml</fr:route><fr:title
+text="Banach contraction principle">Banach contraction principle</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-001F.xml"
+addr="ca-001F"
+title="Complete Metric Space">Complete Metric Space</fr:link>, and <fr:tex
+display="inline"><![CDATA[f\colon  X\to  X]]></fr:tex> be a <fr:link
+type="local"
+href="gt-0019.xml"
+addr="gt-0019"
+title="Contraction">Contraction</fr:link>. Then <fr:tex
+display="inline"><![CDATA[f\colon  X\to  X]]></fr:tex> admits a unique <fr:link
+type="local"
+href="gt-0018.xml"
+addr="gt-0018"
+title="Fixed point">Fixed point</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3936</fr:anchor><fr:addr
+type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There are two claims being made here: (1) there exists a fixed-point of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, and (2) the fixed-point is unique.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3938</fr:anchor><fr:addr
+type="machine">#303</fr:addr><fr:route>unstable-303.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[0<c<1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[c]]></fr:tex>-Lipschitz. Let <fr:tex
+display="inline"><![CDATA[x_{0}\in  X]]></fr:tex> be any arbitrary point. We define inductively <fr:tex
+display="inline"><![CDATA[x_{n+1}=f(x_{n})]]></fr:tex> for all non-negative integers <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}_{0}]]></fr:tex>. This sequence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> is well-defined.</fr:p>
+<fr:p><fr:strong>Claim 1: Existence of fixed-point.</fr:strong> First we see <fr:tex
+display="inline"><![CDATA[d(x_{2},x_{1})=d(f(x_{1}),f(x_{0}))\leq  c\cdot  d(x_{1},x_{0})]]></fr:tex>.</fr:p>
+<fr:p>Now, we look at:
+<fr:tex
+display="block"><![CDATA[\begin {align} d(x_{k+1},x_{k}) & \leq  d(f(x_{k}),f(x_{k-1}))\\ &\leq  cd(x_{k},x_{k-1})\\ &\leq  c^{k}d(x_{1},x_{0})\hbox { by induction}\\ &\leq  c^{k}d(f(x_{0}),x_{0})\end {align}]]></fr:tex>
+For any non-negative integers <fr:tex
+display="inline"><![CDATA[m,n\in \mathbb {N}_{0}]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[m>n]]></fr:tex> we have (using the triangle inequality),
+<fr:tex
+display="block"><![CDATA[\begin {align} d(x_{m},x_{n}) & \leq  d(x_{n},x_{n+1}) + d(x_{n+1},x_{n+2}) + … + d(x_{m-1},x_{m})\\ &\leq  (c^{n}+c^{n+1}+…+c^{m-1})d(f(x_{0}),x_{0})\\ &\leq  c^{n}\left (\frac {1-c^{m-n}}{1-c}\right )d(f(x_{0}),x_{0})\\ &\leq \frac {c^{n}}{1-c}d(f(x_{0}),x_{0}) \end {align}]]></fr:tex>
+since <fr:tex
+display="inline"><![CDATA[0\leq  c<1]]></fr:tex>, the numerator is bounded by <fr:tex
+display="inline"><![CDATA[1-c^{m-n}\leq  1]]></fr:tex> which is how we get the last line. Now, taking <fr:tex
+display="inline"><![CDATA[n\to \infty ]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[c^{n}\to 0]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[d(x_{n},x_{m})\to 0]]></fr:tex>. This proves the sequence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> is <fr:link
+type="local"
+href="ca-001D.xml"
+addr="ca-001D"
+title="Cauchy sequence">Cauchy</fr:link>. But by hypothesis, <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> is <fr:link
+type="local"
+href="ca-001F.xml"
+addr="ca-001F"
+title="Complete Metric Space">complete</fr:link>, so <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> converges in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let us call its limit <fr:tex
+display="inline"><![CDATA[x_{*}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[x\to  x_{*}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+<fr:p>We want to prove <fr:tex
+display="inline"><![CDATA[x_{*}]]></fr:tex> is a fixed point. Since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001Q.xml"
+addr="ca-001Q"
+title="Lipschitz function">Lipschitz</fr:link>, it is continuous. So
+<fr:tex
+display="block"><![CDATA[f(x_{*})=\lim _{n\to \infty }f(x_{n})=\lim _{n\to \infty }x_{n+1}=x_{*},]]></fr:tex>
+hence <fr:tex
+display="inline"><![CDATA[x_{*}]]></fr:tex> is a fixed-point. This establishes the existence of a fixed-point.</fr:p>
+<fr:p><fr:strong>Claim 2: Uniqueness of fixed-point.</fr:strong> <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction we have two fixed-points <fr:tex
+display="inline"><![CDATA[u=f(u)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v=f(v)]]></fr:tex>. Then the distance
+<fr:tex
+display="block"><![CDATA[\begin {align} d(u,v) & = d(f(u),f(v)) \hbox { by being fixed-points}\\ &\leq  c\cdot  d(u,v)\hbox { by Lipschitz.}\end {align}]]></fr:tex>
+If <fr:tex
+display="inline"><![CDATA[u\neq  v]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[0<d(u,v)\leq  c d(u,v)\implies  1\leq  c]]></fr:tex>
+but <fr:tex
+display="inline"><![CDATA[0\leq  c<1]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is a contraction. This is a contradiction. Hence we must conclude <fr:tex
+display="inline"><![CDATA[u=v]]></fr:tex>.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3940</fr:anchor><fr:addr
+type="machine">#304</fr:addr><fr:route>unstable-304.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Also observe that the initial point <fr:tex
+display="inline"><![CDATA[x_{0}\in  X]]></fr:tex> was chosen arbitrarily, so the proof gave us an algorithm for finding the fixed-point <fr:em>and</fr:em> a bound on the error from using <fr:tex
+display="inline"><![CDATA[x_{n}]]></fr:tex> as an approximation for the fixed-point <fr:tex
+display="inline"><![CDATA[x_{*}=f(x_{*})]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3942</fr:anchor><fr:addr
+type="user">ca-0023</fr:addr><fr:route>ca-0023.xml</fr:route><fr:title
+text="Characterization of compactness for metric spaces">Characterization of compactness for metric spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. The following are equivalent:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="ca-001F.xml"
+addr="ca-001F"
+title="Complete Metric Space">complete</fr:link> and <fr:link
+type="local"
+href="ca-001Z.xml"
+addr="ca-001Z"
+title="Totally bounded subset of a metric space">totally bounded</fr:link></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="ca-001T.xml"
+addr="ca-001T"
+title="Compact subset of a metric space">compact</fr:link></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="ca-0022.xml"
+addr="ca-0022"
+title="Sequentially compact subset">Sequentially compact subset</fr:link></fr:li></fr:ol><fr:p>We will prove <fr:tex
+display="inline"><![CDATA[(1)\implies (2)\implies (3)\implies (1)]]></fr:tex>. We will provide these as separate proofs.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3944</fr:anchor><fr:addr
+type="machine">#384</fr:addr><fr:route>unstable-384.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(1)\implies (2)]]></fr:tex> <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is not compact. Then consider an open cover <fr:tex
+display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> such that it has no finite subcover. We will repeatedly use the following construction:</fr:p>
+<fr:p>(i) Since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is totally bounded, we can consider a finite collection of open balls of radius <fr:tex
+display="inline"><![CDATA[r<1 / 2]]></fr:tex> which cover <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Then at least one of these open balls <fr:tex
+display="inline"><![CDATA[B_{1}]]></fr:tex> that can not be covered by finitely many <fr:tex
+display="inline"><![CDATA[U_{\alpha }]]></fr:tex>. We call its closure <fr:tex
+display="inline"><![CDATA[A_{1}=\overline {B_{1}}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[A_{1}]]></fr:tex> is closed and <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {diam}}\nolimits (A_{1})\leq  1]]></fr:tex>.</fr:p>
+<fr:p>Using totally boundedness again, repeating (i) but with balls of radius <fr:tex
+display="inline"><![CDATA[r < 1 / 4]]></fr:tex>, we find another open ball <fr:tex
+display="inline"><![CDATA[B_{2}]]></fr:tex> whose intersection with <fr:tex
+display="inline"><![CDATA[A_{1}]]></fr:tex> cannot be covered by finitely many <fr:tex
+display="inline"><![CDATA[U_{\alpha }]]></fr:tex>. We call the closure of this open ball intersected with <fr:tex
+display="inline"><![CDATA[A_{1}]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[A_{2} := \overline {A_{1}\cap  B_{2}}.]]></fr:tex>
+We have <fr:tex
+display="inline"><![CDATA[B_{2}\cap  A_{1}]]></fr:tex> cannot be covered by finitely many <fr:tex
+display="inline"><![CDATA[U_{\alpha }]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[A_{2}]]></fr:tex> is closed and <fr:tex
+display="inline"><![CDATA[A_{2}\subseteq  A_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {diam}}\nolimits (A_{2}) < 1 / 2]]></fr:tex>.</fr:p>
+<fr:p>We repeat this process inductively and obtain a <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">Continuous function between metric spaces</fr:link> of nonempty closed subsets <fr:tex
+display="inline"><![CDATA[(A_{n})]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {diam}}\nolimits (A_{n})\leq  2^{-n}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[A_{n+1}\subseteq  A_{n}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="ca-001F.xml"
+addr="ca-001F"
+title="Complete Metric Space">complete</fr:link>, we can use <fr:link
+type="local"
+href="ca-001K.xml"
+addr="ca-001K"
+title="Cantor intersection theorem">Cantor intersection theorem</fr:link>. (Each <fr:tex
+display="inline"><![CDATA[A_{n}]]></fr:tex> cannot be covered by finitely many <fr:tex
+display="inline"><![CDATA[U_{\alpha }]]></fr:tex>.) There exists a point <fr:tex
+display="inline"><![CDATA[x_{0}\in  X]]></fr:tex> which is the unique intersection point
+<fr:tex
+display="block"><![CDATA[\{x_{0}\} = \bigcap ^{\infty }_{n=1}A_{n}]]></fr:tex>
+There exists a particular <fr:tex
+display="inline"><![CDATA[U_{\alpha _{0}}]]></fr:tex> in our open cover containing <fr:tex
+display="inline"><![CDATA[x_{0}\in  U_{\alpha _{0}}]]></fr:tex>. (There may be several, we only need the fact there exists at least one.) Since <fr:tex
+display="inline"><![CDATA[U_{\alpha _{0}}]]></fr:tex> is <fr:link
+type="local"
+href="ca-0019.xml"
+addr="ca-0019"
+title="Open subsets of metric subspaces">open</fr:link>, there exists an <fr:tex
+display="inline"><![CDATA[r_{0}>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{r_{0}}(x_{0})\subseteq  U_{\alpha _{0}}]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {diam}}\nolimits (A_{n})\to 0]]></fr:tex> so there exists some index <fr:tex
+display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[n\geq  N]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[A_{n}\subseteq  B_{r_{0}}(x_{0})\subseteq  U_{\alpha _{0}}]]></fr:tex>
+This is a contradiction, because we specifically chose these <fr:tex
+display="inline"><![CDATA[A_{n}]]></fr:tex> to be impossible to cover with finitely many <fr:tex
+display="inline"><![CDATA[U_{\alpha }]]></fr:tex> (and we just covered them with a single one). Hence the contradiction. Hence <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is compact.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3946</fr:anchor><fr:addr
+type="machine">#385</fr:addr><fr:route>unstable-385.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(2)\implies (3)]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="ca-001T.xml"
+addr="ca-001T"
+title="Compact subset of a metric space">compact</fr:link>. Let <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> be a sequence in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. We want to show <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> has a convergent <fr:link
+type="local"
+href="ca-0020.xml"
+addr="ca-0020"
+title="Subsequence">Subsequence</fr:link> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Define the set
+<fr:tex
+display="block"><![CDATA[E = \{x_{n}\in  X\mid  n\in \mathbb {N}\}]]></fr:tex>
+to be the set of terms appearing in the sequence. Then either <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is a finite set or not.</fr:p>
+
+<fr:p><fr:strong>Case 1:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is a finite set. Then we can use the pidgeonhole principle: there exists an <fr:tex
+display="inline"><![CDATA[x\in  E]]></fr:tex> repeated infinitely many times, and a sequence <fr:tex
+display="inline"><![CDATA[(n_{k})]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n_{1} < n_{2} < …]]></fr:tex> of positive integers such that the subsequence <fr:tex
+display="inline"><![CDATA[(x_{n_{k}})]]></fr:tex> is identically <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[x_{n}\to  x]]></fr:tex> converges.</fr:p>
+
+<fr:p><fr:strong>Case 2:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is an infinite set. There are infinitely many distinct terms in <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex>. <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. We assume for contradiction that no point in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a <fr:link
+type="local"
+href="ca-000O.xml"
+addr="ca-000O"
+title="Limit Point">Limit Point</fr:link> of <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. Then for each <fr:tex
+display="inline"><![CDATA[z\in  X]]></fr:tex>, there is a <fr:link
+type="local"
+href="ca-000N.xml"
+addr="ca-000N"
+title="Neighborhood">Neighborhood</fr:link> <fr:tex
+display="inline"><![CDATA[U_{z}\ni  z]]></fr:tex> which intersects <fr:tex
+display="inline"><![CDATA[E\cap  U_{z}=\{z\}]]></fr:tex> at most trivially. Then <fr:tex
+display="inline"><![CDATA[\{U_{z}\}_{z\in  X}]]></fr:tex> is an <fr:link
+type="local"
+href="ca-001S.xml"
+addr="ca-001S"
+title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. This contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is compact. So we reject the assumption that <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> has no limit point. Let us call that limit point <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. Then we can choose the smallest index <fr:tex
+display="inline"><![CDATA[n_{1}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x_{n_{1}}\in  B_{1}(x)]]></fr:tex>. We can choose <fr:tex
+display="inline"><![CDATA[n_{k}]]></fr:tex> to be the smallest index such that <fr:tex
+display="inline"><![CDATA[n_{k}>n_{k-1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x_{n_{k}}\in  B_{1 / k}(x)]]></fr:tex>. Then we have constructed a subsequence <fr:tex
+display="inline"><![CDATA[(x_{n_{k}})\to  x]]></fr:tex>. This proves the claim.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3948</fr:anchor><fr:addr
+type="machine">#386</fr:addr><fr:route>unstable-386.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(3)\implies (1)]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="ca-0022.xml"
+addr="ca-0022"
+title="Sequentially compact subset">sequentially compact</fr:link>. <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is not <fr:link
+type="local"
+href="ca-001Z.xml"
+addr="ca-001Z"
+title="Totally bounded subset of a metric space">totally bounded</fr:link>. Then there exists some <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex> such that we cannot cover <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with finitely many <fr:link
+type="local"
+href="ca-000L.xml"
+addr="ca-000L"
+title="Open Ball">open balls</fr:link> of radius <fr:tex
+display="inline"><![CDATA[\varepsilon ]]></fr:tex>.</fr:p>
+<fr:p>We select a point <fr:tex
+display="inline"><![CDATA[x_{1}\in  X]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> cannot be covered by <fr:tex
+display="inline"><![CDATA[B_{\varepsilon }(x_{1})]]></fr:tex>. Then consider <fr:tex
+display="inline"><![CDATA[x_{2}\in  X]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[d(x_{1},x_{2})\geq  2\varepsilon ]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[B_{\varepsilon }(x_{1})\cap  B_{\varepsilon }(x_{2})=\emptyset ]]></fr:tex> are disjoint, and <fr:tex
+display="inline"><![CDATA[B_{\varepsilon }(x_{1})\cup  B_{\varepsilon }(x_{2})]]></fr:tex> does not cover <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+<fr:p>Inductively, we select <fr:tex
+display="inline"><![CDATA[x_{3}\in  X]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {diam}}\nolimits (x_{3},x_{i})\geq 2\varepsilon ]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i=1,2]]></fr:tex>, so we can continue in this manner to get <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> a sequence with no convergent subsequence (because any two terms are at least <fr:tex
+display="inline"><![CDATA[\varepsilon ]]></fr:tex> apart). This means <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is not sequentially compact. This is a contradiction. Hence <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is totally bounded.</fr:p>
+<fr:p>But we are not finished, we need to prove <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="ca-001F.xml"
+addr="ca-001F"
+title="Complete Metric Space">complete</fr:link>. Let <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> be an arbitrary <fr:link
+type="local"
+href="ca-001D.xml"
+addr="ca-001D"
+title="Cauchy sequence">Cauchy sequence</fr:link>. Then <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> has a convergent <fr:link
+type="local"
+href="ca-0020.xml"
+addr="ca-0020"
+title="Subsequence">Subsequence</fr:link> <fr:tex
+display="inline"><![CDATA[(x_{n_{k}})\to  x]]></fr:tex> by <fr:link
+type="local"
+href="ca-0022.xml"
+addr="ca-0022"
+title="Sequentially compact subset">sequential compactness</fr:link>. Then <fr:tex
+display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> since it is a Cauchy sequence (and the triangle inequality).</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3950</fr:anchor><fr:addr
+type="user">gt-000V</fr:addr><fr:route>gt-000V.xml</fr:route><fr:title
+text="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> be <fr:link
+type="local"
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
+type="local"
+href="gt-000P.xml"
+addr="gt-000P"
+title="Continuous Function">Continuous Function</fr:link>. If <fr:tex
+display="inline"><![CDATA[E\subseteq  X]]></fr:tex> is a <fr:link
+type="local"
+href="gt-000U.xml"
+addr="gt-000U"
+title="Connected Subset">Connected Subset</fr:link>, then <fr:tex
+display="inline"><![CDATA[f(E)\subseteq  Y]]></fr:tex> is a connected subset.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3952</fr:anchor><fr:addr
+type="machine">#313</fr:addr><fr:route>unstable-313.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
+display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
+type="local"
+href="gt-000S.xml"
+addr="gt-000S"
+title="Separated space">separate</fr:link> <fr:tex
+display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3954</fr:anchor><fr:addr
+type="user">ca-0025</fr:addr><fr:route>ca-0025.xml</fr:route><fr:title
+text="Heine-Cantor theorem">Heine-Cantor theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Gunning's <fr:link
+type="local"
+href="gunning-2017-introduction.xml"
+addr="gunning-2017-introduction"
+title="An Introduction to Analysis">An Introduction to Analysis</fr:link> Theorem 3.18</fr:meta><fr:meta
+name="source">Royden and Fitzpatrick's <fr:link
+type="local"
+href="royden-2010-real.xml"
+addr="royden-2010-real"
+title="Real Analysis">Real Analysis</fr:link>, Ch. 9 Proposition 23</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>s. Assume that <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> is <fr:link
+type="local"
+href="ca-001T.xml"
+addr="ca-001T"
+title="Compact subset of a metric space">compact</fr:link>. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous function</fr:link>. Then <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001P.xml"
+addr="ca-001P"
+title="Uniformly Continuous function">uniformly continuous</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3956</fr:anchor><fr:addr
+type="machine">#382</fr:addr><fr:route>unstable-382.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is not uniformly continuous. Then there exists an <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex> such that for every <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> and for every <fr:tex
+display="inline"><![CDATA[a,b\in  X]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[d(a,b)<\delta \quad \hbox {and}\quad \rho (f(a),f(b))\geq \varepsilon .]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> is compact, it is <fr:link
+type="local"
+href="ca-0022.xml"
+addr="ca-0022"
+title="Sequentially compact subset">sequentially compact</fr:link> by <fr:link
+type="local"
+href="ca-0023.xml"
+addr="ca-0023"
+title="Characterization of compactness for metric spaces">Characterization of compactness for metric spaces</fr:link>. Then for each <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, there exists <fr:tex
+display="inline"><![CDATA[x_{n}\in  X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y_{n}\in  X]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[d(x_{n},y_{n})<\frac {1}{n}\quad \hbox {and}\quad \rho (f(x_{n}),f(y_{n}))\geq \varepsilon .]]></fr:tex>
+But by <fr:link
+type="local"
+href="ca-0022.xml"
+addr="ca-0022"
+title="Sequentially compact subset">sequential compactness</fr:link> there exists an <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> and a subsequence <fr:tex
+display="inline"><![CDATA[(x_{n_{k}})]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x_{n_{k}}\to  x]]></fr:tex> converges. Then using the triangle inequality, we have
+<fr:tex
+display="block"><![CDATA[\begin {align} d(y_{n_{k}},x) & \leq  d(y_{n_{k}},x_{n_{k}}) + d(x_{n_{k}},x)\\ &\leq \frac {1}{n_{k}}  + d(x_{n_{k}},x), \end {align}]]></fr:tex>
+which goes to zero for sufficiently large <fr:tex
+display="inline"><![CDATA[n_{k}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(y_{n_{k}})\to  x]]></fr:tex>. Then by continuity of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, their images (using the triangle inequality):
+<fr:tex
+display="block"><![CDATA[\rho (f(x_{n_{k}}), f(y_{n_{k}}))\leq \rho (f(x_{n_{k}}), f(x)) + \rho (f(x), f(y_{n_{k}})),]]></fr:tex>
+which goes to zero by continuity. But this contradicts <fr:tex
+display="inline"><![CDATA[\rho (f(x_{n_{k}}),f(x))\geq \varepsilon ]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> must be uniformly continuous.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3958</fr:anchor><fr:addr
+type="user">gt-0011</fr:addr><fr:route>gt-0011.xml</fr:route><fr:title
+text="Sequences in Hausdorff space converge to at most one value">Sequences in Hausdorff space converge to at most one value</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Munkres <fr:link
+type="local"
+href="munkres-2000-topology.xml"
+addr="munkres-2000-topology"
+title="Topology">Topology</fr:link> Theorem 17.10</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/frechet_2.html#T24">frechet_2:24</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+type="local"
+href="gt-000Y.xml"
+addr="gt-000Y"
+title="Hausdorff space">Hausdorff space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> be a convergent sequence in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Then there exists a unique <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x_{n}\to  x]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3960</fr:anchor><fr:addr
+type="machine">#306</fr:addr><fr:route>unstable-306.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction that <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> converges to two distinct points <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\in  X]]></fr:tex>. Then by <fr:link
+type="local"
+href="gt-000Y.xml"
+addr="gt-000Y"
+title="Hausdorff space">Hausdorff property</fr:link>, there are disjoint open neighborhoods <fr:tex
+display="inline"><![CDATA[U_{x}\ni  x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[U_{y}\ni  y]]></fr:tex>. By definition of <fr:link
+type="local"
+href="gt-000O.xml"
+addr="gt-000O"
+title="Convergence of sequence in a topological space">Convergence of sequence in a topological space</fr:link>, there are two positive integers <fr:tex
+display="inline"><![CDATA[N_{x}\in \mathbb {N}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[N_{y}\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[n\geq  N_{x}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{n}\in  U_{x}]]></fr:tex> and for all <fr:tex
+display="inline"><![CDATA[n\geq  N_{y}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{n}\in  U_{y}]]></fr:tex>. Setting <fr:tex
+display="inline"><![CDATA[N=\max (N_{x},N_{y})]]></fr:tex>, then for all <fr:tex
+display="inline"><![CDATA[n\geq  N]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x_{n}\in  U_{x}\cap  U_{y}]]></fr:tex> which is disjoint. Hence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> cannot converge to more than one point in a Hausdorff space.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3962</fr:anchor><fr:addr
+type="user">ca-0014</fr:addr><fr:route>ca-0014.xml</fr:route><fr:title
+text="A set is open iff its complement is closed">A set is open iff its complement is closed</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[E\subseteq  X]]></fr:tex> be a subset. Then <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is <fr:link
+type="local"
+href="ca-000M.xml"
+addr="ca-000M"
+title="Open Set">open</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex> is <fr:link
+type="local"
+href="ca-000P.xml"
+addr="ca-000P"
+title="Closed Subset">closed</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3964</fr:anchor><fr:addr
+type="machine">#402</fr:addr><fr:route>unstable-402.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex>  Assume <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000O.xml"
+addr="ca-000O"
+title="Limit Point">Limit Point</fr:link> of <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex>. <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[x\in  E]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is open, there is a <fr:link
+type="local"
+href="ca-000N.xml"
+addr="ca-000N"
+title="Neighborhood">Neighborhood</fr:link> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> contained in <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> and thus disjoint from <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex>. This implies <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is not a <fr:link
+type="local"
+href="ca-000O.xml"
+addr="ca-000O"
+title="Limit Point">Limit Point</fr:link>, which is a contradiction. Then <fr:tex
+display="inline"><![CDATA[x\notin  E]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[x\in  X\setminus  E]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex> is closed.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex> is closed. For any <fr:tex
+display="inline"><![CDATA[x\in  E]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is not a <fr:link
+type="local"
+href="ca-000O.xml"
+addr="ca-000O"
+title="Limit Point">Limit Point</fr:link> of <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex>. Then there exists a <fr:link
+type="local"
+href="ca-000N.xml"
+addr="ca-000N"
+title="Neighborhood">Neighborhood</fr:link> <fr:tex
+display="inline"><![CDATA[N_{x}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> which does not intersect <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[N_{x}]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. Therefore <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is <fr:link
+type="local"
+href="ca-000M.xml"
+addr="ca-000M"
+title="Open Set">open</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3966</fr:anchor><fr:addr
+type="user">ca-001M</fr:addr><fr:route>ca-001M.xml</fr:route><fr:title
+text="A function is continuous iff it maps convergent sequences to convergent sequences">A function is continuous iff it maps convergent sequences to convergent sequences</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function. Then <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is continuous at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> if and only if for every sequence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[f(x_{n})\to  f(x)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3968</fr:anchor><fr:addr
+type="machine">#394</fr:addr><fr:route>unstable-394.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is continuous at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> be a sequence in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> that converges to <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex>, we can choose a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that if <fr:tex
+display="inline"><![CDATA[d(x,a)<\delta ]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[\rho (f(x),f(a))<\varepsilon ]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> converges, there is an index <fr:tex
+display="inline"><![CDATA[N]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[n\geq  N]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[d(x,x_{n})<\delta ]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\rho (f(x),f(x_{n}))<\varepsilon ]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[n\geq  N]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[f(x_{n})\to  f(x)]]></fr:tex>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume for any sequence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[x_{n}\to  x]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f(x_{n})\to  f(x)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is not continuous at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>. That is, there is some <fr:tex
+display="inline"><![CDATA[\varepsilon _{0}>0]]></fr:tex> such that for every <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex>, there exists an <fr:tex
+display="inline"><![CDATA[a\in  B_{\delta }(x)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\rho (f(x),f(a))\geq \varepsilon _{0}]]></fr:tex>. In particular, for each <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, there exists a point <fr:tex
+display="inline"><![CDATA[x_{n}\in  B_{1/n}(x)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\rho (f(x),f(x_{n}))\geq \varepsilon _{0}]]></fr:tex>. This defines a sequence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> that converges to <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> but whose image sequence <fr:tex
+display="inline"><![CDATA[(f(x_{n}))]]></fr:tex> does not covnerge to <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. This contradicts our assumption, hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3970</fr:anchor><fr:addr
+type="user">nst-002C</fr:addr><fr:route>nst-002C.xml</fr:route><fr:title
+text="There is no set of all ordinals">There is no set of all ordinals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/card_1.html#T25">card_1:25</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There is no set <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> such that for all ordinals <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[A\in  X]]></fr:tex>. In other words, there is no set of all ordinal numbers.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3972</fr:anchor><fr:addr
+type="machine">#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a set such that for all ordinals <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[A\in  X]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="nst-0021.xml"
+addr="nst-0021"
+title="Transitive set">Transitive set</fr:link> and <fr:link
+type="local"
+href="nst-0022.xml"
+addr="nst-0022"
+title="Connected set">Connected set</fr:link>, which implies <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an <fr:link
+type="local"
+href="nst-0023.xml"
+addr="nst-0023"
+title="Ordinal number">Ordinal number</fr:link>. Then <fr:tex
+display="inline"><![CDATA[X\in  X]]></fr:tex>, which is impossible.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3974</fr:anchor><fr:addr
+type="machine">#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"The collection of all ordinal numbers" is another example of a <fr:link
+type="local"
+href="nst-001P.xml"
+addr="nst-001P"
+title="Classes">proper class</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3976</fr:anchor><fr:addr
+type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
+text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define <fr:em>the</fr:em> empty set to be the constant denoted <fr:tex
+display="inline"><![CDATA[\emptyset ]]></fr:tex> (or sometimes <fr:tex
+display="inline"><![CDATA[\{\}]]></fr:tex>).</fr:p><fr:p>We need to prove this is well-defined. For constants, this means proving it exists and is unique.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3864</fr:anchor><fr:addr
+type="machine">#300</fr:addr><fr:route>unstable-300.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
+display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
+
+<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
+display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
+
+<fr:p>(1) <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+type="local"
+href="nst-0004.xml"
+addr="nst-0004"
+title="Set equality">empty</fr:link>, so <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
+display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
+
+<fr:p>(2) The argument is the same but switching <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

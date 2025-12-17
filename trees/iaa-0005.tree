@@ -1,0 +1,14 @@
+\title{Traditional way of teaching abstract algebra}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+
+\p{The traditional way we teach undergraduates is by introducing several types of gadgets in abstract algebra in the following order:}
+\ol{
+\li{Initially, there's some discussion of set theory sufficient for developing algebra. This is "time honored tradition" starting with van der Waerden's book.}
+\li{When the structure-preserving transformations leave something invariant (e.g., [[vectsp-001P]]s in linear algebra), composing such transformations also leaves the thing invariant. This is the guiding intuition of what a "symmetry" is, and the "collection of symmetries" is precisely what a "group" is (originally, they were a "group of symmetries" or a \emph{symmetry group}).}
+\li{\p{(a) But we also saw how, e.g., square matrices have a neat [algebraic structure](ela-000B) with matrix addition and matrix multiplication. They act like a "number system". This is precisely what is studied with number ring (or just a [[ring-0001]]). A sufficiently nice ring is a [[field-0001]].}
+\p{(b) We can generalize linear algebra to describe "vector spaces over arbitrary rings", and these are modules.}}
+\li{Galois theory is offered as the pinnacle of abstract algebra, connecting group theory to field theory. Honestly, I never understood the excitement behind Galois theory, since the beautiful parts of it are just the representation theory of groups (describing how "the same symmetries appearing in different situations").}
+}
+\p{This is just the first 7 chapters of van der Waerden's [[van-der-waerden-1949-modern1]]. Most textbooks have followed this manner of presentation: Dummit and Foote's [[dummit-2004-abstract]] covers this material in the first 14 chapters; Hungerford's [[hungerford-1974-algebra]] does this in the first 6 chapters.}

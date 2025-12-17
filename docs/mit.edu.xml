@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>15536</fr:anchor><fr:addr
+type="user">mit.edu</fr:addr><fr:route>mit.edu.xml</fr:route><fr:title
+text="Massachusetts Institute of Technology">Massachusetts Institute of Technology</fr:title><fr:taxon>Institution</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>15537</fr:anchor><fr:addr
+type="user">michael-artin</fr:addr><fr:route>michael-artin.xml</fr:route><fr:title
+text="Michael Artin">Michael Artin</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+name="position">Professor Emeritus of Mathematics</fr:meta><fr:meta
+name="institution"><fr:link
+type="local"
+href="mit.edu.xml"
+addr="mit.edu"
+title="Massachusetts Institute of Technology">Massachusetts Institute of Technology</fr:link></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

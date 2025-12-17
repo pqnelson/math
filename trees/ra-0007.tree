@@ -1,0 +1,10 @@
+\title{Multiplication by Zero is Zero in a ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+
+\p{Let #{R} be a (possibly non-unital) [[ring-0001]]. For any #{x\in R}, we see #{0\star x=0} and #{x\star 0=0}.}
+
+\proof{\p{We see from #{0+0=0} that #{(0+0)\star x=0\star x}. But distributivity rewrites the left-hand side as #{(0\star x)+(0\star x)=0\star x}, then subtracting #{0\star x} from both sides gives us #{0\star x=0} as desired.}
+\p{Similarly, from #{0+0=0} we see #{x\star(0+0)=x\star 0}. Distributivity allows us to rewrite the left-hand side again as #{(x\star0)+(x\star0)=x\star0} and then subtracting #{x\star0} from both sides gives us #{x\star0=0} as desired.}}

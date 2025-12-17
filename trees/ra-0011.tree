@@ -1,0 +1,20 @@
+\title{Ideal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 7.3}
+\meta{source}{Artin [[artin-2010-algebra]] Section 11.3}
+\meta{source}{Hungerford [[hungerford-1974-algebra]] Section III.2}
+
+\p{Let #{R} be a [[ring-0001]]. A \define{(Two-Sided) Ideal} of #{R} is a nonempty subset #{I\subset R} such that #{I} is a [left ideal](ra-000Z) and a [right ideal](ra-0010) of #{R}.}
+
+\p{Furthermore, when #{I\neq R} we say #{I} is a \define{Proper (two-sided) ideal} of #{R}.}
+
+\p{Some authors use the notation #{I\mathrel{\trianglelefteq}R} to indicate #{I} is an ideal of #{R}, as well as #{I\mathrel{\triangleleft}R} for proper ideals, analogous to the notation used for [[gr-002P]]s.}
+
+\rmk{\p{(1) For commutative rings, any left ideal is also a right ideal, and so we just speak of "ideals".}
+\p{(2) "Ideal" originally described "ideal elements" adjoined to a ring, which are not "real".}
+\p{(3) A two-sided ideal forms a [[ra-000Q]] of #{R}, same for one-sided ideals of #{R}.}
+\p{(4) Traditionally, the historic notation used to indicate we're working with ideals was to use fraktur letters (#{\mathfrak{a}}, #{\mathfrak{b}}, #{\mathfrak{c}}, and so on). This was a horrible decision. Modern conventions use #{I}, #{J}, and variants using apostrophes or indices.}}

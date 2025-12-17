@@ -1,0 +1,12 @@
+\title{Action of a group on another group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Sections 1.7 and 2.2}
+
+\p{Let #{G} and #{K} be [[gr-000G]]s. An \define{(Left) Action} of #{G} on #{K} is an uncurried form of the group morphism #{\rho\colon G\to\Aut(K)}; i.e., it's a morphism #{\alpha\colon G\times K\to K} such that #{\alpha(g,k)=\rho(g)(k)}.}
+\p{Usually we write #{g\cdot k} instead of #{\alpha(g,k)} for the left action of #{G} on #{K}, where #{g\in G} and #{k\in K}.}
+
+\rmk{\p{(1) This may be viewed as a special case of a [[gr-004Y]].}
+\p{(2) The #{\rho\colon G\to\Aut(K)} group morphism is called a \define{Representation} of #{G} on the group #{K}.}}

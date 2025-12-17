@@ -1,0 +1,9 @@
+\title{Not all rings have morphisms between them}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{example}
+
+\p{Let #{p\in\NN} be prime. Then there is no ring morphism #{\varphi\colon\FF_{p}\to\ZZ} from any [finite field](ra-000K) to the integers.}
+
+\proof{\p{Assume there were a ring morphism. Then #{\varphi(1+(p-1))=\varphi(1)+\varphi(p-1)} by additivity, but #{\varphi(1+(p-1))=\varphi(p)=\varphi(0)=0}, so we must have #{\varphi(1)+\varphi(p-1)=0} which then implies #{0=\varphi(1)+\varphi(p)-\varphi(1)=\varphi(p)}. But this means #{p=\varphi(\sum^{p}_{i=1}1)=0} which is a contradiction.}}

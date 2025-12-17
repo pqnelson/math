@@ -7,16 +7,35 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1727</fr:anchor><fr:addr
-type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>446</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"The collection of all ordinal numbers" is another example of a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a <fr:link
 type="local"
-href="nst-001P.xml"
-addr="nst-001P"
-title="Classes">proper class</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">Prime element</fr:link>. Then for any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[\begin {align*}ab\in (p) &\iff  \exists  r\in  R\ldotp  ab=pr\\ &\iff  p\mathrel {\bigm |} ab \hbox { iff }p\mathrel {\bigm |} a\hbox { or }p\mathrel {\bigm |} b\\ &\iff  a\in (p)\hbox { or }b\in (p)\\ &\iff  (p) \hbox { is a prime ideal}\end {align*}]]></fr:tex></fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[P=(p)]]></fr:tex> be a nonzero prime ideal. For any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[ab\in  P]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[a\in  P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[b\in  P]]></fr:tex> by definition of prime ideals. So we have <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a prime element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,19 +50,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1729</fr:anchor><fr:addr
-type="user">nst-002C</fr:addr><fr:route>nst-002C.xml</fr:route><fr:title
-text="There is no set of all ordinals">There is no set of all ordinals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>448</fr:anchor><fr:addr
+type="user">ra-001V</fr:addr><fr:route>ra-001V.xml</fr:route><fr:title
+text="Element is prime iff it generates a nonzero prime ideal">Element is prime iff it generates a nonzero prime ideal</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/card_1.html#T25">card_1:25</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There is no set <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> such that for all ordinals <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[A\in  X]]></fr:tex>. In other words, there is no set of all ordinal numbers.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">Prime element</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is a nonzero <fr:link
+type="local"
+href="ra-001D.xml"
+addr="ra-001D"
+title="Prime Ideal">Prime Ideal</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -53,52 +82,34 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1629</fr:anchor><fr:addr
-type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>450</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume for contradiction that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a set such that for all ordinals <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[A\in  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a <fr:link
 type="local"
-href="nst-0021.xml"
-addr="nst-0021"
-title="Transitive set">Transitive set</fr:link> and <fr:link
-type="local"
-href="nst-0022.xml"
-addr="nst-0022"
-title="Connected set">Connected set</fr:link>, which implies <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is an <fr:link
-type="local"
-href="nst-0023.xml"
-addr="nst-0023"
-title="Ordinal number">Ordinal number</fr:link>. Then <fr:tex
-display="inline"><![CDATA[X\in  X]]></fr:tex>, which is impossible.</fr:p><html:span
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">Prime element</fr:link>. Then for any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[\begin {align*}ab\in (p) &\iff  \exists  r\in  R\ldotp  ab=pr\\ &\iff  p\mathrel {\bigm |} ab \hbox { iff }p\mathrel {\bigm |} a\hbox { or }p\mathrel {\bigm |} b\\ &\iff  a\in (p)\hbox { or }b\in (p)\\ &\iff  (p) \hbox { is a prime ideal}\end {align*}]]></fr:tex></fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[P=(p)]]></fr:tex> be a nonzero prime ideal. For any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[ab\in  P]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[a\in  P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[b\in  P]]></fr:tex> by definition of prime ideals. So we have <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a prime element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1631</fr:anchor><fr:addr
-type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"The collection of all ordinal numbers" is another example of a <fr:link
-type="local"
-href="nst-001P.xml"
-addr="nst-001P"
-title="Classes">proper class</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

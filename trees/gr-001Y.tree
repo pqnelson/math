@@ -1,0 +1,8 @@
+\title{Conjugation of subset by a subset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_3}{def 3}{K3}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A\subset G} and #{B\subset G} be subsets of #{G}. We define #{A^{B}=\{a^{b}\in G\mid a\in A,b\in B\}} to be the \define{Conjugate} of #{A} by #{B}.}

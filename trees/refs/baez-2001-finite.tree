@@ -1,0 +1,17 @@
+\title{From Finite Sets to Feynman Diagrams}
+\author{john-c-baez}
+\author{james-dolan}
+\taxon{reference}
+\date{2001}
+
+\meta{external}{https://arxiv.org/abs/math/0004133}
+
+\meta{bibtex}{\startverb
+@incollection{baez2001finite,
+  title={From finite sets to Feynman diagrams},
+  author={Baez, John C and Dolan, James},
+  booktitle={Mathematics unlimited---2001 and beyond},
+  pages={29--50},
+  year={2001},
+  publisher={Springer}
+}\stopverb}

@@ -1,0 +1,17 @@
+\title{Ring elements are either units or some kind of zero divisor}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{proposition}
+
+\p{Let #{R} be a unital \emph{associative} [[ring-0001]], let #{x\in R} be any arbitrary element of #{R}. Then either #{x} is a [[ra-000I]] or #{x} is a [[ra-000E]].}
+
+\proof{\p{If #{x} is a left zero divisor, then there is a #{y\in R} such that #{xy=0}. But if #{x} were also a unit, then
+##{\begin{align*}0&=x^{-1}0\\
+&=x^{-1}(xy)\\
+&=(x^{-1}x)y\\
+&=1y=y\end{align*}}
+which contradicts the condition that #{y\neq0} in the definition of a zero divisor.}
+\p{The situation for #{x} being a right zero divisor is similar.}}
+
+\rmk{It is important to stress that the ring must be associative. The [[sedonion-0001]] are a nonassociative unital ring where nonzero elements have a multiplicative inverse \emph{and} there are also zero divisors.}

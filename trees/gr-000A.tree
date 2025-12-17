@@ -1,0 +1,13 @@
+\title{Commutator of matrices has no identity element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\import{ela}
+\taxon{example}
+
+\p{The [[matrix-0029]] of matrices over a [[field-0001]] #{\FF} (or a suitable [ring](ring-0001)). It turns out, the commutator has no identity element. If it had one, say #{\mat{E}}, then for any matrix #{\mat{A}} we would have
+##{[\mat{E},\mat{A}]=\mat{A}}
+and by anticommutativity of the commutator
+##{[\mat{A},\mat{E}]=-\mat{A}.}
+But then we find the [[matrix-002A]] fails to hold:
+##{[\mat{E},[\mat{B},\mat{C}]] + [\mat{B}, [\mat{C}, \mat{E}]] + [\mat{C}, [\mat{E}, \mat{B}]] = [\mat{C},\mat{B}]\neq0.}}

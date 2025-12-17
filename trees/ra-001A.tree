@@ -1,0 +1,10 @@
+\title{Third Isomorphism Theorem of Rings}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{I,J\ideal R} be [[ra-0011]]s of #{R}. If #{I\subset J}, then
+##{J / I\ideal R / I}
+and
+##{\frac{R / I}{J / I}\iso R / J.}}

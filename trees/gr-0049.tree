@@ -1,0 +1,16 @@
+\title{Morphism of extensions of groups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s. Let #{\widehat{G}_{1}} and #{\widehat{G}_{2}} be [extensions](gr-0048) of #{G} by #{H}. A \define{Morphism of Extensions} is a morphism #{\varphi\colon\widehat{G}_{1}\to\widehat{G}_{2}} such that
+##{\begin{array}{ccccccccc}
+\mathbf{1} & \to & H & \to & \widehat{G}_{1} & \to & G & \to & \mathbf{1}\\
+           &     & \parallel & & \downarrow^{\varphi} & & \parallel & & \\
+\mathbf{1} & \to & H & \to & \widehat{G}_{2} & \to & G & \to & \mathbf{1}
+\end{array}}
+commutes.}
+
+\p{If further #{\varphi} is an isomorphism, then this describes an isomorphism of group extensions.}
+

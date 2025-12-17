@@ -1,0 +1,9 @@
+\title{Degree of a formal polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{R} be a nonempty [[ra-0003]]. Let #{x_{1}}, \dots, #{x_{m}} be formal variables. Let
+##{p(x) = \sum^{n}_{|\alpha|=0}a_{\alpha}x^{\alpha}}
+be a formal polynomial, i.e., #{p\in R[x_{1},\dots,x_{m}]} with some #{\alpha} having #{|\alpha|=n} being such that #{a_{\alpha}\neq0}. Then we define the \define{Degree} of #{p} to be the non-negative integer #{\deg(p)} equal to #{n}.}

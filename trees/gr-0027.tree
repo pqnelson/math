@@ -1,0 +1,9 @@
+\title{Conjugate of power is power of conjugate}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\MML{group_3}{28}{T28}
+\import{iaa-0001}
+\taxon{proposition}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{a,b\in G} be elements of #{G}. Let #{n\in\ZZ} be an integer. Then #{(a^{n})^{b}=(a^{b})^{n}}.}

@@ -1,0 +1,14 @@
+\title{Subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\MML{group_2}{def 5}{M1}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 2.1}
+
+\p{Let #{G} be a [[gr-000G]]. A \define{Subgroup} of #{G} is a group #{H} such that its underlying set of elements is a subset of the set of elements of #{G}, and the binary operator of #{H} is the same as the binary operator of #{G} restricted to #{H}.}
+
+\p{When #{H} is a subgroup of #{G}, we write #{H\subgroup G}.}
+
+\p{When #{H\neq G}, we say #{H} is a \define{Proper Subgroup} of #{G} and write #{H\propersubgroup G}.}

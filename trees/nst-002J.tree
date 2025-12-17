@@ -1,0 +1,7 @@
+\title{Proof by contradiction}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+
+\p{When trying to prove the claim #{P}, it is useful to use the fact that its double negation "Not (not #{P})" is logically equivalent to #{P}, and then use the fact  that "Not #{Q}" is logically equivalent to "If #{Q} then contradiction". Taken together, #{P} is logically equivalent to "If not #{P}, then contradiction." This is a proof by contradiction.}
+\p{When #{P} is an implication "If #{H} then #{R}", a proof by contradiction looks like "If #{H} and not #{R}, then contradiction".}

@@ -1,0 +1,9 @@
+\title{Lattice of subgroups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+
+\MML{group_4}{def 12}{K11}
+
+\p{Let #{G} be a [[gr-000G]]. Then the \define{Lattice of Subgroups} of #{G} consists of all possible [[gr-001B]]s of #{G}, whose join is given by #{H\vee K=\langle HK\rangle} the [subgroup generated](gr-001I) by the [Frobenius product](gr-001M), and whose meet is given by #{H\wedge K=H\cap K} the intersection of subgroups (which [is a subgroup](gr-001K)).}

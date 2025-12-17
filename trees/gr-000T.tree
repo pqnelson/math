@@ -1,0 +1,10 @@
+\title{Group Morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\MML{group_6}{def 6bis}{NM2}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.6}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s. Let #{\varphi\colon G\to H} be a function. We say #{\varphi} is a \define{Group Morphism} (or just \define{Morphism}) if it preserves multiplication, i.e., for any #{g_{1},g_{2}\in G} we have
+##{\varphi(g_{1}g_{2})=\varphi(g_{1})\varphi(g_{2}).}}

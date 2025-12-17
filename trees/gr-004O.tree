@@ -1,0 +1,8 @@
+\title{p-Group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_10}{def 17}{V2}
+
+\p{Let #{p} be a prime number. Let #{G} be a [[gr-000G]]. We say #{G} is a \define{#{p}-Group} if there is some #{n\in\NN} such that #{|G|=p^{n}}.}

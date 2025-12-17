@@ -1,0 +1,9 @@
+\title{Euler totient}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 0.2}
+
+\p{We have #{\varphi(n)} be the number of positive integers less than #{n} which are coprime to #{n},
+##{\varphi(n)=|\{k\in\NN\mid k<n,\gcd(k,n)=1\}|.}
+So #{\varphi(12)=|\{1,5,7,11\}|=4}, but #{\varphi(11)=10}.}

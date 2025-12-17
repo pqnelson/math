@@ -1,0 +1,9 @@
+\title{Ring Isomorphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\p{Let #{R} and #{S} be [[ring-0001]]s. A \define{Ring Isomorphism} from #{R} to #{S} is a [[ra-000T]] #{\varphi\colon R\to S} such that there exists a ring morphism #{\psi\colon S\to R} satisfying #{\varphi\circ\psi=\id_{S}} and #{\psi\circ\varphi=\id_{R}}.}
+
+\p{We say rings #{R} and #{S} \define{are isomorphic} (denoted #{R\iso S}) if there exists a ring isomorphism #{\varphi\colon R\to S}.}

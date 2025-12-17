@@ -1,0 +1,13 @@
+\title{Criteria for an extension to be split}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{proposition}
+
+\p{Let #{\widehat{G}} be an [extension](gr-0048) of #{G} by #{H}. Then #{\widehat{G}} is [split](gr-0045) if and only if
+\ol{
+\li{there is a subgroup #{K\subgroup\widehat{G}} such that #{\pi|_{K}\colon K\to G} is an isomorphism; or}
+\li{there exists a set of coset representatives #{\widehat{G}/H} which is a subgroup; or}
+\li{there is a subgroup #{K\subgroup\widehat{G}} such that #{HK=\widehat{G}} and #{H\cap K=\TrivialSubgroup{G}}; or}
+\li{#{\widehat{G}} is isomorphic to (as an extension) the semidirect product #{\Semidirect{H}{G}{\varphi}}}
+}}

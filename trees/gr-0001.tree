@@ -1,0 +1,8 @@
+\title{Binary operator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.1}
+
+\p{Let #{X} be a set. A \define{Binary Operator} (or, more archaically, \define{Law of Composition}) is a function #{\mu\colon X\times X\to X} which is various denoted using infixed notation #{a\star b} or #{a\cdot b} or #{ab} (or, if commutative, #{a+b}) for any #{a,b\in X}.}

@@ -1,0 +1,11 @@
+\title{Proof strategies}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+
+\p{There are various common "strategies" for proving various claims in Mathematics. We will review the basic strategies here.}
+
+\transclude{nst-002G} % direct proof
+\transclude{nst-002I} % proof by contrapositive
+\transclude{nst-002J} % proof by contradiction
+\transclude{nst-002K} % proof by induction

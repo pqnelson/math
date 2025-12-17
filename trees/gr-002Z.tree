@@ -1,0 +1,9 @@
+\title{Center is a commutative subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+
+\p{Let #{G} be any [[gr-000G]]. Then its [center](gr-002X) #{Z(G)} is a commutative [[gr-001B]] of #{G}.}
+
+\proof{\p{Let #{x,y\in Z(G)}. Then #{xy=yx} since every element of the center commutes with any element of the group. Hence #{Z(G)} is commutative.}}

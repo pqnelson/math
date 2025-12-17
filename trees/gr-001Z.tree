@@ -1,0 +1,10 @@
+\title{Conjugation of a subset by an element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\MML{group_3}{def 4}{K4}
+
+\p{Let #{G} be a [[gr-000G]]. Let #{A\subset G} be a subset of #{G}. Let #{b\in G} be an element of #{G}. We define #{A^{b}=\{a^{b}\in G\mid a\in A\}} to be the \define{Conjugate} of #{A} by #{b}.}
+
+\p{Equivalently, using [[gr-001Y]], we see #{A^{b}=A^{\{b\}}}.}

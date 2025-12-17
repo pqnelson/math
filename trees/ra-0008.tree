@@ -1,0 +1,8 @@
+\title{Division ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\MML{vectsp_1}{def}{NM4}
+
+\p{A unital [[ring-0001]] #{R} with #{1\neq0} is called a \define{Division Ring} (or \define{Skew Field}) if for every nonzero element #{a\in R} there exists a multiplicative inverse, i.e., there exists a #{b\in R} such that #{ab=ba=1}.}

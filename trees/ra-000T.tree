@@ -1,0 +1,19 @@
+\title{Ring morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 7.3}
+\meta{source}{Artin [[artin-2010-algebra]] Section 11.3}
+\meta{source}{Hungerford [[hungerford-1974-algebra]] Section III.1}
+
+\p{Let #{R} and #{S} be [[ring-0001]]s. We define a \define{Ring Morphism} (or just a \define{Morphism} if unambiguous) to be a function #{\varphi\colon R\to S} such that:}
+\ol{
+\li{Additive: for any #{x,y\in R} we have #{\varphi(x+y)=\varphi(x)+\varphi(y)}}
+\li{Preserves zero: #{\varphi(0_{R})=0_{S}}}
+\li{Multiplicative: for any #{x,y\in R} we have #{\varphi(xy)=\varphi(x)\varphi(y)}}
+\li{Preserves one (when between unital rings): #{\varphi(1_{R})=1_{S}} when there is a #{1_{R}\in R} and #{1_{S}\in S}}
+}
+\p{\textbf{Exercise:} Do we really need #{\varphi(0)=0} or is this a consequence of additivity?}
+\p{\textbf{Exercise:} Do we really need #{\varphi(1_{R})=1_{S}} or is this a consequence of the multiplicative property?}

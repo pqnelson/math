@@ -1,0 +1,14 @@
+\title{Permutation representation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 4.1}
+
+\p{Let #{X} be a set, let #{G} be a [[gr-000G]]. A \define{Permutation Representation} of #{G} on #{X} is a group morphism #{\rho\colon G\to\Sym(X)} from #{G} to the [symmetric group of #{X}](gr-000F).}
+
+\p{When #{g\in G} and #{x\in X}, we write #{g\cdot x} instead of #{\rho(g)(x)}. If there's ambiguity, we'll write #{\rho_{g}(x)} to stress which representation we're using.}
+
+\p{More generally, a \define{Permutation Representation} of #{G} (without any mention of the representation space #{X}) consists of a set #{X} equipped with a group morphism #{\rho\colon G\to\Sym(X)}.}
+
+\rmk{This is a "curried" form of a [[gr-004Y]].}

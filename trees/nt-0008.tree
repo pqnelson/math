@@ -1,0 +1,11 @@
+\title{Integers modulo #{n}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 0.3}
+
+\p{Let #{n\in\NN} be a fixed positive integer. Let us define the [[nst-0011]] on the integers by
+#{a\sim b\iff n\divides(b-a).}
+This is reflexive (#{a\sim a} since #{n\divides(a-a)}), symmetric (#{a\sim b\iff n\divides(b-a)\iff n\divides(a-b)\iff b\sim a}) and transitive.}
+
+\p{Then the quotient set #{\ZZ /\mathord{\sim}} is often denoted #{\ZZ / n\ZZ}. Moreover, there are well-defined operations #{[a]+[b]=[a+b]} and #{[a]\cdot[b]=[a\cdot b]}.}

@@ -1,0 +1,19 @@
+\title{Class equation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{theorem}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Theorem 4.3.7}
+\MML{weddwitt}{14}{T14}
+
+\p{Let #{G} be a finite [[gr-000G]]. Then
+##{|G| = |Z(G)| + \sum_{x}\Index{G}{C_{G}(x)}}
+where the sum is taken over representatives from the representatives from distinct [conjugacy classes](gr-002D) disjoint from the [center](gr-002X) of #{G}.}
+
+\proof{\p{Let #{\chi=\{G\cdot g\mid g\in G\}} be the set of orbits. Since the [[gr-004J]] partitions #{G}, we see
+##{|G|=\sum_{G\cdot g\in\chi}|\Cl(g)|.}
+and the conjugacy classes of elements #{z\in Z(G)} of the [center](gr-002X) is #{C(z)=\{z\}}, we see that
+##{|G|=\sum_{g\in Z(G)}|\Cl(g)| + \sum_{\substack{G\cdot g\in\chi\\ g\notin Z(G)}}|\Cl(g)|=|Z(G)| + \sum_{\substack{G\cdot g\in\chi\\ g\notin Z(G)}}|\Cl(g)|.}
+Hence the result since [we proved #{|\Cl(g)|=\Index{G}{C_{G}(g)}}](gr-004N).}}
+
+\rmk{Nothing in the proof required #{G} being specifically finite, but we end up with a decomposition of infinite cardinal numbers in the infinite #{G} case...which is not as useful...}

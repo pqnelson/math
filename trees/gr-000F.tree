@@ -1,0 +1,10 @@
+\title{Symmetric group of a set}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\MML{cayley}{def 2}{K2}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 1.3}
+
+\p{Let #{X} be a set. We define the \define{Symmetric Group} of #{X} to be the [[gr-000G]] #{\Sym(X)} consisting of all [permutations](gr-000E) on #{X}, equipped with [[nst-001M]] as its [[gr-0001]].}

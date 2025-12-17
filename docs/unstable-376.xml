@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9572</fr:anchor><fr:addr
+type="machine">#376</fr:addr><fr:route>unstable-376.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is a constant polynomial. Then <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum value at every point in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, so pick <fr:tex
+display="inline"><![CDATA[z_{0}=0]]></fr:tex> and we're done.</fr:p>
+
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is not a constant polynomial. Then we can write it out as <fr:tex
+display="inline"><![CDATA[f(z)=a_{n}z^{n}+…+a_{1}z+a_{0}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex> is the degree of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>. Set
+<fr:tex
+display="block"><![CDATA[A=\max \{|a_{0}|,…,|a_{n}|\}]]></fr:tex>
+Then we have <fr:tex
+display="inline"><![CDATA[A/|a_{n}|\geq 1]]></fr:tex>, so
+<fr:tex
+display="block"><![CDATA[|f(z)|\geq |a_{n}||z|^{n}\left (1-\frac {A}{|a_{n}|}\sum ^{\infty }_{k=1}\frac {1}{|z|^{k}}\right )=|a_{n}||z|^{n}\left (1-\frac {A}{|a_{n}|}\frac {1}{|z|-1}\right )]]></fr:tex>
+For all <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|z|\geq 2]]></fr:tex>, we can simplify this lower bound as
+<fr:tex
+display="block"><![CDATA[|f(z)|\geq |a_{n}||z|^{n}\left (1-\frac {2A}{|a_{n}||z|}\right )]]></fr:tex>
+This implies there exists an <fr:tex
+display="inline"><![CDATA[R>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|f(z)|>|f(0)|]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|z|>R]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[D\subseteq \mathbb {R}^{2}]]></fr:tex> be the close disk of radius <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> centered at the origin, then define <fr:tex
+display="inline"><![CDATA[g\colon  D\to \mathbb {R}]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[g(x,y)=|f(x+\mathrm {i} y)|.]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is continuous, we apply <fr:link
+type="local"
+href="complex-000H.xml"
+addr="complex-000H"
+title="Extreme value theorem">Extreme value theorem</fr:link> to obtain a point <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})\in  D]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> attains a minimum at <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex>. By the choice of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> we have that for <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}\setminus  D]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[|f(z)|>|g(0,0)|\geq |g(x_{0},y_{0})|]]></fr:tex>. Therefore <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum at <fr:tex
+display="inline"><![CDATA[z=x_{0}+\mathrm {i} y_{0}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9574</fr:anchor><fr:addr
+type="user">complex-000I</fr:addr><fr:route>complex-000I.xml</fr:route><fr:title
+text="Modulus of complex polynomial attains a minimum value">Modulus of complex polynomial attains a minimum value</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Lemma 3.1.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f\colon \mathbb {C}\to \mathbb {C}]]></fr:tex> be a polynomial function. Then there exists a <fr:tex
+display="inline"><![CDATA[z_{0}\in \mathbb {C}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum value in <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4210</fr:anchor><fr:addr
+type="machine">#376</fr:addr><fr:route>unstable-376.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is a constant polynomial. Then <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum value at every point in <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, so pick <fr:tex
+display="inline"><![CDATA[z_{0}=0]]></fr:tex> and we're done.</fr:p>
+
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is not a constant polynomial. Then we can write it out as <fr:tex
+display="inline"><![CDATA[f(z)=a_{n}z^{n}+…+a_{1}z+a_{0}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex> is the degree of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, with <fr:tex
+display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>. Set
+<fr:tex
+display="block"><![CDATA[A=\max \{|a_{0}|,…,|a_{n}|\}]]></fr:tex>
+Then we have <fr:tex
+display="inline"><![CDATA[A/|a_{n}|\geq 1]]></fr:tex>, so
+<fr:tex
+display="block"><![CDATA[|f(z)|\geq |a_{n}||z|^{n}\left (1-\frac {A}{|a_{n}|}\sum ^{\infty }_{k=1}\frac {1}{|z|^{k}}\right )=|a_{n}||z|^{n}\left (1-\frac {A}{|a_{n}|}\frac {1}{|z|-1}\right )]]></fr:tex>
+For all <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|z|\geq 2]]></fr:tex>, we can simplify this lower bound as
+<fr:tex
+display="block"><![CDATA[|f(z)|\geq |a_{n}||z|^{n}\left (1-\frac {2A}{|a_{n}||z|}\right )]]></fr:tex>
+This implies there exists an <fr:tex
+display="inline"><![CDATA[R>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|f(z)|>|f(0)|]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|z|>R]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[D\subseteq \mathbb {R}^{2}]]></fr:tex> be the close disk of radius <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> centered at the origin, then define <fr:tex
+display="inline"><![CDATA[g\colon  D\to \mathbb {R}]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[g(x,y)=|f(x+\mathrm {i} y)|.]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is continuous, we apply <fr:link
+type="local"
+href="complex-000H.xml"
+addr="complex-000H"
+title="Extreme value theorem">Extreme value theorem</fr:link> to obtain a point <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})\in  D]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> attains a minimum at <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex>. By the choice of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> we have that for <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}\setminus  D]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[|f(z)|>|g(0,0)|\geq |g(x_{0},y_{0})|]]></fr:tex>. Therefore <fr:tex
+display="inline"><![CDATA[|f|]]></fr:tex> attains its minimum at <fr:tex
+display="inline"><![CDATA[z=x_{0}+\mathrm {i} y_{0}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

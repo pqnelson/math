@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5482</fr:anchor><fr:addr
+type="user">matrix-002A</fr:addr><fr:route>matrix-002A.xml</fr:route><fr:title
+text="Jacobi Identity">Jacobi Identity</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer, let <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathbf {C}]]></fr:tex> be <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices over a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> (or a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link> or...). Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Jacobi Identity</html:dfn> to be the condition
+<fr:tex
+display="block"><![CDATA[[\mathbf {A},[\mathbf {B},\mathbf {C}]] + [\mathbf {B}, [\mathbf {C}, \mathbf {A}]] + [\mathbf {C}, [\mathbf {A}, \mathbf {B}]] = 0.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5484</fr:anchor><fr:addr
+type="user">gr-000A</fr:addr><fr:route>gr-000A.xml</fr:route><fr:title
+text="Commutator of matrices has no identity element">Commutator of matrices has no identity element</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
+href="matrix-0029.xml"
+addr="matrix-0029"
+title="Commutator">Commutator</fr:link> of matrices over a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (or a suitable <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link>). It turns out, the commutator has no identity element. If it had one, say <fr:tex
+display="inline"><![CDATA[\mathbf {E}]]></fr:tex>, then for any matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> we would have
+<fr:tex
+display="block"><![CDATA[[\mathbf {E},\mathbf {A}]=\mathbf {A}]]></fr:tex>
+and by anticommutativity of the commutator
+<fr:tex
+display="block"><![CDATA[[\mathbf {A},\mathbf {E}]=-\mathbf {A}.]]></fr:tex>
+But then we find the <fr:link
+type="local"
+href="matrix-002A.xml"
+addr="matrix-002A"
+title="Jacobi Identity">Jacobi Identity</fr:link> fails to hold:
+<fr:tex
+display="block"><![CDATA[[\mathbf {E},[\mathbf {B},\mathbf {C}]] + [\mathbf {B}, [\mathbf {C}, \mathbf {E}]] + [\mathbf {C}, [\mathbf {E}, \mathbf {B}]] = [\mathbf {C},\mathbf {B}]\neq 0.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5486</fr:anchor><fr:addr
+type="user">gr-0008</fr:addr><fr:route>gr-0008.xml</fr:route><fr:title
+text="Matrix commutator is not associative">Matrix commutator is not associative</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
+type="local"
+href="matrix-0001.xml"
+addr="matrix-0001"
+title="Matrix">matrices</fr:link> with entries in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> can be equipped with the <fr:link
+type="local"
+href="matrix-0029.xml"
+addr="matrix-0029"
+title="Commutator">Commutator</fr:link> which is a binary operator denoted
+<fr:tex
+display="block"><![CDATA[[A,B]=AB-BA]]></fr:tex>
+for any <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. The commutator is not associative, i.e., in general we have
+<fr:tex
+display="block"><![CDATA[[A, [B, C]] \neq  [[A,B],C]]]></fr:tex>
+but it satisfies a variant called the <fr:link
+type="local"
+href="matrix-002A.xml"
+addr="matrix-002A"
+title="Jacobi Identity">Jacobi Identity</fr:link>:
+<fr:tex
+display="block"><![CDATA[[A, [B, C]] + [B, [C, A]] + [C, [A, B]] = 0]]></fr:tex>
+for any <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>.</fr:li></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5488</fr:anchor><fr:addr
+type="user">ring-0001</fr:addr><fr:route>ring-0001.xml</fr:route><fr:title
+text="Ring">Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Unital) Ring</html:dfn> consists of a set <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> equipped with
+<fr:ul><fr:li>an Abelian group structure <fr:tex
+display="inline"><![CDATA[(R,+,0)]]></fr:tex>, and</fr:li>
+<fr:li>a multiplication <fr:tex
+display="inline"><![CDATA[\star \colon  R\times  R\to  R]]></fr:tex>, and</fr:li>
+<fr:li>(Optional) a "one" element <fr:tex
+display="inline"><![CDATA[1\in  R]]></fr:tex></fr:li></fr:ul>
+such that for any <fr:tex
+display="inline"><![CDATA[a,b,c\in  R]]></fr:tex>,
+<fr:ol><fr:li>Associativity of addition: <fr:tex
+display="inline"><![CDATA[a+(b+c)=(a+b)+c]]></fr:tex></fr:li>
+<fr:li>Additive identity element: <fr:tex
+display="inline"><![CDATA[a+0=0+a=a]]></fr:tex></fr:li>
+<fr:li>Additive inverse: <fr:tex
+display="inline"><![CDATA[a+(-a)=0]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: <fr:tex
+display="inline"><![CDATA[a+b=b+a]]></fr:tex></fr:li>
+<fr:li>(Optional) Associativity of multiplication: <fr:tex
+display="inline"><![CDATA[a\star (b\star  c)=(a\star  b)\star  c]]></fr:tex></fr:li>
+<fr:li>(Optional) Unital property (i.e., multiplicative identity element): <fr:tex
+display="inline"><![CDATA[a\star 1=1\star  a=a]]></fr:tex></fr:li>
+<fr:li>Left distributivity of multiplication over addition: <fr:tex
+display="inline"><![CDATA[a\star (b+c)=(a\star  b)+(a\star  c)]]></fr:tex></fr:li>
+<fr:li>Right distributivity of multiplication over addition <fr:tex
+display="inline"><![CDATA[(a+b)\star  c=(a\star  c)+(b\star  c)]]></fr:tex></fr:li></fr:ol>
+Some rings don't have a multiplicative unit <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>, in which case they are "nonunital rings". If we don't care about the existence of the multiplicative unit, we'll just speak of "rings".</fr:p><fr:p>We also don't require all rings to be associative (i.e., multiplication may or may not be associative). When it matters, we will speak of "associative rings" and "nonassociative rings", but by default we will assume rings as associative.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>643</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define a unital ring as an <fr:link
+type="local"
+href="gr-000J.xml"
+addr="gr-000J"
+title="Abelian group">Abelian group</fr:link> equipped with a monoid structure. The axioms for a unital ring would be satisfied automatically.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5490</fr:anchor><fr:addr
+type="user">field-0001</fr:addr><fr:route>field-0001.xml</fr:route><fr:title
+text="Field">Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Field</html:dfn> is traditionally defined as a set <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> with two binary operators, addition (denoted <fr:tex
+display="inline"><![CDATA[+]]></fr:tex>) and multiplication (denoted <fr:tex
+display="inline"><![CDATA[\cdot ]]></fr:tex>), satisfying the field axioms:</fr:p><fr:ol><fr:li>Associativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x+y)+z=x+(y+z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x+y=y+x]]></fr:tex></fr:li>
+<fr:li>Additive identity: there exists a <fr:tex
+display="inline"><![CDATA[0\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[0+x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x+0=x]]></fr:tex></fr:li>
+<fr:li>Additive inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x+y=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y+x=0]]></fr:tex>; in this case, we usually denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[(-x)]]></fr:tex></fr:li>
+<fr:li>Associativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x\cdot  y)\cdot  z=x\cdot  (y\cdot  z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x\cdot  y=y\cdot  x]]></fr:tex></fr:li>
+<fr:li>Multiplicative identity: there exists a <fr:tex
+display="inline"><![CDATA[1\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[1\cdot  x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\cdot  1=x]]></fr:tex></fr:li>
+<fr:li>Multiplicative inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> which is nonzero <fr:tex
+display="inline"><![CDATA[x\neq 0]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\cdot  y=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\cdot  x=1]]></fr:tex>; usually we denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[x^{-1}]]></fr:tex></fr:li>
+<fr:li>Distributivity of multiplication over addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[x\cdot (y+z)=(x\cdot  y)+(x\cdot  z)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x+y)\cdot  z=(x\cdot  z)+(x\cdot  y)]]></fr:tex></fr:li></fr:ol><fr:p>Note that some of these are redundant.</fr:p><fr:p>Also note: fields are usually written in blackboard bold, and the generic field is either <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since the German word for field is "<fr:em>Körper</fr:em>").</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

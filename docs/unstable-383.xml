@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5917</fr:anchor><fr:addr
+type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> For simplicity, suppose <fr:tex
+display="inline"><![CDATA[n=2]]></fr:tex> (the argument generalizes to other <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>). Let <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is bounded, there is an <fr:link
+type="local"
+href="ca-000L.xml"
+addr="ca-000L"
+title="Open Ball">Open Ball</fr:link> which totally contains <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. There is an <fr:tex
+display="inline"><![CDATA[a>0]]></fr:tex> sufficiently large such that <fr:tex
+display="inline"><![CDATA[E\subseteq [-a,a]\times [-a,a]]]></fr:tex>. Then we can take a partition <fr:tex
+display="inline"><![CDATA[P_{k}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[[-a,a]]]></fr:tex> such that each interval in the partition has length less than <fr:tex
+display="inline"><![CDATA[1 / k]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[P_{k}\times  P_{k}]]></fr:tex> is a partition of <fr:tex
+display="inline"><![CDATA[[-a,a]\times [-a,a]]]></fr:tex> and each square has diameter bounded by <fr:tex
+display="inline"><![CDATA[\sqrt {2} / k]]></fr:tex>. We can choose <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> sufficiently large such that <fr:tex
+display="inline"><![CDATA[\sqrt {2} / k < \varepsilon ]]></fr:tex>. There are finitely many such open squares which cover <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. This implies there are finitely many open balls of radius <fr:tex
+display="inline"><![CDATA[\varepsilon ]]></fr:tex> covering <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5919</fr:anchor><fr:addr
+type="user">ca-0024</fr:addr><fr:route>ca-0024.xml</fr:route><fr:title
+text="Subsets of Euclidean space are bounded iff totally bounded">Subsets of Euclidean space are bounded iff totally bounded</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A subset of Euclidean space <fr:tex
+display="inline"><![CDATA[E\subseteq \mathbb {R}^{n}]]></fr:tex> is <fr:link
+type="local"
+href="ca-001U.xml"
+addr="ca-001U"
+title="">bounded</fr:link> if and only if it is <fr:link
+type="local"
+href="ca-001Z.xml"
+addr="ca-001Z"
+title="Totally bounded subset of a metric space">totally bounded</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5921</fr:anchor><fr:addr
+type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> For simplicity, suppose <fr:tex
+display="inline"><![CDATA[n=2]]></fr:tex> (the argument generalizes to other <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>). Let <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is bounded, there is an <fr:link
+type="local"
+href="ca-000L.xml"
+addr="ca-000L"
+title="Open Ball">Open Ball</fr:link> which totally contains <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. There is an <fr:tex
+display="inline"><![CDATA[a>0]]></fr:tex> sufficiently large such that <fr:tex
+display="inline"><![CDATA[E\subseteq [-a,a]\times [-a,a]]]></fr:tex>. Then we can take a partition <fr:tex
+display="inline"><![CDATA[P_{k}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[[-a,a]]]></fr:tex> such that each interval in the partition has length less than <fr:tex
+display="inline"><![CDATA[1 / k]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[P_{k}\times  P_{k}]]></fr:tex> is a partition of <fr:tex
+display="inline"><![CDATA[[-a,a]\times [-a,a]]]></fr:tex> and each square has diameter bounded by <fr:tex
+display="inline"><![CDATA[\sqrt {2} / k]]></fr:tex>. We can choose <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> sufficiently large such that <fr:tex
+display="inline"><![CDATA[\sqrt {2} / k < \varepsilon ]]></fr:tex>. There are finitely many such open squares which cover <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. This implies there are finitely many open balls of radius <fr:tex
+display="inline"><![CDATA[\varepsilon ]]></fr:tex> covering <fr:tex
+display="inline"><![CDATA[E]]></fr:tex>. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

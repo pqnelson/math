@@ -1,0 +1,13 @@
+\title{Power notation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-13}
+\taxon{definition}
+\MML{group_1}{def 8}{K5}
+
+\p{Let #{G} be a [[gr-000G]], let #{g\in G}, let #{n\in\NN_{0}} be a non-negative integer. We write #{g^{n}} and define it inductively by
+##{g^{0}=e}
+and
+##{g^{n+1}=g\star g^{n}.}
+We can extend this to integer exponents by defining
+##{g^{-n}=(g^{-1})^{n}.}}

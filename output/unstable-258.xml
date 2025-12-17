@@ -7,29 +7,38 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1743</fr:anchor><fr:addr
-type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>470</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, let us form a sequence <fr:tex
-display="inline"><![CDATA[(x_{n,k})]]></fr:tex> of elements of <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>. Then we arrange these sequences into an infinite table
-<fr:tex
-display="block"><![CDATA[\begin {matrix} x_{1,1} & x_{1,2} & x_{1,3} & x_{1,4} & \ldots \\ x_{2,1} & x_{2,2} & x_{2,3} & x_{2,4} & \ldots \\ x_{3,1} & x_{3,2} & x_{3,3} & x_{3,4} & \ldots \\ x_{4,1} & x_{4,2} & x_{4,3} & x_{4,4} & \ldots \\ \vdots  & \vdots  & \vdots  & \vdots  & \ddots  \end {matrix}]]></fr:tex>
-Then we form a sequence by ordering the table as <fr:tex
-display="inline"><![CDATA[x_{1,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{4,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,4}]]></fr:tex>, …, where we remove duplicate entries as they are encountered. This gives us a countably infinite sequence of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field iff every nonzero element is a unit (by <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">definition of a field</fr:link>).</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field, then every nonzero ideal contains a unit, which means that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the only nonzero ideal.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose the only ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the trivial ideal and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> itself. Let <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> be any nonzero element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(u)=R]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[1\in (u)]]></fr:tex>. Hence there must be some <fr:tex
+display="inline"><![CDATA[v\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[1=vu]]></fr:tex> (i.e., <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link>). Therefore every nonzero element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a unit, hence <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> must be a field.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -46,22 +55,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1745</fr:anchor><fr:addr
-type="user">nst-001Y</fr:addr><fr:route>nst-001Y.xml</fr:route><fr:title
-text="Cantor's diagonal argument">Cantor's diagonal argument</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>472</fr:anchor><fr:addr
+type="user">ra-001K</fr:addr><fr:route>ra-001K.xml</fr:route><fr:title
+text="Fields only have trivial ideals">Fields only have trivial ideals</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.12</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex> be a countable collection of countably infinite sets. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite.</fr:p>
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 7.4.9(2)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> if and only if its only ideals are <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -71,29 +88,38 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1599</fr:anchor><fr:addr
-type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>474</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, let us form a sequence <fr:tex
-display="inline"><![CDATA[(x_{n,k})]]></fr:tex> of elements of <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>. Then we arrange these sequences into an infinite table
-<fr:tex
-display="block"><![CDATA[\begin {matrix} x_{1,1} & x_{1,2} & x_{1,3} & x_{1,4} & \ldots \\ x_{2,1} & x_{2,2} & x_{2,3} & x_{2,4} & \ldots \\ x_{3,1} & x_{3,2} & x_{3,3} & x_{3,4} & \ldots \\ x_{4,1} & x_{4,2} & x_{4,3} & x_{4,4} & \ldots \\ \vdots  & \vdots  & \vdots  & \vdots  & \ddots  \end {matrix}]]></fr:tex>
-Then we form a sequence by ordering the table as <fr:tex
-display="inline"><![CDATA[x_{1,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{4,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,4}]]></fr:tex>, …, where we remove duplicate entries as they are encountered. This gives us a countably infinite sequence of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field iff every nonzero element is a unit (by <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">definition of a field</fr:link>).</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field, then every nonzero ideal contains a unit, which means that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the only nonzero ideal.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose the only ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the trivial ideal and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> itself. Let <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> be any nonzero element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(u)=R]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[1\in (u)]]></fr:tex>. Hence there must be some <fr:tex
+display="inline"><![CDATA[v\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[1=vu]]></fr:tex> (i.e., <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link>). Therefore every nonzero element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a unit, hence <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> must be a field.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

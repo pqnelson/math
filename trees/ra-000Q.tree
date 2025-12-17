@@ -1,0 +1,10 @@
+\title{Subring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-17}
+\taxon{definition}
+\MML{c0sp1}{def 3}{M1}
+
+\p{Let #{R} be a [[ring-0001]]. A \define{Subring} of #{R} is a ring #{S} such that #{S\subset R} and #{0\in S} and #{+_{R}|_{S}=+_{S}} and #{\star_{R}|_{S}=\star_{S}}. In other words, every element of #{S} is an element of #{R}, and #{R}'s binary operators restricted to #{S} coincide with #{S}'s binary operators.}
+
+\p{If #{R} is a unital ring and #{1\in S}, then we say #{S} is a \define{Unital Subring} of #{R}.}

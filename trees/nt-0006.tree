@@ -1,0 +1,7 @@
+\title{Euler totient is multiplicative on products of coprime numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-12}
+\taxon{exercise}
+
+\p{Let #{m,n\in\NN} be coprime #{\gcd(m,n)=1}. Prove or find a counter-example: #{\varphi(mn)=\varphi(m)\varphi(n)}.}

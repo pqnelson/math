@@ -1,0 +1,13 @@
+\title{Kernel of a group morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+\MML{group_6}{def 9}{K9}
+
+\p{Let #{G} and #{H} be [[gr-000G]]s. Let #{\varphi\colon G\to H} be a [[gr-000T]]. We define the \define{Kernel} of #{\varphi} to be the subgroup #{\ker(\varphi)} of #{G} such that its underlying set equals #{\{g\in G\mid \varphi(g)=e\}}.}
+
+\proof{\p{\textbf{Existence:} We see that #{\ker(\varphi)} is closed under multiplication since for any #{x,y\in\ker(\varphi)} has #{\varphi(xy)=\varphi(x)\varphi(y)=ee=e} which means #{xy\in\ker(\varphi)}.}
+\p{We also see that for any #{x\in\ker(\varphi)} that #{\varphi(x)=e=e^{-1}=\varphi(x)^{-1}=\varphi(x^{-1})} which means #{x^{-1}\in\ker(\varphi)}. So #{\ker(\varphi)} is closed under inverting elements.}
+\p{Hence #{\ker(\varphi)} is a group and its underlying set is a subset of #{G}.}
+\p{\textbf{Uniqueness:} by [[gr-001H]].}}

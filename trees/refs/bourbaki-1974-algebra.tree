@@ -1,0 +1,13 @@
+\title{Algebra, Chapters 1-3}
+\author{nicolas-bourbaki}
+\date{1974}
+\taxon{reference}
+\import{notation}
+
+\meta{bibtex}{\startverb
+@book{bourbaki1974algebra,
+  author={Bourbaki, Nicolas},
+  title={Algebra, Chapters 1--3},
+  year={1974},
+  publisher={Springer}
+}\stopverb}

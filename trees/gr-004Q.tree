@@ -1,0 +1,7 @@
+\title{Existence of a p-subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-16}
+\taxon{proposition}
+
+\p{Let #{G} be a finite [[gr-000G]]. If there exists a prime #{p\in\NN} and some #{r\in\NN} such that #{p^{r}\divides |G|}, then there exists a subgroup #{H\subgroup G} such that #{|H|=p^{r}.}}

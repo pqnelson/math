@@ -1,0 +1,9 @@
+\title{General Linear group of a vector space}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-15}
+\taxon{definition}
+
+\p{Let #{\FF} be a [[field-0001]]. Let #{V} be a [[vectsp-0001]] over #{\FF}. We define the \define{General Linear Group} on #{V} to be the group #{\GL(V)} consisting of all invertible [linear maps](vectsp-0012) from #{V} to itself, equipped with [composition](vectsp-0017) and the identity linear transformation as the identity element.}
+
+\p{When we pick an ordered basis #{B} for #{V} and write [matrix](vectsp-001H) #{M(g)} relative to #{B} for each linear transformation #{g\in\GL(V)}, then we recover the [[gr-0012]] over #{\FF}.}
