@@ -7,27 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7386</fr:anchor><fr:addr
-type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4765</fr:anchor><fr:addr
+type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suffices to show (by definition of open sets) that if <fr:tex
-display="inline"><![CDATA[x'\in  B_{r}(x)]]></fr:tex> and
-<fr:tex
-display="block"><![CDATA[r'=r-d(x,x'),]]></fr:tex>
-then <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[d(y,x')<r']]></fr:tex>. Then the triangle inequality gives us
-<fr:tex
-display="block"><![CDATA[d(x,y)\leq  d(x,x')+d(x',y)<d(x,x')+r'=r.]]></fr:tex>
-So <fr:tex
-display="inline"><![CDATA[y\in  B_{r}(x)]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex> was arbitrary, this then implies <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This definition can be generalized to any nonempty multiplicative magma.</fr:p>
+<fr:p>(2) There is no standard term for this product. Historically, van der Waerden called it the "complex product" (or "products of complexes"). Others have called it the Frobenius product.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -42,30 +28,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7388</fr:anchor><fr:addr
-type="user">ca-0013</fr:addr><fr:route>ca-0013.xml</fr:route><fr:title
-text="Every open ball is an open set">Every open ball is an open set</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4767</fr:anchor><fr:addr
+type="user">gr-0032</fr:addr><fr:route>gr-0032.xml</fr:route><fr:title
+text="Product of subsets of a group">Product of subsets of a group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[B_{r}(x)]]></fr:tex> be an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_2.html#K2">group_2:def 2</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
 type="local"
-href="ca-000L.xml"
-addr="ca-000L"
-title="Open Ball">Open Ball</fr:link> in the <fr:link
-type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link> <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[r>0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r}(x)]]></fr:tex> is an <fr:link
-type="local"
-href="ca-000M.xml"
-addr="ca-000M"
-title="Open Set">Open Set</fr:link>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>, let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> be subsets of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. We define their <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Product</html:dfn> to be the subset <fr:tex
+display="inline"><![CDATA[AB]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> equal to
+<fr:tex
+display="block"><![CDATA[AB=\{ab\in  G\mid  a\in  A,b\in  B\}.]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -75,26 +60,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6114</fr:anchor><fr:addr
-type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1702</fr:anchor><fr:addr
+type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suffices to show (by definition of open sets) that if <fr:tex
-display="inline"><![CDATA[x'\in  B_{r}(x)]]></fr:tex> and
-<fr:tex
-display="block"><![CDATA[r'=r-d(x,x'),]]></fr:tex>
-then <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[d(y,x')<r']]></fr:tex>. Then the triangle inequality gives us
-<fr:tex
-display="block"><![CDATA[d(x,y)\leq  d(x,x')+d(x',y)<d(x,x')+r'=r.]]></fr:tex>
-So <fr:tex
-display="inline"><![CDATA[y\in  B_{r}(x)]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[y\in  B_{r'}(x')]]></fr:tex> was arbitrary, this then implies <fr:tex
-display="inline"><![CDATA[B_{r'}(x')\subseteq  B_{r}(x)]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This definition can be generalized to any nonempty multiplicative magma.</fr:p>
+<fr:p>(2) There is no standard term for this product. Historically, van der Waerden called it the "complex product" (or "products of complexes"). Others have called it the Frobenius product.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

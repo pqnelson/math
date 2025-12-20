@@ -7,27 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>589</fr:anchor><fr:addr
-type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>989</fr:anchor><fr:addr
+type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[1=1\star  1^{-1}=1^{-1}]]></fr:tex> the first equality by definition of multiplicative inverse, the second equality by the unital property.</fr:p>
-<fr:p>Similarly <fr:tex
-display="inline"><![CDATA[1=(-1)\star (-1)^{-1}]]></fr:tex> so then adding <fr:tex
-display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[0=1-1=(-1)\star (-1)^{-1}+(-1)]]></fr:tex> and distributivity allows us to rewrite <fr:tex
-display="inline"><![CDATA[(-1)\star (-1)^{-1}+(-1)=(-1)\star ((-1)^{-1}+1)=0]]></fr:tex>. So either <fr:tex
-display="inline"><![CDATA[-1=0]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[-1=0]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[1=0]]></fr:tex> and so <fr:tex
-display="inline"><![CDATA[(-1)^{-1}=-1=0]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>, then adding <fr:tex
-display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Hom}}\nolimits _{R}(R^{n},M)\cong (\mathop {\textrm {Hom}}\nolimits _{R}(R,M))^{n}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Hom}}\nolimits _{R}(R,M)\cong  M.]]></fr:tex>
+The result follows immediately.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -44,21 +35,24 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>591</fr:anchor><fr:addr
-type="user">ra-000A</fr:addr><fr:route>ra-000A.xml</fr:route><fr:title
-text="Inverse of one is one in a ring">Inverse of one is one in a ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>991</fr:anchor><fr:addr
+type="user">ra-0044</fr:addr><fr:route>ra-0044.xml</fr:route><fr:title
+text="Module morphisms from free module isomorphic to direct sum of copies of codomain">Module morphisms from free module isomorphic to direct sum of copies of codomain</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
-type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>. Then <fr:tex
-display="inline"><![CDATA[1^{-1}=1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(-1)^{-1}=-1]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[R]]></fr:tex> be a ring, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a module over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[R^{n}]]></fr:tex> be the finite-rank free module over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Hom}}\nolimits _{R}(R^{n},M)\cong  M^{\oplus  n}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[M^{\oplus  n}=\bigoplus ^{n}_{i=1} M=M\oplus  M\oplus …\oplus  M]]></fr:tex> is just the direct sum of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> copies of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -68,27 +62,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>593</fr:anchor><fr:addr
-type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>705</fr:anchor><fr:addr
+type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[1=1\star  1^{-1}=1^{-1}]]></fr:tex> the first equality by definition of multiplicative inverse, the second equality by the unital property.</fr:p>
-<fr:p>Similarly <fr:tex
-display="inline"><![CDATA[1=(-1)\star (-1)^{-1}]]></fr:tex> so then adding <fr:tex
-display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us <fr:tex
-display="inline"><![CDATA[0=1-1=(-1)\star (-1)^{-1}+(-1)]]></fr:tex> and distributivity allows us to rewrite <fr:tex
-display="inline"><![CDATA[(-1)\star (-1)^{-1}+(-1)=(-1)\star ((-1)^{-1}+1)=0]]></fr:tex>. So either <fr:tex
-display="inline"><![CDATA[-1=0]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[-1=0]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[1=0]]></fr:tex> and so <fr:tex
-display="inline"><![CDATA[(-1)^{-1}=-1=0]]></fr:tex>.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[(-1)^{-1}+1=0]]></fr:tex>, then adding <fr:tex
-display="inline"><![CDATA[-1]]></fr:tex> to both sides gives us the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Hom}}\nolimits _{R}(R^{n},M)\cong (\mathop {\textrm {Hom}}\nolimits _{R}(R,M))^{n}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Hom}}\nolimits _{R}(R,M)\cong  M.]]></fr:tex>
+The result follows immediately.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

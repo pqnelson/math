@@ -7,14 +7,28 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>505</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>933</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Only the first two results needs to be proven.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We see <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is a finitely-generated torsion module over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is a finite-dimensional vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p>(2) If we have two square <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then they correspond to endomorphisms on an <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-dimensional vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. These give us modules over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> describing the action of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is similar to <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> if and only if the corresponding modules over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> are isomorphic.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,36 +43,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>507</fr:anchor><fr:addr
-type="user">ra-0019</fr:addr><fr:route>ra-0019.xml</fr:route><fr:title
-text="Second Isomorphism Theorem of Rings">Second Isomorphism Theorem of Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>935</fr:anchor><fr:addr
+type="user">ra-004Z</fr:addr><fr:route>ra-004Z.xml</fr:route><fr:title
+text="{F}[x]-modules are {F}-vector spaces equipped with an endomorphism"><fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex>-modules are <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-vector spaces equipped with an endomorphism</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
-type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>, let <fr:tex
-display="inline"><![CDATA[A\subseteq  R]]></fr:tex> be a <fr:link
-type="local"
-href="ra-000Q.xml"
-addr="ra-000Q"
-title="Subring">Subring</fr:link> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link
-type="local"
-href="ra-0011.xml"
-addr="ra-0011"
-title="Ideal">Ideal</fr:link> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
-display="inline"><![CDATA[A\cap  I\mathrel {\trianglelefteq } A]]></fr:tex></fr:li>
-<fr:li><fr:tex
-display="inline"><![CDATA[A+I\subseteq  R]]></fr:tex> is a subring</fr:li>
-<fr:li><fr:tex
-display="inline"><![CDATA[A/(A\cap  I)\cong (A+I)/I]]></fr:tex> with the isomorphism defined by <fr:tex
-display="inline"><![CDATA[a\mapsto  a+I]]></fr:tex></fr:li></fr:ol>
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. Let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a module over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is a vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> equipped with an endomorphism <fr:tex
+display="inline"><![CDATA[\alpha \colon  M\to  M]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[\alpha (m)=x\cdot  m]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -68,13 +69,50 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>509</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>777</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Only the first two results needs to be proven.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from the <fr:link
+type="local"
+href="ra-004W.xml"
+addr="ra-004W"
+title="Fundamental theorem of finitely-generated modules over PIDs">Fundamental theorem of finitely-generated modules over PIDs</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>779</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We see <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is a finitely-generated torsion module over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is a finite-dimensional vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p>(2) If we have two square <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then they correspond to endomorphisms on an <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-dimensional vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. These give us modules over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> describing the action of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is similar to <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> if and only if the corresponding modules over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> are isomorphic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

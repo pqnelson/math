@@ -7,14 +7,21 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3387</fr:anchor><fr:addr
-type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2490</fr:anchor><fr:addr
+type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We see that when <fr:tex
-display="inline"><![CDATA[I=\{0,1\}]]></fr:tex>, this is bijective (but not equal) to <fr:tex
-display="inline"><![CDATA[F_{0}\times  F_{1}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> be nonzero. Then we can consider the submodule <fr:tex
+display="inline"><![CDATA[Rm\leq  M]]></fr:tex>. It is nonzero. Hence <fr:tex
+display="inline"><![CDATA[Rm=M]]></fr:tex> by definition of <fr:link
+type="local"
+href="ra-003J.xml"
+addr="ra-003J"
+title="Irreducible Module">irreducibility</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,35 +36,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3389</fr:anchor><fr:addr
-type="user">nst-002E</fr:addr><fr:route>nst-002E.xml</fr:route><fr:title
-text="Product of family of sets">Product of family of sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2492</fr:anchor><fr:addr
+type="user">ra-003K</fr:addr><fr:route>ra-003K.xml</fr:route><fr:title
+text="Irreducible modules are cyclic">Irreducible modules are cyclic</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/card_3.html#K4">card_3:def 5</fr:link></fr:meta><fr:meta
-name="source"><fr:link
-type="external"
-href="https://proofwiki.org/wiki/Definition:Cartesian_Product/Family_of_Sets">Proofwiki</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> be a set, let <fr:tex
-display="inline"><![CDATA[\mathcal {F}=\{F_{i}\}_{i\in  I}]]></fr:tex> be an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a ring, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. If <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is <fr:link
 type="local"
-href="nst-002D.xml"
-addr="nst-002D"
-title="Indexed family of sets">Indexed family of sets</fr:link> indexed by <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Product</html:dfn> of <fr:tex
-display="inline"><![CDATA[\{F_{i}\}_{i\in  I}]]></fr:tex> to be the set <fr:tex
-display="inline"><![CDATA[\prod \mathcal {F}=\prod _{i\in  I}F_{i}]]></fr:tex> such that for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[x\in \prod _{i\in  I}]]></fr:tex> if and only if <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> if function-like and <fr:tex
-display="inline"><![CDATA[\mathop {\textrm {dom}}\nolimits (x)=\mathop {\textrm {dom}}\nolimits (\mathcal {F})]]></fr:tex> and for each <fr:tex
-display="inline"><![CDATA[i\in  I]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[x_{i}\in  F_{i}]]></fr:tex>.</fr:p>
+href="ra-003H.xml"
+addr="ra-003H"
+title="Cyclic submodule">cyclic</fr:link>, then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is cyclic.</fr:p>
  
    
    <fr:tree
@@ -67,39 +61,20 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3383</fr:anchor><fr:addr
-type="machine">#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>647</fr:anchor><fr:addr
+type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Well-definedness:</fr:strong> We should prove this is well-defined, but we see this is equivalent to:
-<fr:tex
-display="block"><![CDATA[\prod _{i\in  I}F_{i}=\{x\in \hom (I,\bigcup _{i\in  I}F_{i})\mid \forall  i\in  I\ldotp  x(i)\in  F_{i}\}.]]></fr:tex>
-This is obvious a well-defined set using <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> be nonzero. Then we can consider the submodule <fr:tex
+display="inline"><![CDATA[Rm\leq  M]]></fr:tex>. It is nonzero. Hence <fr:tex
+display="inline"><![CDATA[Rm=M]]></fr:tex> by definition of <fr:link
 type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">Set builder notation</fr:link>.</fr:p><html:span
+href="ra-003J.xml"
+addr="ra-003J"
+title="Irreducible Module">irreducibility</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3385</fr:anchor><fr:addr
-type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We see that when <fr:tex
-display="inline"><![CDATA[I=\{0,1\}]]></fr:tex>, this is bijective (but not equal) to <fr:tex
-display="inline"><![CDATA[F_{0}\times  F_{1}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,14 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5809</fr:anchor><fr:addr
-type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3582</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The literature also calls this the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
-display="inline"><![CDATA[T_{2}]]></fr:tex> Property</html:dfn>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
+<fr:p>(2) The condition that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
+display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
+<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
+type="external"
+href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,32 +35,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5811</fr:anchor><fr:addr
-type="user">gt-000Y</fr:addr><fr:route>gt-000Y.xml</fr:route><fr:title
-text="Hausdorff space">Hausdorff space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3584</fr:anchor><fr:addr
+type="user">ra-001H</fr:addr><fr:route>ra-001H.xml</fr:route><fr:title
+text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Munkres <fr:link
+name="source">Krull's <fr:link
 type="local"
-href="munkres-2000-topology.xml"
-addr="munkres-2000-topology"
-title="Topology">Topology</fr:link> Section 17</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/pre_topsc.html#V8">pre_topsc:def 10</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+href="krull-1929-idealtheorie.xml"
+addr="krull-1929-idealtheorie"
+title="Idealtheorie in Ringen ohne Endlichkeitsbedingung">Idealtheorie in Ringen ohne Endlichkeitsbedingung</fr:link> (1929)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R\neq 0]]></fr:tex> be a nonzero unital <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. We say <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Hausdorff</html:dfn> if for any two distinct points <fr:tex
-display="inline"><![CDATA[x,y\in  X]]></fr:tex>, there are disjoint open sets <fr:tex
-display="inline"><![CDATA[U,V\subseteq  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[x\in  U]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y\in  V]]></fr:tex>.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then there exists a <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">maximal ideal</fr:link> <fr:tex
+display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -64,13 +67,48 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5813</fr:anchor><fr:addr
-type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1265</fr:anchor><fr:addr
+type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The literature also calls this the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
-display="inline"><![CDATA[T_{2}]]></fr:tex> Property</html:dfn>.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
+type="local"
+href="ra-0013.xml"
+addr="ra-0013"
+title="Trivial ideal">Trivial ideal</fr:link>). Then <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1267</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
+<fr:p>(2) The condition that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
+display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
+<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
+type="external"
+href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

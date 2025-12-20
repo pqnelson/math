@@ -1,0 +1,9 @@
+\title{Characteristic zero fields have rational numbers as its prime subfield}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{\FF} be a field. If #{\Char(\FF)=0}, then the [[nt-000B]] of #{\FF} is #{\QQ}.}
+
+\proof{\p{The #{\phi\colon\ZZ\to\FF} is injective since its kernel is trivial. The prime subfield of #{\FF} must contain #{\ZZ}. Hence the prime subfield must contain the [field of fractions](ra-002B) #{\QQ=\Frac(\ZZ)}. Hence #{\QQ} itself is the prime subfield.}}

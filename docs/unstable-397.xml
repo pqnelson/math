@@ -7,23 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7362</fr:anchor><fr:addr
-type="machine">#397</fr:addr><fr:route>unstable-397.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4741</fr:anchor><fr:addr
+type="machine">#397</fr:addr><fr:route>unstable-397.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> converges in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, then for each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
-display="inline"><![CDATA[n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x,x_{n})<\frac {\varepsilon }{2}.]]></fr:tex>
-Then by the triangle inequality, for all <fr:tex
-display="inline"><![CDATA[m,n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x_{n},x_{m})\leq  d(x_{n},x)+d(x,x_{m})<\varepsilon .]]></fr:tex></fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[\min (m,n)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> if <fr:tex
+display="inline"><![CDATA[\min (m,n)=1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:link
+type="local"
+href="gr-003W.xml"
+addr="gr-003W"
+title="Simple">Simple</fr:link>, hence any other composition series is of length 1 and the unique subquotient is <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive argument:</fr:strong> This is rather lengthy, I'll return to it.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -40,28 +43,36 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7364</fr:anchor><fr:addr
-type="user">ca-001E</fr:addr><fr:route>ca-001E.xml</fr:route><fr:title
-text="Convergent sequences are Cauchy">Convergent sequences are Cauchy</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4743</fr:anchor><fr:addr
+type="user">gr-003Z</fr:addr><fr:route>gr-003Z.xml</fr:route><fr:title
+text="Jordan–Hölder theorem">Jordan–Hölder theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[(x_{n})]]></fr:tex> be a <fr:link
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. If
+<fr:tex
+display="block"><![CDATA[\mathbf {1}_{G}=H_{0}\mathrel {\triangleleft } H_{1}\mathrel {\triangleleft }…\mathrel {\triangleleft } H_{n}=G,]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\mathbf {1}_{G}=K_{0}\mathrel {\triangleleft } K_{1}\mathrel {\triangleleft }…\mathrel {\triangleleft } K_{m}=G,]]></fr:tex>
+are two <fr:link
 type="local"
-href="ca-001A.xml"
-addr="ca-001A"
-title="Convergent sequence in a metric space">Convergent sequence in a metric space</fr:link>. Then <fr:tex
-display="inline"><![CDATA[x_{n}]]></fr:tex> is a <fr:link
+href="gr-003X.xml"
+addr="gr-003X"
+title="Composition Series">Composition Series</fr:link>s for <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[m=n]]></fr:tex> and there exists a permutation <fr:tex
+display="inline"><![CDATA[\pi \in  S_{n}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[H_{j+1} / H_{j}\cong  K_{\sigma (j) + 1} / K_{\sigma (j)}]]></fr:tex>.</fr:p><fr:p>In other words, the <fr:link
 type="local"
-href="ca-001D.xml"
-addr="ca-001D"
-title="Cauchy sequence">Cauchy sequence</fr:link>.</fr:p>
+href="gr-003X.xml"
+addr="gr-003X"
+title="Composition Series">Composition Series</fr:link> for a group is unique.</fr:p>
  
    
    <fr:tree
@@ -71,23 +82,26 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6162</fr:anchor><fr:addr
-type="machine">#397</fr:addr><fr:route>unstable-397.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1962</fr:anchor><fr:addr
+type="machine">#397</fr:addr><fr:route>unstable-397.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[(x_{n})\to  x]]></fr:tex> converges in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, then for each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that for all <fr:tex
-display="inline"><![CDATA[n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x,x_{n})<\frac {\varepsilon }{2}.]]></fr:tex>
-Then by the triangle inequality, for all <fr:tex
-display="inline"><![CDATA[m,n\geq  N]]></fr:tex>,
-<fr:tex
-display="block"><![CDATA[d(x_{n},x_{m})\leq  d(x_{n},x)+d(x,x_{m})<\varepsilon .]]></fr:tex></fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[\min (m,n)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> if <fr:tex
+display="inline"><![CDATA[\min (m,n)=1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:link
+type="local"
+href="gr-003W.xml"
+addr="gr-003W"
+title="Simple">Simple</fr:link>, hence any other composition series is of length 1 and the unique subquotient is <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive argument:</fr:strong> This is rather lengthy, I'll return to it.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

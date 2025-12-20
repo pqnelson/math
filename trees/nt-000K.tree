@@ -1,0 +1,20 @@
+\title{Generic form a finite field extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{theorem}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Theorem 13.1.4}
+
+\p{Let #{\FF} be a field, let #{p(x)\in\FF[x]} be a nonconstant irreducible polynomial of degree #{\deg(p)=n}, and let #{\kk=\FF[x]/(p(x))}. Let #{\alpha\in\kk} be the image of #{x} under the quotient map
+##{\pi\colon\FF[x]\onto\kk,}
+then #{\{1,\alpha,\dots,\alpha^{n-1}\}} is a basis for #{\kk} as a vector space over #{\FF}. In particular, #{\Index{\kk}{\FF}=n}.}
+
+\proof{\p{We see #{\{1,\alpha,\dots,\alpha^{n-1}\}} spans #{\kk} over #{\FF} as a vector space since it is the image of #{\{1,x,\dots,x^{n-1},\dots\}} and that spans #{\FF[x]} over #{\FF}.}
+\p{Let #{\beta\in\kk} be the image of some #{b(x)\in\FF[x]}. By the division algorithm,
+##{b(x)=q(x)p(x)+r(x)}
+where #{0\leq\deg(r)<n=\deg(p)}. Observe if #{\alpha} is the image of #{x} under the quotient map, then
+##{b(\alpha)=q(\alpha)\cdot0+r(\alpha)=r(\alpha).}
+Since #{\deg(r)<n}, we have
+##{b(\alpha)=c_{0}+c_{1}\alpha+\dots+c_{n-1}\alpha^{n-1},}
+which implies #{b(\alpha)=\beta\in\Span(1,\alpha,\dots,\alpha^{n-1})}. Since #{\beta\in\kk} was arbitrary, and we showed it was a linear combination of the proposed basis, we have obtained the result.}}

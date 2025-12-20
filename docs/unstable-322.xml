@@ -7,16 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5877</fr:anchor><fr:addr
-type="machine">#322</fr:addr><fr:route>unstable-322.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3630</fr:anchor><fr:addr
+type="machine">#322</fr:addr><fr:route>unstable-322.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should look at point-set topology as generalizing everything from our discussion about the <fr:link
-type="local"
-href="ca-000G.xml"
-addr="ca-000G"
-title="Topology of metric spaces">Topology of metric spaces</fr:link> to arbitrary sets.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[i(1)=(1,0)\neq (1,1)]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> cannot possibly be multiplicative.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,24 +31,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5879</fr:anchor><fr:addr
-type="user">gt-0004</fr:addr><fr:route>gt-0004.xml</fr:route><fr:title
-text="Metric topology">Metric topology</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3632</fr:anchor><fr:addr
+type="user">ra-000U</fr:addr><fr:route>ra-000U.xml</fr:route><fr:title
+text="Inclusion of factor into direct product">Inclusion of factor into direct product</fr:title><fr:taxon>Non-example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider <fr:tex
+display="inline"><![CDATA[i\colon \mathbb {Q}\hookrightarrow \mathbb {Q}\times \mathbb {Q}]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[i(x)=(x,0)]]></fr:tex>. We claim <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> is not a <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. We can define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Metric Topology</html:dfn> for <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> consisting of all <fr:link
-type="local"
-href="ca-000M.xml"
-addr="ca-000M"
-title="Open Set">open subsets</fr:link> (defined using open balls) as the only open sets in the topology.</fr:p>
+href="ra-000T.xml"
+addr="ra-000T"
+title="Ring morphism">Ring morphism</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -58,15 +54,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5881</fr:anchor><fr:addr
-type="machine">#322</fr:addr><fr:route>unstable-322.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1187</fr:anchor><fr:addr
+type="machine">#322</fr:addr><fr:route>unstable-322.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should look at point-set topology as generalizing everything from our discussion about the <fr:link
-type="local"
-href="ca-000G.xml"
-addr="ca-000G"
-title="Topology of metric spaces">Topology of metric spaces</fr:link> to arbitrary sets.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[i(1)=(1,0)\neq (1,1)]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> cannot possibly be multiplicative.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

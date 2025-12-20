@@ -7,12 +7,19 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5799</fr:anchor><fr:addr
-type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3574</fr:anchor><fr:addr
+type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary is that finite subsets of a Hausdorff space are closed.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Look at the set
+<fr:tex
+display="block"><![CDATA[\mathcal {I}=\{I\in \mathcal {P}(R)\mid  I\hbox { is an ideal}\},]]></fr:tex>
+where "is an ideal" means the subset is a left/right/two-sided ideal (depending on what the reader wants). This is clearly a subset of <fr:tex
+display="inline"><![CDATA[\mathcal {P}(R)]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[\mathcal {I}]]></fr:tex> is the set sought.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,25 +34,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5801</fr:anchor><fr:addr
-type="user">gt-0010</fr:addr><fr:route>gt-0010.xml</fr:route><fr:title
-text="Singleton sets are closed in Hausdorff spaces">Singleton sets are closed in Hausdorff spaces</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3576</fr:anchor><fr:addr
+type="user">ra-001I</fr:addr><fr:route>ra-001I.xml</fr:route><fr:title
+text="Collection of ideals forms a set">Collection of ideals forms a set</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="gt-000Y.xml"
-addr="gt-000Y"
-title="Hausdorff space">Hausdorff space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{x\}]]></fr:tex> is a <fr:link
-type="local"
-href="gt-000E.xml"
-addr="gt-000E"
-title="Closed set">closed subset</fr:link> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then the collection of left/right/two-sided ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> forms a set.</fr:p>
  
    
    <fr:tree
@@ -55,42 +56,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5795</fr:anchor><fr:addr
-type="machine">#307</fr:addr><fr:route>unstable-307.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1207</fr:anchor><fr:addr
+type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each point <fr:tex
-display="inline"><![CDATA[y\neq  x]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, consider the open subset <fr:tex
-display="inline"><![CDATA[U_{y}\subseteq  X]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[y\in  U_{y}]]></fr:tex> and there is a disjoint open subset containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[x\notin  U_{y}]]></fr:tex>. We claim the union of all such <fr:tex
-display="inline"><![CDATA[U_{y}]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[y\neq  x]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[U=\bigcup _{y\in  X\setminus \{x\}}U_{y}]]></fr:tex> is an open subset of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[U^{\complement }=\{x\}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\{x\}]]></fr:tex> is closed, as desired.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Look at the set
+<fr:tex
+display="block"><![CDATA[\mathcal {I}=\{I\in \mathcal {P}(R)\mid  I\hbox { is an ideal}\},]]></fr:tex>
+where "is an ideal" means the subset is a left/right/two-sided ideal (depending on what the reader wants). This is clearly a subset of <fr:tex
+display="inline"><![CDATA[\mathcal {P}(R)]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[\mathcal {I}]]></fr:tex> is the set sought.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5797</fr:anchor><fr:addr
-type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary is that finite subsets of a Hausdorff space are closed.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,26 +7,49 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9560</fr:anchor><fr:addr
-type="machine">#298</fr:addr><fr:route>unstable-298.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2542</fr:anchor><fr:addr
+type="machine">#298</fr:addr><fr:route>unstable-298.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to (R/I)\times (R/J)]]></fr:tex> be the mapping such that <fr:tex
+display="inline"><![CDATA[\varphi (x)=(x+I,x+J)]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex>. Its kernel is <fr:tex
+display="inline"><![CDATA[I\cap  J]]></fr:tex>. Then by the <fr:link
 type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">set-builder notation</fr:link>  <fr:tex
-display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
-display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">Set equality</fr:link>.</fr:p><html:span
+href="ra-0018.xml"
+addr="ra-0018"
+title="First Isomorphism Theorem for Rings">first isomorphism theorem</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi '\colon  R/(I\cap  J)\to (R/I)\times (R/J)]]></fr:tex> is injective because it has a trivial kernel. We need to show it is surjective.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[(u+I,v+J)\in (R/I)\times (R/J)]]></fr:tex>, we want to find <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\varphi (x)=(u+I,v+J)]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b\in  J]]></fr:tex> be such that <fr:tex
+display="inline"><![CDATA[a+b=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[x=va+ub]]></fr:tex>, so we can check <fr:tex
+display="inline"><![CDATA[\varphi '(x)=(a+A,b+B)]]></fr:tex>. We find
+<fr:tex
+display="block"><![CDATA[\begin {align*}x &\equiv  ub\bmod {I}\\ &\equiv  (1-a)u\bmod {I}\\ &\equiv  u\bmod {I}\end {align*}]]></fr:tex>
+and similarly <fr:tex
+display="inline"><![CDATA[x\equiv  v\bmod {B}]]></fr:tex> as desired.</fr:p>
+<fr:p>(2) Since <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> are comaximal, there exists <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\in  J]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a+b=1]]></fr:tex>. We want to show <fr:tex
+display="inline"><![CDATA[I\cap  J\subseteq  I\cdot  J]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  I\cap  J]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[x=x\cdot 1=xa+xb]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[xa\in  JI]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[xb\in  IJ]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[x\in  I\cdot  J]]></fr:tex>.</fr:p>
+<fr:p>We see <fr:tex
+display="inline"><![CDATA[I\cap  J\supseteq  I\cdot  J]]></fr:tex> obviously.</fr:p>
+<html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -43,35 +66,53 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9562</fr:anchor><fr:addr
-type="user">nst-000F</fr:addr><fr:route>nst-000F.xml</fr:route><fr:title
-text="Intersection of two sets">Intersection of two sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2544</fr:anchor><fr:addr
+type="user">ra-0029</fr:addr><fr:route>ra-0029.xml</fr:route><fr:title
+text="Abstract Chinese Remainder Theorem">Abstract Chinese Remainder Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="paul-r-halmos.xml"
-addr="paul-r-halmos"
-title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 7.6.17</fr:meta><fr:meta
+name="source">Hungerford <fr:link
 type="local"
-href="halmos-1974-naive.xml"
-addr="halmos-1974-naive"
-title="Naive Set Theory">Naive Set Theory</fr:link> Ch.4</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K3">xboole_0:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Intersection</html:dfn> to be the set denoted <fr:tex
-display="inline"><![CDATA[X\cap  Y]]></fr:tex> such that: for all objects <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[x\in  X\cap  Y]]></fr:tex> iff <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p><fr:p>We see this is commutative <fr:tex
-display="inline"><![CDATA[X\cap  Y=Y\cap  X]]></fr:tex> and idempotent <fr:tex
-display="inline"><![CDATA[X\cap  X=X]]></fr:tex>.</fr:p>
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Theorem III.2.25</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> be <fr:link
+type="local"
+href="ra-0024.xml"
+addr="ra-0024"
+title="Comaximal ideals">comaximal</fr:link> <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">two-sided ideals</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then
+<fr:ol><fr:li>the map
+<fr:tex
+display="block"><![CDATA[R/(I\cap  J)\to  (R/I)\times (R/J)]]></fr:tex>
+defined by sending <fr:tex
+display="inline"><![CDATA[x\mapsto (x+I,x+J)]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000X.xml"
+addr="ra-000X"
+title="Ring Isomorphism">Ring Isomorphism</fr:link>; and</fr:li>
+<fr:li>furthermore if we write <fr:tex
+display="inline"><![CDATA[I\cdot  J=\langle \{ab\in  R\mid  a\in  I,b\in  J\}\rangle ]]></fr:tex> for the two-sided ideal generated by products of elements of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[I\cdot  J=I\cap  J]]></fr:tex>.</fr:li></fr:ol></fr:p>
  
    
    <fr:tree
@@ -81,26 +122,49 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3896</fr:anchor><fr:addr
-type="machine">#298</fr:addr><fr:route>unstable-298.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1349</fr:anchor><fr:addr
+type="machine">#298</fr:addr><fr:route>unstable-298.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see this exists using <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to (R/I)\times (R/J)]]></fr:tex> be the mapping such that <fr:tex
+display="inline"><![CDATA[\varphi (x)=(x+I,x+J)]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex>. Its kernel is <fr:tex
+display="inline"><![CDATA[I\cap  J]]></fr:tex>. Then by the <fr:link
 type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">set-builder notation</fr:link>  <fr:tex
-display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex
-display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">Set equality</fr:link>.</fr:p><html:span
+href="ra-0018.xml"
+addr="ra-0018"
+title="First Isomorphism Theorem for Rings">first isomorphism theorem</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi '\colon  R/(I\cap  J)\to (R/I)\times (R/J)]]></fr:tex> is injective because it has a trivial kernel. We need to show it is surjective.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[(u+I,v+J)\in (R/I)\times (R/J)]]></fr:tex>, we want to find <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\varphi (x)=(u+I,v+J)]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b\in  J]]></fr:tex> be such that <fr:tex
+display="inline"><![CDATA[a+b=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[x=va+ub]]></fr:tex>, so we can check <fr:tex
+display="inline"><![CDATA[\varphi '(x)=(a+A,b+B)]]></fr:tex>. We find
+<fr:tex
+display="block"><![CDATA[\begin {align*}x &\equiv  ub\bmod {I}\\ &\equiv  (1-a)u\bmod {I}\\ &\equiv  u\bmod {I}\end {align*}]]></fr:tex>
+and similarly <fr:tex
+display="inline"><![CDATA[x\equiv  v\bmod {B}]]></fr:tex> as desired.</fr:p>
+<fr:p>(2) Since <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> are comaximal, there exists <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\in  J]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a+b=1]]></fr:tex>. We want to show <fr:tex
+display="inline"><![CDATA[I\cap  J\subseteq  I\cdot  J]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  I\cap  J]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[x=x\cdot 1=xa+xb]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[xa\in  JI]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[xb\in  IJ]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[x\in  I\cdot  J]]></fr:tex>.</fr:p>
+<fr:p>We see <fr:tex
+display="inline"><![CDATA[I\cap  J\supseteq  I\cdot  J]]></fr:tex> obviously.</fr:p>
+<html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

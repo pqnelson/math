@@ -1,0 +1,15 @@
+\title{Stable Conjugacy}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{puzzle}
+
+\p{A question we should never ask ourselves ever: Given we can work with complex matrices #{\Mat_{n}(\CC)}, but we often find ourselves in many applications caring about rational matrices #{\Mat_{n}(\QQ)}. For example if we have two matrices #{A,B\in\Mat_{n}(\QQ)} we see that #{A,B\in\Mat_{n}(\CC)}, so is asking:
+\blockquote{Is #{A\sim_{\QQ}B}, i.e., is there an invertible #{X\in\Mat_{n}(\QQ)} such that #{A=XBX^{-1}}?}
+Is this the same as asking,
+\blockquote{Is #{A\sim_{\CC}B}, i.e., is there an invertible #{X\in\Mat_{n}(\CC)} such that #{A=XBX^{-1}}?}
+or not?}
+
+\answer{\p{For this particular case, it turns out
+##{A\sim_{\QQ}B\iff A\sim_{\CC}B.}
+This is called \define{Stable Conjugacy}. This is a consequence of version (1) of the fundamental theorem of modules over principal ideal domains...and why the [[ra-0055]] is so important. A matrix in rational canonical form over #{\QQ} is also in rational canonical form over #{\CC}, and then we use the fact [[ra-0057]].}}

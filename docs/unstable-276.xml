@@ -7,16 +7,31 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>579</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>981</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Solution</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important to stress that the ring must be associative. The <fr:link
-type="local"
-href="sedonion-0001.xml"
-addr="sedonion-0001"
-title="Sedonions">Sedonions</fr:link> are a nonassociative unital ring where nonzero elements have a multiplicative inverse <fr:em>and</fr:em> there are also zero divisors.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We assert <fr:tex
+display="inline"><![CDATA[\det (AB)=\det (A)\det (B)]]></fr:tex> the determinant is multiplicative for square matrices over a commutative ring.</fr:p>
+<fr:p>For <fr:tex
+display="inline"><![CDATA[A\in \mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> invertible, we see that <fr:tex
+display="inline"><![CDATA[\det (AA^{-1})=\det (A)\det (A^{-1})=1]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\det (A)\in R^{\times }]]></fr:tex>.</fr:p>
+<fr:p>We see that the adjugate <fr:tex
+display="inline"><![CDATA[A^{*}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> can be computed for any ring (where the components of <fr:tex
+display="inline"><![CDATA[A^{*}]]></fr:tex> are the minors of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[(A^{*})_{i,j}]]></fr:tex> equals the determinant of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> where we delete row <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> and column <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>). Hence
+<fr:tex
+display="block"><![CDATA[A^{-1}=\frac {1}{\det (A)}A^{*}]]></fr:tex>
+which can be computed if <fr:tex
+display="inline"><![CDATA[\det (A)\in R^{\times }]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,59 +46,35 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>581</fr:anchor><fr:addr
-type="user">ra-000J</fr:addr><fr:route>ra-000J.xml</fr:route><fr:title
-text="Ring elements are either units or some kind of zero divisor">Ring elements are either units or some kind of zero divisor</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>983</fr:anchor><fr:addr
+type="user">ra-004J</fr:addr><fr:route>ra-004J.xml</fr:route><fr:title
+text="Does the general linear group over a ring consist of all matrices with nonzero determinant?">Does the general linear group over a ring consist of all matrices with nonzero determinant?</fr:title><fr:taxon>Puzzle</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:em>associative</fr:em> <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>, let <fr:tex
-display="inline"><![CDATA[x\in  R]]></fr:tex> be any arbitrary element of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. Then either <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
-type="local"
-href="ra-000I.xml"
-addr="ra-000I"
-title="Unit">Unit</fr:link> or <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
-type="local"
-href="ra-000E.xml"
-addr="ra-000E"
-title="Zero Divisor">Zero Divisor</fr:link>.</fr:p>
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>575</fr:anchor><fr:addr
-type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> is a left zero divisor, then there is a <fr:tex
-display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[xy=0]]></fr:tex>. But if <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> were also a unit, then
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. We know
 <fr:tex
-display="block"><![CDATA[\begin {align*}0&=x^{-1}0\\ &=x^{-1}(xy)\\ &=(x^{-1}x)y\\ &=1y=y\end {align*}]]></fr:tex>
-which contradicts the condition that <fr:tex
-display="inline"><![CDATA[y\neq 0]]></fr:tex> in the definition of a zero divisor.</fr:p>
-<fr:p>The situation for <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> being a right zero divisor is similar.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
+display="block"><![CDATA[\mathop {\textrm {End}}\nolimits (R^{n})\cong \mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex>
+the <fr:link
+type="local"
+href="ra-002Y.xml"
+addr="ra-002Y"
+title="Endomorphism ring">Endomorphism ring</fr:link> of <fr:tex
+display="inline"><![CDATA[R^{n}]]></fr:tex> is isomorphic to the ring of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. We also know <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (R^{n})\subseteq \mathop {\textrm {End}}\nolimits (R^{n})]]></fr:tex> as a subset, and <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {GL}}\nolimits _{n}(R)\subseteq \mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> the general linear group of <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is contained in the matrix ring.</fr:p><fr:p>Is it true that
+<fr:tex
+display="block"><![CDATA[\{A\in \mathop {\mathrm {Mat}}\nolimits _{n}(R)\mid \det (A)\neq 0\}=\mathop {\textrm {GL}}\nolimits _{n}(R)?]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -93,15 +84,30 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>577</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>725</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Solution</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important to stress that the ring must be associative. The <fr:link
-type="local"
-href="sedonion-0001.xml"
-addr="sedonion-0001"
-title="Sedonions">Sedonions</fr:link> are a nonassociative unital ring where nonzero elements have a multiplicative inverse <fr:em>and</fr:em> there are also zero divisors.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We assert <fr:tex
+display="inline"><![CDATA[\det (AB)=\det (A)\det (B)]]></fr:tex> the determinant is multiplicative for square matrices over a commutative ring.</fr:p>
+<fr:p>For <fr:tex
+display="inline"><![CDATA[A\in \mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> invertible, we see that <fr:tex
+display="inline"><![CDATA[\det (AA^{-1})=\det (A)\det (A^{-1})=1]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\det (A)\in R^{\times }]]></fr:tex>.</fr:p>
+<fr:p>We see that the adjugate <fr:tex
+display="inline"><![CDATA[A^{*}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> can be computed for any ring (where the components of <fr:tex
+display="inline"><![CDATA[A^{*}]]></fr:tex> are the minors of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[(A^{*})_{i,j}]]></fr:tex> equals the determinant of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> where we delete row <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> and column <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>). Hence
+<fr:tex
+display="block"><![CDATA[A^{-1}=\frac {1}{\det (A)}A^{*}]]></fr:tex>
+which can be computed if <fr:tex
+display="inline"><![CDATA[\det (A)\in R^{\times }]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

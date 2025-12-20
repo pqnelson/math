@@ -7,14 +7,46 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7294</fr:anchor><fr:addr
-type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2506</fr:anchor><fr:addr
+type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This implies <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is uncountable since <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> contains the binary expansion of all real numbers between 0 and 1.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> were reducible, say <fr:tex
+display="inline"><![CDATA[f(x)=a(x)b(x)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b(x)]]></fr:tex> are nonconstant polynomials. Reducing this equation modulo <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> and using the assumption on the coefficients of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, we obtain the equation
+<fr:tex
+display="block"><![CDATA[x^{n}=\overline {a(x)b(x)}]]></fr:tex>
+in <fr:tex
+display="inline"><![CDATA[(R/P)[x]]]></fr:tex> where the bar denotes the polynomials with coefficients reduced modulo <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is a prime ideal, <fr:tex
+display="inline"><![CDATA[R/P]]></fr:tex> is an integral domain (by <fr:link
+type="local"
+href="ra-001F.xml"
+addr="ra-001F"
+title="Ideal is prime iff quotient ring is integral domain">Ideal is prime iff quotient ring is integral domain</fr:link>). Then both <fr:tex
+display="inline"><![CDATA[\overline {a(x)}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\overline {b(x)}]]></fr:tex> have 0 constant terms, i.e., the constant terms of both <fr:tex
+display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b(x)]]></fr:tex> belong to <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
+<fr:p>But then the constant term <fr:tex
+display="inline"><![CDATA[a_{0}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> may be written as the product of these two, which contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,22 +61,38 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7296</fr:anchor><fr:addr
-type="user">nst-0020</fr:addr><fr:route>nst-0020.xml</fr:route><fr:title
-text="Set of all sequences of 0,1 is uncountable">Set of all sequences of <fr:tex
-display="inline"><![CDATA[\{0,1\}]]></fr:tex> is uncountable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2508</fr:anchor><fr:addr
+type="user">ra-002V</fr:addr><fr:route>ra-002V.xml</fr:route><fr:title
+text="Eisenstein criteria of reducibility">Eisenstein criteria of reducibility</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.14</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be the set of all sequences of <fr:tex
-display="inline"><![CDATA[\{0,1\}]]></fr:tex>. Then the set <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is uncountable.</fr:p>
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 9.4.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Let <fr:tex
+display="inline"><![CDATA[f(x)\in  R[x]]]></fr:tex> be a (nonconstant) monic polynomial
+<fr:tex
+display="block"><![CDATA[f(x)=x^{n}+a_{n-1}x^{n-1}+…+a_{1}x+a_{0}.]]></fr:tex>
+Let <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq } R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001D.xml"
+addr="ra-001D"
+title="Prime Ideal">prime ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Suppose for all <fr:tex
+display="inline"><![CDATA[j=1,…,n]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[p_{j}\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible.</fr:p>
  
    
    <fr:tree
@@ -54,48 +102,45 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7236</fr:anchor><fr:addr
-type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1371</fr:anchor><fr:addr
+type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> be any countable subset of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>. Let us enumerate the elements of <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> into a sequence <fr:tex
-display="inline"><![CDATA[x_{n}]]></fr:tex>. We can construct the sequence <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> as follows:
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> were reducible, say <fr:tex
+display="inline"><![CDATA[f(x)=a(x)b(x)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b(x)]]></fr:tex> are nonconstant polynomials. Reducing this equation modulo <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> and using the assumption on the coefficients of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, we obtain the equation
 <fr:tex
-display="block"><![CDATA[x(n) = \begin {cases}1 & \hbox {if }x_{n}(n)=0\\ 0 & \hbox {if }x_{n}(n)=1\end {cases}]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[x(n)\neq  x_{n}(n)]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> differs from every element of <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[x\in  A\setminus  E]]></fr:tex>.</fr:p>
-<fr:p>This means every countably infinite subset of <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is a proper subset. This means <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> must be uncountable since otherwise it would be a proper subset of itself, which is impossible.</fr:p><html:span
+display="block"><![CDATA[x^{n}=\overline {a(x)b(x)}]]></fr:tex>
+in <fr:tex
+display="inline"><![CDATA[(R/P)[x]]]></fr:tex> where the bar denotes the polynomials with coefficients reduced modulo <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is a prime ideal, <fr:tex
+display="inline"><![CDATA[R/P]]></fr:tex> is an integral domain (by <fr:link
+type="local"
+href="ra-001F.xml"
+addr="ra-001F"
+title="Ideal is prime iff quotient ring is integral domain">Ideal is prime iff quotient ring is integral domain</fr:link>). Then both <fr:tex
+display="inline"><![CDATA[\overline {a(x)}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\overline {b(x)}]]></fr:tex> have 0 constant terms, i.e., the constant terms of both <fr:tex
+display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b(x)]]></fr:tex> belong to <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
+<fr:p>But then the constant term <fr:tex
+display="inline"><![CDATA[a_{0}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> may be written as the product of these two, which contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7238</fr:anchor><fr:addr
-type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This implies <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is uncountable since <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> contains the binary expansion of all real numbers between 0 and 1.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

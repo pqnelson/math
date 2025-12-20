@@ -7,20 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12038</fr:anchor><fr:addr
-type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7162</fr:anchor><fr:addr
+type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[e_{1}\in  A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[e_{2}\in  A]]></fr:tex> are two possible identity elements, then
 <fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+display="block"><![CDATA[e_{1}=\mu (e_{1},e_{2})=e_{2}.]]></fr:tex></fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -37,15 +33,26 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12040</fr:anchor><fr:addr
-type="user">matrix-001I</fr:addr><fr:route>matrix-001I.xml</fr:route><fr:title
-text="Matrix Inverse is Idempotent">Matrix Inverse is Idempotent</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7164</fr:anchor><fr:addr
+type="user">gr-000B</fr:addr><fr:route>gr-000B.xml</fr:route><fr:title
+text="Identity element is at most unique">Identity element is at most unique</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an invertible matrix. Then <fr:tex
-display="inline"><![CDATA[(\mathbf {A}^{-1})^{-1}=\mathbf {A}]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link
+type="local"
+href="gr-0001.xml"
+addr="gr-0001"
+title="Binary operator">Binary operator</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Then there exists at most 1 <fr:link
+type="local"
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">Identity element</fr:link> for <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -55,20 +62,16 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3548</fr:anchor><fr:addr
-type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1614</fr:anchor><fr:addr
+type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[e_{1}\in  A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[e_{2}\in  A]]></fr:tex> are two possible identity elements, then
 <fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
+display="block"><![CDATA[e_{1}=\mu (e_{1},e_{2})=e_{2}.]]></fr:tex></fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

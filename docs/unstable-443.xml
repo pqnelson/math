@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9632</fr:anchor><fr:addr
+type="machine">#443</fr:addr><fr:route>unstable-443.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[f(X)]]></fr:tex> is compact because the <fr:link
+type="local"
+href="ca-001X.xml"
+addr="ca-001X"
+title="Continuous image of a compact subset is compact">Continuous image of a compact subset is compact</fr:link>, and therefore <fr:link
+type="local"
+href="ca-000P.xml"
+addr="ca-000P"
+title="Closed Subset">closed</fr:link> and <fr:link
+type="local"
+href="ca-001U.xml"
+addr="ca-001U"
+title="">bounded</fr:link> since <fr:link
+type="local"
+href="ca-001V.xml"
+addr="ca-001V"
+title="Compact subsets of metric spaces are closed and bounded">Compact subsets of metric spaces are closed and bounded</fr:link>. Let <fr:tex
+display="inline"><![CDATA[\alpha :=\inf  f(X)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\beta :=\sup  f(X)]]></fr:tex>. By <fr:link
+type="local"
+href="ca-0007.xml"
+addr="ca-0007"
+title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link> of <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f(X)]]></fr:tex> is <fr:link
+type="local"
+href="ca-000P.xml"
+addr="ca-000P"
+title="Closed Subset">closed</fr:link>, we see <fr:tex
+display="inline"><![CDATA[\alpha ,\beta \in  f(X)]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9634</fr:anchor><fr:addr
+type="user">ca-001Y</fr:addr><fr:route>ca-001Y.xml</fr:route><fr:title
+text="Extreme value theorem">Extreme value theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-001T.xml"
+addr="ca-001T"
+title="Compact subset of a metric space">compact</fr:link> <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to \mathbb {R}]]></fr:tex> be a <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous function</fr:link>, then there are points <fr:tex
+display="inline"><![CDATA[a,b\in  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[f(a)\leq  f(x)\leq  f(b).]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8582</fr:anchor><fr:addr
+type="machine">#443</fr:addr><fr:route>unstable-443.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[f(X)]]></fr:tex> is compact because the <fr:link
+type="local"
+href="ca-001X.xml"
+addr="ca-001X"
+title="Continuous image of a compact subset is compact">Continuous image of a compact subset is compact</fr:link>, and therefore <fr:link
+type="local"
+href="ca-000P.xml"
+addr="ca-000P"
+title="Closed Subset">closed</fr:link> and <fr:link
+type="local"
+href="ca-001U.xml"
+addr="ca-001U"
+title="">bounded</fr:link> since <fr:link
+type="local"
+href="ca-001V.xml"
+addr="ca-001V"
+title="Compact subsets of metric spaces are closed and bounded">Compact subsets of metric spaces are closed and bounded</fr:link>. Let <fr:tex
+display="inline"><![CDATA[\alpha :=\inf  f(X)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\beta :=\sup  f(X)]]></fr:tex>. By <fr:link
+type="local"
+href="ca-0007.xml"
+addr="ca-0007"
+title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link> of <fr:tex
+display="inline"><![CDATA[\mathbb {R}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f(X)]]></fr:tex> is <fr:link
+type="local"
+href="ca-000P.xml"
+addr="ca-000P"
+title="Closed Subset">closed</fr:link>, we see <fr:tex
+display="inline"><![CDATA[\alpha ,\beta \in  f(X)]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,7 @@
+\title{Characteristic p fields have a finite prime subfield}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{p} be a prime number, let #{\FF} be a field. If the [[nt-000A]] of #{\FF} is #{p=\Char(\FF)}, then the finite field #{\FF_{p}} is the prime subfield of #{\FF}.}

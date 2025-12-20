@@ -7,14 +7,15 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>517</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>941</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There is no standard notation for the canonical morphism, and I was debating between <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> (Greek lowercase "c" for "canonical") and <fr:tex
-display="inline"><![CDATA[\pi ]]></fr:tex> since it's a sort of projection.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We have two conditions: either <fr:tex
+display="inline"><![CDATA[M(p)=\{x\in  M\mid  p^{r}x=0,r\geq 0\}]]></fr:tex>, or <fr:tex
+display="inline"><![CDATA[M[p^{r}]=\{x\in  M\mid  p^{r}x=0\}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[p^{r}\mathrel {\bigm |}\mathop {\textrm {Ann}}\nolimits _{R}(M)]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,31 +30,46 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>519</fr:anchor><fr:addr
-type="user">ra-0016</fr:addr><fr:route>ra-0016.xml</fr:route><fr:title
-text="Canonical ring morphism">Canonical ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>943</fr:anchor><fr:addr
+type="user">ra-004X</fr:addr><fr:route>ra-004X.xml</fr:route><fr:title
+text="P-Primary Component"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Primary Component</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#K6">ring_2:def 7</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 12.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>, let <fr:tex
-display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a <fr:link
 type="local"
-href="ra-0011.xml"
-addr="ra-0011"
-title="Ideal">Ideal</fr:link> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. The <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Canonical Morphism</html:dfn> <fr:tex
-display="inline"><![CDATA[\pi \colon  R\to  R/I]]></fr:tex> is defined by: for any <fr:tex
-display="inline"><![CDATA[a\in  R]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\pi (a)=a+I]]></fr:tex>.</fr:p>
+href="ra-004A.xml"
+addr="ra-004A"
+title="Finitely-Generated Submodule">finitely-generated</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">prime element</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Primary Component</html:dfn> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is a submodule <fr:tex
+display="inline"><![CDATA[M(p)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> such that:
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[M=\bigoplus _{p}M(p)]]></fr:tex>, and</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[M=M(p)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[M=\bigoplus _{i}^{m}R/p^{\alpha _{i}}]]></fr:tex>.</fr:li></fr:ol></fr:p>
  
    
    <fr:tree
@@ -63,13 +79,14 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>521</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>767</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There is no standard notation for the canonical morphism, and I was debating between <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> (Greek lowercase "c" for "canonical") and <fr:tex
-display="inline"><![CDATA[\pi ]]></fr:tex> since it's a sort of projection.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We have two conditions: either <fr:tex
+display="inline"><![CDATA[M(p)=\{x\in  M\mid  p^{r}x=0,r\geq 0\}]]></fr:tex>, or <fr:tex
+display="inline"><![CDATA[M[p^{r}]=\{x\in  M\mid  p^{r}x=0\}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[p^{r}\mathrel {\bigm |}\mathop {\textrm {Ann}}\nolimits _{R}(M)]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

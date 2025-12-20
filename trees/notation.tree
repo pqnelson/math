@@ -60,7 +60,7 @@
 % linear algebra
 \def\transpose[M]{\M^{\mathsf{T}}}
 \def\norm[x]{\left \lVert \x \right \rVert}
-
+\def\Span{\mathop{\textrm{span}}\nolimits}
 \def\sgn{\mathop{\textrm{sgn}}\nolimits}
 
 % topology
@@ -101,6 +101,9 @@
 \def\Tor{\mathop{\textrm{Tor}}\nolimits}
 \def\rank{\mathop{\textrm{rank}}\nolimits}
 
+% field theory
+\def\Char{\mathop{\textrm{char}}\nolimits}
+
 \p{As I understand it, HTML tags (and spans with specific classes) must be done in this manner (although it is undocumented):}
 
 \xmlns:html{http://www.w3.org/1999/xhtml}
@@ -124,6 +127,18 @@
  }
 }
 
+\def\labeled-proof[lbl][body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{proof (\lbl)}
+     \body
+     \<html:span>[class]{qed}{∎}
+   }
+ }
+}
+
+
 \def\solution[body]{
  \scope{
    \put\transclude/toc{false}
@@ -134,6 +149,17 @@
  }
 }
 
+\def\answer[body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{answer}
+     \body
+   }
+ }
+}
+
+
 \def\rmk[body]{
  \scope{
    \put\transclude/toc{false}
@@ -143,7 +169,6 @@
    }
  }
 }
-
 
 \p{The \code{\startverb\cite\stopverb} is based on a [discussion](https://lists.sr.ht/~jonsterling/forester-discuss/<D3HYZ2R63VU8.1GKFJ4TTQV54U@nickx.hu>) in the mailing list. It seems to be unstable in Forester, so care must be taken.}
 

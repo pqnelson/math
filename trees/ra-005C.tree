@@ -1,0 +1,14 @@
+\title{Criteria for diagonalizability of a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{theorem}
+
+\p{Let #{n\in\NN} be a positive integer, let #{A\in\Mat_{n}(\CC)} be a complex #{n\times n} matrix. The following are equivalent:}
+\ol{
+\li{The matrix #{A} is [diagonalizable](ela-001U).}
+\li{There are #{n} distinct [eigenvalues](ela-001Q) of #{A}.}
+\li{The [minimal polynomial](ra-0051) factorizes as #{m_{A}(x)=\prod_{i}(x-\lambda_{i})} where each #{\lambda_{i}} is distinct.}
+}
+
+\rmk{If #{A} is diagonalizable, then its Jordan Canonical Form consists of #{1\tiems 1} [Jordan blocks](ra-005A).}

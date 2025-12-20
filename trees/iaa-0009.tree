@@ -89,6 +89,7 @@
 \transclude{ra-004X} % p-primary component of a module over a PID
 
 \transclude{ra-004Y} % classification of finitely-generated Abelian groups
+\transclude{ra-0059} % canonical forms of matrices as application
 \transclude{ra-004Z} % F[x] modules are vector spaces equipped with an endomorphism
 \transclude{ela-001R} % characteristic polynomial of a matrix
 \transclude{ra-0050} % characteristic polynomial of a matrix is a monic polynomial
@@ -99,6 +100,12 @@
 \transclude{ra-0055} % RCF of a matrix
 \transclude{ra-0057} % A ~ B iff RCF(A) = RCF(B)
 \transclude{ra-0052} % Cayley-Hamilton theorem
+
+\transclude{ra-0058} % stable conjugacy
+
+\transclude{ra-005B} % idea of JCF
+\transclude{ra-005A} % jordan block
+\transclude{ra-005C} % criteria for diagonalizability of a matrix
 
 % 367
 % 10.1-10.3

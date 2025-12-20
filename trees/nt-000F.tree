@@ -1,0 +1,12 @@
+\title{Field extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{\FF} be a field. A \define{Field Extension} of #{\FF} is a field denoted #{\kk / \FF} is a field #{\kk} containing #{\FF} as a subfield. We say, "#{\kk} is over #{\FF}" and write this as:}
+\quiver{
+  \begin{tikzcd}\kk\arrow[d, dash]\\
+  \FF
+  \end{tikzcd}
+}

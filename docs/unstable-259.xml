@@ -7,18 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>475</fr:anchor><fr:addr
-type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>913</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
-type="local"
-href="ra-0013.xml"
-addr="ra-0013"
-title="Trivial ideal">Trivial ideal</fr:link>). Then Zorn's lemma implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can write down
+<fr:tex
+display="block"><![CDATA[\det (Ix - C_{f}) = \left |\begin {matrix}x & 0 & 0 & … & a_{0}\\ -1 & x & 0 & … & a_{1}\\  0 & -1 & x & … & a_{2}\\ \vdots  & \vdots  & \ddots  & \ddots  & \vdots \\  0 & 0 & … & -1 & x + a_{n-1}\end {matrix}\right |]]></fr:tex>
+ We can add <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> times the last row to the previous row, and then add <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> times that resulting row to the previous row, and so on, and we get (since the determinant is invariant under elementary row operations),
+<fr:tex
+display="block"><![CDATA[\det (Ix - C_{f}) = \left |\begin {matrix}0 & 0 & 0 & … & f(x)\\ -1 & 0 & 0 & … & *\\  0 & -1 & 0 & … & *\\ \vdots  & \vdots  & \ddots  & \ddots  & \vdots \\  0 & 0 & … & -1 & *\end {matrix}\right |]]></fr:tex>
+We see this is equal to
+<fr:tex
+display="block"><![CDATA[\begin {align*}\det (Ix-C_{f})&=(-1)^{\deg (f)-1}f(x)\left |\begin {matrix}-1 & & \\  & \ddots  & \\  &  & -1\end {matrix}\right |\\  &=(-1)^{\deg (f)-1}f(x)\det (-I_{\deg (f)-1})\\  &=(-1)^{\deg (f)-1}f(x)(-1)^{\deg (f)-1}\\  &=f(x).\end {align*}]]></fr:tex>
+Hence the result.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -35,29 +40,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>477</fr:anchor><fr:addr
-type="user">ra-001H</fr:addr><fr:route>ra-001H.xml</fr:route><fr:title
-text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>915</fr:anchor><fr:addr
+type="user">ra-0056</fr:addr><fr:route>ra-0056.xml</fr:route><fr:title
+text="Characteristic polynomial of a companion matrix is the monic polynomial">Characteristic polynomial of a companion matrix is the monic polynomial</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Krull's <fr:link
+name="source">Marc van Leeuwen, <fr:link
+type="external"
+href="https://math.stackexchange.com/a/78937/31693">Math.SE</fr:link> 2011</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> be a nonconstant monic polynomial. Then the <fr:link
 type="local"
-href="krull-1929-idealtheorie.xml"
-addr="krull-1929-idealtheorie"
-title="Idealtheorie in Ringen ohne Endlichkeitsbedingung">Idealtheorie in Ringen ohne Endlichkeitsbedingung</fr:link> (1929)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R\neq 0]]></fr:tex> be a nonzero unital <fr:link
+href="ela-001R.xml"
+addr="ela-001R"
+title="Characteristic polynomial of a matrix">characteristic polynomial</fr:link> of the <fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>. Then there exists a <fr:link
-type="local"
-href="ra-001C.xml"
-addr="ra-001C"
-title="Maximal ideal">maximal ideal</fr:link> <fr:tex
-display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+href="ra-0053.xml"
+addr="ra-0053"
+title="Companion Matrix">companion matrix</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is equal to <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, i.e.,
+<fr:tex
+display="block"><![CDATA[c_{C_{f}}(x)=f(x).]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -67,44 +73,24 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>479</fr:anchor><fr:addr
-type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>795</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
-type="local"
-href="ra-0013.xml"
-addr="ra-0013"
-title="Trivial ideal">Trivial ideal</fr:link>). Then Zorn's lemma implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can write down
+<fr:tex
+display="block"><![CDATA[\det (Ix - C_{f}) = \left |\begin {matrix}x & 0 & 0 & … & a_{0}\\ -1 & x & 0 & … & a_{1}\\  0 & -1 & x & … & a_{2}\\ \vdots  & \vdots  & \ddots  & \ddots  & \vdots \\  0 & 0 & … & -1 & x + a_{n-1}\end {matrix}\right |]]></fr:tex>
+ We can add <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> times the last row to the previous row, and then add <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> times that resulting row to the previous row, and so on, and we get (since the determinant is invariant under elementary row operations),
+<fr:tex
+display="block"><![CDATA[\det (Ix - C_{f}) = \left |\begin {matrix}0 & 0 & 0 & … & f(x)\\ -1 & 0 & 0 & … & *\\  0 & -1 & 0 & … & *\\ \vdots  & \vdots  & \ddots  & \ddots  & \vdots \\  0 & 0 & … & -1 & *\end {matrix}\right |]]></fr:tex>
+We see this is equal to
+<fr:tex
+display="block"><![CDATA[\begin {align*}\det (Ix-C_{f})&=(-1)^{\deg (f)-1}f(x)\left |\begin {matrix}-1 & & \\  & \ddots  & \\  &  & -1\end {matrix}\right |\\  &=(-1)^{\deg (f)-1}f(x)\det (-I_{\deg (f)-1})\\  &=(-1)^{\deg (f)-1}f(x)(-1)^{\deg (f)-1}\\  &=f(x).\end {align*}]]></fr:tex>
+Hence the result.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr
-type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
-<fr:p>(2) The condition that <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
-display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
-<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
-type="external"
-href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

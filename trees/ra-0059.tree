@@ -1,0 +1,13 @@
+\title{Canonical forms of matrices from fundamental theorem of finitely-generated modules over PIDs}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{remark}
+
+\p{We should observe that if #{\FF} is a field, then #{\FF[x]} is a principal ideal domain. The idea is that if we have a linear operator #{L\colon M\to M} where #{M} is a finitely-dimensional vector space over #{\FF}, then #{M} is a finitely-generated module over #{\FF[x]} where #{x} acts on #{M} as described by #{L}.}
+
+\p{Then the decomposition of #{M} as a finitely-generated module over #{\FF[x]} into a direct sum of submodules gives us a decomposition of #{L} into a block diagonal matrix.}
+
+\p{Depending on which form of the fundamental theorem we use, we end up with two different decompositions of #{L} into either the rational canonical form or the Jordan canonical form.}
+
+\rmk{This is also kind of a convoluted application of the fundamental theorem. Marc van Leeuwen [gave a simpler](https://math.stackexchange.com/a/78937/31693) derivation of the rational canonical form of a matrix without this convoluted dependence on the fundamental theorem of finitely-generated modules over principal ideal domains.}

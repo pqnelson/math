@@ -7,22 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9556</fr:anchor><fr:addr
-type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2538</fr:anchor><fr:addr
+type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A better definition would be <fr:tex
-display="inline"><![CDATA[(x,y)=\{\{0,x\},\{1,y\}\}]]></fr:tex> because then the <fr:link
-type="local"
-href="nst-000O.xml"
-addr="nst-000O"
-title="Cartesian product of two sets">Cartesian product of two sets</fr:link> coincides with the <fr:link
-type="local"
-href="nst-002E.xml"
-addr="nst-002E"
-title="Product of family of sets">Product of family of sets</fr:link> when <fr:tex
-display="inline"><![CDATA[I=\{0,1\}]]></fr:tex> is the indexing set.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This can be generalized to any commutative ring; Matsumara calls it the "total quotient ring" (or the "total ring of fractions").</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -37,29 +27,31 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9558</fr:anchor><fr:addr
-type="user">nst-000M</fr:addr><fr:route>nst-000M.xml</fr:route><fr:title
-text="Ordered pairs">Ordered pairs</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2540</fr:anchor><fr:addr
+type="user">ra-002B</fr:addr><fr:route>ra-002B.xml</fr:route><fr:title
+text="Universal property of field of fractions">Universal property of field of fractions</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be any <fr:link
 type="local"
-href="paul-r-halmos.xml"
-addr="paul-r-halmos"
-title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>. Then there exists a unique <fr:link
 type="local"
-href="halmos-1974-naive.xml"
-addr="halmos-1974-naive"
-title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/tarski.html#K4">tarski:def 5</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> be objects. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Ordered Pair</html:dfn> to be the object <fr:tex
-display="inline"><![CDATA[(x,y) = \{\{x\},\{x,y\}\}]]></fr:tex>.</fr:p>
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (unique up to isomorphism) and an injection <fr:tex
+display="inline"><![CDATA[i\colon  R\hookrightarrow \mathbb {F}]]></fr:tex> such that for all other fields <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\hookrightarrow \Bbbk ]]></fr:tex>, then there exists an extension <fr:tex
+display="inline"><![CDATA[\overline {\varphi }\colon \mathbb {F}\hookrightarrow \Bbbk ]]></fr:tex> such that the following diagram commutes:</fr:p><fr:tex
+display="block"><![CDATA[\begin {array}{ccc}R & \xrightarrow {\varphi } & \Bbbk \\ \downarrow ^{i} & & \parallel \\ \mathbb {F} & \xrightarrow {\overline {\varphi }} & \Bbbk \end {array}]]></fr:tex><fr:p>We call <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Fractions</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -69,21 +61,11 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3836</fr:anchor><fr:addr
-type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1355</fr:anchor><fr:addr
+type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A better definition would be <fr:tex
-display="inline"><![CDATA[(x,y)=\{\{0,x\},\{1,y\}\}]]></fr:tex> because then the <fr:link
-type="local"
-href="nst-000O.xml"
-addr="nst-000O"
-title="Cartesian product of two sets">Cartesian product of two sets</fr:link> coincides with the <fr:link
-type="local"
-href="nst-002E.xml"
-addr="nst-002E"
-title="Product of family of sets">Product of family of sets</fr:link> when <fr:tex
-display="inline"><![CDATA[I=\{0,1\}]]></fr:tex> is the indexing set.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This can be generalized to any commutative ring; Matsumara calls it the "total quotient ring" (or the "total ring of fractions").</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

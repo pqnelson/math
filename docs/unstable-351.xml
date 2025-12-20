@@ -7,16 +7,33 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2221</fr:anchor><fr:addr
-type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11856</fr:anchor><fr:addr
+type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is commutative, <fr:tex
-display="inline"><![CDATA[g^{h}=g]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[g,h\in  G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[H^{g}=\{h^{g}=h\mid  g\in  G\}=H]]></fr:tex>. Hence the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
+display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
+display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -33,33 +50,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2223</fr:anchor><fr:addr
-type="user">gr-002S</fr:addr><fr:route>gr-002S.xml</fr:route><fr:title
-text="Every subgroup of a commutative group is normal">Every subgroup of a commutative group is normal</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11858</fr:anchor><fr:addr
+type="user">nst-000N</fr:addr><fr:route>nst-000N.xml</fr:route><fr:title
+text="Ordered pairs implement their specification">Ordered pairs implement their specification</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
 name="source">MML <fr:link
 type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_3.html#T116">group_3:116</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000J.xml"
-addr="gr-000J"
-title="Abelian group">Abelian group</fr:link>. Let <fr:tex
-display="inline"><![CDATA[H\leq  G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-001B.xml"
-addr="gr-001B"
-title="Subgroup">Subgroup</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is a <fr:link
-type="local"
-href="gr-002P.xml"
-addr="gr-002P"
-title="Normal subgroup">Normal subgroup</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+href="https://mizar.uwb.edu.pl/version/current/html/xtuple_0.html#T1">xtuple_0:1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[c]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> be objects. If <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -69,16 +85,33 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1115</fr:anchor><fr:addr
-type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2861</fr:anchor><fr:addr
+type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is commutative, <fr:tex
-display="inline"><![CDATA[g^{h}=g]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[g,h\in  G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[H^{g}=\{h^{g}=h\mid  g\in  G\}=H]]></fr:tex>. Hence the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
+display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
+display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
+display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

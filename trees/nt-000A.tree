@@ -1,0 +1,11 @@
+\title{Characteristic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{\FF} be a field. There is a unique ring morphism #{\phi\colon\ZZ\to\FF} where #{\phi(1)=1}. We define the \define{Characteristic} of #{\FF} to be the smallest positive integer #{n} such that #{(n)=\ker(\phi)}, if such an #{n>0} exists. Otherwise the characteristic of #{\FF} is 0.}
+
+\p{We write #{\Char(\FF)} for the characteristic of #{\FF}.}
+
+\rmk{The #{\Char(\FF)} is either a prime number or zero.}

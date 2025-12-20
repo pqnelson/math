@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14778</fr:anchor><fr:addr
+type="machine">#463</fr:addr><fr:route>unstable-463.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
+display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
+display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
+display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14780</fr:anchor><fr:addr
+type="user">sl-0005</fr:addr><fr:route>sl-0005.xml</fr:route><fr:title
+text="Elementary linear group is a subgroup of special linear group">Elementary linear group is a subgroup of special linear group</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital associative <fr:strong>commutative</fr:strong> <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> be a natural number. Then <fr:tex
+display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subgroup of <fr:tex
+display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8061</fr:anchor><fr:addr
+type="machine">#463</fr:addr><fr:route>unstable-463.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
+display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
+display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
+display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

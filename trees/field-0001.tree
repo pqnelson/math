@@ -20,4 +20,4 @@
 }
 \p{Note that some of these are redundant.}
 
-\p{Also note: fields are usually written in blackboard bold, and the generic field is either #{\FF} or #{\Bbbk} (since the German word for field is "\textit{Körper}").}
+\p{Also note: fields are usually written in blackboard bold, and the generic field is either #{\FF} or #{\kk} (since the German word for field is "\textit{Körper}").}

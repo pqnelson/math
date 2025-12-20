@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13910</fr:anchor><fr:addr
+type="machine">#459</fr:addr><fr:route>unstable-459.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[E=\{x_{1},…,x_{n}\}]]></fr:tex>. We will show <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex> is an <fr:link
+type="local"
+href="ca-000M.xml"
+addr="ca-000M"
+title="Open Set">Open Set</fr:link>. So for any <fr:tex
+display="inline"><![CDATA[x\in  X\setminus  E]]></fr:tex>, we find <fr:tex
+display="inline"><![CDATA[r>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[r<\max \{d(x,x_{i})\mid  x_{i}\in  E\}]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[B_{r}(x)\subseteq  E^{\complement }=X\setminus  E]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[E^{\complement }]]></fr:tex> is open. Hence <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13912</fr:anchor><fr:addr
+type="user">ca-000S</fr:addr><fr:route>ca-000S.xml</fr:route><fr:title
+text="Finite subsets of metric spaces are closed">Finite subsets of metric spaces are closed</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Any finite subset of a metric space <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> is a <fr:link
+type="local"
+href="ca-000P.xml"
+addr="ca-000P"
+title="Closed Subset">Closed Subset</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8492</fr:anchor><fr:addr
+type="machine">#459</fr:addr><fr:route>unstable-459.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[E=\{x_{1},…,x_{n}\}]]></fr:tex>. We will show <fr:tex
+display="inline"><![CDATA[X\setminus  E]]></fr:tex> is an <fr:link
+type="local"
+href="ca-000M.xml"
+addr="ca-000M"
+title="Open Set">Open Set</fr:link>. So for any <fr:tex
+display="inline"><![CDATA[x\in  X\setminus  E]]></fr:tex>, we find <fr:tex
+display="inline"><![CDATA[r>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[r<\max \{d(x,x_{i})\mid  x_{i}\in  E\}]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[B_{r}(x)\subseteq  E^{\complement }=X\setminus  E]]></fr:tex>. This means <fr:tex
+display="inline"><![CDATA[E^{\complement }]]></fr:tex> is open. Hence <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

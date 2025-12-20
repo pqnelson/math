@@ -7,17 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2145</fr:anchor><fr:addr
-type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3670</fr:anchor><fr:addr
+type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[h\in  C_{G}(g)]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[hg=gh]]></fr:tex> and so <fr:tex
-display="inline"><![CDATA[g=h^{-1}gh=g^{h}]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[h]]></fr:tex> is a fixed-point of <fr:tex
-display="inline"><![CDATA[g\cdot -]]></fr:tex>. This argument holds backwards, which establishes the bijection.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to prove that all 8 axioms are satisfied, but they are straightforward arithmetic.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -34,31 +29,18 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2147</fr:anchor><fr:addr
-type="user">gr-004M</fr:addr><fr:route>gr-004M.xml</fr:route><fr:title
-text="Centralizer is fixed-point of conjugation action">Centralizer is fixed-point of conjugation action</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3672</fr:anchor><fr:addr
+type="user">ra-0001</fr:addr><fr:route>ra-0001.xml</fr:route><fr:title
+text="Integers are a ring">Integers are a ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The integers <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> equipped with the usual addition and multiplication forms a <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. Consider the <fr:link
-type="local"
-href="gr-004H.xml"
-addr="gr-004H"
-title="Conjugation action">Conjugation action</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on itself. Let <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex>. Then the <fr:link
-type="local"
-href="gr-001Q.xml"
-addr="gr-001Q"
-title="Centralizer of an element">centralizer</fr:link> <fr:tex
-display="inline"><![CDATA[C_{G}(g)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> is the set of all fixed-points of <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> under this action.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -68,18 +50,30 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1287</fr:anchor><fr:addr
-type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1085</fr:anchor><fr:addr
+type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[h\in  C_{G}(g)]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[hg=gh]]></fr:tex> and so <fr:tex
-display="inline"><![CDATA[g=h^{-1}gh=g^{h}]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[h]]></fr:tex> is a fixed-point of <fr:tex
-display="inline"><![CDATA[g\cdot -]]></fr:tex>. This argument holds backwards, which establishes the bijection.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to prove that all 8 axioms are satisfied, but they are straightforward arithmetic.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1087</fr:anchor><fr:addr
+type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The integers are the <fr:em>epitome</fr:em> of a ring.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

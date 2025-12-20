@@ -7,15 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>523</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>945</fr:anchor><fr:addr
+type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To prove well-definedness, we should prove <fr:tex
-display="inline"><![CDATA[R/I]]></fr:tex> equipped with these operators form a ring (since existence and uniqueness follow from the quotient group). Specifically, that multiplication exists and satisfies the various axioms.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) The first claim, viewed as Abelian groups, holds "on the nose" (i.e., we have equality of the underlying Abelian groups).</fr:p>
+<fr:p>(2) The second claim is when we want to consider if our module is cyclic, or if we want to consider the annihilator of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -30,54 +29,35 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>525</fr:anchor><fr:addr
-type="user">ra-0015</fr:addr><fr:route>ra-0015.xml</fr:route><fr:title
-text="Quotient Ring">Quotient Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>947</fr:anchor><fr:addr
+type="user">ra-004W</fr:addr><fr:route>ra-004W.xml</fr:route><fr:title
+text="Fundamental theorem of finitely-generated modules over PIDs">Fundamental theorem of finitely-generated modules over PIDs</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
-type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 7.3.6</fr:meta><fr:meta
-name="source">Artin <fr:link
-type="local"
-href="artin-2010-algebra.xml"
-addr="artin-2010-algebra"
-title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
-name="source">Hungerford <fr:link
-type="local"
-href="hungerford-1974-algebra.xml"
-addr="hungerford-1974-algebra"
-title="Algebra">Algebra</fr:link> Theorem III.2.7</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/ring_1.html#K2">ring_1:def 6</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link> and <fr:tex
-display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link
-type="external"
-href="ring-0011">ring-0011</fr:link> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. Then the additive quotient group <fr:tex
-display="inline"><![CDATA[R/I]]></fr:tex> is a ring under the following binary operators
-<fr:tex
-display="block"><![CDATA[(r+I)+(s+I)=(r+s)+I]]></fr:tex>
-and
-<fr:tex
-display="block"><![CDATA[(r+I)(s+I)=(rs)+I]]></fr:tex>
-for all <fr:tex
-display="inline"><![CDATA[r,s\in  R]]></fr:tex>.</fr:p><fr:p>Furthermore,
-<fr:ol><fr:li>If <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is commutative, then <fr:tex
-display="inline"><![CDATA[R/I]]></fr:tex> is commutative.</fr:li>
-<fr:li>If <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is unital, then <fr:tex
-display="inline"><![CDATA[R/I]]></fr:tex> is unital.</fr:li></fr:ol></fr:p>
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a <fr:link
+type="local"
+href="ra-004A.xml"
+addr="ra-004A"
+title="Finitely-Generated Submodule">finitely-generated</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. Then the following all hold:</fr:p><fr:ol><fr:li>We have <fr:tex
+display="inline"><![CDATA[M\cong \bigoplus  R/(p_{j}^{\alpha _{j}})]]></fr:tex> where each <fr:tex
+display="inline"><![CDATA[p_{j}]]></fr:tex> are <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">prime</fr:link> and <fr:tex
+display="inline"><![CDATA[\alpha _{j}\in \mathbb {N}]]></fr:tex>.</fr:li>
+<fr:li>We have <fr:tex
+display="inline"><![CDATA[M\cong \bigoplus  R/(m_{j})]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[m_{1}\mathrel {\bigm |} m_{2}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[m_{2}\mathrel {\bigm |} m_{3}]]></fr:tex> and ….</fr:li></fr:ol>
  
    
    <fr:tree
@@ -87,13 +67,45 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>527</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>761</fr:anchor><fr:addr
+type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To prove well-definedness, we should prove <fr:tex
-display="inline"><![CDATA[R/I]]></fr:tex> equipped with these operators form a ring (since existence and uniqueness follow from the quotient group). Specifically, that multiplication exists and satisfies the various axioms.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) The first claim, viewed as Abelian groups, holds "on the nose" (i.e., we have equality of the underlying Abelian groups).</fr:p>
+<fr:p>(2) The second claim is when we want to consider if our module is cyclic, or if we want to consider the annihilator of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>763</fr:anchor><fr:addr
+type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can see the equivalence of the two claims writing <fr:tex
+display="inline"><![CDATA[m_{r}=\prod  p^{\alpha _{p,r}}]]></fr:tex> and if <fr:tex
+display="inline"><![CDATA[m_{i}\mathrel {\bigm |} m_{r}]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[m_{i}=\prod  p^{\alpha _{p,i}}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[\alpha _{p,i}\leq \alpha _{p,r}]]></fr:tex>. The <fr:link
+type="local"
+href="ra-0029.xml"
+addr="ra-0029"
+title="Abstract Chinese Remainder Theorem">Abstract Chinese Remainder Theorem</fr:link> gives us <fr:tex
+display="inline"><![CDATA[R/m\cong \bigoplus _{p}R/p^{\alpha _{p}}]]></fr:tex>. Then we can convert the summands from one form to the other, and reorder as needed. Also note if <fr:tex
+display="inline"><![CDATA[p_{1}\neq  p_{2}]]></fr:tex>, then these give us <fr:link
+type="local"
+href="ra-0024.xml"
+addr="ra-0024"
+title="Comaximal ideals">Comaximal ideals</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1461</fr:anchor><fr:addr
+type="user">ra-0046</fr:addr><fr:route>ra-0046.xml</fr:route><fr:title
+text="Exercises about hom-sets of modules">Exercises about hom-sets of modules</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a ring.</fr:p><fr:ol><fr:li>Let <fr:tex
+display="inline"><![CDATA[X\in \mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrix with entries in <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\det (X)\neq 0]]></fr:tex>, then is <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> invertible as a matrix? (Does <fr:tex
+display="inline"><![CDATA[\det (X)]]></fr:tex> even make sense if <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is noncommutative?)</fr:li>
+<fr:li>For any <fr:tex
+display="inline"><![CDATA[m,n\in \mathbb {N}]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[R^{m}\cong  R^{n}]]></fr:tex> as modules, then is it true that <fr:tex
+display="inline"><![CDATA[m=n]]></fr:tex>?</fr:li>
+<fr:li>Does the notion of a <fr:link
+type="local"
+href="vectsp-000T.xml"
+addr="vectsp-000T"
+title="Basis of vector space">"basis"</fr:link> carry over to <fr:tex
+display="inline"><![CDATA[R^{n}]]></fr:tex>?</fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1463</fr:anchor><fr:addr
+type="user">vectsp-000T</fr:addr><fr:route>vectsp-000T.xml</fr:route><fr:title
+text="Basis of vector space">Basis of vector space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Definition 2.26</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 5.3.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[v_{1},…,v_{m}\in  V]]></fr:tex> be vectors. We say <fr:tex
+display="inline"><![CDATA[B=\{v_{1},…,v_{m}\}]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Basis</html:dfn> of <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is <fr:link
+type="local"
+href="vectsp-000Q.xml"
+addr="vectsp-000Q"
+title="Linearly Independent Vectors">linearly independent</fr:link> and <fr:tex
+display="inline"><![CDATA[\mathrm {span}(B)=V]]></fr:tex>.</fr:p><fr:p>Compare this to <fr:link
+type="local"
+href="ela-000U.xml"
+addr="ela-000U"
+title="Basis of Vector Space">Basis of Vector Space</fr:link> from elementary linear algebra.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,14 +7,22 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2249</fr:anchor><fr:addr
-type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7122</fr:anchor><fr:addr
+type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This means we can speak of "<fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> are conjugate" or mix up the ordering of arguments in this predicate freely and wildly.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Assume <fr:tex
+display="inline"><![CDATA[ac=bc]]></fr:tex>, then multiply both sides on the right by <fr:tex
+display="inline"><![CDATA[c^{-1}]]></fr:tex>, we see the left-hand side becomes <fr:tex
+display="inline"><![CDATA[(ac)c^{-1}=a(cc^{-1})=ae=a]]></fr:tex> by assocativity and inverse, and the right-hand side becomes <fr:tex
+display="inline"><![CDATA[(bc)c^{-1}=b(cc^{-1})=be=b]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b]]></fr:tex>.</fr:p>
+<fr:p>(2) Assume <fr:tex
+display="inline"><![CDATA[ca=cb]]></fr:tex>. Multiply both sides on the left by <fr:tex
+display="inline"><![CDATA[c^{-1}]]></fr:tex> gives the result by similar reasoning as (1).</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,31 +37,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2251</fr:anchor><fr:addr
-type="user">gr-002G</fr:addr><fr:route>gr-002G.xml</fr:route><fr:title
-text="Conjugate subsets forms a symmetric relation">Conjugate subsets forms a symmetric relation</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7124</fr:anchor><fr:addr
+type="user">gr-000R</fr:addr><fr:route>gr-000R.xml</fr:route><fr:title
+text="Cancellation law">Cancellation law</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
 name="source">MML <fr:link
 type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_3.html#T90">group_3:90</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#T6">group_1:6</fr:link></fr:meta><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 1.1.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
 type="local"
 href="gr-000G.xml"
 addr="gr-000G"
-title="Group">Group</fr:link>. Let <fr:tex
-display="inline"><![CDATA[A\subseteq  G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B\subseteq  G]]></fr:tex> be subsets of G. If <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> <fr:link
-type="local"
-href="gr-002E.xml"
-addr="gr-002E"
-title="Predicate &quot;are conjugated&quot; for subsets">is conjugate to</fr:link> <fr:tex
-display="inline"><![CDATA[B]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is conjugate to <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>.</fr:p>
+title="Group">Group</fr:link>, let <fr:tex
+display="inline"><![CDATA[a,b,c\in  G]]></fr:tex>. Then the following all hold:
+<fr:ol><fr:li>If <fr:tex
+display="inline"><![CDATA[ac=bc]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a=b]]></fr:tex>; and</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[ca=cb]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a=b]]></fr:tex>.</fr:li></fr:ol></fr:p>
  
    
    <fr:tree
@@ -63,13 +73,21 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1081</fr:anchor><fr:addr
-type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1694</fr:anchor><fr:addr
+type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This means we can speak of "<fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> are conjugate" or mix up the ordering of arguments in this predicate freely and wildly.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Assume <fr:tex
+display="inline"><![CDATA[ac=bc]]></fr:tex>, then multiply both sides on the right by <fr:tex
+display="inline"><![CDATA[c^{-1}]]></fr:tex>, we see the left-hand side becomes <fr:tex
+display="inline"><![CDATA[(ac)c^{-1}=a(cc^{-1})=ae=a]]></fr:tex> by assocativity and inverse, and the right-hand side becomes <fr:tex
+display="inline"><![CDATA[(bc)c^{-1}=b(cc^{-1})=be=b]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[a=b]]></fr:tex>.</fr:p>
+<fr:p>(2) Assume <fr:tex
+display="inline"><![CDATA[ca=cb]]></fr:tex>. Multiply both sides on the left by <fr:tex
+display="inline"><![CDATA[c^{-1}]]></fr:tex> gives the result by similar reasoning as (1).</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

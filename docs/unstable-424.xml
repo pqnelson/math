@@ -7,39 +7,38 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8479</fr:anchor><fr:addr
-type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7150</fr:anchor><fr:addr
+type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. We know <fr:tex
-display="inline"><![CDATA[\vec {0}\in \ker (L)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> be arbitrary. Then <fr:tex
-display="inline"><![CDATA[L(v)=\vec {0}_{W}=L(\vec {0_{V}})]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[v=\vec {0}_{V}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}_{V}\}]]></fr:tex> as desired.</fr:p>
-
-<fr:p>Now, assume <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>. We will show that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) When the binary operator for the group is commutative, we usually use <fr:tex
+display="inline"><![CDATA[+]]></fr:tex> for the binary operator and <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> for the identity element.</fr:p>
+<fr:p>(2) The "exact formalization" varies. For example, we could have equipped <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with a binary operator <fr:tex
+display="inline"><![CDATA[\star ]]></fr:tex>, a unary operator <fr:tex
+display="inline"><![CDATA[(-)^{-1}\colon  G\to  G]]></fr:tex>, and a constant element <fr:tex
+display="inline"><![CDATA[e\in  G]]></fr:tex>; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.</fr:p>
+<fr:p>(3) The intuition is that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> consists of <fr:link
 type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> Let <fr:tex
-display="inline"><![CDATA[u,v\in  V]]></fr:tex>. Suppose <fr:tex
-display="inline"><![CDATA[L(u)=L(v)]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\vec {0}_{W}=L(u)-L(v)=L(u-v),]]></fr:tex>
-so <fr:tex
-display="inline"><![CDATA[(u-v)\in \ker (L)]]></fr:tex>. But by assumption, this means <fr:tex
-display="inline"><![CDATA[(u-v)\in \{\vec {0}_{V}\}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[u-v=\vec {0}_{V}]]></fr:tex>, which means (by adding <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> to both sides) <fr:tex
-display="inline"><![CDATA[u=v]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="ela-001K.xml"
+addr="ela-001K"
+title="Bijective function">bijections</fr:link> from a set to itself, and the binary operator is just the <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link> and the identity element is just the <fr:link
+type="local"
+href="nst-0017.xml"
+addr="nst-0017"
+title="Identity function">Identity function</fr:link>. These bijections are "symmetries" of the set.</fr:p>
+<fr:p>(4) See also Forrester-Barker's <fr:link
+type="local"
+href="forrester-2002-group.xml"
+addr="forrester-2002-group"
+title="Group objects and internal categories">Group objects and internal categories</fr:link> for a way to generalize the notion of groups to other settings.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -54,30 +53,41 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8481</fr:anchor><fr:addr
-type="user">vectsp-001C</fr:addr><fr:route>vectsp-001C.xml</fr:route><fr:title
-text="Linear transformation is injective iff kernel is trivial">Linear transformation is injective iff kernel is trivial</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7152</fr:anchor><fr:addr
+type="user">gr-000G</fr:addr><fr:route>gr-000G.xml</fr:route><fr:title
+text="Group">Group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#NM1">group_1:def</fr:link></fr:meta><fr:meta
+name="source">Dummit and Foote <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 3.15</fr:meta><fr:meta
-name="source"><fr:link
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Group</html:dfn> consists of a set <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> equipped with an <fr:link
 type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.6</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link> <fr:tex
+display="inline"><![CDATA[\star ]]></fr:tex> and an <fr:link
 type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> if and only if <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>.</fr:p>
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">Identity element</fr:link> with respect to <fr:tex
+display="inline"><![CDATA[\star ]]></fr:tex>, usually denoted either <fr:tex
+display="inline"><![CDATA[e\in  G]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[1\in  G]]></fr:tex>, such that every element has a unique <fr:link
+type="local"
+href="gr-000C.xml"
+addr="gr-000C"
+title="Inverse of an element with respect to a binary operator">inverse</fr:link>,
+<fr:tex
+display="block"><![CDATA[\forall  a\in  G\ldotp \exists  a^{-1}\in  A\ldotp  a\star  a^{-1}=a^{-1}\star  a=e.]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -87,38 +97,37 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4342</fr:anchor><fr:addr
-type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1626</fr:anchor><fr:addr
+type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective. We know <fr:tex
-display="inline"><![CDATA[\vec {0}\in \ker (L)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> be arbitrary. Then <fr:tex
-display="inline"><![CDATA[L(v)=\vec {0}_{W}=L(\vec {0_{V}})]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[v=\vec {0}_{V}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}_{V}\}]]></fr:tex> as desired.</fr:p>
-
-<fr:p>Now, assume <fr:tex
-display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>. We will show that <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) When the binary operator for the group is commutative, we usually use <fr:tex
+display="inline"><![CDATA[+]]></fr:tex> for the binary operator and <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> for the identity element.</fr:p>
+<fr:p>(2) The "exact formalization" varies. For example, we could have equipped <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with a binary operator <fr:tex
+display="inline"><![CDATA[\star ]]></fr:tex>, a unary operator <fr:tex
+display="inline"><![CDATA[(-)^{-1}\colon  G\to  G]]></fr:tex>, and a constant element <fr:tex
+display="inline"><![CDATA[e\in  G]]></fr:tex>; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.</fr:p>
+<fr:p>(3) The intuition is that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> consists of <fr:link
 type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link> Let <fr:tex
-display="inline"><![CDATA[u,v\in  V]]></fr:tex>. Suppose <fr:tex
-display="inline"><![CDATA[L(u)=L(v)]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\vec {0}_{W}=L(u)-L(v)=L(u-v),]]></fr:tex>
-so <fr:tex
-display="inline"><![CDATA[(u-v)\in \ker (L)]]></fr:tex>. But by assumption, this means <fr:tex
-display="inline"><![CDATA[(u-v)\in \{\vec {0}_{V}\}]]></fr:tex>, which implies <fr:tex
-display="inline"><![CDATA[u-v=\vec {0}_{V}]]></fr:tex>, which means (by adding <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> to both sides) <fr:tex
-display="inline"><![CDATA[u=v]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is injective.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+href="ela-001K.xml"
+addr="ela-001K"
+title="Bijective function">bijections</fr:link> from a set to itself, and the binary operator is just the <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link> and the identity element is just the <fr:link
+type="local"
+href="nst-0017.xml"
+addr="nst-0017"
+title="Identity function">Identity function</fr:link>. These bijections are "symmetries" of the set.</fr:p>
+<fr:p>(4) See also Forrester-Barker's <fr:link
+type="local"
+href="forrester-2002-group.xml"
+addr="forrester-2002-group"
+title="Group objects and internal categories">Group objects and internal categories</fr:link> for a way to generalize the notion of groups to other settings.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

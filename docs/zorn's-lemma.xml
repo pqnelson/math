@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3534</fr:anchor><fr:addr
+type="user">zorn's-lemma</fr:addr><fr:route>zorn's-lemma.xml</fr:route><fr:title
+text="Zorn's lemma">Zorn's lemma</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. If every <fr:link
+type="local"
+href="nst-002Q.xml"
+addr="nst-002Q"
+title="Chain">chain</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has an <fr:link
+type="local"
+href="nst-002R.xml"
+addr="nst-002R"
+title="Upper bound">upper bound</fr:link>, then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has a <fr:link
+type="local"
+href="nst-002S.xml"
+addr="nst-002S"
+title="Maximal element">Maximal element</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2170</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is logically equivalent to the <fr:link
+type="local"
+href="nst-002M.xml"
+addr="nst-002M"
+title="Axiom of Choice">Axiom of Choice</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3536</fr:anchor><fr:addr
+type="user">nst-002L</fr:addr><fr:route>nst-002L.xml</fr:route><fr:title
+text="Choice">Choice</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The axiom of choice appears in various forms in modern Mathematics. This section may be skipped and returned to when needed.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2737</fr:anchor><fr:addr
+type="user">nst-002M</fr:addr><fr:route>nst-002M.xml</fr:route><fr:title
+text="Axiom of Choice">Axiom of Choice</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> be an indexing set. Let <fr:tex
+display="inline"><![CDATA[\{S_{i}\}_{i\in  I}]]></fr:tex> be a family of nonempty sets indexed by <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>. The axiom of choice asserts the existence of a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">choice <fr:link
+type="local"
+href="nst-0014.xml"
+addr="nst-0014"
+title="Function">function</fr:link></html:dfn>, i.e., an indexed set <fr:tex
+display="inline"><![CDATA[(x_{i})_{i\in  I}]]></fr:tex> such that for each <fr:tex
+display="inline"><![CDATA[i\in  I]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x_{i}\in  S_{i}]]></fr:tex>.</fr:p><fr:p>In other words, we can choose "some arbitrary" <fr:tex
+display="inline"><![CDATA[x_{i}]]></fr:tex> from <fr:tex
+display="inline"><![CDATA[S_{i}]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[i\in  I]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2570</fr:anchor><fr:addr
+type="machine">#338</fr:addr><fr:route>unstable-338.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We stress, the "choice function" is a set-theoretic <fr:link
+type="local"
+href="nst-0014.xml"
+addr="nst-0014"
+title="Function">function</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2739</fr:anchor><fr:addr
+type="user">nst-002P</fr:addr><fr:route>nst-002P.xml</fr:route><fr:title
+text="Poset">Poset</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Partially Ordered Set</html:dfn> (or <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Poset</html:dfn>) is a set <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> equipped with a <fr:link
+type="local"
+href="nst-002O.xml"
+addr="nst-002O"
+title="Partial Order">Partial Order</fr:link> <fr:tex
+display="inline"><![CDATA[\leq ]]></fr:tex> usually denoted as a pair <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex>.</fr:p><fr:p>Note: not all elements are comparable in a poset, i.e., the trichotomy law (for all <fr:tex
+display="inline"><![CDATA[x,y\in  X]]></fr:tex> either <fr:tex
+display="inline"><![CDATA[x=y]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[y\leq  x]]></fr:tex>) does not need to hold.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2741</fr:anchor><fr:addr
+type="user">nst-002Q</fr:addr><fr:route>nst-002Q.xml</fr:route><fr:title
+text="Chain">Chain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Chain</html:dfn> is a subset <fr:tex
+display="inline"><![CDATA[C\subseteq  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x,y\in  C]]></fr:tex> either <fr:tex
+display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[y\leq  x]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2743</fr:anchor><fr:addr
+type="user">nst-002R</fr:addr><fr:route>nst-002R.xml</fr:route><fr:title
+text="Upper bound">Upper bound</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. Let <fr:tex
+display="inline"><![CDATA[A\subseteq  X]]></fr:tex> be some subset. An <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Upper Bound</html:dfn> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is an element <fr:tex
+display="inline"><![CDATA[u\in  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[a\in  A]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[a\leq  u]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2745</fr:anchor><fr:addr
+type="user">nst-002S</fr:addr><fr:route>nst-002S.xml</fr:route><fr:title
+text="Maximal element">Maximal element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Element</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an element <fr:tex
+display="inline"><![CDATA[m\in  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\leq  m]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2747</fr:anchor><fr:addr
+type="user">zorn's-lemma</fr:addr><fr:route>zorn's-lemma.xml</fr:route><fr:title
+text="Zorn's lemma">Zorn's lemma</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. If every <fr:link
+type="local"
+href="nst-002Q.xml"
+addr="nst-002Q"
+title="Chain">chain</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has an <fr:link
+type="local"
+href="nst-002R.xml"
+addr="nst-002R"
+title="Upper bound">upper bound</fr:link>, then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has a <fr:link
+type="local"
+href="nst-002S.xml"
+addr="nst-002S"
+title="Maximal element">Maximal element</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2170</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is logically equivalent to the <fr:link
+type="local"
+href="nst-002M.xml"
+addr="nst-002M"
+title="Axiom of Choice">Axiom of Choice</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3538</fr:anchor><fr:addr
+type="user">ra-004V</fr:addr><fr:route>ra-004V.xml</fr:route><fr:title
+text="Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module">Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a <fr:link
+type="local"
+href="ra-004A.xml"
+addr="ra-004A"
+title="Finitely-Generated Submodule">finitely-generated</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. Then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is <fr:link
+type="local"
+href="ra-003P.xml"
+addr="ra-003P"
+title="Torsion-Free Module">torsion-free</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is isomorphic to a submodule of a free module.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Any submodule of a free module over an integral domain is torsion-free.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is torsion-free. Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be the set of all linearly-independent subsets of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>. We can check that <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is nonempty (since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> being torsion-free and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> being an integral domain that <fr:tex
+display="inline"><![CDATA[\{m\}]]></fr:tex> is linearly independent for any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> nonzero <fr:tex
+display="inline"><![CDATA[m\neq 0]]></fr:tex>) and all ascending chains in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> admit an upper bound. Then by <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> there exists a maximal element in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. That is to say, there exists a maximal free submodule <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
+<fr:p>We claim that <fr:tex
+display="inline"><![CDATA[M/F]]></fr:tex> is torsion. If <fr:tex
+display="inline"><![CDATA[m+F\in  M]]></fr:tex> is not torsion, then the submodule <fr:tex
+display="inline"><![CDATA[Rm+F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is free and it properly contains <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is assumed to be torsion free, <fr:tex
+display="inline"><![CDATA[Rm]]></fr:tex> is free and thus it suffices to check <fr:tex
+display="inline"><![CDATA[Rm\cap  F=(0)]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[rm\in  F]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[r(m+F)=0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is finitely-generated then <fr:tex
+display="inline"><![CDATA[M/F]]></fr:tex> is finitely-generated and torsion. Then there exists some <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> nonzero <fr:tex
+display="inline"><![CDATA[a\neq 0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a(M/F)=0]]></fr:tex>. Equivalently <fr:tex
+display="inline"><![CDATA[aM\subseteq  F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is torsion-free, <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[aM]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3540</fr:anchor><fr:addr
+type="user">ra-002M</fr:addr><fr:route>ra-002M.xml</fr:route><fr:title
+text="Principal ideal domains are unique factorization domains">Principal ideal domains are unique factorization domains</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 8.3.14</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> be a nonzero non-invertible element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then there exists <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible elements</fr:link> <fr:tex
+display="inline"><![CDATA[p_{1},…,p_{n}\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a=p_{1}(…)p_{n}]]></fr:tex>. Further, if <fr:tex
+display="inline"><![CDATA[q_{1},…,q_{m}\in  R]]></fr:tex> are irreducible and such that <fr:tex
+display="inline"><![CDATA[a=q_{1}(…)q_{m}]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[m=n]]></fr:tex> and for each <fr:tex
+display="inline"><![CDATA[i=1,…,n]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[q_{i}=u_{i}p_{i}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> is a unit.</fr:p><fr:p>In other words, <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1335</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>There are two claims: (1) there is a factorization, and (2) the factorization is unique.</fr:p>
+<fr:p><fr:strong>Claim 1: Existence of a factorization.</fr:strong> Assume for contradiction <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> does not have a factorization. Then <fr:tex
+display="inline"><![CDATA[ua\in  R]]></fr:tex> does not have a factorization for any unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex>.</fr:p>
+<fr:p>We setup a set
+<fr:tex
+display="block"><![CDATA[S:=\{(r)\mathrel {\triangleleft } R\mid  r\hbox { does not have a factorization into irreducibles}\}.]]></fr:tex>
+Assume for contradiction that <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> be a maximal element of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>. We have <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is not irreducible, so by definition we can write it as <fr:tex
+display="inline"><![CDATA[a=xy]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[x,y\notin R^{\times }]]></fr:tex> are not units, so
+<fr:tex
+display="block"><![CDATA[(a)\subset (x)]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[(a)\subset (y)]]></fr:tex>
+are proper subsets.</fr:p>
+<fr:p>But since <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> is a maximal element of a chain, <fr:tex
+display="inline"><![CDATA[(x)\notin  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(y)\notin  S]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> have a factorization. This gives us a contradiction, which means our assumption <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex> is wrong. We conclude <fr:tex
+display="inline"><![CDATA[S=\emptyset ]]></fr:tex>. Hence we've proven the factorization of elements exists.</fr:p>
+<fr:p><fr:strong>Claim 2: Uniqueness of factorization.</fr:strong> This may be proven in many, many ways. Assume for contradiction this is not true, so we may factorize
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i}p_{i}=\prod ^{m}_{j}q_{j},]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> is minimal (i.e., the factorization <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i}p_{i}]]></fr:tex> is the smallest possible factorization with fewest possible factors).</fr:p>
+<fr:p>We have <fr:tex
+display="inline"><![CDATA[n\geq 1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[p=p_{1}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}\prod  q_{j}]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[j_{0}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} q_{j_{0}}]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[p_{i}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j}]]></fr:tex> are all prime and irreducible. Then <fr:tex
+display="inline"><![CDATA[p=uq_{j_{0}}]]></fr:tex> for some unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j_{0}}]]></fr:tex> are irreducible). Then
+<fr:tex
+display="block"><![CDATA[p_{1}\prod ^{n}_{i=2}p_{i}=(uq_{j_{0}})u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}]]></fr:tex>
+which implies
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i=2}p_{i}=u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}.]]></fr:tex>
+This contradicts the assumption that <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i=1}p_{i}]]></fr:tex> is the minimal factorization.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3542</fr:anchor><fr:addr
+type="user">ra-001H</fr:addr><fr:route>ra-001H.xml</fr:route><fr:title
+text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Krull's <fr:link
+type="local"
+href="krull-1929-idealtheorie.xml"
+addr="krull-1929-idealtheorie"
+title="Idealtheorie in Ringen ohne Endlichkeitsbedingung">Idealtheorie in Ringen ohne Endlichkeitsbedingung</fr:link> (1929)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R\neq 0]]></fr:tex> be a nonzero unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then there exists a <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">maximal ideal</fr:link> <fr:tex
+display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1265</fr:anchor><fr:addr
+type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
+type="local"
+href="ra-0013.xml"
+addr="ra-0013"
+title="Trivial ideal">Trivial ideal</fr:link>). Then <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1267</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
+<fr:p>(2) The condition that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
+display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
+<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
+type="external"
+href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3544</fr:anchor><fr:addr
+type="user">nst-002M</fr:addr><fr:route>nst-002M.xml</fr:route><fr:title
+text="Axiom of Choice">Axiom of Choice</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> be an indexing set. Let <fr:tex
+display="inline"><![CDATA[\{S_{i}\}_{i\in  I}]]></fr:tex> be a family of nonempty sets indexed by <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>. The axiom of choice asserts the existence of a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">choice <fr:link
+type="local"
+href="nst-0014.xml"
+addr="nst-0014"
+title="Function">function</fr:link></html:dfn>, i.e., an indexed set <fr:tex
+display="inline"><![CDATA[(x_{i})_{i\in  I}]]></fr:tex> such that for each <fr:tex
+display="inline"><![CDATA[i\in  I]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x_{i}\in  S_{i}]]></fr:tex>.</fr:p><fr:p>In other words, we can choose "some arbitrary" <fr:tex
+display="inline"><![CDATA[x_{i}]]></fr:tex> from <fr:tex
+display="inline"><![CDATA[S_{i}]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[i\in  I]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2570</fr:anchor><fr:addr
+type="machine">#338</fr:addr><fr:route>unstable-338.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We stress, the "choice function" is a set-theoretic <fr:link
+type="local"
+href="nst-0014.xml"
+addr="nst-0014"
+title="Function">function</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3546</fr:anchor><fr:addr
+type="user">nst-002Q</fr:addr><fr:route>nst-002Q.xml</fr:route><fr:title
+text="Chain">Chain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Chain</html:dfn> is a subset <fr:tex
+display="inline"><![CDATA[C\subseteq  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x,y\in  C]]></fr:tex> either <fr:tex
+display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[y\leq  x]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3548</fr:anchor><fr:addr
+type="user">nst-002S</fr:addr><fr:route>nst-002S.xml</fr:route><fr:title
+text="Maximal element">Maximal element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Element</html:dfn> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an element <fr:tex
+display="inline"><![CDATA[m\in  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[x\leq  m]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3550</fr:anchor><fr:addr
+type="user">nst-002P</fr:addr><fr:route>nst-002P.xml</fr:route><fr:title
+text="Poset">Poset</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Partially Ordered Set</html:dfn> (or <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Poset</html:dfn>) is a set <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> equipped with a <fr:link
+type="local"
+href="nst-002O.xml"
+addr="nst-002O"
+title="Partial Order">Partial Order</fr:link> <fr:tex
+display="inline"><![CDATA[\leq ]]></fr:tex> usually denoted as a pair <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex>.</fr:p><fr:p>Note: not all elements are comparable in a poset, i.e., the trichotomy law (for all <fr:tex
+display="inline"><![CDATA[x,y\in  X]]></fr:tex> either <fr:tex
+display="inline"><![CDATA[x=y]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[y\leq  x]]></fr:tex>) does not need to hold.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3552</fr:anchor><fr:addr
+type="user">nst-002R</fr:addr><fr:route>nst-002R.xml</fr:route><fr:title
+text="Upper bound">Upper bound</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. Let <fr:tex
+display="inline"><![CDATA[A\subseteq  X]]></fr:tex> be some subset. An <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Upper Bound</html:dfn> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is an element <fr:tex
+display="inline"><![CDATA[u\in  X]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[a\in  A]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[a\leq  u]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

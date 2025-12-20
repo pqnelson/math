@@ -7,24 +7,15 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11554</fr:anchor><fr:addr
-type="machine">#404</fr:addr><fr:route>unstable-404.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4769</fr:anchor><fr:addr
+type="machine">#404</fr:addr><fr:route>unstable-404.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[E=\{x_{1},…,x_{n}\}]]></fr:tex>. We will show <fr:tex
-display="inline"><![CDATA[X\setminus  E]]></fr:tex> is an <fr:link
-type="local"
-href="ca-000M.xml"
-addr="ca-000M"
-title="Open Set">Open Set</fr:link>. So for any <fr:tex
-display="inline"><![CDATA[x\in  X\setminus  E]]></fr:tex>, we find <fr:tex
-display="inline"><![CDATA[r>0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[r<\max \{d(x,x_{i})\mid  x_{i}\in  E\}]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[B_{r}(x)\subseteq  E^{\complement }=X\setminus  E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[E^{\complement }]]></fr:tex> is open. Hence <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+display="inline"><![CDATA[x,y\in  Z(G)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[xy=yx]]></fr:tex> since every element of the center commutes with any element of the group. Hence <fr:tex
+display="inline"><![CDATA[Z(G)]]></fr:tex> is commutative.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -41,19 +32,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11556</fr:anchor><fr:addr
-type="user">ca-000S</fr:addr><fr:route>ca-000S.xml</fr:route><fr:title
-text="Finite subsets of metric spaces are closed">Finite subsets of metric spaces are closed</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4771</fr:anchor><fr:addr
+type="user">gr-002Z</fr:addr><fr:route>gr-002Z.xml</fr:route><fr:title
+text="Center is a commutative subgroup">Center is a commutative subgroup</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Any finite subset of a metric space <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> is a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be any <fr:link
 type="local"
-href="ca-000P.xml"
-addr="ca-000P"
-title="Closed Subset">Closed Subset</fr:link> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Then its <fr:link
+type="local"
+href="gr-002X.xml"
+addr="gr-002X"
+title="Center of a group">center</fr:link> <fr:tex
+display="inline"><![CDATA[Z(G)]]></fr:tex> is a commutative <fr:link
+type="local"
+href="gr-001B.xml"
+addr="gr-001B"
+title="Subgroup">Subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -63,24 +63,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6128</fr:anchor><fr:addr
-type="machine">#404</fr:addr><fr:route>unstable-404.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1876</fr:anchor><fr:addr
+type="machine">#404</fr:addr><fr:route>unstable-404.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[E=\{x_{1},…,x_{n}\}]]></fr:tex>. We will show <fr:tex
-display="inline"><![CDATA[X\setminus  E]]></fr:tex> is an <fr:link
-type="local"
-href="ca-000M.xml"
-addr="ca-000M"
-title="Open Set">Open Set</fr:link>. So for any <fr:tex
-display="inline"><![CDATA[x\in  X\setminus  E]]></fr:tex>, we find <fr:tex
-display="inline"><![CDATA[r>0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[r<\max \{d(x,x_{i})\mid  x_{i}\in  E\}]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[B_{r}(x)\subseteq  E^{\complement }=X\setminus  E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[E^{\complement }]]></fr:tex> is open. Hence <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+display="inline"><![CDATA[x,y\in  Z(G)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[xy=yx]]></fr:tex> since every element of the center commutes with any element of the group. Hence <fr:tex
+display="inline"><![CDATA[Z(G)]]></fr:tex> is commutative.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

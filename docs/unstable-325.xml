@@ -7,24 +7,22 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2117</fr:anchor><fr:addr
-type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3642</fr:anchor><fr:addr
+type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be a Sylow subgroup, by <fr:link
-type="local"
-href="gr-004X.xml"
-addr="gr-004X"
-title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> there is a <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[P\leq  S^{g}]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[|S|=|S^{g}|]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[S^{g}]]></fr:tex> is another Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-Subgroup of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a left zero divisor, then there is a <fr:tex
+display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[xy=0]]></fr:tex>. But if <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> were also a unit, then
+<fr:tex
+display="block"><![CDATA[\begin {align*}0&=x^{-1}0\\ &=x^{-1}(xy)\\ &=(x^{-1}x)y\\ &=1y=y\end {align*}]]></fr:tex>
+which contradicts the condition that <fr:tex
+display="inline"><![CDATA[y\neq 0]]></fr:tex> in the definition of a zero divisor.</fr:p>
+<fr:p>The situation for <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> being a right zero divisor is similar.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -41,38 +39,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2119</fr:anchor><fr:addr
-type="user">gr-004W</fr:addr><fr:route>gr-004W.xml</fr:route><fr:title
-text="Sylow &quot;Development&quot; Theorem">Sylow "Development" Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3644</fr:anchor><fr:addr
+type="user">ra-000J</fr:addr><fr:route>ra-000J.xml</fr:route><fr:title
+text="Ring elements are either units or some kind of zero divisor">Ring elements are either units or some kind of zero divisor</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">I. Martin Isaacs <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:em>associative</fr:em> <fr:link
 type="local"
-href="isaacs-2008-finite.xml"
-addr="isaacs-2008-finite"
-title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.14 (Sylow D-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> be a <fr:link
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> be any arbitrary element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then either <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
 type="local"
-href="gr-004O.xml"
-addr="gr-004O"
-title="P-Group"><fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:link> of a finite <fr:link
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">Unit</fr:link> or <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link> <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> is contained in some <fr:link
-type="local"
-href="gr-004S.xml"
-addr="gr-004S"
-title="Sylow p-subgroup">Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p><fr:p>In other words, Sylow subgroups are "maximal" among the <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroups of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+href="ra-000E.xml"
+addr="ra-000E"
+title="Zero Divisor">Zero Divisor</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -82,25 +72,44 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1331</fr:anchor><fr:addr
-type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1143</fr:anchor><fr:addr
+type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be a Sylow subgroup, by <fr:link
-type="local"
-href="gr-004X.xml"
-addr="gr-004X"
-title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> there is a <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[P\leq  S^{g}]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[|S|=|S^{g}|]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[S^{g}]]></fr:tex> is another Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-Subgroup of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is a left zero divisor, then there is a <fr:tex
+display="inline"><![CDATA[y\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[xy=0]]></fr:tex>. But if <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> were also a unit, then
+<fr:tex
+display="block"><![CDATA[\begin {align*}0&=x^{-1}0\\ &=x^{-1}(xy)\\ &=(x^{-1}x)y\\ &=1y=y\end {align*}]]></fr:tex>
+which contradicts the condition that <fr:tex
+display="inline"><![CDATA[y\neq 0]]></fr:tex> in the definition of a zero divisor.</fr:p>
+<fr:p>The situation for <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> being a right zero divisor is similar.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1145</fr:anchor><fr:addr
+type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It is important to stress that the ring must be associative. The <fr:link
+type="local"
+href="sedonion-0001.xml"
+addr="sedonion-0001"
+title="Sedonions">Sedonions</fr:link> are a nonassociative unital ring where nonzero elements have a multiplicative inverse <fr:em>and</fr:em> there are also zero divisors.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

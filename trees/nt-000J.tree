@@ -1,0 +1,9 @@
+\title{Degree of extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{\kk / \FF} be a [[nt-000F]]. The \define{Degree} of #{\kk / \FF}, denoted #{\Index{\kk}{\FF}}, is equal to #{\dim_{\FF}(\kk)} the dimension of #{\kk} [as a vector space](nt-000I) over #{\FF}.}
+
+\p{If #{\Index{\kk}{\FF}<\infty}, then we say #{\kk / \FF} is a \define{Finite Extension}.}

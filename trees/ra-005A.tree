@@ -1,0 +1,16 @@
+\title{Jordan block}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{definition}
+
+\p{Let #{R} be a unital [[ring-0001]], let #{\lambda\in R}, let #{n\in\NN} be a positive integer. A \define{Jordan Block} of size #{n} with eigenvalue #{\lambda} is an #{n\times n} matrix which looks like
+##{\begin{pmatrix}
+\lambda &      1  &        &         &   \\
+        & \lambda & \ddots &         &   \\
+        &         & \ddots &  1      &   \\
+        &         &        & \lambda & 1 \\
+        &         &        &         & \lambda\end{pmatrix}.}
+That is to say, the upper subdiagonal are all 1, the diagonal entries are all #{\lambda}, and all other entries are zero.}
+
+\rmk{This is also called an #{n\times n} \define{elementary Jordan matrix} with eigenvalue #{\lambda}, among other various similar terms.}

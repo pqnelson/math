@@ -7,26 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12274</fr:anchor><fr:addr
-type="machine">#434</fr:addr><fr:route>unstable-434.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8259</fr:anchor><fr:addr
+type="machine">#434</fr:addr><fr:route>unstable-434.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{ij})]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=(a_{ij}-a_{ij})=(0)]]></fr:tex>. Since every entry is zero, it must be equal to the <fr:link
-type="local"
-href="matrix-0003.xml"
-addr="matrix-0003"
-title="Zero matrix">zero matrix</fr:link> by definition of <fr:link
-type="local"
-href="matrix-0009.xml"
-addr="matrix-0009"
-title="Matrix Equality">Matrix Equality</fr:link>. Hence the result.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Observe that each function in a uniformly equicontinuous collection is uniformly continuous, but the converse is not always true.</fr:p>
+<fr:p>(2) A family of functions is broadly considered "equicontinuous" if all functions in the family are continuous and have equal variation over a given neighborhood (in a precise sense).</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -41,15 +28,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12276</fr:anchor><fr:addr
-type="user">matrix-000L</fr:addr><fr:route>matrix-000L.xml</fr:route><fr:title
-text="Subtracting a matrix from itself">Subtracting a matrix from itself</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8261</fr:anchor><fr:addr
+type="user">ca-002E</fr:addr><fr:route>ca-002E.xml</fr:route><fr:title
+text="Uniformly Equicontinuous">Uniformly Equicontinuous</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=\mathbf {0}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> be a family of functions from <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Uniformly Equicontinuous</html:dfn> if for any <fr:tex
+display="inline"><![CDATA[f\in  F]]></fr:tex>, for each <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex> there is a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that for any <fr:tex
+display="inline"><![CDATA[x,y\in  X]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[d(x,y)<\delta ]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[\rho (f(x),f(y))<\varepsilon ]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -59,25 +61,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3468</fr:anchor><fr:addr
-type="machine">#434</fr:addr><fr:route>unstable-434.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8263</fr:anchor><fr:addr
+type="machine">#434</fr:addr><fr:route>unstable-434.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{ij})]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\mathbf {A}-\mathbf {A}=(a_{ij}-a_{ij})=(0)]]></fr:tex>. Since every entry is zero, it must be equal to the <fr:link
-type="local"
-href="matrix-0003.xml"
-addr="matrix-0003"
-title="Zero matrix">zero matrix</fr:link> by definition of <fr:link
-type="local"
-href="matrix-0009.xml"
-addr="matrix-0009"
-title="Matrix Equality">Matrix Equality</fr:link>. Hence the result.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Observe that each function in a uniformly equicontinuous collection is uniformly continuous, but the converse is not always true.</fr:p>
+<fr:p>(2) A family of functions is broadly considered "equicontinuous" if all functions in the family are continuous and have equal variation over a given neighborhood (in a precise sense).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

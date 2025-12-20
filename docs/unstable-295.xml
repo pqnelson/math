@@ -7,28 +7,30 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7318</fr:anchor><fr:addr
-type="machine">#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2530</fr:anchor><fr:addr
+type="machine">#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Well, assume <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> exists. We will prove we obtain a contradiction. Our proof is by cases: either <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Then this means <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But this is the defining property for members of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Again, we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>When <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, then a right module over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is also usually turned into a <fr:link
+type="local"
+href="ra-002G.xml"
+addr="ra-002G"
+title="Left Module">Left Module</fr:link> over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> by defining left scalar multiplication as just the same result as right scalar multiplication, i.e., for any <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> we have:
+<fr:tex
+display="block"><![CDATA[rm:=mr.]]></fr:tex>
+In this case, we usually just write scalar multiplication on the left as a matter of convention. Furthermore, we will just speak of "modules over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>" for commutative <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -43,16 +45,41 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7320</fr:anchor><fr:addr
-type="user">nst-001N</fr:addr><fr:route>nst-001N.xml</fr:route><fr:title
-text="Russell's paradox">Russell's paradox</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2532</fr:anchor><fr:addr
+type="user">ra-002H</fr:addr><fr:route>ra-002H.xml</fr:route><fr:title
+text="Right Module">Right Module</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we try defining the set
-<fr:tex
-display="block"><![CDATA[R=\{S\hbox { is a set}\mid  S\notin  S\}.]]></fr:tex>
-Then we obtain a contradiction if such a set exists. (The solution is to restrict what set-builder notation.)</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Right Module</html:dfn> over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is an additive group <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> equipped with a function <fr:tex
+display="inline"><![CDATA[M\times  R\to  M]]></fr:tex> denoted <fr:tex
+display="inline"><![CDATA[(m,r)\mapsto  m\cdot  r]]></fr:tex> called scalar multiplication, such that
+<fr:ol><fr:li>For any <fr:tex
+display="inline"><![CDATA[m_{1},m_{2}\in  M]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[(m_{1}+m_{2})r=(m_{1}r)+(m_{2}r)]]></fr:tex></fr:li>
+<fr:li>For any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[r_{1},r_{2}\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[m(r_{1}+r_{2})=(mr_{1})+(mr_{2})]]></fr:tex></fr:li>
+<fr:li>Associativity of scalar multiplication: For any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[r_{1},r_{2}\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[m(r_{1}r_{2})=(mr_{1})r_{2}]]></fr:tex></fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital, then we call <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Unital</html:dfn> when for any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[m\cdot  1=m]]></fr:tex>.</fr:li></fr:ol></fr:p>
  
    
    <fr:tree
@@ -62,27 +89,29 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3878</fr:anchor><fr:addr
-type="machine">#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>577</fr:anchor><fr:addr
+type="machine">#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Well, assume <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> exists. We will prove we obtain a contradiction. Our proof is by cases: either <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Then this means <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> Assume <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex>. But this is the defining property for members of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex>. Again, we have both <fr:tex
-display="inline"><![CDATA[R\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R\notin  R]]></fr:tex> which is a contradiction.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>When <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, then a right module over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is also usually turned into a <fr:link
+type="local"
+href="ra-002G.xml"
+addr="ra-002G"
+title="Left Module">Left Module</fr:link> over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> by defining left scalar multiplication as just the same result as right scalar multiplication, i.e., for any <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> we have:
+<fr:tex
+display="block"><![CDATA[rm:=mr.]]></fr:tex>
+In this case, we usually just write scalar multiplication on the left as a matter of convention. Furthermore, we will just speak of "modules over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>" for commutative <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:p><fr:strong>Exercise:</fr:strong> Prove or find a counter-example: a right ideal of a ring is a right module over that ring.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

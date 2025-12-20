@@ -7,12 +7,27 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12058</fr:anchor><fr:addr
-type="machine">#432</fr:addr><fr:route>unstable-432.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11880</fr:anchor><fr:addr
+type="machine">#432</fr:addr><fr:route>unstable-432.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Associativity is one of the more important properties of a binary operator. Whenever we define a new gadget with some notion of "multiplication" (or "addition" or some other binary operator) on it, we should really desire it to be associative.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Uniqueness:</fr:strong> Suppose there are two complex numbers <fr:tex
+display="inline"><![CDATA[w\in \mathbb {C}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[zv=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[zw=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[v=1v=(zw)v=(wz)v=w(zv)=w1=w]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[x^{2}+y^{2}>0]]></fr:tex> is nonzero, so the complex number
+<fr:tex
+display="block"><![CDATA[w=\frac {x}{x^{2}+y^{2}}+\mathrm {i}\frac {-y}{x^{2}+y^{2}}]]></fr:tex>
+is well-defined. We just need to check <fr:tex
+display="inline"><![CDATA[zw=1]]></fr:tex>, but the trick is <fr:tex
+display="inline"><![CDATA[(x+\mathrm {i} y)(x-\mathrm {i} y)=x^{2}+y^{2}]]></fr:tex> and the result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,22 +42,31 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12060</fr:anchor><fr:addr
-type="user">matrix-0012</fr:addr><fr:route>matrix-0012.xml</fr:route><fr:title
-text="Matrix Multiplication is Associative">Matrix Multiplication is Associative</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11882</fr:anchor><fr:addr
+type="user">complex-0005</fr:addr><fr:route>complex-0005.xml</fr:route><fr:title
+text="Multiplicative inverse of complex numbers">Multiplicative inverse of complex numbers</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[n\times  p]]></fr:tex> matrix, and <fr:tex
-display="inline"><![CDATA[\mathbf {C}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[p\times  q]]></fr:tex> matrix. Then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 2.2.6</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Definition 1.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>For any nonzero <fr:tex
+display="inline"><![CDATA[z\in \mathbb {C}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[z\neq 0]]></fr:tex>, there exists a unique complex number denoted <fr:tex
+display="inline"><![CDATA[z^{-1}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[zz^{-1}=1]]></fr:tex>. Moreover, if <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[x,y\in \mathbb {R}]]></fr:tex>, then
 <fr:tex
-display="block"><![CDATA[(\mathbf {A}\mathbf {B})\mathbf {C} = \mathbf {A}(\mathbf {B}\mathbf {C}).]]></fr:tex>
-In other words, matrix multiplication is associative.</fr:p>
+display="block"><![CDATA[z^{-1}=\frac {x}{x^{2}+y^{2}}+\mathrm {i}\frac {-y}{x^{2}+y^{2}}]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -52,11 +76,26 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3506</fr:anchor><fr:addr
-type="machine">#432</fr:addr><fr:route>unstable-432.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6468</fr:anchor><fr:addr
+type="machine">#432</fr:addr><fr:route>unstable-432.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Associativity is one of the more important properties of a binary operator. Whenever we define a new gadget with some notion of "multiplication" (or "addition" or some other binary operator) on it, we should really desire it to be associative.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Uniqueness:</fr:strong> Suppose there are two complex numbers <fr:tex
+display="inline"><![CDATA[w\in \mathbb {C}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v\in \mathbb {C}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[zv=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[zw=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[v=1v=(zw)v=(wz)v=w(zv)=w1=w]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[z=x+\mathrm {i} y]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[x^{2}+y^{2}>0]]></fr:tex> is nonzero, so the complex number
+<fr:tex
+display="block"><![CDATA[w=\frac {x}{x^{2}+y^{2}}+\mathrm {i}\frac {-y}{x^{2}+y^{2}}]]></fr:tex>
+is well-defined. We just need to check <fr:tex
+display="inline"><![CDATA[zw=1]]></fr:tex>, but the trick is <fr:tex
+display="inline"><![CDATA[(x+\mathrm {i} y)(x-\mathrm {i} y)=x^{2}+y^{2}]]></fr:tex> and the result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

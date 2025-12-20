@@ -7,16 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10864</fr:anchor><fr:addr
-type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7158</fr:anchor><fr:addr
+type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The basic proof idea is to do this by induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>. The base case <fr:tex
-display="inline"><![CDATA[n=1]]></fr:tex> is obvious. The inductive case requires a bit of work, but amounts to following the definitions.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> is an <fr:link
+type="local"
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link>, then we can just speak of "inverses" of elements without the "two-sided" prefix. This is because the <fr:link
+type="local"
+href="gr-000D.xml"
+addr="gr-000D"
+title="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:link></fr:p>
+<fr:p>(2) If there are multiple binary operators on <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, then we should specify that <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is an inverse of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> <fr:em>with respect to <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex></fr:em>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,25 +41,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10866</fr:anchor><fr:addr
-type="user">matrix-001O</fr:addr><fr:route>matrix-001O.xml</fr:route><fr:title
-text="Determinant of triangular matrix is product of diagonal entries">Determinant of triangular matrix is product of diagonal entries</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7160</fr:anchor><fr:addr
+type="user">gr-000C</fr:addr><fr:route>gr-000C.xml</fr:route><fr:title
+text="Inverse of an element with respect to a binary operator">Inverse of an element with respect to a binary operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {T}=(t_{i,j})]]></fr:tex> be a triangular <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> matrix (either <fr:link
+display="inline"><![CDATA[A]]></fr:tex> be a set equipped with a <fr:link
 type="local"
-href="matrix-000B.xml"
-addr="matrix-000B"
-title="Upper-triangular matrix">Upper-triangular matrix</fr:link> or <fr:link
+href="gr-0001.xml"
+addr="gr-0001"
+title="Binary operator">Binary operator</fr:link> <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> with an <fr:link
 type="local"
-href="matrix-000C.xml"
-addr="matrix-000C"
-title="Lower-triangular matrix">Lower-triangular matrix</fr:link>, it doesn't matter). Then the determinant of <fr:tex
-display="inline"><![CDATA[\det (\mathbf {T})]]></fr:tex> is just the product of the diagonal entries:</fr:p><fr:tex
-display="block"><![CDATA[\det (\mathbf {T})=\prod ^{n}_{i=1}t_{i,i}.]]></fr:tex>
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">identity element</fr:link> <fr:tex
+display="inline"><![CDATA[e\in  A]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[a\in  A]]></fr:tex>. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Two-Sided) Inverse</html:dfn> of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is an element <fr:tex
+display="inline"><![CDATA[b\in  A]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[\mu (a,b)=\mu (b,a)=e.]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -59,15 +74,25 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4628</fr:anchor><fr:addr
-type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1618</fr:anchor><fr:addr
+type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The basic proof idea is to do this by induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>. The base case <fr:tex
-display="inline"><![CDATA[n=1]]></fr:tex> is obvious. The inductive case requires a bit of work, but amounts to following the definitions.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> is an <fr:link
+type="local"
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link>, then we can just speak of "inverses" of elements without the "two-sided" prefix. This is because the <fr:link
+type="local"
+href="gr-000D.xml"
+addr="gr-000D"
+title="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:link></fr:p>
+<fr:p>(2) If there are multiple binary operators on <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, then we should specify that <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> is an inverse of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> <fr:em>with respect to <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex></fr:em>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

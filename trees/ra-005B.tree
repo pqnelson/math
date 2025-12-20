@@ -1,0 +1,16 @@
+\title{Idea of Jordan Canonical Form}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{remark}
+\def\JCF{\mathop{\textrm{JCF}}\nolimits}
+
+\p{Let #{R=\CC[x]} (or if #{\FF} is any algebraically closed field, then we could also consider #{R=\FF[x]}). Now, we need to list all irreducible elements of #{R} (which is why we need coefficients in an algebraically closed field: the irreducible elements all look like #{x-\lambda} for some #{\lambda\in\CC}).}
+\p{Then the fundamental theorem of finitely-generated modules over principal ideal domains allows us to assert, for any matrix #{A}, there exists a unique "Jordan canonical form" of the matrix, denoted #{\JCF(A)}, such that #{A\sim\JCF(A)} and also #{A\sim B\iff\JCF(A)=\JCF(B)}. What does it look like?}
+
+\p{We have the eigenvalues #{\lambda_{1}}, \dots, #{\lambda_{n}}. The [invariant factors](ra-0054) #{f_{1}(x)}, \dots, #{f_{m}(x)} of a matrix #{A} factors completely in the sense that ##{f_{j}(x)=\prod^{n}_{i=1}(x-\lambda_{i})^{\alpha_{j}(\lambda_{i})}}
+where #{\alpha_{j}(\lambda_{i})} is the multiplicity of eigenvalue #{\lambda_{i}} in the invariant factor #{f_{j}}. We see that for any #{i} we have #{\alpha_{1}(\lambda_{i})\geq\alpha_{2}(\lambda_{i})\geq\dots\geq\alpha_{m}(\lambda_{j})} since #{f_{k}\divides f_{j}} for any #{k\geq j}. This means
+##{\JCF(A)=\bigoplus^{n}_{i}\left(\bigoplus^{m}_{j=1}J_{\alpha_{j}(\lambda_{i})}(\lambda_{i})\right)}
+where #{J_{\alpha_{j}(\lambda)}(\lambda)} is the [[ra-005A]] of size #{\alpha_{j}(\lambda)} with eigenvalue #{\lambda}.}
+
+\p{How does this relate to the decomposition of modules? Well, each Jordan block acts on a cyclic submodule of the form #{\CC[x] / (x-\lambda)^{\alpha(\lambda)}}.}

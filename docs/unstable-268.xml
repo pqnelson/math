@@ -7,24 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>529</fr:anchor><fr:addr
-type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>949</fr:anchor><fr:addr
+type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can see the equivalence of the two claims writing <fr:tex
+display="inline"><![CDATA[m_{r}=\prod  p^{\alpha _{p,r}}]]></fr:tex> and if <fr:tex
+display="inline"><![CDATA[m_{i}\mathrel {\bigm |} m_{r}]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[m_{i}=\prod  p^{\alpha _{p,i}}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[\alpha _{p,i}\leq \alpha _{p,r}]]></fr:tex>. The <fr:link
 type="local"
-href="ra-000Z.xml"
-addr="ra-000Z"
-title="Left ideal of a ring">left ideal</fr:link> of <fr:tex
-display="inline"><![CDATA[D]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[x\in  I]]></fr:tex> be nonzero <fr:tex
-display="inline"><![CDATA[x\neq  0]]></fr:tex>. Then there exists a <fr:tex
-display="inline"><![CDATA[x^{-1}\in  D]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[x^{-1}x=1\in  I]]></fr:tex> and then all of <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> is contained in <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>.</fr:p><html:span
+href="ra-0029.xml"
+addr="ra-0029"
+title="Abstract Chinese Remainder Theorem">Abstract Chinese Remainder Theorem</fr:link> gives us <fr:tex
+display="inline"><![CDATA[R/m\cong \bigoplus _{p}R/p^{\alpha _{p}}]]></fr:tex>. Then we can convert the summands from one form to the other, and reorder as needed. Also note if <fr:tex
+display="inline"><![CDATA[p_{1}\neq  p_{2}]]></fr:tex>, then these give us <fr:link
+type="local"
+href="ra-0024.xml"
+addr="ra-0024"
+title="Comaximal ideals">Comaximal ideals</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -41,24 +43,35 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>531</fr:anchor><fr:addr
-type="user">ra-0014</fr:addr><fr:route>ra-0014.xml</fr:route><fr:title
-text="Division rings have trivial left ideals">Division rings have trivial left ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>951</fr:anchor><fr:addr
+type="user">ra-004W</fr:addr><fr:route>ra-004W.xml</fr:route><fr:title
+text="Fundamental theorem of finitely-generated modules over PIDs">Fundamental theorem of finitely-generated modules over PIDs</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="ra-0008.xml"
-addr="ra-0008"
-title="Division ring">Division ring</fr:link>. Then the only left ideals of <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> are <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> itself and the <fr:link
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a <fr:link
 type="local"
-href="ra-0013.xml"
-addr="ra-0013"
-title="Trivial ideal">Trivial ideal</fr:link>.</fr:p>
+href="ra-004A.xml"
+addr="ra-004A"
+title="Finitely-Generated Submodule">finitely-generated</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. Then the following all hold:</fr:p><fr:ol><fr:li>We have <fr:tex
+display="inline"><![CDATA[M\cong \bigoplus  R/(p_{j}^{\alpha _{j}})]]></fr:tex> where each <fr:tex
+display="inline"><![CDATA[p_{j}]]></fr:tex> are <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">prime</fr:link> and <fr:tex
+display="inline"><![CDATA[\alpha _{j}\in \mathbb {N}]]></fr:tex>.</fr:li>
+<fr:li>We have <fr:tex
+display="inline"><![CDATA[M\cong \bigoplus  R/(m_{j})]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[m_{1}\mathrel {\bigm |} m_{2}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[m_{2}\mathrel {\bigm |} m_{3}]]></fr:tex> and ….</fr:li></fr:ol>
  
    
    <fr:tree
@@ -68,24 +81,45 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>533</fr:anchor><fr:addr
-type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>761</fr:anchor><fr:addr
+type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) The first claim, viewed as Abelian groups, holds "on the nose" (i.e., we have equality of the underlying Abelian groups).</fr:p>
+<fr:p>(2) The second claim is when we want to consider if our module is cyclic, or if we want to consider the annihilator of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>763</fr:anchor><fr:addr
+type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="ra-000Z.xml"
-addr="ra-000Z"
-title="Left ideal of a ring">left ideal</fr:link> of <fr:tex
-display="inline"><![CDATA[D]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[x\in  I]]></fr:tex> be nonzero <fr:tex
-display="inline"><![CDATA[x\neq  0]]></fr:tex>. Then there exists a <fr:tex
-display="inline"><![CDATA[x^{-1}\in  D]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[x^{-1}x=1\in  I]]></fr:tex> and then all of <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> is contained in <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>.</fr:p><html:span
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can see the equivalence of the two claims writing <fr:tex
+display="inline"><![CDATA[m_{r}=\prod  p^{\alpha _{p,r}}]]></fr:tex> and if <fr:tex
+display="inline"><![CDATA[m_{i}\mathrel {\bigm |} m_{r}]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[m_{i}=\prod  p^{\alpha _{p,i}}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[\alpha _{p,i}\leq \alpha _{p,r}]]></fr:tex>. The <fr:link
+type="local"
+href="ra-0029.xml"
+addr="ra-0029"
+title="Abstract Chinese Remainder Theorem">Abstract Chinese Remainder Theorem</fr:link> gives us <fr:tex
+display="inline"><![CDATA[R/m\cong \bigoplus _{p}R/p^{\alpha _{p}}]]></fr:tex>. Then we can convert the summands from one form to the other, and reorder as needed. Also note if <fr:tex
+display="inline"><![CDATA[p_{1}\neq  p_{2}]]></fr:tex>, then these give us <fr:link
+type="local"
+href="ra-0024.xml"
+addr="ra-0024"
+title="Comaximal ideals">Comaximal ideals</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

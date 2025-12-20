@@ -7,22 +7,33 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7406</fr:anchor><fr:addr
-type="machine">#423</fr:addr><fr:route>unstable-423.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7146</fr:anchor><fr:addr
+type="machine">#423</fr:addr><fr:route>unstable-423.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[n=\dim (V)]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> is finite-dimensional, there exists a set of linearly independent vectors <fr:tex
-display="inline"><![CDATA[\{v_{1},…,v_{n}\}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[V=\mathrm {span}(v_{1},…,v_{n})]]></fr:tex> and there is no smaller set of vectors spanning <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>. Then using the <fr:link
-type="local"
-href="vectsp-002V.xml"
-addr="vectsp-002V"
-title="Gram-Schmidt process for inner product spaces">Gram-Schmidt process for inner product spaces</fr:link>, we transform this set into an orthonormal basis of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to show that <fr:tex
+display="inline"><![CDATA[A^{\times }]]></fr:tex> is closed with respect to <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>, i.e., for any <fr:tex
+display="inline"><![CDATA[a,b\in  A^{\times }]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[\mu (a,b)\in  A]]></fr:tex> and also <fr:tex
+display="inline"><![CDATA[e\in  A^{\times }]]></fr:tex>.</fr:p>
+<fr:p>Well, we see <fr:tex
+display="inline"><![CDATA[\mu (e,e)=e]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[e^{-1}=e]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[e\in  A^{\times }.]]></fr:tex></fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[a,b\in  A^{\times }]]></fr:tex>. Then we claim <fr:tex
+display="inline"><![CDATA[\mu (b^{-1},a^{-1})]]></fr:tex> is the inverse element for <fr:tex
+display="inline"><![CDATA[\mu (a,b)]]></fr:tex>, since
+<fr:tex
+display="block"><![CDATA[\begin {align}\mu (\mu (b^{-1},a^{-1}),\mu (a,b)) &=\mu (b^{-1},\mu (a^{-1},\mu (a,b)))\hbox { by associativity}\\ &=\mu (b^{-1},\mu (\mu (a^{-1},a),b))\hbox { by associativity}\\ &=\mu (b^{-1},\mu (e,b))\\ &=\mu (b^{-1},b)=e,\end {align}]]></fr:tex>
+and similar reasoning shows
+<fr:tex
+display="block"><![CDATA[\mu (\mu (a,b), \mu (b^{-1},a^{-1}))=e.]]></fr:tex>
+Hence multiplying two elements of <fr:tex
+display="inline"><![CDATA[A^{\times }]]></fr:tex> together yields another element in <fr:tex
+display="inline"><![CDATA[A^{\times }]]></fr:tex>. So we have a group.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -39,34 +50,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7408</fr:anchor><fr:addr
-type="user">vectsp-002W</fr:addr><fr:route>vectsp-002W.xml</fr:route><fr:title
-text="Existence of orthonormal basis for finite-dimensional inner product spaces">Existence of orthonormal basis for finite-dimensional inner product spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7148</fr:anchor><fr:addr
+type="user">gr-000I</fr:addr><fr:route>gr-000I.xml</fr:route><fr:title
+text="Set of invertible elements for associative binary operator is a group">Set of invertible elements for associative binary operator is a group</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be a set equipped with an <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 6.35</fr:meta><fr:meta
-name="source"><fr:link
+href="gr-0003.xml"
+addr="gr-0003"
+title="Associative binary operator">Associative binary operator</fr:link> <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> with an <fr:link
 type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 9.5.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional <fr:link
+href="gr-0005.xml"
+addr="gr-0005"
+title="Identity element">Identity element</fr:link> <fr:tex
+display="inline"><![CDATA[e\in  A]]></fr:tex>. Then the <fr:link
 type="local"
-href="vectsp-0020.xml"
-addr="vectsp-0020"
-title="Inner product space">Inner product space</fr:link> over <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then there exists an <fr:link
+href="gr-000H.xml"
+addr="gr-000H"
+title="Set of all invertible elements">Set of all invertible elements</fr:link> equipped with <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex> forms a <fr:link
 type="local"
-href="vectsp-002D.xml"
-addr="vectsp-002D"
-title="Orthonormal Basis">Orthonormal Basis</fr:link> for <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -76,22 +86,33 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4478</fr:anchor><fr:addr
-type="machine">#423</fr:addr><fr:route>unstable-423.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1652</fr:anchor><fr:addr
+type="machine">#423</fr:addr><fr:route>unstable-423.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[n=\dim (V)]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> is finite-dimensional, there exists a set of linearly independent vectors <fr:tex
-display="inline"><![CDATA[\{v_{1},…,v_{n}\}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[V=\mathrm {span}(v_{1},…,v_{n})]]></fr:tex> and there is no smaller set of vectors spanning <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>. Then using the <fr:link
-type="local"
-href="vectsp-002V.xml"
-addr="vectsp-002V"
-title="Gram-Schmidt process for inner product spaces">Gram-Schmidt process for inner product spaces</fr:link>, we transform this set into an orthonormal basis of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to show that <fr:tex
+display="inline"><![CDATA[A^{\times }]]></fr:tex> is closed with respect to <fr:tex
+display="inline"><![CDATA[\mu ]]></fr:tex>, i.e., for any <fr:tex
+display="inline"><![CDATA[a,b\in  A^{\times }]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[\mu (a,b)\in  A]]></fr:tex> and also <fr:tex
+display="inline"><![CDATA[e\in  A^{\times }]]></fr:tex>.</fr:p>
+<fr:p>Well, we see <fr:tex
+display="inline"><![CDATA[\mu (e,e)=e]]></fr:tex> which implies <fr:tex
+display="inline"><![CDATA[e^{-1}=e]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[e\in  A^{\times }.]]></fr:tex></fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[a,b\in  A^{\times }]]></fr:tex>. Then we claim <fr:tex
+display="inline"><![CDATA[\mu (b^{-1},a^{-1})]]></fr:tex> is the inverse element for <fr:tex
+display="inline"><![CDATA[\mu (a,b)]]></fr:tex>, since
+<fr:tex
+display="block"><![CDATA[\begin {align}\mu (\mu (b^{-1},a^{-1}),\mu (a,b)) &=\mu (b^{-1},\mu (a^{-1},\mu (a,b)))\hbox { by associativity}\\ &=\mu (b^{-1},\mu (\mu (a^{-1},a),b))\hbox { by associativity}\\ &=\mu (b^{-1},\mu (e,b))\\ &=\mu (b^{-1},b)=e,\end {align}]]></fr:tex>
+and similar reasoning shows
+<fr:tex
+display="block"><![CDATA[\mu (\mu (a,b), \mu (b^{-1},a^{-1}))=e.]]></fr:tex>
+Hence multiplying two elements of <fr:tex
+display="inline"><![CDATA[A^{\times }]]></fr:tex> together yields another element in <fr:tex
+display="inline"><![CDATA[A^{\times }]]></fr:tex>. So we have a group.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -1,0 +1,9 @@
+\title{Morphisms of fields are injective or zero}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{remark}
+
+\p{We recall that [[ra-001L]] or field morphisms are zero morphisms. We only really care about injective nonzero morphisms, since they describe "extensions" of fields.}
+
+\p{Moral: nonzero field morphisms are necessarily injective.}

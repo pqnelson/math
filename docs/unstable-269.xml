@@ -7,26 +7,54 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>535</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>953</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) For commutative rings, any left ideal is also a right ideal, and so we just speak of "ideals".</fr:p>
-<fr:p>(2) "Ideal" originally described "ideal elements" adjoined to a ring, which are not "real".</fr:p>
-<fr:p>(3) A two-sided ideal forms a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Any submodule of a free module over an integral domain is torsion-free.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is torsion-free. Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be the set of all linearly-independent subsets of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>. We can check that <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is nonempty (since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> being torsion-free and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> being an integral domain that <fr:tex
+display="inline"><![CDATA[\{m\}]]></fr:tex> is linearly independent for any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> nonzero <fr:tex
+display="inline"><![CDATA[m\neq 0]]></fr:tex>) and all ascending chains in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> admit an upper bound. Then by <fr:link
 type="local"
-href="ra-000Q.xml"
-addr="ra-000Q"
-title="Subring">Subring</fr:link> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, same for one-sided ideals of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
-<fr:p>(4) Traditionally, the historic notation used to indicate we're working with ideals was to use fraktur letters (<fr:tex
-display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\mathfrak {c}]]></fr:tex>, and so on). This was a horrible decision. Modern conventions use <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[J]]></fr:tex>, and variants using apostrophes or indices.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> there exists a maximal element in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. That is to say, there exists a maximal free submodule <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
+<fr:p>We claim that <fr:tex
+display="inline"><![CDATA[M/F]]></fr:tex> is torsion. If <fr:tex
+display="inline"><![CDATA[m+F\in  M]]></fr:tex> is not torsion, then the submodule <fr:tex
+display="inline"><![CDATA[Rm+F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is free and it properly contains <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is assumed to be torsion free, <fr:tex
+display="inline"><![CDATA[Rm]]></fr:tex> is free and thus it suffices to check <fr:tex
+display="inline"><![CDATA[Rm\cap  F=(0)]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[rm\in  F]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[r(m+F)=0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is finitely-generated then <fr:tex
+display="inline"><![CDATA[M/F]]></fr:tex> is finitely-generated and torsion. Then there exists some <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> nonzero <fr:tex
+display="inline"><![CDATA[a\neq 0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a(M/F)=0]]></fr:tex>. Equivalently <fr:tex
+display="inline"><![CDATA[aM\subseteq  F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is torsion-free, <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[aM]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -41,58 +69,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>537</fr:anchor><fr:addr
-type="user">ra-0011</fr:addr><fr:route>ra-0011.xml</fr:route><fr:title
-text="Ideal">Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>955</fr:anchor><fr:addr
+type="user">ra-004V</fr:addr><fr:route>ra-004V.xml</fr:route><fr:title
+text="Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module">Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
-type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.3</fr:meta><fr:meta
-name="source">Artin <fr:link
-type="local"
-href="artin-2010-algebra.xml"
-addr="artin-2010-algebra"
-title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
-name="source">Hungerford <fr:link
-type="local"
-href="hungerford-1974-algebra.xml"
-addr="hungerford-1974-algebra"
-title="Algebra">Algebra</fr:link> Section III.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>. A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">(Two-Sided) Ideal</html:dfn> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex
-display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> is a <fr:link
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a <fr:link
 type="local"
-href="ra-000Z.xml"
-addr="ra-000Z"
-title="Left ideal of a ring">left ideal</fr:link> and a <fr:link
+href="ra-004A.xml"
+addr="ra-004A"
+title="Finitely-Generated Submodule">finitely-generated</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. Then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is <fr:link
 type="local"
-href="ra-0010.xml"
-addr="ra-0010"
-title="Right ideal of a ring">right ideal</fr:link> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p><fr:p>Furthermore, when <fr:tex
-display="inline"><![CDATA[I\neq  R]]></fr:tex> we say <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> is a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Proper (two-sided) ideal</html:dfn> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p><fr:p>Some authors use the notation <fr:tex
-display="inline"><![CDATA[I\mathrel {\trianglelefteq }R]]></fr:tex> to indicate <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> is an ideal of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, as well as <fr:tex
-display="inline"><![CDATA[I\mathrel {\triangleleft }R]]></fr:tex> for proper ideals, analogous to the notation used for <fr:link
-type="local"
-href="gr-002P.xml"
-addr="gr-002P"
-title="Normal subgroup">Normal subgroup</fr:link>s.</fr:p>
+href="ra-003P.xml"
+addr="ra-003P"
+title="Torsion-Free Module">torsion-free</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is isomorphic to a submodule of a free module.</fr:p>
  
    
    <fr:tree
@@ -102,25 +102,53 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>539</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) For commutative rings, any left ideal is also a right ideal, and so we just speak of "ideals".</fr:p>
-<fr:p>(2) "Ideal" originally described "ideal elements" adjoined to a ring, which are not "real".</fr:p>
-<fr:p>(3) A two-sided ideal forms a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Any submodule of a free module over an integral domain is torsion-free.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is torsion-free. Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be the set of all linearly-independent subsets of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>. We can check that <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is nonempty (since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> being torsion-free and <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> being an integral domain that <fr:tex
+display="inline"><![CDATA[\{m\}]]></fr:tex> is linearly independent for any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> nonzero <fr:tex
+display="inline"><![CDATA[m\neq 0]]></fr:tex>) and all ascending chains in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> admit an upper bound. Then by <fr:link
 type="local"
-href="ra-000Q.xml"
-addr="ra-000Q"
-title="Subring">Subring</fr:link> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, same for one-sided ideals of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
-<fr:p>(4) Traditionally, the historic notation used to indicate we're working with ideals was to use fraktur letters (<fr:tex
-display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\mathfrak {c}]]></fr:tex>, and so on). This was a horrible decision. Modern conventions use <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[J]]></fr:tex>, and variants using apostrophes or indices.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> there exists a maximal element in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. That is to say, there exists a maximal free submodule <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
+<fr:p>We claim that <fr:tex
+display="inline"><![CDATA[M/F]]></fr:tex> is torsion. If <fr:tex
+display="inline"><![CDATA[m+F\in  M]]></fr:tex> is not torsion, then the submodule <fr:tex
+display="inline"><![CDATA[Rm+F]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is free and it properly contains <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is assumed to be torsion free, <fr:tex
+display="inline"><![CDATA[Rm]]></fr:tex> is free and thus it suffices to check <fr:tex
+display="inline"><![CDATA[Rm\cap  F=(0)]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[rm\in  F]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[r(m+F)=0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is finitely-generated then <fr:tex
+display="inline"><![CDATA[M/F]]></fr:tex> is finitely-generated and torsion. Then there exists some <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> nonzero <fr:tex
+display="inline"><![CDATA[a\neq 0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a(M/F)=0]]></fr:tex>. Equivalently <fr:tex
+display="inline"><![CDATA[aM\subseteq  F]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is torsion-free, <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[aM]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,16 +7,19 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4796</fr:anchor><fr:addr
-type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11852</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define a unital ring as an <fr:link
-type="local"
-href="gr-000J.xml"
-addr="gr-000J"
-title="Abelian group">Abelian group</fr:link> equipped with a monoid structure. The axioms for a unital ring would be satisfied automatically.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
+display="inline"><![CDATA[\vec {0}']]></fr:tex> is another zero vector. Then
+<fr:tex
+display="block"><![CDATA[\vec {0}'=\vec {0}'+\vec {0}=\vec {0}+\vec {0}'=\vec {0}]]></fr:tex>
+hence <fr:tex
+display="inline"><![CDATA[\vec {0}=\vec {0}']]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,41 +34,26 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4798</fr:anchor><fr:addr
-type="user">ring-0001</fr:addr><fr:route>ring-0001.xml</fr:route><fr:title
-text="Ring">Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11854</fr:anchor><fr:addr
+type="user">vectsp-0006</fr:addr><fr:route>vectsp-0006.xml</fr:route><fr:title
+text="Zero vector is unique">Zero vector is unique</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">(Unital) Ring</html:dfn> consists of a set <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> equipped with
-<fr:ul><fr:li>an Abelian group structure <fr:tex
-display="inline"><![CDATA[(R,+,0)]]></fr:tex>, and</fr:li>
-<fr:li>a multiplication <fr:tex
-display="inline"><![CDATA[\star \colon  R\times  R\to  R]]></fr:tex>, and</fr:li>
-<fr:li>(Optional) a "one" element <fr:tex
-display="inline"><![CDATA[1\in  R]]></fr:tex></fr:li></fr:ul>
-such that for any <fr:tex
-display="inline"><![CDATA[a,b,c\in  R]]></fr:tex>,
-<fr:ol><fr:li>Associativity of addition: <fr:tex
-display="inline"><![CDATA[a+(b+c)=(a+b)+c]]></fr:tex></fr:li>
-<fr:li>Additive identity element: <fr:tex
-display="inline"><![CDATA[a+0=0+a=a]]></fr:tex></fr:li>
-<fr:li>Additive inverse: <fr:tex
-display="inline"><![CDATA[a+(-a)=0]]></fr:tex></fr:li>
-<fr:li>Commutativity of addition: <fr:tex
-display="inline"><![CDATA[a+b=b+a]]></fr:tex></fr:li>
-<fr:li>(Optional) Associativity of multiplication: <fr:tex
-display="inline"><![CDATA[a\star (b\star  c)=(a\star  b)\star  c]]></fr:tex></fr:li>
-<fr:li>(Optional) Unital property (i.e., multiplicative identity element): <fr:tex
-display="inline"><![CDATA[a\star 1=1\star  a=a]]></fr:tex></fr:li>
-<fr:li>Left distributivity of multiplication over addition: <fr:tex
-display="inline"><![CDATA[a\star (b+c)=(a\star  b)+(a\star  c)]]></fr:tex></fr:li>
-<fr:li>Right distributivity of multiplication over addition <fr:tex
-display="inline"><![CDATA[(a+b)\star  c=(a\star  c)+(b\star  c)]]></fr:tex></fr:li></fr:ol>
-Some rings don't have a multiplicative unit <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>, in which case they are "nonunital rings". If we don't care about the existence of the multiplicative unit, we'll just speak of "rings".</fr:p><fr:p>We also don't require all rings to be associative (i.e., multiplication may or may not be associative). When it matters, we will speak of "associative rings" and "nonassociative rings", but by default we will assume rings as associative.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 1.26</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 4.2.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> be a vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then the additive identity <fr:tex
+display="inline"><![CDATA[\vec {0}\in  V]]></fr:tex> is unique.</fr:p>
  
    
    <fr:tree
@@ -75,15 +63,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>643</fr:anchor><fr:addr
-type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6526</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define a unital ring as an <fr:link
-type="local"
-href="gr-000J.xml"
-addr="gr-000J"
-title="Abelian group">Abelian group</fr:link> equipped with a monoid structure. The axioms for a unital ring would be satisfied automatically.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
+display="inline"><![CDATA[\vec {0}']]></fr:tex> is another zero vector. Then
+<fr:tex
+display="block"><![CDATA[\vec {0}'=\vec {0}'+\vec {0}=\vec {0}+\vec {0}'=\vec {0}]]></fr:tex>
+hence <fr:tex
+display="inline"><![CDATA[\vec {0}=\vec {0}']]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

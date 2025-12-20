@@ -7,18 +7,22 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5803</fr:anchor><fr:addr
-type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3578</fr:anchor><fr:addr
+type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
-display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
-display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
+type="local"
+href="ra-0013.xml"
+addr="ra-0013"
+title="Trivial ideal">Trivial ideal</fr:link>). Then <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -35,23 +39,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5805</fr:anchor><fr:addr
-type="user">gt-000Z</fr:addr><fr:route>gt-000Z.xml</fr:route><fr:title
-text="Metric Topology is Hausdorff">Metric Topology is Hausdorff</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3580</fr:anchor><fr:addr
+type="user">ra-001H</fr:addr><fr:route>ra-001H.xml</fr:route><fr:title
+text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a metric space. Then the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Krull's <fr:link
 type="local"
-href="gt-0004.xml"
-addr="gt-0004"
-title="Metric topology">Metric topology</fr:link> makes <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> into a <fr:link
+href="krull-1929-idealtheorie.xml"
+addr="krull-1929-idealtheorie"
+title="Idealtheorie in Ringen ohne Endlichkeitsbedingung">Idealtheorie in Ringen ohne Endlichkeitsbedingung</fr:link> (1929)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R\neq 0]]></fr:tex> be a nonzero unital <fr:link
 type="local"
-href="gt-000Y.xml"
-addr="gt-000Y"
-title="Hausdorff space">Hausdorff space</fr:link>.</fr:p>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Then there exists a <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">maximal ideal</fr:link> <fr:tex
+display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -61,19 +71,48 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5807</fr:anchor><fr:addr
-type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1265</fr:anchor><fr:addr
+type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To see this, let <fr:tex
-display="inline"><![CDATA[x,y\in  X]]></fr:tex> be arbitrary and distinct. Let <fr:tex
-display="inline"><![CDATA[r=d(x,y)]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[B_{r / 2}(x)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B_{r / 2}(y)]]></fr:tex> are disjoint open subsets containing <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>, respectively. Hence the claim.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
+type="local"
+href="ra-0013.xml"
+addr="ra-0013"
+title="Trivial ideal">Trivial ideal</fr:link>). Then <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1267</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</fr:p>
+<fr:p>(2) The condition that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex
+display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</fr:p>
+<fr:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link
+type="external"
+href="https://arxiv.org/abs/2404.18351">arXiv:2404.18351</fr:link>).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

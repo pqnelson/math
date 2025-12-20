@@ -7,63 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7338</fr:anchor><fr:addr
-type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4717</fr:anchor><fr:addr
+type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is closed. Let <fr:tex
-display="inline"><![CDATA[x\in  X\setminus  K]]></fr:tex>. Then for each <fr:tex
-display="inline"><![CDATA[z\in  K]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[r_{z}>0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[s_{z}>0]]></fr:tex> be such that
-<fr:tex
-display="block"><![CDATA[B_{r_{z}}(z)\cap  B_{s_{z}}(x)=\emptyset .]]></fr:tex>
-We can do this for every <fr:tex
-display="inline"><![CDATA[z\in  K]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{B_{r_{z}}(z)\}]]></fr:tex> forms an <fr:link
-type="local"
-href="ca-001S.xml"
-addr="ca-001S"
-title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is <fr:link
-type="external"
-href="001T">compact</fr:link>, it has a finite subcover: <fr:tex
-display="inline"><![CDATA[B_{r_{1}}(z_{1})]]></fr:tex>, …, <fr:tex
-display="inline"><![CDATA[B_{r_{k}}(z_{k})]]></fr:tex> which covers <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Let
-<fr:tex
-display="block"><![CDATA[s=\min (s_{z_{j}}\mid  j=1,…,k)\}]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[B_{s}(x)\cap  B_{z_{j}}(z_{j})=\emptyset ]]></fr:tex> for each <fr:tex
-display="inline"><![CDATA[j=1,…,k]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[B_{s}(x)\cap (B_{r_{1}}(z_{1})\cup …\cup  B_{r_{k}}(z_{k}))=\emptyset ,]]></fr:tex>
-so we must have
-<fr:tex
-display="block"><![CDATA[B_{s}(x)\subseteq  X\setminus  K.]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[X\setminus  K]]></fr:tex> is open iff <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is closed (by <fr:link
-type="local"
-href="ca-0014.xml"
-addr="ca-0014"
-title="A set is open iff its complement is closed">A set is open iff its complement is closed</fr:link>).</fr:p>
-
-<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is bounded. For any <fr:tex
-display="inline"><![CDATA[x_{0}\in  K]]></fr:tex>, pick <fr:tex
-display="inline"><![CDATA[\{B_{n}(x_{0})\mid  n\in \mathbb {N}\}]]></fr:tex> as an open cover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover. Since <fr:tex
-display="inline"><![CDATA[B_{m}(x_{0})\subseteq  B_{n}(x_{0})]]></fr:tex> for any <fr:tex
-display="inline"><![CDATA[m\leq  n]]></fr:tex>, this means there exists an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[K\subseteq  B_{N}(x_{0})]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is bounded.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Nothing in the proof required <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> being specifically finite, but we end up with a decomposition of infinite cardinal numbers in the infinite <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> case...which is not as useful...</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -78,38 +29,38 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7340</fr:anchor><fr:addr
-type="user">ca-001V</fr:addr><fr:route>ca-001V.xml</fr:route><fr:title
-text="Compact subsets of metric spaces are closed and bounded">Compact subsets of metric spaces are closed and bounded</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4719</fr:anchor><fr:addr
+type="user">gr-004I</fr:addr><fr:route>gr-004I.xml</fr:route><fr:title
+text="Class equation">Class equation</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.34</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 4.3.7</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/weddwitt.html#T14">weddwitt:14</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[K\subseteq  X]]></fr:tex> be a <fr:link
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Then
+<fr:tex
+display="block"><![CDATA[|G| = |Z(G)| + \sum _{x}[G : C_{G}(x)]]]></fr:tex>
+where the sum is taken over representatives from the representatives from distinct <fr:link
 type="local"
-href="ca-001T.xml"
-addr="ca-001T"
-title="Compact subset of a metric space">compact subset</fr:link> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is <fr:link
+href="gr-002D.xml"
+addr="gr-002D"
+title="Conjugacy class of an element">conjugacy classes</fr:link> disjoint from the <fr:link
 type="local"
-href="ca-000P.xml"
-addr="ca-000P"
-title="Closed Subset">closed</fr:link> and <fr:link
-type="local"
-href="ca-001U.xml"
-addr="ca-001U"
-title="">bounded</fr:link>.</fr:p>
+href="gr-002X.xml"
+addr="gr-002X"
+title="Center of a group">center</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -119,62 +70,55 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6206</fr:anchor><fr:addr
-type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2034</fr:anchor><fr:addr
+type="machine">#390</fr:addr><fr:route>unstable-390.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is closed. Let <fr:tex
-display="inline"><![CDATA[x\in  X\setminus  K]]></fr:tex>. Then for each <fr:tex
-display="inline"><![CDATA[z\in  K]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[r_{z}>0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[s_{z}>0]]></fr:tex> be such that
-<fr:tex
-display="block"><![CDATA[B_{r_{z}}(z)\cap  B_{s_{z}}(x)=\emptyset .]]></fr:tex>
-We can do this for every <fr:tex
-display="inline"><![CDATA[z\in  K]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{B_{r_{z}}(z)\}]]></fr:tex> forms an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\chi =\{G\cdot  g\mid  g\in  G\}]]></fr:tex> be the set of orbits. Since the <fr:link
 type="local"
-href="ca-001S.xml"
-addr="ca-001S"
-title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is <fr:link
-type="external"
-href="001T">compact</fr:link>, it has a finite subcover: <fr:tex
-display="inline"><![CDATA[B_{r_{1}}(z_{1})]]></fr:tex>, …, <fr:tex
-display="inline"><![CDATA[B_{r_{k}}(z_{k})]]></fr:tex> which covers <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Let
+href="gr-004J.xml"
+addr="gr-004J"
+title="Conjugacy Classes of a group">Conjugacy Classes of a group</fr:link> partitions <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, we see
 <fr:tex
-display="block"><![CDATA[s=\min (s_{z_{j}}\mid  j=1,…,k)\}]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[B_{s}(x)\cap  B_{z_{j}}(z_{j})=\emptyset ]]></fr:tex> for each <fr:tex
-display="inline"><![CDATA[j=1,…,k]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[B_{s}(x)\cap (B_{r_{1}}(z_{1})\cup …\cup  B_{r_{k}}(z_{k}))=\emptyset ,]]></fr:tex>
-so we must have
-<fr:tex
-display="block"><![CDATA[B_{s}(x)\subseteq  X\setminus  K.]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[X\setminus  K]]></fr:tex> is open iff <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is closed (by <fr:link
+display="block"><![CDATA[|G|=\sum _{G\cdot  g\in \chi }|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+and the conjugacy classes of elements <fr:tex
+display="inline"><![CDATA[z\in  Z(G)]]></fr:tex> of the <fr:link
 type="local"
-href="ca-0014.xml"
-addr="ca-0014"
-title="A set is open iff its complement is closed">A set is open iff its complement is closed</fr:link>).</fr:p>
-
-<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is bounded. For any <fr:tex
-display="inline"><![CDATA[x_{0}\in  K]]></fr:tex>, pick <fr:tex
-display="inline"><![CDATA[\{B_{n}(x_{0})\mid  n\in \mathbb {N}\}]]></fr:tex> as an open cover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover. Since <fr:tex
-display="inline"><![CDATA[B_{m}(x_{0})\subseteq  B_{n}(x_{0})]]></fr:tex> for any <fr:tex
-display="inline"><![CDATA[m\leq  n]]></fr:tex>, this means there exists an <fr:tex
-display="inline"><![CDATA[N\in \mathbb {N}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[K\subseteq  B_{N}(x_{0})]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is bounded.</fr:p><html:span
+href="gr-002X.xml"
+addr="gr-002X"
+title="Center of a group">center</fr:link> is <fr:tex
+display="inline"><![CDATA[C(z)=\{z\}]]></fr:tex>, we see that
+<fr:tex
+display="block"><![CDATA[|G|=\sum _{g\in  Z(G)}|\mathop {\textrm {Cl}}\nolimits (g)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|=|Z(G)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+Hence the result since <fr:link
+type="local"
+href="gr-004N.xml"
+addr="gr-004N"
+title="Index of centralizer is size of conjugacy class">we proved <fr:tex
+display="inline"><![CDATA[|\mathop {\textrm {Cl}}\nolimits (g)|=[G : C_{G}(g)]]]></fr:tex></fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2036</fr:anchor><fr:addr
+type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Nothing in the proof required <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> being specifically finite, but we end up with a decomposition of infinite cardinal numbers in the infinite <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> case...which is not as useful...</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

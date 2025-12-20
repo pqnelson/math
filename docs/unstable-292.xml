@@ -7,22 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7306</fr:anchor><fr:addr
-type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2518</fr:anchor><fr:addr
+type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite, we can enumerate its elements as a sequence <fr:tex
-display="inline"><![CDATA[x_{n}]]></fr:tex>.</fr:p>
-<fr:p>We can construct a sequence <fr:tex
-display="inline"><![CDATA[(n_{k})]]></fr:tex> of positive integers such that <fr:tex
-display="inline"><![CDATA[x_{n_{k}}\in  E]]></fr:tex>.</fr:p>
-<fr:p>Then we have the sequence <fr:tex
-display="inline"><![CDATA[f(k)=x_{n_{k}}]]></fr:tex> which enumerates the elements of <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:strong>Caution:</fr:strong> Terminology seems to vary wildly here. Some people reserve the term "Laurent polynomials" for the situation where <fr:tex
+display="inline"><![CDATA[n=\infty ]]></fr:tex>. I'm going to call these things <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Formal Laurent series</html:dfn> and denote it by <fr:tex
+display="inline"><![CDATA[R(\mskip -3mu(x)\mskip -3mu)]]></fr:tex> in analogy to <fr:tex
+display="inline"><![CDATA[R[{[x]}]]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -37,21 +31,21 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7308</fr:anchor><fr:addr
-type="user">nst-001V</fr:addr><fr:route>nst-001V.xml</fr:route><fr:title
-text="Every infinite subset of a countably infinite set is countable">Every infinite subset of a countably infinite set is countable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2520</fr:anchor><fr:addr
+type="user">ra-002P</fr:addr><fr:route>ra-002P.xml</fr:route><fr:title
+text="Ring of Formal Laurent Polynomials">Ring of Formal Laurent Polynomials</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.8</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be a countably infinite set, let <fr:tex
-display="inline"><![CDATA[E\subseteq  A]]></fr:tex> be infinite. Then <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is countable.</fr:p>
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Formal Laurent Polynomials</html:dfn> to be the ring <fr:tex
+display="inline"><![CDATA[R(x)=\{\sum ^{n}_{j=-k}a_{k}x^{k}\mid  a_{j}\in  R, a_{-k}\neq 0,a_{n}\neq 0, n,k\in \mathbb {N}_{0}\}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -61,21 +55,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7226</fr:anchor><fr:addr
-type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1171</fr:anchor><fr:addr
+type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite, we can enumerate its elements as a sequence <fr:tex
-display="inline"><![CDATA[x_{n}]]></fr:tex>.</fr:p>
-<fr:p>We can construct a sequence <fr:tex
-display="inline"><![CDATA[(n_{k})]]></fr:tex> of positive integers such that <fr:tex
-display="inline"><![CDATA[x_{n_{k}}\in  E]]></fr:tex>.</fr:p>
-<fr:p>Then we have the sequence <fr:tex
-display="inline"><![CDATA[f(k)=x_{n_{k}}]]></fr:tex> which enumerates the elements of <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:strong>Caution:</fr:strong> Terminology seems to vary wildly here. Some people reserve the term "Laurent polynomials" for the situation where <fr:tex
+display="inline"><![CDATA[n=\infty ]]></fr:tex>. I'm going to call these things <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Formal Laurent series</html:dfn> and denote it by <fr:tex
+display="inline"><![CDATA[R(\mskip -3mu(x)\mskip -3mu)]]></fr:tex> in analogy to <fr:tex
+display="inline"><![CDATA[R[{[x]}]]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

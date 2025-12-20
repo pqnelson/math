@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>827</fr:anchor><fr:addr
+type="user">ra-005D</fr:addr><fr:route>ra-005D.xml</fr:route><fr:title
+text="Existence and uniqueness of Jordan Canonical Form">Existence and uniqueness of Jordan Canonical Form</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer, let <fr:tex
+display="inline"><![CDATA[A\in \mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. Assume <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> contains all the eigenvalues of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>. Then there exists a unique <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrix <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {JCF}}\nolimits (A)]]></fr:tex> called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Jordan Canonical Form</html:dfn> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> such that the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[A\sim \mathop {\textrm {JCF}}\nolimits (A)]]></fr:tex>;</fr:li>
+<fr:li>For any <fr:tex
+display="inline"><![CDATA[B\in \mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[A\sim  B]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {JCF}}\nolimits (A)=\mathop {\textrm {JCF}}\nolimits (B)]]></fr:tex>;</fr:li>
+<fr:li>The <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {JCF}}\nolimits (A)]]></fr:tex> is a block diagonal matrix consisting of <fr:link
+type="local"
+href="ra-005A.xml"
+addr="ra-005A"
+title="Jordan block">Jordan blocks</fr:link>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>829</fr:anchor><fr:addr
+type="user">ra-005A</fr:addr><fr:route>ra-005A.xml</fr:route><fr:title
+text="Jordan block">Jordan block</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[\lambda \in  R]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Jordan Block</html:dfn> of size <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> with eigenvalue <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrix which looks like
+<fr:tex
+display="block"><![CDATA[\begin {pmatrix} \lambda  &      1  &        &         &   \\         & \lambda  & \ddots  &         &   \\         &         & \ddots  &  1      &   \\         &         &        & \lambda  & 1 \\         &         &        &         & \lambda \end {pmatrix}.]]></fr:tex>
+That is to say, the upper subdiagonal are all 1, the diagonal entries are all <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>, and all other entries are zero.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>511</fr:anchor><fr:addr
+type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is also called an <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">elementary Jordan matrix</html:dfn> with eigenvalue <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>, among other various similar terms.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>831</fr:anchor><fr:addr
+type="user">field-0001</fr:addr><fr:route>field-0001.xml</fr:route><fr:title
+text="Field">Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Field</html:dfn> is traditionally defined as a set <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> with two binary operators, addition (denoted <fr:tex
+display="inline"><![CDATA[+]]></fr:tex>) and multiplication (denoted <fr:tex
+display="inline"><![CDATA[\cdot ]]></fr:tex>), satisfying the field axioms:</fr:p><fr:ol><fr:li>Associativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x+y)+z=x+(y+z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of addition: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x+y=y+x]]></fr:tex></fr:li>
+<fr:li>Additive identity: there exists a <fr:tex
+display="inline"><![CDATA[0\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[0+x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x+0=x]]></fr:tex></fr:li>
+<fr:li>Additive inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x+y=0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y+x=0]]></fr:tex>; in this case, we usually denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[(-x)]]></fr:tex></fr:li>
+<fr:li>Associativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(x\cdot  y)\cdot  z=x\cdot  (y\cdot  z)]]></fr:tex></fr:li>
+<fr:li>Commutativity of multiplication: for all <fr:tex
+display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x\cdot  y=y\cdot  x]]></fr:tex></fr:li>
+<fr:li>Multiplicative identity: there exists a <fr:tex
+display="inline"><![CDATA[1\in  F]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[1\cdot  x=x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[x\cdot  1=x]]></fr:tex></fr:li>
+<fr:li>Multiplicative inverses: for each <fr:tex
+display="inline"><![CDATA[x\in  F]]></fr:tex> which is nonzero <fr:tex
+display="inline"><![CDATA[x\neq 0]]></fr:tex> there is a unique <fr:tex
+display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\cdot  y=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\cdot  x=1]]></fr:tex>; usually we denote <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[x^{-1}]]></fr:tex></fr:li>
+<fr:li>Distributivity of multiplication over addition: for all <fr:tex
+display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[x\cdot (y+z)=(x\cdot  y)+(x\cdot  z)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x+y)\cdot  z=(x\cdot  z)+(x\cdot  y)]]></fr:tex></fr:li></fr:ol><fr:p>Note that some of these are redundant.</fr:p><fr:p>Also note: fields are usually written in blackboard bold, and the generic field is either <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since the German word for field is "<fr:em>Körper</fr:em>").</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

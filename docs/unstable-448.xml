@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9652</fr:anchor><fr:addr
+type="machine">#448</fr:addr><fr:route>unstable-448.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is continuous. Let <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> be a continuous subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a point in the preimage <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. We must show that an open ball centered at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is a point in <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>, which is open in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, there is some <fr:tex
+display="inline"><![CDATA[r>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{r}(f(x))\subseteq  O]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous</fr:link> at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we can find a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{r}(f(x))\subseteq  O]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(O)]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the preimage under <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> of each open set of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. The open ball <fr:tex
+display="inline"><![CDATA[B_{\varepsilon }(f(x))]]></fr:tex> is an open subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+Then <fr:tex
+display="inline"><![CDATA[f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
+Note that <fr:tex
+display="inline"><![CDATA[x\in  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>, so we can choose a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>.
+That is, <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{\varepsilon }(f(x))]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9654</fr:anchor><fr:addr
+type="user">ca-001N</fr:addr><fr:route>ca-001N.xml</fr:route><fr:title
+text="A function is continuous iff the preimage of open sets are open">A function is continuous iff the preimage of open sets are open</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function. Then <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous</fr:link> if and only if for each <fr:link
+type="local"
+href="ca-000M.xml"
+addr="ca-000M"
+title="Open Set">open</fr:link> subset <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, the preimage <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex> is an open subset of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8550</fr:anchor><fr:addr
+type="machine">#448</fr:addr><fr:route>unstable-448.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is continuous. Let <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> be a continuous subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a point in the preimage <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. We must show that an open ball centered at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is a point in <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>, which is open in <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>, there is some <fr:tex
+display="inline"><![CDATA[r>0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{r}(f(x))\subseteq  O]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001L.xml"
+addr="ca-001L"
+title="Continuous function between metric spaces">continuous</fr:link> at <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, we can find a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{r}(f(x))\subseteq  O]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(O)]]></fr:tex> and therefore <fr:tex
+display="inline"><![CDATA[f^{-1}(O)]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the preimage under <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> of each open set of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. The open ball <fr:tex
+display="inline"><![CDATA[B_{\varepsilon }(f(x))]]></fr:tex> is an open subset of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.
+Then <fr:tex
+display="inline"><![CDATA[f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex> is open in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.
+Note that <fr:tex
+display="inline"><![CDATA[x\in  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>, so we can choose a <fr:tex
+display="inline"><![CDATA[\delta >0]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[B_{\delta }(x)\subseteq  f^{-1}(B_{\varepsilon }(f(x)))]]></fr:tex>.
+That is, <fr:tex
+display="inline"><![CDATA[f(B_{\delta }(x))\subseteq  B_{\varepsilon }(f(x))]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

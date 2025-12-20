@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1714</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4219</fr:anchor><fr:addr
 type="user">ra-000F</fr:addr><fr:route>ra-000F.xml</fr:route><fr:title
 text="Matrix ring has zero divisors">Matrix ring has zero divisors</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -41,9 +41,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1716</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4221</fr:anchor><fr:addr
 type="user">iaa-0008</fr:addr><fr:route>iaa-0008.xml</fr:route><fr:title
-text="Traditional Introduction to Rings and Modules">Traditional Introduction to Rings and Modules</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Traditional Introduction to Rings">Traditional Introduction to Rings</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -54,7 +54,24 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>641</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1079</fr:anchor><fr:addr
+type="user">iaa-000A</fr:addr><fr:route>iaa-000A.xml</fr:route><fr:title
+text="Prefatory comments about traditional introduction to rings">Prefatory comments about traditional introduction to rings</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This is roughly the content of the Math 5B course at <fr:link
+type="local"
+href="caltech.edu.xml"
+addr="caltech.edu"
+title="California Institute of Technology">California Institute of Technology</fr:link>, organized from my notes from the course offered Winter Quarter 2018. These notes about rings would constitute the first half of the course (literally, the first 13.5 lectures out of the 27 lectures).</fr:p><fr:p>Most courses about rings are the same, but vary in level of rigor and detail. UC Davis's Math 150B course was not quite at this level of maturity, but it was close. But it is nowhere near the level of sophistication of UC Davis's graduate abstract algebra course content.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1081</fr:anchor><fr:addr
 type="user">ring-0001</fr:addr><fr:route>ring-0001.xml</fr:route><fr:title
 text="Ring">Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -98,8 +115,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>643</fr:anchor><fr:addr
-type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>866</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -116,7 +133,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>645</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1083</fr:anchor><fr:addr
 type="user">ra-0001</fr:addr><fr:route>ra-0001.xml</fr:route><fr:title
 text="Integers are a ring">Integers are a ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -137,8 +154,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>617</fr:anchor><fr:addr
-type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1085</fr:anchor><fr:addr
+type="machine">#332</fr:addr><fr:route>unstable-332.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -156,8 +173,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>619</fr:anchor><fr:addr
-type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1087</fr:anchor><fr:addr
+type="machine">#333</fr:addr><fr:route>unstable-333.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -170,9 +187,9 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>647</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1089</fr:anchor><fr:addr
 type="user">ra-0002</fr:addr><fr:route>ra-0002.xml</fr:route><fr:title
-text="Rationals, reals, complex numbers are a ring">Rationals, reals, complex numbers are a ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Rationals, reals, complex numbers are a ring">Rationals, reals, complex numbers are a ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -189,7 +206,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>649</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1091</fr:anchor><fr:addr
 type="user">ra-0004</fr:addr><fr:route>ra-0004.xml</fr:route><fr:title
 text="Matrix ring">Matrix ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -229,7 +246,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1093</fr:anchor><fr:addr
 type="user">ra-0003</fr:addr><fr:route>ra-0003.xml</fr:route><fr:title
 text="Commutative Ring">Commutative Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -256,8 +273,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>611</fr:anchor><fr:addr
-type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1045</fr:anchor><fr:addr
+type="machine">#331</fr:addr><fr:route>unstable-331.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -282,9 +299,9 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>653</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1095</fr:anchor><fr:addr
 type="user">ra-0005</fr:addr><fr:route>ra-0005.xml</fr:route><fr:title
-text="Quaternions">Quaternions</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Quaternions">Quaternions</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -322,8 +339,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>605</fr:anchor><fr:addr
-type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1097</fr:anchor><fr:addr
+type="machine">#330</fr:addr><fr:route>unstable-330.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -343,7 +360,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>655</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1099</fr:anchor><fr:addr
 type="user">ra-0006</fr:addr><fr:route>ra-0006.xml</fr:route><fr:title
 text="Rings as number systems">Rings as number systems</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -361,7 +378,71 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>657</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1101</fr:anchor><fr:addr
+type="user">ra-002D</fr:addr><fr:route>ra-002D.xml</fr:route><fr:title
+text="Gaussian integers">Gaussian integers</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The set <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[i]=\{x+\mathrm {i} y\in \mathbb {C}\mid  x,y\in \mathbb {Z}\}]]></fr:tex> forms a ring when equipped with addition and multiplication from the complex numbers.</fr:p><fr:p>Moreover, since multiplication of complex numbers is commutative, this forms a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1103</fr:anchor><fr:addr
+type="user">ra-002E</fr:addr><fr:route>ra-002E.xml</fr:route><fr:title
+text="Hurwitz integers">Hurwitz integers</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\omega =\mathop {\textrm {exp}}\nolimits (\mathrm {i} 2\pi  / 3)=(-1+\mathrm {i}\sqrt {3}) / 2]]></fr:tex>. Then the set <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[\omega ]=\{a+b\omega \in \mathbb {C}\mid  a,b\in \mathbb {Z}\}]]></fr:tex> forms a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link> when equipped with addition and multiplication from the complex numbers. These form the ring of Hurwitz integers.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1105</fr:anchor><fr:addr
+type="user">ra-002Y</fr:addr><fr:route>ra-002Y.xml</fr:route><fr:title
+text="Endomorphism ring">Endomorphism ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/lmod_xx1.html#K10">lmod_xx1:def 9</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> be an additive <fr:link
+type="local"
+href="gr-000J.xml"
+addr="gr-000J"
+title="Abelian group">Abelian group</fr:link>. Then the set <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {End}}\nolimits (A)]]></fr:tex> of group morphisms ("endomorphisms") <fr:tex
+display="inline"><![CDATA[f\colon  A\to  A]]></fr:tex> is a ring.</fr:p><fr:p>We see <fr:tex
+display="inline"><![CDATA[(f+g)(x)=f(x)+g(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(f\star  g)(x)=(f\circ  g)(x)=f(g(x))]]></fr:tex> are the binary operators for the ring.</fr:p><fr:p>This is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Endomorphism Ring</html:dfn> of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1107</fr:anchor><fr:addr
 type="user">ra-0007</fr:addr><fr:route>ra-0007.xml</fr:route><fr:title
 text="Multiplication by Zero is Zero in a ring">Multiplication by Zero is Zero in a ring</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -385,8 +466,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>599</fr:anchor><fr:addr
-type="machine">#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1109</fr:anchor><fr:addr
+type="machine">#329</fr:addr><fr:route>unstable-329.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -412,7 +493,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>659</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1111</fr:anchor><fr:addr
 type="user">ra-0008</fr:addr><fr:route>ra-0008.xml</fr:route><fr:title
 text="Division ring">Division ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -439,7 +520,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>661</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1113</fr:anchor><fr:addr
 type="user">ra-0009</fr:addr><fr:route>ra-0009.xml</fr:route><fr:title
 text="Multiplicative inverse">Multiplicative inverse</fr:title><fr:taxon>Notation</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -464,7 +545,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>663</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1115</fr:anchor><fr:addr
 type="user">ra-000I</fr:addr><fr:route>ra-000I.xml</fr:route><fr:title
 text="Unit">Unit</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -488,9 +569,9 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>665</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1117</fr:anchor><fr:addr
 type="user">ra-000A</fr:addr><fr:route>ra-000A.xml</fr:route><fr:title
-text="Inverse of one is one in a ring">Inverse of one is one in a ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Inverse of one is one in a ring">Inverse of one is one in a ring</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -512,8 +593,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>593</fr:anchor><fr:addr
-type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1119</fr:anchor><fr:addr
+type="machine">#328</fr:addr><fr:route>unstable-328.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -543,7 +624,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>667</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1121</fr:anchor><fr:addr
 type="user">ra-000B</fr:addr><fr:route>ra-000B.xml</fr:route><fr:title
 text="Negation in a unital ring is multiplying by minus one">Negation in a unital ring is multiplying by minus one</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -566,8 +647,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>587</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1123</fr:anchor><fr:addr
+type="machine">#327</fr:addr><fr:route>unstable-327.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -588,7 +669,60 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>669</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1125</fr:anchor><fr:addr
+type="user">ra-002F</fr:addr><fr:route>ra-002F.xml</fr:route><fr:title
+text="Product ring">Product ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> be <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>s. We define their <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Product Ring</html:dfn> <fr:tex
+display="inline"><![CDATA[R_{1}\times  R_{2}]]></fr:tex> to consist of the direct product of the underlying set of elements of <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex>, equipped with the operations
+<fr:tex
+display="block"><![CDATA[(a,b)+(c,d)=(a+c,b+d)]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[(a,b)(c,d)=(ac,bd).]]></fr:tex>
+This forms a ring.</fr:p><fr:p>Moreover, if <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> are both commutative, then <fr:tex
+display="inline"><![CDATA[R_{1}\times  R_{2}]]></fr:tex> is commutative.</fr:p><fr:p>And if <fr:tex
+display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[R_{2}]]></fr:tex> are both unital, then <fr:tex
+display="inline"><![CDATA[R_{1}\times  R_{2}]]></fr:tex> is unital.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1127</fr:anchor><fr:addr
+type="machine">#296</fr:addr><fr:route>unstable-296.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This generalizes to any indexed family of rings <fr:tex
+display="inline"><![CDATA[\{R_{i}\}_{i\in  I}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1129</fr:anchor><fr:addr
 type="user">ra-000C</fr:addr><fr:route>ra-000C.xml</fr:route><fr:title
 text="Set of nonzero elements in a ring">Set of nonzero elements in a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -610,7 +744,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>671</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1131</fr:anchor><fr:addr
 type="user">ra-000D</fr:addr><fr:route>ra-000D.xml</fr:route><fr:title
 text="Set of invertible elements of a ring">Set of invertible elements of a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -641,7 +775,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>673</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1133</fr:anchor><fr:addr
 type="user">ra-000E</fr:addr><fr:route>ra-000E.xml</fr:route><fr:title
 text="Zero Divisor">Zero Divisor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -683,7 +817,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>675</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1135</fr:anchor><fr:addr
 type="user">ra-000F</fr:addr><fr:route>ra-000F.xml</fr:route><fr:title
 text="Matrix ring has zero divisors">Matrix ring has zero divisors</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -709,7 +843,64 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1137</fr:anchor><fr:addr
+type="user">ra-002R</fr:addr><fr:route>ra-002R.xml</fr:route><fr:title
+text="Ring of formal distributions has zero divisors">Ring of formal distributions has zero divisors</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> (but it could be any commutative ring, however nice you want it). Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Consider the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Formal Distributions</html:dfn> <fr:tex
+display="inline"><![CDATA[\mathbb {F}[{[x,x^{-1}]}]]]></fr:tex> which consists of generic formal power series like
+<fr:tex
+display="block"><![CDATA[f(x)=\sum ^{\infty }_{n=-\infty }a_{n}x^{n}.]]></fr:tex>
+Consider the specific function
+<fr:tex
+display="block"><![CDATA[\delta (x)=\sum _{n\in \mathbb {Z}}x^{n}]]></fr:tex>
+Then
+<fr:tex
+display="block"><![CDATA[x\delta (x)=\delta (x)]]></fr:tex>
+so
+<fr:tex
+display="block"><![CDATA[(1-x)\delta (x).]]></fr:tex>
+But <fr:tex
+display="inline"><![CDATA[1-x\neq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\delta (x)\neq 0]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\mathbb {F}[{[x,x^{-1}]}]]]></fr:tex> has <fr:link
+type="local"
+href="ra-000E.xml"
+addr="ra-000E"
+title="Zero Divisor">zero divisors</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1139</fr:anchor><fr:addr
+type="machine">#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This ring appears when studying Vertex Operator Algebras, a sort of formal model of 1-dimensional quantum field theories.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1141</fr:anchor><fr:addr
 type="user">ra-000J</fr:addr><fr:route>ra-000J.xml</fr:route><fr:title
 text="Ring elements are either units or some kind of zero divisor">Ring elements are either units or some kind of zero divisor</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -742,8 +933,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>575</fr:anchor><fr:addr
-type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1143</fr:anchor><fr:addr
+type="machine">#325</fr:addr><fr:route>unstable-325.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -771,8 +962,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>577</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1145</fr:anchor><fr:addr
+type="machine">#326</fr:addr><fr:route>unstable-326.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -789,7 +980,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1147</fr:anchor><fr:addr
 type="user">ra-000G</fr:addr><fr:route>ra-000G.xml</fr:route><fr:title
 text="Domain">Domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -811,7 +1002,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>681</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1149</fr:anchor><fr:addr
 type="user">ra-000H</fr:addr><fr:route>ra-000H.xml</fr:route><fr:title
 text="Integral domain">Integral domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -829,7 +1020,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>683</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1151</fr:anchor><fr:addr
 type="user">field-0001</fr:addr><fr:route>field-0001.xml</fr:route><fr:title
 text="Field">Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -893,9 +1084,9 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>685</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1153</fr:anchor><fr:addr
 type="user">ra-000K</fr:addr><fr:route>ra-000K.xml</fr:route><fr:title
-text="Integers modulo a prime form a field">Integers modulo a prime form a field</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Integers modulo a prime form a field">Integers modulo a prime form a field</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -915,8 +1106,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1155</fr:anchor><fr:addr
+type="machine">#324</fr:addr><fr:route>unstable-324.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -942,7 +1133,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>687</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1157</fr:anchor><fr:addr
 type="user">ra-000L</fr:addr><fr:route>ra-000L.xml</fr:route><fr:title
 text="Polynomial ring">Polynomial ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -975,8 +1166,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>563</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1159</fr:anchor><fr:addr
+type="machine">#323</fr:addr><fr:route>unstable-323.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -990,7 +1181,12 @@ title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
 display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
 <fr:tex
 display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
-and so on.</fr:p>
+and so on. In fact, Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> define (Section 9.1) <fr:tex
+display="inline"><![CDATA[R[x_{1},…,x_{n}]=R[x_{1},…,x_{n-1}][x_{n}]]]></fr:tex>.</fr:p>
 <fr:p>(2) We could generalize this to noncommutative <fr:tex
 display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
@@ -1001,7 +1197,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>689</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1161</fr:anchor><fr:addr
 type="user">ra-000M</fr:addr><fr:route>ra-000M.xml</fr:route><fr:title
 text="Multi-index">Multi-index</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1030,7 +1226,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>691</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1163</fr:anchor><fr:addr
 type="user">ra-000N</fr:addr><fr:route>ra-000N.xml</fr:route><fr:title
 text="Degree of a formal polynomial">Degree of a formal polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1061,7 +1257,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>693</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1165</fr:anchor><fr:addr
 type="user">ra-000O</fr:addr><fr:route>ra-000O.xml</fr:route><fr:title
 text="Properties of degree of formal polynomials">Properties of degree of formal polynomials</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1075,7 +1271,8 @@ addr="ra-0003"
 title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
 display="inline"><![CDATA[p,q\in  R[x_{1},…,x_{n}]]]></fr:tex> be nonzero formal polynomials. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
 display="inline"><![CDATA[\deg (f(x)+g(x))\leq \max (\deg (f),\deg (g))]]></fr:tex></fr:li>
-<fr:li><fr:tex
+<fr:li>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is an integral domain, then <fr:tex
 display="inline"><![CDATA[\deg (fg)=\deg (f)+\deg (g)]]></fr:tex></fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
@@ -1083,7 +1280,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>695</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1167</fr:anchor><fr:addr
 type="user">ra-000P</fr:addr><fr:route>ra-000P.xml</fr:route><fr:title
 text="Ring of formal polynomials with coefficients in integral domain forms an integral domain">Ring of formal polynomials with coefficients in integral domain forms an integral domain</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1107,7 +1304,81 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>697</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1169</fr:anchor><fr:addr
+type="user">ra-002P</fr:addr><fr:route>ra-002P.xml</fr:route><fr:title
+text="Ring of Formal Laurent Polynomials">Ring of Formal Laurent Polynomials</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Formal Laurent Polynomials</html:dfn> to be the ring <fr:tex
+display="inline"><![CDATA[R(x)=\{\sum ^{n}_{j=-k}a_{k}x^{k}\mid  a_{j}\in  R, a_{-k}\neq 0,a_{n}\neq 0, n,k\in \mathbb {N}_{0}\}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1171</fr:anchor><fr:addr
+type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:strong>Caution:</fr:strong> Terminology seems to vary wildly here. Some people reserve the term "Laurent polynomials" for the situation where <fr:tex
+display="inline"><![CDATA[n=\infty ]]></fr:tex>. I'm going to call these things <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Formal Laurent series</html:dfn> and denote it by <fr:tex
+display="inline"><![CDATA[R(\mskip -3mu(x)\mskip -3mu)]]></fr:tex> in analogy to <fr:tex
+display="inline"><![CDATA[R[{[x]}]]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1173</fr:anchor><fr:addr
+type="user">ra-002Q</fr:addr><fr:route>ra-002Q.xml</fr:route><fr:title
+text="Ring of formal power series">Ring of formal power series</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Formal Power Series</html:dfn> <fr:tex
+display="inline"><![CDATA[R[{[x]}]]]></fr:tex> consists of all formal power series
+<fr:tex
+display="block"><![CDATA[f(x)=\sum ^{\infty }_{n=0}a_{n}x^{n}]]></fr:tex>
+with addition defined by matching powers of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>:
+<fr:tex
+display="block"><![CDATA[\left (\sum _{n}a_{n}x^{n}\right )+\left (\sum _{m}b_{m}x^{m}\right )=\sum _{n}(a_{n}+b_{n})x^{n}]]></fr:tex>
+and multiplication defined by Cauchy convolution product
+<fr:tex
+display="block"><![CDATA[\left (\sum _{n}a_{n}x^{n}\right )\left (\sum _{m}b_{m}x^{m}\right )=\sum _{n=0}\left (\sum ^{n}_{k=0}a_{n-k}b_{k}\right )x^{n}.]]></fr:tex>
+This is a unital ring when <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1175</fr:anchor><fr:addr
 type="user">ra-000Q</fr:addr><fr:route>ra-000Q.xml</fr:route><fr:title
 text="Subring">Subring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1145,7 +1416,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>699</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1177</fr:anchor><fr:addr
 type="user">ra-000R</fr:addr><fr:route>ra-000R.xml</fr:route><fr:title
 text="Common subrings">Common subrings</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1159,7 +1430,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>701</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1179</fr:anchor><fr:addr
 type="user">ra-000S</fr:addr><fr:route>ra-000S.xml</fr:route><fr:title
 text="Subrings of matrix ring">Subrings of matrix ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1202,7 +1473,100 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1181</fr:anchor><fr:addr
+type="user">ra-003U</fr:addr><fr:route>ra-003U.xml</fr:route><fr:title
+text="Center of a Ring">Center of a Ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/weddwitt.html#K4">weddwitt:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Center</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the subring <fr:tex
+display="inline"><![CDATA[Z(R)]]></fr:tex> consisting of <fr:tex
+display="inline"><![CDATA[z\in  R]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[zr=rz]]></fr:tex> and also (for non-associative rings) for all <fr:tex
+display="inline"><![CDATA[r,s\in  R]]></fr:tex> and for all <fr:tex
+display="inline"><![CDATA[z\in  Z(R)]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[z(rs)=(zr)s]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[r(zs)=(rz)s]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(rs)z=r(sz)]]></fr:tex>. In other words, <fr:tex
+display="inline"><![CDATA[Z(R)]]></fr:tex> consists of elements which commute and associate with all elements of the ring.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1009</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Uniqueness:</fr:strong> If there are two possible centers, it's obvious they contain the same elements, which means they are equal to each other.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> We see that the underlying set is nonempty and well-defined. We just need to show it is closed under addition and multiplication and contains <fr:tex
+display="inline"><![CDATA[0\in  Z(R)]]></fr:tex>...well, <fr:tex
+display="inline"><![CDATA[0r=0=r0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[0\in  Z(R)]]></fr:tex>.</fr:p>
+<fr:p>We see for any <fr:tex
+display="inline"><![CDATA[z,w\in  Z(R)]]></fr:tex> that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(z+w)r=zr+wr=rz+rw=r(z+w)]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[z+w\in  Z(R)]]></fr:tex>. So it's closed under addition</fr:p>
+<fr:p>We see for any <fr:tex
+display="inline"><![CDATA[z,w\in  Z(R)]]></fr:tex> that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(zw)r=z(wr)=(wr)z=(rw)z=r(wz)=r(zw)]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[zw\in  Z(R)]]></fr:tex>. So it's closed under multiplication.</fr:p>
+<fr:p>Taken together, this means there exists a well-defined center <fr:tex
+display="inline"><![CDATA[Z(R)]]></fr:tex> which is a subring of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1011</fr:anchor><fr:addr
+type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For associative rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, we only need to check that <fr:tex
+display="inline"><![CDATA[zr=rz]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[z\in  Z(R)]]></fr:tex> and for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, since it's associative.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+<fr:p><fr:strong>Exercise:</fr:strong> If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital, is <fr:tex
+display="inline"><![CDATA[1\in  Z(R)]]></fr:tex> or not? Prove it.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1183</fr:anchor><fr:addr
 type="user">ra-000T</fr:addr><fr:route>ra-000T.xml</fr:route><fr:title
 text="Ring morphism">Ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1252,7 +1616,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>705</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1185</fr:anchor><fr:addr
 type="user">ra-000U</fr:addr><fr:route>ra-000U.xml</fr:route><fr:title
 text="Inclusion of factor into direct product">Inclusion of factor into direct product</fr:title><fr:taxon>Non-example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1275,8 +1639,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>557</fr:anchor><fr:addr
-type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1187</fr:anchor><fr:addr
+type="machine">#322</fr:addr><fr:route>unstable-322.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1293,7 +1657,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>707</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1189</fr:anchor><fr:addr
 type="user">ra-000V</fr:addr><fr:route>ra-000V.xml</fr:route><fr:title
 text="Not all rings have morphisms between them">Not all rings have morphisms between them</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1315,8 +1679,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>551</fr:anchor><fr:addr
-type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1191</fr:anchor><fr:addr
+type="machine">#321</fr:addr><fr:route>unstable-321.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1336,7 +1700,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>709</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1193</fr:anchor><fr:addr
 type="user">ra-000Y</fr:addr><fr:route>ra-000Y.xml</fr:route><fr:title
 text="Identity function is a ring morphism">Identity function is a ring morphism</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1359,7 +1723,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1195</fr:anchor><fr:addr
 type="user">ra-000W</fr:addr><fr:route>ra-000W.xml</fr:route><fr:title
 text="Properties of ring morphisms">Properties of ring morphisms</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1409,7 +1773,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>713</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1197</fr:anchor><fr:addr
 type="user">ra-000Z</fr:addr><fr:route>ra-000Z.xml</fr:route><fr:title
 text="Left ideal of a ring">Left ideal of a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1458,8 +1822,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>890</fr:anchor><fr:addr
+type="machine">#320</fr:addr><fr:route>unstable-320.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1472,7 +1836,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>715</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1199</fr:anchor><fr:addr
 type="user">ra-0010</fr:addr><fr:route>ra-0010.xml</fr:route><fr:title
 text="Right ideal of a ring">Right ideal of a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1518,7 +1882,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>717</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1201</fr:anchor><fr:addr
 type="user">ra-0011</fr:addr><fr:route>ra-0011.xml</fr:route><fr:title
 text="Ideal">Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1579,8 +1943,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>539</fr:anchor><fr:addr
-type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1203</fr:anchor><fr:addr
+type="machine">#319</fr:addr><fr:route>unstable-319.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1607,7 +1971,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>719</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1205</fr:anchor><fr:addr
 type="user">ra-001I</fr:addr><fr:route>ra-001I.xml</fr:route><fr:title
 text="Collection of ideals forms a set">Collection of ideals forms a set</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1629,8 +1993,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>473</fr:anchor><fr:addr
-type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1207</fr:anchor><fr:addr
+type="machine">#308</fr:addr><fr:route>unstable-308.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1650,7 +2014,53 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>721</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1209</fr:anchor><fr:addr
+type="user">ra-0025</fr:addr><fr:route>ra-0025.xml</fr:route><fr:title
+text="Adding ideals">Adding ideals</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> be left/right/two-sided ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then we define their sum to be the left/right/two-sided ideal
+<fr:tex
+display="block"><![CDATA[I+J=\{a+b\in  R\mid  a\in  I,b\in  J\}.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1211</fr:anchor><fr:addr
+type="user">ra-0026</fr:addr><fr:route>ra-0026.xml</fr:route><fr:title
+text="Multiplying ideals">Multiplying ideals</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> be left/right/two-sided ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then we define their product to be the left/right/two-sided ideal consisting of all possible finite linear combinations
+<fr:tex
+display="block"><![CDATA[IJ=\{a_{1}b_{1}+…+a_{n}b_{n}\in  R\mid  n\in \mathbb {N},a_{i}\in  I,b_{i}\in  J\hbox { for }i=1,…,n\}.]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1213</fr:anchor><fr:addr
 type="user">ra-0012</fr:addr><fr:route>ra-0012.xml</fr:route><fr:title
 text="Kernel of a ring morphism">Kernel of a ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1679,7 +2089,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>723</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1215</fr:anchor><fr:addr
 type="user">ra-0013</fr:addr><fr:route>ra-0013.xml</fr:route><fr:title
 text="Trivial ideal">Trivial ideal</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1704,7 +2114,30 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>725</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1217</fr:anchor><fr:addr
+type="user">ra-0027</fr:addr><fr:route>ra-0027.xml</fr:route><fr:title
+text="Intersection of ideals is an ideal">Intersection of ideals is an ideal</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> be left (resp., right, two-sided) ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[I\cap  J]]></fr:tex> is a left (resp., right, two-sided) ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1219</fr:anchor><fr:addr
 type="user">ra-0014</fr:addr><fr:route>ra-0014.xml</fr:route><fr:title
 text="Division rings have trivial left ideals">Division rings have trivial left ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1731,8 +2164,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>533</fr:anchor><fr:addr
-type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1221</fr:anchor><fr:addr
+type="machine">#318</fr:addr><fr:route>unstable-318.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1759,7 +2192,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>727</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1223</fr:anchor><fr:addr
 type="user">ra-0015</fr:addr><fr:route>ra-0015.xml</fr:route><fr:title
 text="Quotient Ring">Quotient Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1816,8 +2249,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>527</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1225</fr:anchor><fr:addr
+type="machine">#317</fr:addr><fr:route>unstable-317.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1833,7 +2266,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1227</fr:anchor><fr:addr
 type="user">ra-0016</fr:addr><fr:route>ra-0016.xml</fr:route><fr:title
 text="Canonical ring morphism">Canonical ring morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1867,8 +2300,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>521</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1229</fr:anchor><fr:addr
+type="machine">#316</fr:addr><fr:route>unstable-316.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1883,7 +2316,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>731</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1231</fr:anchor><fr:addr
 type="user">ra-000X</fr:addr><fr:route>ra-000X.xml</fr:route><fr:title
 text="Ring Isomorphism">Ring Isomorphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1918,9 +2351,9 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>733</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1233</fr:anchor><fr:addr
 type="user">ra-0017</fr:addr><fr:route>ra-0017.xml</fr:route><fr:title
-text="Criterion for ring isomorphism">Criterion for ring isomorphism</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Criterion for ring isomorphism">Criterion for ring isomorphism</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1946,7 +2379,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1235</fr:anchor><fr:addr
 type="user">ra-0018</fr:addr><fr:route>ra-0018.xml</fr:route><fr:title
 text="First Isomorphism Theorem for Rings">First Isomorphism Theorem for Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1984,8 +2417,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>515</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1237</fr:anchor><fr:addr
+type="machine">#315</fr:addr><fr:route>unstable-315.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2009,7 +2442,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>737</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1239</fr:anchor><fr:addr
 type="user">ra-0019</fr:addr><fr:route>ra-0019.xml</fr:route><fr:title
 text="Second Isomorphism Theorem of Rings">Second Isomorphism Theorem of Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2048,8 +2481,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>509</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1241</fr:anchor><fr:addr
+type="machine">#314</fr:addr><fr:route>unstable-314.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2064,7 +2497,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1243</fr:anchor><fr:addr
 type="user">ra-001A</fr:addr><fr:route>ra-001A.xml</fr:route><fr:title
 text="Third Isomorphism Theorem of Rings">Third Isomorphism Theorem of Rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2094,7 +2527,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1245</fr:anchor><fr:addr
 type="user">ra-001B</fr:addr><fr:route>ra-001B.xml</fr:route><fr:title
 text="Principal Ideal">Principal Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2133,7 +2566,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>743</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1247</fr:anchor><fr:addr
 type="user">ra-001C</fr:addr><fr:route>ra-001C.xml</fr:route><fr:title
 text="Maximal ideal">Maximal ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2188,8 +2621,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1249</fr:anchor><fr:addr
+type="machine">#313</fr:addr><fr:route>unstable-313.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2203,7 +2636,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>745</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1251</fr:anchor><fr:addr
 type="user">ra-001E</fr:addr><fr:route>ra-001E.xml</fr:route><fr:title
 text="Ideal is maximal iff quotient ring is field">Ideal is maximal iff quotient ring is field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2241,7 +2674,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1253</fr:anchor><fr:addr
 type="user">ra-001D</fr:addr><fr:route>ra-001D.xml</fr:route><fr:title
 text="Prime Ideal">Prime Ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2274,8 +2707,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>497</fr:anchor><fr:addr
-type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1255</fr:anchor><fr:addr
+type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2301,7 +2734,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1257</fr:anchor><fr:addr
 type="user">ra-001F</fr:addr><fr:route>ra-001F.xml</fr:route><fr:title
 text="Ideal is prime iff quotient ring is integral domain">Ideal is prime iff quotient ring is integral domain</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2339,7 +2772,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1259</fr:anchor><fr:addr
 type="user">ra-001G</fr:addr><fr:route>ra-001G.xml</fr:route><fr:title
 text="Maximal ideals of a commutative ring are prime">Maximal ideals of a commutative ring are prime</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2370,8 +2803,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>491</fr:anchor><fr:addr
-type="machine">#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1261</fr:anchor><fr:addr
+type="machine">#311</fr:addr><fr:route>unstable-311.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2402,7 +2835,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1263</fr:anchor><fr:addr
 type="user">ra-001H</fr:addr><fr:route>ra-001H.xml</fr:route><fr:title
 text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2434,8 +2867,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>479</fr:anchor><fr:addr
-type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1265</fr:anchor><fr:addr
+type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2445,7 +2878,11 @@ display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link
 type="local"
 href="ra-0013.xml"
 addr="ra-0013"
-title="Trivial ideal">Trivial ideal</fr:link>). Then Zorn's lemma implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
+title="Trivial ideal">Trivial ideal</fr:link>). Then <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link> implies there exists a maximal element of a chain containing the trivial ideal.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
@@ -2459,8 +2896,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>481</fr:anchor><fr:addr
-type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1267</fr:anchor><fr:addr
+type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2481,7 +2918,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>755</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1269</fr:anchor><fr:addr
 type="user">ra-001J</fr:addr><fr:route>ra-001J.xml</fr:route><fr:title
 text="Ideal generated by a set">Ideal generated by a set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2522,7 +2959,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>757</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1271</fr:anchor><fr:addr
 type="user">ra-001K</fr:addr><fr:route>ra-001K.xml</fr:route><fr:title
 text="Fields only have trivial ideals">Fields only have trivial ideals</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2555,8 +2992,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>467</fr:anchor><fr:addr
-type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1273</fr:anchor><fr:addr
+type="machine">#307</fr:addr><fr:route>unstable-307.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2597,7 +3034,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>759</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1275</fr:anchor><fr:addr
 type="user">ra-001L</fr:addr><fr:route>ra-001L.xml</fr:route><fr:title
 text="Field morphisms are injective nonzero ring morphisms">Field morphisms are injective nonzero ring morphisms</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2632,8 +3069,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:addr
-type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1277</fr:anchor><fr:addr
+type="machine">#306</fr:addr><fr:route>unstable-306.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2656,7 +3093,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>761</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1279</fr:anchor><fr:addr
 type="user">ra-001M</fr:addr><fr:route>ra-001M.xml</fr:route><fr:title
 text="Principal Ideal Domain">Principal Ideal Domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2684,7 +3121,77 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>763</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1281</fr:anchor><fr:addr
+type="user">ra-002L</fr:addr><fr:route>ra-002L.xml</fr:route><fr:title
+text="Principal Ideal Domains are Noetherian">Principal Ideal Domains are Noetherian</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>. Let <fr:tex
+display="inline"><![CDATA[I_{1},I_{2},…,I_{n},I_{n+1},…,\mathrel {\trianglelefteq } R]]></fr:tex> be ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[I_{1}\subseteq  I_{2}\subseteq …\subseteq  I_{n}\subseteq  I_{n+1}\subseteq ….]]></fr:tex>
+Then there exists an <fr:tex
+display="inline"><![CDATA[n_{0}\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[I_{n}=I_{n_{0}}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[n\geq  n_{0}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1283</fr:anchor><fr:addr
+type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[I=\bigcup _{n}I_{n}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[a,b\in  I]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a\in  I_{m}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\in  I_{n}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[m,n\in \mathbb {N}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[p=\max (m,n)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a,b\in  I_{p}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[a\pm  b\in  I_{p}\subseteq  I]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> forms a group under addition.</fr:p>
+<fr:p>For any <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex>, there is an <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a\in  I_{n}]]></fr:tex>. Then for any <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[ra\in  I_{n}\subseteq  I]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> forms an ideal.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a Principal Ideal Domain, there exists an <fr:tex
+display="inline"><![CDATA[a_{0}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[I=(a_{0})]]></fr:tex>. But then there exists an <fr:tex
+display="inline"><![CDATA[n_{0}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a\in  I_{n_{0}}]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[I=(a_{0})\subseteq  I_{n_{0}}]]></fr:tex>. Then for any <fr:tex
+display="inline"><![CDATA[n\geq  n_{0}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[I\subseteq  I_{n_{0}}\subseteq  I_{n}\subseteq  I]]></fr:tex> which proves the chain of ideals stabilizes.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1285</fr:anchor><fr:addr
 type="user">ra-001N</fr:addr><fr:route>ra-001N.xml</fr:route><fr:title
 text="Euclidean Domain">Euclidean Domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2718,13 +3225,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>765</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1287</fr:anchor><fr:addr
 type="user">ra-001O</fr:addr><fr:route>ra-001O.xml</fr:route><fr:title
 text="Integers are a Euclidean Domain">Integers are a Euclidean Domain</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The integers form a Euclidean domain when given the absolute value as its norm <fr:tex
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The integers form a <fr:link
+type="local"
+href="ra-001N.xml"
+addr="ra-001N"
+title="Euclidean Domain">Euclidean Domain</fr:link> when given the absolute value as its norm <fr:tex
 display="inline"><![CDATA[N(x)=|x|]]></fr:tex>. This is because of the <fr:link
 type="local"
 href="nt-0002.xml"
@@ -2736,7 +3247,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>767</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1289</fr:anchor><fr:addr
 type="user">ra-001P</fr:addr><fr:route>ra-001P.xml</fr:route><fr:title
 text="Euclidean Domains are Principal Ideal Domains">Euclidean Domains are Principal Ideal Domains</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2768,7 +3279,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>769</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1291</fr:anchor><fr:addr
 type="user">ra-001Q</fr:addr><fr:route>ra-001Q.xml</fr:route><fr:title
 text="Divisor">Divisor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2800,7 +3311,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>771</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1293</fr:anchor><fr:addr
 type="user">ra-001R</fr:addr><fr:route>ra-001R.xml</fr:route><fr:title
 text="Greatest Common Divisor">Greatest Common Divisor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2844,8 +3355,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>455</fr:anchor><fr:addr
-type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1295</fr:anchor><fr:addr
+type="machine">#305</fr:addr><fr:route>unstable-305.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2865,7 +3376,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>773</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1297</fr:anchor><fr:addr
 type="user">ra-001S</fr:addr><fr:route>ra-001S.xml</fr:route><fr:title
 text="Existence and Uniqueness of GCD in Euclidean Domains">Existence and Uniqueness of GCD in Euclidean Domains</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -2893,8 +3404,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>449</fr:anchor><fr:addr
-type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1299</fr:anchor><fr:addr
+type="machine">#304</fr:addr><fr:route>unstable-304.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -2924,13 +3435,16 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>775</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1301</fr:anchor><fr:addr
 type="user">ra-001T</fr:addr><fr:route>ra-001T.xml</fr:route><fr:title
 text="Prime element">Prime element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#V4">ring_2:def 8</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
 href="ra-0003.xml"
@@ -2945,20 +3459,96 @@ display="inline"><![CDATA[p]]></fr:tex> is <html:dfn
 xmlns:html="http://www.w3.org/1999/xhtml">Prime</html:dfn> if whenever <fr:tex
 display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex> then either <fr:tex
 display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>.</fr:p><fr:p><fr:strong>Exercise:</fr:strong> Can this be generalized to a unital associative ring?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>777</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1303</fr:anchor><fr:addr
+type="user">ra-001V</fr:addr><fr:route>ra-001V.xml</fr:route><fr:title
+text="Element is prime iff it generates a nonzero prime ideal">Element is prime iff it generates a nonzero prime ideal</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#T24">ring_2:24</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link> where <fr:tex
+display="inline"><![CDATA[1\neq 0]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">Prime element</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is a nonzero <fr:link
+type="local"
+href="ra-001D.xml"
+addr="ra-001D"
+title="Prime Ideal">Prime Ideal</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1305</fr:anchor><fr:addr
+type="machine">#303</fr:addr><fr:route>unstable-303.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">Prime element</fr:link>. Then for any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[\begin {align*}ab\in (p) &\iff  \exists  r\in  R\ldotp  ab=pr\\ &\iff  p\mathrel {\bigm |} ab \hbox { iff }p\mathrel {\bigm |} a\hbox { or }p\mathrel {\bigm |} b\\ &\iff  a\in (p)\hbox { or }b\in (p)\\ &\iff  (p) \hbox { is a prime ideal}\end {align*}]]></fr:tex></fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[P=(p)]]></fr:tex> be a nonzero prime ideal. For any <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[ab\in  P]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[a\in  P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[b\in  P]]></fr:tex> by definition of prime ideals. So we have <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a prime element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1307</fr:anchor><fr:addr
 type="user">ra-001U</fr:addr><fr:route>ra-001U.xml</fr:route><fr:title
 text="Irreducible element">Irreducible element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#V5">ring_2:def 9</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
 href="ra-0003.xml"
@@ -2980,7 +3570,1234 @@ addr="ra-000I"
 title="Unit">unit</fr:link> <fr:tex
 display="inline"><![CDATA[u\in  R]]></fr:tex>.</fr:p><fr:p>When <fr:tex
 display="inline"><![CDATA[p]]></fr:tex> is not irreducible, we say it is <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Reducible</html:dfn>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+xmlns:html="http://www.w3.org/1999/xhtml">Reducible</html:dfn>.</fr:p><fr:p><fr:strong>Exercise:</fr:strong> Can this be generalized to a unital associative ring?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1309</fr:anchor><fr:addr
+type="user">ra-001W</fr:addr><fr:route>ra-001W.xml</fr:route><fr:title
+text="Criterion for irreducible elements">Criterion for irreducible elements</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex> be an element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible</fr:link> if and only if its <fr:link
+type="local"
+href="ra-001B.xml"
+addr="ra-001B"
+title="Principal Ideal">Principal Ideal</fr:link> <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is a nonzero <fr:link
+type="local"
+href="ra-001C.xml"
+addr="ra-001C"
+title="Maximal ideal">Maximal ideal</fr:link> among principal ideals (i.e., <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> may be a proper subideal of some ideal <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> may or may not be a proper ideal, just so long as <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is not a principal ideal).</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1311</fr:anchor><fr:addr
+type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is irreducible and assume <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> is a proper principal ideal of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> (for some <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex>). Then
+<fr:tex
+display="block"><![CDATA[\begin {align*} (p)\subseteq  (a) &\iff  p\in (a)\\ &\iff  p=ab\hbox { for some }b\in  R\\ &\implies  a\mathrel {\bigm |} p\\ &\implies  a=pu\hbox { or }a=u\hbox { for some unit }u\in R^{\times }\end {align*}]]></fr:tex>
+If <fr:tex
+display="inline"><![CDATA[a=u]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[(a)=R]]></fr:tex> which contradicts our assumption that <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> is proper.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[a=pu]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[(a)=(p)]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is maximal among proper principal ideals.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is maximal among principal proper ideals. We want to show <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is irreducible. Suppose there exists some <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a\mathrel {\bigm |} p]]></fr:tex>, which is equivalent to saying <fr:tex
+display="inline"><![CDATA[(a)\subseteq (p)]]></fr:tex>. Then either <fr:tex
+display="inline"><![CDATA[(a)=R]]></fr:tex> (which means <fr:tex
+display="inline"><![CDATA[a\in R^{\times }]]></fr:tex> is a unit) or <fr:tex
+display="inline"><![CDATA[(a)=(p)]]></fr:tex> (which implies <fr:tex
+display="inline"><![CDATA[a=pu]]></fr:tex> for some unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex>). In both cases, we have <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is irreducible.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1313</fr:anchor><fr:addr
+type="user">ra-001X</fr:addr><fr:route>ra-001X.xml</fr:route><fr:title
+text="Irreducible elements are prime in a PID">Irreducible elements are prime in a PID</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be <fr:link
+type="local"
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex> be an element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible</fr:link>, then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">prime</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1315</fr:anchor><fr:addr
+type="machine">#301</fr:addr><fr:route>unstable-301.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Assume <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is irreducible. Then <fr:link
+type="local"
+href="ra-001W.xml"
+addr="ra-001W"
+title="Criterion for irreducible elements">we proved</fr:link> this is equivalent to <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is maximal among principal ideals. Then <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> is prime, which implies <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is prime.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1317</fr:anchor><fr:addr
+type="user">ra-001Y</fr:addr><fr:route>ra-001Y.xml</fr:route><fr:title
+text="Nonzero prime elements of an integral domain are irreducible">Nonzero prime elements of an integral domain are irreducible</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex> be a nonzero element <fr:tex
+display="inline"><![CDATA[p\neq 0]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">prime element</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1319</fr:anchor><fr:addr
+type="machine">#300</fr:addr><fr:route>unstable-300.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[p\in  R^{*}]]></fr:tex> be a nonzero element. Assume <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is prime. Then for any <fr:tex
+display="inline"><![CDATA[a,d\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ad]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[\hbox {either }p\mathrel {\bigm |} a\hbox { or }p\mathrel {\bigm |} d,]]></fr:tex>
+by <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">definition of prime</fr:link>.</fr:p>
+<fr:p>Now, by <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">definition of irreducible</fr:link>, suppose we had some <fr:tex
+display="inline"><![CDATA[d\in  R]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[d\mathrel {\bigm |} p.]]></fr:tex>
+We will show that either <fr:tex
+display="inline"><![CDATA[d=pu]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[d=u]]></fr:tex> for some <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link> <fr:tex
+display="inline"><![CDATA[u\in  R]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[d\mathrel {\bigm |} p]]></fr:tex>, this means there exists an <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[p=ad]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is prime and <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} p]]></fr:tex> (i.e., <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ad]]></fr:tex>), this means <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} d]]></fr:tex>. Then we argue by cases.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[b\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a=pb]]></fr:tex>. But then <fr:tex
+display="inline"><![CDATA[p=ad=(pb)d]]></fr:tex>, using distributivity and subtraction gives us
+<fr:tex
+display="block"><![CDATA[(1-bd)p=0.]]></fr:tex>
+Then <fr:tex
+display="inline"><![CDATA[bd=1]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[p\neq 0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> is a unit, since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is an integral domain. Then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is irreducible by definition.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} d]]></fr:tex>. The argument is similar to case 1.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1321</fr:anchor><fr:addr
+type="user">ra-0022</fr:addr><fr:route>ra-0022.xml</fr:route><fr:title
+text="Associated Irreducibles">Associated Irreducibles</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/gcd_1.html#R3">gcd_1:def 3</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q\in  R]]></fr:tex> be <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible elements</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">are associates</html:dfn> (or <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">is associated to</html:dfn> <fr:tex
+display="inline"><![CDATA[q]]></fr:tex>) if there exists some <fr:link
+type="local"
+href="ra-000I.xml"
+addr="ra-000I"
+title="Unit">unit</fr:link> <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[p=uq]]></fr:tex>. This is a predicate, so it's well-defined.</fr:p><fr:p>This is a <fr:link
+type="local"
+href="nst-000Z.xml"
+addr="nst-000Z"
+title="Symmetric relation">symmetric predicate</fr:link> since <fr:tex
+display="inline"><![CDATA[u^{-1}\in R^{\times }]]></fr:tex> so we have <fr:tex
+display="inline"><![CDATA[u^{-1}p=q]]></fr:tex>, too.</fr:p><fr:p>It's not too hard to see it's really an <fr:link
+type="local"
+href="nst-0011.xml"
+addr="nst-0011"
+title="Equivalence relation">Equivalence relation</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1323</fr:anchor><fr:addr
+type="user">ra-001Z</fr:addr><fr:route>ra-001Z.xml</fr:route><fr:title
+text="Unique Factorization Domain">Unique Factorization Domain</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/ring_2.html#V8">ring_2:def 15</fr:link></fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Definition III.3.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>An <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is called a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Unique Factorization Domain</html:dfn> (or UFD for short, older texts say <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Factorial</html:dfn>) if
+<fr:ol><fr:li>Nonzero elements have a Factorization: For every nonzero element <fr:tex
+display="inline"><![CDATA[a\in R^{*}]]></fr:tex> there exists a factorization
+<fr:tex
+display="block"><![CDATA[a=u\prod ^{N}_{j=1}p_{j}^{n_{j}}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> is a unit, <fr:tex
+display="inline"><![CDATA[p_{j}\in  R]]></fr:tex> are distinct <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducitlbe elements</fr:link>, and <fr:tex
+display="inline"><![CDATA[n_{j}\in \mathbb {N}]]></fr:tex> are positive integers; and</fr:li>
+<fr:li>Factorizations are unique: For every nonzero element <fr:tex
+display="inline"><![CDATA[a\in R^{*}]]></fr:tex> if there are two factorizations
+<fr:tex
+display="block"><![CDATA[a=u\prod ^{N}_{j=1}p_{j}^{n_{j}}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[a=v\prod ^{N'}_{j=1}q_{j}^{m_{j}}]]></fr:tex>
+then <fr:tex
+display="inline"><![CDATA[N=N']]></fr:tex> and there exists a permutation <fr:tex
+display="inline"><![CDATA[\sigma \in  S_{N}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[u_{j}p_{j}=q_{\sigma (j)}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[n_{j}=m_{\sigma (j)}]]></fr:tex> for units <fr:tex
+display="inline"><![CDATA[u_{j}\in R^{\times }]]></fr:tex>.</fr:li></fr:ol></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1325</fr:anchor><fr:addr
+type="user">ra-0020</fr:addr><fr:route>ra-0020.xml</fr:route><fr:title
+text="Examples of Unique Factorization Domains">Examples of Unique Factorization Domains</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Some examples we have seen before:</fr:p><fr:ol><fr:li>The integers <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> form a unique factorization domain.</fr:li>
+<fr:li>The Gaussian integers <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[i]\subseteq \mathbb {C}]]></fr:tex> form a unique factorization domain.</fr:li>
+<fr:li>The integers <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[\sqrt {-5}]]]></fr:tex> adjoined with <fr:tex
+display="inline"><![CDATA[\sqrt {-5}]]></fr:tex> <fr:strong>is not</fr:strong> a unique factorization domain, since <fr:tex
+display="inline"><![CDATA[6=2\dot 3=(1+\sqrt {-5})(1-\sqrt {-5})]]></fr:tex> are two possible factorizations. Hell, <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[\sqrt {-5}]]]></fr:tex> isn't even a <fr:link
+type="local"
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1327</fr:anchor><fr:addr
+type="user">ra-0021</fr:addr><fr:route>ra-0021.xml</fr:route><fr:title
+text="In a UFD, elements are irreducible iff prime">In a UFD, elements are irreducible iff prime</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 8.3.12</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[p\in  R]]></fr:tex> be an element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <fr:link
+type="local"
+href="ra-001T.xml"
+addr="ra-001T"
+title="Prime element">prime</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1329</fr:anchor><fr:addr
+type="machine">#299</fr:addr><fr:route>unstable-299.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Well, since a UFD is an integral domain, this follows immediately from <fr:link
+type="local"
+href="ra-001Y.xml"
+addr="ra-001Y"
+title="Nonzero prime elements of an integral domain are irreducible">Nonzero prime elements of an integral domain are irreducible</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is irreducible. We want to prove <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is prime.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> be arbitrary. Assume <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex>. Then there exists some <fr:tex
+display="inline"><![CDATA[c\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[ab=pc]]></fr:tex>. We can write the unique factorization of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> as
+<fr:tex
+display="block"><![CDATA[a=u\prod ^{N}_{i=1}p_{i}^{n_{i}}]]></fr:tex>
+and the unique factorization of <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> as
+<fr:tex
+display="block"><![CDATA[b=v\prod ^{M}_{j=1}q_{j}^{m_{j}}]]></fr:tex>
+and the unique factorization of <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> as
+<fr:tex
+display="block"><![CDATA[c=w\prod ^{L}_{k=1}r_{k}^{\ell _{k}}.]]></fr:tex>
+Then <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> must <fr:link
+type="local"
+href="ra-0022.xml"
+addr="ra-0022"
+title="Associated Irreducibles">associate</fr:link> with one of the irreducibles appearing in the factorization of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> or {b}. We have <fr:tex
+display="inline"><![CDATA[ab=pc]]></fr:tex> be
+<fr:tex
+display="block"><![CDATA[uv\prod ^{N}_{i=1}p_{i}^{n_{i}}\prod ^{M}_{j=1}q_{j}^{m_{j}}=wp\prod ^{L}_{k=1}r_{k}^{\ell _{k}},]]></fr:tex>
+and by uniqueness of the factorizations <fr:tex
+display="inline"><![CDATA[N+M-1=L]]></fr:tex>, and either
+<fr:tex
+display="block"><![CDATA[p_{i}=pu'\quad \hbox {for some }i\hbox { and }u'\in R^{\times }]]></fr:tex>
+(which means <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex>),
+or
+<fr:tex
+display="block"><![CDATA[q_{j}=pu'\quad \hbox {for some }j\hbox { and }u'\in R^{\times }]]></fr:tex>
+(which means <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>).
+Hence <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>, which implies <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is a prime element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1331</fr:anchor><fr:addr
+type="user">ra-0023</fr:addr><fr:route>ra-0023.xml</fr:route><fr:title
+text="Uniqueness of GCD in a UFD">Uniqueness of GCD in a UFD</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>. Let <fr:tex
+display="inline"><![CDATA[a,b\in  R]]></fr:tex> be elements of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b]]></fr:tex> have a <fr:link
+type="local"
+href="ra-001R.xml"
+addr="ra-001R"
+title="Greatest Common Divisor">Greatest Common Divisor</fr:link> and
+<fr:tex
+display="block"><![CDATA[\gcd (a,b)=\prod _{p\text { irred.}}p^{\min (\mathop {\mathrm {ord}}\nolimits _{p}(a),\mathop {\mathrm {ord}}\nolimits _{p}(b))}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits _{p_{i}}(a)=n_{i}]]></fr:tex> if we can write <fr:tex
+display="inline"><![CDATA[a=u\prod _{j}p_{j}^{n_{j}}]]></fr:tex> as its unique factorization, and similarly for <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits _{p_{i}}(b)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1333</fr:anchor><fr:addr
+type="user">ra-002M</fr:addr><fr:route>ra-002M.xml</fr:route><fr:title
+text="Principal ideal domains are unique factorization domains">Principal ideal domains are unique factorization domains</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 8.3.14</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> be a nonzero non-invertible element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then there exists <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible elements</fr:link> <fr:tex
+display="inline"><![CDATA[p_{1},…,p_{n}\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a=p_{1}(…)p_{n}]]></fr:tex>. Further, if <fr:tex
+display="inline"><![CDATA[q_{1},…,q_{m}\in  R]]></fr:tex> are irreducible and such that <fr:tex
+display="inline"><![CDATA[a=q_{1}(…)q_{m}]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[m=n]]></fr:tex> and for each <fr:tex
+display="inline"><![CDATA[i=1,…,n]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[q_{i}=u_{i}p_{i}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> is a unit.</fr:p><fr:p>In other words, <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1335</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>There are two claims: (1) there is a factorization, and (2) the factorization is unique.</fr:p>
+<fr:p><fr:strong>Claim 1: Existence of a factorization.</fr:strong> Assume for contradiction <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> does not have a factorization. Then <fr:tex
+display="inline"><![CDATA[ua\in  R]]></fr:tex> does not have a factorization for any unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex>.</fr:p>
+<fr:p>We setup a set
+<fr:tex
+display="block"><![CDATA[S:=\{(r)\mathrel {\triangleleft } R\mid  r\hbox { does not have a factorization into irreducibles}\}.]]></fr:tex>
+Assume for contradiction that <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> be a maximal element of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>. We have <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is not irreducible, so by definition we can write it as <fr:tex
+display="inline"><![CDATA[a=xy]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[x,y\notin R^{\times }]]></fr:tex> are not units, so
+<fr:tex
+display="block"><![CDATA[(a)\subset (x)]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[(a)\subset (y)]]></fr:tex>
+are proper subsets.</fr:p>
+<fr:p>But since <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> is a maximal element of a chain, <fr:tex
+display="inline"><![CDATA[(x)\notin  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(y)\notin  S]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> have a factorization. This gives us a contradiction, which means our assumption <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex> is wrong. We conclude <fr:tex
+display="inline"><![CDATA[S=\emptyset ]]></fr:tex>. Hence we've proven the factorization of elements exists.</fr:p>
+<fr:p><fr:strong>Claim 2: Uniqueness of factorization.</fr:strong> This may be proven in many, many ways. Assume for contradiction this is not true, so we may factorize
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i}p_{i}=\prod ^{m}_{j}q_{j},]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> is minimal (i.e., the factorization <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i}p_{i}]]></fr:tex> is the smallest possible factorization with fewest possible factors).</fr:p>
+<fr:p>We have <fr:tex
+display="inline"><![CDATA[n\geq 1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[p=p_{1}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}\prod  q_{j}]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[j_{0}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} q_{j_{0}}]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[p_{i}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j}]]></fr:tex> are all prime and irreducible. Then <fr:tex
+display="inline"><![CDATA[p=uq_{j_{0}}]]></fr:tex> for some unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j_{0}}]]></fr:tex> are irreducible). Then
+<fr:tex
+display="block"><![CDATA[p_{1}\prod ^{n}_{i=2}p_{i}=(uq_{j_{0}})u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}]]></fr:tex>
+which implies
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i=2}p_{i}=u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}.]]></fr:tex>
+This contradicts the assumption that <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i=1}p_{i}]]></fr:tex> is the minimal factorization.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1337</fr:anchor><fr:addr
+type="user">ra-002N</fr:addr><fr:route>ra-002N.xml</fr:route><fr:title
+text="Fundamental Theorem of Arithmetic">Fundamental Theorem of Arithmetic</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Corollary 8.3.15</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>The integers are a unique factorization domain.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1339</fr:anchor><fr:addr
+type="user">nt-0009</fr:addr><fr:route>nt-0009.xml</fr:route><fr:title
+text="Chinese Remainder Theorem">Chinese Remainder Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[m,n\in \mathbb {Z}]]></fr:tex> be integers. If <fr:tex
+display="inline"><![CDATA[m]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> are coprime <fr:tex
+display="inline"><![CDATA[\gcd (m,n)=1]]></fr:tex>, then for all <fr:tex
+display="inline"><![CDATA[a,b\in \mathbb {Z}]]></fr:tex> the system of congruences
+<fr:tex
+display="block"><![CDATA[\begin {align*}x&\equiv  a\pmod {n}\\ x&\equiv  b\pmod {m}\end {align*}]]></fr:tex>
+has a unique solution modulo <fr:tex
+display="inline"><![CDATA[mn]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[\{x_{k}=x_{0}+kmn\mid  k\in \mathbb {Z}\}]]></fr:tex> is the set of all possible solutions.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1341</fr:anchor><fr:addr
+type="machine">#337</fr:addr><fr:route>unstable-337.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider the mapping <fr:tex
+display="inline"><![CDATA[\mathbb {Z} / mn\mathbb {Z}\to \mathbb {Z} / m\mathbb {Z}\times \mathbb {Z} / n\mathbb {Z}]]></fr:tex> given by <fr:tex
+display="block"><![CDATA[x\mapsto (x\bmod {m},x\bmod {n})]]></fr:tex> is an isomorphism of additive groups. Surjectivity means a solution exists, injectivity means the solution is unique.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1343</fr:anchor><fr:addr
+type="user">ra-0028</fr:addr><fr:route>ra-0028.xml</fr:route><fr:title
+text="Generalizing Chinese Remainder theorem to rings">Generalizing Chinese Remainder theorem to rings</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We want to generalize the <fr:link
+type="local"
+href="nt-0009.xml"
+addr="nt-0009"
+title="Chinese Remainder Theorem">Chinese Remainder Theorem</fr:link> from integers to arbitrary <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>s.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1345</fr:anchor><fr:addr
+type="user">ra-0024</fr:addr><fr:route>ra-0024.xml</fr:route><fr:title
+text="Comaximal ideals">Comaximal ideals</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.6</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link
+type="local"
+href="ra-0003.xml"
+addr="ra-0003"
+title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[A\mathrel {\trianglelefteq } R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B\mathrel {\trianglelefteq } R]]></fr:tex> be <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">ideals</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> are <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Comaximal</html:dfn> if their <fr:link
+type="local"
+href="ra-0025.xml"
+addr="ra-0025"
+title="Adding ideals">sum</fr:link> is the entire ring <fr:tex
+display="inline"><![CDATA[A+B=R]]></fr:tex>.</fr:p><fr:p>We see that this is a symmetric predicate in <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[A+B=B+A]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1347</fr:anchor><fr:addr
+type="user">ra-0029</fr:addr><fr:route>ra-0029.xml</fr:route><fr:title
+text="Abstract Chinese Remainder Theorem">Abstract Chinese Remainder Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 7.6.17</fr:meta><fr:meta
+name="source">Hungerford <fr:link
+type="local"
+href="hungerford-1974-algebra.xml"
+addr="hungerford-1974-algebra"
+title="Algebra">Algebra</fr:link> Theorem III.2.25</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> be <fr:link
+type="local"
+href="ra-0024.xml"
+addr="ra-0024"
+title="Comaximal ideals">comaximal</fr:link> <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">two-sided ideals</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then
+<fr:ol><fr:li>the map
+<fr:tex
+display="block"><![CDATA[R/(I\cap  J)\to  (R/I)\times (R/J)]]></fr:tex>
+defined by sending <fr:tex
+display="inline"><![CDATA[x\mapsto (x+I,x+J)]]></fr:tex> is a <fr:link
+type="local"
+href="ra-000X.xml"
+addr="ra-000X"
+title="Ring Isomorphism">Ring Isomorphism</fr:link>; and</fr:li>
+<fr:li>furthermore if we write <fr:tex
+display="inline"><![CDATA[I\cdot  J=\langle \{ab\in  R\mid  a\in  I,b\in  J\}\rangle ]]></fr:tex> for the two-sided ideal generated by products of elements of <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[I\cdot  J=I\cap  J]]></fr:tex>.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1349</fr:anchor><fr:addr
+type="machine">#298</fr:addr><fr:route>unstable-298.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\to (R/I)\times (R/J)]]></fr:tex> be the mapping such that <fr:tex
+display="inline"><![CDATA[\varphi (x)=(x+I,x+J)]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex>. Its kernel is <fr:tex
+display="inline"><![CDATA[I\cap  J]]></fr:tex>. Then by the <fr:link
+type="local"
+href="ra-0018.xml"
+addr="ra-0018"
+title="First Isomorphism Theorem for Rings">first isomorphism theorem</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi '\colon  R/(I\cap  J)\to (R/I)\times (R/J)]]></fr:tex> is injective because it has a trivial kernel. We need to show it is surjective.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[(u+I,v+J)\in (R/I)\times (R/J)]]></fr:tex>, we want to find <fr:tex
+display="inline"><![CDATA[x\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\varphi (x)=(u+I,v+J)]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b\in  J]]></fr:tex> be such that <fr:tex
+display="inline"><![CDATA[a+b=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[x=va+ub]]></fr:tex>, so we can check <fr:tex
+display="inline"><![CDATA[\varphi '(x)=(a+A,b+B)]]></fr:tex>. We find
+<fr:tex
+display="block"><![CDATA[\begin {align*}x &\equiv  ub\bmod {I}\\ &\equiv  (1-a)u\bmod {I}\\ &\equiv  u\bmod {I}\end {align*}]]></fr:tex>
+and similarly <fr:tex
+display="inline"><![CDATA[x\equiv  v\bmod {B}]]></fr:tex> as desired.</fr:p>
+<fr:p>(2) Since <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> are comaximal, there exists <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\in  J]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a+b=1]]></fr:tex>. We want to show <fr:tex
+display="inline"><![CDATA[I\cap  J\subseteq  I\cdot  J]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[x\in  I\cap  J]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[x=x\cdot 1=xa+xb]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[xa\in  JI]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[xb\in  IJ]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[x\in  I\cdot  J]]></fr:tex>.</fr:p>
+<fr:p>We see <fr:tex
+display="inline"><![CDATA[I\cap  J\supseteq  I\cdot  J]]></fr:tex> obviously.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1351</fr:anchor><fr:addr
+type="user">ra-002A</fr:addr><fr:route>ra-002A.xml</fr:route><fr:title
+text="Rational numbers from integers">Rational numbers from integers</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can "define" the rational numbers <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> from the integers <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> intuitively as
+<fr:tex
+display="block"><![CDATA[\mathbb {Q}=\{\frac {a}{b}\mid  a,b\in \mathbb {Z},b\neq 0\},]]></fr:tex>
+but
+<fr:tex
+display="block"><![CDATA[\frac {a}{b}=\frac {c}{d}\iff  ad=bc.]]></fr:tex>
+Furthermore, the operations on <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> are defined using the operations from <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> as
+<fr:tex
+display="block"><![CDATA[\frac {a}{b}+\frac {c}{d}=\frac {ad+bc}{bd}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\frac {a}{b}\cdot \frac {c}{d}=\frac {ac}{bd}.]]></fr:tex>
+This construction generalizes to any <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>.</fr:p><fr:p>Note: <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is the "smallest" field containing <fr:tex
+display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> in the sense that if <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {Z}\hookrightarrow \mathbb {F}]]></fr:tex> is an injection into a field, then there exists an extension <fr:tex
+display="inline"><![CDATA[\overline {\varphi }\colon \mathbb {Q}\hookrightarrow \mathbb {F}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\overline {\varphi }(m)=\varphi (m)]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[m\in \mathbb {Z}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1353</fr:anchor><fr:addr
+type="user">ra-002B</fr:addr><fr:route>ra-002B.xml</fr:route><fr:title
+text="Universal property of field of fractions">Universal property of field of fractions</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be any <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>. Then there exists a unique <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (unique up to isomorphism) and an injection <fr:tex
+display="inline"><![CDATA[i\colon  R\hookrightarrow \mathbb {F}]]></fr:tex> such that for all other fields <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[\varphi \colon  R\hookrightarrow \Bbbk ]]></fr:tex>, then there exists an extension <fr:tex
+display="inline"><![CDATA[\overline {\varphi }\colon \mathbb {F}\hookrightarrow \Bbbk ]]></fr:tex> such that the following diagram commutes:</fr:p><fr:tex
+display="block"><![CDATA[\begin {array}{ccc}R & \xrightarrow {\varphi } & \Bbbk \\ \downarrow ^{i} & & \parallel \\ \mathbb {F} & \xrightarrow {\overline {\varphi }} & \Bbbk \end {array}]]></fr:tex><fr:p>We call <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ring of Fractions</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1355</fr:anchor><fr:addr
+type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This can be generalized to any commutative ring; Matsumara calls it the "total quotient ring" (or the "total ring of fractions").</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1357</fr:anchor><fr:addr
+type="user">ra-002C</fr:addr><fr:route>ra-002C.xml</fr:route><fr:title
+text="Examples of field of fractions">Examples of field of fractions</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:ol><fr:li>When applied to <fr:tex
+display="inline"><![CDATA[R=\mathbb {Z}]]></fr:tex>, we obtain <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathbb {Q}]]></fr:tex>.</fr:li>
+<fr:li>When applied to any field <fr:tex
+display="inline"><![CDATA[R=\Bbbk ]]></fr:tex>, we obtained <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\Bbbk ]]></fr:tex> the field is its own field of fractions.</fr:li>
+<fr:li>When applied to the polynomial ring <fr:tex
+display="inline"><![CDATA[R=\mathbb {Q}[x]]]></fr:tex>, we obtain <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathbb {Q}(x)]]></fr:tex> the ring of rational polynomials.</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the field of fractions of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathbb {F}(x)]]></fr:tex> is the field of fractions for <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex>.</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[R=\mathbb {Q}[{[x]}]]]></fr:tex> is the ring of formal power series, then its field of fractions is <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathbb {Q}(\mkern -3mu(x)\mkern -3mu)]]></fr:tex> the ring of formal Laurent series <fr:tex
+display="inline"><![CDATA[\sum ^{\infty }_{k=-n}a_{k}x^{k}]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1359</fr:anchor><fr:addr
+type="user">ra-002O</fr:addr><fr:route>ra-002O.xml</fr:route><fr:title
+text="Ring of polynomials is a UFD iff ring of coefficients is a UFD">Ring of polynomials is a UFD iff ring of coefficients is a UFD</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a ring. Then <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1361</fr:anchor><fr:addr
+type="user">ra-002S</fr:addr><fr:route>ra-002S.xml</fr:route><fr:title
+text="Properties of ring of polynomials over UFDs">Properties of ring of polynomials over UFDs</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>. Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathop {\textrm {Frac}}\nolimits (R)]]></fr:tex> be the <fr:link
+type="local"
+href="ra-002B.xml"
+addr="ra-002B"
+title="Universal property of field of fractions">field of fractions</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>.</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[R[x]^{\times }=R^{\times }]]></fr:tex></fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[p\in R^{*}]]></fr:tex> is <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible</fr:link>, then <fr:tex
+display="inline"><![CDATA[p\in  R[x]]]></fr:tex> is irreducible.</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> is primitive and irredubile, then <fr:tex
+display="inline"><![CDATA[f(x)\in  R[x]]]></fr:tex> is irreducible <fr:em>and</fr:em> these are all the irreducible elements of <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex>.</fr:li></fr:ol></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1363</fr:anchor><fr:addr
+type="user">ra-002T</fr:addr><fr:route>ra-002T.xml</fr:route><fr:title
+text="Primitive Polynomial and Content of Polynomial">Primitive Polynomial and Content of Polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Let <fr:tex
+display="inline"><![CDATA[f(x)\in  R[x]]]></fr:tex> be a nonconstant polynomial. Then we define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Content</html:dfn> of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to be the <fr:tex
+display="inline"><![CDATA[c(f)\in R^{*}]]></fr:tex> equal to the greatest common divisor of its nonzero coefficients, and the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Primitive Part</html:dfn> of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to be the polynomial <fr:tex
+display="inline"><![CDATA[f_{0}\in  R[x]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[c(f_{0})=1]]></fr:tex> and
+<fr:tex
+display="block"><![CDATA[f(x)=c(f)f_{0}(x).]]></fr:tex>
+We say <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Primitive</html:dfn> if <fr:tex
+display="inline"><![CDATA[f=f_{0}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1365</fr:anchor><fr:addr
+type="user">ra-002U</fr:addr><fr:route>ra-002U.xml</fr:route><fr:title
+text="Factorization of formal polynomials with coefficients in UFDs">Factorization of formal polynomials with coefficients in UFDs</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 9.3.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathop {\textrm {Frac}}\nolimits (R)]]></fr:tex> be its <fr:link
+type="local"
+href="ra-002B.xml"
+addr="ra-002B"
+title="Universal property of field of fractions">field of fractions</fr:link>, let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Let <fr:tex
+display="inline"><![CDATA[p(x)\in  R[x]]]></fr:tex>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible in <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex>. More precisely: if <fr:tex
+display="inline"><![CDATA[p(x)=A(x)B(x)]]></fr:tex> for some nonconstant polynomials <fr:tex
+display="inline"><![CDATA[A(x),B(x)\in \mathbb {F}[x]]]></fr:tex>, then there are nonzero elements <fr:tex
+display="inline"><![CDATA[r,s\in \mathbb {F}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[rA(x)=a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[sB(x)=b(x)]]></fr:tex> both lie in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p(x)=a(x)b(x)]]></fr:tex> is a factorization in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1367</fr:anchor><fr:addr
+type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is called "Gauss's Lemma", but as far as I can tell, like most things named after Gauss, it's completely unmerited.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1369</fr:anchor><fr:addr
+type="user">ra-002V</fr:addr><fr:route>ra-002V.xml</fr:route><fr:title
+text="Eisenstein criteria of reducibility">Eisenstein criteria of reducibility</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 9.4.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Let <fr:tex
+display="inline"><![CDATA[f(x)\in  R[x]]]></fr:tex> be a (nonconstant) monic polynomial
+<fr:tex
+display="block"><![CDATA[f(x)=x^{n}+a_{n-1}x^{n-1}+…+a_{1}x+a_{0}.]]></fr:tex>
+Let <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq } R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001D.xml"
+addr="ra-001D"
+title="Prime Ideal">prime ideal</fr:link> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Suppose for all <fr:tex
+display="inline"><![CDATA[j=1,…,n]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[p_{j}\in  R]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1371</fr:anchor><fr:addr
+type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> were reducible, say <fr:tex
+display="inline"><![CDATA[f(x)=a(x)b(x)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b(x)]]></fr:tex> are nonconstant polynomials. Reducing this equation modulo <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> and using the assumption on the coefficients of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, we obtain the equation
+<fr:tex
+display="block"><![CDATA[x^{n}=\overline {a(x)b(x)}]]></fr:tex>
+in <fr:tex
+display="inline"><![CDATA[(R/P)[x]]]></fr:tex> where the bar denotes the polynomials with coefficients reduced modulo <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is a prime ideal, <fr:tex
+display="inline"><![CDATA[R/P]]></fr:tex> is an integral domain (by <fr:link
+type="local"
+href="ra-001F.xml"
+addr="ra-001F"
+title="Ideal is prime iff quotient ring is integral domain">Ideal is prime iff quotient ring is integral domain</fr:link>). Then both <fr:tex
+display="inline"><![CDATA[\overline {a(x)}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\overline {b(x)}]]></fr:tex> have 0 constant terms, i.e., the constant terms of both <fr:tex
+display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b(x)]]></fr:tex> belong to <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
+<fr:p>But then the constant term <fr:tex
+display="inline"><![CDATA[a_{0}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> may be written as the product of these two, which contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -2995,7 +4812,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1718</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4223</fr:anchor><fr:addr
 type="user">ring-0001</fr:addr><fr:route>ring-0001.xml</fr:route><fr:title
 text="Ring">Ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -3039,8 +4856,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>643</fr:anchor><fr:addr
-type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>866</fr:anchor><fr:addr
+type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"

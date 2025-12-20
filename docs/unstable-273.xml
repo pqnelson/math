@@ -7,24 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>559</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>969</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex
-display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex
-display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link
-type="local"
-href="ra-000M.xml"
-addr="ra-000M"
-title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
-display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
-<fr:tex
-display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
-and so on.</fr:p>
-<fr:p>(2) We could generalize this to noncommutative <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is a free module over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Moreover, there exists an <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[I=(a)=Ra\cong  R]]></fr:tex>.</fr:p>
+<fr:p>(2) If <fr:tex
+display="inline"><![CDATA[M\leq  R^{n}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[n\geq 1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is free.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -39,30 +38,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>561</fr:anchor><fr:addr
-type="user">ra-000L</fr:addr><fr:route>ra-000L.xml</fr:route><fr:title
-text="Polynomial ring">Polynomial ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>971</fr:anchor><fr:addr
+type="user">ra-004Q</fr:addr><fr:route>ra-004Q.xml</fr:route><fr:title
+text="Torsion-free finitely-generated modules over PIDs are free">Torsion-free finitely-generated modules over PIDs are free</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="ra-0003.xml"
-addr="ra-0003"
-title="Commutative Ring">Commutative Ring</fr:link>. Let <fr:tex
-display="inline"><![CDATA[x\notin  R]]></fr:tex> be a formal variable (just a symbol, not a number). We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Ring of Polynomials</html:dfn> with coefficients <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> and in unknown <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> to be the ring <fr:tex
-display="inline"><![CDATA[R[x]]]></fr:tex> consisting of formal polynomials which are finite sums
-<fr:tex
-display="block"><![CDATA[p(x)=\sum ^{n}_{k=0}a_{k}x^{k}]]></fr:tex>
-where <fr:tex
-display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>, addition is done with the coefficients of each power, and multiplication is done using the Cauchy convolution product
-<fr:tex
-display="block"><![CDATA[\left (\sum ^{m}_{j=0}a_{j}x^{j}\right )\left (\sum ^{n}_{k=0}b_{k}x^{k}\right )=\sum ^{m+n}_{k=0}\left (\sum ^{k}_{j=0}a_{j}b_{k-j}\right )x^{k}.]]></fr:tex>
-Then this forms a commutative ring.</fr:p>
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link> and let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> to be <fr:link
+type="local"
+href="ra-004A.xml"
+addr="ra-004A"
+title="Finitely-Generated Submodule">finitely-generated</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. If <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is <fr:link
+type="local"
+href="ra-003P.xml"
+addr="ra-003P"
+title="Torsion-Free Module">torsion-free</fr:link>, then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is free.</fr:p>
  
    
    <fr:tree
@@ -72,23 +71,22 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>563</fr:anchor><fr:addr
-type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex
-display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex
-display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link
-type="local"
-href="ra-000M.xml"
-addr="ra-000M"
-title="Multi-index">Multi-index</fr:link> notation. For example, for <fr:tex
-display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
-<fr:tex
-display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
-and so on.</fr:p>
-<fr:p>(2) We could generalize this to noncommutative <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is a free module over <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Moreover, there exists an <fr:tex
+display="inline"><![CDATA[a\in  I]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[I=(a)=Ra\cong  R]]></fr:tex>.</fr:p>
+<fr:p>(2) If <fr:tex
+display="inline"><![CDATA[M\leq  R^{n}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[n\geq 1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is free.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,23 +7,27 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>565</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>973</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let us write <fr:tex
-display="inline"><![CDATA[\overline {n}]]></fr:tex> for the element of <fr:tex
-display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> corresponding to the equivalence class containing <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms an Abelian group with addition and <fr:tex
-display="inline"><![CDATA[\overline {0}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms a commutative unital ring with multiplication and multiplicative identity <fr:tex
-display="inline"><![CDATA[\overline {1}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Claim 3:</fr:strong> Every nonzero <fr:tex
-display="inline"><![CDATA[\overline {n}\in \mathbb {F}_{p}]]></fr:tex> has a multiplicative inverse.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Look at the canonical map <fr:tex
+display="inline"><![CDATA[\pi \colon  M\twoheadrightarrow  M/N]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\ker (\pi )\cong  N]]></fr:tex>. We want to find a <fr:tex
+display="inline"><![CDATA[\psi \colon  M/N\to  M]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\pi \circ \psi =\mathop {\textrm {id}}\nolimits _{M/N}]]></fr:tex>. Then the image of <fr:tex
+display="inline"><![CDATA[\psi (M/N)=T]]></fr:tex>.</fr:p>
+<fr:p>(1) Since <fr:tex
+display="inline"><![CDATA[M/N]]></fr:tex> is free, we can always find such a <fr:tex
+display="inline"><![CDATA[\psi ]]></fr:tex>. To see this, let <fr:tex
+display="inline"><![CDATA[\{e_{i}\}]]></fr:tex> be a basis of <fr:tex
+display="inline"><![CDATA[M/N]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\pi (\psi (e_{i}))=e_{i}]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>.</fr:p>
+<fr:p>(2) <fr:tex
+display="inline"><![CDATA[T=\psi (M / N)]]></fr:tex> is such a complement. We just need to check <fr:tex
+display="inline"><![CDATA[T\cap  N=\emptyset ]]></fr:tex>, which is an exercise.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -40,19 +44,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>567</fr:anchor><fr:addr
-type="user">ra-000K</fr:addr><fr:route>ra-000K.xml</fr:route><fr:title
-text="Integers modulo a prime form a field">Integers modulo a prime form a field</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>975</fr:anchor><fr:addr
+type="user">ra-004M</fr:addr><fr:route>ra-004M.xml</fr:route><fr:title
+text="If quotient module is free, then a complement submodule exists">If quotient module is free, then a complement submodule exists</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be a prime number. Then <fr:tex
-display="inline"><![CDATA[\mathbb {F}_{p}:=\mathbb {Z} / p\mathbb {Z}]]></fr:tex> forms a <fr:link
-type="local"
-href="field-0001.xml"
-addr="field-0001"
-title="Field">Field</fr:link>.</fr:p>
+display="inline"><![CDATA[R]]></fr:tex> be a ring, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module, let <fr:tex
+display="inline"><![CDATA[N\leq  M]]></fr:tex> be a submodule of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[M/N]]></fr:tex> is free, then there exists an <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[M\cong  N\oplus  T]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -62,23 +69,27 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr
-type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let us write <fr:tex
-display="inline"><![CDATA[\overline {n}]]></fr:tex> for the element of <fr:tex
-display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> corresponding to the equivalence class containing <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms an Abelian group with addition and <fr:tex
-display="inline"><![CDATA[\overline {0}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> forms a commutative unital ring with multiplication and multiplicative identity <fr:tex
-display="inline"><![CDATA[\overline {1}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Claim 3:</fr:strong> Every nonzero <fr:tex
-display="inline"><![CDATA[\overline {n}\in \mathbb {F}_{p}]]></fr:tex> has a multiplicative inverse.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Look at the canonical map <fr:tex
+display="inline"><![CDATA[\pi \colon  M\twoheadrightarrow  M/N]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\ker (\pi )\cong  N]]></fr:tex>. We want to find a <fr:tex
+display="inline"><![CDATA[\psi \colon  M/N\to  M]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\pi \circ \psi =\mathop {\textrm {id}}\nolimits _{M/N}]]></fr:tex>. Then the image of <fr:tex
+display="inline"><![CDATA[\psi (M/N)=T]]></fr:tex>.</fr:p>
+<fr:p>(1) Since <fr:tex
+display="inline"><![CDATA[M/N]]></fr:tex> is free, we can always find such a <fr:tex
+display="inline"><![CDATA[\psi ]]></fr:tex>. To see this, let <fr:tex
+display="inline"><![CDATA[\{e_{i}\}]]></fr:tex> be a basis of <fr:tex
+display="inline"><![CDATA[M/N]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\pi (\psi (e_{i}))=e_{i}]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>.</fr:p>
+<fr:p>(2) <fr:tex
+display="inline"><![CDATA[T=\psi (M / N)]]></fr:tex> is such a complement. We just need to check <fr:tex
+display="inline"><![CDATA[T\cap  N=\emptyset ]]></fr:tex>, which is an exercise.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

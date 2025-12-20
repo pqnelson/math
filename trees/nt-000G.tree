@@ -1,0 +1,9 @@
+\title{Adjoining a root to rationals is a field extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{example}
+
+\p{We can adjoin #{\I=\sqrt{-1}} to #{\QQ} to obtain the [[nt-000F]] #{\QQ(\I)}.}
+
+\p{More generally, if #{p(x)\in\QQ[x]} is a nonconstant polynomial, then we see #{p(x)\in\CC[x]} and so by the [[complex-000J]] there is a root #{c\in\CC} such that #{p(c)=0}. We can adjoin #{c} to the rationals to get a field extension #{\QQ(c) / \QQ}.}

@@ -1,0 +1,9 @@
+\title{Simple Field Extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{definition}
+
+\p{A \define{Simple Field Extension} is a [[nt-000F]] [generated](nt-000M) by a single element #{\FF(\alpha)}. We call #{\alpha} a \define{Primitive Element}.}
+
+\p{\textbf{Fact:} If #{\Char(\FF)=0}, then all finite extensions of #{\FF} are simple.}

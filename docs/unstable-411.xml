@@ -7,12 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2225</fr:anchor><fr:addr
-type="machine">#411</fr:addr><fr:route>unstable-411.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7096</fr:anchor><fr:addr
+type="machine">#411</fr:addr><fr:route>unstable-411.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define this more generally for any nonempty multiplicative magma, in which case it would be a submagma.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This generalizes to any commutative unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link> or even ringoid instead of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,34 +32,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2227</fr:anchor><fr:addr
-type="user">gr-002X</fr:addr><fr:route>gr-002X.xml</fr:route><fr:title
-text="Center of a group">Center of a group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7098</fr:anchor><fr:addr
+type="user">gr-0014</fr:addr><fr:route>gr-0014.xml</fr:route><fr:title
+text="Determinant is a group morphism">Determinant is a group morphism</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_5.html#K10">group_5:def 10</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Center</html:dfn> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> to be the <fr:link
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. The <fr:link
 type="local"
-href="gr-001B.xml"
-addr="gr-001B"
-title="Subgroup">Subgroup</fr:link> <fr:tex
-display="inline"><![CDATA[Z(G)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> consisting of all elements which commute with all of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>: for any <fr:tex
-display="inline"><![CDATA[z\in  G]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[z\in  Z(G)]]></fr:tex> if and only if for every <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[zg=gz]]></fr:tex>.</fr:p>
+href="determinant-000D.xml"
+addr="determinant-000D"
+title="Determinant of linear operator">determinant</fr:link> <fr:tex
+display="inline"><![CDATA[\det \colon \mathop {\textrm {GL}}\nolimits _{n}(\mathbb {F})\to \mathbb {F}^{\times }]]></fr:tex> is a <fr:link
+type="local"
+href="gr-000T.xml"
+addr="gr-000T"
+title="Group Morphism">Group Morphism</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -64,12 +63,19 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1131</fr:anchor><fr:addr
-type="machine">#411</fr:addr><fr:route>unstable-411.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1894</fr:anchor><fr:addr
+type="machine">#410</fr:addr><fr:route>unstable-410.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could define this more generally for any nonempty multiplicative magma, in which case it would be a submagma.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
+type="local"
+href="determinant-000E.xml"
+addr="determinant-000E"
+title="Properties of the determinant">Properties of the determinant</fr:link>, specifically property (8), and elements of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {GL}}\nolimits _{n}(\mathbb {F})]]></fr:tex> have nonzero determinant.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 
  
@@ -81,33 +87,16 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1133</fr:anchor><fr:addr
-type="machine">#412</fr:addr><fr:route>unstable-412.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1896</fr:anchor><fr:addr
+type="machine">#411</fr:addr><fr:route>unstable-411.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see that <fr:tex
-display="inline"><![CDATA[1_{G}\in  Z(G)]]></fr:tex> since <fr:tex
-display="inline"><![CDATA[1_{G}g=g=g1_{G}]]></fr:tex>.</fr:p>
-<fr:p>We also see for any <fr:tex
-display="inline"><![CDATA[x,y\in  Z(G)]]></fr:tex> and any <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[(xy)g=x(yg)=x(gy)=(xg)y=(gx)y=g(xy)]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[Z(G)]]></fr:tex> is closed under multiplication.</fr:p>
-<fr:p>We also see for any <fr:tex
-display="inline"><![CDATA[x\in  Z(G)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> that <fr:tex
-display="inline"><![CDATA[x^{-1}g=((x^{-1}g)^{-1})^{-1}=(g^{-1}x)^{-1}=(xg^{-1})^{-1}=gx^{-1}]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[x^{-1}\in  Z(G)]]></fr:tex>.</fr:p>
-<fr:p>Hence <fr:tex
-display="inline"><![CDATA[Z(G)]]></fr:tex> has a group structure induced from <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This generalizes to any commutative unital <fr:link
 type="local"
-href="gr-001H.xml"
-addr="gr-001H"
-title="Subgroups with the same sets are equal to each other">Subgroups with the same sets are equal to each other</fr:link>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link> or even ringoid instead of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

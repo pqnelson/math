@@ -7,12 +7,30 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>613</fr:anchor><fr:addr
-type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1005</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to prove that all 8 axioms are satisfied, but they are straightforward arithmetic.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Uniqueness:</fr:strong> If there are two possible centers, it's obvious they contain the same elements, which means they are equal to each other.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> We see that the underlying set is nonempty and well-defined. We just need to show it is closed under addition and multiplication and contains <fr:tex
+display="inline"><![CDATA[0\in  Z(R)]]></fr:tex>...well, <fr:tex
+display="inline"><![CDATA[0r=0=r0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[0\in  Z(R)]]></fr:tex>.</fr:p>
+<fr:p>We see for any <fr:tex
+display="inline"><![CDATA[z,w\in  Z(R)]]></fr:tex> that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(z+w)r=zr+wr=rz+rw=r(z+w)]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[z+w\in  Z(R)]]></fr:tex>. So it's closed under addition</fr:p>
+<fr:p>We see for any <fr:tex
+display="inline"><![CDATA[z,w\in  Z(R)]]></fr:tex> that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(zw)r=z(wr)=(wr)z=(rw)z=r(wz)=r(zw)]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[zw\in  Z(R)]]></fr:tex>. So it's closed under multiplication.</fr:p>
+<fr:p>Taken together, this means there exists a well-defined center <fr:tex
+display="inline"><![CDATA[Z(R)]]></fr:tex> which is a subring of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -29,18 +47,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>615</fr:anchor><fr:addr
-type="user">ra-0001</fr:addr><fr:route>ra-0001.xml</fr:route><fr:title
-text="Integers are a ring">Integers are a ring</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1007</fr:anchor><fr:addr
+type="user">ra-003U</fr:addr><fr:route>ra-003U.xml</fr:route><fr:title
+text="Center of a Ring">Center of a Ring</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The integers <fr:tex
-display="inline"><![CDATA[\mathbb {Z}]]></fr:tex> equipped with the usual addition and multiplication forms a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/weddwitt.html#K4">weddwitt:def 4</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
 href="ring-0001.xml"
 addr="ring-0001"
-title="Ring">Ring</fr:link>.</fr:p>
+title="Ring">Ring</fr:link>. The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Center</html:dfn> of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is the subring <fr:tex
+display="inline"><![CDATA[Z(R)]]></fr:tex> consisting of <fr:tex
+display="inline"><![CDATA[z\in  R]]></fr:tex> such that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[zr=rz]]></fr:tex> and also (for non-associative rings) for all <fr:tex
+display="inline"><![CDATA[r,s\in  R]]></fr:tex> and for all <fr:tex
+display="inline"><![CDATA[z\in  Z(R)]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[z(rs)=(zr)s]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[r(zs)=(rz)s]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(rs)z=r(sz)]]></fr:tex>. In other words, <fr:tex
+display="inline"><![CDATA[Z(R)]]></fr:tex> consists of elements which commute and associate with all elements of the ring.</fr:p>
  
    
    <fr:tree
@@ -50,12 +83,30 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>617</fr:anchor><fr:addr
-type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1009</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to prove that all 8 axioms are satisfied, but they are straightforward arithmetic.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Uniqueness:</fr:strong> If there are two possible centers, it's obvious they contain the same elements, which means they are equal to each other.</fr:p>
+<fr:p><fr:strong>Existence:</fr:strong> We see that the underlying set is nonempty and well-defined. We just need to show it is closed under addition and multiplication and contains <fr:tex
+display="inline"><![CDATA[0\in  Z(R)]]></fr:tex>...well, <fr:tex
+display="inline"><![CDATA[0r=0=r0]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[0\in  Z(R)]]></fr:tex>.</fr:p>
+<fr:p>We see for any <fr:tex
+display="inline"><![CDATA[z,w\in  Z(R)]]></fr:tex> that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(z+w)r=zr+wr=rz+rw=r(z+w)]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[z+w\in  Z(R)]]></fr:tex>. So it's closed under addition</fr:p>
+<fr:p>We see for any <fr:tex
+display="inline"><![CDATA[z,w\in  Z(R)]]></fr:tex> that for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[(zw)r=z(wr)=(wr)z=(rw)z=r(wz)=r(zw)]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[zw\in  Z(R)]]></fr:tex>. So it's closed under multiplication.</fr:p>
+<fr:p>Taken together, this means there exists a well-defined center <fr:tex
+display="inline"><![CDATA[Z(R)]]></fr:tex> which is a subring of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
@@ -69,11 +120,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>619</fr:anchor><fr:addr
-type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1011</fr:anchor><fr:addr
+type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The integers are the <fr:em>epitome</fr:em> of a ring.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For associative rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, we only need to check that <fr:tex
+display="inline"><![CDATA[zr=rz]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[z\in  Z(R)]]></fr:tex> and for all <fr:tex
+display="inline"><![CDATA[r\in  R]]></fr:tex>, since it's associative.</fr:mainmatter><fr:backmatter /></fr:tree>
  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:p><fr:strong>Exercise:</fr:strong> If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is unital, is <fr:tex
+display="inline"><![CDATA[1\in  Z(R)]]></fr:tex> or not? Prove it.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

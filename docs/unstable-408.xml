@@ -7,17 +7,29 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12420</fr:anchor><fr:addr
-type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5947</fr:anchor><fr:addr
+type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
-display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
-display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
-display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
-<html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see that <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under multiplication since for any <fr:tex
+display="inline"><![CDATA[x,y\in \ker (\varphi )]]></fr:tex> has <fr:tex
+display="inline"><![CDATA[\varphi (xy)=\varphi (x)\varphi (y)=ee=e]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[xy\in \ker (\varphi )]]></fr:tex>.</fr:p>
+<fr:p>We also see that for any <fr:tex
+display="inline"><![CDATA[x\in \ker (\varphi )]]></fr:tex> that <fr:tex
+display="inline"><![CDATA[\varphi (x)=e=e^{-1}=\varphi (x)^{-1}=\varphi (x^{-1})]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[x^{-1}\in \ker (\varphi )]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under inverting elements.</fr:p>
+<fr:p>Hence <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is a group and its underlying set is a subset of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> by <fr:link
+type="local"
+href="gr-001H.xml"
+addr="gr-001H"
+title="Subgroups with the same sets are equal to each other">Subgroups with the same sets are equal to each other</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -34,21 +46,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12422</fr:anchor><fr:addr
-type="user">sl-0005</fr:addr><fr:route>sl-0005.xml</fr:route><fr:title
-text="Elementary linear group is a subgroup of special linear group">Elementary linear group is a subgroup of special linear group</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5949</fr:anchor><fr:addr
+type="user">gr-001G</fr:addr><fr:route>gr-001G.xml</fr:route><fr:title
+text="Kernel of a group morphism">Kernel of a group morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be a unital associative <fr:strong>commutative</fr:strong> <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#K9">group_6:def 9</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> be <fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">ring</fr:link>, let <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> be a natural number. Then <fr:tex
-display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subgroup of <fr:tex
-display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>s. Let <fr:tex
+display="inline"><![CDATA[\varphi \colon  G\to  H]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000T.xml"
+addr="gr-000T"
+title="Group Morphism">Group Morphism</fr:link>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Kernel</html:dfn> of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to be the subgroup <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> such that its underlying set equals <fr:tex
+display="inline"><![CDATA[\{g\in  G\mid  \varphi (g)=e\}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -58,17 +81,29 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5697</fr:anchor><fr:addr
-type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1910</fr:anchor><fr:addr
+type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>The determinant of each generator for the elementary linear group is <fr:tex
-display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex
-display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex
-display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</fr:p>
-<html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see that <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under multiplication since for any <fr:tex
+display="inline"><![CDATA[x,y\in \ker (\varphi )]]></fr:tex> has <fr:tex
+display="inline"><![CDATA[\varphi (xy)=\varphi (x)\varphi (y)=ee=e]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[xy\in \ker (\varphi )]]></fr:tex>.</fr:p>
+<fr:p>We also see that for any <fr:tex
+display="inline"><![CDATA[x\in \ker (\varphi )]]></fr:tex> that <fr:tex
+display="inline"><![CDATA[\varphi (x)=e=e^{-1}=\varphi (x)^{-1}=\varphi (x^{-1})]]></fr:tex> which means <fr:tex
+display="inline"><![CDATA[x^{-1}\in \ker (\varphi )]]></fr:tex>. So <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under inverting elements.</fr:p>
+<fr:p>Hence <fr:tex
+display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is a group and its underlying set is a subset of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> by <fr:link
+type="local"
+href="gr-001H.xml"
+addr="gr-001H"
+title="Subgroups with the same sets are equal to each other">Subgroups with the same sets are equal to each other</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -7,18 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12050</fr:anchor><fr:addr
-type="machine">#430</fr:addr><fr:route>unstable-430.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10775</fr:anchor><fr:addr
+type="machine">#430</fr:addr><fr:route>unstable-430.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
-display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It's not hard to prove this, indeed, forms a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,30 +31,35 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12052</fr:anchor><fr:addr
-type="user">matrix-0015</fr:addr><fr:route>matrix-0015.xml</fr:route><fr:title
-text="Matrix Multiplication in Plane Geometry">Matrix Multiplication in Plane Geometry</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10777</fr:anchor><fr:addr
+type="user">determinant-0002</fr:addr><fr:route>determinant-0002.xml</fr:route><fr:title
+text="Symmetric Group of degree n">Symmetric Group of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can look at <fr:tex
-display="inline"><![CDATA[2\times 2]]></fr:tex> matrices as acting on points <fr:tex
-display="inline"><![CDATA[(x,y)\in \mathbb {R}^{2}]]></fr:tex> on the plane. We turn <fr:tex
-display="inline"><![CDATA[(x,y)]]></fr:tex> into a column vector.</fr:p><fr:p>We have rotation anticlockwise by an angle <fr:tex
-display="inline"><![CDATA[\theta ]]></fr:tex> given by
-<fr:tex
-display="block"><![CDATA[\mathbf {A}_{\theta } = \begin {bmatrix}\cos (\theta ) & -\sin (\theta )\\ \sin (\theta ) & \cos (\theta )\end {bmatrix}.]]></fr:tex>
-Reflection about the <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>-axis is
-<fr:tex
-display="block"><![CDATA[\mathbf {R}  =\begin {bmatrix}1 & 0\\0 & -1 \end {bmatrix}.]]></fr:tex>
-Dilation by a positive real number <fr:tex
-display="inline"><![CDATA[\lambda \gt  0]]></fr:tex> is a diagonal matrix
-<fr:tex
-display="block"><![CDATA[  \mathbf {D}_{\lambda } =\begin {bmatrix}\lambda  & 0\\   0 & \lambda    \end {bmatrix}.]]></fr:tex>
-Observe for <fr:tex
-display="inline"><![CDATA[0\lt \lambda \lt 1]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[\mathbf {D}_{\lambda }]]></fr:tex> be a contraction.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="axler-1996-linear.xml"
+addr="axler-1996-linear"
+title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Definition 9.31</fr:meta><fr:meta
+name="source"><fr:link
+type="local"
+href="lankham-2016-linear.xml"
+addr="lankham-2016-linear"
+title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 8.1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Symmetric Group of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></html:dfn> to be the set <fr:tex
+display="inline"><![CDATA[S_{n}]]></fr:tex> of all permutations of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> elements equipped with <fr:link
+type="local"
+href="nst-001M.xml"
+addr="nst-001M"
+title="Composition of functions">Composition of functions</fr:link> since composing two permutations of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> elements is another permutation of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> elements.</fr:p>
  
    
    <fr:tree
@@ -66,17 +69,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3518</fr:anchor><fr:addr
-type="machine">#430</fr:addr><fr:route>unstable-430.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1642</fr:anchor><fr:addr
+type="machine">#430</fr:addr><fr:route>unstable-430.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Observe when <fr:tex
-display="inline"><![CDATA[\theta =\pi  / 2]]></fr:tex>, the rotation matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> describes "the same thing" as multiplying a number in the complex plane by <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>. The reader can check that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}\mathbf {A}_{\pi  / 2}=-\mathbf {I}_{2}]]></fr:tex> which means that <fr:tex
-display="inline"><![CDATA[\mathbf {A}_{\pi  / 2}]]></fr:tex> "looks like" <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It's not hard to prove this, indeed, forms a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

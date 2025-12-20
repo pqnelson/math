@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14636</fr:anchor><fr:addr
+type="machine">#491</fr:addr><fr:route>unstable-491.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Formally, if we were formalizing matrices with a proof assistant, we should first define the negation of a matrix. Then we use matrix negation to define matrix subtraction.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14638</fr:anchor><fr:addr
+type="user">matrix-000K</fr:addr><fr:route>matrix-000K.xml</fr:route><fr:title
+text="Matrix Subtraction">Matrix Subtraction</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathbf {B}=(b_{i,j})]]></fr:tex> be two <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrices. We define their <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Difference</html:dfn> to be the matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}-\mathbf {B} = \mathbf {A} + -1\cdot \mathbf {B}]]></fr:tex>. This gives us the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Matrix Subtraction</html:dfn> binary operator on <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrices.</fr:p><fr:p>Similarly, the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Matrix) Negation</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is the matrix <fr:tex
+display="inline"><![CDATA[-\mathbf {A}=-1\cdot \mathbf {A}]]></fr:tex>. This is a unary operator on <fr:tex
+display="inline"><![CDATA[m\times  n]]></fr:tex> matrices.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2280</fr:anchor><fr:addr
+type="machine">#491</fr:addr><fr:route>unstable-491.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Formally, if we were formalizing matrices with a proof assistant, we should first define the negation of a matrix. Then we use matrix negation to define matrix subtraction.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,19 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>601</fr:anchor><fr:addr
-type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>997</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Quaternions turn out to be useful for 3d computer graphics.</fr:p>
-<fr:p>(2) Although Springer's LaTeX macros uses <fr:code><![CDATA[\mathrm{i}]]></fr:code> for <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>, the conventions for the imaginary quaternions <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[j]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> varies wildly. Wikipedia uses bold symbols. Michael Kinyon told me on <fr:link
-type="external"
-href="https://bsky.app/profile/profkinyon.bsky.social/post/3m7dpefbsdc2r">Bluesky</fr:link> that "Gibbs, in his 1881 <fr:em>Elements of Vector Analysis</fr:em> book (more like a pamphlet), just used the math typeface of his day for i,j,k."</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Why do we use <fr:tex
+display="inline"><![CDATA[\oplus ]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\times ]]></fr:tex> for the product module? It's tradition. (Really? Well, sort of, but a more satisfying answer requires category theory, which we have yet to introduce…).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -34,37 +29,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>603</fr:anchor><fr:addr
-type="user">ra-0005</fr:addr><fr:route>ra-0005.xml</fr:route><fr:title
-text="Quaternions">Quaternions</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>999</fr:anchor><fr:addr
+type="user">ra-003Z</fr:addr><fr:route>ra-003Z.xml</fr:route><fr:title
+text="Product Module">Product Module</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Quaternions</html:dfn> is a generalization of the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="complex-0001.xml"
-addr="complex-0001"
-title="Set of complex numbers">complex numbers</fr:link>, denoted as <fr:tex
-display="inline"><![CDATA[\mathbb {H}]]></fr:tex> (after William Hamilton) consisting of <fr:tex
-display="inline"><![CDATA[t+ix+jy+kz]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[t,x,y,z\in \mathbb {R}]]></fr:tex> are real numbers, where the imaginary "numbers" satisfy
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>. Let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[N]]></fr:tex> be <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-modules. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Product Module</html:dfn> <fr:tex
+display="inline"><![CDATA[M\oplus  N]]></fr:tex> to consist of the Abelian group <fr:tex
+display="inline"><![CDATA[M\times  N]]></fr:tex> equipped with scalar multiplication
 <fr:tex
-display="block"><![CDATA[i^{2}=j^{2}=k^{2}=ijk=-1.]]></fr:tex>
-It's not hard to deduce that
-<fr:tex
-display="block"><![CDATA[jk=-kj=i]]></fr:tex>
-<fr:tex
-display="block"><![CDATA[ki=-ik=j]]></fr:tex>
-<fr:tex
-display="block"><![CDATA[ij=-ji=k]]></fr:tex>
-Addition is given by
-<fr:tex
-display="block"><![CDATA[(a+ib+jc+kd)+(t+ix+jy+kz)=(a+t)+i(b+x)+j(c+y)+k(d+z)]]></fr:tex>
-and multiplication is given by
-<fr:tex
-display="block"><![CDATA[\begin {align*} (a+ib+jc+kd)(t+ix+jy+kz) &=(at-bx-cy-dz)\\ &\quad +i(at+bx+cz-dy)\\ &\quad +j(ct-bz+cy+dx)\\ &\quad +k(az+by-cx+dt)\end {align*}]]></fr:tex>
-This means the quaternions form a noncommutative ring.</fr:p>
+display="block"><![CDATA[\begin {split}&R\times  (M\oplus  N)\to  M\oplus  N\\ &(r,(m,n))\mapsto  r\cdot (m,n)=(rm,rn)\end {split}]]></fr:tex>
+Note: this is also called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">External Direct Sum</html:dfn> of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[N]]></fr:tex>.</fr:p><fr:p><fr:strong>Proof idea:</fr:strong> We need to check this is a well-defined term. Existence and uniqueness are obvious, but we still need to prove this is actually an <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. So we need to prove the distributivity axioms, associativity of scalar multiplication, and the unit condition <fr:tex
+display="inline"><![CDATA[1\cdot (m,n)=(m,n)]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -74,18 +64,13 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>605</fr:anchor><fr:addr
-type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>691</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Quaternions turn out to be useful for 3d computer graphics.</fr:p>
-<fr:p>(2) Although Springer's LaTeX macros uses <fr:code><![CDATA[\mathrm{i}]]></fr:code> for <fr:tex
-display="inline"><![CDATA[\sqrt {-1}]]></fr:tex>, the conventions for the imaginary quaternions <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[j]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> varies wildly. Wikipedia uses bold symbols. Michael Kinyon told me on <fr:link
-type="external"
-href="https://bsky.app/profile/profkinyon.bsky.social/post/3m7dpefbsdc2r">Bluesky</fr:link> that "Gibbs, in his 1881 <fr:em>Elements of Vector Analysis</fr:em> book (more like a pamphlet), just used the math typeface of his day for i,j,k."</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Why do we use <fr:tex
+display="inline"><![CDATA[\oplus ]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\times ]]></fr:tex> for the product module? It's tradition. (Really? Well, sort of, but a more satisfying answer requires category theory, which we have yet to introduce…).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,27 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4808</fr:anchor><fr:addr
-type="machine">#357</fr:addr><fr:route>unstable-357.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8133</fr:anchor><fr:addr
+type="machine">#357</fr:addr><fr:route>unstable-357.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) The dihedral group describes the symmetries of the regular <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-gon in the plane, where <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> is rotation anticlockwise by <fr:tex
-display="inline"><![CDATA[2\pi  / n]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> is reflection about a line through the origin.</fr:p>
-<fr:p>(2) Some authors (like Dummit and Foote) call this group <fr:tex
-display="inline"><![CDATA[D_{2n}]]></fr:tex> because it is of <fr:link
-type="local"
-href="gr-000P.xml"
-addr="gr-000P"
-title="Order of a group">order</fr:link> <fr:tex
-display="inline"><![CDATA[2n]]></fr:tex>.</fr:p>
-<fr:p>(3) <fr:tex
-display="inline"><![CDATA[D_{1}]]></fr:tex> has <fr:tex
-display="inline"><![CDATA[x=1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D_{0}]]></fr:tex> is degenerate.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There are two claims being made here: (1) there exists a fixed-point of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, and (2) the fixed-point is unique.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -42,36 +28,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4810</fr:anchor><fr:addr
-type="user">gr-0013</fr:addr><fr:route>gr-0013.xml</fr:route><fr:title
-text="Dihedral group">Dihedral group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8135</fr:anchor><fr:addr
+type="user">gt-001A</fr:addr><fr:route>gt-001A.xml</fr:route><fr:title
+text="Banach contraction principle">Banach contraction principle</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
 type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.2</fr:meta><fr:meta
-name="source">Hungerford <fr:link
+href="ca-001F.xml"
+addr="ca-001F"
+title="Complete Metric Space">Complete Metric Space</fr:link>, and <fr:tex
+display="inline"><![CDATA[f\colon  X\to  X]]></fr:tex> be a <fr:link
 type="local"
-href="hungerford-1974-algebra.xml"
-addr="hungerford-1974-algebra"
-title="Algebra">Algebra</fr:link> Theorem 1.6.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Dihedral group</html:dfn> <fr:tex
-display="inline"><![CDATA[D_{n}]]></fr:tex> to consist of the set <fr:tex
-display="inline"><![CDATA[\{x^{k}y^{j}\mid  0\leq  k<n,0\leq  j\leq  1\}]]></fr:tex> where we also write <fr:tex
-display="inline"><![CDATA[x^{0}y^{0}=1]]></fr:tex>, such that
-<fr:tex
-display="block"><![CDATA[x^{n}=y^{2}=1]]></fr:tex>
-and also
-<fr:tex
-display="block"><![CDATA[yx=x^{-1}y.]]></fr:tex>
-It's not hard to see <fr:tex
-display="inline"><![CDATA[yx^{k}=x^{-k}y]]></fr:tex> by applying that second relation <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> times.</fr:p>
+href="gt-0019.xml"
+addr="gt-0019"
+title="Contraction">Contraction</fr:link>. Then <fr:tex
+display="inline"><![CDATA[f\colon  X\to  X]]></fr:tex> admits a unique <fr:link
+type="local"
+href="gt-0018.xml"
+addr="gt-0018"
+title="Fixed point">Fixed point</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -81,26 +59,118 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>927</fr:anchor><fr:addr
-type="machine">#357</fr:addr><fr:route>unstable-357.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6228</fr:anchor><fr:addr
+type="machine">#357</fr:addr><fr:route>unstable-357.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) The dihedral group describes the symmetries of the regular <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-gon in the plane, where <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> is rotation anticlockwise by <fr:tex
-display="inline"><![CDATA[2\pi  / n]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> is reflection about a line through the origin.</fr:p>
-<fr:p>(2) Some authors (like Dummit and Foote) call this group <fr:tex
-display="inline"><![CDATA[D_{2n}]]></fr:tex> because it is of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There are two claims being made here: (1) there exists a fixed-point of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, and (2) the fixed-point is unique.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6230</fr:anchor><fr:addr
+type="machine">#358</fr:addr><fr:route>unstable-358.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="gr-000P.xml"
-addr="gr-000P"
-title="Order of a group">order</fr:link> <fr:tex
-display="inline"><![CDATA[2n]]></fr:tex>.</fr:p>
-<fr:p>(3) <fr:tex
-display="inline"><![CDATA[D_{1}]]></fr:tex> has <fr:tex
-display="inline"><![CDATA[x=1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D_{0}]]></fr:tex> is degenerate.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[0<c<1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[c]]></fr:tex>-Lipschitz. Let <fr:tex
+display="inline"><![CDATA[x_{0}\in  X]]></fr:tex> be any arbitrary point. We define inductively <fr:tex
+display="inline"><![CDATA[x_{n+1}=f(x_{n})]]></fr:tex> for all non-negative integers <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}_{0}]]></fr:tex>. This sequence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> is well-defined.</fr:p>
+<fr:p><fr:strong>Claim 1: Existence of fixed-point.</fr:strong> First we see <fr:tex
+display="inline"><![CDATA[d(x_{2},x_{1})=d(f(x_{1}),f(x_{0}))\leq  c\cdot  d(x_{1},x_{0})]]></fr:tex>.</fr:p>
+<fr:p>Now, we look at:
+<fr:tex
+display="block"><![CDATA[\begin {align} d(x_{k+1},x_{k}) & \leq  d(f(x_{k}),f(x_{k-1}))\\ &\leq  cd(x_{k},x_{k-1})\\ &\leq  c^{k}d(x_{1},x_{0})\hbox { by induction}\\ &\leq  c^{k}d(f(x_{0}),x_{0})\end {align}]]></fr:tex>
+For any non-negative integers <fr:tex
+display="inline"><![CDATA[m,n\in \mathbb {N}_{0}]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[m>n]]></fr:tex> we have (using the triangle inequality),
+<fr:tex
+display="block"><![CDATA[\begin {align} d(x_{m},x_{n}) & \leq  d(x_{n},x_{n+1}) + d(x_{n+1},x_{n+2}) + … + d(x_{m-1},x_{m})\\ &\leq  (c^{n}+c^{n+1}+…+c^{m-1})d(f(x_{0}),x_{0})\\ &\leq  c^{n}\left (\frac {1-c^{m-n}}{1-c}\right )d(f(x_{0}),x_{0})\\ &\leq \frac {c^{n}}{1-c}d(f(x_{0}),x_{0}) \end {align}]]></fr:tex>
+since <fr:tex
+display="inline"><![CDATA[0\leq  c<1]]></fr:tex>, the numerator is bounded by <fr:tex
+display="inline"><![CDATA[1-c^{m-n}\leq  1]]></fr:tex> which is how we get the last line. Now, taking <fr:tex
+display="inline"><![CDATA[n\to \infty ]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[c^{n}\to 0]]></fr:tex> so <fr:tex
+display="inline"><![CDATA[d(x_{n},x_{m})\to 0]]></fr:tex>. This proves the sequence <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> is <fr:link
+type="local"
+href="ca-001D.xml"
+addr="ca-001D"
+title="Cauchy sequence">Cauchy</fr:link>. But by hypothesis, <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> is <fr:link
+type="local"
+href="ca-001F.xml"
+addr="ca-001F"
+title="Complete Metric Space">complete</fr:link>, so <fr:tex
+display="inline"><![CDATA[(x_{n})]]></fr:tex> converges in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. Let us call its limit <fr:tex
+display="inline"><![CDATA[x_{*}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[x\to  x_{*}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+<fr:p>We want to prove <fr:tex
+display="inline"><![CDATA[x_{*}]]></fr:tex> is a fixed point. Since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is <fr:link
+type="local"
+href="ca-001Q.xml"
+addr="ca-001Q"
+title="Lipschitz function">Lipschitz</fr:link>, it is continuous. So
+<fr:tex
+display="block"><![CDATA[f(x_{*})=\lim _{n\to \infty }f(x_{n})=\lim _{n\to \infty }x_{n+1}=x_{*},]]></fr:tex>
+hence <fr:tex
+display="inline"><![CDATA[x_{*}]]></fr:tex> is a fixed-point. This establishes the existence of a fixed-point.</fr:p>
+<fr:p><fr:strong>Claim 2: Uniqueness of fixed-point.</fr:strong> <fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction we have two fixed-points <fr:tex
+display="inline"><![CDATA[u=f(u)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v=f(v)]]></fr:tex>. Then the distance
+<fr:tex
+display="block"><![CDATA[\begin {align} d(u,v) & = d(f(u),f(v)) \hbox { by being fixed-points}\\ &\leq  c\cdot  d(u,v)\hbox { by Lipschitz.}\end {align}]]></fr:tex>
+If <fr:tex
+display="inline"><![CDATA[u\neq  v]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[0<d(u,v)\leq  c d(u,v)\implies  1\leq  c]]></fr:tex>
+but <fr:tex
+display="inline"><![CDATA[0\leq  c<1]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is a contraction. This is a contradiction. Hence we must conclude <fr:tex
+display="inline"><![CDATA[u=v]]></fr:tex>.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6232</fr:anchor><fr:addr
+type="machine">#359</fr:addr><fr:route>unstable-359.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Also observe that the initial point <fr:tex
+display="inline"><![CDATA[x_{0}\in  X]]></fr:tex> was chosen arbitrarily, so the proof gave us an algorithm for finding the fixed-point <fr:em>and</fr:em> a bound on the error from using <fr:tex
+display="inline"><![CDATA[x_{n}]]></fr:tex> as an approximation for the fixed-point <fr:tex
+display="inline"><![CDATA[x_{*}=f(x_{*})]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

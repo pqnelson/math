@@ -7,12 +7,45 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>541</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>957</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could speak of ideals in more general settings, e.g., rings without negation.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[T=\mathop {\textrm {Tor}}\nolimits (M)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a commutative integral domain, <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is a submodule of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim:</fr:strong> <fr:tex
+display="inline"><![CDATA[M/T]]></fr:tex> is torsion-free. For any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[r(m+T)=T]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[rm\in  T]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is torsion, there exists a nonzero <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a(rm)=0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is an integral domain, we deduce that <fr:tex
+display="inline"><![CDATA[m]]></fr:tex> is torsion and <fr:tex
+display="inline"><![CDATA[m+T=T]]></fr:tex>.</fr:p>
+<fr:p>Then by <fr:link
+type="local"
+href="ra-004V.xml"
+addr="ra-004V"
+title="Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module">Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module</fr:link> and <fr:link
+type="local"
+href="ra-004S.xml"
+addr="ra-004S"
+title="Submodules of a rank n free module over a PID are free and have rank less than or equal to n">Submodules of a rank <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> free module over a PID are free and have rank less than or equal to <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:link> we deduce <fr:tex
+display="inline"><![CDATA[M/T]]></fr:tex> is free of finite rank. Then <fr:link
+type="local"
+href="ra-004M.xml"
+addr="ra-004M"
+title="If quotient module is free, then a complement submodule exists">If quotient module is free, then a complement submodule exists</fr:link> implies the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,46 +60,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>543</fr:anchor><fr:addr
-type="user">ra-000Z</fr:addr><fr:route>ra-000Z.xml</fr:route><fr:title
-text="Left ideal of a ring">Left ideal of a ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>959</fr:anchor><fr:addr
+type="user">ra-004U</fr:addr><fr:route>ra-004U.xml</fr:route><fr:title
+text="Finite-rank modules over PIDs are direct sums of free and torsion modules">Finite-rank modules over PIDs are direct sums of free and torsion modules</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/ideal_1.html#M1">ideal_1:def 1</fr:link></fr:meta><fr:meta
-name="source">Dummit and Foote <fr:link
-type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Section 7.3</fr:meta><fr:meta
-name="source">Artin <fr:link
-type="local"
-href="artin-2010-algebra.xml"
-addr="artin-2010-algebra"
-title="Algebra">Algebra</fr:link> Section 11.3</fr:meta><fr:meta
-name="source">Hungerford <fr:link
-type="local"
-href="hungerford-1974-algebra.xml"
-addr="hungerford-1974-algebra"
-title="Algebra">Algebra</fr:link> Section III.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
 display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>. A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Left Ideal</html:dfn> of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex
-display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that
-<fr:ol><fr:li>for any <fr:tex
-display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x\in  I]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[rx\in  I]]></fr:tex>; and</fr:li>
-<fr:li>for any <fr:tex
-display="inline"><![CDATA[x,y\in  I]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[x+y\in  I]]></fr:tex>.</fr:li></fr:ol></fr:p>
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a <fr:link
+type="local"
+href="ra-004A.xml"
+addr="ra-004A"
+title="Finitely-Generated Submodule">finitely-generated</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module. Then there exists a free finitely-generated <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> and a finitely-generated <fr:link
+type="local"
+href="ra-003R.xml"
+addr="ra-003R"
+title="Torsion Module">torsion</fr:link> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[M=T\oplus  F]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -76,11 +96,44 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr
-type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>757</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We could speak of ideals in more general settings, e.g., rings without negation.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[T=\mathop {\textrm {Tor}}\nolimits (M)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a commutative integral domain, <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is a submodule of <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim:</fr:strong> <fr:tex
+display="inline"><![CDATA[M/T]]></fr:tex> is torsion-free. For any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[r(m+T)=T]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[rm\in  T]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[T]]></fr:tex> is torsion, there exists a nonzero <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a(rm)=0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is an integral domain, we deduce that <fr:tex
+display="inline"><![CDATA[m]]></fr:tex> is torsion and <fr:tex
+display="inline"><![CDATA[m+T=T]]></fr:tex>.</fr:p>
+<fr:p>Then by <fr:link
+type="local"
+href="ra-004V.xml"
+addr="ra-004V"
+title="Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module">Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module</fr:link> and <fr:link
+type="local"
+href="ra-004S.xml"
+addr="ra-004S"
+title="Submodules of a rank n free module over a PID are free and have rank less than or equal to n">Submodules of a rank <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> free module over a PID are free and have rank less than or equal to <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:link> we deduce <fr:tex
+display="inline"><![CDATA[M/T]]></fr:tex> is free of finite rank. Then <fr:link
+type="local"
+href="ra-004M.xml"
+addr="ra-004M"
+title="If quotient module is free, then a complement submodule exists">If quotient module is free, then a complement submodule exists</fr:link> implies the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,28 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2185</fr:anchor><fr:addr
-type="machine">#342</fr:addr><fr:route>unstable-342.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9592</fr:anchor><fr:addr
+type="machine">#342</fr:addr><fr:route>unstable-342.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"The collection of all ordinal numbers" is another example of a <fr:link
 type="local"
-href="nst-002K.xml"
-addr="nst-002K"
-title="Proof by induction">Proof by induction</fr:link> on <fr:tex
-display="inline"><![CDATA[\min (m,n)]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Base case:</fr:strong> if <fr:tex
-display="inline"><![CDATA[\min (m,n)=1]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is <fr:link
-type="local"
-href="gr-003W.xml"
-addr="gr-003W"
-title="Simple">Simple</fr:link>, hence any other composition series is of length 1 and the unique subquotient is <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Inductive argument:</fr:strong> This is rather lengthy, I'll return to it.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="nst-001P.xml"
+addr="nst-001P"
+title="Classes">proper class</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -43,36 +31,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2187</fr:anchor><fr:addr
-type="user">gr-003Z</fr:addr><fr:route>gr-003Z.xml</fr:route><fr:title
-text="Jordan–Hölder theorem">Jordan–Hölder theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9594</fr:anchor><fr:addr
+type="user">nst-002C</fr:addr><fr:route>nst-002C.xml</fr:route><fr:title
+text="There is no set of all ordinals">There is no set of all ordinals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. If
-<fr:tex
-display="block"><![CDATA[\mathbf {1}_{G}=H_{0}\mathrel {\triangleleft } H_{1}\mathrel {\triangleleft }…\mathrel {\triangleleft } H_{n}=G,]]></fr:tex>
-and
-<fr:tex
-display="block"><![CDATA[\mathbf {1}_{G}=K_{0}\mathrel {\triangleleft } K_{1}\mathrel {\triangleleft }…\mathrel {\triangleleft } K_{m}=G,]]></fr:tex>
-are two <fr:link
-type="local"
-href="gr-003X.xml"
-addr="gr-003X"
-title="Composition Series">Composition Series</fr:link>s for <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[m=n]]></fr:tex> and there exists a permutation <fr:tex
-display="inline"><![CDATA[\pi \in  S_{n}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[H_{j+1} / H_{j}\cong  K_{\sigma (j) + 1} / K_{\sigma (j)}]]></fr:tex>.</fr:p><fr:p>In other words, the <fr:link
-type="local"
-href="gr-003X.xml"
-addr="gr-003X"
-title="Composition Series">Composition Series</fr:link> for a group is unique.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/card_1.html#T25">card_1:25</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>There is no set <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> such that for all ordinals <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[A\in  X]]></fr:tex>. In other words, there is no set of all ordinal numbers.</fr:p>
  
    
    <fr:tree
@@ -82,27 +53,56 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1227</fr:anchor><fr:addr
-type="machine">#342</fr:addr><fr:route>unstable-342.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2923</fr:anchor><fr:addr
+type="machine">#341</fr:addr><fr:route>unstable-341.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="nst-002K.xml"
-addr="nst-002K"
-title="Proof by induction">Proof by induction</fr:link> on <fr:tex
-display="inline"><![CDATA[\min (m,n)]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Base case:</fr:strong> if <fr:tex
-display="inline"><![CDATA[\min (m,n)=1]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is <fr:link
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a set such that for all ordinals <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[A\in  X]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <fr:link
 type="local"
-href="gr-003W.xml"
-addr="gr-003W"
-title="Simple">Simple</fr:link>, hence any other composition series is of length 1 and the unique subquotient is <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Inductive argument:</fr:strong> This is rather lengthy, I'll return to it.</fr:p><html:span
+href="nst-0021.xml"
+addr="nst-0021"
+title="Transitive set">Transitive set</fr:link> and <fr:link
+type="local"
+href="nst-0022.xml"
+addr="nst-0022"
+title="Connected set">Connected set</fr:link>, which implies <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is an <fr:link
+type="local"
+href="nst-0023.xml"
+addr="nst-0023"
+title="Ordinal number">Ordinal number</fr:link>. Then <fr:tex
+display="inline"><![CDATA[X\in  X]]></fr:tex>, which is impossible.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2925</fr:anchor><fr:addr
+type="machine">#342</fr:addr><fr:route>unstable-342.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>"The collection of all ordinal numbers" is another example of a <fr:link
+type="local"
+href="nst-001P.xml"
+addr="nst-001P"
+title="Classes">proper class</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

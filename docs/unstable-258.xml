@@ -7,19 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>469</fr:anchor><fr:addr
-type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>519</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Answer</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Look at the set
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For this particular case, it turns out
 <fr:tex
-display="block"><![CDATA[\mathcal {I}=\{I\in \mathcal {P}(R)\mid  I\hbox { is an ideal}\},]]></fr:tex>
-where "is an ideal" means the subset is a left/right/two-sided ideal (depending on what the reader wants). This is clearly a subset of <fr:tex
-display="inline"><![CDATA[\mathcal {P}(R)]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[\mathcal {I}]]></fr:tex> is the set sought.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+display="block"><![CDATA[A\sim _{\mathbb {Q}}B\iff  A\sim _{\mathbb {C}}B.]]></fr:tex>
+This is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Stable Conjugacy</html:dfn>. This is a consequence of version (1) of the fundamental theorem of modules over principal ideal domains...and why the <fr:link
+type="local"
+href="ra-0055.xml"
+addr="ra-0055"
+title="Rational Canonical Form of a Matrix">Rational Canonical Form of a Matrix</fr:link> is so important. A matrix in rational canonical form over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is also in rational canonical form over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and then we use the fact <fr:link
+type="local"
+href="ra-0057.xml"
+addr="ra-0057"
+title="Matrices are similar iff they have the same rational canonical form">Matrices are similar iff they have the same rational canonical form</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -34,19 +41,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>471</fr:anchor><fr:addr
-type="user">ra-001I</fr:addr><fr:route>ra-001I.xml</fr:route><fr:title
-text="Collection of ideals forms a set">Collection of ideals forms a set</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>521</fr:anchor><fr:addr
+type="user">ra-0058</fr:addr><fr:route>ra-0058.xml</fr:route><fr:title
+text="Stable Conjugacy">Stable Conjugacy</fr:title><fr:taxon>Puzzle</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
-type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>. Then the collection of left/right/two-sided ideals of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> forms a set.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A question we should never ask ourselves ever: Given we can work with complex matrices <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {C})]]></fr:tex>, but we often find ourselves in many applications caring about rational matrices <fr:tex
+display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {Q})]]></fr:tex>. For example if we have two matrices <fr:tex
+display="inline"><![CDATA[A,B\in \mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {Q})]]></fr:tex> we see that <fr:tex
+display="inline"><![CDATA[A,B\in \mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {C})]]></fr:tex>, so is asking:
+
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml">Is <fr:tex
+display="inline"><![CDATA[A\sim _{\mathbb {Q}}B]]></fr:tex>, i.e., is there an invertible <fr:tex
+display="inline"><![CDATA[X\in \mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {Q})]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[A=XBX^{-1}]]></fr:tex>?</html:blockquote>
+
+Is this the same as asking,
+
+  <html:blockquote
+xmlns:html="http://www.w3.org/1999/xhtml">Is <fr:tex
+display="inline"><![CDATA[A\sim _{\mathbb {C}}B]]></fr:tex>, i.e., is there an invertible <fr:tex
+display="inline"><![CDATA[X\in \mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {C})]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[A=XBX^{-1}]]></fr:tex>?</html:blockquote>
+
+or not?</fr:p>
  
    
    <fr:tree
@@ -56,18 +77,25 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>473</fr:anchor><fr:addr
-type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>523</fr:anchor><fr:addr
+type="machine">#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:taxon>Answer</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Look at the set
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For this particular case, it turns out
 <fr:tex
-display="block"><![CDATA[\mathcal {I}=\{I\in \mathcal {P}(R)\mid  I\hbox { is an ideal}\},]]></fr:tex>
-where "is an ideal" means the subset is a left/right/two-sided ideal (depending on what the reader wants). This is clearly a subset of <fr:tex
-display="inline"><![CDATA[\mathcal {P}(R)]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[\mathcal {I}]]></fr:tex> is the set sought.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+display="block"><![CDATA[A\sim _{\mathbb {Q}}B\iff  A\sim _{\mathbb {C}}B.]]></fr:tex>
+This is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Stable Conjugacy</html:dfn>. This is a consequence of version (1) of the fundamental theorem of modules over principal ideal domains...and why the <fr:link
+type="local"
+href="ra-0055.xml"
+addr="ra-0055"
+title="Rational Canonical Form of a Matrix">Rational Canonical Form of a Matrix</fr:link> is so important. A matrix in rational canonical form over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is also in rational canonical form over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, and then we use the fact <fr:link
+type="local"
+href="ra-0057.xml"
+addr="ra-0057"
+title="Matrices are similar iff they have the same rational canonical form">Matrices are similar iff they have the same rational canonical form</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

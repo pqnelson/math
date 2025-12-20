@@ -7,26 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7298</fr:anchor><fr:addr
-type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2510</fr:anchor><fr:addr
+type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
-display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite by <fr:link
-type="local"
-href="nst-001Y.xml"
-addr="nst-001Y"
-title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is called "Gauss's Lemma", but as far as I can tell, like most things named after Gauss, it's completely unmerited.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -41,19 +27,42 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7300</fr:anchor><fr:addr
-type="user">nst-001Z</fr:addr><fr:route>nst-001Z.xml</fr:route><fr:title
-text="{Q} is countable"><fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2512</fr:anchor><fr:addr
+type="user">ra-002U</fr:addr><fr:route>ra-002U.xml</fr:route><fr:title
+text="Factorization of formal polynomials with coefficients in UFDs">Factorization of formal polynomials with coefficients in UFDs</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Corollary to Theorem 2.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>The set of rational numbers is countably infinite.</fr:p>
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 9.3.5</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathop {\textrm {Frac}}\nolimits (R)]]></fr:tex> be its <fr:link
+type="local"
+href="ra-002B.xml"
+addr="ra-002B"
+title="Universal property of field of fractions">field of fractions</fr:link>, let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Let <fr:tex
+display="inline"><![CDATA[p(x)\in  R[x]]]></fr:tex>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible in <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex>. More precisely: if <fr:tex
+display="inline"><![CDATA[p(x)=A(x)B(x)]]></fr:tex> for some nonconstant polynomials <fr:tex
+display="inline"><![CDATA[A(x),B(x)\in \mathbb {F}[x]]]></fr:tex>, then there are nonzero elements <fr:tex
+display="inline"><![CDATA[r,s\in \mathbb {F}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[rA(x)=a(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[sB(x)=b(x)]]></fr:tex> both lie in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p(x)=a(x)b(x)]]></fr:tex> is a factorization in <fr:tex
+display="inline"><![CDATA[R[x]]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -63,25 +72,11 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7204</fr:anchor><fr:addr
-type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1367</fr:anchor><fr:addr
+type="machine">#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
-display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite by <fr:link
-type="local"
-href="nst-001Y.xml"
-addr="nst-001Y"
-title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is called "Gauss's Lemma", but as far as I can tell, like most things named after Gauss, it's completely unmerited.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

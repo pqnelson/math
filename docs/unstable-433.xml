@@ -7,20 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12270</fr:anchor><fr:addr
-type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8253</fr:anchor><fr:addr
+type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {B}=\mathbf {A}^{\mathsf {T}}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i}]]></fr:tex> by definition of the transpose, and <fr:tex
-display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i} = (\mathbf {A}^{\mathsf {T}})_{j,i} = (\mathbf {A})_{i,j}]]></fr:tex>. Hence when we combine everything together we have <fr:tex
-display="inline"><![CDATA[\left ((\mathbf {A}^{\mathsf {T}})^{\mathsf {T}}\right )_{i,j} = (\mathbf {A})_{i,j}]]></fr:tex>, as desired.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
+type="local"
+href="ca-002A.xml"
+addr="ca-002A"
+title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -35,15 +33,25 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12272</fr:anchor><fr:addr
-type="user">matrix-000O</fr:addr><fr:route>matrix-000O.xml</fr:route><fr:title
-text="Transpose is idempotent">Transpose is idempotent</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8255</fr:anchor><fr:addr
+type="user">ca-002H</fr:addr><fr:route>ca-002H.xml</fr:route><fr:title
+text="Set of continuous real-valued functions on metric space">Set of continuous real-valued functions on metric space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any matrix <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[(\mathbf {A}^{\mathsf {T}})^{\mathsf {T}}=\mathbf {A}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. We denote by <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> the set of all continuous real-valued functions on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p><fr:p>Moreover, this may be given the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Uniform Metric</html:dfn> defined by
+<fr:tex
+display="block"><![CDATA[\left  \lVert  f-g \right  \rVert _{\infty }:=\sup _{x\in  X}|f(x)-g(x)|]]></fr:tex>
+for any <fr:tex
+display="inline"><![CDATA[f,g\in \mathcal {C}(X)]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -53,19 +61,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3476</fr:anchor><fr:addr
-type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8257</fr:anchor><fr:addr
+type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {B}=\mathbf {A}^{\mathsf {T}}]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i}]]></fr:tex> by definition of the transpose, and <fr:tex
-display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i} = (\mathbf {A}^{\mathsf {T}})_{j,i} = (\mathbf {A})_{i,j}]]></fr:tex>. Hence when we combine everything together we have <fr:tex
-display="inline"><![CDATA[\left ((\mathbf {A}^{\mathsf {T}})^{\mathsf {T}}\right )_{i,j} = (\mathbf {A})_{i,j}]]></fr:tex>, as desired.</fr:p>
-<html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
+display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
+type="local"
+href="ca-002A.xml"
+addr="ca-002A"
+title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

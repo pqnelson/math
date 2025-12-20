@@ -1,0 +1,13 @@
+\title{Existence and uniqueness of Jordan Canonical Form}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{theorem}
+\def\JCF{\mathop{\textrm{JCF}}\nolimits}
+
+\p{Let #{\FF} be a [[field-0001]], let #{n\in\NN} be a positive integer, let #{A\in\Mat_{n}(\FF)} be an #{n\times n} matrix. Assume #{\FF} contains all the eigenvalues of #{A}. Then there exists a unique #{n\times n} matrix #{\JCF(A)} called the \define{Jordan Canonical Form} of #{A} such that the following all hold:}
+\ol{
+\li{#{A\sim\JCF(A)};}
+\li{For any #{B\in\Mat_{n}(\FF)}, we have #{A\sim B} if and only if #{\JCF(A)=\JCF(B)};}
+\li{The #{\JCF(A)} is a block diagonal matrix consisting of [Jordan blocks](ra-005A).}
+}

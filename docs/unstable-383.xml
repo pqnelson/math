@@ -7,39 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5917</fr:anchor><fr:addr
-type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4685</fr:anchor><fr:addr
+type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Obvious.</fr:p>
-<fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> For simplicity, suppose <fr:tex
-display="inline"><![CDATA[n=2]]></fr:tex> (the argument generalizes to other <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>). Let <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is bounded, there is an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
 type="local"
-href="ca-000L.xml"
-addr="ca-000L"
-title="Open Ball">Open Ball</fr:link> which totally contains <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. There is an <fr:tex
-display="inline"><![CDATA[a>0]]></fr:tex> sufficiently large such that <fr:tex
-display="inline"><![CDATA[E\subseteq [-a,a]\times [-a,a]]]></fr:tex>. Then we can take a partition <fr:tex
-display="inline"><![CDATA[P_{k}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[[-a,a]]]></fr:tex> such that each interval in the partition has length less than <fr:tex
-display="inline"><![CDATA[1 / k]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[P_{k}\times  P_{k}]]></fr:tex> is a partition of <fr:tex
-display="inline"><![CDATA[[-a,a]\times [-a,a]]]></fr:tex> and each square has diameter bounded by <fr:tex
-display="inline"><![CDATA[\sqrt {2} / k]]></fr:tex>. We can choose <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> sufficiently large such that <fr:tex
-display="inline"><![CDATA[\sqrt {2} / k < \varepsilon ]]></fr:tex>. There are finitely many such open squares which cover <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This implies there are finitely many open balls of radius <fr:tex
-display="inline"><![CDATA[\varepsilon ]]></fr:tex> covering <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. Hence the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="gr-003K.xml"
+addr="gr-003K"
+title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -54,22 +31,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5919</fr:anchor><fr:addr
-type="user">ca-0024</fr:addr><fr:route>ca-0024.xml</fr:route><fr:title
-text="Subsets of Euclidean space are bounded iff totally bounded">Subsets of Euclidean space are bounded iff totally bounded</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4687</fr:anchor><fr:addr
+type="user">gr-004U</fr:addr><fr:route>gr-004U.xml</fr:route><fr:title
+text="Existence of a Sylow p-Subgroup">Existence of a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A subset of Euclidean space <fr:tex
-display="inline"><![CDATA[E\subseteq \mathbb {R}^{n}]]></fr:tex> is <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
 type="local"
-href="ca-001U.xml"
-addr="ca-001U"
-title="">bounded</fr:link> if and only if it is <fr:link
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.7 (Sylow E-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
 type="local"
-href="ca-001Z.xml"
-addr="ca-001Z"
-title="Totally bounded subset of a metric space">totally bounded</fr:link>.</fr:p>
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a prime number. Then <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> has a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup.</fr:p>
  
    
    <fr:tree
@@ -79,37 +61,81 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5921</fr:anchor><fr:addr
-type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2054</fr:anchor><fr:addr
+type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Obvious.</fr:p>
-<fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> For simplicity, suppose <fr:tex
-display="inline"><![CDATA[n=2]]></fr:tex> (the argument generalizes to other <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>). Let <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is bounded, there is an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
 type="local"
-href="ca-000L.xml"
-addr="ca-000L"
-title="Open Ball">Open Ball</fr:link> which totally contains <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. There is an <fr:tex
-display="inline"><![CDATA[a>0]]></fr:tex> sufficiently large such that <fr:tex
-display="inline"><![CDATA[E\subseteq [-a,a]\times [-a,a]]]></fr:tex>. Then we can take a partition <fr:tex
-display="inline"><![CDATA[P_{k}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[[-a,a]]]></fr:tex> such that each interval in the partition has length less than <fr:tex
-display="inline"><![CDATA[1 / k]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[P_{k}\times  P_{k}]]></fr:tex> is a partition of <fr:tex
-display="inline"><![CDATA[[-a,a]\times [-a,a]]]></fr:tex> and each square has diameter bounded by <fr:tex
-display="inline"><![CDATA[\sqrt {2} / k]]></fr:tex>. We can choose <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> sufficiently large such that <fr:tex
-display="inline"><![CDATA[\sqrt {2} / k < \varepsilon ]]></fr:tex>. There are finitely many such open squares which cover <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This implies there are finitely many open balls of radius <fr:tex
-display="inline"><![CDATA[\varepsilon ]]></fr:tex> covering <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. Hence the result.</fr:p><html:span
+href="gr-003K.xml"
+addr="gr-003K"
+title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2056</fr:anchor><fr:addr
+type="machine">#384</fr:addr><fr:route>unstable-384.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(Wielendt) Let <fr:tex
+display="inline"><![CDATA[|G|=p^{a}m]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a\geq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p\nmid  m]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Omega =\{A\subseteq  G\mid  |A|=p^{a}\}]]></fr:tex>. We see that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> by right multiplication. Since this is an action, <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into orbits, and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is the sum of the orbit sizes.</fr:p>
+<fr:p>But
+<fr:tex
+display="block"><![CDATA[|\Omega |=\binom {p^{a}m}{p^{a}}\equiv  m\not \equiv 0\pmod {p},]]></fr:tex>
+and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then there exists some orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[X\in \mathcal {O}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H=G_{X}]]></fr:tex> be the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=|G|/|H|]]></fr:tex> by the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, and since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|G|]]></fr:tex>, we must conclude <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex>, and in particular <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> stabilizes <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> under right multiplication, we see if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[xH\subseteq  X]]></fr:tex>, and then <fr:tex
+display="inline"><![CDATA[|H|=|xH|\leq |X|=p^{a}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|\leq  p^{a}]]></fr:tex>, we must have <fr:tex
+display="inline"><![CDATA[|H|=p^{a}]]></fr:tex>, and this is a Sylow subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

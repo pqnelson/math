@@ -7,37 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5825</fr:anchor><fr:addr
-type="machine">#313</fr:addr><fr:route>unstable-313.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3594</fr:anchor><fr:addr
+type="machine">#313</fr:addr><fr:route>unstable-313.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="nst-002J.xml"
-addr="nst-002J"
-title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
-display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separate</fr:link> <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For commutative rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, all three notions coincide.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -52,30 +28,52 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5827</fr:anchor><fr:addr
-type="user">gt-000V</fr:addr><fr:route>gt-000V.xml</fr:route><fr:title
-text="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3596</fr:anchor><fr:addr
+type="user">ra-001C</fr:addr><fr:route>ra-001C.xml</fr:route><fr:title
+text="Maximal ideal">Maximal ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> be <fr:link
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>s. Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">Ring</fr:link>.</fr:p><fr:ol><fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Right Ideal</html:dfn> is a proper <fr:link
 type="local"
-href="gt-000P.xml"
-addr="gt-000P"
-title="Continuous Function">Continuous Function</fr:link>. If <fr:tex
-display="inline"><![CDATA[E\subseteq  X]]></fr:tex> is a <fr:link
+href="ra-0010.xml"
+addr="ra-0010"
+title="Right ideal of a ring">right ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other right ideal <fr:tex
+display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal Left Ideal</html:dfn> is a proper <fr:link
 type="local"
-href="gt-000U.xml"
-addr="gt-000U"
-title="Connected Subset">Connected Subset</fr:link>, then <fr:tex
-display="inline"><![CDATA[f(E)\subseteq  Y]]></fr:tex> is a connected subset.</fr:p>
+href="ra-000Z.xml"
+addr="ra-000Z"
+title="Left ideal of a ring">left ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other left ideal <fr:tex
+display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
+<fr:li>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Maximal (Two-Sided) Ideal</html:dfn> is a proper <fr:link
+type="local"
+href="ra-0011.xml"
+addr="ra-0011"
+title="Ideal">ideal</fr:link> <fr:tex
+display="inline"><![CDATA[I\mathrel {\triangleleft } R]]></fr:tex> such that for any other ideal <fr:tex
+display="inline"><![CDATA[J\mathrel {\trianglelefteq } R]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
+display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li></fr:ol><fr:p>When we drop the condition that <fr:tex
+display="inline"><![CDATA[I]]></fr:tex> is proper, then we have a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Quasi-Maximal</html:dfn> left/right/two-sided ideal.</fr:p>
  
    
    <fr:tree
@@ -85,36 +83,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3952</fr:anchor><fr:addr
-type="machine">#313</fr:addr><fr:route>unstable-313.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1249</fr:anchor><fr:addr
+type="machine">#313</fr:addr><fr:route>unstable-313.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="nst-002J.xml"
-addr="nst-002J"
-title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
-display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separate</fr:link> <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For commutative rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, all three notions coincide.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

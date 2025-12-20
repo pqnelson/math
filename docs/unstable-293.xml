@@ -7,23 +7,71 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7310</fr:anchor><fr:addr
-type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2522</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[g\colon  B\to \mathbb {N}]]></fr:tex> be an injective function (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). If <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> is bijective, then <fr:tex
-display="inline"><![CDATA[g\circ  f]]></fr:tex> is injective, hence <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countable.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite, then there is a bijection <fr:tex
-display="inline"><![CDATA[g\colon  A\to \mathbb {N}]]></fr:tex>. We have <fr:tex
-display="inline"><![CDATA[h\colon  B\to \mathbb {N}]]></fr:tex> be bijective (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). Then <fr:tex
-display="inline"><![CDATA[h^{-1}\circ  g\colon  A\to  B]]></fr:tex> is bijective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>There are two claims: (1) there is a factorization, and (2) the factorization is unique.</fr:p>
+<fr:p><fr:strong>Claim 1: Existence of a factorization.</fr:strong> Assume for contradiction <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> does not have a factorization. Then <fr:tex
+display="inline"><![CDATA[ua\in  R]]></fr:tex> does not have a factorization for any unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex>.</fr:p>
+<fr:p>We setup a set
+<fr:tex
+display="block"><![CDATA[S:=\{(r)\mathrel {\triangleleft } R\mid  r\hbox { does not have a factorization into irreducibles}\}.]]></fr:tex>
+Assume for contradiction that <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> be a maximal element of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>. We have <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is not irreducible, so by definition we can write it as <fr:tex
+display="inline"><![CDATA[a=xy]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[x,y\notin R^{\times }]]></fr:tex> are not units, so
+<fr:tex
+display="block"><![CDATA[(a)\subset (x)]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[(a)\subset (y)]]></fr:tex>
+are proper subsets.</fr:p>
+<fr:p>But since <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> is a maximal element of a chain, <fr:tex
+display="inline"><![CDATA[(x)\notin  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(y)\notin  S]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> have a factorization. This gives us a contradiction, which means our assumption <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex> is wrong. We conclude <fr:tex
+display="inline"><![CDATA[S=\emptyset ]]></fr:tex>. Hence we've proven the factorization of elements exists.</fr:p>
+<fr:p><fr:strong>Claim 2: Uniqueness of factorization.</fr:strong> This may be proven in many, many ways. Assume for contradiction this is not true, so we may factorize
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i}p_{i}=\prod ^{m}_{j}q_{j},]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> is minimal (i.e., the factorization <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i}p_{i}]]></fr:tex> is the smallest possible factorization with fewest possible factors).</fr:p>
+<fr:p>We have <fr:tex
+display="inline"><![CDATA[n\geq 1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[p=p_{1}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}\prod  q_{j}]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[j_{0}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} q_{j_{0}}]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[p_{i}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j}]]></fr:tex> are all prime and irreducible. Then <fr:tex
+display="inline"><![CDATA[p=uq_{j_{0}}]]></fr:tex> for some unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j_{0}}]]></fr:tex> are irreducible). Then
+<fr:tex
+display="block"><![CDATA[p_{1}\prod ^{n}_{i=2}p_{i}=(uq_{j_{0}})u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}]]></fr:tex>
+which implies
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i=2}p_{i}=u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}.]]></fr:tex>
+This contradicts the assumption that <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i=1}p_{i}]]></fr:tex> is the minimal factorization.</fr:p>
+<html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -40,17 +88,42 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7312</fr:anchor><fr:addr
-type="user">nst-001U</fr:addr><fr:route>nst-001U.xml</fr:route><fr:title
-text="A set bijective with a countably infinite set is countably infinite">A set bijective with a countably infinite set is countably infinite</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2524</fr:anchor><fr:addr
+type="user">ra-002M</fr:addr><fr:route>ra-002M.xml</fr:route><fr:title
+text="Principal ideal domains are unique factorization domains">Principal ideal domains are unique factorization domains</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be a set, let <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be a countably infinite set. Then <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite iff there is a bijection <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 8.3.14</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
+type="local"
+href="ra-001M.xml"
+addr="ra-001M"
+title="Principal Ideal Domain">Principal Ideal Domain</fr:link>, let <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> be a nonzero non-invertible element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Then there exists <fr:link
+type="local"
+href="ra-001U.xml"
+addr="ra-001U"
+title="Irreducible element">irreducible elements</fr:link> <fr:tex
+display="inline"><![CDATA[p_{1},…,p_{n}\in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a=p_{1}(…)p_{n}]]></fr:tex>. Further, if <fr:tex
+display="inline"><![CDATA[q_{1},…,q_{m}\in  R]]></fr:tex> are irreducible and such that <fr:tex
+display="inline"><![CDATA[a=q_{1}(…)q_{m}]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[m=n]]></fr:tex> and for each <fr:tex
+display="inline"><![CDATA[i=1,…,n]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[q_{i}=u_{i}p_{i}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> is a unit.</fr:p><fr:p>In other words, <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a <fr:link
+type="local"
+href="ra-001Z.xml"
+addr="ra-001Z"
+title="Unique Factorization Domain">Unique Factorization Domain</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -60,23 +133,71 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7218</fr:anchor><fr:addr
-type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1335</fr:anchor><fr:addr
+type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[g\colon  B\to \mathbb {N}]]></fr:tex> be an injective function (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). If <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> is bijective, then <fr:tex
-display="inline"><![CDATA[g\circ  f]]></fr:tex> is injective, hence <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countable.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite, then there is a bijection <fr:tex
-display="inline"><![CDATA[g\colon  A\to \mathbb {N}]]></fr:tex>. We have <fr:tex
-display="inline"><![CDATA[h\colon  B\to \mathbb {N}]]></fr:tex> be bijective (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). Then <fr:tex
-display="inline"><![CDATA[h^{-1}\circ  g\colon  A\to  B]]></fr:tex> is bijective.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>There are two claims: (1) there is a factorization, and (2) the factorization is unique.</fr:p>
+<fr:p><fr:strong>Claim 1: Existence of a factorization.</fr:strong> Assume for contradiction <fr:tex
+display="inline"><![CDATA[a\in  R]]></fr:tex> does not have a factorization. Then <fr:tex
+display="inline"><![CDATA[ua\in  R]]></fr:tex> does not have a factorization for any unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex>.</fr:p>
+<fr:p>We setup a set
+<fr:tex
+display="block"><![CDATA[S:=\{(r)\mathrel {\triangleleft } R\mid  r\hbox { does not have a factorization into irreducibles}\}.]]></fr:tex>
+Assume for contradiction that <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> be a maximal element of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>. We have <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is not irreducible, so by definition we can write it as <fr:tex
+display="inline"><![CDATA[a=xy]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[x,y\notin R^{\times }]]></fr:tex> are not units, so
+<fr:tex
+display="block"><![CDATA[(a)\subset (x)]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[(a)\subset (y)]]></fr:tex>
+are proper subsets.</fr:p>
+<fr:p>But since <fr:tex
+display="inline"><![CDATA[(a)]]></fr:tex> is a maximal element of a chain, <fr:tex
+display="inline"><![CDATA[(x)\notin  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(y)\notin  S]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> have a factorization. This gives us a contradiction, which means our assumption <fr:tex
+display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex> is wrong. We conclude <fr:tex
+display="inline"><![CDATA[S=\emptyset ]]></fr:tex>. Hence we've proven the factorization of elements exists.</fr:p>
+<fr:p><fr:strong>Claim 2: Uniqueness of factorization.</fr:strong> This may be proven in many, many ways. Assume for contradiction this is not true, so we may factorize
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i}p_{i}=\prod ^{m}_{j}q_{j},]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> is minimal (i.e., the factorization <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i}p_{i}]]></fr:tex> is the smallest possible factorization with fewest possible factors).</fr:p>
+<fr:p>We have <fr:tex
+display="inline"><![CDATA[n\geq 1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[p=p_{1}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |}\prod  q_{j}]]></fr:tex>. Then there exists a <fr:tex
+display="inline"><![CDATA[j_{0}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} q_{j_{0}}]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[p_{i}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j}]]></fr:tex> are all prime and irreducible. Then <fr:tex
+display="inline"><![CDATA[p=uq_{j_{0}}]]></fr:tex> for some unit <fr:tex
+display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> (since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q_{j_{0}}]]></fr:tex> are irreducible). Then
+<fr:tex
+display="block"><![CDATA[p_{1}\prod ^{n}_{i=2}p_{i}=(uq_{j_{0}})u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}]]></fr:tex>
+which implies
+<fr:tex
+display="block"><![CDATA[\prod ^{n}_{i=2}p_{i}=u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}.]]></fr:tex>
+This contradicts the assumption that <fr:tex
+display="inline"><![CDATA[\prod ^{n}_{i=1}p_{i}]]></fr:tex> is the minimal factorization.</fr:p>
+<html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

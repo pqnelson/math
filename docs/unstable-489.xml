@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14628</fr:anchor><fr:addr
+type="machine">#489</fr:addr><fr:route>unstable-489.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbf {B}=\mathbf {A}^{\mathsf {T}}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i}]]></fr:tex> by definition of the transpose, and <fr:tex
+display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i} = (\mathbf {A}^{\mathsf {T}})_{j,i} = (\mathbf {A})_{i,j}]]></fr:tex>. Hence when we combine everything together we have <fr:tex
+display="inline"><![CDATA[\left ((\mathbf {A}^{\mathsf {T}})^{\mathsf {T}}\right )_{i,j} = (\mathbf {A})_{i,j}]]></fr:tex>, as desired.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14630</fr:anchor><fr:addr
+type="user">matrix-000O</fr:addr><fr:route>matrix-000O.xml</fr:route><fr:title
+text="Transpose is idempotent">Transpose is idempotent</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any matrix <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[(\mathbf {A}^{\mathsf {T}})^{\mathsf {T}}=\mathbf {A}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2292</fr:anchor><fr:addr
+type="machine">#489</fr:addr><fr:route>unstable-489.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbf {B}=\mathbf {A}^{\mathsf {T}}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i}]]></fr:tex> by definition of the transpose, and <fr:tex
+display="inline"><![CDATA[(\mathbf {B}^{\mathsf {T}})_{i,j} = (\mathbf {B})_{j,i} = (\mathbf {A}^{\mathsf {T}})_{j,i} = (\mathbf {A})_{i,j}]]></fr:tex>. Hence when we combine everything together we have <fr:tex
+display="inline"><![CDATA[\left ((\mathbf {A}^{\mathsf {T}})^{\mathsf {T}}\right )_{i,j} = (\mathbf {A})_{i,j}]]></fr:tex>, as desired.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

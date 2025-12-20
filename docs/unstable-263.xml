@@ -7,13 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>499</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>929</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For commutative rings <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, all three notions coincide.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from the <fr:link
+type="local"
+href="ra-004W.xml"
+addr="ra-004W"
+title="Fundamental theorem of finitely-generated modules over PIDs">Fundamental theorem of finitely-generated modules over PIDs</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -28,52 +33,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>501</fr:anchor><fr:addr
-type="user">ra-001C</fr:addr><fr:route>ra-001C.xml</fr:route><fr:title
-text="Maximal ideal">Maximal ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>931</fr:anchor><fr:addr
+type="user">ra-004Z</fr:addr><fr:route>ra-004Z.xml</fr:route><fr:title
+text="{F}[x]-modules are {F}-vector spaces equipped with an endomorphism"><fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex>-modules are <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-vector spaces equipped with an endomorphism</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> be a <fr:link
-type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">Ring</fr:link>.</fr:p><fr:ol><fr:li>A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Maximal Right Ideal</html:dfn> is a proper <fr:link
-type="local"
-href="ra-0010.xml"
-addr="ra-0010"
-title="Right ideal of a ring">right ideal</fr:link> <fr:tex
-display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other right ideal <fr:tex
-display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
-display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
-display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
-<fr:li>A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Maximal Left Ideal</html:dfn> is a proper <fr:link
-type="local"
-href="ra-000Z.xml"
-addr="ra-000Z"
-title="Left ideal of a ring">left ideal</fr:link> <fr:tex
-display="inline"><![CDATA[I\subset  R]]></fr:tex> such that for any other left ideal <fr:tex
-display="inline"><![CDATA[J\subseteq  R]]></fr:tex>, if <fr:tex
-display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
-display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li>
-<fr:li>A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Maximal (Two-Sided) Ideal</html:dfn> is a proper <fr:link
-type="local"
-href="ra-0011.xml"
-addr="ra-0011"
-title="Ideal">ideal</fr:link> <fr:tex
-display="inline"><![CDATA[I\mathrel {\triangleleft } R]]></fr:tex> such that for any other ideal <fr:tex
-display="inline"><![CDATA[J\mathrel {\trianglelefteq } R]]></fr:tex>, if <fr:tex
-display="inline"><![CDATA[I\subseteq  J]]></fr:tex> then either <fr:tex
-display="inline"><![CDATA[I=J]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[J=R]]></fr:tex>.</fr:li></fr:ol><fr:p>When we drop the condition that <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> is proper, then we have a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Quasi-Maximal</html:dfn> left/right/two-sided ideal.</fr:p>
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. Let <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> be a module over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> is a vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> equipped with an endomorphism <fr:tex
+display="inline"><![CDATA[\alpha \colon  M\to  M]]></fr:tex> defined by <fr:tex
+display="inline"><![CDATA[\alpha (m)=x\cdot  m]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[m\in  M]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -83,12 +59,50 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>503</fr:anchor><fr:addr
-type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>777</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>For commutative rings <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, all three notions coincide.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from the <fr:link
+type="local"
+href="ra-004W.xml"
+addr="ra-004W"
+title="Fundamental theorem of finitely-generated modules over PIDs">Fundamental theorem of finitely-generated modules over PIDs</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>779</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We see <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is a finitely-generated torsion module over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> is a finite-dimensional vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p>(2) If we have two square <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then they correspond to endomorphisms on an <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-dimensional vector space over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. These give us modules over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> describing the action of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> is similar to <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> if and only if the corresponding modules over <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> are isomorphic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

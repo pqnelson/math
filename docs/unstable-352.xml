@@ -7,12 +7,22 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3391</fr:anchor><fr:addr
-type="machine">#352</fr:addr><fr:route>unstable-352.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11860</fr:anchor><fr:addr
+type="machine">#352</fr:addr><fr:route>unstable-352.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This operator usually doesn't have a standard name. The only place I have seen it called "the Frobenius product" is in Adolfo Ballester-Bolinches, Ramon Esteban-Romero, and Mohamed Asaad's <fr:em>Products of Finite Groups</fr:em> (Walter de Gruyter, 2010, pg 1). In van der Waerden's <fr:em>Algebra</fr:em>, this was called the "product of complexes" or "complex product" (terminology which Kurzweil and Stellmacher use in their <fr:em>Finite Group Theory</fr:em> on page 6 of the English edition, right before proposition 1.1.5).</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A better definition would be <fr:tex
+display="inline"><![CDATA[(x,y)=\{\{0,x\},\{1,y\}\}]]></fr:tex> because then the <fr:link
+type="local"
+href="nst-000O.xml"
+addr="nst-000O"
+title="Cartesian product of two sets">Cartesian product of two sets</fr:link> coincides with the <fr:link
+type="local"
+href="nst-002E.xml"
+addr="nst-002E"
+title="Product of family of sets">Product of family of sets</fr:link> when <fr:tex
+display="inline"><![CDATA[I=\{0,1\}]]></fr:tex> is the indexing set.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,36 +37,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3393</fr:anchor><fr:addr
-type="user">gr-001M</fr:addr><fr:route>gr-001M.xml</fr:route><fr:title
-text="Frobenius Product of Subgroups">Frobenius Product of Subgroups</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11862</fr:anchor><fr:addr
+type="user">nst-000M</fr:addr><fr:route>nst-000M.xml</fr:route><fr:title
+text="Ordered pairs">Ordered pairs</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source"><fr:link
+type="local"
+href="paul-r-halmos.xml"
+addr="paul-r-halmos"
+title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
+type="local"
+href="halmos-1974-naive.xml"
+addr="halmos-1974-naive"
+title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
 name="source">MML <fr:link
 type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_4.html#K7">group_4:def 8</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. Let <fr:tex
-display="inline"><![CDATA[H_{1}\leq  G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[H_{2}\leq  G]]></fr:tex> be <fr:link
-type="local"
-href="gr-001B.xml"
-addr="gr-001B"
-title="Subgroup">Subgroup</fr:link>s of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Frobenius Product</html:dfn> of <fr:tex
-display="inline"><![CDATA[H_{1}]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[H_{2}]]></fr:tex> to be the <fr:strong>subset</fr:strong> <fr:tex
-display="inline"><![CDATA[H_{1}H_{2}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> equal to
-<fr:tex
-display="block"><![CDATA[H_{1}H_{2}=\{h_{1}h_{2}\in  G\mid  h_{1}\in  H_{1}, h_{2}\in  H_{2}\}.]]></fr:tex>
-We stress this is not a subgroup.</fr:p>
+href="https://mizar.uwb.edu.pl/version/current/html/tarski.html#K4">tarski:def 5</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> be objects. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ordered Pair</html:dfn> to be the object <fr:tex
+display="inline"><![CDATA[(x,y) = \{\{x\},\{x,y\}\}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -66,11 +69,21 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1029</fr:anchor><fr:addr
-type="machine">#352</fr:addr><fr:route>unstable-352.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2857</fr:anchor><fr:addr
+type="machine">#352</fr:addr><fr:route>unstable-352.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This operator usually doesn't have a standard name. The only place I have seen it called "the Frobenius product" is in Adolfo Ballester-Bolinches, Ramon Esteban-Romero, and Mohamed Asaad's <fr:em>Products of Finite Groups</fr:em> (Walter de Gruyter, 2010, pg 1). In van der Waerden's <fr:em>Algebra</fr:em>, this was called the "product of complexes" or "complex product" (terminology which Kurzweil and Stellmacher use in their <fr:em>Finite Group Theory</fr:em> on page 6 of the English edition, right before proposition 1.1.5).</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A better definition would be <fr:tex
+display="inline"><![CDATA[(x,y)=\{\{0,x\},\{1,y\}\}]]></fr:tex> because then the <fr:link
+type="local"
+href="nst-000O.xml"
+addr="nst-000O"
+title="Cartesian product of two sets">Cartesian product of two sets</fr:link> coincides with the <fr:link
+type="local"
+href="nst-002E.xml"
+addr="nst-002E"
+title="Product of family of sets">Product of family of sets</fr:link> when <fr:tex
+display="inline"><![CDATA[I=\{0,1\}]]></fr:tex> is the indexing set.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

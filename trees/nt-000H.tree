@@ -1,0 +1,7 @@
+\title{Irreducible polynomial has a root in a field extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{theorem}
+
+\p{Let #{\FF} be a field, let #{p(x)\in\FF[x]} be a nonconstant irreducible polynomial. Then there always exists a field extension #{\kk / \FF} such that #{p} has a root in #{\kk}.}
