@@ -1,0 +1,7 @@
+\title{Ring of polynomials is a UFD iff ring of coefficients is a UFD}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\p{Let #{R} be a ring. Then #{R} is a [[ra-001Z]] if and only if #{R[x]} is a [[ra-001Z]].}

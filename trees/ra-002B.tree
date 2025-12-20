@@ -1,0 +1,13 @@
+\title{Universal property of field of fractions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\p{Let #{R} be any [[ra-000H]]. Then there exists a unique [[field-0001]] #{\FF} (unique up to isomorphism) and an injection #{i\colon R\into\FF} such that for all other fields #{\kk} if #{\varphi\colon R\into\kk}, then there exists an extension #{\overline{\varphi}\colon\FF\into\kk} such that the following diagram commutes:}
+##{\begin{array}{ccc}R & \xrightarrow{\varphi} & \kk\\
+\downarrow^{i} & & \parallel\\
+\FF & \xrightarrow{\overline{\varphi}} & \kk\end{array}}
+\p{We call #{\FF} the \define{Ring of Fractions} of #{R}.}
+
+\rmk{This can be generalized to any commutative ring; Matsumara calls it the "total quotient ring" (or the "total ring of fractions").}

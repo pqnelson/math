@@ -1,0 +1,13 @@
+\title{Factorization of formal polynomials with coefficients in UFDs}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 9.3.5}
+
+\p{Let #{R} be a [[ra-001Z]], let #{\FF=\Frac(R)} be its [field of fractions](ra-002B), let #{x} be a formal variable. Let #{p(x)\in R[x]}.}
+
+\p{If #{p(x)} is reducible in #{\FF[x]}, then #{p(x)} is reducible in #{R[x]}. More precisely: if #{p(x)=A(x)B(x)} for some nonconstant polynomials #{A(x),B(x)\in\FF[x]}, then there are nonzero elements #{r,s\in\FF} such that #{rA(x)=a(x)} and #{sB(x)=b(x)} both lie in #{R[x]} and #{p(x)=a(x)b(x)} is a factorization in #{R[x]}.}
+
+\rmk{This is called "Gauss's Lemma", but as far as I can tell, like most things named after Gauss, it's completely unmerited.}

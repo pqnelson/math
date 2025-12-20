@@ -1,0 +1,17 @@
+\title{Product ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R_{1}} and #{R_{2}} be [[ring-0001]]s. We define their \define{Product Ring} #{R_{1}\times R_{2}} to consist of the direct product of the underlying set of elements of #{R_{1}} with #{R_{2}}, equipped with the operations
+##{(a,b)+(c,d)=(a+c,b+d)}
+and
+##{(a,b)(c,d)=(ac,bd).}
+This forms a ring.}
+
+\p{Moreover, if #{R_{1}} and #{R_{2}} are both commutative, then #{R_{1}\times R_{2}} is commutative.}
+
+\p{And if #{R_{1}} and #{R_{2}} are both unital, then #{R_{1}\times R_{2}} is unital.}
+
+\rmk{This generalizes to any indexed family of rings #{\{R_{i}\}_{i\in I}}.}

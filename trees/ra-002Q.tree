@@ -1,0 +1,13 @@
+\title{Ring of formal power series}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ra-0003]]. Let #{x} be a formal variable. The \define{Ring of Formal Power Series} #{R[{[x]}]} consists of all formal power series
+##{f(x)=\sum^{\infty}_{n=0}a_{n}x^{n}}
+with addition defined by matching powers of #{x}:
+##{\left(\sum_{n}a_{n}x^{n}\right)+\left(\sum_{m}b_{m}x^{m}\right)=\sum_{n}(a_{n}+b_{n})x^{n}}
+and multiplication defined by Cauchy convolution product
+##{\left(\sum_{n}a_{n}x^{n}\right)\left(\sum_{m}b_{m}x^{m}\right)=\sum_{n=0}\left(\sum^{n}_{k=0}a_{n-k}b_{k}\right)x^{n}.}
+This is a unital ring when #{R} is unital.}

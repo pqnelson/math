@@ -1,0 +1,7 @@
+\title{A Matrix over unital commutative rings is invertible iff its determinant is a unit}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{theorem}
+
+\p{Let #{R} be a unital [[ra-0003]]. Let #{n\in\NN}. Let #{A\in\Mat_{n}(R)}. Then #{A} is invertible if and only if #{\det(A)\in\UnitGroup{R}}.}

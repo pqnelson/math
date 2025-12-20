@@ -1,0 +1,9 @@
+\title{Torsion element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a ring, #{M} be an #{R}-module, let #{m\in M} be an element of #{M}. We say #{m} is \define{Torsion} if its annihilator is nonzero
+##{\Annihilator_{R}(m)\neq0.}
+Specifically, the annihilator contains a non-zero-divisor nonzero element.}

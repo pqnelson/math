@@ -1,0 +1,26 @@
+\title{In a UFD, elements are irreducible iff prime}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 8.3.12}
+
+\p{Let #{R} be a [[ra-001Z]], let #{p\in R} be an element of #{R}. Then #{p} is [prime](ra-001T) if and only if #{p} is [irreducible](ra-001U).}
+
+\proof{\p{\forwardproof Well, since a UFD is an integral domain, this follows immediately from [[ra-001Y]].}
+\p{\backwardproof Assume #{p} is irreducible. We want to prove #{p} is prime.}
+\p{Let #{a,b\in R} be arbitrary. Assume #{p\divides ab}. Then there exists some #{c\in R} such that #{ab=pc}. We can write the unique factorization of #{a} as
+##{a=u\prod^{N}_{i=1}p_{i}^{n_{i}}}
+and the unique factorization of #{b} as
+##{b=v\prod^{M}_{j=1}q_{j}^{m_{j}}}
+and the unique factorization of #{c} as
+##{c=w\prod^{L}_{k=1}r_{k}^{\ell_{k}}.}
+Then #{p} must [associate](ra-0022) with one of the irreducibles appearing in the factorization of #{a} or {b}. We have #{ab=pc} be
+##{uv\prod^{N}_{i=1}p_{i}^{n_{i}}\prod^{M}_{j=1}q_{j}^{m_{j}}=wp\prod^{L}_{k=1}r_{k}^{\ell_{k}},}
+and by uniqueness of the factorizations #{N+M-1=L}, and either
+##{p_{i}=pu'\quad\mbox{for some }i\mbox{ and }u'\in\UnitGroup{R}}
+(which means #{p\divides a}),
+or
+##{q_{j}=pu'\quad\mbox{for some }j\mbox{ and }u'\in\UnitGroup{R}}
+(which means #{p\divides b}).
+Hence #{p\divides ab} implies #{p\divides a} or #{p\divides b}, which implies #{p} is a prime element of #{R}.}}

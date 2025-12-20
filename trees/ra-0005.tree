@@ -2,6 +2,7 @@
 \author{alex-nelson}
 \import{notation}
 \date{2025-12-17}
+\taxon{example}
 
 \p{The \define{Quaternions} is a generalization of the [complex numbers](complex-0001), denoted as #{\HH} (after William Hamilton) consisting of #{t+ix+jy+kz} where #{t,x,y,z\in\RR} are real numbers, where the imaginary "numbers" satisfy
 ##{i^{2}=j^{2}=k^{2}=ijk=-1.}

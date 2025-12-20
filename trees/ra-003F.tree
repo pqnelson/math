@@ -1,0 +1,10 @@
+\title{Annihilator of a module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]], let #{M} be an #{R}-module. We define the \define{Annihilator of #{M}} to be the subset #{\Annihilator_{R}(M)} of #{R} equal to
+##{\Annihilator_{R}(M):=\{\lambda\in R\mid\forall m\in M\ldotp \lambda m=0\}.}}
+
+\p{\textbf{Exercise:} Calculate the Annihilator of #{\FF[x,y]/(x^{3}+x^{2}-y^{2})} where #{\FF} is some field.}

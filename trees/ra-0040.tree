@@ -1,0 +1,15 @@
+\title{Inclusion maps into product module are module morphisms}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} and #{N} be #{R}-modules. Then
+##{\begin{split}i_{1}\colon &M\to M\oplus N\\
+&m\mapsto(m,0)\end{split}}
+and
+##{\begin{split}i_{2}\colon &N\to M\oplus N\\
+&n\mapsto(0,n)\end{split}}
+are #{R}-linear maps. Moreover, #{i_{1}(M)\iso M} and #{i_{2}(N)\iso N}.}
+
+\p{Furthermore, #{i_{1}(M)+i_{2}(N)=M\oplus N} and #{i_{1}(M)\cap i_{2}(N)=(0)}.}

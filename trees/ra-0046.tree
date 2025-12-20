@@ -1,0 +1,11 @@
+\title{Exercises about hom-sets of modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+
+\p{Let #{R} be a ring.}
+\ol{
+\li{Let #{X\in\Mat_{n}(R)} be an #{n\times n} matrix with entries in #{R}. If #{\det(X)\neq0}, then is #{X} invertible as a matrix? (Does #{\det(X)} even make sense if #{R} is noncommutative?)}
+\li{For any #{m,n\in\NN}, if #{R^{m}\iso R^{n}} as modules, then is it true that #{m=n}?}
+\li{Does the notion of a ["basis"](vectsp-000T) carry over to #{R^{n}}?}
+}

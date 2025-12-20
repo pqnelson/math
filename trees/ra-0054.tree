@@ -1,0 +1,15 @@
+\title{Invariant factors of a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{\FF} be a field, let #{X\in\Mat_{n}(\FF)} be an #{n\times n} matrix, let #{V=\FF^{n}} be a free vector space over #{\FF}. We can decompose #{V=V_{1}\oplus\dots\oplus V_{m}} where each #{V_{i}} is an [[vectsp-001P]] under #{X} and the dimension #{\dim(V_{1})=\deg(m_{X}(x))} is the degree of the [minimal polynomial of #{X}](ra-0051) and #{\dim(V_{i})\leq\dim(V_{i+1})}.}
+
+\p{Moreover, there is a basis #{(e_{1},\dots,e_{n})} of #{V} such that the first #{\dim(V_{1})} span #{V_{1}}, then first #{\dim(V_{1}\oplus V_{2})} span #{V_{1}\oplus V_{2}}, and so on; and #{X} with respect to this basis may be written in block form as
+##{X = \begin{pmatrix}
+C_{f_{1}} &         0 & \dots & 0\\
+        0 & C_{f_{2}} & \dots & 0\\
+\vdots    & \vdots    & \ddots & \vdots\\
+        0 &         0 & \dots & C_{f_{m}}\end{pmatrix}}
+where #{C_{f_{1}}} is the [[ra-0053]] of the minimal polynomial #{f_{1}} of #{X}, and #{C_{f_{2}}}, \dots, #{C_{f_{m}}} are the companion matrices of monic polynomials #{f_{2}}, \dots, #{f_{m}} which are called the \define{Invariant Factors}. Moreover #{f_{j+1}(x)\divides f_{j}(x)} for each #{j=1,\dots,m-1}.}

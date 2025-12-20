@@ -1,0 +1,11 @@
+\title{Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{lemma}
+
+\p{Let #{R} be a [[ra-001M]], let #{M} be a [finitely-generated](ra-004A) #{R}-module. Then #{M} is [torsion-free](ra-003P) if and only if #{R} is isomorphic to a submodule of a free module.}
+
+\proof{\p{\backwardproof Any submodule of a free module over an integral domain is torsion-free.}
+\p{\forwardproof Assume #{M} is torsion-free. Let #{S} be the set of all linearly-independent subsets of #{M}. We can check that #{S} is nonempty (since #{M} being torsion-free and #{R} being an integral domain that #{\{m\}} is linearly independent for any #{m\in M} nonzero #{m\neq0}) and all ascending chains in #{S} admit an upper bound. Then by [[zorn's-lemma]] there exists a maximal element in #{S}. That is to say, there exists a maximal free submodule #{F} of #{M}.}
+\p{We claim that #{M/F} is torsion. If #{m+F\in M} is not torsion, then the submodule #{Rm+F} of #{M} is free and it properly contains #{F}. Since #{M} is assumed to be torsion free, #{Rm} is free and thus it suffices to check #{Rm\cap F=(0)}. But #{rm\in F} iff #{r(m+F)=0}. Since #{M} is finitely-generated then #{M/F} is finitely-generated and torsion. Then there exists some #{a\in R} nonzero #{a\neq0} such that #{a(M/F)=0}. Equivalently #{aM\subset F}. Since #{M} is torsion-free, #{M} is isomorphic to #{aM}.}}

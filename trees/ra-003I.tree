@@ -1,0 +1,7 @@
+\title{#{R}-Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{convention}
+
+\p{We will adopt the convention tacitly used in textbooks: when #{R} is a ring, we say #{M} is an \define{#{R}-module} to mean it is either a left module over #{R} or a right module over #{R}, and we will also unambiguously write scalar multiplication as if it were a left module over #{R}.}

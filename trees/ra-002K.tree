@@ -1,0 +1,8 @@
+\title{Associative rings are modules over themselves}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\p{Let #{R} be an associative [[ring-0001]]. Then it is a [[ra-002G]] over itself, and a [[ra-002H]] over itself. If #{R} is unital, then these modules are unital.}
+\p{When #{R} is nonassociative, then it is no longer a module over itself.}

@@ -1,0 +1,7 @@
+\title{Cyclic modules are quotients of ring with annihilator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. Then #{M} is [cyclic](ra-003H) if and only if there exists an #{m\in M} such that #{M\iso R/\Annihilator_{R}(m)}.}

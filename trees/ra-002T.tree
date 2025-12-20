@@ -1,0 +1,9 @@
+\title{Primitive Polynomial and Content of Polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ra-001Z]], let #{x} be a formal variable. Let #{f(x)\in R[x]} be a nonconstant polynomial. Then we define the \define{Content} of #{f} to be the #{c(f)\in\NonZero{R}} equal to the greatest common divisor of its nonzero coefficients, and the \define{Primitive Part} of #{f} to be the polynomial #{f_{0}\in R[x]} such that #{c(f_{0})=1} and
+##{f(x)=c(f)f_{0}(x).}
+We say #{f} is \define{Primitive} if #{f=f_{0}}.}

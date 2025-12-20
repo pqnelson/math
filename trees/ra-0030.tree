@@ -1,0 +1,17 @@
+\title{Steps in studying new gadgets}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{remark}
+
+\p{At this point, we have studied two algebraic gadgets (groups and rings), as well as many other gadgets in other fields.}
+
+\p{There are common things to look for when we define a "gadget":}
+\ul{
+\li{Products of gadgets}
+\li{Sub-gadgets}
+\li{Quotients of gadgets}
+\li{Morphisms between gadgets}
+\li{Isomorphism theorems}
+\li{Some attempt to classify gadgets}
+}

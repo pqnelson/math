@@ -1,0 +1,10 @@
+\title{Basis of a Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+\MML{vectsp_2}{def 3}{V2}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. We define a \define{Basis} of #{M} to be a subset #{B\subset M} such that for any #{m\in M} there exists a unique finite subset #{\{b_{1},\dots,b_{n}\}\subset B} and unique #{\lambda_{1},\dots,\lambda_{n}\in R} such that
+##{m = \lambda_{1}b_{1}+\dots+\lambda_{n}b_{n}.}}
+\p{Compare this to the same [notion](vectsp-000T) from intermediate linear algebra.}

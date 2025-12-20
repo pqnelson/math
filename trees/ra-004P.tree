@@ -1,0 +1,11 @@
+\title{Torsion Submodule}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. The \define{Torsion Submodule} #{\Tor(M)} consists of all [[ra-003O]]s of #{M}.}
+
+\p{When #{R} is commutative, this is actually an #{R}-module.}
+
+\p{When #{R} is noncommutative, we need some additional properties imposed on #{R} for #{\Tor(M)} to be a right #{R}-module.}

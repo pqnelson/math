@@ -12,5 +12,5 @@ Then this forms a commutative ring.}
 
 \rmk{\p{(1) We can extend this to as many unknowns as we want, writing #{R[x_{1},\dots,x_{n}]} or even #{R[x_{1},\dots,x_{n},\dots]} for infinitely many unknowns. Then the sums make use of [[ra-000M]] notation. For example, for #{R[x,y]} we have
 ##{p(x,y)=\sum^{n}_{|\alpha|=0}a_{\alpha}x^{\alpha_{1}}y^{\alpha_{2}}}
-and so on.}
+and so on. In fact, Dummit and Foote [[dummit-2004-abstract]] define (Section 9.1) #{R[x_{1},\dots,x_{n}]=R[x_{1},\dots,x_{n-1}][x_{n}]}.}
 \p{(2) We could generalize this to noncommutative #{R}, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.}}

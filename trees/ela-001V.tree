@@ -5,4 +5,6 @@
 \taxon{theorem}
 \import{ela}
 
-\p{Let #{\mat{A}} and #{\mat{B}} be #{n\times n} matrices. If they are similar to each other #{\mat{A}\sim\mat{B}}, then they have the same eigenvalues.}
+\p{Let #{\mat{A}} and #{\mat{B}} be #{n\times n} matrices. If they are [similar](matrix-002B) to each other #{\mat{A}\sim\mat{B}}, then they have the same eigenvalues.}
+
+\p{\textbf{Exercise:} If two matrices have the same eigenvalues, are they similar to each other?}

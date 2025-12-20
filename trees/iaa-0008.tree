@@ -1,8 +1,9 @@
-\title{Traditional Introduction to Rings and Modules}
+\title{Traditional Introduction to Rings}
 \author{alex-nelson}
 \import{notation}
 \date{2025-12-17}
 
+\transclude{iaa-000A} % preferatory comments
 \transclude{ring-0001} % def: ring
 \transclude{ra-0001} % Z is a ring
 \transclude{ra-0002} % Q, R, C are rings
@@ -10,16 +11,21 @@
 \transclude{ra-0003} % commutative ring
 \transclude{ra-0005} % quaternions
 \transclude{ra-0006} % rings as number systems
+\transclude{ra-002D} % gaussian integers
+\transclude{ra-002E} % Hurwitz integers
+\transclude{ra-002Y} % endomorphism ring
 \transclude{ra-0007} % 0*x=0 and x*0=0
 \transclude{ra-0008} % skew-field
 \transclude{ra-0009} % notation: x^{-1} for unique multiplicative inverse
 \transclude{ra-000I} % unit (of a ring)
 \transclude{ra-000A} % 1^{-1} = 1 and (-1)^{-1} = -1
 \transclude{ra-000B} % -1*x=-x
+\transclude{ra-002F} % product ring
 \transclude{ra-000C} % set of nonzero elements in a ring
 \transclude{ra-000D} % set of invertible elements in a ring
 \transclude{ra-000E} % zero divisor
 \transclude{ra-000F} % matrix ring has zero divisors
+\transclude{ra-002R} % formal distributions have zero divisors
 \transclude{ra-000J} % associative ring elements are either units or zero divisors
 \transclude{ra-000G} % domain
 \transclude{ra-000H} % integral domain
@@ -30,9 +36,12 @@
 \transclude{ra-000N} % degree of polynomial
 \transclude{ra-000O} % properties of degree of formal polynomials
 \transclude{ra-000P} % R is integral domain implies R[x] is integral domain
+\transclude{ra-002P} % ring of formal laurent polynomials
+\transclude{ra-002Q} % ring of formal power series
 \transclude{ra-000Q} % def: subring
 \transclude{ra-000R} % common subrings
 \transclude{ra-000S} % subrings of the matrix ring
+\transclude{ra-003U} % center of a ring
 \transclude{ra-000T} % morphism
 \transclude{ra-000U} % non-example: i(x)=(x,0) is not a morphism
 \transclude{ra-000V} % no morphism F_p to Z
@@ -42,8 +51,11 @@
 \transclude{ra-0010} % right ideal
 \transclude{ra-0011} % ideal
 \transclude{ra-001I} % collection of ideals of a ring forms a set
+\transclude{ra-0025} % adding ideals
+\transclude{ra-0026} % multiplying ideals
 \transclude{ra-0012} % kernel of a ring morphism (is a 2-sided ideal)
 \transclude{ra-0013} % trivial ideal
+\transclude{ra-0027} % intersection of two ideals is an ideal
 \transclude{ra-0014} % division rings have trivial left ideals
 \transclude{ra-0015} % quotient ring
 \transclude{ra-0016} % canonical ring morphism
@@ -63,6 +75,7 @@
 \transclude{ra-001K} % R is a field iff 0, R are the only ideals of R
 \transclude{ra-001L} % nonzero ring morphisms from fields are injective functions
 \transclude{ra-001M} % Principal Ideal Domain
+\transclude{ra-002L} % PIDs are Noetherian
 \transclude{ra-001N} % Euclidean Domain
 \transclude{ra-001O} % integers are a Euclidean Domain
 \transclude{ra-001P} % Euclidean Domains are PIDs
@@ -73,5 +86,28 @@
 \transclude{ra-001T} % prime element
 \transclude{ra-001V} % element is prime iff it generates a prime ideal
 \transclude{ra-001U} % irreducible element
+\transclude{ra-001W} % criterion for irreducible elements
+\transclude{ra-001X} % In PID: irreducible implies prime
+\transclude{ra-001Y} % In integral domains, nonzero primes are irreducible
+\transclude{ra-0022} % associates
 
-% 153
+\transclude{ra-001Z} % UFD
+\transclude{ra-0020} % examples of unique factorization domains
+\transclude{ra-0021} % In UFD, elements are irreducible iff prime
+\transclude{ra-0023} % In UFD, the gcd is unique
+\transclude{ra-002M} % PIDs are UFDs
+\transclude{ra-002N} % integers are a UFD
+
+\transclude{nt-0009} % Chinese Remainder Theorem in number theory
+\transclude{ra-0028} % generalize to arbitrary rings
+\transclude{ra-0024} % comaximal ideals
+\transclude{ra-0029} % abstract chinese remainder theorem
+
+\transclude{ra-002A} % ex: how to construct Q from Z
+\transclude{ra-002B} % universal property of field of fractions
+\transclude{ra-002C} % examples of field of fractions
+\transclude{ra-002O} % R[x] is UFD iff R is UFD
+\transclude{ra-002S} % properties of ring of polynomials over UFDs
+\transclude{ra-002T} % primitive polynomial, content of polynomial
+\transclude{ra-002U} % gauss's lemma (factorization of p(x) in R[x] with R being UFD)
+\transclude{ra-002V} % Eisenstein's reducibility criteria

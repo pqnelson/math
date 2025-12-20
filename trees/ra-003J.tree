@@ -1,0 +1,7 @@
+\title{Irreducible Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. We say #{M} is \define{Irreducible} if any submodule #{N\subgroup M} we have #{N=0} or #{N=M}.}

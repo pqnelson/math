@@ -1,0 +1,8 @@
+\title{Adding ideals}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{I} and #{J} be left/right/two-sided ideals of #{R}. Then we define their sum to be the left/right/two-sided ideal
+##{I+J=\{a+b\in R\mid a\in I,b\in J\}.}}

@@ -1,0 +1,9 @@
+\title{Gaussian integers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\p{The set #{\ZZ[i]=\{x+\I y\in\CC\mid x,y\in\ZZ\}} forms a ring when equipped with addition and multiplication from the complex numbers.}
+
+\p{Moreover, since multiplication of complex numbers is commutative, this forms a [[ra-0003]].}

@@ -1,0 +1,7 @@
+\title{A module is free iff it has a basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. Then #{M} is [free](ra-002X) if and only if there exists a [basis](ra-004G) of #{M}.}

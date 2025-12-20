@@ -2,5 +2,6 @@
 \author{alex-nelson}
 \import{notation}
 \date{2025-12-17}
+\taxon{proposition}
 
 \p{Let #{\varphi\colon R\to S} be a [[ra-000T]]. Then #{\varphi} is a [[ra-000X]] if and only if #{\varphi} is [bijective](ela-001K).}

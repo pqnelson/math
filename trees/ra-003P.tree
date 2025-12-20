@@ -1,0 +1,7 @@
+\title{Torsion-Free Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a ring, #{M} be an #{R}-module. We say #{M} is \define{Torsion-Free} if there is no [[ra-003O]] of #{M}.}

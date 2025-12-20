@@ -1,0 +1,18 @@
+\title{Center of a Ring}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+
+\MML{weddwitt}{def 4}{K4}
+
+\p{Let #{R} be a [[ring-0001]]. The \define{Center} of #{R} is the subring #{Z(R)} consisting of #{z\in R} such that for all #{r\in R} we have #{zr=rz} and also (for non-associative rings) for all #{r,s\in R} and for all #{z\in Z(R)} we have #{z(rs)=(zr)s} and #{r(zs)=(rz)s} and #{(rs)z=r(sz)}. In other words, #{Z(R)} consists of elements which commute and associate with all elements of the ring.}
+
+\proof{\p{\textbf{Uniqueness:} If there are two possible centers, it's obvious they contain the same elements, which means they are equal to each other.}
+\p{\textbf{Existence:} We see that the underlying set is nonempty and well-defined. We just need to show it is closed under addition and multiplication and contains #{0\in Z(R)}...well, #{0r=0=r0} for all #{r\in R}, so #{0\in Z(R)}.}
+\p{We see for any #{z,w\in Z(R)} that for all #{r\in R}, #{(z+w)r=zr+wr=rz+rw=r(z+w)} which means #{z+w\in Z(R)}. So it's closed under addition}
+\p{We see for any #{z,w\in Z(R)} that for all #{r\in R}, #{(zw)r=z(wr)=(wr)z=(rw)z=r(wz)=r(zw)} which means #{zw\in Z(R)}. So it's closed under multiplication.}
+\p{Taken together, this means there exists a well-defined center #{Z(R)} which is a subring of #{R}.}}
+
+\rmk{For associative rings #{R}, we only need to check that #{zr=rz} for all #{z\in Z(R)} and for all #{r\in R}, since it's associative.}
+
+\p{\textbf{Exercise:} If #{R} is unital, is #{1\in Z(R)} or not? Prove it.}

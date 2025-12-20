@@ -1,0 +1,8 @@
+\title{Matrices are similar iff they have the same rational canonical form}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\def\RCF{\mathop{\textrm{RCF}}\nolimits}
+\taxon{proposition}
+
+\p{Let #{\FF} be a field, let #{n\in\NN}, let #{A,B\in\Mat_{n}(\FF)} be two #{n\times n} matrices over #{\FF}. Then the are [similar](matrix-002B) #{A\sim B} if and only if #{\RCF(A)=\RCF(B)}.}

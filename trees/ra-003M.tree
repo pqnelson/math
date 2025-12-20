@@ -1,0 +1,7 @@
+\title{Cyclic modules are irreducible iff its annihilator is a maximal ideal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} be a [cyclic](ra-003H) #{R}-module. Then #{M} is [irreducible](ra-003J) if and only if #{\Annihilator_{R}(M)} is a [maximal ideal](ra-001C) of #{R}.}

@@ -1,0 +1,13 @@
+\title{Submodule criteria}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 10.1.1}
+
+\p{Let #{R} be a [[ring-0001]], let #{M} be an #{R}-module, and let #{N\subset M} be a subset of #{M}. Then #{N} is a submodule of #{M} if and only if
+\ol{
+\li{#{N\neq\emptyset} and}
+\li{for all #{r\in R} and #{x,y\in N}, we have #{x+ry\in N}.}
+}}

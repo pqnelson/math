@@ -1,0 +1,11 @@
+\title{When does a "complementary" submodule exist?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{puzzle}
+
+\p{We know finite-dimensional inner product spaces have [orthogonal complements](vectsp-002F), but can we generalize this idea to generic modules? Let us make this question more precise:}
+
+\p{Let #{R} be a ring, let #{T} be an #{R}-module, let #{N\subgroup T} be a submodule.}
+
+\p{When does there exist an #{R}-module #{M} such that #{M\oplus N=T}?}

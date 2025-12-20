@@ -1,0 +1,10 @@
+\title{Rational Canonical Form of a Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+\def\RCF{\mathop{\textrm{RCF}}\nolimits}
+
+\p{Let #{\FF} be a field, let #{X\in\Mat_{n}(\FF)} be an #{n\times n} matrix over #{\FF}. The \define{Rational Canonical Form} of #{X} is the block diagonal matrix consisting of [companion matrices](ra-0053) of the [invariant factors](ra-0054) of #{X}.}
+
+\p{We will write #{\RCF(X)} for the rational canonical form matrix of #{X}.}

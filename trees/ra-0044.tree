@@ -1,0 +1,15 @@
+\title{Module morphisms from free module isomorphic to direct sum of copies of codomain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{corollary}
+
+\p{Let #{R} be a ring, let #{M} be a module over #{R}, let #{R^{n}} be the finite-rank free module over #{R}. Then
+##{\hom_{R}(R^{n},M)\iso M^{\oplus n}}
+where #{M^{\oplus n}=\bigoplus^{n}_{i=1} M=M\oplus M\oplus\dots\oplus M} is just the direct sum of #{n} copies of #{M}.}
+
+\proof{\p{We see
+##{\hom_{R}(R^{n},M)\iso(\hom_{R}(R,M))^{n}}
+and
+##{\hom_{R}(R,M)\iso M.}
+The result follows immediately.}}

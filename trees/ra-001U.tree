@@ -3,7 +3,10 @@
 \import{notation}
 \date{2025-12-17}
 \taxon{definition}
+\MML{ring_2}{def 9}{V5}
 
 \p{Let #{R} be a [[ra-0003]], let #{p\in R} be a nonzero element which is not a [unit](ra-000I). We say #{p} is \define{Irreducible} if whenever #{d\divides p}, then we have either #{d=pu} or #{d=u} for some [unit](ra-000I) #{u\in R}.}
 
 \p{When #{p} is not irreducible, we say it is \define{Reducible}.}
+
+\p{\textbf{Exercise:} Can this be generalized to a unital associative ring?}

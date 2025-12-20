@@ -1,0 +1,7 @@
+\title{Generalizing Chinese Remainder theorem to rings}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{remark}
+
+\p{We want to generalize the [[nt-0009]] from integers to arbitrary [[ring-0001]]s.}

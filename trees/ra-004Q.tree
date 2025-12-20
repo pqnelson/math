@@ -1,0 +1,10 @@
+\title{Torsion-free finitely-generated modules over PIDs are free}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{lemma}
+
+\p{Let #{R} be a [[ra-001M]] and let #{M} to be [finitely-generated](ra-004A) #{R}-module. If #{M} is [torsion-free](ra-003P), then #{M} is free.}
+
+\proof{\p{(1) If #{I\ideal R}, then #{I} is a free module over #{R}. Moreover, there exists an #{a\in I} such that #{I=(a)=Ra\iso R}.}
+\p{(2) If #{M\subgroup R^{n}} and #{n\geq1}, then #{M} is free.}}

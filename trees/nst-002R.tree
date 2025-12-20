@@ -1,0 +1,7 @@
+\title{Upper bound}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{(X,\leq)} be a nonempty [[nst-002P]]. Let #{A\subset X} be some subset. An \define{Upper Bound} of #{A} is an element #{u\in X} such that for all #{a\in A} we have #{a\leq u}.}

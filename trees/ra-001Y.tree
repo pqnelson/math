@@ -1,0 +1,19 @@
+\title{Nonzero prime elements of an integral domain are irreducible}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\p{Let #{R} be an [[ra-000H]], let #{p\in R} be a nonzero element #{p\neq0}. If #{p} is a [prime element](ra-001T) of #{R}, then #{p} is [irreducible](ra-001U).}
+
+\proof{\p{Let #{p\in \NonZero{R}} be a nonzero element. Assume #{p} is prime. Then for any #{a,d\in R} such that #{p\divides ad} we have
+##{\mbox{either }p\divides a\mbox{ or }p\divides d,}
+by [definition of prime](ra-001T).}
+\p{Now, by [definition of irreducible](ra-001U), suppose we had some #{d\in R}
+##{d\divides p.}
+We will show that either #{d=pu} or #{d=u} for some [unit](ra-000I) #{u\in R}.}
+\p{Since #{d\divides p}, this means there exists an #{a\in R} such that #{p=ad}. Since #{p} is prime and #{p\divides p} (i.e., #{p\divides ad}), this means #{p\divides a} or #{p\divides d}. Then we argue by cases.}
+\p{\textbf{Case 1:} #{p\divides a}. Then there exists a #{b\in R} such that #{a=pb}. But then #{p=ad=(pb)d}, using distributivity and subtraction gives us
+##{(1-bd)p=0.}
+Then #{bd=1} since #{p\neq0}. Then #{d} is a unit, since #{R} is an integral domain. Then #{p} is irreducible by definition.}
+\p{\textbf{Case 2:} #{p\divides d}. The argument is similar to case 1.}}

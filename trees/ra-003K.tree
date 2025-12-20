@@ -1,0 +1,9 @@
+\title{Irreducible modules are cyclic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. If #{M} is [cyclic](ra-003H), then #{M} is cyclic.}
+
+\proof{\p{Let #{m\in M} be nonzero. Then we can consider the submodule #{Rm\subgroup M}. It is nonzero. Hence #{Rm=M} by definition of [irreducibility](ra-003J).}}

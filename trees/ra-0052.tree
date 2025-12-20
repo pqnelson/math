@@ -1,0 +1,9 @@
+\title{Cayley-Hamilton theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{theorem}
+
+\p{Let #{\FF} be a field, let #{A\in\Mat_{n}(\FF)} be an #{n\times n} matrix over #{\FF}. Let #{c_{A}(x)=\det(x I_{n}-A)} be the [characteristic polynomial](ela-001R) of #{A}, and let #{m_{A}(x)} be the [minimal polynomial](ra-0051) of #{A}. Then the minimal polynomial of #{A} divides the characteristic polynomial for the matrix #{m_{A}(x)\divides c_{A}(x)}. Moreover there exists an #{m\in\NN} such that #{c_{A}(x)\divides m_{A}(x)^{m}}, where #{m} is the number of [invariant factors](ra-0054) of #{X}.}
+
+\rmk{An immediate consequence of this is that #{c_{A}(A)=0} is the zero matrix, since #{m_{A}(A)=0} and #{m_{A}(x)\divides c_{A}(x)}. Usually, #{C_{A}(A)=0} is the result known as the Cayley-Hamilton theorem.}

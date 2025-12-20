@@ -1,0 +1,11 @@
+\title{If quotient module is free, then a complement submodule exists}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{theorem}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module, let #{N\subgroup M} be a submodule of #{M}. If #{M/N} is free, then there exists an #{R}-module #{T} such that #{M\iso N\oplus T}.}
+
+\proof{\p{Look at the canonical map #{\pi\colon M\onto M/N} where #{\ker(\pi)\iso N}. We want to find a #{\psi\colon M/N\to M} such that #{\pi\circ\psi=\id_{M/N}}. Then the image of #{\psi(M/N)=T}.}
+\p{(1) Since #{M/N} is free, we can always find such a #{\psi}. To see this, let #{\{e_{i}\}} be a basis of #{M/N}, then #{\pi(\psi(e_{i}))=e_{i}} for each #{i}.}
+\p{(2) #{T=\psi(M / N)} is such a complement. We just need to check #{T\cap N=\emptyset}, which is an exercise.}}

@@ -4,6 +4,8 @@
 
 \def\iso{\cong}
 \def\Arg{\mathop{\textrm{Arg}}\nolimits}
+\def\hom{\mathop{\textrm{Hom}}\nolimits}
+\def\exp{\mathop{\textrm{exp}}\nolimits}
 
 % number theory
 \def\divides{\mathrel{\bigm|}}
@@ -77,6 +79,7 @@
 \def\propernormalsubgroup{\mathrel{\triangleleft}}
 \def\Index[group][subgroup]{[\group : \subgroup]}
 \def\nathom[subgroup]{n_{\subgroup}}
+\def\End{\mathop{\textrm{End}}\nolimits}
 \def\Aut{\mathop{\textrm{Aut}}\nolimits}
 \def\Semidirect[normal][sub][morphism]{\normal\rtimes_{\morphism}\sub}
 \def\Stabilizer[group][x]{\group_{\x}}
@@ -90,6 +93,13 @@
 \def\ideal{\mathrel{\trianglelefteq}}
 \def\properideal{\mathrel{\triangleleft}}
 \def\canHom{\pi}
+\def\NonZero[ring]{\ring^{*}}
+\def\Frac{\mathop{\textrm{Frac}}\nolimits} % field of fractions
+\def\Annihilator{\mathop{\textrm{Ann}}\nolimits} % annihilator
+
+% module
+\def\Tor{\mathop{\textrm{Tor}}\nolimits}
+\def\rank{\mathop{\textrm{rank}}\nolimits}
 
 \p{As I understand it, HTML tags (and spans with specific classes) must be done in this manner (although it is undocumented):}
 
@@ -160,3 +170,15 @@
 
 % e.g., \MML{tarski}{def 4}{def 4}
 \def\MML[article][name][link-anchor]{\meta{source}{MML [\article:\name](https://mizar.uwb.edu.pl/version/current/html/\article.html#\link-anchor)}}
+
+% from JMS's public macros
+\def\texfig[body]{
+  \iftex{\tex{\body}}{
+    \xml{center}{\tex{\body}}
+  }
+}
+
+% LocalCharts's macro https://github.com/LocalCharts/forest/blob/main/trees/macros.tree
+\def\quiver[body]{
+  \<html:center>{\tex{\usepackage{quiver, amsopn, amssymb, mathrsfs}}{\body}}
+}

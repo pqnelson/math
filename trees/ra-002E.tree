@@ -1,0 +1,7 @@
+\title{Hurwitz integers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\p{Let #{\omega=\exp(\I 2\pi / 3)=(-1+\I\sqrt{3}) / 2}. Then the set #{\ZZ[\omega]=\{a+b\omega\in\CC\mid a,b\in\ZZ\}} forms a [[ra-0003]] when equipped with addition and multiplication from the complex numbers. These form the ring of Hurwitz integers.}

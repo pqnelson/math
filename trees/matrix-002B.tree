@@ -1,0 +1,10 @@
+\title{Similar Matrices}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+\import{ela}
+
+\p{Let #{\mat{A}} and #{\mat{B}} be two #{n\times n} matrices. We say they are \define{Similar}, denoted #{\mat{A}\sim\mat{B}}, if there exists an [invertible #{n\times n} matrix](matrix-001C) #{\mat{X}} such that #{\mat{A}=\mat{X}\mat{B}\mat{X}^{-1}}.}
+
+\rmk{Matrix similarity form an [equivalence relation](nst-0011) on the set of all #{n\times n} matrices.}

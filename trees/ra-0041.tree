@@ -1,0 +1,15 @@
+\title{Criteria for internal direct sum}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M}, #{N}, #{T} be #{R}-modules. Suppose #{M} and #{N} are submodules of #{T}. If (1) #{M+N=T} and (2) #{M\cap N=(0)}, then #{M\oplus N\iso T}.}
+
+\p{\textbf{Proof idea:} Step 1: define a map #{\varphi\colon M\times N\to T} as sets, sending #{\varphi(m,n)=m+n}.}
+\p{Step 2: check the map is #{R}-linear
+##{\begin{array}{ccl}
+r(m+n) &=& rm + rn\\
+\parallel && \\
+r\varphi(m,n) &=&\varphi(r\cdot(m,n))\end{array}}
+Step 3: prove it is an #{R}-isomorphism of modules. Hypothesis (2) implies injectivity, hypothesis (1) implies surjectivity.}

@@ -10,7 +10,9 @@
 \transclude{nst-001F} % inverse of a relation
 \transclude{nst-000Y} % reflexive
 \transclude{nst-000Z} % symmetric
+\transclude{nst-002N} % antisymmetric
 \transclude{nst-0010} % transitive
+\transclude{nst-002O} % partial order
 \transclude{nst-0011} % equivalence relation
 \transclude{nst-0012} % equivalence class
 \transclude{nst-0013} % composing relations

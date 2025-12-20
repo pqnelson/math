@@ -1,0 +1,17 @@
+\title{Criterion for irreducible elements}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\p{Let #{R} be a [[ra-0003]], let #{p\in R} be an element of #{R}. Then #{p} is [irreducible](ra-001U) if and only if its [[ra-001B]] #{(p)} is a nonzero [[ra-001C]] among principal ideals (i.e., #{(p)} may be a proper subideal of some ideal #{I\ideal R} where #{I} may or may not be a proper ideal, just so long as #{I} is not a principal ideal).}
+
+\proof{\p{\forwardproof Assume #{p} is irreducible and assume #{(a)} is a proper principal ideal of #{R} (for some #{a\in R}). Then
+##{\begin{align*}
+(p)\subset (a) &\iff p\in(a)\\
+&\iff p=ab\mbox{ for some }b\in R\\
+&\implies a\divides p\\
+&\implies a=pu\mbox{ or }a=u\mbox{ for some unit }u\in\UnitGroup{R}\end{align*}}
+If #{a=u}, then #{(a)=R} which contradicts our assumption that #{(a)} is proper.}
+\p{If #{a=pu}, then #{(a)=(p)}, hence #{(p)} is maximal among proper principal ideals.}
+\p{\backwardproof Suppose #{(p)} is maximal among principal proper ideals. We want to show #{p} is irreducible. Suppose there exists some #{a\in R} such that #{a\divides p}, which is equivalent to saying #{(a)\subset(p)}. Then either #{(a)=R} (which means #{a\in\UnitGroup{R}} is a unit) or #{(a)=(p)} (which implies #{a=pu} for some unit #{u\in\UnitGroup{R}}). In both cases, we have #{p} is irreducible.}}

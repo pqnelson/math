@@ -1,0 +1,12 @@
+\title{Submodule}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]], let #{M} be a module. A \define{Submodule} of #{M} is a module #{N} such that it's a subgroup #{N\subgroup M} and #{N} is closed under scalar multiplication:}
+\ul{
+\li{If #{M} is a left module over #{R}, then for all #{r\in R} and #{n\in N} we have #{rn\in N}}
+\li{If #{M} is a right module over #{R}, then for all #{r\in R} and #{n\in N} we have #{nr\in N}}
+}
+\rmk{We will continue writing #{N\subgroup M} to indicate #{N} is a submodule of #{M}, and #{N\propersubgroup M} if furthermore #{N} is a \define{Proper} submodule of #{M} (i.e., #{N\neq M}).}

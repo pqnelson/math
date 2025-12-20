@@ -1,0 +1,12 @@
+\title{Hom-set between free modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{corollary}
+
+\p{Let #{R} be a ring. Then for any #{m,n\in\NN}, the following all hold:
+\ol{
+\li{#{\hom_{R}(R^{n},R^{m})\iso\Mat_{n\times m}(R)} as #{R}-modules, where #{\Mat_{n\times m}(R)} is the module of #{n\times m} matrices over #{R};}
+\li{#{\End_{R}(R^{n})\iso\Mat_{n}(R)} as rings;}
+\li{#{\Aut_{R}(R^{n})\iso\GL_{n}(R)} as groups.}
+}}

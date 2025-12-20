@@ -1,0 +1,7 @@
+\title{Intersection of ideals is an ideal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{I} and #{J} be left (resp., right, two-sided) ideals of #{R}. Then #{I\cap J} is a left (resp., right, two-sided) ideal of #{R}.}

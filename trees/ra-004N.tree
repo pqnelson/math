@@ -1,0 +1,9 @@
+\title{When is a module the direct sum of a free module and its torsion?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{puzzle}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. When (if ever) can we write #{M=F\oplus T} where #{F} is free and #{T} is the [torsion submodule](ra-004P)?}
+\p{Well, we need #{T=\Tor(M)} such that #{M/T} is free. But [not all torsion-free modules are free](ra-004O).}
+\p{We need #{R} to be a [[ra-001M]] and #{M} to be [finitely-generated](ra-004A), then we obtain the result.}

@@ -1,0 +1,14 @@
+\title{Product Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{M} and #{N} be #{R}-modules. We define the \define{Product Module} #{M\oplus N} to consist of the Abelian group #{M\times N} equipped with scalar multiplication
+##{\begin{split}&R\times (M\oplus N)\to M\oplus N\\
+&(r,(m,n))\mapsto r\cdot(m,n)=(rm,rn)\end{split}}
+Note: this is also called the \define{External Direct Sum} of #{M} and #{N}.}
+
+\p{\textbf{Proof idea:} We need to check this is a well-defined term. Existence and uniqueness are obvious, but we still need to prove this is actually an #{R}-module. So we need to prove the distributivity axioms, associativity of scalar multiplication, and the unit condition #{1\cdot(m,n)=(m,n)}.}
+
+\rmk{Why do we use #{\oplus} instead of #{\times} for the product module? It's tradition. (Really? Well, sort of, but a more satisfying answer requires category theory, which we have yet to introduce\dots).}

@@ -1,0 +1,11 @@
+\title{Submodules of finitely-generated modules are finitely-generated}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{corollary}
+
+\p{Let #{R} be a [[ra-001M]], let #{M} be a [finitely-generated](ra-004A) #{R}-module, let #{N\subgroup M} be a submodule of #{M}. Then #{N} is [finitely-generated](ra-004A).}
+
+\p{\textbf{Exercise:} Does this work if #{R} is just an [[ra-000H]]?}
+
+\proof{\p{Since #{M} is finitely-generated, there is a surjective morphism #{\pi\colon R^{n}\to M}. Then look at #{N_{0}:=\pi^{-1}(N)\subgroup R^{n}}, and #{\pi|_{N_{0}}\colon N_{0}\onto N} is surjective. [Since #{R} is a Principal Ideal Domain](ra-004S), #{N_{0}} is free of rank less than or equal to #{n}, and #{N} is finitely-generated.}}

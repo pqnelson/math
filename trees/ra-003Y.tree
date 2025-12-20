@@ -1,0 +1,14 @@
+\title{Not everything we write down is a module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{exercise}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{M} be a module over #{R}. Using the notation from [exercises on Schur's lemma](ra-0047), prove or find a counter-example for each of these claims:}
+\ol{
+\li{#{\hom_{R}(R/\Annihilator_{R}(M),M)} is a module over #{R}, which we'll denote by #{M[\Annihilator_{R}(M)]}}
+\li{If #{\Annihilator_{R}(M)} is a left ideal of #{R}, then #{M[\Annihilator_{R}(M)]} is an Abelian subgroup of #{M} but not a submodule of #{M}.}
+\li{If #{\Annihilator_{R}(M)} is a two-sided ideal of #{R}, then #{M[\Annihilator_{R}(M)]} is a submodule of #{M}.}
+}
+
+\rmk{The moral of this exercise is that we should be thinking of modules in terms of mappings.}

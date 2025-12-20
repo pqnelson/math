@@ -1,0 +1,7 @@
+\title{Kernel of a module morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]], let #{M} and #{N} be modules over #{R}, let #{\varphi\colon M\to N} be a [morphism](ra-0032) of modules. We define the \define{Kernel} of #{\varphi} to be the submodule #{\ker(\varphi)\subgroup M} such that for all #{m\in M} we have #{m\in\ker(\varphi)} if and only if #{\varphi(m)=0}.}

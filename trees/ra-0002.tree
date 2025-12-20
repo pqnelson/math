@@ -2,5 +2,6 @@
 \author{alex-nelson}
 \import{notation}
 \date{2025-12-17}
+\taxon{example}
 
 \p{The rational numbers #{\QQ}, the real numbers #{\RR}, and the [complex numbers](complex-0001) form a ring.}

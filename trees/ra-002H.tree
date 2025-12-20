@@ -1,0 +1,19 @@
+\title{Right Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]]. A \define{Right Module} over #{R} is an additive group #{M} equipped with a function #{M\times R\to M} denoted #{(m,r)\mapsto m\cdot r} called scalar multiplication, such that
+\ol{
+\li{For any #{m_{1},m_{2}\in M} and #{r\in R}, we have #{(m_{1}+m_{2})r=(m_{1}r)+(m_{2}r)}}
+\li{For any #{m\in M} and #{r_{1},r_{2}\in R} we have #{m(r_{1}+r_{2})=(mr_{1})+(mr_{2})}}
+\li{Associativity of scalar multiplication: For any #{m\in M} and #{r_{1},r_{2}\in R} we have #{m(r_{1}r_{2})=(mr_{1})r_{2}}}
+\li{If #{R} is unital, then we call #{M} \define{Unital} when for any #{m\in M} we have #{m\cdot 1=m}.}
+}}
+
+\rmk{When #{R} is a [[ra-0003]], then a right module over #{R} is also usually turned into a [[ra-002G]] over #{R} by defining left scalar multiplication as just the same result as right scalar multiplication, i.e., for any #{r\in R} and #{m\in M} we have:
+##{rm:=mr.}
+In this case, we usually just write scalar multiplication on the left as a matter of convention. Furthermore, we will just speak of "modules over #{R}" for commutative #{R}.}
+
+\p{\textbf{Exercise:} Prove or find a counter-example: a right ideal of a ring is a right module over that ring.}

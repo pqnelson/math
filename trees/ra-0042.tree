@@ -1,0 +1,9 @@
+\title{Products and Direct Sums of Infinitely many modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{remark}
+
+\p{The direct sum and product of finitely many #{R}-modules describe the same thing.}
+\p{When we have an infinite family of #{R}-modules #{\{M_{i}\}_{i\in\NN}}, they are different. The product #{\prod_{i\in\NN}M_{i}} describes all possible formal linear combinations, whereas the direct sum #{\bigoplus_{i\in\NN}M_{i}} describes only finite linear combinations.}
+\p{This should ring a bell, reminding the reader of the [[gr-0011]] and the [[gr-0010]].}

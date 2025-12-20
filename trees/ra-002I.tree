@@ -1,0 +1,14 @@
+\title{Bimodule}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} and #{S} be two [[ring-0001]]s. Then an \define{#{(R,S)}-Bimodule} is an additive group #{M} such that
+\ol{
+\li{#{M} is a [[ra-002G]] over #{R}; and}
+\li{#{M} is a [[ra-002H]] over #{S}; and}
+\li{Compatibility: For all #{r\in R} and #{s\in S} and #{m\in M}, we have ##{(rm)s=r(ms).}}
+}}
+
+\p{Prove or find a counter-example: a two-sided ideal of a ring is a module over that ring.}

@@ -1,0 +1,9 @@
+\title{When is a module free?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{puzzle}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. When is #{M} [free](ra-002X)?}
+
+\p{We have some "special cases" like #{M} is free if and only if #{R^{n}\iso M}, but is there something more...useful?}

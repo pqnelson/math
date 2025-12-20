@@ -1,0 +1,15 @@
+\title{Quotient module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{M} be a module over #{R}. Let #{N\subgroup M} be a [[ra-0031]] of #{M}. Is #{M/N} a module?}
+
+\p{We know #{N\normalsubgroup M} is a normal subgroup of the underlying additive Abelian group of #{M}, so the quotient group #{M/N} is well-defined.}
+
+\p{We need to check that scalar multiplication is well-defined #{r(m+N)=(rm)+N}. If we change the representative of #{m+N} to #{m'+N}, then #{m-m'\in N}, so there is some #{n\in N} such that #{m-m'=n}. Multiplying by #{r} gives us #{rm-rm'=rn\in N}. Then #{rm+N=rm'+N}, which confirms scalar multiplication is well-defined.}
+
+\p{Checking the axioms are "follow your nose"}
+
+\p{We define the \define{Quotient Module} #{M/N} to be the module over #{R} equipped with the module structure we just described. Proving it satisfies the axioms is "follow your nose".}

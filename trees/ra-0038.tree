@@ -1,0 +1,7 @@
+\title{Image of a module morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]], let #{M} and #{N} be modules over #{R}, let #{\varphi\colon M\to N} be a [morphism](ra-0032) of modules. We define the \define{Image} of #{\varphi} to be the submodule #{\im(\varphi)} of #{N} such that for all #{n\in N} we have #{n\in\im(\varphi)} if and only if there exists an #{m\in M} such that #{\varphi(m)=n}.}

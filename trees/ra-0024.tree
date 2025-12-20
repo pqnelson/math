@@ -1,0 +1,10 @@
+\title{Comaximal ideals}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 7.6}
+
+\p{Let #{R} be a unital [[ra-0003]]. Let #{A\ideal R} and #{B\ideal R} be [ideals](ra-0011) of #{R}. We say #{A} and #{B} are \define{Comaximal} if their [sum](ra-0025) is the entire ring #{A+B=R}.}
+
+\p{We see that this is a symmetric predicate in #{A} and #{B} since #{A+B=B+A}.}

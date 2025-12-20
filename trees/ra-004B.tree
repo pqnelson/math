@@ -1,0 +1,7 @@
+\title{Finitely-generated modules are not all free}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{example}
+
+\p{The Abelian group #{\ZZ / 2\ZZ} is a finitely-generated module over #{\ZZ}, but it is not a free module.}

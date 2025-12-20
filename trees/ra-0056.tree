@@ -1,0 +1,30 @@
+\title{Characteristic polynomial of a companion matrix is the monic polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{lemma}
+\meta{source}{Marc van Leeuwen, [Math.SE](https://math.stackexchange.com/a/78937/31693) 2011}
+
+\p{Let #{\FF} be a field, let #{f(x)\in\FF[x]} be a nonconstant monic polynomial. Then the [characteristic polynomial](ela-001R) of the [companion matrix](ra-0053) of #{f(x)} is equal to #{f(x)}, i.e.,
+##{c_{C_{f}}(x)=f(x).}}
+
+\proof{\p{We can write down
+##{\det(Ix - C_{f}) = \left|\begin{matrix}x & 0 & 0 & \dots & a_{0}\\
+-1 & x & 0 & \dots & a_{1}\\
+ 0 & -1 & x & \dots & a_{2}\\
+\vdots & \vdots & \ddots & \ddots & \vdots\\
+ 0 & 0 & \dots & -1 & x + a_{n-1}\end{matrix}\right|}
+ We can add #{x} times the last row to the previous row, and then add #{x} times that resulting row to the previous row, and so on, and we get (since the determinant is invariant under elementary row operations),
+##{\det(Ix - C_{f}) = \left|\begin{matrix}0 & 0 & 0 & \dots & f(x)\\
+-1 & 0 & 0 & \dots & *\\
+ 0 & -1 & 0 & \dots & *\\
+\vdots & \vdots & \ddots & \ddots & \vdots\\
+ 0 & 0 & \dots & -1 & *\end{matrix}\right|}
+We see this is equal to
+##{\begin{align*}\det(Ix-C_{f})&=(-1)^{\deg(f)-1}f(x)\left|\begin{matrix}-1 & & \\
+ & \ddots & \\
+ &  & -1\end{matrix}\right|\\
+ &=(-1)^{\deg(f)-1}f(x)\det(-I_{\deg(f)-1})\\
+ &=(-1)^{\deg(f)-1}f(x)(-1)^{\deg(f)-1}\\
+ &=f(x).\end{align*}}
+Hence the result.}}

@@ -1,0 +1,15 @@
+\title{Companion Matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{\FF} be a field, let #{f(x)\in\FF[x]} be a monic polynomial
+##{f(x)=x^{n}+a_{n-1}x^{n-1}+\dots+a_{1}x+a_{0}.}
+Then the \define{Companion Matrix} of #{f(x)} is the #{n\times n} matrix over #{\FF} denoted #{C_{f(x)}} (or #{C_{f}}) consisting of 1 on the lower subdiagonal, the last column is #{(C_{f})_{n,i}=-b_{i-1}}. All other components are zero, so it generically looks like:
+##{C_{f} = \begin{pmatrix}
+0 & 0 & 0 & \dots & 0 & -b_{0}\\
+1 & 0 & 0 & \dots & 0 & -b_{1}\\
+0 & 1 & 0 & \dots & 0 & -b_{2}\\
+\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\
+0 & 0 & 0 & \dots & 1 & -b_{n-1}\end{pmatrix}}}

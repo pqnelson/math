@@ -1,0 +1,11 @@
+\title{Modules over fields are synonymous with vector spaces}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{remark}
+
+\p{Let #{\FF} be a [[field-0001]], let #{M} be either a [[ra-002G]] over #{\FF} or a [[ra-002H]] over #{\FF}. Then #{M} is a [[vectsp-0001]].}
+
+\p{Moreover, any vector space over #{\FF} is automatically a module over #{\FF}.}
+
+\p{Consequently, we treat "vector spaces over fields" as synonymous with "modules over fields".}

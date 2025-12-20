@@ -1,0 +1,11 @@
+\title{Finite-rank modules over PIDs are direct sums of free and torsion modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ra-001M]], let #{M} be a [finitely-generated](ra-004A) #{R}-module. Then there exists a free finitely-generated #{R}-module #{F} and a finitely-generated [torsion](ra-003R) #{R}-module #{T} such that #{M=T\oplus F}.}
+
+\proof{\p{Let #{T=\Tor(M)}. Since #{R} is a commutative integral domain, #{T} is a submodule of #{M}.}
+\p{\textbf{Claim:} #{M/T} is torsion-free. For any #{m\in M} we see #{r(m+T)=T} implies #{rm\in T}. Since #{T} is torsion, there exists a nonzero #{a\in R} such that #{a(rm)=0}. Since #{R} is an integral domain, we deduce that #{m} is torsion and #{m+T=T}.}
+\p{Then by [[ra-004V]] and [[ra-004S]] we deduce #{M/T} is free of finite rank. Then [[ra-004M]] implies the result.}} 

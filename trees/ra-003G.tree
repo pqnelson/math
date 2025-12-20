@@ -1,0 +1,8 @@
+\title{Annihilator of Module is intersection of all annihilators of each element of the module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module. Then
+##{\Annihilator_{R}(M)=\bigcap_{m\in M}\Annihilator_{R}(m).}}

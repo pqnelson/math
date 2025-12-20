@@ -1,0 +1,8 @@
+\title{Third Isomorphism Theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\p{Let #{M} be an #{R}-module, let #{N} and #{K} be [[ra-0031]]s of #{M}. If #{N\subset K}, then
+##{\frac{M / N}{K / N}\iso M / K.}}

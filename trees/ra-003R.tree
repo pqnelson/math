@@ -1,0 +1,8 @@
+\title{Torsion Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+
+\p{Let #{R} be a ring, #{M} be an #{R}-module. We say #{M} is a \define{Torsion Module} if every element of #{M} is a [[ra-003O]].}

@@ -1,0 +1,8 @@
+\title{Faithful module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a ring, #{M} be an #{R}-module. We say #{M} is \define{Faithful} if its [annihilator](ra-003F) is the trivial ideal:
+##{\Annihilator_{R}(M)=(0).}}

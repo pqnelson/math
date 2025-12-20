@@ -7,7 +7,7 @@
 
 \p{Let #{R\neq0} be a nonzero unital [[ring-0001]]. Then there exists a [maximal ideal](ra-001C) #{M\properideal R} of #{R}.}
 
-\proof{\p{The typical proof offered is: consider the lattice of proper ideals of #{R} ordered by inclusion. There exists at least one ideal of #{R} (e.g., the [[ra-0013]]). Then Zorn's lemma implies there exists a maximal element of a chain containing the trivial ideal.}}
+\proof{\p{The typical proof offered is: consider the lattice of proper ideals of #{R} ordered by inclusion. There exists at least one ideal of #{R} (e.g., the [[ra-0013]]). Then [[zorn's-lemma]] implies there exists a maximal element of a chain containing the trivial ideal.}}
 
 \rmk{\p{(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".}
 \p{(2) The condition that #{R} is unital is really critical. For example, we can turn any additive group #{G} into a nonunital ring by defining multiplication #{x\star y=0} for all #{x,y\in R}. There is no maximal ideal for such a ring}

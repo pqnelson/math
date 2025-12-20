@@ -1,0 +1,11 @@
+\title{Characteristic polynomial of a matrix is monic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{\FF} be a field, let #{A} be a matrix over #{\FF}. Then the [characteristic polynomial](ela-001R) #{c_{A}(x)} of #{A} is a monic polynomial in #{x}.}
+
+\proof{\p{The leading term of #{c_{A}(x)} is given by the diagonal contribution to the determinant is (up to a factor of #{\pm1}),
+##{f(x)=\prod^{n}_{j=1}(x-a_{j,j})}
+and all other contributions are lower-order terms. When we expand #{f(x)} out, we see it is monic, and adding a lower-order polynomial to a monic polynomial is monic.}}

@@ -1,0 +1,16 @@
+\title{Fundamental theorem of finitely-generated modules over PIDs}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ra-001M]], let #{M} be a [finitely-generated](ra-004A) #{R}-module. Then the following all hold:}
+\ol{
+\li{We have #{M\iso\bigoplus R/(p_{j}^{\alpha_{j}})} where each #{p_{j}} are [prime](ra-001T) and #{\alpha_{j}\in\NN}.}
+\li{We have #{M\iso\bigoplus R/(m_{j})} where #{m_{1}\divides m_{2}} and #{m_{2}\divides m_{3}} and \dots.}
+}
+
+\rmk{\p{(1) The first claim, viewed as Abelian groups, holds "on the nose" (i.e., we have equality of the underlying Abelian groups).}
+\p{(2) The second claim is when we want to consider if our module is cyclic, or if we want to consider the annihilator of #{M}.}}
+
+\proof{\p{We can see the equivalence of the two claims writing #{m_{r}=\prod p^{\alpha_{p,r}}} and if #{m_{i}\divides m_{r}} then #{m_{i}=\prod p^{\alpha_{p,i}}} for #{\alpha_{p,i}\leq\alpha_{p,r}}. The [[ra-0029]] gives us #{R/m\iso\bigoplus_{p}R/p^{\alpha_{p}}}. Then we can convert the summands from one form to the other, and reorder as needed. Also note if #{p_{1}\neq p_{2}}, then these give us [[ra-0024]].}}

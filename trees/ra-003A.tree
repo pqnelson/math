@@ -1,0 +1,7 @@
+\title{Identity map is a module morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+
+\p{Let #{R} be a [[ring-0001]] and let #{M} be an #{R}-module. Then ##{\id_{M}\colon M\to M}
+is a module morphism.}

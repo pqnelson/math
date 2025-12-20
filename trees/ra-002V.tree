@@ -1,0 +1,17 @@
+\title{Eisenstein criteria of reducibility}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 9.4.13}
+
+\p{Let #{R} be an [[ra-000H]], let #{x} be a formal variable. Let #{f(x)\in R[x]} be a (nonconstant) monic polynomial
+##{f(x)=x^{n}+a_{n-1}x^{n-1}+\dots+a_{1}x+a_{0}.}
+Let #{P\ideal R} be a [prime ideal](ra-001D) of #{R}. Suppose for all #{j=1,\dots,n} we have #{p_{j}\in R} and #{a_{0}\notin P^{2}}. Then #{f(x)} is irreducible.}
+
+\proof{\p{[[nst-002J]]. Assume for contradiction #{f(x)} were reducible, say #{f(x)=a(x)b(x)} in #{R[x]} where #{a(x)} and #{b(x)} are nonconstant polynomials. Reducing this equation modulo #{P} and using the assumption on the coefficients of #{f(x)}, we obtain the equation
+##{x^{n}=\overline{a(x)b(x)}}
+in #{(R/P)[x]} where the bar denotes the polynomials with coefficients reduced modulo #{P}.}
+\p{Since #{P} is a prime ideal, #{R/P} is an integral domain (by [[ra-001F]]). Then both #{\overline{a(x)}} and #{\overline{b(x)}} have 0 constant terms, i.e., the constant terms of both #{a(x)} and #{b(x)} belong to #{P}.}
+\p{But then the constant term #{a_{0}} of #{f(x)} may be written as the product of these two, which contradicts the hypothesis that #{a_{0}\notin P^{2}}.}}

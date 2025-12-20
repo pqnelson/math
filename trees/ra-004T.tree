@@ -1,0 +1,9 @@
+\title{Rank of a module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{R} be an [[ra-000H]]. Let #{M} be an #{R}-module. We define the \define{Rank} of #{M} to be the maximum number of #{R}-linearly independent elements of #{M}, denoted #{\rank(M)}.}
+
+\p{\textbf{Exercise:} Let #{B} is a [basis](ra-004G) of #{M}. Prove or find a counter-example: #{\rank(M)=|B|}.}

@@ -1,0 +1,14 @@
+\title{#{p}-Primary Component}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 12.1}
+
+\p{Let #{R} be a [[ra-001M]], let #{M} be a [finitely-generated](ra-004A) #{R}-module. Let #{p} be a [prime element](ra-001T) of #{R}. Then a \define{#{p}-Primary Component} of #{M} is a submodule #{M(p)} of #{M} such that:
+\ol{
+\li{#{M=\bigoplus_{p}M(p)}, and}
+\li{If #{M=M(p)}, then #{M=\bigoplus_{i}^{m}R/p^{\alpha_{i}}}.}
+}}
+\rmk{We have two conditions: either #{M(p)=\{x\in M\mid p^{r}x=0,r\geq0\}}, or #{M[p^{r}]=\{x\in M\mid p^{r}x=0\}} where #{p^{r}\divides\Annihilator_{R}(M)}.}

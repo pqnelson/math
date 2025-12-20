@@ -1,0 +1,9 @@
+\title{Poset}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{A \define{Partially Ordered Set} (or \define{Poset}) is a set #{X} equipped with a [[nst-002O]] #{\leq} usually denoted as a pair #{(X,\leq)}.}
+
+\p{Note: not all elements are comparable in a poset, i.e., the trichotomy law (for all #{x,y\in X} either #{x=y} or #{x\leq y} or #{y\leq x}) does not need to hold.}

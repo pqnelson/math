@@ -1,0 +1,7 @@
+\title{Not all torsion-free modules are free}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{example}
+
+\p{The ideal #{(2,x)\ideal\ZZ[x]} is [torsion-free](ra-003P) but not free.}

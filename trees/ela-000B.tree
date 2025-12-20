@@ -42,10 +42,11 @@ But we don't want these definitions to be arbitrary. We want:
 \transclude{matrix-0018}
 \transclude{matrix-0019}
 \transclude{matrix-001A}
-\transclude{matrix-001C}
-\transclude{matrix-001D}
+\transclude{matrix-001C} % matrix inverse
+\transclude{matrix-001D} % uniqueness of matrix inverse
 \transclude{matrix-001E}
 \transclude{matrix-001F}
 \transclude{matrix-001G}
 \transclude{matrix-001H}
 \transclude{matrix-001I}
+\transclude{matrix-002B} % similar matrices

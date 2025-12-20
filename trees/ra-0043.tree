@@ -1,0 +1,33 @@
+\title{Universal Property of Direct Sums of Modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+
+\p{Let #{R} be a [[ring-0001]]. For any #{R}-modules #{M}, #{N}, and #{P}, how do we describe #{\hom_{R}(M\oplus N,P)} in terms of #{\hom_{R}(M,P)} and #{\hom_{R}(N,P)}? We can draw a commutative diagram,}
+\quiver{
+  \begin{tikzcd}
+                                               & P                         &\\
+  M\ar[ur, "\varphi\circ i_{1}"]\ar[r, "i_{1}", swap] & M\oplus N\ar[u, "\varphi"] & \ar[l, "i_{2}"] \ar[ul, "\varphi\circ i_{2}", swap] N
+  \end{tikzcd}
+}
+\p{After studying this a bit, it's straightforward to see
+##{\hom_{R}(M\oplus N,P)\iso\hom_{R}(M,P)\times\hom_{R}(N,P)\mbox{ as Abelian groups,}}
+and \textbf{if #{R} is commutative,}
+##{\hom_{R}(M\oplus N,P)\iso\hom_{R}(M,P)\oplus\hom_{R}(N,P)\mbox{ as }R\mbox{-modules.}}
+If we denote #{\Phi\colon\hom_{R}(M\oplus N,P)\to\hom_{R}(M,P)\oplus\hom_{R}(N,P)} for this mapping, we just need to check:}
+\ol{
+\li{This is well-defined;}
+\li{It is a morphism of Abelian groups;}
+\li{If #{R} is commutative, then it is #{R}-linear;}
+\li{It is a bijection.}
+}
+\p{We'll just prove one of these claims, the others left as an exercise for the reader.}
+\p{\textbf{Claim:} #{\Phi} is a bijection.}
+\proof{\p{Let #{\varphi_{1}\in\hom_{R}(M,P)} and #{\varphi_{2}\in\hom_{R}(N,P)}. We want to show there is a unique element of #{\varphi\in\hom_{R}(M\oplus N,P)} such that #{\Phi(\varphi)=(\varphi_{1},\varphi_{2})}. We see that there exists a function #{\phi} such that for any #{m\in M} and #{n\in N},
+##{\varphi_{1}(m)+\varphi_{2}(n)=\varphi(m,n).}
+We need to check it is #{R}-linear:
+##{\Phi(\varphi_{1},\varphi_{2})(m,n)=\varphi_{1}(m)+\varphi_{2}(n).}
+This is straightforward.}
+\p{Conversely, for any #{\varphi\colon M\oplus N\to P}, we need to check the restrictions
+#{\Phi(\varphi|_{M},\varphi|_{N})=\varphi.}
+The result follows from this.}}

@@ -1,0 +1,7 @@
+\title{Prefatory comments about traditional introduction to rings}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+
+\p{This is roughly the content of the Math 5B course at [[caltech.edu]], organized from my notes from the course offered Winter Quarter 2018. These notes about rings would constitute the first half of the course (literally, the first 13.5 lectures out of the 27 lectures).}
+\p{Most courses about rings are the same, but vary in level of rigor and detail. UC Davis's Math 150B course was not quite at this level of maturity, but it was close. But it is nowhere near the level of sophistication of UC Davis's graduate abstract algebra course content.}

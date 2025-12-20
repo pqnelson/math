@@ -1,0 +1,11 @@
+\title{Classification of finitely-generated Abelian groups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{corollary}
+
+\p{Let #{R=\ZZ}. Let #{G} be an Abelian group. Then there exists #{s} positive integers #{n_{1}}, \dots, #{n_{s}} and #{r\in\NN_{0}} such that
+##{G\iso\ZZ^{r}\times Z_{n_{1}}\times\dots\times Z_{n_{s}}}
+where #{Z_{n_{j}}=\ZZ / n_{j}\ZZ} is a cyclic group of order #{n_{j}}. Moreover this decomposition is unique up to reordering the factors of finite Abelian groups.}
+
+\proof{\p{This follows immediately from the [[ra-004W]] and the fact that Abelian groups are #{\ZZ}-modules.}}

@@ -1,0 +1,9 @@
+\title{Criteria for finitely-generated modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} be a module. Then #{M} is [finitely-generated](ra-004A) if and only if there exists an #{n\in\NN} and a surjective #{R}-linear mapping
+##{\varphi\colon R^{n}\to M.}
+Furthermore, if #{\varphi} is an isomorphism, then #{M} is [free](ra-002X).}

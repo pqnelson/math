@@ -1,0 +1,17 @@
+\title{Ring of formal distributions has zero divisors}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\p{Let #{\FF} be a [[field-0001]] (but it could be any commutative ring, however nice you want it). Let #{x} be a formal variable. Consider the \define{Ring of Formal Distributions} #{\FF[{[x,x^{-1}]}]} which consists of generic formal power series like
+##{f(x)=\sum^{\infty}_{n=-\infty}a_{n}x^{n}.}
+Consider the specific function
+##{\delta(x)=\sum_{n\in\ZZ}x^{n}}
+Then
+##{x\delta(x)=\delta(x)}
+so
+##{(1-x)\delta(x).}
+But #{1-x\neq0} and #{\delta(x)\neq0}, so #{\FF[{[x,x^{-1}]}]} has [zero divisors](ra-000E).}
+
+\rmk{This ring appears when studying Vertex Operator Algebras, a sort of formal model of 1-dimensional quantum field theories.}

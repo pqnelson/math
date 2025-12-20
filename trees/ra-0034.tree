@@ -1,0 +1,6 @@
+\title{Intersection of submodules is a submodule}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+
+\p{Let #{R} be a [[ring-0001]], let #{M} be a module over #{R}, let #{N} and #{K} be [[ra-0031]]s of #{M}. Then #{K\cap N} is a submodule of #{M}.}

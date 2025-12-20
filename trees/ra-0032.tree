@@ -1,0 +1,17 @@
+\title{Morphism of #{R}-modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a ring, let #{M} and #{N} be modules over #{R}. A \define{Morphism} from #{M} to #{N} is a function #{\varphi\colon M\to N} such that
+\ol{
+\li{It's a morphism of the underlying Abelian groups #{\varphi(m_{1}+m_{2})=\varphi(m_{1})+\varphi(m_{2})} for any #{m_{1},m_{2}\in M}; and}
+\li{It preserves scalar multiplication: for any #{r\in R} and #{m\in M} we have #{\varphi(rm)=r\varphi(m)}.}
+}
+We also say that #{\varphi} is \define{#{R}-Linear}.}
+\p{We write #{\hom_{R}(M,N)} for the set of all morphisms from #{M} to #{N}.}
+
+\p{\textbf{Exercise 1:} For any #{m\in M}, we have a function #{f\colon R\to M} defined by #{f(r)=rm} scalar multiplication. When (if ever) is this #{R}-linear?}
+
+\p{\textbf{Exercise 2:} For any #{r\in R}, we have a function #{g\colon M\to M} defined by #{g(m)=rm} scalar multiplication. When (if ever) is this #{R}-linear?}

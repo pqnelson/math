@@ -1,0 +1,9 @@
+\title{Uniqueness of GCD in a UFD}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ra-001Z]]. Let #{a,b\in R} be elements of #{R}. Then #{a} and #{b} have a [[ra-001R]] and
+##{\gcd(a,b)=\prod_{p\text{ irred.}}p^{\min(\ord_{p}(a),\ord_{p}(b))}}
+where #{\ord_{p_{i}}(a)=n_{i}} if we can write #{a=u\prod_{j}p_{j}^{n_{j}}} as its unique factorization, and similarly for #{\ord_{p_{i}}(b)}.}

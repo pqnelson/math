@@ -1,0 +1,13 @@
+\title{Principal Ideal Domains are Noetherian}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ra-001M]]. Let #{I_{1},I_{2},\dots,I_{n},I_{n+1},\dots,\ideal R} be ideals of #{R} such that
+##{I_{1}\subset I_{2}\subset\dots\subset I_{n}\subset I_{n+1}\subset\dots.}
+Then there exists an #{n_{0}\in\NN} such that #{I_{n}=I_{n_{0}}} for all #{n\geq n_{0}}.}
+
+\proof{\p{Let #{I=\bigcup_{n}I_{n}}. If #{a,b\in I}, then #{a\in I_{m}} and #{b\in I_{n}} for some #{m,n\in\NN}. If #{p=\max(m,n)} and #{a,b\in I_{p}}, then #{a\pm b\in I_{p}\subset I}. So #{I} forms a group under addition.}
+\p{For any #{a\in I}, there is an #{n\in\NN} such that #{a\in I_{n}}. Then for any #{r\in R} we have #{ra\in I_{n}\subset I}. So #{I} forms an ideal.}
+\p{Since #{R} is a Principal Ideal Domain, there exists an #{a_{0}} such that #{I=(a_{0})}. But then there exists an #{n_{0}} such that #{a\in I_{n_{0}}}. So #{I=(a_{0})\subset I_{n_{0}}}. Then for any #{n\geq n_{0}}, we have #{I\subset I_{n_{0}}\subset I_{n}\subset I} which proves the chain of ideals stabilizes.}}

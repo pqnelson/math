@@ -1,0 +1,11 @@
+\title{#{IM} is a submodule of #{M}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{example}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{I} be a [left ideal](ra-000Z) of #{R}. Let #{M} be a left module over #{R}. Then
+##{IM=\{\sum_{\text{finite}}a_{i}m_{i}\mid a_{i}\in I, m_{i}\in M\}}
+is a submodule of #{M}.}
+
+\p{\textbf{Proof idea:} It's closed under addition (since adding two finite sums of these linear combinations yields yet another finite sum of these linear combinations) and it's closed under scalar multiplication (since multiplying on the left will just change the coefficients #{a_{i}\in I} to #{ra_{i}\in I}, by definition of a left ideal). Hence it's a submodule.}

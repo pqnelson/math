@@ -1,0 +1,11 @@
+\title{Criteria for an additive group to be a module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{proposition}
+\MML{lmod_xx1}{def 13}{K12}
+\MML{lmod_xx1}{14}{T14}
+
+\p{Let #{M} be an additive [[gr-000J]]. Let #{R} be a [[ring-0001]]. Then #{M} is a module over #{R} if and only if there exists a [ring morphism](ra-000T) #{R\to\End(M)}.}
+
+\rmk{Studying #{R}-modules amounts to studying the ring morphism #{R\to\End(M)}. How can we "fit" #{R} "into" #{\End(M)} is the big question.}

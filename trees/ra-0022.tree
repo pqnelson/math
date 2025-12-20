@@ -1,0 +1,12 @@
+\title{Associated Irreducibles}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+\MML{gcd_1}{def 3}{R3}
+
+\p{Let #{R} be [[ra-0003]], let #{p\in R} and #{q\in R} be [irreducible elements](ra-001U) of #{R}. We say #{p} and #{q} \define{are associates} (or #{p} \define{is associated to} #{q}) if there exists some [unit](ra-000I) #{u\in\UnitGroup{R}} such that #{p=uq}. This is a predicate, so it's well-defined.}
+
+\p{This is a [symmetric predicate](nst-000Z) since #{u^{-1}\in\UnitGroup{R}} so we have #{u^{-1}p=q}, too.}
+
+\p{It's not too hard to see it's really an [[nst-0011]].}

@@ -1,0 +1,7 @@
+\title{Finitely-Generated Submodule}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module, let #{N} be a submodule of #{M} (possibly #{N=M}). We say #{N} is \define{Finitely-Generated} if there is a finite subset #{A\subset M} such that #{N=RA}.}

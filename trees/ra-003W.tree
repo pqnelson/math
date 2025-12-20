@@ -1,0 +1,9 @@
+\title{Ring of polynomials is a module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{example}
+
+\p{Let #{R} be a [[ra-0003]], let #{x} be a formal variable. Then the [ring of polynomials](ra-000L) #{R[x]} is a module over #{R}.}
+
+\p{\textbf{Proof idea:} We see that #{R[x]} is closed under addition, and it's closed under scalar multiplication.}

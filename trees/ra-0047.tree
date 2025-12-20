@@ -1,0 +1,21 @@
+\title{Schur's lemma}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{exercise}
+\meta{source}{Problem set 5 from Caltech Math 5B Winter 2018}
+
+\p{Let #{R} be a ring, let #{M} be a cyclic #{R}-module. Let #{N} be an #{R}-module. Let #{I} be a left ideal of #{R}. Let us write
+##{N[I]=\{n\in N\mid\forall a\in I\ldotp an=0\}.}
+}
+\ol{
+\li{Prove #{N[I]} is closed under addition.}
+\li{Let #{M\iso Rm} for some nonzero #{m\in M}. Prove #{\hom_{R}(M,N)\iso N[\Annihilator_{R}(m)]} as Abelian groups.}
+\li{\textbf{Schur's Lemma:} If #{M} is [irreducible](ra-003J), then #{\End_{R}(M)} is a [division ring](ra-0008).}
+}
+\p{Now assume further that #{R} is commutative, but everything else remains the same (#{M} is a cyclic #{R}-module, etc.).}
+\ol{
+\li{Prove #{N[I]} is a submodule of #{N}}
+\li{Prove #{\hom_{R}(M,N)\iso N[\Annihilator_{R}(m)]} as #{R}-modules.}
+\li{If #{R} is irreducible, then #{\End_{R}(M)} is a division ring containing in its center the field #{F=R/\Annihilator_{R}(M)}.}
+}

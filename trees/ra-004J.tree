@@ -1,0 +1,18 @@
+\title{Does the general linear group over a ring consist of all matrices with nonzero determinant?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{puzzle}
+
+\p{Let #{R} be a [[ra-0003]]. Let #{n\in\NN} be a positive integer. We know
+##{\End(R^{n})\iso\Mat_{n}(R)}
+the [[ra-002Y]] of #{R^{n}} is isomorphic to the ring of #{n\times n} matrices over #{R}. We also know #{\Aut(R^{n})\subset\End(R^{n})} as a subset, and #{\GL_{n}(R)\subset\Mat_{n}(R)} the general linear group of #{n\times n} matrices over #{R} is contained in the matrix ring.}
+\p{Is it true that
+##{\{A\in\Mat_{n}(R)\mid\det(A)\neq0\}=\GL_{n}(R)?}}
+
+\solution{\p{We assert #{\det(AB)=\det(A)\det(B)} the determinant is multiplicative for square matrices over a commutative ring.}
+\p{For #{A\in\Mat_{n}(R)} invertible, we see that #{\det(AA^{-1})=\det(A)\det(A^{-1})=1} which implies #{\det(A)\in\UnitGroup{R}}.}
+\p{We see that the adjugate #{A^{*}} of #{A} can be computed for any ring (where the components of #{A^{*}} are the minors of #{A}, i.e., #{(A^{*})_{i,j}} equals the determinant of #{A} where we delete row #{i} and column #{j}). Hence
+##{A^{-1}=\frac{1}{\det(A)}A^{*}}
+which can be computed if #{\det(A)\in\UnitGroup{R}}.}
+}

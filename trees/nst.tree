@@ -3,6 +3,7 @@
 \import{notation}
 \date{2025-12-09}
 
-\transclude{nst-000P}
-\transclude{nst-000S}
-\transclude{nst-001R}
+\transclude{nst-000P} % basics of sets
+\transclude{nst-000S} % relations and functions
+\transclude{nst-001R} % cardinal and ordinal numbers
+\transclude{nst-002L} % choice

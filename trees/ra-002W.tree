@@ -1,0 +1,13 @@
+\title{#{R^{n}} is a Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\p{Let #{R} be an associative [[ring-0001]]. Let #{n\in\NN} be a positive integer. We define the \define{#{n}-Dimensional Free Module} to be the left/right/bi- module #{R^{n}} consisting of #{n}-tuples of elements of #{R} equipped with left/right/two-sided scalar multiplication induced by multiplying tuples componentwise
+##{\lambda(x_{1},\dots,x_{n})=(\lambda x_{1},\dots, \lambda x_{n})}
+and
+##{(x_{1},\dots,x_{n})\lambda=(x_{1}\lambda,\dots,x_{n}\lambda)}
+for any #{\lambda\in R} and #{(x_{1},\dots,x_{n})\in R^{n}}.}
+
+\p{Moreover, when #{R} is unital, the elements #{e_{i}\in R^{n}} which is zero except in the #{i^{\text{th}}} component form a basis of #{R^{n}}. This means that #{R^{n}} is [free](ra-002X) when #{R} is unital.}

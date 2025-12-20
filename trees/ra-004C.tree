@@ -1,0 +1,9 @@
+\title{Finitely-generated module with relations among generators is not free}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{example}
+
+\p{We may want to think of a [generating set](ra-0049) as synonymous with a [[vectsp-000T]], but this is incorrect when the generating set has relations among the generators.}
+
+\p{For example, let #{\FF} be a [[field-0001]], then we could look at #{R=\FF[x,y]} as a ring and #{M=\FF[x,y]/(x^{3}+x^{2}-y^{2})} as an #{R}-module where scalar multiplication is given by the canonical morphism and multiplication in #{M} as a ring. Then #{M} is finitely-generated but not free.}

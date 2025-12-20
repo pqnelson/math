@@ -1,0 +1,12 @@
+\title{Examples of Unique Factorization Domains}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\p{Some examples we have seen before:}
+\ol{
+\li{The integers #{\ZZ} form a unique factorization domain.}
+\li{The Gaussian integers #{\ZZ[i]\subset\CC} form a unique factorization domain.}
+\li{The integers #{\ZZ[\sqrt{-5}]} adjoined with #{\sqrt{-5}} \textbf{is not} a unique factorization domain, since #{6=2\dot3=(1+\sqrt{-5})(1-\sqrt{-5})} are two possible factorizations. Hell, #{\ZZ[\sqrt{-5}]} isn't even a [[ra-001M]].}
+}

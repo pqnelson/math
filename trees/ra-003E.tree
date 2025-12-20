@@ -1,0 +1,8 @@
+\title{Universal property of free modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Theorem 10.3.6}
+
+\p{Let #{A} be a set, let #{R} be a [[ring-0001]]. There exists an #{R}-module #{F(A)} called the \define{Free Module of #{A}} such that: for any #{R}-module #{M} and function of sets #{\varphi\colon A\to M}, there exists a unique #{R}-linear map #{\Phi\colon F(A)\to M} such that for all #{a\in A} we have #{\Phi(a)=\varphi(a)} for all #{a\in A}.}

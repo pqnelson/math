@@ -1,0 +1,9 @@
+\title{Submodule complement is isomorphic to quotient module, if it exists}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module, let #{N\subgroup M} be a submodule of #{M}. Then there exists an #{R}-module #{T} such that #{N\oplus T=M} if and only if #{T\iso M/N}.}
+
+\proof{\p{This follows from [[ra-003B]].}}

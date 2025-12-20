@@ -1,0 +1,9 @@
+\title{Ring of Formal Laurent Polynomials}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ra-0003]], let #{x} be a formal variable. We define the \define{Ring of Formal Laurent Polynomials} to be the ring #{R(x)=\{\sum^{n}_{j=-k}a_{k}x^{k}\mid a_{j}\in R, a_{-k}\neq0,a_{n}\neq0, n,k\in\NN_{0}\}}.}
+
+\rmk{\textbf{Caution:} Terminology seems to vary wildly here. Some people reserve the term "Laurent polynomials" for the situation where #{n=\infty}. I'm going to call these things \define{Formal Laurent series} and denote it by #{R(\mskip-3mu(x)\mskip-3mu)} in analogy to #{R[{[x]}]}.}

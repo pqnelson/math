@@ -1,0 +1,7 @@
+\title{Chain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{(X,\leq)} be a nonempty [[nst-002P]]. A \define{Chain} is a subset #{C\subset X} such that for all #{x,y\in C} either #{x\leq y} or #{y\leq x}.}

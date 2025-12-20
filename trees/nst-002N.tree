@@ -1,0 +1,9 @@
+\title{Antisymmetric relation}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a relation, let #{F} be its field. We say #{R} is \define{Antisymmetric} if for each #{x,y\in F}, we have #{(x,y)\in R} and #{(y,x)\in R} if and only if #{x=y}.}
+
+\p{For example, divisibility relation on natural numbers is antisymmetric, or the ordering #{\leq} on real numbers is antisymmetric.}

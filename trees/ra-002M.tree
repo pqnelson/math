@@ -1,0 +1,31 @@
+\title{Principal ideal domains are unique factorization domains}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Theorem 8.3.14}
+
+\p{Let #{R} be a [[ra-001M]], let #{a\in R} be a nonzero non-invertible element of #{R}. Then there exists [irreducible elements](ra-001U) #{p_{1},\dots,p_{n}\in R} such that #{a=p_{1}(\dots)p_{n}}. Further, if #{q_{1},\dots,q_{m}\in R} are irreducible and such that #{a=q_{1}(\dots)q_{m}} then #{m=n} and for each #{i=1,\dots,n} we have #{q_{i}=u_{i}p_{i}} where #{u\in\UnitGroup{R}} is a unit.}
+
+\p{In other words, #{R} is a [[ra-001Z]].}
+
+\proof{\p{There are two claims: (1) there is a factorization, and (2) the factorization is unique.}
+\p{\textbf{Claim 1: Existence of a factorization.} Assume for contradiction #{a\in R} does not have a factorization. Then #{ua\in R} does not have a factorization for any unit #{u\in\UnitGroup{R}}.}
+\p{We setup a set
+##{S:=\{(r)\properideal R\mid r\mbox{ does not have a factorization into irreducibles}\}.}
+Assume for contradiction that #{S\neq\emptyset}.}
+\p{Let #{(a)} be a maximal element of #{S} by [[zorn's-lemma]]. We have #{a} is not irreducible, so by definition we can write it as #{a=xy} where #{x,y\notin\UnitGroup{R}} are not units, so
+##{(a)\propersubset(x)}
+and
+##{(a)\propersubset(y)}
+are proper subsets.}
+\p{But since #{(a)} is a maximal element of a chain, #{(x)\notin S} and #{(y)\notin S}, so #{x} and #{y} have a factorization. This gives us a contradiction, which means our assumption #{S\neq\emptyset} is wrong. We conclude #{S=\emptyset}. Hence we've proven the factorization of elements exists.}
+\p{\textbf{Claim 2: Uniqueness of factorization.} This may be proven in many, many ways. Assume for contradiction this is not true, so we may factorize
+##{\prod^{n}_{i}p_{i}=\prod^{m}_{j}q_{j},}
+where #{n} is minimal (i.e., the factorization #{\prod^{n}_{i}p_{i}} is the smallest possible factorization with fewest possible factors).}
+\p{We have #{n\geq1}, #{p=p_{1}} divides #{p\divides\prod q_{j}}. Then there exists a #{j_{0}} such that #{p\divides q_{j_{0}}} since #{p_{i}} and #{q_{j}} are all prime and irreducible. Then #{p=uq_{j_{0}}} for some unit #{u\in\UnitGroup{R}} (since #{p} and #{q_{j_{0}}} are irreducible). Then
+##{p_{1}\prod^{n}_{i=2}p_{i}=(uq_{j_{0}})u^{-1}\prod^{m}_{j\neq j_{0}}q_{j}}
+which implies
+##{\prod^{n}_{i=2}p_{i}=u^{-1}\prod^{m}_{j\neq j_{0}}q_{j}.}
+This contradicts the assumption that #{\prod^{n}_{i=1}p_{i}} is the minimal factorization.}
+}

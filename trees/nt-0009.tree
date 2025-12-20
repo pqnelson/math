@@ -1,0 +1,12 @@
+\title{Chinese Remainder Theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\p{Let #{m,n\in\ZZ} be integers. If #{m} and #{n} are coprime #{\gcd(m,n)=1}, then for all #{a,b\in\ZZ} the system of congruences
+##{\begin{align*}x&\equiv a\pmod{n}\\
+x&\equiv b\pmod{m}\end{align*}}
+has a unique solution modulo #{mn}, i.e., #{\{x_{k}=x_{0}+kmn\mid k\in\ZZ\}} is the set of all possible solutions.}
+
+\proof{\p{Consider the mapping #{\ZZ / mn\ZZ\to\ZZ / m\ZZ\times\ZZ / n\ZZ} given by ##{x\mapsto(x\bmod{m},x\bmod{n})} is an isomorphism of additive groups. Surjectivity means a solution exists, injectivity means the solution is unique.}}

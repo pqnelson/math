@@ -1,0 +1,14 @@
+\title{Annihilator}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{M} be an #{R}-module, let #{S\subset M} be a nonempty subset of #{M}. We define the \define{Annihilator} of #{S} to be the subset
+##{\Annihilator_{R}(S)=\{r\in R\mid \forall s\in S\ldotp rs=0\}.}}
+
+\p{If #{S=\{m\}} is a singleton, we often just write ##{\Annihilator_{R}(m):=\Annihilator_{R}(\{m\}).}}
+
+\p{When #{R} is not a commutative ring, we speak of "left annihilator" and "right annihilator" depending on if #{M} is a left or right module over #{R}.}
+
+\p{\textbf{Exercise:} When (if ever) is #{\Annihilator_{R}(S)} an ideal of #{R}?}

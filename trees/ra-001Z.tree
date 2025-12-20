@@ -1,0 +1,19 @@
+\title{Unique Factorization Domain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+\MML{ring_2}{def 15}{V8}
+\meta{source}{Hungerford [[hungerford-1974-algebra]] Definition III.3.5}
+
+\p{An [[ra-000H]] #{R} is called a \define{Unique Factorization Domain} (or UFD for short, older texts say #{R} is \define{Factorial}) if
+\ol{
+\li{Nonzero elements have a Factorization: For every nonzero element #{a\in\NonZero{R}} there exists a factorization
+##{a=u\prod^{N}_{j=1}p_{j}^{n_{j}}}
+where #{u\in\UnitGroup{R}} is a unit, #{p_{j}\in R} are distinct [irreducitlbe elements](ra-001U), and #{n_{j}\in\NN} are positive integers; and}
+\li{Factorizations are unique: For every nonzero element #{a\in\NonZero{R}} if there are two factorizations
+##{a=u\prod^{N}_{j=1}p_{j}^{n_{j}}}
+and
+##{a=v\prod^{N'}_{j=1}q_{j}^{m_{j}}}
+then #{N=N'} and there exists a permutation #{\sigma\in S_{N}} such that #{u_{j}p_{j}=q_{\sigma(j)}} and #{n_{j}=m_{\sigma(j)}} for units #{u_{j}\in\UnitGroup{R}}.}
+}}

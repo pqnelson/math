@@ -1,0 +1,7 @@
+\title{Generators of a Submodule}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{R} be a ring, let #{M} be an #{R}-module, let #{N} be a submodule of #{M} (possibly #{N=M}), let #{A\subset M} be a subset of #{M}. If #{N=RA}, then we call #{A} a \define{Set of Generators} (or \define{Generating Set}) for #{N}, and we say #{N} is \define{Generated} by #{A}.}

@@ -3,5 +3,8 @@
 \import{notation}
 \date{2025-12-17}
 \taxon{definition}
+\MML{ring_2}{def 8}{V4}
 
 \p{Let #{R} be a [[ra-0003]], let #{p\in R} be a nonzero element which is not a [unit](ra-000I). We say #{p} is \define{Prime} if whenever #{p\divides ab} then either #{p\divides a} or #{p\divides b}.}
+
+\p{\textbf{Exercise:} Can this be generalized to a unital associative ring?}

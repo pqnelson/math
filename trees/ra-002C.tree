@@ -1,0 +1,13 @@
+\title{Examples of field of fractions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\ol{
+\li{When applied to #{R=\ZZ}, we obtain #{\FF=\QQ}.}
+\li{When applied to any field #{R=\kk}, we obtained #{\FF=\kk} the field is its own field of fractions.}
+\li{When applied to the polynomial ring #{R=\QQ[x]}, we obtain #{\FF=\QQ(x)} the ring of rational polynomials.}
+\li{If #{\FF} is the field of fractions of #{R}, then #{\FF(x)} is the field of fractions for #{R[x]}.}
+\li{If #{R=\QQ[{[x]}]} is the ring of formal power series, then its field of fractions is #{\FF=\QQ(\mkern-3mu(x)\mkern-3mu)} the ring of formal Laurent series #{\sum^{\infty}_{k=-n}a_{k}x^{k}}.}
+}

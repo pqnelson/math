@@ -1,0 +1,11 @@
+\title{Minimal polynomial of a matrix}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{definition}
+
+\p{Let #{\FF} be a field. Let #{X\in\Mat_{n}(\FF)} be an #{n\times n} matrix over #{\FF}. Let
+##{I_{X}=\{p\in\FF[x]\mid p(X)=0\},}
+where #{p(X)=0} is the zero matrix, and we see #{I_{X}} is a proper ideal of the principal ideal domain #{\FF[x]}. Then there exists a unique monic polynomial #{m_{X}(x)\in\FF[x]} such that #{I_{X}=(m_{X}(x))}. We call this #{m_{X}(x)} the \define{Minimal Polynomial of #{X}}.}
+
+\rmk{It's not hard to see that the minimal polynomial is the unique monic polynomial which generates the [[ra-003F]] #{\Annihilator(V)} in #{\FF[x]}.}

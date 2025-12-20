@@ -1,0 +1,15 @@
+\title{Endomorphisms of an Abelian Group form an Abelian Group (and sometimes a module)}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{proposition}
+\MML{lmod_xx1}{def 22}{K24}
+\MML{lmod_xx1}{27}{T27}
+
+\p{Let #{R} be a [[ring-0001]], let #{M} and #{N} be #{R}-modules. Then the following all hold:}
+\ol{
+\li{The set of #{R}-linear maps #{\hom_{R}(M,N)} forms an Abelian group.}
+\li{If #{R} is a [[ra-0003]], then #{\hom_{R}(M,N)} forms an #{R}-module.}
+}
+
+\p{\textbf{Exercise:} Prove there is a canonical isomorphism #{\hom_{R}(R,M)\iso M}. (Hint: #{\phi\mapsto\phi(1)}.)}

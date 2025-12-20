@@ -1,0 +1,9 @@
+\title{Irreducible elements are prime in a PID}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{corollary}
+
+\p{Let #{R} be [[ra-001M]], let #{p\in R} be an element of #{R}. If #{p} is [irreducible](ra-001U), then #{p} is [prime](ra-001T).}
+
+\proof{\p{Assume #{p} is irreducible. Then [we proved](ra-001W) this is equivalent to #{(p)} is maximal among principal ideals. Then #{(p)} is prime, which implies #{p} is prime.}}

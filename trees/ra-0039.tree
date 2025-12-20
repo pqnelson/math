@@ -1,0 +1,9 @@
+\title{Isomorphism of modules}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a ring, let #{M} and #{N} be modules over #{R}. An \define{Isomorphism} from #{M} to #{N} is an #{R}-linear mapping #{\varphi\colon M\to N} such that there exists an #{R}-linear mapping #{\psi\colon N\to M} such that #{\varphi\circ\psi=\id_{N}} and #{\psi\circ\varphi=\id_{M}}.}
+
+\p{We say #{M} and #{N} \define{Are Isomorphic} if there exists an isomorphism #{M\to N}. In this case, we denote this by #{M\iso N}. It forms an equivalence relation.}

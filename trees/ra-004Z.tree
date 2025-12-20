@@ -1,0 +1,12 @@
+\title{#{\FF[x]}-modules are #{\FF}-vector spaces equipped with an endomorphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+\taxon{corollary}
+
+\p{Let #{\FF} be a field. Let #{M} be a module over #{\FF[x]}. Then #{M} is a vector space over #{\FF} equipped with an endomorphism #{\alpha\colon M\to M} defined by #{\alpha(m)=x\cdot m} for any #{m\in M}.}
+
+\proof{\p{This follows from the [[ra-004W]].}}
+
+\rmk{\p{(1) We see #{V} is a finitely-generated torsion module over #{\FF[x]} if and only if #{V} is a finite-dimensional vector space over #{\FF}.}
+\p{(2) If we have two square #{n\times n} matrices #{A}, #{B} over #{\FF}, then they correspond to endomorphisms on an #{n}-dimensional vector space over #{\FF}. These give us modules over #{\FF[x]} describing the action of #{x}. Then #{A} is similar to #{B} if and only if the corresponding modules over #{\FF[x]} are isomorphic.}}

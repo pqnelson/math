@@ -1,0 +1,17 @@
+\title{Left Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+
+\p{Let #{R} be a [[ring-0001]]. A \define{Left Module} over #{R} is an additive group #{M} equipped with a function #{R\times M\to M} denoted #{(r,m)\mapsto r\cdot m} called scalar multiplication, such that
+\ol{
+\li{For any #{m_{1},m_{2}\in M} and #{r\in R}, we have #{r(m_{1}+m_{2})=(rm_{1})+(rm_{2})}}
+\li{For any #{m\in M} and #{r_{1},r_{2}\in R} we have #{(r_{1}+r_{2})m=(r_{1}m)+(r_{2}m)}}
+\li{Associativity of scalar multiplication: For any #{m\in M} and #{r_{1},r_{2}\in R} we have #{(r_{1}r_{2})m=r_{1}(r_{2}m)}}
+\li{If #{R} is unital, then we call #{M} \define{Unital} when for any #{m\in M} we have #{1\cdot m=m}.}
+}}
+
+\p{\textbf{Exercise:} Prove these axioms imply #{0_{R}\cdot m=0_{M}} for any #{m\in M}.}
+
+\p{\textbf{Exercise:} Prove or find a counter-example: a left ideal of a ring is a left module over that ring.}

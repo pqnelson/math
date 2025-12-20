@@ -1,0 +1,12 @@
+\title{Free Module}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{definition}
+\MML{vectsp_7}{def 4}{V3}
+
+\p{Let #{R} be a [[ring-0001]]. Let #{M} be a left/right/bi- module over #{R}. We say #{M} is \define{Free} if there exists a basis of #{M}, i.e., a set #{B\subset M} such that
+\ol{
+\li{Spans the module: every element of #{M} is a linear combination of finitely many elements of #{B}, and}
+\li{Smallest spanning set: there is no proper subset #{C\propersubset B} such that any element of #{M} can be written as a linear combination of finitely many elements of #{C}.}
+}}

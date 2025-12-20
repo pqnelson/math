@@ -1,0 +1,28 @@
+\title{Invariance of dimension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-19}
+
+\p{Let #{R} be a [[ra-0003]], let #{m,n\in\NN} be positive integers. When are the #{R}-modules #{R^{n}\iso R^{m}}?}
+
+\solution{
+\p{Consider #{I\ideal R} being a [maximal ideal](ra-001C) of #{R} by [Krull's theorem](ra-001H). Then [we know](ra-001E) #{R/I} is field, let us call it
+##{\FF := R/I.}
+We also have a surjective ring morphism #{R\onto\FF}. Let
+##{\varphi\colon R^{m}\to R^{n}}
+be an isomorphism. Then we have the commutative diagram
+\quiver{
+  \begin{tikzcd}
+    R^{m}\ar[d, two heads]\ar[r, "\varphi"] & R^{n}\ar[d, two heads]\\
+    \FF^{m} & \FF^{n}
+  \end{tikzcd}
+}
+We can think of #{\varphi\colon R^{m}\to R^{n}} using a matrix #{A} as #{\varphi(x)=Ax}.}
+\p{If #{x_{j}\in I} for each #{j=1,\dots,m}, then we see that
+##{\begin{pmatrix}x_{1}\\ \vdots\\ x_{m}\end{pmatrix}\mapsto\begin{pmatrix}y_{1} = \sum_{j}a_{1,j}x_{j}\\
+\vdots\\
+y_{n}=\sum_{j}a_{n,j}x_{j}\end{pmatrix},}
+and we know #{y_{j}\in I} for #{j=1,\dots,n}. We get an induced map
+##{\overline{\varphi}\colon\FF^{m}\to\FF^{n}}
+and an induced inverse, i.e., #{\overline{\varphi}} is an isomorphism. Then we use [the fact](vectsp-000Y) that #{\FF^{m}\iso\FF^{n}} iff #{m=n}. Hence the result.}
+}

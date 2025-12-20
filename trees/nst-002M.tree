@@ -1,0 +1,10 @@
+\title{Axiom of Choice}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+
+\p{Let #{I} be an indexing set. Let #{\{S_{i}\}_{i\in I}} be a family of nonempty sets indexed by #{I}. The axiom of choice asserts the existence of a \define{choice [function](nst-0014)}, i.e., an indexed set #{(x_{i})_{i\in I}} such that for each #{i\in I} we see #{x_{i}\in S_{i}}.}
+
+\p{In other words, we can choose "some arbitrary" #{x_{i}} from #{S_{i}} for each #{i\in I}.}
+
+\rmk{We stress, the "choice function" is a set-theoretic [function](nst-0014).}

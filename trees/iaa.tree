@@ -3,8 +3,7 @@
 \import{notation}
 \date{2025-12-12}
 
-\p{This is loosely following the material covered in the Math 5 series at [[caltech.edu]] (based on Dummit and Foote's [[dummit-2004-abstract]]) or the Math 150 series at [[ucdavis.edu]] (based on Artin's [[artin-2010-algebra]]).}
-
 \transclude{iaa-0003} % preferatory notes
 \transclude{iaa-0001} % traditional introduction to groups
-\transclude{iaa-0008} % traditional intro to rings and modules
+\transclude{iaa-0008} % traditional intro to rings
+\transclude{iaa-0009} % traditional intro to modules

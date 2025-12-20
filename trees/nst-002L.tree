@@ -1,0 +1,14 @@
+\title{Choice}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+
+\p{The axiom of choice appears in various forms in modern Mathematics. This section may be skipped and returned to when needed.}
+
+% 298
+\transclude{nst-002M} % axiom of choice
+\transclude{nst-002P} % poset
+\transclude{nst-002Q} % chain of a poset
+\transclude{nst-002R} % upper bound of a subset for a poset
+\transclude{nst-002S} % maximal element
+\transclude{zorn's-lemma}

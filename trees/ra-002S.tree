@@ -1,0 +1,13 @@
+\title{Properties of ring of polynomials over UFDs}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{theorem}
+
+\p{Let #{R} be a [[ra-001Z]]. Let #{\FF=\Frac(R)} be the [field of fractions](ra-002B) of #{R}. Then the following all hold:}
+\ol{
+\li{#{R[x]} is a [[ra-001Z]].}
+\li{#{\UnitGroup{R[x]}=\UnitGroup{R}}}
+\li{If #{p\in\NonZero{R}} is [irreducible](ra-001U), then #{p\in R[x]} is irreducible.}
+\li{If #{f(x)\in\FF[x]} is primitive and irredubile, then #{f(x)\in R[x]} is irreducible \emph{and} these are all the irreducible elements of #{R[x]}.}
+}

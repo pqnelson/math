@@ -1,0 +1,17 @@
+\title{Rational numbers from integers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-18}
+\taxon{example}
+
+\p{We can "define" the rational numbers #{\QQ} from the integers #{\ZZ} intuitively as
+##{\QQ=\{\frac{a}{b}\mid a,b\in\ZZ,b\neq0\},}
+but
+##{\frac{a}{b}=\frac{c}{d}\iff ad=bc.}
+Furthermore, the operations on #{\QQ} are defined using the operations from #{\ZZ} as
+##{\frac{a}{b}+\frac{c}{d}=\frac{ad+bc}{bd}}
+and
+##{\frac{a}{b}\cdot\frac{c}{d}=\frac{ac}{bd}.}
+This construction generalizes to any [[ra-000H]].}
+
+\p{Note: #{\QQ} is the "smallest" field containing #{\ZZ} in the sense that if #{\varphi\colon\ZZ\into\FF} is an injection into a field, then there exists an extension #{\overline{\varphi}\colon\QQ\into\FF} such that #{\overline{\varphi}(m)=\varphi(m)} for all #{m\in\ZZ}.}
