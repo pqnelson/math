@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1974</fr:anchor><fr:addr
+type="user">nt-0038</fr:addr><fr:route>nt-0038.xml</fr:route><fr:title
+text="Galois correspondence is bijective iff field extension is Galois">Galois correspondence is bijective iff field extension is Galois</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Galois correspondence is a bijection if and only if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <fr:link
+type="local"
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link>. In particular, if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is Galois, so is <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> for all subfields <fr:tex
+display="inline"><![CDATA[\mathbb {L}\subseteq \Bbbk ]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {L}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1159</fr:anchor><fr:addr
+type="machine">#364</fr:addr><fr:route>unstable-364.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}\subseteq \Bbbk  / \mathbb {F}]]></fr:tex>. <fr:link
+type="local"
+href="nt-0036.xml"
+addr="nt-0036"
+title="Summary of results">Then we see</fr:link> <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L})}=\mathbb {L}]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> is Galois. Then the Galois correspondence is a bijection if and only if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[\mathbb {L}\subseteq \Bbbk ]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {L}]]></fr:tex>. In particular, it's necessary for <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> to be Galois.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is Galois. <fr:link
+type="local"
+href="nt-0036.xml"
+addr="nt-0036"
+title="Summary of results">Then we see</fr:link> <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of a <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {L}[x]]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> is Galois. Hence every <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> is Galois.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1976</fr:anchor><fr:addr
+type="user">nt-0037</fr:addr><fr:route>nt-0037.xml</fr:route><fr:title
+text="Fundamental theorem of Galois Theory">Fundamental theorem of Galois Theory</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This actually consists of three propositions, and it's easier to prove each proposition separately. But we will recapitulate all these results in "one giant theorem".</fr:p><fr:p>We <fr:link
+type="local"
+href="nt-002L.xml"
+addr="nt-002L"
+title="Galois correspondences are order-reversing bijection between field extensions and their automorphisms">recall</fr:link> the Galois correspondence. Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a finite extension,
+<fr:tex
+display="block"><![CDATA[\begin {split}\left \{\begin {matrix}\hbox {subgroups}\\ H\leq \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})\end {matrix}\right \}&\to \left \{\begin {matrix}\hbox {subfields}\\ \mathbb {F}\subseteq \mathbb {L}\subseteq \Bbbk \end {matrix}\right \}\\ H&\mapsto \Bbbk ^{H}\end {split}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\begin {split}\left \{\begin {matrix}\hbox {subfields}\\ \mathbb {F}\subseteq \mathbb {L}\subseteq \Bbbk \end {matrix}\right \}&\to \left \{\begin {matrix}\hbox {subgroups}\\ H\leq \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})\end {matrix}\right \}\\ \mathbb {L}&\mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L}).\end {split}]]></fr:tex>
+<fr:link
+type="local"
+href="nt-0030.xml"
+addr="nt-0030"
+title="Subfield fixed under finite subgroup of automorphisms is a Galois extension">We saw earlier</fr:link> that the composition of these
+<fr:tex
+display="block"><![CDATA[H\mapsto \Bbbk ^{H}\mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \Bbbk ^{H})]]></fr:tex>
+are the identity function. But composing these correspondences in the opposite order
+<fr:tex
+display="block"><![CDATA[\mathbb {L}\mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L})\mapsto \Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L})}]]></fr:tex>
+does not always give us the identity function. But it is true that <fr:tex
+display="inline"><![CDATA[\mathbb {L}\subseteq \Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L})}]]></fr:tex> (although <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L})}]]></fr:tex> may be strictly larger than <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> which happens for <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {Q}(\sqrt [3]{2})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathbb {Q}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})=1]]></fr:tex> is trivial so <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})}=\Bbbk ]]></fr:tex> properly contains <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>).</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1157</fr:anchor><fr:addr
+type="user">nt-0038</fr:addr><fr:route>nt-0038.xml</fr:route><fr:title
+text="Galois correspondence is bijective iff field extension is Galois">Galois correspondence is bijective iff field extension is Galois</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The Galois correspondence is a bijection if and only if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <fr:link
+type="local"
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link>. In particular, if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is Galois, so is <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> for all subfields <fr:tex
+display="inline"><![CDATA[\mathbb {L}\subseteq \Bbbk ]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {L}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1159</fr:anchor><fr:addr
+type="machine">#364</fr:addr><fr:route>unstable-364.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Let <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}\subseteq \Bbbk  / \mathbb {F}]]></fr:tex>. <fr:link
+type="local"
+href="nt-0036.xml"
+addr="nt-0036"
+title="Summary of results">Then we see</fr:link> <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L})}=\mathbb {L}]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> is Galois. Then the Galois correspondence is a bijection if and only if <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[\mathbb {L}\subseteq \Bbbk ]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {L}]]></fr:tex>. In particular, it's necessary for <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> to be Galois.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is Galois. <fr:link
+type="local"
+href="nt-0036.xml"
+addr="nt-0036"
+title="Summary of results">Then we see</fr:link> <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of a <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {L}[x]]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> is Galois. Hence every <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> is Galois.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1161</fr:anchor><fr:addr
+type="machine">#365</fr:addr><fr:route>unstable-365.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Thus <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is Galois exactly when the lattice diagram of subextensions <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F} \subseteq \Bbbk  / \mathbb {L}]]></fr:tex> coincides with the lattice diagram of subgroups of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>. We make this notion more precise in the following proposition.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1163</fr:anchor><fr:addr
+type="user">nt-0039</fr:addr><fr:route>nt-0039.xml</fr:route><fr:title
+text="Lattice of subextensions coincides with lattice of subgroups iff the field extension is Galois">Lattice of subextensions coincides with lattice of subgroups iff the field extension is Galois</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be Galois and <fr:tex
+display="inline"><![CDATA[G=\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[H_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H_{2}]]></fr:tex> be subgroups of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> corresponding to subfields <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}]]></fr:tex>, respectively. Then the following all holds:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[H_{1}\subseteq  H_{2}]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}\subseteq \mathbb {L}_{1}]]></fr:tex>, and in this case we have
+<fr:tex
+display="block"><![CDATA[[\mathbb {L}_{1} : \mathbb {L}_{2}]=[H_{2} : H_{1}];]]></fr:tex></fr:li>
+<fr:li>For every subgroup <fr:tex
+display="inline"><![CDATA[H\leq  G]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \Bbbk ^{H}]=|H|]]></fr:tex> and also <fr:tex
+display="block"><![CDATA[[\Bbbk ^{H} : \mathbb {F}]=[G : H];]]></fr:tex></fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\langle  H_{1},H_{2}\rangle ]]></fr:tex> denote the subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> generated by <fr:tex
+display="inline"><![CDATA[H_{1}\cup  H_{2}]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}\mathbb {L}_{2}]]></fr:tex> be the <fr:link
+type="local"
+href="nt-001A.xml"
+addr="nt-001A"
+title="Composite Field">composite</fr:link> of <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[H_{1}\cap  H_{2}=\mathop {\textrm {Aut}}\nolimits (\Bbbk  / (\mathbb {L}_{1}\mathbb {L}_{2}))]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\Bbbk ^{\langle  H_{1},H_{2}\rangle }=\mathbb {L}_{1}\cap \mathbb {L}_{2}.]]></fr:tex></fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1165</fr:anchor><fr:addr
+type="machine">#363</fr:addr><fr:route>unstable-363.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(2) Let <fr:tex
+display="inline"><![CDATA[H\mathrel {<} G]]></fr:tex> be a proper subgroup. By <fr:link
+type="local"
+href="nt-0039.xml"
+addr="nt-0039"
+title="Lattice of subextensions coincides with lattice of subgroups iff the field extension is Galois">Lattice of subextensions coincides with lattice of subgroups iff the field extension is Galois</fr:link>, <fr:tex
+display="inline"><![CDATA[\Bbbk  / \Bbbk ^{H}]]></fr:tex> is Galois, <fr:link
+type="local"
+href="nt-0036.xml"
+addr="nt-0036"
+title="Summary of results">therefore we see</fr:link>
+<fr:tex
+display="block"><![CDATA[|H|=|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \Bbbk ^{H})| = [\Bbbk  : \Bbbk ^{H}].]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is Galois, we also have <fr:tex
+display="inline"><![CDATA[|G|=[\Bbbk  : \mathbb {F}]]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[[\Bbbk ^{H} : \mathbb {F}]=\frac {[\Bbbk  : \mathbb {F}]}{[\Bbbk  : \Bbbk ^{H}]}=\frac {|G|}{|H|}=[G : H],]]></fr:tex>
+as desired.</fr:p>
+<fr:p>(1) We have already seen the Galois correspondence is order-reversing. For the second part, suppose <fr:tex
+display="inline"><![CDATA[H_{1}\subseteq  H_{2}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\Bbbk ^{H_{2}}\subseteq \Bbbk ^{H_{1}}]]></fr:tex>. We then have
+<fr:tex
+display="block"><![CDATA[\begin {align*} [\Bbbk ^{H_{1}} : \Bbbk ^{H_{2}}] &= \frac {[\Bbbk ^{\mathbb {H}_{1}} : \mathbb {F}]}{[\Bbbk ^{H_{2}} : \mathbb {F}]}\\ &=\frac {[G : H_{1}]}{[G : H_{2}]}\\ &=[H_{2} : H_{1}]\end {align*}]]></fr:tex></fr:p>
+<fr:p>(3) Since <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}\subseteq \mathbb {L}_{1}\mathbb {L}_{2}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}\subseteq \mathbb {L}_{1}\mathbb {L}_{2}]]></fr:tex>, we have
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Aut}}\nolimits _{\mathbb {F}}(\Bbbk  / \mathbb {L}_{1}\mathbb {L}_{2})\subseteq  H_{1}\cap  H_{2}.]]></fr:tex>
+Conversely, if <fr:tex
+display="inline"><![CDATA[\sigma \in  H_{1}\cap  H_{2}]]></fr:tex>, it fixes <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}\mathbb {L}_{2}]]></fr:tex> is generated by <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> also fixes <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}\mathbb {L}_{2}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[H_{1}\cap  H_{2}\subseteq \mathop {\textrm {Aut}}\nolimits _{\mathbb {F}}(\Bbbk  / \mathbb {L}_{1}\mathbb {L}_{2})]]></fr:tex>. Therefore <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {L}_{1}\mathbb {L}_{2})=H_{1}\cap  H_{2}]]></fr:tex>, which establishes the first claim of (3).</fr:p>
+<fr:p>The second claim in (3) requires first establishing:</fr:p>
+
+<fr:p><fr:strong>Subclaim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}\cap \mathbb {L}_{2}\subseteq \Bbbk ^{\langle  H_{1},H_{2}\rangle }]]></fr:tex> because both <fr:tex
+display="inline"><![CDATA[H_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H_{2}]]></fr:tex> both fix <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}\cap \mathbb {L}_{2}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\langle  H_{1},H_{2}\rangle \subseteq \mathop {\textrm {Gal}}\nolimits (\Bbbk  / (\mathbb {L}_{1}\cap \mathbb {L}_{2}))]]></fr:tex> which proves the claim.</fr:p>
+
+<fr:p><fr:strong>Subclaim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\langle  H_{1},H_{2}\rangle }\subseteq \mathbb {L}_{1}\cap \mathbb {L}_{2}]]></fr:tex> because <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\langle  H_{1},H_{2}\rangle }\subseteq \Bbbk ^{H_{i}}=\mathbb {L}_{i}]]></fr:tex> for both <fr:tex
+display="inline"><![CDATA[i=1,2]]></fr:tex>, which proves the second claim.</fr:p>
+
+<fr:p>Then these two subclaims imply <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\langle  H_{1},H_{2}\rangle }=\mathbb {L}_{1}\cap \mathbb {L}_{2}]]></fr:tex> which concludes proving (3).</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1167</fr:anchor><fr:addr
+type="user">nt-003A</fr:addr><fr:route>nt-003A.xml</fr:route><fr:title
+text="Where do the missing automorphisms go?">Where do the missing automorphisms go?</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be Galois, let <fr:tex
+display="inline"><![CDATA[G=\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[\mathbb {L}=\Bbbk ^{H}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[H\leq  G]]></fr:tex>. Then (1) map
+<fr:tex
+display="block"><![CDATA[\begin {split}\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})&\to \mathop {\textrm {Hom}}\nolimits _{\mathbb {F}}(\mathbb {L},\mathbb {K})\\ \sigma &\mapsto \sigma |_{\mathbb {L}}\end {split}]]></fr:tex>
+is surjective and induces a bijection of sets
+<fr:tex
+display="block"><![CDATA[G/H\longleftrightarrow \mathop {\textrm {Hom}}\nolimits _{\mathbb {F}}(\mathbb {L},\Bbbk ).]]></fr:tex>
+(2) Then <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex> is Galois if and only if <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is <fr:link
+type="local"
+href="gr-002P.xml"
+addr="gr-002P"
+title="Normal subgroup">normal</fr:link> (if and only if <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Hom}}\nolimits _{\mathbb {F}}(\mathbb {L},\Bbbk )=\mathop {\textrm {Aut}}\nolimits _{\mathbb {F}}(\mathbb {L})]]></fr:tex>). In that case, the above bijection is a group isomorphism <fr:tex
+display="inline"><![CDATA[G/H\cong \mathop {\textrm {Gal}}\nolimits (\mathbb {L} / \mathbb {F})]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1169</fr:anchor><fr:addr
+type="machine">#362</fr:addr><fr:route>unstable-362.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> The map <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})\to \mathop {\textrm {Hom}}\nolimits _{\mathbb {F}}(\mathbb {L},\mathbb {K})]]></fr:tex> is surjective.</fr:p>
+
+<fr:p><fr:strong>Claim 2:</fr:strong> The map from claim 1 induces a bijection of sets <fr:tex
+display="inline"><![CDATA[G/H\longleftrightarrow \mathop {\textrm {Hom}}\nolimits _{\mathbb {F}}(\mathbb {L},\Bbbk )]]></fr:tex>.</fr:p>
+
+<fr:p><fr:strong>Claim 3:</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex> is normal iff <fr:tex
+display="inline"><![CDATA[H\mathrel {\trianglelefteq } G]]></fr:tex>.</fr:p>
+<html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1171</fr:anchor><fr:addr
+type="user">nt-003B</fr:addr><fr:route>nt-003B.xml</fr:route><fr:title
+text="Fundamental Theorem of Galois Theory">Fundamental Theorem of Galois Theory</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a finite Galois extension. The correspondences
+<fr:tex
+display="block"><![CDATA[\begin {split}\{\hbox {subgroups }H\leq \mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})\} & \to \{\hbox {subfields }\mathbb {L}\subseteq \Bbbk \mid  \mathbb {F}\subseteq \mathbb {L}\}\\ H & \mapsto \Bbbk ^{H}\end {split}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\begin {split}\{\hbox {subfields }\mathbb {L}\subseteq \Bbbk \mid  \mathbb {F}\subseteq \mathbb {L}\}&\to \{\hbox {subgroups }H\leq \mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})\}\\ \mathbb {L} & \mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L})\subseteq \mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})\end {split}]]></fr:tex>
+are bijections satisfying the following properties:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}\subset \mathbb {L}_{1}\subseteq \mathbb {L}_{2}\subseteq \Bbbk ]]></fr:tex> if and only if <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L}_{2})\subseteq \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {L}_{1})]]></fr:tex>;</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[H\mapsto \Bbbk ^{H}=\mathbb {L}]]></fr:tex> under the correspondence,
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {L}]]></fr:tex> is Galois and <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {L})=H]]></fr:tex>, and</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex> is Galois if and only if <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> is normal, in which case <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\mathbb {L} / \mathbb {F})\cong  G/H]]></fr:tex></fr:li></fr:ol></fr:li>
+<fr:li>The Galois correspondence
+
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="4dc86c11bc19812335b1f341dbcaadb3"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuNC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzEzNC45OTcxNjFwdCcgaGVpZ2h0PScxMTcuNDk3MDY2cHQnIHZpZXdCb3g9Jy03MiAtNzIgODkuOTk4MTA3IDc4LjMzMTM3Nyc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21taTU7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU9ZQUFvQUFBQUFCR1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVlBQUFCZ2hhdDJEMk50WVhBQUFBRThBQUFBS1FBQUFEUUFEQUNiWjJ4NVpnQUFBV2dBQUFEWkFBQUJRRGFObkh0b1pXRmtBQUFDUkFBQUFDa0FBQUEyWTNKRHVHaG9aV0VBQUFKd0FBQUFId0FBQUNRSDFRT0thRzEwZUFBQUFwQUFBQUFJQUFBQUNBZkZBSGhzYjJOaEFBQUNtQUFBQUFZQUFBQUdBS0FBQUcxaGVIQUFBQUtnQUFBQUZ3QUFBQ0FBQkFCcmJtRnRaUUFBQXJnQUFBRE9BQUFCT1BOZktxTndiM04wQUFBRGlBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbWZzUTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFQwWVBCZ1p2Z1A1RE5EcEdGcVBCZ1kvZ09GQWZzY0Rhc0FBSGphWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmdVZ0RRTEVJTDRIdi8vUThqL084RjhCZ0JUS2dha0FBQUFlTnAxeWtGS3cwQVl4ZkY1ODhVdkJKS09tWmttQmhKS0VlTEdVaENiUkFTTGFLRzB1VUczM2ZRR3hRUGtWRjdFWlRmZHVIYloxa0JjbXQzai9mNENZbis1T0J2NUtYWkNnRnlPUmlpaTRRQlRxWkRmUFJieFExR2FjUitVczN3S3ptY3ZHTWs1MnNTNjdON21yRENlbzhmb3F5RjRlcUkwTkMvcitsMGpOazhwdlo0LzNsb3c5OHJBOEhKZEwwSkV0c3Fvb2RDbXRxdFhDNS9JazN4VHBWY1ZtbWZTSmpOZHYvNmpwTXprOW5SVTdFQ0MvYUVIQW9nRzdiaU9JYzQvLzR0TS9NQUJ3SUh0ZnJoZUVFZ2dUQTdmZmZRTDdJTWt3QUFBQUhqYVkyQmtZR0FBNHJpWHJmbngvRFpmR1poWkdEREIvLzhzMFV4N2dBd09CaVlRSHdEUnl3Y0pBQUFBZU5wallHUmdZR2I0ejhEQXdGTElVTUVneGhMTkFCUkJBVXdBUGJRQ2FRQURWQUFBQkhFQWVBQUFBQUFBb0FBQWVOcGpZR1JnWUdCaXlHSUEwUXhRRWdrQUFBcjNBSEFBZU5wTmpEMXZ3akFRaHArb0NWTEQwS1hxMEtIMXdCeUJFbFlXQmlaV0poYkFCbVd3alp3UUNRa3g4cnQ3dUI0NHlhZm4vVGdESlhjeW5wUHhFZmR6Y2dwUi8xd3c1alB4U05SdjRwSnZKcnlSNWUvaS9MQkluRXV5VFZ6d3hUSHhTUHhiNHBLR3g5TGI4NlUzUWEyOU5zRWRyRzNuR3hPNjFqczFxNlpScjR3ellkY2JyZlpYcFllMkcwNVcxVlZUMVN6eFdNNWM2REVFRkd0eGRHVEhRVEpMeTV4TmREcGhMNzVpUnNYMEpWOUo3bUpuRjMvUzB0bHpsYTBacE5ISlBrbFhVY3RsSTYvK0E4b2hML2NBQUhqYVkyQm1RQWFNREdnQUFBQ09BQVU9KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yNztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTklBQW9BQUFBQUE5QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFUUFBQUJnaFZWejcyTnRZWEFBQUFFNEFBQUFNd0FBQUVRQWJ3RUJaMng1WmdBQUFXd0FBQUNGQUFBQW1IclBXSGhvWldGa0FBQUI5QUFBQUNnQUFBQTJZZXBDL1dob1pXRUFBQUljQUFBQUh3QUFBQ1FFVEFINGFHMTBlQUFBQWp3QUFBQU1BQUFBREFTcEFJdHNiMk5oQUFBQ1NBQUFBQW9BQUFBS0FIUUFPbTFoZUhBQUFBSlVBQUFBR0FBQUFDQUFCd0FZYm1GdFpRQUFBbXdBQUFES0FBQUJNdTBPa2U1d2IzTjBBQUFET0FBQUFCQUFBQUFnQUFNQUFYamFZMkJtWE1zNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwUzBZb2hsWnZnUDVETkRwSkhVL0FjS0F3RGwxZzB6ZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0F5QU5BY1FndVNzR0tJWll2Ly9SN0QrSC8rLy9QOHlzRm93QUFEbC9BdHFBSGphUllvOURvSkFHQVhuWTQwVVZnUkZDaEpZU0RRMEZyditYTWhLT0lNWDhBcEt2SVlOWitFZ3hIWEZ3bUtTbVpkSHdBVVk1TVdDQk9MbFBDdzMyLzN4WkpMSmQvTFZJYzlTSFJUWnVwUy9YVk05bGVUdnA4L0NlaEJ1RHFrVmhDQlZaRmNlcWJ1dWJSMHp6SGoyTTlwQi8vdkVVWFd3bnY3Uk5Jb1JvKzRHUHRkSkdnb0FBQUI0Mm1OZ1pHQmdBT0xQTTczNzQvbHR2akl3c3pCZ2d2OE1USmVaUVF3T0JpWVFCUURJN0FYd2VOcGpZR1JnWUdiNHo4REF3SFNaUVpGQmlWR1RBU2lDQXBnQVBFc0NTUUFDMHdBQUFVc0FhZ0NMQUNFQUFBQUFBQ2dBT2dCTUFBQjQybU5nWkdCZ1lHRVFaMkJpQUFGR0JqUUFBQU1wQUNCNDJqMk1NUXZDTUJDRnYySVZyWU9ENE9BZ3dSOVFsQlpjM0J5Y1hCM2NyQW5Tb2Fta3RlZ2kvblN2SVhnaHgzZnZ2VHNnNFVORVh4RXozL3VLNWMwQ0Q1a3lEendTZlJVNFljbWFBVkU4RVdYRlBuRE1tRXZnSVF1S3dDUFJYNEVUY3I2SHVubzhXK1BVcWRiRzJWdmxkbWZqbXJLMmFwdHUrdkZvckhIWDFtaFZ2Slh1eXFhN1Z5cEw4elRqUUUzRmd5Y3RCb2ZpSklyMmJMbUo1OWh4OW5OREtaNlZ6SmFVemQ4OWltdDk0dXF2YUVrVXZLVnJPdGxwcE44bHE4aGtMNWVmL1FCYXJDNVRBQUI0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTptc2JtNztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBVWdBQW9BQUFBQUJrUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFY0FBQUJnaDJsMUNXTnRZWEFBQUFFOEFBQUFNd0FBQUVRQVlBRWJaMng1WmdBQUFYQUFBQUpyQUFBRElMaGQraEJvWldGa0FBQUQzQUFBQUNrQUFBQTJZcWhEdUdob1pXRUFBQVFJQUFBQUlBQUFBQ1FHb2dHamFHMTBlQUFBQkNnQUFBQVFBQUFBRUFybEFEQnNiMk5oQUFBRU9BQUFBQW9BQUFBS0Fod0E5bTFoZUhBQUFBUkVBQUFBRmdBQUFDQUFDUUJrYm1GdFpRQUFCRndBQUFDMUFBQUJHays1RXJSd2IzTjBBQUFGRkFBQUFBd0FBQUFnQUFNQUFIamFZMkJtMnNrNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwUjBZOGhtWWZuN2g0R0JoWVdKQlZYTi8vOE1EQUFIWXc1akFIamFZMkJnWUdKZ1lHQUdZaEVneVFpbVdSZ01nRFFIRUlMazNCaDhHTEwvLzBldy91Lyt2KzMvRExCYU1BQUE1NlVMZFFCNDJuV1N2V3NVUVJqRzU1M2R6TnplN3M3c3grenNYdTY4R0pmYlRVSSt2THZjYkRRWWhVTkJKVVdJYUloQ3hLaFZSTEJRc0VobjUwZGg0VDhnZ24rQW5kajVIMWdFc1JHc3hGcUxjQnZuTHNGQ2RJcVg0V0ZlbU4velBNaEU3T0FBWDhVZjBGblVSeGZSQmtJUUVWbW9KcEI4a21RckVFdVYreXFqWkI1VVBLa2tqYVMrOXVZaFR6TnlERHFxV0N3Nmt2cVNuTWg2MlFKa2tNclk2QkVhUy9BcG9kMHNOd3BWYUJFczNEaFZGU0JZdWNjaUVFNGVBcFl6VkVERU1JNGRBRklqNXAzdGs4SDQ4Z1lKWERJU3JObG9BU3BGS2w0a3pacGYvdFRpVGdVRFlPdWVmckR4YTBwcVpad2NqU1RGMElwSGl3Q09mTUlFY0xwMEJXUFozaXV1Q1N6Yzhqc0xQT3V5dEZ3NGw5VEtMK3NOem0xZ2cvMmF6N2lQdzRZSXVZY003Y3NBUDllK3pLSmw3UTBDWDhpaUsxV3hBb1hxeFB4LzlqRElNMEtQd1AwajhJSlFzTWNEVlZ0dHIyU1lOTEN3eGhxRHIzK2JBQzRQSWJEeWNGY0QzTGNNQUxxak1UNVc0ejdlS3ExMmhNR2JtTDRnWGYvcGFjLzRCL0JveE9tSXhWR3dYK2VjZTRPMzUrdlRTQjhUQ1oxMXJwbFcwUnE2am01cHF1N3d4eWtERGhNZ1l4bDNocm1uUTdCdWtlczBxUzdESDdHbkNtMkFwdFVwNTRzcTFzdlUxNGIwaHNxUVg4TzJmRG1LUEpWaDNBVGF6V0h6RlF2QkpXSnA3dExOOWh3M2JjUFJyTzkwTXNKMktpYmZ0cUVxVEVmWDRnMFRobXNMQUR1c1VpellvOWlGMjBFQ2hEa1VJalUxUjhwdm1OM1E2YSt4Wnc4ZEFsdnY0VE9RaE9LMDFYOThab2tUb01saEU4eXc0dTFhZDcyWnNVUEY1UWJVQy9oVTc1aUdXUjFXeTZtVjI1dnN1RFFpclNTazMrU3Z5Nm5aTlBEeGVsbytlQmxFOWcrRWZnTk1CVy9OQUhqYVkyQmtZR0FBNHBrYTc1VGorVzIrTWpDek1HQ0MvMytaSnpMdEF6STRHSmhBZkFEQ2FBYlZBQUFBZU5wallHUmdZR0g1KzRlQmdYa2lBeCtESUZNZkExQUVCYkFBQUZkYUEwc0RrUUFBQW5JQURnS3FBQTRDT0FBVUFBQUFBQUNNQVBZQmtBQUFlTnBqWUdSZ1lHQmhTQVppRUdCa1FBTUFDc01BYmdBQWVOcE5pOEVLZ2tBVVJZK2tRYmF1UmF2NUFpa1UyclVMK3dLWGdlSmdRaG80SmJUcDI3dmFMSHJEM0hmdWUvY0JNUjhDcGdxSVpwMHFGRWVlSTlaSy9YZ3B0L0VjczlOYkVJUXJUV0l5ejZINDVEbGl5OFh6VXZPcjV5bDlPNy91ZHVoYzFSMExPN2oyMFp0RHNwOTlibnM3bEU5Ym0rcHQ2ckYxWTlPWk5NbVNsRE12N2xnR09oeVY5RWd4ZTBmTGd4N0RnWVQ5M3o3WHZwOHpKVS8xV3BtS3Q3Um0xSldUTmtvYVVsMW0rdWtYN0JNbnJRQUFBSGphWTJCbXdBc0FBSDBBQkE9PSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtbWk3O3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFSa0FBb0FBQUFBQlRnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVZQUFBQmdoYXAxaUdOdFlYQUFBQUU4QUFBQUxBQUFBRFFBREFDYloyeDVaZ0FBQVdnQUFBR25BQUFDRUNIdG5RbG9aV0ZrQUFBREVBQUFBQ2tBQUFBMll1NUR1MmhvWldFQUFBTThBQUFBSGdBQUFDUUhJUUtuYUcxMGVBQUFBMXdBQUFBTUFBQUFEQW9SQUk5c2IyTmhBQUFEYUFBQUFBZ0FBQUFJQUhvQkNHMWhlSEFBQUFOd0FBQUFGd0FBQUNBQUJRQmNibUZ0WlFBQUE0Z0FBQURQQUFBQk9QTmpLcWR3YjNOMEFBQUVXQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1qbWFjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4d0FFakF4SklLUzVMQjBxNk0zZ3dNL3dIOHBraDBqQTFIZ3dNLzRIQ0FNbnlEU01BQUhqYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnVWdEUUxFSUw0SHYvL0EwbjMvLy8vN3dMekdRQlRKZ2FrZU5wdGtEOXYwMUFVeFgzdWUzNHZybU0veDBudEZNbHhVbE1iRkdpa2dPd1dxaHExS2xSUm9YU29XbEZWZ0ZUK2JIUkFETjFZUUd3SThRMVlZR1ZtNHh1dzhBbllFQU5pSmVFNUVndFVWN3JENzl4N2RjNDFZR3hPdnJONzlNVzRhUmhnTHBJc3pVb3NJa3VGZENHRFVGY3h6RXVXcDFrcXhTcGlLb2FoVyttS2hKN1RLN3JuUlZWQmpDQXM4akJnZDBzbTY3WUFBZmNQTHI3WldkNEF2MVozcm85V243VnRIN0RiVVNjbEpYZDJqMTBpSmZwdEdiVE0yZGc2LzN6ajdYdXcvYVh0azljSGkrS0NHTldsUzUvSEUxVWpzcHhvL3duUllHdmw0KzdUb1YwN1IvM0IyVkhOc29pQjlXcGc0SjZTUUtON2VDc3lNNysvd042ZHZEamV2SFNiOFlRbnpyWkxUTWMwYmt3bTdDdDlNdTVVbWFYUXRuTWRkZ0NGK1ZTN3o0dG03M1JjNU9rQWliaWN4eWd4REdaYm92b0RlaVVxNFIvT0RsOXlTQzlMQUdVK2VMaXUwSENYTzJ4dC9HSDlML2ZNb3lsM3JrVHNGWWZsemJteE1vOGVyZG5DZDVZNi9DcjJWalJXV1hkNllVWTAvRHlpeDcrL2hWSVE4YVlud1lsaUhkay9BMnY4NnhSTTNVQUtNRDQvWlROY2Eyak8vZmo1UDIwWnhoOC92VWgrQUhqYVkyQmtZR0FBNGpiWHV0UjRmcHV2RE13c0RKamcveHZtNjB5WGdBd09CaVlRSHdDL1dBYjZBQUFBZU5wallHUmdZR2I0endBazl6SzQvMy9HZkowQktJSUNtQUZ3dWdUT0FBQUN4Z0FBQTQ0QVNBTzlBRWNBQUFBQUFIb0JDSGphWTJCa1lHQmdab2htQU5FTVVCSUpBQUFKbXdCaUFIamFUWXc5YjhJd0VJYWZxQWxTdzlDbDZ0Q2g5Y0FjZ1JLSmpZV0JpWldKQmJCQkdXd2pKMFJDUW96ODdoNnVCMDd5NlhrL3prREpuWXpuWkh6RS9aeWNRdFEvRjR6NVREd1M5WnU0NUpzSmIyVDV1emcvTEJMbmttd1RGM3h4VER3Uy81YTRwT0d4OVBaODZVMVFhNjlOY0FkcjIvbkdoSzcxVHMycWFkUXI0MHpZOVVhci9WWHBvZTJHazFWMTFWUTFTenlXTXhkNkRBSEZXaHdkMlhHUXpOSXlaeE9kVHRpTHI1aFJNWDNKVjVLNzJObkZuN1IwOWx4bGF3WnBkTEpQMGxYVWN0bklxLzhBemJFdi93QjQybU5nWnNBTEFBQjlBQVE9KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21zeTc7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQUx3QUFvQUFBQUFBMWdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRWNBQUFCZ2lJWnlLbU50WVhBQUFBRThBQUFBS1FBQUFEUUFEQURQWjJ4NVpnQUFBV2dBQUFBMEFBQUFOTG4rZEZSb1pXRmtBQUFCbkFBQUFDa0FBQUEyWXFoQy9XaG9aV0VBQUFISUFBQUFIUUFBQUNRRWZnQlphRzEwZUFBQUFlZ0FBQUFJQUFBQUNBVHNBSk5zYjJOaEFBQUI4QUFBQUFZQUFBQUdBQm9BQUcxaGVIQUFBQUg0QUFBQUZ3QUFBQ0FBQkFBTmJtRnRaUUFBQWhBQUFBRFBBQUFCT0JPREtyOXdiM04wQUFBQzRBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbUttT2N3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXh3QUVqQXhKSUtTNUxCMHJXTU5Rd0svNHhZbUJnVm1RK2g2cm0vMzhHQmdEMzhBNmZBSGphWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmdVZ0RRTEVJTDROZi8vUThqL3JXQStBd0JYYmdiWUFBQUFBQUVBay84QkFNZ0Mvd0FMQUFBVEVSWUdJaVkzRVNZMk1oYkhBUWtqQ1FFQkNTTUpBdGo4VUEwYUd3d0RzQTBhR3dBQUFIamFZMkJrWUdBQVlrWE90MHZqK1cyK01qQ3pNR0NDLzR6TUU1bitBeGtjREV3Z1BnQ3hGZ1lFQUFBQWVOcGpZR1JnWUZiOFl3UWtKekpNQnNJVERFQVJGTUFFQUY1K0E5a0FBQUFEa1FBQUFWc0Frd0FBQUFBQUdnQUFlTnBqWUdSZ1lHQmk0R0VBMFF4UUVna0FBQUhKQUJJQWVOcE5qTCtMd2pBVXh6L0ZWckEzdUlqRERacmg1cUswNE9iaTRPVHFkSXVhS0IyYVNsSUxoZU5HLzI2ZnVRejNJSS9QOThjTGtQTkx3bnNTcG1HL0p5VVQ5Y2NaSDh3aWowVXRJK2Q4OHNXSUpKMklzMkFiT1pYa08zTEduR3Zrc2ZnL2tYTXFucnUydVQ4NjQ5U2gxY2JaUytPSHpkRTRYN2RXcll0VjBIdGpqVHQxUnF2em9IUmYrLzdXcUxLb2lwSWRMUTEzSG5RWUhJcURPRHF3NVNLWloyRERNVGllV2xJcnJUVUZxMy81WG5JYk9xZndrNWJPV1JJbDFNdVZsMzJUdHFLVXkwcGUrUUwxaVRCWEFIamFZMkJtUUFhTURHZ0FBQUNPQUFVPSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtbWkxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBUlVBQW9BQUFBQUJTZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFWUFBQUJnaGFwMUoyTnRZWEFBQUFFOEFBQUFMQUFBQURRQURBQ2JaMng1WmdBQUFXZ0FBQUdTQUFBQitGSGlnNmhvWldGa0FBQUMvQUFBQUNrQUFBQTJZcDFEdW1ob1pXRUFBQU1vQUFBQUhnQUFBQ1FHc1FJa2FHMTBlQUFBQTBnQUFBQU1BQUFBREFqdUFGdHNiMk5oQUFBRFZBQUFBQWdBQUFBSUFINEEvRzFoZUhBQUFBTmNBQUFBRndBQUFDQUFCUUJSYm1GdFpRQUFBM1FBQUFEVUFBQUJQcGtWZGNsd2IzTjBBQUFFU0FBQUFBd0FBQUFnQUFNQUFIamFZMkJtK3NVNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwUjBaL0JnWnZnUDVETkRwR0ZxUEJnWS9nT0ZBUU5tRGNFQUFIamFZMkJnWUdKZ1lHQUdZaEVneVFpbVdSZ1VnRFFMRUlMNEh2Ly9BMG4zLy8vLzd3THpHUUJUSmdha2VOcHRrRUZQRTBFWWh2ZjlaanV6ZE5uWjJtMjdsWFpiR21TWFl0SW1zdXhRUWxvOTFCSkNJQUhpUVQxNk1uQ3l4OFlEYlRTYWVDY2svaFB1OEFOTS9BdDY1RXhzblRXY2luT1o1TW56SFo3WGdMRXgrODFzK21FY0dBYVl4RW9VUmozRW9ZVGdMcmhmZ3lxcFJDVTlkQkcyd2J1b2szb21FWVhjSlMyMUVLVnEraWVwcDBwK3lWZUpYMkxaNTR4bkZ6SWd2UHIrK1dtL2JPZklIQjFVdHJ5ODhxV0E0Nms2cE5nZG5EcXd6WFdmTjdJWkVndUI1WVRoOXN1UEY4U080NzBQaytQbUd0K1ZXS1NiNloyK0l1R0dyOTlqUDNuN1p2M2s4ZkFkS0pmSmxnZWRhdDRpWWxVTFlPYVNBUExMNDZqSVFjMWlidGt0ZzEyT3ZnejM0aU5tUGxtVmg1S1lvUitNdGRtTWZhSXI0ekJ0RnpVa0JkNkcwQXZFT2lCUlh1Ti9NRjZKZUp6VW9YUm9nYWM3b1BFUU11Y3J3MnJIRVpOenZZRzBXMDArbUY3My96RnJjbTVwSnJkcm1XL1ZNSEQ0Wkt5ZG5MY1ptRHZZZWxHSkFuMDIxb3BiMkF6bzdNL1B2TVBOUUlBeGtPWHFPcnVNcGVtdmVlclZxUE5JajNDUDlGb29WbTdoekRPZC9oYzgrVVF2QUFCNDJtTmdaR0JnQU9KNzIyVy94dlBiZkdWZ1ptSEFCUDlmTXJjeFhRRXlPQmlZUUh3QTVvSUhvUUFBQUhqYVkyQmtZR0JtK004QUpJTVpOUDZmWlc1akFJcWdBR1lBVzRjRDJ3QUFBbllBQUFNbEFETURVd0FvQUFBQUFBQitBUHg0Mm1OZ1pHQmdZR1lJWUFEUkRGQVNDUUFBQ0lnQVZ3QjQyazJPc1dyRE1CUkZqNmxqaUJQbzFBNGRncWFPeHNiK2dFS0dURmt6RnBKSUJCY2tCZGt4WkNuOWdIeDBYaFFOZlVLUG8vT3VoSUNTWHpJZWxmRWErNk55Q2prOWVjYUN0OFNGTEpXNDVJTlBYc2p5dVpnVlg0bHpsbndubnZIT1QrSkMvRi9pa283YjJ0dnpaVFJCYmIwMndSMnQ3WnQ2WjhMUWU2ZWFxbjZLalhFbTdFZWoxZUdxOU5RUDA4bXF0dXFxbGpVZXk1a0xJNFlnUDl1SzBaRWRSNWxaZWhwcWR0RU5jdkl5VWVJcXNmOFRHMG00bU5ySDE3U2tEbHlsYXliSkROSlBrbGEwY3JlVDNkNEI0aFF3dzNqYVkyQm13QXNBQUgwQUJBPT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTptc2JtMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQVNnQUFvQUFBQUFCV1FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRWdBQUFCZ2hyMTA1Mk50WVhBQUFBRThBQUFBTVFBQUFEd0FvZ0IrWjJ4NVpnQUFBWEFBQUFIdEFBQUNUT0l1SzBwb1pXRmtBQUFEWUFBQUFDa0FBQUEyWWpORHVtaG9aV0VBQUFPTUFBQUFIZ0FBQUNRR0ZBR0RhRzEwZUFBQUE2d0FBQUFNQUFBQURBZkdBQ0pzYjJOaEFBQUR1QUFBQUFnQUFBQUlBSXdCSm0xaGVIQUFBQVBBQUFBQUdBQUFBQ0FBQ0FCa2JtRnRaUUFBQTlnQUFBQzdBQUFCSUo5THFRQndiM04wQUFBRWxBQUFBQXdBQUFBZ0FBTUFBSGphWTJCbW1zNDRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFIwWThobVh2Y3ZpSUdCZVIzak9sUTEvLzh6TUFBQUZzRVBrM2phWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmcwZ0RRYmtHWUV5cm94WlAvL0QrU0Q2Zis3LzA4SHF3SUNBSlZwQ1JvQUFBQjQyajNSTVcvVFFCakc4WHZPNWk2TzdYTnNuODlPR3dMRmloMVZUVXVUeGhlRUtFaVpBREZVUlJBVkpCQUJKbGdZUUdKZ1kwUU1ESHdCeERkZ1Ezd0toZ294TWlGbUdCQXVseFN4bkU1LzNUdTh2eU0yRVVkSDlBYjlSQzZTS2JsTVpvUWdZVXBYWGJCeWpSVzdTRlZWaGxYQjJTYXFkSzFTUEZIbU90NUVtUmZzSklhVjN0RkR4VVBGemhUallnc0ZjcFZhWThaVGhaQXpQaXBLUzFmYVJEaTBjNjRwSVVWOUtCSklyNHhCMVRxWFNBU2xxUWV3TnJNZnpNOUdLK2RuTFBMWk1qZ2J5UllhT3BldnMyNDdySCthK0toQkFlbzhOZzltdi9yS2xCWDI3OGh5aWw2NkhBUTg5VkpJQkh4eW5WSzFmYWh2U2lyOStydUlXczVWNWZpNGxMWHJyL3VkSUhBaC92eHVoeUlJYWR5UmNkQWlOcEhHcFRRdTE4Z2V1VVh1R1pkUnBRUnlnUUNub0ZLVkRoZEcrY0pvcEV1ek9UZHcvK080MHFyU0JzNklsRHRWYW9aNXFIY3hYcFFGcFJIcGhXckprNnM0N1lLUFNoeThGVEY4SmllREszZTNCNEh0V3A3QitXQzJrSzdYc0lPNWk2YTBQVVA0WGtqTGR5WGd4azFPcFhpVytyZ2ZaV0RDNDBpcS9vRFYzNmk0YmFUMnhLdW5Ic09kai9nQ2xuR2E5NmJQTDB3Q0JwNGRxOWx4by9YQ2VkaGFQM0ZjL01EQ3FzYm4xYUZ0MmMzRk4zanRlbjRnVGlzck1TVmowMjd3cnU1djVGRkk5L1A2eVpzb2NYOFE4aGVUVDFKSUFBQUFlTnBqWUdSZ1lBRGlUWFBUZStQNWJiNHlNTE13WUlMLy81bGxtUFlCR1J3TVRDQStBTkErQnRNQUFBQjQybU5nWkdCZ1h2Y3ZDRWpLTVBBeENES0ZNUUJGVUFBekFFa1dBcDBBQUFNY0FBQUNjZ0FPQWpnQUZBQUFBQUFBakFFbWVOcGpZR1JnWUdCbVNHWmdZUUFCUmdZMEFBQUtxQUJ0ZU5wTmpMR0tnMEFVUlkrc0NtdFNwd2hiekJlSW9teTlUVWlUT24zRUlRaVpDVGlKWUxQZnZsZWRZdDlqM3B5NW5EZEF3UzhKU3lWazYxd3FKZGRyNDR5ZGV1TmNmWWhjY09TTEQ1TDBVMG5CZCtTVVBUK1JNOW1YeUxueUxuSkJpeis5SDNaMG9YTjFkYlZqR0o3ZTFHVzFCV2ZyN1hoNzJkNTBzK21uSVV4M1o1cXlMUnRPdkhsZ0dYRUUvZWlvcWJpdVNXRGdpY2NvSzVYK044NHkvR3JkZU9udVpYWE1tajJUOW9MbVhhNmgwVzZyMC93QnpDRW9jUUI0Mm1OZ1pzQUxBQUI5QUFRPSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtYngxMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTU1BQW9BQUFBQUEzd0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFTUFBQUJnaFV4MG5tTnRZWEFBQUFFNEFBQUFLUUFBQURRQURBQ0VaMng1WmdBQUFXUUFBQUJRQUFBQVVJSWZmak5vWldGa0FBQUJ0QUFBQUNjQUFBQTJZZHBEbkdob1pXRUFBQUhjQUFBQUlBQUFBQ1FGVXdJYWFHMTBlQUFBQWZ3QUFBQUlBQUFBQ0FVUkFGZHNiMk5oQUFBQ0JBQUFBQVlBQUFBR0FDZ0FBRzFoZUhBQUFBSU1BQUFBRndBQUFDQUFCQUFaYm1GdFpRQUFBaVFBQUFEVkFBQUJQcDBvZGNKd2IzTjBBQUFDL0FBQUFCQUFBQUFnQUFNQUFYamFZMkJtNm1DY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeHdBRWpBeEpJS1M1TEIwb2FNaGd5TS93SDhwa2gwa2hxL2dPRkFkS3dETm9BZU5wallHQmdZbUJnWUFaaUVTREpDS1paR0JTQU5Bc1FndmlHLy85RHlQOFh3SHdHQUZGSEJvMEFBQUFBQVFCWEFBQUIrZ0tmQUJjQUFBRVJNeFVuSXdjMU14RU9BU2NqTlRNV05qYzJQd0V5RmdGcWtHVFBaWTh1U2cwVkZSTjhQZ1lGREJNSkFuNzlzakFEQXpBQ0VnOEhBVEFDRXlvRkFRRVJBSGphWTJCa1lHQUE0dVphSzhkNGZwdXZETXdzRE5nQTB4R20rVUNLZzRFSnhBTUFsZkFFbFFCNDJtTmdaR0JnWnZqUHdNREFkSVFobkNHWThSY0RVQVFGTUFFQVV6WURjZ0xFQUFBQ1RRQlhBQUFBQUFBb0FBQjQybU5nWkdCZ1lHS1FZQURSREZBU0NRQUFBdlVBSGdCNDJrMk9zWXJDUUJSRlR6QUdqTUpXdThVV01wVmxTRWcrWU1IQ3l0Wnl3VGlEUk1oRUpqRm9zK3dIK05FK3h5bDh3MXpPM0hmZlk0Q1VQeUtlRmZIaDlWa3hpYnhlUEdYT1orQkVqZ3FjOHMyS0NWRThFMmZKVCtDWUJiK0JwM3h4Q3B5SS94ODRwZUsrN3RyelpUQk9iVHR0bkQyMDliWElkOGIxVFdkVmtlVXZZMk9zY2Z2QmFGWGZsQjZiZmp5MnFzeXFyR1JOUjh1WkN3TUdKei9iaXFNOVd3N1NxN2xTa0xQelhrOGpmU3U1Z2t6Yzk4UkdFdGFuOW42YmxsVE5UVlF6eWx3dmVwUzhvcFRaU203NUFPbE9NTk1BQUFCNDJtTmdaa0FHakF4b0FBQUFqZ0FGKSBmb3JtYXQoJ3dvZmYnKTt9CnRleHQuZjAge2ZvbnQtZmFtaWx5OmNtYngxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYxIHtmb250LWZhbWlseTptc2JtNztmb250LXNpemU6Ni45NzM4NDhweH0KdGV4dC5mMiB7Zm9udC1mYW1pbHk6bXNibTEwO2ZvbnQtc2l6ZTo5Ljk2MjY0cHh9CnRleHQuZjMge2ZvbnQtZmFtaWx5OmNtc3k3O2ZvbnQtc2l6ZTo2Ljk3Mzg0OHB4fQp0ZXh0LmY0IHtmb250LWZhbWlseTpjbW1pMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KdGV4dC5mNSB7Zm9udC1mYW1pbHk6Y21taTc7Zm9udC1zaXplOjYuOTczODQ4cHh9CnRleHQuZjYge2ZvbnQtZmFtaWx5OmNtbWk1O2ZvbnQtc2l6ZTo0Ljk4MTMycHh9CnRleHQuZjcge2ZvbnQtZmFtaWx5OmNtcjc7Zm9udC1zaXplOjYuOTczODQ4cHh9Cl1dPgo8L3N0eWxlPgo8ZyBpZD0ncGFnZTEnPgo8ZyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0yOC4xOTUyNDcsLTMyLjgzNDMxNSlzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgZmlsbD0nIzAwMCcgc3Ryb2tlPScjMDAwJz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQnPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMjguMjI5MTEsLTM1LjY1MjgzKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMjguMTk1MjQ3LC0zMi44MzQzMTUpc2NhbGUoLTEsLTEpJz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0xOS4zNjAzNTIsLTk3LjAxMDQzMylzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTIuODc0OTgsMC4wKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMTkuMzYwMzUyLC05Ny4wMTA0MzMpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTE5LjM2MDM1MicgeT0nLTk3LjAxMDQzMyc+MTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgyMC43MTg0NDgsLTk3LjAxMDQzMylzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTIuNzc3NzksMC4wKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgyMC43MTg0NDgsLTk3LjAxMDQzMylzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PScyMC43MTg0NDgnIHk9Jy05Ny4wMTA0MzMnPms8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTE5LjM2MDM1MiwtNjQuOTIyMzc0KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNC41NjI0OCwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0xOS4zNjAzNTIsLTY0LjkyMjM3NClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2Y0JyB4PSctMTkuMzYwMzUyJyB5PSctNjQuOTIyMzc0Jz5IPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDIwLjcxODQ0OCwtNjQuOTIyMzc0KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMi43Nzc3OSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDIwLjcxODQ0OCwtNjQuOTIyMzc0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9JzIwLjcxODQ0OCcgeT0nLTY0LjkyMjM3NCc+azwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZT0nIzAwMCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMTkuMzYwMzUyLC0zMi44MzQzMTUpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zLjkzMTI0LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTE5LjM2MDM1MiwtMzIuODM0MzE1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjQnIHg9Jy0xOS4zNjAzNTInIHk9Jy0zMi44MzQzMTUnPkc8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMjAuNzE4NDQ4LC0zMi44MzQzMTUpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zLjA1NTU2LDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMjAuNzE4NDQ4LC0zMi44MzQzMTUpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nMjAuNzE4NDQ4JyB5PSctMzIuODM0MzE1Jz5GPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tMTEuOTgwNTYgMzEuMjYzOTVIMTMuMTg0NzInIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTMuMzg0NywzMS4yNjM5NSknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tMTkuMzYxMDggMjQuOTA0MjJWNy4yNDg2JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zMy41NDg1NSwxNC4zMjY0MiknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTI4LjE5NTI0NywtMzIuODM0MzE1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjMnIHg9Jy0yOC4xOTUyNDcnIHk9Jy0zMi44MzQzMTUnPnw8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNScgeD0nLTI1LjgyOTEwNicgeT0nLTMyLjgzNDMxNSc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PSctMTguNzcwODQxJyB5PSctMzIuODM0MzE1Jz58PC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTTIwLjg2ODAxIDI0LjkwNDIyVjcuMzA0MTcnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMjMuMjIwNzYsMTMuNzYxOTgpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0yOC4xOTUyNDcsLTMyLjgzNDMxNSlzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2Y3JyB4PSctMjguMTk1MjQ3JyB5PSctMzIuODM0MzE1Jz5bPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy0yNS45Mzk4MDInIHk9Jy0zMi44MzQzMTUnPms8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNycgeD0nLTIyLjA2NTQ3NicgeT0nLTMyLjgzNDMxNSc+OjwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PSctMTkuODEwMDMxJyB5PSctMzIuODM0MzE1Jz5rPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjYnIHg9Jy0xNS45MzU3MDUnIHk9Jy0zNS44NDA4MzInPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNycgeD0nLTkuNTM2MDQ0JyB5PSctMzIuODM0MzE1Jz5dPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTS0xMC4yOTMwNi0uOTQ0NDRIMTMuMTg0NzInIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTMuMzg0NywtMC45NDQ0NCknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi4wNzk4OCAyLjM5OTg2Qy0xLjY5OTg5IC45NTk5Mi0uODUzMTMgLjI3OTk4IDAgMEMtLjg1MzEzLS4yNzk5OC0xLjY5OTg5LS45NTk5Mi0yLjA3OTg4LTIuMzk5ODYnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tMTkuMzYxMDgtNy4zMDQxN1YtMjQuOTU5OCcgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNDEuODE2MjUsLTE3Ljg4MTk3KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMjguMTk1MjQ3LC0zMi44MzQzMTUpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmNycgeD0nLTI4LjE5NTI0NycgeT0nLTMyLjgzNDMxNSc+WzwvdGV4dD4KPHRleHQgY2xhc3M9J2Y1JyB4PSctMjUuOTM5ODAyJyB5PSctMzIuODM0MzE1Jz5HPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjcnIHg9Jy0xOS43MzcwNzgnIHk9Jy0zMi44MzQzMTUnPjo8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNScgeD0nLTE3LjQ4MTYzMycgeT0nLTMyLjgzNDMxNSc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2Y3JyB4PSctMTAuNDIzMzY3JyB5PSctMzIuODM0MzE1Jz5dPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjM5OTk4Jz4KPHBhdGggZD0nTTIwLjg2ODAxLTcuMzA0MTdWLTI0LjkwNDIyJyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDIzLjIyMDc2LC0xNy44NTQxOSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTI4LjE5NTI0NywtMzIuODM0MzE1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjcnIHg9Jy0yOC4xOTUyNDcnIHk9Jy0zMi44MzQzMTUnPls8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTI1LjkzOTgwMicgeT0nLTMyLjgzNDMxNSc+TDwvdGV4dD4KPHRleHQgY2xhc3M9J2Y3JyB4PSctMjEuMjkwNjA3JyB5PSctMzIuODM0MzE1Jz46PC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy0xOS4wMzUxNjInIHk9Jy0zMi44MzQzMTUnPkY8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmNycgeD0nLTE0Ljc3MzQwMicgeT0nLTMyLjgzNDMxNSc+XTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC4zOTk5OCc+CjxwYXRoIGQ9J00tMTAuOTI0My0zMy4xNTI4M0gxMi45MDY5NScgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgxMy4xMDY5MywtMzMuMTUyODMpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuMDc5ODggMi4zOTk4NkMtMS42OTk4OSAuOTU5OTItLjg1MzEzIC4yNzk5OCAwIDBDLS44NTMxMy0uMjc5OTgtMS42OTk4OS0uOTU5OTItMi4wNzk4OC0yLjM5OTg2JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[\usepackage {quiver, amsopn, amssymb, mathrsfs}]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+  \begin {tikzcd}
+  \mathbf {1}\ar [r]\arrow [d,"|H|",dash,swap] & \Bbbk \arrow [d,"{[\Bbbk  : \Bbbk ^{H}]}",dash]\\
+  H\ar [r]\arrow [d,"{[G:H]}",dash,swap] & \Bbbk \ar [d,"{[\mathbb {L} : \mathbb {F}]}",dash] \\
+  G\ar [r] & \mathbb {F}
+  \end {tikzcd}
+]]></fr:resource-source></fr:resource></html:center>
+
+preserves the index. In other words
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : \Bbbk ^{H}]=|H|,]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[[G : H]=[\Bbbk ^{H} : \mathbb {F}].]]></fr:tex></fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}=\Bbbk ^{H_{1}}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}=\Bbbk ^{H_{2}}]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[\mathbb {L}_{1}\cap  \mathbb {L}_{2}=\Bbbk ^{\langle  H_{1},H_{2}\rangle }]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\langle  H_{1},H_{2}\rangle ]]></fr:tex> is the subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> generated by the union of the underlying sets, and
+<fr:tex
+display="block"><![CDATA[\mathbb {L}_{1}\mathbb {L}_{2}=\Bbbk ^{H_{1}\cap  H_{2}}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}\mathbb {L}_{2}]]></fr:tex> is the <fr:link
+type="local"
+href="nt-001A.xml"
+addr="nt-001A"
+title="Composite Field">composite</fr:link> of <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {L}_{2}]]></fr:tex>.</fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1173</fr:anchor><fr:addr
+type="machine">#361</fr:addr><fr:route>unstable-361.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from the propositions proved earlier.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1978</fr:anchor><fr:addr
+type="user">nt-002P</fr:addr><fr:route>nt-002P.xml</fr:route><fr:title
+text="Galois extension and Galois group">Galois extension and Galois group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 14.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <fr:link
+type="local"
+href="nt-000J.xml"
+addr="nt-000J"
+title="Degree of extension">finite extension</fr:link> <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is said to be <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Galois</html:dfn> if
+<fr:tex
+display="block"><![CDATA[|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})| = [\Bbbk  : \mathbb {F}].]]></fr:tex>
+In that case, we write <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, and it is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Galois Group of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex></html:dfn>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> and <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Galois Group of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex></html:dfn>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>627</fr:anchor><fr:addr
+type="machine">#379</fr:addr><fr:route>unstable-379.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We follow Dummit and Foote in defining the Galois group of an extension so that <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> has the maximal number of automorphisms. Some authors are more generous and just treat the Galois group as a synonym for the Automorphism group for field extensions, <fr:em>any</fr:em> arbitrary field extension.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1980</fr:anchor><fr:addr
+type="user">nt-0036</fr:addr><fr:route>nt-0036.xml</fr:route><fr:title
+text="Summary of results">Summary of results</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a finite extension. Then the following are equivalent:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <fr:link
+type="local"
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]=|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the fixed field of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of a <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable polynomial</fr:link> <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is a <fr:link
+type="local"
+href="nt-0035.xml"
+addr="nt-0035"
+title="Normal field extension">normal</fr:link> <fr:link
+type="local"
+href="nt-002B.xml"
+addr="nt-002B"
+title="Separable field extension">separable</fr:link> extension</fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1153</fr:anchor><fr:addr
+type="machine">#366</fr:addr><fr:route>unstable-366.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(1)\iff (2)]]></fr:tex> by definition.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(1)\iff (3)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(1)\iff (4)]]></fr:tex> by <fr:link
+type="local"
+href="nt-0030.xml"
+addr="nt-0030"
+title="Subfield fixed under finite subgroup of automorphisms is a Galois extension">Subfield fixed under finite subgroup of automorphisms is a Galois extension</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(4)\implies (5)]]></fr:tex> Obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(5)\implies (4)]]></fr:tex> If <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is <fr:link
+type="local"
+href="nt-0035.xml"
+addr="nt-0035"
+title="Normal field extension">normal</fr:link>, then it is the splitting field of some <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> which can be taken to be irreducible and distinct. If further <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is separable, then each <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> is separable, hence <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of
+<fr:tex
+display="block"><![CDATA[f(x)=\prod _{i}f_{i}(x),]]></fr:tex>
+which is separable as <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> are distinct, irreducible, and separable. Hence the claim.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1982</fr:anchor><fr:addr
+type="user">nt-0025</fr:addr><fr:route>nt-0025.xml</fr:route><fr:title
+text="Separable Polynomial">Separable Polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A polynomial <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> over a field <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Separable</html:dfn> if its roots are all distinct in its <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Otherwise, we say <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Inseparable</html:dfn>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1015</fr:anchor><fr:addr
+type="machine">#399</fr:addr><fr:route>unstable-399.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Consider the example where we were <fr:link
+type="local"
+href="nt-0024.xml"
+addr="nt-0024"
+title="Finding the roots of a polynomial over a finite field">Finding the roots of a polynomial over a finite field</fr:link>. All the roots for the polynomial were "inseparable" (i.e., they were "the same" when our intuition from the fundamental theorem of algebra would mislead us into thinking there were <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> roots). This is the motivation for the terminology here.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+<fr:p><fr:strong>Puzzle:</fr:strong> do we need to find the splitting field for <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> to determine if it's separable or not?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1984</fr:anchor><fr:addr
+type="user">nt-001S</fr:addr><fr:route>nt-001S.xml</fr:route><fr:title
+text="Splitting Field of a Polynomial">Splitting Field of a Polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/field_8.html#M1">field_8:def 1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> be a polynomial. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Splitting Field</html:dfn> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is an extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> such that
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> factors completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>; and</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> does not factor completely over a proper subfield of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>955</fr:anchor><fr:addr
+type="machine">#415</fr:addr><fr:route>unstable-415.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> <fr:link
+type="local"
+href="nt-001T.xml"
+addr="nt-001T"
+title="Every polynomial has a splitting field">Every polynomial has a splitting field</fr:link>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> this follows from the second condition (<fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> being the smallest such field extension).</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>957</fr:anchor><fr:addr
+type="machine">#416</fr:addr><fr:route>unstable-416.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is technically not well-defined, because the second condition only specifies the splitting field up to isomorphism.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+<fr:p><fr:strong>Exercise:</fr:strong> The Hermite polynomials are defined recursively as <fr:tex
+display="inline"><![CDATA[H_{0}(x)=1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[H_{1}(x)=x]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[H_{n+1}(x)=xH_{n}(x)-nH_{n-1}(x)]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[n>1]]></fr:tex>. What are the splitting fields for the Hermite polynomials <fr:tex
+display="inline"><![CDATA[H_{n}(x)]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[1<x<5]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>? Over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

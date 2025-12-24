@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/taras-banakh/" title="Taras Banakh" uri="http://localhost:8000/taras-banakh/" display-uri="taras-banakh" type="local">Taras Banakh</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2020</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/banakh-2020-classical/</fr:uri>
+    <fr:display-uri>banakh-2020-classical</fr:display-uri>
+    <fr:route>/banakh-2020-classical/</fr:route>
+    <fr:title text="Classical Set Theory: Theory of Sets and Classes">Classical Set Theory: Theory of Sets and Classes</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="external">https://arxiv.org/abs/2006.01613</fr:meta>
+    <fr:meta name="bibtex"><![CDATA[@misc{banakh2020classical,
+      title={Classical Set Theory: Theory of Sets and Classes}, 
+      author={Taras Banakh},
+      year={2020},
+      eprint={2006.01613},
+      archivePrefix={arXiv},
+      primaryClass={math.LO},
+      url={https://arxiv.org/abs/2006.01613}, 
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Lecture notes about <fr:tex display="inline"><![CDATA[\mathsf {NBG}]]></fr:tex> axioms.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-001P/</fr:uri>
+            <fr:display-uri>nst-001P</fr:display-uri>
+            <fr:route>/nst-001P/</fr:route>
+            <fr:title text="Classes">Classes</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>We will often informally refer to a <html:dfn>(Proper) Class</html:dfn> as an unordered collection which is "too big" to be a set.</html:p><html:p>For example, the von Neumann universe <fr:tex display="inline"><![CDATA[\mathbf {V}]]></fr:tex> is the proper class of all sets.</html:p><html:p>In practice, we seldom need to work with proper classes directly. The Working Mathematician needs only sets (until we get to Category Theory, but we'll revisit this as needed).</html:p><html:p>The <html:dfn>Axiom of limitation of size</html:dfn> asserts a collection <fr:tex display="inline"><![CDATA[C]]></fr:tex> is a proper class if and only if there exists a surjective function from <fr:tex display="inline"><![CDATA[C]]></fr:tex> to the von Neumann universe <fr:tex display="inline"><![CDATA[\mathbf {V}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>We're playing "fast and loose" with things here, but for a discussion of axiomatic set theory based on classes (using the NBG axioms), see <fr:link href="/taras-banakh/" title="Taras Banakh" uri="http://localhost:8000/taras-banakh/" display-uri="taras-banakh" type="local">Taras Banakh</fr:link>'s <fr:link href="/banakh-2020-classical/" title="Classical Set Theory: Theory of Sets and Classes" uri="http://localhost:8000/banakh-2020-classical/" display-uri="banakh-2020-classical" type="local">Classical Set Theory: Theory of Sets and Classes</fr:link>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

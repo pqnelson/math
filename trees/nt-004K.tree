@@ -1,0 +1,7 @@
+\title{Number Field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+
+\p{A \define{Number Field} is a finite field extension of #{\QQ}.}

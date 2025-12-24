@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/jordan-0003/</fr:uri>
+    <fr:display-uri>jordan-0003</fr:display-uri>
+    <fr:route>/jordan-0003/</fr:route>
+    <fr:title text="Formally real">Formally real</fr:title>
+    <fr:taxon>definition</fr:taxon>
+    <fr:meta name="source">
+      <fr:link href="/hall-2024-sandwich/" title="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras" uri="http://localhost:8000/hall-2024-sandwich/" display-uri="hall-2024-sandwich" type="local">[hall-2024-sandwich]</fr:link>
+    </fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A Jordan algebra <fr:tex display="inline"><![CDATA[(J,\circ )]]></fr:tex> is called <html:dfn>formally real</html:dfn> whenever for any <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> and for any <fr:tex display="inline"><![CDATA[x_{1},…,x_{n}\in  J]]></fr:tex>, we have:</html:p>
+    <fr:tex display="block"><![CDATA[x_{1}^{2}+\cdots +x_{n}^{2}=0\quad \hbox {implies}\quad  x_{1}=\cdots =x_{n}=0]]></fr:tex>
+    <html:p>Observe <fr:tex display="inline"><![CDATA[(\mathbb {R},\circ )]]></fr:tex> is formally real.</html:p>
+    <html:p>We can decompose formally real Jordan algebras into the direct sum of <fr:link href="/jordan-0005/" title="Simple Jordan algebra" uri="http://localhost:8000/jordan-0005/" display-uri="jordan-0005" type="local">simple</fr:link> Jordan algebras.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/jordan/</fr:uri>
+            <fr:display-uri>jordan</fr:display-uri>
+            <fr:route>/jordan/</fr:route>
+            <fr:title text="Jordan algebras">Jordan algebras</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/jordan-0001/</fr:uri>
+                <fr:display-uri>jordan-0001</fr:display-uri>
+                <fr:route>/jordan-0001/</fr:route>
+                <fr:title text="Jordan algebra">Jordan algebra</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. A <html:dfn>Jordan algebra</html:dfn> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a nonassociative algebra <fr:tex display="inline"><![CDATA[J]]></fr:tex> whose multiplication satisfies:</html:p>
+                <html:ol><html:li>commutative: <fr:tex display="inline"><![CDATA[xy=yx]]></fr:tex></html:li>
+<html:li>Jordan identity: <fr:tex display="inline"><![CDATA[(xy)(xx)=x(y(xx))]]></fr:tex></html:li></html:ol>
+                <html:p>Note that Springer and Veldkamp's <fr:link href="/veldkamp-2000-octonions/" title="Octonions, Jordan Algebras, and Exceptional Groups" uri="http://localhost:8000/veldkamp-2000-octonions/" display-uri="veldkamp-2000-octonions" type="local">Octonions, Jordan Algebras, and Exceptional Groups</fr:link> (remark 5.1.7, pg 122) note that the character of <fr:tex display="inline"><![CDATA[\mathrm {char}(J)\neq  2]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/jordan-0002/</fr:uri>
+                <fr:display-uri>jordan-0002</fr:display-uri>
+                <fr:route>/jordan-0002/</fr:route>
+                <fr:title text="Hermitian matrices over a field forms a Jordan algebra">Hermitian matrices over a field forms a Jordan algebra</fr:title>
+                <fr:taxon>example</fr:taxon>
+                <fr:meta name="source">
+                  <fr:link href="/hall-2024-sandwich/" title="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras" uri="http://localhost:8000/hall-2024-sandwich/" display-uri="hall-2024-sandwich" type="local">[hall-2024-sandwich]</fr:link>
+                </fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {A}]]></fr:tex> be a (real) normed division algebra. Let <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {A})]]></fr:tex> be the space of <fr:link href="/matrix-0008/" title="Hermitian matrix" uri="http://localhost:8000/matrix-0008/" display-uri="matrix-0008" type="local">Hermitian <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex></fr:link> matrices with entries in <fr:tex display="inline"><![CDATA[\mathbb {A}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\mathfrak {H}_{0}(n,\mathbb {A})]]></fr:tex> be the subspace of traceless matrices.</html:p><html:p>We define the <html:dfn>Jordan product</html:dfn> of <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {A})]]></fr:tex> to be:</html:p><fr:tex display="block"><![CDATA[A\circ  B = \frac {1}{2}(AB+BA)]]></fr:tex><html:p>When <fr:tex display="inline"><![CDATA[\mathbb {A}]]></fr:tex> is associative, this forms a Jordan algebra.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The claim is that this forms a Jordan algebra. We need to verify that Jordan product satisfies both axioms (commutativity and the Jordan identity).</html:p>
+
+<html:p>We observe this product is commutative since <fr:tex display="inline"><![CDATA[AB+BA=BA+AB]]></fr:tex> (thanks to the commutativity of addition) and furthermore it is linear in the first slot (therefore bilinear, i.e., it distributes over addition).</html:p>
+
+<html:p>Let us now verify the Jordan product satisfies the Jordan identity.</html:p>
+
+<html:p>We see that:</html:p>
+
+<fr:tex display="block"><![CDATA[\begin {align*}
+8(A\circ  B)\circ (A\circ  A) &= 2(AB+BA)\circ (A^{2}+A^{2})\\
+&= 2(AB+BA)A^{2} + 4A^{2}(AB+BA)\\
+&= 2ABA^{2}+2BA^{3}+2A^{3}B+2A^{2}B
+\end {align*}]]></fr:tex>
+
+<html:p>and</html:p>
+
+<fr:tex display="block"><![CDATA[\begin {align*}
+8A\circ (B\circ (A\circ  A)) &= 4A\circ (BA^{2}+A^{2}B)\\
+&= 2A(BA^{2}+A^{2}B)+2(BA^{2}+A^{2}B)A\\
+&= 2ABA^{2} + 2A^{3}B + 2BA^{3} + 2A^{2}B
+\end {align*}]]></fr:tex>
+
+<html:p>We see that these two are equal to each other, therefore satisfies the Jordan identity. Hence it is a Jordan algebra.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/jordan-0003/</fr:uri>
+                <fr:display-uri>jordan-0003</fr:display-uri>
+                <fr:route>/jordan-0003/</fr:route>
+                <fr:title text="Formally real">Formally real</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">
+                  <fr:link href="/hall-2024-sandwich/" title="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras" uri="http://localhost:8000/hall-2024-sandwich/" display-uri="hall-2024-sandwich" type="local">[hall-2024-sandwich]</fr:link>
+                </fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A Jordan algebra <fr:tex display="inline"><![CDATA[(J,\circ )]]></fr:tex> is called <html:dfn>formally real</html:dfn> whenever for any <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> and for any <fr:tex display="inline"><![CDATA[x_{1},…,x_{n}\in  J]]></fr:tex>, we have:</html:p>
+                <fr:tex display="block"><![CDATA[x_{1}^{2}+\cdots +x_{n}^{2}=0\quad \hbox {implies}\quad  x_{1}=\cdots =x_{n}=0]]></fr:tex>
+                <html:p>Observe <fr:tex display="inline"><![CDATA[(\mathbb {R},\circ )]]></fr:tex> is formally real.</html:p>
+                <html:p>We can decompose formally real Jordan algebras into the direct sum of <fr:link href="/jordan-0005/" title="Simple Jordan algebra" uri="http://localhost:8000/jordan-0005/" display-uri="jordan-0005" type="local">simple</fr:link> Jordan algebras.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/jordan-0004/</fr:uri>
+                <fr:display-uri>jordan-0004</fr:display-uri>
+                <fr:route>/jordan-0004/</fr:route>
+                <fr:title text="Ideal of Jordan algebra">Ideal of Jordan algebra</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">
+                  <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">[baez-2002-octonions]</fr:link>
+                </fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>We define an <html:dfn>Ideal</html:dfn> of <fr:tex display="inline"><![CDATA[(J,\circ )]]></fr:tex> to be a subspace <fr:tex display="inline"><![CDATA[B\subseteq  J]]></fr:tex> such that <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex> implies <fr:tex display="inline"><![CDATA[a\circ  b\in  B]]></fr:tex> for every <fr:tex display="inline"><![CDATA[a\in  J]]></fr:tex>. This generalizes the familiar notion of an ideal from rings (and things).</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/jordan-0005/</fr:uri>
+                <fr:display-uri>jordan-0005</fr:display-uri>
+                <fr:route>/jordan-0005/</fr:route>
+                <fr:title text="Simple Jordan algebra">Simple Jordan algebra</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">
+                  <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">[baez-2002-octonions]</fr:link>
+                </fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Now, we call a Jordan algebra <fr:tex display="inline"><![CDATA[(J,\circ )]]></fr:tex> <html:dfn>Simple</html:dfn> if the only <fr:link href="/jordan-0004/" title="Ideal of Jordan algebra" uri="http://localhost:8000/jordan-0004/" display-uri="jordan-0004" type="local">ideals</fr:link> are <fr:tex display="inline"><![CDATA[\{0\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[J]]></fr:tex> itself.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/jordan-0006/</fr:uri>
+                <fr:display-uri>jordan-0006</fr:display-uri>
+                <fr:route>/jordan-0006/</fr:route>
+                <fr:title text="Classification of formally real Jordan algebras">Classification of formally real Jordan algebras</fr:title>
+                <fr:meta name="source">
+                  <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">[baez-2002-octonions]</fr:link>
+                </fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>There are four infinite families of formally real Jordan algebras and one exception:</html:p>
+                <html:ol><html:li>The algebra <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {R})]]></fr:tex> with the Jordan product</html:li>
+<html:li>The algebra <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {C})]]></fr:tex> with the Jordan product</html:li>
+<html:li>The algebra <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {H})]]></fr:tex> with the Jordan product</html:li>
+<html:li>The <html:dfn>Spin Factor</html:dfn> algebra <fr:tex display="inline"><![CDATA[\mathbb {R}^{n}\oplus \mathbb {R}]]></fr:tex> with the product <fr:tex display="inline"><![CDATA[(v,\alpha )\circ (w,\beta )=(\alpha  w+\beta  v, \langle  v,w\rangle  + \alpha \beta )]]></fr:tex></html:li>
+<html:li>The <html:dfn>Exceptional Jordan algebra</html:dfn> <fr:tex display="inline"><![CDATA[\mathfrak {H}(3,\mathbb {O})]]></fr:tex> with the Jordan product</html:li></html:ol>
+                <html:p>(See section 3 of John Baez's <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">The Octonions</fr:link>, page 20 of the PDF.)</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/jordan-0005/</fr:uri>
+            <fr:display-uri>jordan-0005</fr:display-uri>
+            <fr:route>/jordan-0005/</fr:route>
+            <fr:title text="Simple Jordan algebra">Simple Jordan algebra</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">
+              <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">[baez-2002-octonions]</fr:link>
+            </fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Now, we call a Jordan algebra <fr:tex display="inline"><![CDATA[(J,\circ )]]></fr:tex> <html:dfn>Simple</html:dfn> if the only <fr:link href="/jordan-0004/" title="Ideal of Jordan algebra" uri="http://localhost:8000/jordan-0004/" display-uri="jordan-0004" type="local">ideals</fr:link> are <fr:tex display="inline"><![CDATA[\{0\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[J]]></fr:tex> itself.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/stuart-james-hall/" title="Stuart James Hall" uri="http://localhost:8000/stuart-james-hall/" display-uri="stuart-james-hall" type="local">Stuart James Hall</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/paul-schwahn/" title="Paul Schwahn" uri="http://localhost:8000/paul-schwahn/" display-uri="paul-schwahn" type="local">Paul Schwahn</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/uwe-semmelmann/" title="Uwe Semmelmann" uri="http://localhost:8000/uwe-semmelmann/" display-uri="uwe-semmelmann" type="local">Uwe Semmelmann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+            </fr:date>
+            <fr:uri>http://localhost:8000/hall-2024-sandwich/</fr:uri>
+            <fr:display-uri>hall-2024-sandwich</fr:display-uri>
+            <fr:route>/hall-2024-sandwich/</fr:route>
+            <fr:title text="Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras">Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras</fr:title>
+            <fr:taxon>reference</fr:taxon>
+            <fr:meta name="external">https://arxiv.org/abs/2412.08770</fr:meta>
+            <fr:meta name="bibtex"><![CDATA[@article{hall2024sandwich,
+  title={Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras},
+  author={Hall, Stuart James and Schwahn, Paul and Semmelmann, Uwe},
+  journal={arXiv preprint arXiv:2412.08770},
+  year={2024}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

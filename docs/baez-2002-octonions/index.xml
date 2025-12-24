@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/john-c-baez/" title="John C. Baez" uri="http://localhost:8000/john-c-baez/" display-uri="john-c-baez" type="local">John C. Baez</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2002</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/baez-2002-octonions/</fr:uri>
+    <fr:display-uri>baez-2002-octonions</fr:display-uri>
+    <fr:route>/baez-2002-octonions/</fr:route>
+    <fr:title text="The Octonions">The Octonions</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="external">https://arxiv.org/abs/math/0105155</fr:meta>
+    <fr:meta name="bibtext"><![CDATA[@article{baez2002octonions,
+  title={The octonions},
+  author={Baez, John},
+  journal={Bulletin of the american mathematical society},
+  volume={39},
+  number={2},
+  pages={145--205},
+  year={2002}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/jordan-0006/</fr:uri>
+            <fr:display-uri>jordan-0006</fr:display-uri>
+            <fr:route>/jordan-0006/</fr:route>
+            <fr:title text="Classification of formally real Jordan algebras">Classification of formally real Jordan algebras</fr:title>
+            <fr:meta name="source">
+              <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">[baez-2002-octonions]</fr:link>
+            </fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>There are four infinite families of formally real Jordan algebras and one exception:</html:p>
+            <html:ol><html:li>The algebra <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {R})]]></fr:tex> with the Jordan product</html:li>
+<html:li>The algebra <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {C})]]></fr:tex> with the Jordan product</html:li>
+<html:li>The algebra <fr:tex display="inline"><![CDATA[\mathfrak {H}(n,\mathbb {H})]]></fr:tex> with the Jordan product</html:li>
+<html:li>The <html:dfn>Spin Factor</html:dfn> algebra <fr:tex display="inline"><![CDATA[\mathbb {R}^{n}\oplus \mathbb {R}]]></fr:tex> with the product <fr:tex display="inline"><![CDATA[(v,\alpha )\circ (w,\beta )=(\alpha  w+\beta  v, \langle  v,w\rangle  + \alpha \beta )]]></fr:tex></html:li>
+<html:li>The <html:dfn>Exceptional Jordan algebra</html:dfn> <fr:tex display="inline"><![CDATA[\mathfrak {H}(3,\mathbb {O})]]></fr:tex> with the Jordan product</html:li></html:ol>
+            <html:p>(See section 3 of John Baez's <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">The Octonions</fr:link>, page 20 of the PDF.)</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/jordan-0004/</fr:uri>
+            <fr:display-uri>jordan-0004</fr:display-uri>
+            <fr:route>/jordan-0004/</fr:route>
+            <fr:title text="Ideal of Jordan algebra">Ideal of Jordan algebra</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">
+              <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">[baez-2002-octonions]</fr:link>
+            </fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We define an <html:dfn>Ideal</html:dfn> of <fr:tex display="inline"><![CDATA[(J,\circ )]]></fr:tex> to be a subspace <fr:tex display="inline"><![CDATA[B\subseteq  J]]></fr:tex> such that <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex> implies <fr:tex display="inline"><![CDATA[a\circ  b\in  B]]></fr:tex> for every <fr:tex display="inline"><![CDATA[a\in  J]]></fr:tex>. This generalizes the familiar notion of an ideal from rings (and things).</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/jordan-0005/</fr:uri>
+            <fr:display-uri>jordan-0005</fr:display-uri>
+            <fr:route>/jordan-0005/</fr:route>
+            <fr:title text="Simple Jordan algebra">Simple Jordan algebra</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">
+              <fr:link href="/baez-2002-octonions/" title="The Octonions" uri="http://localhost:8000/baez-2002-octonions/" display-uri="baez-2002-octonions" type="local">[baez-2002-octonions]</fr:link>
+            </fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Now, we call a Jordan algebra <fr:tex display="inline"><![CDATA[(J,\circ )]]></fr:tex> <html:dfn>Simple</html:dfn> if the only <fr:link href="/jordan-0004/" title="Ideal of Jordan algebra" uri="http://localhost:8000/jordan-0004/" display-uri="jordan-0004" type="local">ideals</fr:link> are <fr:tex display="inline"><![CDATA[\{0\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[J]]></fr:tex> itself.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

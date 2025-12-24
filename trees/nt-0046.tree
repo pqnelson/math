@@ -1,0 +1,19 @@
+\title{Galois's theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{theorem}
+
+\p{The polynomial #{p(x)} is [solvable by radicals](nt-0047) if and only if the [Galois group](nt-002P) of #{p(x)} is [solvable](gr-0052).}
+
+\proof{\p{\backwardproof Assume the Galois group of #{p(x)} is [solvable](gr-0052). If #{\LL} is the [splitting field](nt-001S) and #{G=\Gal(\LL / \FF)}, then there exists groups
+##{1=G_{0}\propersubgroup G_{1}\propersubgroup\dots\propersubgroup G_{n}=G}
+such that #{G_{j}\normalsubgroup G_{j+1}} and #{G_{j+1}/G_{j}} is cyclic.}
+\p{By the Galois correspondence, #{G_{n-i}} corresponds to Galois extensions #{L_{i}/\FF} such that
+##{\FF=L_{0}\propersubset L_{1}\propersubset\dots\propersubset L_{n}=\LL}
+where #{G_{n-i}=\Gal(L_{n} / L_{i})}. Then
+##{\Gal(L_{i+1}/L_{i})\iso\frac{\Gal(\LL /L_{i})}{\Gal(\LL /L_{i+1})}=\frac{G_{n-i}}{G_{n-i-1}}}
+is cyclic. [Then we see](nt-004F) each element #{\alpha\in\LL} lies in a [[nt-004D]], hence #{p(x)} is solvable by radicals.}
+\p{\backwardproof Assume #{p(x)} is solvable by radicals. Let #{\alpha} be a root of #{p(x)} lying in a root extension of #{\kk / \FF}. [Then we see](nt-004F) #{\alpha} lies in a solvable Galois extension #{\LL / \FF}. Since #{\LL} is Galois, it must contain the splitting extension #{\kk} of #{p(x)}. Then #{\Gal(\kk / \FF)} is a quotient of #{\Gal(\LL / \FF)} and therefore it is solvable.}}
+
+\rmk{This implies there is no general formula for the roots of a polynomial #{p(x)} of degree #{p(x)\geq5} in terms of radicals, addition, subtraction, multiplication, and division by constants and the coefficients of the polynomial.}

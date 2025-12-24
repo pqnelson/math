@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/matrix-0020/</fr:uri>
+    <fr:display-uri>matrix-0020</fr:display-uri>
+    <fr:route>/matrix-0020/</fr:route>
+    <fr:title text="Determinant of transpose is just the determinant">Determinant of transpose is just the determinant</fr:title>
+    <fr:taxon>theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. Then the determinant of the <fr:link href="/matrix-0014/" title="Tranpose of Matrix Product" uri="http://localhost:8000/matrix-0014/" display-uri="matrix-0014" type="local">transpose</fr:link> of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is just the determinant of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, i.e., <fr:tex display="inline"><![CDATA[\det (\mathbf {A}^{\mathsf {T}})=\det (\mathbf {A})]]></fr:tex>.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ela-000C/</fr:uri>
+            <fr:display-uri>ela-000C</fr:display-uri>
+            <fr:route>/ela-000C/</fr:route>
+            <fr:title text="Determinants and traces">Determinants and traces</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The last thing to discuss before moving away from matrices: determinants. These give us a way to determine if a matrix is invertible or not.</html:p>
+            <html:p>Determinants are related to the trace of a matrix, so we will also discuss them here.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001J/</fr:uri>
+                <fr:display-uri>matrix-001J</fr:display-uri>
+                <fr:route>/matrix-001J/</fr:route>
+                <fr:title text="Determinant">Determinant</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be a square <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. We define the <html:dfn>Determinant</html:dfn> of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> recursively on <fr:tex display="inline"><![CDATA[n]]></fr:tex>:</html:p>
+                <html:p>When <fr:tex display="inline"><![CDATA[n=1]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathbf {A} = (a_{1,1})]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\det (\mathbf {A})=a_{1,1}]]></fr:tex>.</html:p>
+                <html:p>When <fr:tex display="inline"><![CDATA[n\gt  1]]></fr:tex>, we define the determinant recursively as
+<fr:tex display="block"><![CDATA[\begin {align*}
+\det (\mathbf {A}) &:= \begin  {vmatrix}
+a_{1 1} & a_{1 2} & a_{1 3} & \cdots  & a_{1 n} \\
+a_{2 1} & a_{2 2} & a_{2 3} & \cdots  & a_{2 n} \\
+a_{3 1} & a_{3 2} & a_{3 3} & \cdots  & a_{3 n} \\
+\vdots   &  \vdots  &  \vdots  & \ddots  &  \vdots  \\
+a_{n 1} & a_{n 2} & a_{n 3} & \cdots  & a_{n n} \\
+\end  {vmatrix}\\
+&= a_{1 1} \begin  {vmatrix}
+a_{2 2} & a_{2 3} & \cdots  & a_{2 n} \\
+a_{3 2} & a_{3 3} & \cdots  & a_{3 n} \\
+\vdots   &  \vdots  & \ddots  &  \vdots  \\
+a_{n 2} & a_{n 3} & \cdots  & a_{n n} \\
+\end  {vmatrix} - a_{1 2} \begin  {vmatrix}
+a_{2 1} & a_{2 3} & \cdots  & a_{2 n} \\
+a_{3 1} & a_{3 3} & \cdots  & a_{3 n} \\
+\vdots   &  \vdots  & \ddots  &  \vdots  \\
+a_{n 1} & a_{n 3} & \cdots  & a_{n n} \\
+\end  {vmatrix} + \cdots  + (-1)^{n + 1} a_{1 n} \begin  {vmatrix}
+a_{2 1} & a_{2 2} & \cdots  & a_{2, n - 1} \\
+a_{3 1} & a_{3 3} & \cdots  & a_{3, n - 1} \\
+\vdots   &  \vdots  & \ddots  &       \vdots  \\
+a_{n 1} & a_{n 3} & \cdots  & a_{n, n - 1} \\
+\end  {vmatrix}
+\end {align*}
+]]></fr:tex></html:p>
+                <html:p>The notation for the determinant uses vertical lines as the delimiter to the matrix.</html:p>
+                <html:p>Note: this is defined if the entries of the matrix are elements of a commutative <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link>. The notion of the determinant of a matrix over a noncommutative ring is not well-defined.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001L/</fr:uri>
+                <fr:display-uri>matrix-001L</fr:display-uri>
+                <fr:route>/matrix-001L/</fr:route>
+                <fr:title text="Determinant in 2 dimensions">Determinant in 2 dimensions</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The explicit formula for the determinant of a <fr:tex display="inline"><![CDATA[2\times  2]]></fr:tex>-matrix is:</html:p>
+                <fr:tex display="block"><![CDATA[\det \begin {pmatrix}a & b\\c & d\end {pmatrix}=ad-bc]]></fr:tex>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001M/</fr:uri>
+                <fr:display-uri>matrix-001M</fr:display-uri>
+                <fr:route>/matrix-001M/</fr:route>
+                <fr:title text="Determinant in 3-dimensions">Determinant in 3-dimensions</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The explicit formula for the determinant in 3-dimensions is given by:</html:p>
+                <fr:tex display="block"><![CDATA[\det \begin {pmatrix}a & b & c\\d & e & f\\g & h & i\end {pmatrix}=a(ei-fh)-b(di-fg)+c(dh-eg)]]></fr:tex>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001K/</fr:uri>
+                <fr:display-uri>matrix-001K</fr:display-uri>
+                <fr:route>/matrix-001K/</fr:route>
+                <fr:title text="Geometric intuition of determinant">Geometric intuition of determinant</fr:title>
+                <fr:taxon>remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>If we look at a parallelogram in the real plane, then we can describe two edges using vectors <fr:tex display="inline"><![CDATA[\vec {v}=(x_{1},y_{1})]]></fr:tex> and <fr:tex display="inline"><![CDATA[\vec {w}=(x_{2},y_{2})]]></fr:tex>. Its area is precisely:
+<fr:tex display="block"><![CDATA[A = \det \begin {pmatrix}x_{1} & x_{2}\\y_{1} & y_{2}\end {pmatrix}]]></fr:tex>
+This is taught to students in calculus. Similarly, if we extend our discussion to a parallelipid in three dimensions, we would have three vectors and the volume would be the determinant of the matrix whose columns are these column vectors.</html:p>
+                <html:p>This intuition captures one aspect of the determinant, as describing the "volume" of a "parallelotope" (the generalization of the parallelogram and parallelepiped to arbitrary dimensions).</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001N/</fr:uri>
+                <fr:display-uri>matrix-001N</fr:display-uri>
+                <fr:route>/matrix-001N/</fr:route>
+                <fr:title text="Determinant of matrix with a zero row or zero column is zero">Determinant of matrix with a zero row or zero column is zero</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. If a column of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is all zero (or if a row of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is all zero), then <fr:tex display="inline"><![CDATA[\det (\mathbf {A})=0]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001O/</fr:uri>
+                <fr:display-uri>matrix-001O</fr:display-uri>
+                <fr:route>/matrix-001O/</fr:route>
+                <fr:title text="Determinant of triangular matrix is product of diagonal entries">Determinant of triangular matrix is product of diagonal entries</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {T}=(t_{i,j})]]></fr:tex> be a triangular <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix (either <fr:link href="/matrix-000B/" title="Upper-triangular matrix" uri="http://localhost:8000/matrix-000B/" display-uri="matrix-000B" type="local">Upper-triangular matrix</fr:link> or <fr:link href="/matrix-000C/" title="Lower-triangular matrix" uri="http://localhost:8000/matrix-000C/" display-uri="matrix-000C" type="local">Lower-triangular matrix</fr:link>, it doesn't matter). Then the determinant of <fr:tex display="inline"><![CDATA[\det (\mathbf {T})]]></fr:tex> is just the product of the diagonal entries:</html:p><fr:tex display="block"><![CDATA[\det (\mathbf {T})=\prod ^{n}_{i=1}t_{i,i}.]]></fr:tex>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The basic proof idea is to do this by induction on <fr:tex display="inline"><![CDATA[n]]></fr:tex>. The base case <fr:tex display="inline"><![CDATA[n=1]]></fr:tex> is obvious. The inductive case requires a bit of work, but amounts to following the definitions.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001P/</fr:uri>
+                <fr:display-uri>matrix-001P</fr:display-uri>
+                <fr:route>/matrix-001P/</fr:route>
+                <fr:title text="Levi-Civita symbol">Levi-Civita symbol</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>To prove properties about the determinant, it's helpful to introduce the <html:dfn>Levi-Civita symbol</html:dfn> which is a family of symbols usually denoted <fr:tex display="inline"><![CDATA[\varepsilon _{i_{1},…,i_{n}}]]></fr:tex> for some <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>.</html:p>
+                <html:p>This is defined to be such that:</html:p>
+                <html:ol><html:li><fr:tex display="inline"><![CDATA[\varepsilon _{1,2,3,…,n-1,n}=+1]]></fr:tex>, and</html:li>
+<html:li>swapping two adjacent indices costs us a sign, in the sense that <fr:tex display="inline"><![CDATA[\varepsilon _{i_{1},…,i_{j},i_{j+1},…,i_{n}}=-\varepsilon _{i_{1},…,i_{j+1},i_{j},…,i_{n}}]]></fr:tex></html:li></html:ol>
+                <html:p>As a consequence of that second property, any repeated indices give us a zero (e.g., <fr:tex display="inline"><![CDATA[\varepsilon _{i,j,j}=0]]></fr:tex>).</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001Q/</fr:uri>
+                <fr:display-uri>matrix-001Q</fr:display-uri>
+                <fr:route>/matrix-001Q/</fr:route>
+                <fr:title text="Levi-Civita symbol in two dimensions">Levi-Civita symbol in two dimensions</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The <fr:tex display="inline"><![CDATA[n=2]]></fr:tex> case is defined by:</html:p>
+                <fr:tex display="block"><![CDATA[\varepsilon _{i,j} = \begin {cases}+1 & \hbox {if }(i,j)=(1,2)\\
+-1 & \hbox {if }(i,j)=(2,1)\\
+0 & \hbox {if }i=j\end {cases}]]></fr:tex>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001R/</fr:uri>
+                <fr:display-uri>matrix-001R</fr:display-uri>
+                <fr:route>/matrix-001R/</fr:route>
+                <fr:title text="Levi-Civita symbol in three-dimensions">Levi-Civita symbol in three-dimensions</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>In three dimensions, we have:</html:p>
+                <fr:tex display="block"><![CDATA[\varepsilon _{1,2,3}=\varepsilon _{2,3,1}=\varepsilon _{3,1,2}=+1]]></fr:tex>
+                <fr:tex display="block"><![CDATA[\varepsilon _{3,2,1}=\varepsilon _{1,3,2}=\varepsilon _{2,1,3}=-1]]></fr:tex>
+                <html:p>And all other entries vanish.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001S/</fr:uri>
+                <fr:display-uri>matrix-001S</fr:display-uri>
+                <fr:route>/matrix-001S/</fr:route>
+                <fr:title text="Determinant in terms of Levi-Civita symbols">Determinant in terms of Levi-Civita symbols</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>For a <fr:tex display="inline"><![CDATA[3\times  3]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\det (\mathbf {A})=\sum ^{3}_{i=1}\sum ^{3}_{j=1}\sum ^{3}_{k=1}\varepsilon _{i,j,k}a_{1,i}a_{2,j}a_{3,k}]]></fr:tex>.</html:p>
+                <html:p>For a <fr:tex display="inline"><![CDATA[4\times  4]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\det (\mathbf {A})=\sum ^{4}_{i=1}\sum ^{4}_{j=1}\sum ^{4}_{k=1}\sum ^{4}_{\ell =1}\varepsilon _{i,j,k,\ell }a_{1,i}a_{2,j}a_{3,k}a_{4,\ell }]]></fr:tex>.</html:p>
+                <html:p>For a generic <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex>, we have:</html:p>
+                <fr:tex display="block"><![CDATA[\det (\mathbf {A})=\sum ^{n}_{i_{1}=1}\sum ^{n}_{i_{2}=1}…\sum ^{n}_{i_{n}=1}\varepsilon _{i_{1},i_{2},…,i_{n}}a_{1,i_{1}}a_{2,i_{2}}(\cdots )a_{n,i_{n}}]]></fr:tex>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001T/</fr:uri>
+                <fr:display-uri>matrix-001T</fr:display-uri>
+                <fr:route>/matrix-001T/</fr:route>
+                <fr:title text="Determinant of identity matrix is 1">Determinant of identity matrix is 1</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {I}]]></fr:tex> be the <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0004/" title="identity matrix" uri="http://localhost:8000/matrix-0004/" display-uri="matrix-0004" type="local">identity matrix</fr:link>. Then <fr:tex display="inline"><![CDATA[\det (\mathbf {I})=1]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001U/</fr:uri>
+                <fr:display-uri>matrix-001U</fr:display-uri>
+                <fr:route>/matrix-001U/</fr:route>
+                <fr:title text="Determinant of diagonal matrix">Determinant of diagonal matrix</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {D}=(d_{i,j})]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0006/" title="diagonal matrix" uri="http://localhost:8000/matrix-0006/" display-uri="matrix-0006" type="local">diagonal matrix</fr:link>. Then the determinant of <fr:tex display="inline"><![CDATA[\mathbf {D}]]></fr:tex> is just the product of diagonal entries:</html:p>
+                <fr:tex display="block"><![CDATA[\det (\mathbf {D})=\prod ^{n}_{i}d_{i,i}]]></fr:tex>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001V/</fr:uri>
+                <fr:display-uri>matrix-001V</fr:display-uri>
+                <fr:route>/matrix-001V/</fr:route>
+                <fr:title text="Determinant of product is product of determinants">Determinant of product is product of determinants</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be two <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrices. Then:</html:p>
+                <fr:tex display="block"><![CDATA[\det (\mathbf {AB})=\det (\mathbf {A})\det (\mathbf {B}).]]></fr:tex>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001W/</fr:uri>
+                <fr:display-uri>matrix-001W</fr:display-uri>
+                <fr:route>/matrix-001W/</fr:route>
+                <fr:title text="Elementary row matrix">Elementary row matrix</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {E}_{\mu ,\nu }]]></fr:tex> be the matrix which is 1 at row <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> and column <fr:tex display="inline"><![CDATA[\nu ]]></fr:tex>, but 0 otherwise.</html:p>
+                <html:p>We define the <html:dfn>Elementary Row Matrices</html:dfn> to be one of the following:</html:p>
+                <html:ol><html:li>Adding a multiple of one row to another: <fr:tex display="inline"><![CDATA[\mathbf {I}+r\mathbf {E}_{\mu ,\nu }]]></fr:tex> for some <fr:tex display="inline"><![CDATA[r]]></fr:tex> and <fr:tex display="inline"><![CDATA[1\leq \mu \leq  n]]></fr:tex> and <fr:tex display="inline"><![CDATA[1\leq \nu \leq  n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mu \neq \nu ]]></fr:tex></html:li>
+<html:li>Swapping two rows: <fr:tex display="inline"><![CDATA[\mathbf {I}+\mathbf {E}_{\mu ,\nu }+\mathbf {E}_{\nu ,\mu }-\mathbf {E}_{\mu ,\mu }-\mathbf {E}_{\nu ,\nu }]]></fr:tex> which swaps rows <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\nu ]]></fr:tex></html:li>
+<html:li>Multiplying a row by a nonzero constant: <fr:tex display="inline"><![CDATA[\mathbf {I}+r\mathbf {E}_{\mu ,\mu }]]></fr:tex> where <fr:tex display="inline"><![CDATA[1+r\neq 0]]></fr:tex></html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001X/</fr:uri>
+                <fr:display-uri>matrix-001X</fr:display-uri>
+                <fr:route>/matrix-001X/</fr:route>
+                <fr:title text="Determinant of elementary row matrix">Determinant of elementary row matrix</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>We claim the determinant of elementary row matrices are:</html:p>
+                <html:ol><html:li><fr:tex display="inline"><![CDATA[\det (\mathbf {I}+r\mathbf {E}_{\mu ,\nu })=1]]></fr:tex> for any <fr:tex display="inline"><![CDATA[r]]></fr:tex> and <fr:tex display="inline"><![CDATA[1\leq \mu \leq  n]]></fr:tex> and <fr:tex display="inline"><![CDATA[1\leq \nu \leq  n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mu \neq \nu ]]></fr:tex></html:li>
+<html:li>Swapping two rows: <fr:tex display="inline"><![CDATA[\det (\mathbf {I}+\mathbf {E}_{\mu ,\nu }+\mathbf {E}_{\nu ,\mu }-\mathbf {E}_{\mu ,\mu }-\mathbf {E}_{\nu ,\nu })=(-1)^{\mu -\nu }]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\det (\mathbf {I}+r\mathbf {E}_{\mu ,\mu })=1+r]]></fr:tex> for any <fr:tex display="inline"><![CDATA[r]]></fr:tex></html:li></html:ol>
+                <html:p>The first and third claim follows immediately from the fact that the <fr:link href="/matrix-001U/" title="Determinant of diagonal matrix" uri="http://localhost:8000/matrix-001U/" display-uri="matrix-001U" type="local">Determinant of diagonal matrix</fr:link>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001Y/</fr:uri>
+                <fr:display-uri>matrix-001Y</fr:display-uri>
+                <fr:route>/matrix-001Y/</fr:route>
+                <fr:title text="Matrix is nonsingular iff it has nonzero determinant">Matrix is nonsingular iff it has nonzero determinant</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. Then <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is <fr:link href="/matrix-001C/" title="Matrix Inverse" uri="http://localhost:8000/matrix-001C/" display-uri="matrix-001C" type="local">nonsingular</fr:link> if and only if <fr:tex display="inline"><![CDATA[\det (\mathbf {A})\neq 0]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-001Z/</fr:uri>
+                <fr:display-uri>matrix-001Z</fr:display-uri>
+                <fr:route>/matrix-001Z/</fr:route>
+                <fr:title text="Determinant of inverse is inverse of determinant">Determinant of inverse is inverse of determinant</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:link href="/matrix-001C/" title="Matrix Inverse" uri="http://localhost:8000/matrix-001C/" display-uri="matrix-001C" type="local">invertible</fr:link> <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. Then <fr:tex display="inline"><![CDATA[\det (\mathbf {A}^{-1})=(\det (\mathbf {A}))^{-1}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0020/</fr:uri>
+                <fr:display-uri>matrix-0020</fr:display-uri>
+                <fr:route>/matrix-0020/</fr:route>
+                <fr:title text="Determinant of transpose is just the determinant">Determinant of transpose is just the determinant</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. Then the determinant of the <fr:link href="/matrix-0014/" title="Tranpose of Matrix Product" uri="http://localhost:8000/matrix-0014/" display-uri="matrix-0014" type="local">transpose</fr:link> of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> is just the determinant of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex>, i.e., <fr:tex display="inline"><![CDATA[\det (\mathbf {A}^{\mathsf {T}})=\det (\mathbf {A})]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0021/</fr:uri>
+                <fr:display-uri>matrix-0021</fr:display-uri>
+                <fr:route>/matrix-0021/</fr:route>
+                <fr:title text="Trace of a matrix">Trace of a matrix</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. We define the <html:dfn>Trace</html:dfn> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> to be the number <fr:tex display="inline"><![CDATA[\mathrm {tr}(\mathbf {A})=\sum _{i=1}^{n}a_{i,i}]]></fr:tex> obtained by adding up all the diagonal entries of <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:uri>http://localhost:8000/matrix-0022/</fr:uri>
+                <fr:display-uri>matrix-0022</fr:display-uri>
+                <fr:route>/matrix-0022/</fr:route>
+                <fr:title text="Trace of the transpose is just the trace">Trace of the transpose is just the trace</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. Then <fr:tex display="inline"><![CDATA[\mathrm {tr}(\mathbf {A}^{\mathsf {T}})=\mathrm {tr}(\mathbf {A})]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0023/</fr:uri>
+                <fr:display-uri>matrix-0023</fr:display-uri>
+                <fr:route>/matrix-0023/</fr:route>
+                <fr:title text="Trace of scalar multiple is scalar multiple of trace">Trace of scalar multiple is scalar multiple of trace</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix. Let <fr:tex display="inline"><![CDATA[c]]></fr:tex> be a scalar. Then <fr:tex display="inline"><![CDATA[\mathrm {tr}(c\mathbf {A})=c\mathrm {tr}(\mathbf {A})]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0024/</fr:uri>
+                <fr:display-uri>matrix-0024</fr:display-uri>
+                <fr:route>/matrix-0024/</fr:route>
+                <fr:title text="Cyclic property of trace">Cyclic property of trace</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  m]]></fr:tex> matrix. Then <fr:tex display="inline"><![CDATA[\mathrm {tr}(\mathbf {A}\mathbf {B})=\mathrm {tr}(\mathbf {B}\mathbf {A})]]></fr:tex>.</html:p>
+                <html:p>More generally, if <fr:tex display="inline"><![CDATA[\mathbf {A}_{1}]]></fr:tex>, …, <fr:tex display="inline"><![CDATA[\mathbf {A}_{m}]]></fr:tex> are matrices of appropriate dimensions, then <fr:tex display="inline"><![CDATA[\mathrm {tr}(\mathbf {A}_{1}\mathbf {A}_{2}…\mathbf {A}_{m})=\mathrm {tr}(\mathbf {A}_{2}…\mathbf {A}_{m}\mathbf {A}_{1})]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0025/</fr:uri>
+                <fr:display-uri>matrix-0025</fr:display-uri>
+                <fr:route>/matrix-0025/</fr:route>
+                <fr:title text="Trace of sum is sum of traces">Trace of sum is sum of traces</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrices. Then <fr:tex display="inline"><![CDATA[\mathrm {tr}(\mathbf {A}+\mathbf {B})=\mathrm {tr}(\mathbf {A})+\mathrm {tr}(\mathbf {B})]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0026/</fr:uri>
+                <fr:display-uri>matrix-0026</fr:display-uri>
+                <fr:route>/matrix-0026/</fr:route>
+                <fr:title text="Trace of matrix near identity is approximately the determinant">Trace of matrix near identity is approximately the determinant</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\varepsilon ]]></fr:tex> be a small nonzero number such that <fr:tex display="inline"><![CDATA[\varepsilon ^{2}]]></fr:tex> is negligible. Let <fr:tex display="inline"><![CDATA[\mathbf {A}=\mathbf {I}+\varepsilon \mathbf {X}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix.</html:p>
+                <html:p>Then <fr:tex display="inline"><![CDATA[\det \mathbf {A}=1+\varepsilon \mathrm {tr}(\mathbf {X})]]></fr:tex>.</html:p>
+                <html:p>In this sense, the trace is a "linear approximation" of the determinant for any matrix "close to" the identity matrix.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/matrix-0014/</fr:uri>
+            <fr:display-uri>matrix-0014</fr:display-uri>
+            <fr:route>/matrix-0014/</fr:route>
+            <fr:title text="Tranpose of Matrix Product">Tranpose of Matrix Product</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, let <fr:tex display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  p]]></fr:tex> matrix. Then the transpose of matrix product is the matrix multiplication of the transposes,
+<fr:tex display="block"><![CDATA[(\mathbf {A}\mathbf {B})^{\mathsf {T}} = \mathbf {B}^{\mathsf {T}}\mathbf {A}^{\mathsf {T}}.]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -7,28 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9640</fr:anchor><fr:addr
-type="machine">#445</fr:addr><fr:route>unstable-445.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4576</fr:anchor><fr:addr
+type="machine">#445</fr:addr><fr:route>unstable-445.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an <fr:link
-type="local"
-href="ca-001S.xml"
-addr="ca-001S"
-title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is closed, <fr:tex
-display="inline"><![CDATA[K\setminus  F]]></fr:tex> is open, so <fr:tex
-display="inline"><![CDATA[\{K\setminus  F\}\cup \{U_{\alpha }\}]]></fr:tex> is an open cover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, i.e., there are finitely many <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}]]></fr:tex>, …, <fr:tex
-display="inline"><![CDATA[U_{\alpha _{n}}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}\cup …\cup  U_{\alpha _{n}}=F]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This idea generalizes to rings instead of fields (and we speak of "ring extensions"). Galois theory focuses on field extensions, however.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -43,35 +27,37 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9642</fr:anchor><fr:addr
-type="user">ca-001W</fr:addr><fr:route>ca-001W.xml</fr:route><fr:title
-text="Closed subsets of a compact set are compact">Closed subsets of a compact set are compact</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4578</fr:anchor><fr:addr
+type="user">nt-000F</fr:addr><fr:route>nt-000F.xml</fr:route><fr:title
+text="Field extension">Field extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
-type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.35</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
-type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[K\subseteq  X]]></fr:tex> be a <fr:link
-type="local"
-href="ca-001T.xml"
-addr="ca-001T"
-title="Compact subset of a metric space">compact subset</fr:link> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[F\subseteq  K]]></fr:tex> be a <fr:link
-type="local"
-href="ca-000P.xml"
-addr="ca-000P"
-title="Closed Subset">closed</fr:link> subset. Then <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is compact.</fr:p>
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/field_4.html#V1">field_4:def 1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Field Extension</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a field denoted <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a field <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> as a subfield. We say, "<fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>" and write this as:</fr:p>
+  <html:center
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:resource
+hash="533a1a33af81a174aac5e73688291dbc"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuNC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzIyLjAwMDc5N3B0JyBoZWlnaHQ9JzY5LjM2NDk2MXB0JyB2aWV3Qm94PSctNzIgLTcyIDE0LjY2NzE5OCA0Ni4yNDMzMDgnPgo8c3R5bGUgdHlwZT0ndGV4dC9jc3MnPgo8IVtDREFUQVtAZm9udC1mYWNle2ZvbnQtZmFtaWx5Om1zYm0xMDtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBU2dBQW9BQUFBQUJXUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFZ0FBQUJnaHIxMDUyTnRZWEFBQUFFOEFBQUFNUUFBQUR3QW9nQitaMng1WmdBQUFYQUFBQUh0QUFBQ1RPSXVLMHBvWldGa0FBQURZQUFBQUNrQUFBQTJZak5EdW1ob1pXRUFBQU9NQUFBQUhnQUFBQ1FHRkFHRGFHMTBlQUFBQTZ3QUFBQU1BQUFBREFmR0FDSnNiMk5oQUFBRHVBQUFBQWdBQUFBSUFJd0JKbTFoZUhBQUFBUEFBQUFBR0FBQUFDQUFDQUJrYm1GdFpRQUFBOWdBQUFDN0FBQUJJSjlMcVFCd2IzTjBBQUFFbEFBQUFBd0FBQUFnQUFNQUFIamFZMkJtbXM0NGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwUjBZOGhtWHZjdmlJR0JlUjNqT2xRMS8vOHpNQUFBRnNFUGszamFZMkJnWUdKZ1lHQUdZaEVneVFpbVdSZzBnRFFia0dZRXlyb3haUC8vRCtTRDZmKzcvMDhIcXdJQ0FKVnBDUm9BQUFCNDJqM1JNVy9UUUJqRzhYdk81aTZPN1hOc244OU9Hd0xGaWgxVlRVdVR4aGVFS0VpWkFERlVSUkFWSkJBQkpsZ1lRR0pnWTBRTURId0J4RGRnUTN3S2hnb3hNaUZtR0JBdWx4U3huRTUvM1R1OHZ5TTJFVWRIOUFiOVJDNlNLYmxNWm9RZ1lVcFhYYkJ5alJXN1NGVlZobFhCMlNhcWRLMVNQRkhtT3Q1RW1SZnNKSWFWM3RGRHhVUEZ6aFRqWWdzRmNwVmFZOFpUaFpBelBpcEtTMWZhUkRpMGM2NHBJVVY5S0JKSXI0eEIxVHFYU0FTbHFRZXdOck1mek05R0srZG5MUExaTWpnYnlSWWFPcGV2czI0N3JIK2ErS2hCQWVvOE5nOW12L3JLbEJYMjc4aHlpbDY2SEFRODlWSklCSHh5blZLMWZhaHZTaXI5K3J1SVdzNVY1Zmk0bExYcnIvdWRJSEFoL3Z4dWh5SUlhZHlSY2RBaU5wSEdwVFF1MThnZXVVWHVHWmRScFFSeWdRQ25vRktWRGhkRytjSm9wRXV6T1Rkdy8rTzQwcXJTQnM2SWxEdFZhb1o1cUhjeFhwUUZwUkhwaFdySms2czQ3WUtQU2h5OEZURjhKaWVESzNlM0I0SHRXcDdCK1dDMmtLN1hzSU81aTZhMFBVUDRYa2pMZHlYZ3hrMU9wWGlXK3JnZlpXREM0MGlxL29EVjM2aTRiYVQyeEt1bkhzT2RqL2dDbG5HYTk2YlBMMHdDQnA0ZHE5bHhvL1hDZWRoYVAzRmMvTURDcXNibjFhRnQyYzNGTjNqdGVuNGdUaXNyTVNWajAyN3dydTV2NUZGSTkvUDZ5WnNvY1g4UThoZVRUMUpJQUFBQWVOcGpZR1JnWUFEaVRYUFRlK1A1YmI0eU1MTXdZSUwvLzVsbG1QWUJHUndNVENBK0FOQStCdE1BQUFCNDJtTmdaR0JnWHZjdkNFaktNUEF4Q0RLRk1RQkZVQUF6QUVrV0FwMEFBQU1jQUFBQ2NnQU9BamdBRkFBQUFBQUFqQUVtZU5wallHUmdZR0JtU0daZ1lRQUJSZ1kwQUFBS3FBQnRlTnBOakxHS2cwQVVSWStzQ210U3B3aGJ6QmVJb215OVRVaVRPbjNFSVFpWkNUaUpZTFBmdmxlZFl0OWozcHk1bkRkQXdTOEpTeVZrNjF3cUpkZHI0NHlkZXVOY2ZZaGNjT1NMRDVMMFUwbkJkK1NVUFQrUk05bVh5TG55TG5KQml6KzlIM1owb1hOMWRiVmpHSjdlMUdXMUJXZnI3WGg3MmQ1MHMrbW5JVXgzWjVxeUxSdE92SGxnR1hFRS9laW9xYml1U1dEZ2ljY29LNVgrTjg0eS9HcmRlT251WlhYTW1qMlQ5b0xtWGE2aDBXNnIwL3dCekNFb2NRQjQybU5nWnNBTEFBQjlBQVE9KSBmb3JtYXQoJ3dvZmYnKTt9CnRleHQuZjAge2ZvbnQtZmFtaWx5Om1zYm0xMDtmb250LXNpemU6OS45NjI2NHB4fQpdXT4KPC9zdHlsZT4KPGcgaWQ9J3BhZ2UxJz4KPGcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNjQuNjY2NDA2LC00OC44NzgzNTIpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTcuMzYxMSwtMTkuNTQ4NjMpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC02NC42NjY0MDYsLTQ4Ljg3ODM1MilzY2FsZSgtMSwtMSknPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTU3LjMzMjgwOCwtODAuOTY2NDExKXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMi43Nzc3OSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC01Ny4zMzI4MDgsLTgwLjk2NjQxMSlzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNTcuMzMyODA4JyB5PSctODAuOTY2NDExJz5rPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC01Ny4zMzI4MDgsLTQ4Ljg3ODM1MilzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTMuMDU1NTYsMC4wKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNTcuMzMyODA4LC00OC44NzgzNTIpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTU3LjMzMjgwOCcgeT0nLTQ4Ljg3ODM1Mic+RjwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuMzk5OTgnPgo8cGF0aCBkPSdNMCA4LjgwMDAzVi04LjgwMDAyJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source
+type="latex"
+part="preamble"><![CDATA[\usepackage {quiver, amsopn, amssymb, mathrsfs}]]></fr:resource-source><fr:resource-source
+type="latex"
+part="body"><![CDATA[
+  \begin {tikzcd}\Bbbk \arrow [d, dash]\\
+  \mathbb {F}
+  \end {tikzcd}
+]]></fr:resource-source></fr:resource></html:center>
+
  
    
    <fr:tree
@@ -81,27 +67,11 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8574</fr:anchor><fr:addr
-type="machine">#445</fr:addr><fr:route>unstable-445.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>797</fr:anchor><fr:addr
+type="machine">#445</fr:addr><fr:route>unstable-445.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\{U_{\alpha }\}]]></fr:tex> be an <fr:link
-type="local"
-href="ca-001S.xml"
-addr="ca-001S"
-title="Cover of a subset of a metric space">open cover</fr:link> of <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is closed, <fr:tex
-display="inline"><![CDATA[K\setminus  F]]></fr:tex> is open, so <fr:tex
-display="inline"><![CDATA[\{K\setminus  F\}\cup \{U_{\alpha }\}]]></fr:tex> is an open cover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>. Then there exists a finite subcover of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, i.e., there are finitely many <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}]]></fr:tex>, …, <fr:tex
-display="inline"><![CDATA[U_{\alpha _{n}}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[U_{\alpha _{1}}\cup …\cup  U_{\alpha _{n}}=F]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This idea generalizes to rings instead of fields (and we speak of "ring extensions"). Galois theory focuses on field extensions, however.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

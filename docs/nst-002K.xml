@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6266</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9051</fr:anchor><fr:addr
 type="user">nst-002K</fr:addr><fr:route>nst-002K.xml</fr:route><fr:title
 text="Proof by induction">Proof by induction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -44,7 +44,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6268</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9053</fr:anchor><fr:addr
 type="user">nst-002H</fr:addr><fr:route>nst-002H.xml</fr:route><fr:title
 text="Proof strategies">Proof strategies</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -57,7 +57,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2785</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1489</fr:anchor><fr:addr
 type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
 text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -77,7 +77,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2787</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1491</fr:anchor><fr:addr
 type="user">nst-002I</fr:addr><fr:route>nst-002I.xml</fr:route><fr:title
 text="Proof by contrapositive">Proof by contrapositive</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -108,7 +108,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2789</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1493</fr:anchor><fr:addr
 type="user">nst-002J</fr:addr><fr:route>nst-002J.xml</fr:route><fr:title
 text="Proof by contradiction">Proof by contradiction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -133,7 +133,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2791</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1495</fr:anchor><fr:addr
 type="user">nst-002K</fr:addr><fr:route>nst-002K.xml</fr:route><fr:title
 text="Proof by induction">Proof by induction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -170,7 +170,510 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6270</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9055</fr:anchor><fr:addr
+type="user">nt-002G</fr:addr><fr:route>nt-002G.xml</fr:route><fr:title
+text="Cyclotomic polynomials are irreducible polynomials in {Z}[x]">Cyclotomic polynomials are irreducible polynomials in <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[x]]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, the <fr:link
+type="local"
+href="nt-002F.xml"
+addr="nt-002F"
+title="Cyclotomic polynomial">cyclotomic polynomial</fr:link> <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> is a monic irreducible polynomial in <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[x]]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1057</fr:anchor><fr:addr
+type="machine">#387</fr:addr><fr:route>unstable-387.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Cyclotomic polynomials are monic… this should be obvious.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1059</fr:anchor><fr:addr
+type="machine">#388</fr:addr><fr:route>unstable-388.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\Phi _{n}\in \mathbb {Z}[x]]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>.</fr:p>
+<fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[\Phi _{1}(x)=x-1]]></fr:tex> is clearly irreducible.</fr:p>
+<fr:p><fr:strong>Inductive hypothesis:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[\Phi _{d}(x)\in \mathbb {Z}[x]]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[d<n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> We see
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)f(x)=x^{n}-1]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[f(x)=\prod _{d\mathrel {\bigm |} n}\Phi _{d}(x)\in \mathbb {Z}[x]]]></fr:tex>
+by the inductive hypothesis. Then <fr:tex
+display="inline"><![CDATA[x^{n}-1=f(x)\Phi _{n}(x)]]></fr:tex> is a factorization over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. But by <fr:link
+type="local"
+href="ra-002U.xml"
+addr="ra-002U"
+title="Factorization of formal polynomials with coefficients in UFDs">Gauss's lemma</fr:link>, since both <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> are monic, we see <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)\in \mathbb {Z}[x]]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1061</fr:anchor><fr:addr
+type="machine">#389</fr:addr><fr:route>unstable-389.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> is irreducible. Suppose we have some factorization
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)=f(x)g(x)]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {Z}[x]]]></fr:tex> is irreducible and <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {Z}[x]]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\zeta ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\zeta \in \mu _{n}]]></fr:tex> primitive.</fr:p>
+<fr:p>We claim: for any <fr:tex
+display="inline"><![CDATA[a\in \mathbb {Z}]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is coprime to <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\zeta ^{a}]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. It suffices to prove this for <fr:tex
+display="inline"><![CDATA[a=p]]></fr:tex> prime. We have <fr:tex
+display="inline"><![CDATA[\Phi _{n}(\zeta ^{p})=0]]></fr:tex> imply either <fr:tex
+display="inline"><![CDATA[f(\zeta ^{p})=0]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[g(\zeta ^{p})=0]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Subcase 1:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[g(\zeta ^{p})=0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\zeta ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, but <fr:tex
+display="inline"><![CDATA[\zeta ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> <fr:em>and</fr:em> <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible. Then <fr:tex
+display="inline"><![CDATA[f(x)\mathrel {\bigm |} g(x^{p})]]></fr:tex>. Using the surjective map
+<fr:tex
+display="block"><![CDATA[\begin {split}\mathbb {Z}[x]\to \mathbb {F}_{p}[x]\\ f(x)\mapsto \overline {f}(x)\end {split}]]></fr:tex>
+we see <fr:tex
+display="inline"><![CDATA[f(x)\mathrel {\bigm |} g(x^{p})]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[\overline {f}(x)\mathrel {\bigm |}\overline {g}(x^{p})]]></fr:tex>, but we see <fr:tex
+display="inline"><![CDATA[\overline {g}(x^{p})=\overline {g}(x)^{p}]]></fr:tex>. This implies <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\overline {g}]]></fr:tex> share a common root, which contradicts the irreducibility of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Subcase 2:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[f(\zeta ^{p})=0]]></fr:tex>. Then for any <fr:tex
+display="inline"><![CDATA[a\in \mathbb {Z}]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is coprime with <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\zeta ^{a}]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. This implies
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)\mathrel {\bigm |} f(x),]]></fr:tex>
+which means <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)=f(x)]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> is irreducible.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9057</fr:anchor><fr:addr
+type="user">nt-002M</fr:addr><fr:route>nt-002M.xml</fr:route><fr:title
+text="Number of extensions to field isomorphisms is at most degree of extensions">Number of extensions to field isomorphisms is at most degree of extensions</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\sigma \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> be a field isomorphism, let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> for some <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[\Bbbk '/\mathbb {F}']]></fr:tex> be the splitting field for <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> (the polynomial obtained by applying <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>).</fr:p><fr:p>Then the number of extensions of <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to an isomorphism <fr:tex
+display="inline"><![CDATA[\Bbbk \to \Bbbk ']]></fr:tex> is at most <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link>, then it is exactly <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1081</fr:anchor><fr:addr
+type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n=[\Bbbk  : \mathbb {F}]]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base Case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\Bbbk '=\mathbb {F}']]></fr:tex>, and the unique extension of <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\Bbbk \to \Bbbk ']]></fr:tex> is just <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> itself.</fr:p>
+<fr:p><fr:strong>Inductive hypothesis:</fr:strong> Assume the hypothesis holds for all field extensions of degree <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]<n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> be an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex> is a subextension of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }\colon \Bbbk \to \Bbbk ']]></fr:tex> extends <fr:tex
+display="inline"><![CDATA[\sigma \colon \mathbb {F}\to \mathbb {F}']]></fr:tex>, then it maps <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> to a root <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex> of some irreducible factor <fr:tex
+display="inline"><![CDATA[g_{0}(x)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, and induces <fr:tex
+display="inline"><![CDATA[\sigma _{0}\colon \mathbb {F}(\alpha )\to \mathbb {F}(\beta )]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]]]></fr:tex> is equal to the degree of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>.</fr:p>
+<fr:p>On the other hand, there are as many maps <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )\to \Bbbk ]]></fr:tex> as there distinct roots of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>. Therefore there are at most <fr:tex
+display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]=\deg (g)]]></fr:tex> choices for <fr:tex
+display="inline"><![CDATA[\sigma _{0}(\alpha )]]></fr:tex>, with equality iff <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> is separable.</fr:p>
+<fr:p>By the inductive hypothesis, each such <fr:tex
+display="inline"><![CDATA[\sigma _{0}]]></fr:tex> has at most <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )]]]></fr:tex> extensions to <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }\colon \Bbbk \to \Bbbk ']]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is also the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>, there are exactly <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )]]]></fr:tex> extensions if <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is separable.</fr:p>
+<fr:p>Then altogether there are at most
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )][\mathbb {F}(\alpha ) : \mathbb {F}]=[\Bbbk  : \mathbb {F}]]]></fr:tex>
+extensions for <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }]]></fr:tex>, and exactly as that many if <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is separable.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9059</fr:anchor><fr:addr
+type="user">nt-001U</fr:addr><fr:route>nt-001U.xml</fr:route><fr:title
+text="Field isomorphisms extends to splitting fields">Field isomorphisms extends to splitting fields</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/field_8.html#T57">field_8:57</fr:link></fr:meta><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 13.4.27</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f(x)=a_{n}x^{n}+…+a_{1}x+a_{0}\in \mathbb {F}[x]]]></fr:tex> be a polynomial, let <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> be a field isomorphism, and <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {F}'[x]]]></fr:tex> be a polynomial obtained by applying <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to the coefficients of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\Bbbk '/\mathbb {F}']]></fr:tex> is a splitting field of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> extends to an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi '\colon \Bbbk \to \Bbbk ']]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>965</fr:anchor><fr:addr
+type="machine">#413</fr:addr><fr:route>unstable-413.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[\deg (f)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[\deg (f)=1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f(x)=x-\alpha ]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g(x)=x-\varphi (\alpha )]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {F}']]></fr:tex> the splitting field of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is an isomorphism of the two trivially extending itself.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Suppose the result holds for polynomials of degree strictly less than <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>).</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[\alpha _{1}\in \Bbbk ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f_{1}(x)\in \mathbb {F}[x]]]></fr:tex> is an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f_{1}(\alpha )=0]]></fr:tex>.</fr:p>
+<fr:p>Set <fr:tex
+display="inline"><![CDATA[F_{1}=\mathbb {F}(\alpha _{1})]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> be the polynomial obtained from <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> by applying <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to the coefficients. Then <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {F}']]></fr:tex> since <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\beta _{1}\in \Bbbk ']]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> and set <fr:tex
+display="inline"><![CDATA[F'_{1}=\mathbb {F}'(\beta ).]]></fr:tex> <fr:link
+type="local"
+href="nt-000S.xml"
+addr="nt-000S"
+title="Isomorphisms of fields extends to isomorphisms of simple field extensions">Isomorphisms of fields extends to isomorphisms of simple field extensions</fr:link> implies the isomorphism <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> extends to an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi _{1}\colon  F_{1}\to  F'_{1}]]></fr:tex>. Writing <fr:tex
+display="inline"><![CDATA[f(x)=(x-\alpha )f_{0}(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g(x)=(x-\beta )g_{0}(x)]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[g_{0}\in  F'_{1}[x]]]></fr:tex> is obtained by applying <fr:tex
+display="inline"><![CDATA[\varphi _{1}]]></fr:tex> to the coefficients of <fr:tex
+display="inline"><![CDATA[f_{0}(x)\in  F_{1}[x]]]></fr:tex>.</fr:p>
+<fr:p>By the inductive hypothesis, the field <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is a splitting field for <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{1}]]></fr:tex>.</fr:p>
+<fr:p>Similarly, <fr:tex
+display="inline"><![CDATA[\Bbbk ']]></fr:tex> is a splitting field for <fr:tex
+display="inline"><![CDATA[g_{0}(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[F'_{1}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\deg (f_{0})=\deg (g_{0})=n-1<n]]></fr:tex>, the inductive hypothesis ensures the existence of an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi '\colon \Bbbk \to \Bbbk ']]></fr:tex> extending <fr:tex
+display="inline"><![CDATA[\varphi _{1}\colon  F_{1}\to  F'_{1}]]></fr:tex>, which itself extends <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex>. The result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9061</fr:anchor><fr:addr
+type="user">nt-001P</fr:addr><fr:route>nt-001P.xml</fr:route><fr:title
+text="For any polynomial there exists a field over which it splits">For any polynomial there exists a field over which it splits</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> be a polynomial. If <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>, then there exists a field extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> of degree at most <fr:tex
+display="inline"><![CDATA[n!]]></fr:tex>such that <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> factors into linear factors in <fr:tex
+display="inline"><![CDATA[\Bbbk [x]]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>945</fr:anchor><fr:addr
+type="machine">#418</fr:addr><fr:route>unstable-418.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[f(x)=x-\alpha ]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {F}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Suppose this is true for any polynomial of degree strictly less than <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> be an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, we suppose <fr:tex
+display="inline"><![CDATA[\deg (f)=n]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[F_{1}=\mathbb {F}[x]/(f_{1}(x))\cong \mathbb {F}(\alpha )]]></fr:tex> for a root <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[f_{1}]]></fr:tex> (which is also a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>).</fr:p>
+<fr:p>But then <fr:tex
+display="inline"><![CDATA[f(x)=(x-\alpha )g(x)]]></fr:tex> for some polynomial <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\deg (g)<\deg (f)]]></fr:tex>. Then by the inductive hypothesis, there exists an extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> over which <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> splits completely with
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : F_{1}]\leq \deg (g)!=(n-1)!]]></fr:tex>
+Then
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : \mathbb {F}]\leq  n!]]></fr:tex>
+and <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9063</fr:anchor><fr:addr
+type="user">nt-0013</fr:addr><fr:route>nt-0013.xml</fr:route><fr:title
+text="A finite sequence of simple extensions is a finitely generated extension">A finite sequence of simple extensions is a finitely generated extension</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be an extension, let <fr:tex
+display="inline"><![CDATA[\alpha _{1},…,\alpha _{r}\in \Bbbk ]]></fr:tex>. Define the extensions
+<fr:tex
+display="block"><![CDATA[\mathbb {F}=F_{0}\subseteq  F_{1}\subseteq …\subseteq  F_{r}]]></fr:tex>
+by <fr:tex
+display="inline"><![CDATA[F_{i+1}=F_{i}(\alpha _{i+1})]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[F_{r}=\mathbb {F}(\alpha _{1},…,\alpha _{r})]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>869</fr:anchor><fr:addr
+type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case</fr:strong>: <fr:tex
+display="inline"><![CDATA[r=1]]></fr:tex>. The result is immediate.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> For any <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>, suppose the result <fr:tex
+display="inline"><![CDATA[F_{r}=\mathbb {F}(\alpha _{1},…,\alpha _{r})]]></fr:tex>. We want to prove the claim for <fr:tex
+display="inline"><![CDATA[r+1]]></fr:tex>, i.e.,
+<fr:tex
+display="block"><![CDATA[\mathbb {F}(\alpha _{1},…,\alpha _{r})(\alpha _{r+1})=\mathbb {F}(\alpha _{1},…,\alpha _{r},\alpha _{r+1}).]]></fr:tex>
+But this is literally the base case.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9065</fr:anchor><fr:addr
 type="user">gr-003Z</fr:addr><fr:route>gr-003Z.xml</fr:route><fr:title
 text="Jordan–Hölder theorem">Jordan–Hölder theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -209,8 +712,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1962</fr:anchor><fr:addr
-type="machine">#397</fr:addr><fr:route>unstable-397.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4274</fr:anchor><fr:addr
+type="machine">#508</fr:addr><fr:route>unstable-508.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -247,7 +750,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6272</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9067</fr:anchor><fr:addr
 type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
 text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

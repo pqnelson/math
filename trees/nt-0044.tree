@@ -1,0 +1,11 @@
+\title{}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 14.6.33}
+
+\p{Let #{\FF} be a field of characteristic #{\Char(\FF)\neq2}, let #{\sigma\in S_{n}} be a permutation. Then #{\sigma\in A_{n}} if and only if it fixes the squareroot of the [[nt-0042]] #{D}.}
+
+\p{In other words, #{\FF(s_{1},\dots,s_{n},\sqrt{D})} is a quadratic extension over #{\FF(s_{1},\dots,s_{n})}, and its Galois group is #{A_{n}}.}

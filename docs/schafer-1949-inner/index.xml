@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/richard-d-schafer/" title="Richard D. Schafer" uri="http://localhost:8000/richard-d-schafer/" display-uri="richard-d-schafer" type="local">Richard D. Schafer</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1949</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/schafer-1949-inner/</fr:uri>
+    <fr:display-uri>schafer-1949-inner</fr:display-uri>
+    <fr:route>/schafer-1949-inner/</fr:route>
+    <fr:title text="Inner derivations of non-associative algebras">Inner derivations of non-associative algebras</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="external">https://www.ams.org/journals/bull/1949-55-08/S0002-9904-1949-09281-9/</fr:meta>
+    <fr:meta name="doi">10.1090/S0002-9904-1949-09281-9</fr:meta>
+    <fr:meta name="bibtex"><![CDATA[@article{schafer1949inner,
+  title={Inner derivations of non-associative algebras},
+  author={Schafer, RD},
+  journal={Bulletin of the American Mathematical Society},
+  volume={55},
+  number={8},
+  pages={769--776},
+  year={1949}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

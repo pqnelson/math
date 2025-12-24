@@ -7,25 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9616</fr:anchor><fr:addr
-type="machine">#348</fr:addr><fr:route>unstable-348.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1629</fr:anchor><fr:addr
+type="machine">#348</fr:addr><fr:route>unstable-348.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[g\colon  B\to \mathbb {N}]]></fr:tex> be an injective function (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). If <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> is bijective, then <fr:tex
-display="inline"><![CDATA[g\circ  f]]></fr:tex> is injective, hence <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countable.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite, then there is a bijection <fr:tex
-display="inline"><![CDATA[g\colon  A\to \mathbb {N}]]></fr:tex>. We have <fr:tex
-display="inline"><![CDATA[h\colon  B\to \mathbb {N}]]></fr:tex> be bijective (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). Then <fr:tex
-display="inline"><![CDATA[h^{-1}\circ  g\colon  A\to  B]]></fr:tex> is bijective.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This was invented by Lagrange in his memoirs [book] <fr:em>Réflexions sur la résolution algébrique des équations</fr:em> (1770).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -40,17 +27,36 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9618</fr:anchor><fr:addr
-type="user">nst-001U</fr:addr><fr:route>nst-001U.xml</fr:route><fr:title
-text="A set bijective with a countably infinite set is countably infinite">A set bijective with a countably infinite set is countably infinite</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1631</fr:anchor><fr:addr
+type="user">nt-0048</fr:addr><fr:route>nt-0048.xml</fr:route><fr:title
+text="Lagrange Resolvent">Lagrange Resolvent</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be a set, let <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be a countably infinite set. Then <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite iff there is a bijection <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex>.</fr:p>
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. Let <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be any <fr:link
+type="local"
+href="nt-0049.xml"
+addr="nt-0049"
+title="Cyclic Extension">cyclic extension</fr:link> of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Assume <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})\nmid  n]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> contains the <fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> roots of unity. Let <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> be a generator for the Galois group <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\zeta ]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> root of unity. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Lagrange Resolvent</html:dfn> <fr:tex
+display="inline"><![CDATA[\lambda (\alpha ,\zeta )\in \Bbbk ]]></fr:tex> by
+<fr:tex
+display="block"><![CDATA[\lambda (\alpha ,\zeta ):=\alpha +\zeta \sigma (\alpha )+\zeta ^{2}\sigma ^{2}(\alpha )+…+\zeta ^{n-1}\sigma ^{n-1}(\alpha )]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\sigma ^{k}=\sigma \circ …\circ \sigma ]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> composed with itself <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> times.</fr:p>
  
    
    <fr:tree
@@ -60,24 +66,11 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2879</fr:anchor><fr:addr
-type="machine">#348</fr:addr><fr:route>unstable-348.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1265</fr:anchor><fr:addr
+type="machine">#348</fr:addr><fr:route>unstable-348.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[g\colon  B\to \mathbb {N}]]></fr:tex> be an injective function (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). If <fr:tex
-display="inline"><![CDATA[f\colon  A\to  B]]></fr:tex> is bijective, then <fr:tex
-display="inline"><![CDATA[g\circ  f]]></fr:tex> is injective, hence <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countable.</fr:p>
-<fr:p>If <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> is countably infinite, then there is a bijection <fr:tex
-display="inline"><![CDATA[g\colon  A\to \mathbb {N}]]></fr:tex>. We have <fr:tex
-display="inline"><![CDATA[h\colon  B\to \mathbb {N}]]></fr:tex> be bijective (since <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> is countable). Then <fr:tex
-display="inline"><![CDATA[h^{-1}\circ  g\colon  A\to  B]]></fr:tex> is bijective.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This was invented by Lagrange in his memoirs [book] <fr:em>Réflexions sur la résolution algébrique des équations</fr:em> (1770).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

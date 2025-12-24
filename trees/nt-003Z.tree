@@ -1,0 +1,11 @@
+\title{The roots of a polynomial are algebraically independent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{lemma}
+
+\p{Let
+##{p(x)=x^{n}-s_{1}x^{n-1}+s_{2}x^{n-2}+\dots+(-1)^{n}s_{n}}
+where #{s_{1}}, \dots, #{s_{n}} are formal variables. Then the roots #{x_{1}}, \dots, #{x_{n}} of #{p(x)} are algebraically independent.}
+\p{In other words, if #{f\in\FF[y_{1},\dots,y_{n}]} is any nonzero polynomial, then
+##{f(x_{1},\dots,x_{n})\neq0.}}

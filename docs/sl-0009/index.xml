@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>30</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/sl-0009/</fr:uri>
+    <fr:display-uri>sl-0009</fr:display-uri>
+    <fr:route>/sl-0009/</fr:route>
+    <fr:title text="Left (and right) multiplication as a matrix">Left (and right) multiplication as a matrix</fr:title>
+    <fr:taxon>example</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Consider a couple quaternions <fr:tex display="inline"><![CDATA[X=x + y\mathbf {i} + z\mathbf {j} + w\mathbf {k}]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y = a + b\mathbf {i} + c\mathbf {j} + d\mathbf {k}]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[L_{X}(Y)]]></fr:tex> correspond to:</html:p>
+    <fr:tex display="block"><![CDATA[L_{X}(Y) = \begin {pmatrix}x & -y & -z & -w\\
+y & x & -w & z\\
+z & w & x & -y\\
+w & -z & y & x
+\end {pmatrix}\begin {pmatrix}a\\ b\\ c\\ d\end {pmatrix}]]></fr:tex>
+    <html:p>Similarly, we have <fr:tex display="inline"><![CDATA[R_{Y}(X)]]></fr:tex> correspond to:</html:p>
+    <fr:tex display="block"><![CDATA[R_{Y}(X) = \begin {pmatrix}a & -b & -c & -d\\
+b & a & d & -c\\
+c & -d & a & b\\
+d & c & -b & a\end {pmatrix}\begin {pmatrix}x\\ y\\ z\\ w\end {pmatrix}]]></fr:tex>
+    <html:p>Observe, when <fr:tex display="inline"><![CDATA[\Vert  X\Vert =1]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[L_{X}]]></fr:tex> is an orthogonal matrix of real numbers (similarly, when <fr:tex display="inline"><![CDATA[\Vert  Y\Vert =1]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[R_{Y}]]></fr:tex> is an orthogonal matrix of real numbers).</html:p>
+    <html:p>More generally, in a composition algebra <fr:tex display="inline"><![CDATA[\mathbb {K}]]></fr:tex>, any unit <fr:tex display="inline"><![CDATA[u\in \mathbb {K}]]></fr:tex> (i.e., element with <fr:tex display="inline"><![CDATA[\Vert  u\Vert =1]]></fr:tex>) has <fr:tex display="inline"><![CDATA[L_{u}]]></fr:tex> and <fr:tex display="inline"><![CDATA[R_{u}]]></fr:tex> both be orthogonal matrices.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/sl/</fr:uri>
+            <fr:display-uri>sl</fr:display-uri>
+            <fr:route>/sl/</fr:route>
+            <fr:title text="Special linear group">Special linear group</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0001/</fr:uri><fr:display-uri>sl-0001</fr:display-uri><fr:route>/sl-0001/</fr:route><fr:title text="difficulties over a noncommutative ring">difficulties over a noncommutative ring</fr:title></fr:frontmatter><fr:mainmatter><html:p>The determinant is only really well-defined for matrices in <fr:tex display="inline"><![CDATA[\mathrm {Mat}_{n}(R)]]></fr:tex> where <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a commutative <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link>. This is because the determinant "behaves as we expect" for matrices over commutative rings.</html:p><html:p>There are ways to generalize to noncommutative rings, but it depends on how "nice" the ring is.</html:p><html:p>For example, over the quaternions, we can define <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(\mathbb {H})]]></fr:tex> since we can embed <fr:tex display="inline"><![CDATA[\mathrm {Mat}_{n}(\mathbb {H})]]></fr:tex> as a real subalgebra of <fr:tex display="inline"><![CDATA[\mathrm {Mat}_{2n}(\mathbb {C})]]></fr:tex>. Then the unit group of this subalgebra is defined to be the general linear group <fr:tex display="inline"><![CDATA[\mathrm {GL}_{n}(\mathbb {H})]]></fr:tex>.</html:p><html:p>But for, say, the Octonions, we run into difficulties. See Petyt's "<fr:link href="/petyt-2018-special/" title="The special linear group for nonassociative rings" uri="http://localhost:8000/petyt-2018-special/" display-uri="petyt-2018-special" type="local">The special linear group for nonassociative rings</fr:link>".</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0002/</fr:uri><fr:display-uri>sl-0002</fr:display-uri><fr:route>/sl-0002/</fr:route><fr:title text="Special linear group over commutative rings">Special linear group over commutative rings</fr:title><fr:taxon>definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a commutative <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link>. We define the <html:dfn>Special Linear Group</html:dfn> over <fr:tex display="inline"><![CDATA[R]]></fr:tex> to be the group <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(R) = \{g\in \mathrm {GL}_{n}(R)\mid \det (g)=1\}]]></fr:tex>. That is to say, it is the kernel of the <fr:link href="/gr-0014/" title="Determinant is a group morphism" uri="http://localhost:8000/gr-0014/" display-uri="gr-0014" type="local">determinant homomorphism</fr:link>.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0003/</fr:uri><fr:display-uri>sl-0003</fr:display-uri><fr:route>/sl-0003/</fr:route><fr:title text="Baez-ian Special linear group over the octonions">Baez-ian Special linear group over the octonions</fr:title><fr:taxon>definition</fr:taxon><fr:meta name="source">Section 2 and Theorem 4.1 in <fr:link href="/petyt-2018-special/" title="The special linear group for nonassociative rings" uri="http://localhost:8000/petyt-2018-special/" display-uri="petyt-2018-special" type="local">[petyt-2018-special]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><html:p>There are several different ways to construct a group over the Octonions analogous to the special linear group.</html:p><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a (possibly nonassociative) <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link> (possibly nonunital). If <fr:tex display="inline"><![CDATA[E_{i,j}]]></fr:tex> is the <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix which is 1 at row <fr:tex display="inline"><![CDATA[i]]></fr:tex> and column <fr:tex display="inline"><![CDATA[j]]></fr:tex>, but zero everywhere else, then we define the group <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(R) = \langle  L_{I+aE_{i,j}}\mid  a\in  R, 1\leq  i\neq  j\leq  n\rangle ]]></fr:tex> to be generated by multiplying on the left by <fr:tex display="inline"><![CDATA[I+aE_{i,j}]]></fr:tex>.</html:p><html:p>For alternative algebras, this means
+<fr:tex display="block"><![CDATA[L_{E_{i}}L_{E_{i}}=L_{E_{i}^{2}}=\pm 1]]></fr:tex>
+and for <fr:tex display="inline"><![CDATA[E_{i}\neq  E_{j}]]></fr:tex>, using the associator <fr:tex display="inline"><![CDATA[[z,w,u]=(zw)u-z(wu)]]></fr:tex> we have:
+<fr:tex display="block"><![CDATA[0=[E_{i},E_{j},z] + [E_{j},E_{i},z] = L_{E_{i}E_{j}+E_{j}E_{i}}(z)-(L_{E_{i}}L_{E_{j}}+L_{E_{j}}L_{E_{i}})(z),]]></fr:tex>
+and hence:
+<fr:tex display="block"><![CDATA[L_{E_{i}}L_{E_{j}}=-L_{E_{j}}L_{E_{i}}.]]></fr:tex>
+Using this, we have a precise, unambiguous ordering to the product of elements of the group.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>30</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0009/</fr:uri><fr:display-uri>sl-0009</fr:display-uri><fr:route>/sl-0009/</fr:route><fr:title text="Left (and right) multiplication as a matrix">Left (and right) multiplication as a matrix</fr:title><fr:taxon>example</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Consider a couple quaternions <fr:tex display="inline"><![CDATA[X=x + y\mathbf {i} + z\mathbf {j} + w\mathbf {k}]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y = a + b\mathbf {i} + c\mathbf {j} + d\mathbf {k}]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[L_{X}(Y)]]></fr:tex> correspond to:</html:p><fr:tex display="block"><![CDATA[L_{X}(Y) = \begin {pmatrix}x & -y & -z & -w\\
+y & x & -w & z\\
+z & w & x & -y\\
+w & -z & y & x
+\end {pmatrix}\begin {pmatrix}a\\ b\\ c\\ d\end {pmatrix}]]></fr:tex><html:p>Similarly, we have <fr:tex display="inline"><![CDATA[R_{Y}(X)]]></fr:tex> correspond to:</html:p><fr:tex display="block"><![CDATA[R_{Y}(X) = \begin {pmatrix}a & -b & -c & -d\\
+b & a & d & -c\\
+c & -d & a & b\\
+d & c & -b & a\end {pmatrix}\begin {pmatrix}x\\ y\\ z\\ w\end {pmatrix}]]></fr:tex><html:p>Observe, when <fr:tex display="inline"><![CDATA[\Vert  X\Vert =1]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[L_{X}]]></fr:tex> is an orthogonal matrix of real numbers (similarly, when <fr:tex display="inline"><![CDATA[\Vert  Y\Vert =1]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[R_{Y}]]></fr:tex> is an orthogonal matrix of real numbers).</html:p><html:p>More generally, in a composition algebra <fr:tex display="inline"><![CDATA[\mathbb {K}]]></fr:tex>, any unit <fr:tex display="inline"><![CDATA[u\in \mathbb {K}]]></fr:tex> (i.e., element with <fr:tex display="inline"><![CDATA[\Vert  u\Vert =1]]></fr:tex>) has <fr:tex display="inline"><![CDATA[L_{u}]]></fr:tex> and <fr:tex display="inline"><![CDATA[R_{u}]]></fr:tex> both be orthogonal matrices.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>30</fr:day></fr:date><fr:uri>http://localhost:8000/sl-000A/</fr:uri><fr:display-uri>sl-000A</fr:display-uri><fr:route>/sl-000A/</fr:route><fr:title text="Left multiplication by octonion as matrix">Left multiplication by octonion as matrix</fr:title><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We can also determine a matrix representation for the operator <fr:tex display="inline"><![CDATA[L_{a+\ell  b}]]></fr:tex> left multiplication by the Octonion <fr:tex display="inline"><![CDATA[a+\ell  b]]></fr:tex> (where <fr:tex display="inline"><![CDATA[a\in \mathbb {H}]]></fr:tex> and <fr:tex display="inline"><![CDATA[b\in \mathbb {H}]]></fr:tex>). This looks like:
+
+<fr:tex display="block"><![CDATA[L_{a+\ell  b} = \begin {pmatrix}L_{a} & -R_{\overline {b}}\\
+R_{b} & L_{\overline {a}}\end {pmatrix}]]></fr:tex>
+
+where <fr:tex display="inline"><![CDATA[L_{a}]]></fr:tex> and <fr:tex display="inline"><![CDATA[R_{b}]]></fr:tex> are the matrices discussed in <fr:link href="/sl-0009/" title="Left (and right) multiplication as a matrix" uri="http://localhost:8000/sl-0009/" display-uri="sl-0009" type="local">Left (and right) multiplication as a matrix</fr:link>. We also can see:
+
+<fr:tex display="block"><![CDATA[L_{a+b\ell } = \begin {pmatrix}L_{a} & -R_{b}C\\L_{b}C & L_{a}\end {pmatrix}]]></fr:tex>
+
+where <fr:tex display="inline"><![CDATA[C = \mathrm {diag}(+1,-1,-1,-1)]]></fr:tex> is the ``quaternion conjugation'' operation as a matrix.</html:p><html:p>To see this, we should recall that the Octonions may be expressed as <fr:tex display="inline"><![CDATA[a+\ell  b]]></fr:tex> with <fr:tex display="inline"><![CDATA[a\in \mathbb {H}]]></fr:tex> and <fr:tex display="inline"><![CDATA[b\in \mathbb {H}]]></fr:tex>, and we have:
+<html:ol><html:li><fr:tex display="inline"><![CDATA[a(\ell  b)=\ell (\overline {a}b)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(a\ell )b=(a\overline {b})\ell ]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(\ell  a)(b\ell ) = -\overline {ab}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[a\ell =\ell \overline {a}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\ell  a=\overline {a}\ell ]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(\ell  a)b=\ell (ba)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[a(b\ell )=(ba)\ell ]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(\ell  a)(\ell  b)=-b\overline {a}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(a\ell )(b\ell )=-\overline {b}a]]></fr:tex></html:li></html:ol>
+Then consider <fr:tex display="inline"><![CDATA[(a+\ell  b)(c + \ell  d)]]></fr:tex>. We find
+<fr:tex display="block"><![CDATA[(a+\ell  b)(c + \ell  d)=ac + \ell (\overline {a}d)+\ell (cb)-d\overline {b}]]></fr:tex>
+which can be represented in matrix form as
+<fr:tex display="block"><![CDATA[L_{a+\ell  b}\begin {pmatrix}c\\ d\end {pmatrix} = \begin {pmatrix}L_{a} & -R_{\overline {b}}\\
+R_{b} & L_{\overline {a}}\end {pmatrix}\begin {pmatrix}c\\ d\end {pmatrix}]]></fr:tex>
+Hence the result.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>1</fr:day></fr:date><fr:uri>http://localhost:8000/sl-000B/</fr:uri><fr:display-uri>sl-000B</fr:display-uri><fr:route>/sl-000B/</fr:route><fr:title text="Right multiplication by octonion as a matrix">Right multiplication by octonion as a matrix</fr:title></fr:frontmatter><fr:mainmatter><html:p>When multiplying an octonion <html:em>on the right</html:em>, it is less elegantly expressed than as a block matrix of quaternionic operations. We recall,
+<fr:tex display="block"><![CDATA[\begin {split}(a+\ell  b)(c + \ell  d)&=ac + \ell (\overline {a}d)+\ell (cb)-d\overline {b}\\
+&=ac - d\overline {b} + \ell (\overline {a}d + cb)\end {split}]]></fr:tex>
+which gives us the operation for multiplying on the right by <fr:tex display="inline"><![CDATA[c+\ell  d]]></fr:tex>. The trick is to remember we are thinking of octonions as a vector of 8 real numbers (or, an ordered pair consisting of 4 real numbers each). Complex conjugation is just <fr:tex display="inline"><![CDATA[\mathrm {diag}(1,-1,-1,-1)=C]]></fr:tex>. Then we have
+<fr:tex display="block"><![CDATA[R_{c+\ell  d} = \begin {pmatrix}R_{c} & -L_{d}C\\
+R_{d}C & L_{c}\end {pmatrix}]]></fr:tex>
+At least, if I have done the algebra correctly. We also can express
+<fr:tex display="block"><![CDATA[R_{c+d\ell } = \begin {pmatrix}R_{c} & -L_{\overline {d}}\\R_{d} & R_{\overline {c}}\end {pmatrix}]]></fr:tex>
+which does not require any "quaternion conjugation".</html:p><html:p>We should have (according to section 2.3 of <fr:link href="/wilson-2023-octonionic/" title="An octonionic construction of E8 and the Lie algebra magic square" uri="http://localhost:8000/wilson-2023-octonionic/" display-uri="wilson-2023-octonionic" type="local">An octonionic construction of E8 and the Lie algebra magic square</fr:link>)
+<fr:tex display="block"><![CDATA[L_{\ell } = (-R_{\ell }+R_{i}R_{i\ell }+R_{j}R_{j\ell }+R_{k}R_{k\ell })/2.]]></fr:tex>
+Do we have this? Well, it is not too hard to see
+<fr:tex display="block"><![CDATA[\begin {split}
+R_{i\ell }(a_{0}+a_{1}i+a_{2}j+a_{3}k)
+&=(a_{0}+a_{1}i+a_{2}j+a_{3}k)(i\ell )\\
+&=(a_{0}i - a_{1} + a_{2}ij + a_{3}ik)\ell \end {split}]]></fr:tex>
+Then
+<fr:tex display="block"><![CDATA[\begin {split}
+R_{i}R_{i\ell }(a_{0}+a_{1}i+a_{2}j+a_{3}k)
+&=(a_{0}i - a_{1} + a_{2}ij + a_{3}ik)\ell  i\\
+&=(a_{0}i(-i) - a_{1}(-i) + a_{2}ij(-i) + a_{3}ik(-i))\ell \\
+&=(a_{0} + a_{1}i - a_{2}j - a_{3}k)\ell \end {split}]]></fr:tex>
+Similarly, we find
+<fr:tex display="block"><![CDATA[R_{j}R_{j\ell }(a_{0}+a_{1}i+a_{2}j+a_{3}k)=(a_{0}-a_{1}i+a_{2}j-a_{3}k)\ell ]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[R_{k}R_{k\ell }(a_{0}+a_{1}i+a_{2}j+a_{3}k)=(a_{0}-a_{1}i-a_{2}j+a_{3}k)\ell ]]></fr:tex>
+This gives us
+<fr:tex display="block"><![CDATA[\boxed {\frac {1}{2}(-R_{\ell }+R_{i}R_{i\ell }+R_{j}R_{j\ell }+R_{k}R_{k\ell })a=\overline {a}\ell .}]]></fr:tex>
+We also find
+<fr:tex display="block"><![CDATA[\begin {split}
+R_{i\ell }(b_{0}\ell  + b_{1}i\ell  + b_{2}j\ell  + b_{3}k\ell )
+&= b_{0}\ell (i\ell )+b_{1}(i\ell )^{2}+b_{2}(j\ell )(i\ell )+b_{3}(k\ell )(i\ell )\\
+&= b_{0}i - b_{1} + b_{2}ij + b_{3}ik\end {split}]]></fr:tex>
+which then gives us
+<fr:tex display="block"><![CDATA[\begin {split}
+R_{i}R_{i\ell }(b_{0}\ell  + b_{1}i\ell  + b_{2}j\ell  + b_{3}k\ell )
+&= b_{0}i^{2} - b_{1}i + b_{2}iji + b_{3}iki\\
+&= - b_{0} - b_{1}i + b_{2}j + b_{3}k\end {split}]]></fr:tex>
+Similar reasoning gives analogous results for the other terms, giving us
+<fr:tex display="block"><![CDATA[\boxed {(-R_{\ell }+R_{i}R_{i\ell }+R_{j}R_{j\ell }+R_{k}R_{k\ell })(b\ell )=-2\overline {b}.}]]></fr:tex>
+Combining these boxed equations together gives us the result for an arbitrary octonion <fr:tex display="inline"><![CDATA[a+b\ell ]]></fr:tex>, provided we recall <fr:tex display="inline"><![CDATA[\ell  a=\overline {a}\ell ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\ell (b\ell )=-\overline {b}]]></fr:tex>.</html:p><html:p>It's not hard to see that
+<fr:tex display="block"><![CDATA[L_{i}L_{i\ell } = (-R_{\ell }+R_{i}R_{i\ell }-R_{j}R_{j\ell }-R_{k}R_{k\ell })/2]]></fr:tex>
+and similar results for <fr:tex display="inline"><![CDATA[L_{j}L_{j\ell }]]></fr:tex> and <fr:tex display="inline"><![CDATA[L_{k}L_{k\ell }]]></fr:tex>. Combining results, we obtain
+<fr:tex display="block"><![CDATA[\boxed {L_{\ell }+L_{i}L_{i\ell }+L_{j}L_{j\ell }+L_{k}L_{k\ell }=-2R_{\ell }.}]]></fr:tex>
+This allows us to write conjugation as
+<fr:tex display="block"><![CDATA[-L_{\ell }R_{\ell }a=\overline {a}.]]></fr:tex></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0007/</fr:uri><fr:display-uri>sl-0007</fr:display-uri><fr:route>/sl-0007/</fr:route><fr:title text="Baez-ian Special Linear Algebra for n\geq 3">Baez-ian Special Linear Algebra for <fr:tex display="inline"><![CDATA[n\geq 3]]></fr:tex></fr:title><fr:taxon>theorem</fr:taxon><fr:meta name="source">Section 4 of <fr:link href="/petyt-2018-special/" title="The special linear group for nonassociative rings" uri="http://localhost:8000/petyt-2018-special/" display-uri="petyt-2018-special" type="local">[petyt-2018-special]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a commutative unital associative <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link>. Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a finite-dimensional algebra over <fr:tex display="inline"><![CDATA[R]]></fr:tex> that is free as an <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module (and have a basis <fr:tex display="inline"><![CDATA[e_{1}]]></fr:tex>, …, <fr:tex display="inline"><![CDATA[e_{m}]]></fr:tex>).</html:p><html:p>Write <fr:tex display="inline"><![CDATA[\mathfrak {M}_{A}]]></fr:tex> for the left multiplication algebra of <fr:tex display="inline"><![CDATA[A]]></fr:tex>; i.e., <fr:tex display="inline"><![CDATA[\mathfrak {M}_{A}]]></fr:tex> is the <fr:tex display="inline"><![CDATA[R]]></fr:tex>-algebra generated by <fr:tex display="inline"><![CDATA[\{L_{re_{i}}\mid  r\in  R\}]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[A]]></fr:tex> is free over <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we have <fr:tex display="block"><![CDATA[\mathfrak {M}_{A}\subseteq \mathrm {End}_{R}(R^{m})=M_{m}(R).]]></fr:tex></html:p><html:p>Under these assumptions, if <fr:tex display="inline"><![CDATA[n\geq 3]]></fr:tex>, then <fr:tex display="block"><![CDATA[\mathfrak {sl}_{n}(A)\cong \{x\in \mathrm {Mat}_{n}(\mathfrak {M}_{A})\mid \mathrm {tr}(x)\in [\mathfrak {M}_{A},\mathfrak {M}_{A}]\}.]]></fr:tex>
+In particular, <fr:tex display="inline"><![CDATA[\mathfrak {sl}_{n}(A)\subseteq \mathfrak {sl}_{mn}(R)]]></fr:tex>.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0008/</fr:uri><fr:display-uri>sl-0008</fr:display-uri><fr:route>/sl-0008/</fr:route><fr:title text="Baez-ian Special Linear Group over Octonions">Baez-ian Special Linear Group over Octonions</fr:title><fr:taxon>corollary</fr:taxon><fr:meta name="source">Corollary 4.2 in <fr:link href="/petyt-2018-special/" title="The special linear group for nonassociative rings" uri="http://localhost:8000/petyt-2018-special/" display-uri="petyt-2018-special" type="local">[petyt-2018-special]</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><html:p>In particular, for <fr:tex display="inline"><![CDATA[n\geq 3]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(\mathbb {O})\cong \mathrm {SL}_{8n}(\mathbb {R})]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>From the <fr:link href="/sl-0007/" title="Baez-ian Special Linear Algebra for n\geq 3" uri="http://localhost:8000/sl-0007/" display-uri="sl-0007" type="local">previous theorem</fr:link>, we have <fr:tex display="inline"><![CDATA[\mathfrak {sl}_{n}(\mathbb {O})\cong \mathfrak {sl}_{8n}(\mathbb {R})]]></fr:tex>. Then exponentiating this gives the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+<html:p>Compare this to Sudbery's definition, Eq (5.5) in <fr:link href="/sudbery-1984-division/" title="Division algebras, (pseudo)orthogonal groups and spinors" uri="http://localhost:8000/sudbery-1984-division/" display-uri="sudbery-1984-division" type="local">[sudbery-1984-division]</fr:link>, for <fr:tex display="inline"><![CDATA[\mathfrak {sl}_{n}(\mathbb {O})]]></fr:tex> as left multiplication by traceless elements of <fr:tex display="inline"><![CDATA[\mathfrak {h}_{n}(\mathbb {O})]]></fr:tex> together with its derivations. Chevalley and Schafer's "<fr:link href="/chevalley-1950-exceptional/" title="The Exceptional Simple Lie Algebras F4 and E6" uri="http://localhost:8000/chevalley-1950-exceptional/" display-uri="chevalley-1950-exceptional" type="local">The Exceptional Simple Lie Algebras F4 and E6</fr:link>" prove this is isomorphic with <fr:tex display="inline"><![CDATA[\mathfrak {e}_{6}]]></fr:tex>.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>21</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0004/</fr:uri><fr:display-uri>sl-0004</fr:display-uri><fr:route>/sl-0004/</fr:route><fr:title text="Elementary Linear Group">Elementary Linear Group</fr:title><fr:taxon>definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be an <html:em>arbitrary</html:em> (unital, associative) <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link>. We define the <html:dfn>Elementary Linear Group</html:dfn> of degree <fr:tex display="inline"><![CDATA[n]]></fr:tex> over <fr:tex display="inline"><![CDATA[R]]></fr:tex> to be the subgroup <fr:tex display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathrm {GL}_{n}(R)]]></fr:tex> generated by matrices of the form:</html:p><fr:tex display="block"><![CDATA[I + r E_{i,j}]]></fr:tex><html:p>provided <fr:tex display="inline"><![CDATA[i\neq  j]]></fr:tex>, for any <fr:tex display="inline"><![CDATA[r\in  R]]></fr:tex>.</html:p><html:p>If we weaken this to be generated by matrices of the form <fr:tex display="inline"><![CDATA[L_{I+rE_{i,j}}]]></fr:tex>, then this seems to be the same as the <fr:link href="/sl-0003/" title="Baez-ian Special linear group over the octonions" uri="http://localhost:8000/sl-0003/" display-uri="sl-0003" type="local">Baez-ian Special linear group over the octonions</fr:link>.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0005/</fr:uri><fr:display-uri>sl-0005</fr:display-uri><fr:route>/sl-0005/</fr:route><fr:title text="Elementary linear group is a subgroup of special linear group">Elementary linear group is a subgroup of special linear group</fr:title><fr:taxon>theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a unital associative <html:strong>commutative</html:strong> <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link>, let <fr:tex display="inline"><![CDATA[n]]></fr:tex> be a natural number. Then <fr:tex display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subgroup of <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+<html:p>The determinant of each generator for the elementary linear group is <fr:tex display="inline"><![CDATA[\det (I+rE_{ij})=1]]></fr:tex>, which means that the generating set for <fr:tex display="inline"><![CDATA[\mathrm {EL}_{n}(R)]]></fr:tex> is a subset of <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex>. Hence the result.</html:p>
+<html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:uri>http://localhost:8000/sl-0006/</fr:uri><fr:display-uri>sl-0006</fr:display-uri><fr:route>/sl-0006/</fr:route><fr:title text="Derived subgroup of general linear group">Derived subgroup of general linear group</fr:title><fr:taxon>theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We can relate the commutator subgroup of <fr:tex display="inline"><![CDATA[\mathrm {GL}_{n}(R)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex> under certain circumstances on <fr:tex display="inline"><![CDATA[n]]></fr:tex> and <fr:tex display="inline"><![CDATA[R]]></fr:tex>. For skew-fields, the derived subgroup is equal to the elementary linear group.</html:p><html:ol><html:li><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link> of finite stable rank <fr:tex display="inline"><![CDATA[\mathrm {sr}(R)]]></fr:tex>. Then for every <fr:tex display="inline"><![CDATA[n>\mathrm {sr}(R)]]></fr:tex> we have <fr:tex display="inline"><![CDATA[[\mathrm {GL}_{n}(R),\mathrm {GL}_{n}(R)]=\mathrm {EL}_{n}(R)]]></fr:tex>.</html:p>
+
+<html:p>This follows from Vaserstein's injective stability theorem (theorem 10.15 in B. Magurn, <html:em>An Algebraic Introduction to <fr:tex display="inline"><![CDATA[K]]></fr:tex>-Theory</html:em>, CUP, 2002).</html:p></html:li>
+
+<html:li><html:p>Bass proved this is true for <html:em>any</html:em> (associative) unital ring <fr:tex display="inline"><![CDATA[R]]></fr:tex> when <fr:tex display="inline"><![CDATA[n\geq 3]]></fr:tex>. See <fr:link href="https://arxiv.org/abs/1510.07143" type="external">arXiv:1510.07143</fr:link>. Further when <fr:tex display="inline"><![CDATA[R]]></fr:tex> is commutative, <fr:tex display="inline"><![CDATA[n=1]]></fr:tex> has <fr:tex display="inline"><![CDATA[[\mathrm {GL}_{1}(R),\mathrm {GL}_{1}(R)]=\mathrm {EL}_{1}(R)]]></fr:tex>. For more about the <fr:tex display="inline"><![CDATA[n=2]]></fr:tex> case, see Cohn's "<fr:link href="/cohn-1966-structure/" title="On the structure of the \mathrm {GL}_{2} of a ring" uri="http://localhost:8000/cohn-1966-structure/" display-uri="cohn-1966-structure" type="local">On the structure of the <fr:tex display="inline"><![CDATA[\mathrm {GL}_{2}]]></fr:tex> of a ring</fr:link>".</html:p></html:li>
+
+<html:li><html:p>In particular, for any field <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[[\mathrm {GL}_{n}(\mathbb {F}),\mathrm {GL}_{n}(\mathbb {F})]=\mathrm {EL}_{n}(\mathbb {F})]]></fr:tex> when either <fr:tex display="inline"><![CDATA[n\neq  2]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathbb {F}\neq \mathbb {F}_{2}]]></fr:tex>.</html:p></html:li></html:ol></fr:mainmatter></fr:tree>
+   <fr:tree show-heading="false" show-metadata="false" toc="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>5</fr:day></fr:date><fr:uri>http://localhost:8000/sl-000C/</fr:uri><fr:display-uri>sl-000C</fr:display-uri><fr:route>/sl-000C/</fr:route><fr:title text="Blah blah blah">Blah blah blah</fr:title></fr:frontmatter><fr:mainmatter><html:p>This is an example tree without a title or an author. I do not know what will happen if I try to transclude it.</html:p></fr:mainmatter></fr:tree>
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>30</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/sl-000A/</fr:uri>
+            <fr:display-uri>sl-000A</fr:display-uri>
+            <fr:route>/sl-000A/</fr:route>
+            <fr:title text="Left multiplication by octonion as matrix">Left multiplication by octonion as matrix</fr:title>
+            <fr:taxon>remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We can also determine a matrix representation for the operator <fr:tex display="inline"><![CDATA[L_{a+\ell  b}]]></fr:tex> left multiplication by the Octonion <fr:tex display="inline"><![CDATA[a+\ell  b]]></fr:tex> (where <fr:tex display="inline"><![CDATA[a\in \mathbb {H}]]></fr:tex> and <fr:tex display="inline"><![CDATA[b\in \mathbb {H}]]></fr:tex>). This looks like:
+
+<fr:tex display="block"><![CDATA[L_{a+\ell  b} = \begin {pmatrix}L_{a} & -R_{\overline {b}}\\
+R_{b} & L_{\overline {a}}\end {pmatrix}]]></fr:tex>
+
+where <fr:tex display="inline"><![CDATA[L_{a}]]></fr:tex> and <fr:tex display="inline"><![CDATA[R_{b}]]></fr:tex> are the matrices discussed in <fr:link href="/sl-0009/" title="Left (and right) multiplication as a matrix" uri="http://localhost:8000/sl-0009/" display-uri="sl-0009" type="local">Left (and right) multiplication as a matrix</fr:link>. We also can see:
+
+<fr:tex display="block"><![CDATA[L_{a+b\ell } = \begin {pmatrix}L_{a} & -R_{b}C\\L_{b}C & L_{a}\end {pmatrix}]]></fr:tex>
+
+where <fr:tex display="inline"><![CDATA[C = \mathrm {diag}(+1,-1,-1,-1)]]></fr:tex> is the ``quaternion conjugation'' operation as a matrix.</html:p>
+            <html:p>To see this, we should recall that the Octonions may be expressed as <fr:tex display="inline"><![CDATA[a+\ell  b]]></fr:tex> with <fr:tex display="inline"><![CDATA[a\in \mathbb {H}]]></fr:tex> and <fr:tex display="inline"><![CDATA[b\in \mathbb {H}]]></fr:tex>, and we have:
+<html:ol><html:li><fr:tex display="inline"><![CDATA[a(\ell  b)=\ell (\overline {a}b)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(a\ell )b=(a\overline {b})\ell ]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(\ell  a)(b\ell ) = -\overline {ab}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[a\ell =\ell \overline {a}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\ell  a=\overline {a}\ell ]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(\ell  a)b=\ell (ba)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[a(b\ell )=(ba)\ell ]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(\ell  a)(\ell  b)=-b\overline {a}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(a\ell )(b\ell )=-\overline {b}a]]></fr:tex></html:li></html:ol>
+Then consider <fr:tex display="inline"><![CDATA[(a+\ell  b)(c + \ell  d)]]></fr:tex>. We find
+<fr:tex display="block"><![CDATA[(a+\ell  b)(c + \ell  d)=ac + \ell (\overline {a}d)+\ell (cb)-d\overline {b}]]></fr:tex>
+which can be represented in matrix form as
+<fr:tex display="block"><![CDATA[L_{a+\ell  b}\begin {pmatrix}c\\ d\end {pmatrix} = \begin {pmatrix}L_{a} & -R_{\overline {b}}\\
+R_{b} & L_{\overline {a}}\end {pmatrix}\begin {pmatrix}c\\ d\end {pmatrix}]]></fr:tex>
+Hence the result.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

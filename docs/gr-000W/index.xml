@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>13</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/gr-000W/</fr:uri>
+    <fr:display-uri>gr-000W</fr:display-uri>
+    <fr:route>/gr-000W/</fr:route>
+    <fr:title text="Isomorphic groups is symmetric predicate">Isomorphic groups is symmetric predicate</fr:title>
+    <fr:taxon>proposition</fr:taxon>
+    <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#T66" type="external">group_6:66</fr:link></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s. If <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> <fr:link href="/gr-000V/" title="Isomorphic groups" uri="http://localhost:8000/gr-000V/" display-uri="gr-000V" type="local">are isomorphic</fr:link>, then <fr:tex display="inline"><![CDATA[H]]></fr:tex> and <fr:tex display="inline"><![CDATA[G]]></fr:tex> are isomorphic.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>This is because the inverse function of a group isomorphism is itself a group isomorphism.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000G/</fr:uri>
+            <fr:display-uri>gr-000G</fr:display-uri>
+            <fr:route>/gr-000G/</fr:route>
+            <fr:title text="Group">Group</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#NM1" type="external">group_1:def</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>A <html:dfn>Group</html:dfn> consists of a set <fr:tex display="inline"><![CDATA[G]]></fr:tex> equipped with an <fr:link href="/gr-0003/" title="Associative binary operator" uri="http://localhost:8000/gr-0003/" display-uri="gr-0003" type="local">Associative binary operator</fr:link> <fr:tex display="inline"><![CDATA[\star ]]></fr:tex> and an <fr:link href="/gr-0005/" title="Identity element" uri="http://localhost:8000/gr-0005/" display-uri="gr-0005" type="local">Identity element</fr:link> with respect to <fr:tex display="inline"><![CDATA[\star ]]></fr:tex>, usually denoted either <fr:tex display="inline"><![CDATA[e\in  G]]></fr:tex> or <fr:tex display="inline"><![CDATA[1\in  G]]></fr:tex>, such that every element has a unique <fr:link href="/gr-000C/" title="Inverse of an element with respect to a binary operator" uri="http://localhost:8000/gr-000C/" display-uri="gr-000C" type="local">inverse</fr:link>,
+<fr:tex display="block"><![CDATA[\forall  a\in  G\ldotp \exists  a^{-1}\in  A\ldotp  a\star  a^{-1}=a^{-1}\star  a=e.]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) When the binary operator for the group is commutative, we usually use <fr:tex display="inline"><![CDATA[+]]></fr:tex> for the binary operator and <fr:tex display="inline"><![CDATA[0]]></fr:tex> for the identity element.</html:p>
+<html:p>(2) The "exact formalization" varies. For example, we could have equipped <fr:tex display="inline"><![CDATA[G]]></fr:tex> with a binary operator <fr:tex display="inline"><![CDATA[\star ]]></fr:tex>, a unary operator <fr:tex display="inline"><![CDATA[(-)^{-1}\colon  G\to  G]]></fr:tex>, and a constant element <fr:tex display="inline"><![CDATA[e\in  G]]></fr:tex>; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.</html:p>
+<html:p>(3) The intuition is that <fr:tex display="inline"><![CDATA[G]]></fr:tex> consists of <fr:link href="/ela-001K/" title="Bijective function" uri="http://localhost:8000/ela-001K/" display-uri="ela-001K" type="local">bijections</fr:link> from a set to itself, and the binary operator is just the <fr:link href="/nst-001M/" title="Composition of functions" uri="http://localhost:8000/nst-001M/" display-uri="nst-001M" type="local">Composition of functions</fr:link> and the identity element is just the <fr:link href="/nst-0017/" title="Identity function" uri="http://localhost:8000/nst-0017/" display-uri="nst-0017" type="local">Identity function</fr:link>. These bijections are "symmetries" of the set.</html:p>
+<html:p>(4) See also Forrester-Barker's <fr:link href="/forrester-2002-group/" title="Group objects and internal categories" uri="http://localhost:8000/forrester-2002-group/" display-uri="forrester-2002-group" type="local">Group objects and internal categories</fr:link> for a way to generalize the notion of groups to other settings.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000V/</fr:uri>
+            <fr:display-uri>gr-000V</fr:display-uri>
+            <fr:route>/gr-000V/</fr:route>
+            <fr:title text="Isomorphic groups">Isomorphic groups</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s. We typically say <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> are <html:dfn>Isomorphic</html:dfn> if there exists a <fr:link href="/gr-000U/" title="Group Isomorphism" uri="http://localhost:8000/gr-000U/" display-uri="gr-000U" type="local">Group Isomorphism</fr:link> between them. This is <fr:link href="/nst-000Y/" title="Reflexive relation" uri="http://localhost:8000/nst-000Y/" display-uri="nst-000Y" type="local">reflexive</fr:link> since the identity function is an automorphism.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,16 @@
+\title{Tools from algebraic number theory for calculating Galois groups}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+
+\p{Suppose #{f(x)\in\QQ[x]} is an irreducible polynomial. Often it's enough to determine the Galois group of #{f(x)} up to isomorphism, as a subgroup of #{S_{n}}.}
+\p{Let us review some relevant parts of algebraic number theory which will help us calculate the cycle type in Galois groups of polynomials over the integers.}
+\transclude{nt-004K} % number field
+\transclude{nt-004L} % algebraic integers O_k
+\transclude{nt-004Q} % examples of algebraic integers
+\transclude{nt-004M} % algebraic integers form an integral domain
+\transclude{nt-004N} % prime factorization of ideals in algebraic integers
+\transclude{nt-004O} % Galois group acts transitively on prime factors of an ideal
+\transclude{nt-004R} % decomposition subgroup
+\transclude{nt-004S}
+\transclude{nt-004T} % Cebotarev density theorem

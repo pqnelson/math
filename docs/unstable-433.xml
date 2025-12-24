@@ -7,18 +7,28 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8253</fr:anchor><fr:addr
-type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3042</fr:anchor><fr:addr
+type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
-display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="ca-002A.xml"
-addr="ca-002A"
-title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case</fr:strong>: <fr:tex
+display="inline"><![CDATA[r=1]]></fr:tex>. The result is immediate.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> For any <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>, suppose the result <fr:tex
+display="inline"><![CDATA[F_{r}=\mathbb {F}(\alpha _{1},…,\alpha _{r})]]></fr:tex>. We want to prove the claim for <fr:tex
+display="inline"><![CDATA[r+1]]></fr:tex>, i.e.,
+<fr:tex
+display="block"><![CDATA[\mathbb {F}(\alpha _{1},…,\alpha _{r})(\alpha _{r+1})=\mathbb {F}(\alpha _{1},…,\alpha _{r},\alpha _{r+1}).]]></fr:tex>
+But this is literally the base case.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,25 +43,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8255</fr:anchor><fr:addr
-type="user">ca-002H</fr:addr><fr:route>ca-002H.xml</fr:route><fr:title
-text="Set of continuous real-valued functions on metric space">Set of continuous real-valued functions on metric space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3044</fr:anchor><fr:addr
+type="user">nt-0013</fr:addr><fr:route>nt-0013.xml</fr:route><fr:title
+text="A finite sequence of simple extensions is a finitely generated extension">A finite sequence of simple extensions is a finitely generated extension</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
-type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. We denote by <fr:tex
-display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> the set of all continuous real-valued functions on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:p><fr:p>Moreover, this may be given the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Uniform Metric</html:dfn> defined by
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be an extension, let <fr:tex
+display="inline"><![CDATA[\alpha _{1},…,\alpha _{r}\in \Bbbk ]]></fr:tex>. Define the extensions
 <fr:tex
-display="block"><![CDATA[\left  \lVert  f-g \right  \rVert _{\infty }:=\sup _{x\in  X}|f(x)-g(x)|]]></fr:tex>
-for any <fr:tex
-display="inline"><![CDATA[f,g\in \mathcal {C}(X)]]></fr:tex>.</fr:p>
+display="block"><![CDATA[\mathbb {F}=F_{0}\subseteq  F_{1}\subseteq …\subseteq  F_{r}]]></fr:tex>
+by <fr:tex
+display="inline"><![CDATA[F_{i+1}=F_{i}(\alpha _{i+1})]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[F_{r}=\mathbb {F}(\alpha _{1},…,\alpha _{r})]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -61,17 +66,27 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8257</fr:anchor><fr:addr
-type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>869</fr:anchor><fr:addr
+type="machine">#433</fr:addr><fr:route>unstable-433.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>A sequence converges in <fr:tex
-display="inline"><![CDATA[\mathcal {C}(X)]]></fr:tex> converges with respect to the uniform metric if and only if it <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="ca-002A.xml"
-addr="ca-002A"
-title="Uniform Convergence">converges uniformly</fr:link> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case</fr:strong>: <fr:tex
+display="inline"><![CDATA[r=1]]></fr:tex>. The result is immediate.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> For any <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>, suppose the result <fr:tex
+display="inline"><![CDATA[F_{r}=\mathbb {F}(\alpha _{1},…,\alpha _{r})]]></fr:tex>. We want to prove the claim for <fr:tex
+display="inline"><![CDATA[r+1]]></fr:tex>, i.e.,
+<fr:tex
+display="block"><![CDATA[\mathbb {F}(\alpha _{1},…,\alpha _{r})(\alpha _{r+1})=\mathbb {F}(\alpha _{1},…,\alpha _{r},\alpha _{r+1}).]]></fr:tex>
+But this is literally the base case.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

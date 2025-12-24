@@ -7,17 +7,35 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1025</fr:anchor><fr:addr
-type="machine">#481</fr:addr><fr:route>unstable-481.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10994</fr:anchor><fr:addr
+type="machine">#481</fr:addr><fr:route>unstable-481.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Matrix similarity form an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[E\subseteq \overline {E}]]></fr:tex>. It suffices to show <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed iff <fr:tex
+display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed, then <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is a closed set such that <fr:tex
+display="inline"><![CDATA[E\subseteq  E]]></fr:tex>. Then by definition of the <fr:link
 type="local"
-href="nst-0011.xml"
-addr="nst-0011"
-title="Equivalence relation">equivalence relation</fr:link> on the set of all <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> matrices.</fr:mainmatter><fr:backmatter><fr:tree
+href="gt-000G.xml"
+addr="gt-000G"
+title="Closure">Closure</fr:link>, <fr:tex
+display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[E=\overline {E}]]></fr:tex>. Then by the <fr:link
+type="local"
+href="gt-000F.xml"
+addr="gt-000F"
+title="Properties of closed subsets">Properties of closed subsets</fr:link> (specifically (2)), <fr:tex
+display="inline"><![CDATA[\overline {E}]]></fr:tex> is closed. So <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -32,25 +50,25 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1027</fr:anchor><fr:addr
-type="user">matrix-002B</fr:addr><fr:route>matrix-002B.xml</fr:route><fr:title
-text="Similar Matrices">Similar Matrices</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10996</fr:anchor><fr:addr
+type="user">gt-000I</fr:addr><fr:route>gt-000I.xml</fr:route><fr:title
+text="A set is closed iff it is equal to its own closure">A set is closed iff it is equal to its own closure</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be two <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> matrices. We say they are <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Similar</html:dfn>, denoted <fr:tex
-display="inline"><![CDATA[\mathbf {A}\sim \mathbf {B}]]></fr:tex>, if there exists an <fr:link
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
 type="local"
-href="matrix-001C.xml"
-addr="matrix-001C"
-title="Matrix Inverse">invertible <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> matrix</fr:link> <fr:tex
-display="inline"><![CDATA[\mathbf {X}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\mathbf {A}=\mathbf {X}\mathbf {B}\mathbf {X}^{-1}]]></fr:tex>.</fr:p>
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[E\subseteq  X]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is a <fr:link
+type="local"
+href="gt-000E.xml"
+addr="gt-000E"
+title="Closed set">closed set</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[E=\overline {E}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -60,16 +78,34 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1029</fr:anchor><fr:addr
-type="machine">#481</fr:addr><fr:route>unstable-481.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10998</fr:anchor><fr:addr
+type="machine">#481</fr:addr><fr:route>unstable-481.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Matrix similarity form an <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that <fr:tex
+display="inline"><![CDATA[E\subseteq \overline {E}]]></fr:tex>. It suffices to show <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed iff <fr:tex
+display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed, then <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is a closed set such that <fr:tex
+display="inline"><![CDATA[E\subseteq  E]]></fr:tex>. Then by definition of the <fr:link
 type="local"
-href="nst-0011.xml"
-addr="nst-0011"
-title="Equivalence relation">equivalence relation</fr:link> on the set of all <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> matrices.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="gt-000G.xml"
+addr="gt-000G"
+title="Closure">Closure</fr:link>, <fr:tex
+display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[\overline {E}\subseteq  E]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[E=\overline {E}]]></fr:tex>. Then by the <fr:link
+type="local"
+href="gt-000F.xml"
+addr="gt-000F"
+title="Properties of closed subsets">Properties of closed subsets</fr:link> (specifically (2)), <fr:tex
+display="inline"><![CDATA[\overline {E}]]></fr:tex> is closed. So <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is closed.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

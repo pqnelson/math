@@ -7,20 +7,68 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9620</fr:anchor><fr:addr
-type="machine">#349</fr:addr><fr:route>unstable-349.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1633</fr:anchor><fr:addr
+type="machine">#349</fr:addr><fr:route>unstable-349.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We're playing "fast and loose" with things here, but for a discussion of axiomatic set theory based on classes (using the NBG axioms), see <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the Galois group of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is <fr:link
 type="local"
-href="taras-banakh.xml"
-addr="taras-banakh"
-title="Taras Banakh">Taras Banakh</fr:link>'s <fr:link
+href="gr-0052.xml"
+addr="gr-0052"
+title="Solvable Group">solvable</fr:link>. If <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is the <fr:link
 type="local"
-href="banakh-2020-classical.xml"
-addr="banakh-2020-classical"
-title="Classical Set Theory: Theory of Sets and Classes">Classical Set Theory: Theory of Sets and Classes</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> and <fr:tex
+display="inline"><![CDATA[G=\mathop {\textrm {Gal}}\nolimits (\mathbb {L} / \mathbb {F})]]></fr:tex>, then there exists groups
+<fr:tex
+display="block"><![CDATA[1=G_{0}\mathrel {<} G_{1}\mathrel {<}…\mathrel {<} G_{n}=G]]></fr:tex>
+such that <fr:tex
+display="inline"><![CDATA[G_{j}\mathrel {\trianglelefteq } G_{j+1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[G_{j+1}/G_{j}]]></fr:tex> is cyclic.</fr:p>
+<fr:p>By the Galois correspondence, <fr:tex
+display="inline"><![CDATA[G_{n-i}]]></fr:tex> corresponds to Galois extensions <fr:tex
+display="inline"><![CDATA[L_{i}/\mathbb {F}]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[\mathbb {F}=L_{0}\subset  L_{1}\subset …\subset  L_{n}=\mathbb {L}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[G_{n-i}=\mathop {\textrm {Gal}}\nolimits (L_{n} / L_{i})]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Gal}}\nolimits (L_{i+1}/L_{i})\cong \frac {\mathop {\textrm {Gal}}\nolimits (\mathbb {L} /L_{i})}{\mathop {\textrm {Gal}}\nolimits (\mathbb {L} /L_{i+1})}=\frac {G_{n-i}}{G_{n-i-1}}]]></fr:tex>
+is cyclic. <fr:link
+type="local"
+href="nt-004F.xml"
+addr="nt-004F"
+title="Composite of root extensions is a root extension">Then we see</fr:link> each element <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {L}]]></fr:tex> lies in a <fr:link
+type="local"
+href="nt-004D.xml"
+addr="nt-004D"
+title="Root Extension">Root Extension</fr:link>, hence <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is solvable by radicals.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is solvable by radicals. Let <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> lying in a root extension of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>. <fr:link
+type="local"
+href="nt-004F.xml"
+addr="nt-004F"
+title="Composite of root extensions is a root extension">Then we see</fr:link> <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> lies in a solvable Galois extension <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is Galois, it must contain the splitting extension <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> is a quotient of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\mathbb {L} / \mathbb {F})]]></fr:tex> and therefore it is solvable.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -35,19 +83,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9622</fr:anchor><fr:addr
-type="user">nst-001P</fr:addr><fr:route>nst-001P.xml</fr:route><fr:title
-text="Classes">Classes</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1635</fr:anchor><fr:addr
+type="user">nt-0046</fr:addr><fr:route>nt-0046.xml</fr:route><fr:title
+text="Galois's theorem">Galois's theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We will often informally refer to a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">(Proper) Class</html:dfn> as an unordered collection which is "too big" to be a set.</fr:p><fr:p>For example, the von Neumann universe <fr:tex
-display="inline"><![CDATA[\mathbf {V}]]></fr:tex> is the proper class of all sets.</fr:p><fr:p>In practice, we seldom need to work with proper classes directly. The Working Mathematician needs only sets (until we get to Category Theory, but we'll revisit this as needed).</fr:p><fr:p>The <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Axiom of limitation of size</html:dfn> asserts a collection <fr:tex
-display="inline"><![CDATA[C]]></fr:tex> is a proper class if and only if there exists a surjective function from <fr:tex
-display="inline"><![CDATA[C]]></fr:tex> to the von Neumann universe <fr:tex
-display="inline"><![CDATA[\mathbf {V}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The polynomial <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is <fr:link
+type="local"
+href="nt-0047.xml"
+addr="nt-0047"
+title="Solvable by Radicals">solvable by radicals</fr:link> if and only if the <fr:link
+type="local"
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois group</fr:link> of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is <fr:link
+type="local"
+href="gr-0052.xml"
+addr="gr-0052"
+title="Solvable Group">solvable</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -57,19 +113,86 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2829</fr:anchor><fr:addr
-type="machine">#349</fr:addr><fr:route>unstable-349.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1283</fr:anchor><fr:addr
+type="machine">#349</fr:addr><fr:route>unstable-349.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We're playing "fast and loose" with things here, but for a discussion of axiomatic set theory based on classes (using the NBG axioms), see <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the Galois group of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is <fr:link
 type="local"
-href="taras-banakh.xml"
-addr="taras-banakh"
-title="Taras Banakh">Taras Banakh</fr:link>'s <fr:link
+href="gr-0052.xml"
+addr="gr-0052"
+title="Solvable Group">solvable</fr:link>. If <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is the <fr:link
 type="local"
-href="banakh-2020-classical.xml"
-addr="banakh-2020-classical"
-title="Classical Set Theory: Theory of Sets and Classes">Classical Set Theory: Theory of Sets and Classes</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> and <fr:tex
+display="inline"><![CDATA[G=\mathop {\textrm {Gal}}\nolimits (\mathbb {L} / \mathbb {F})]]></fr:tex>, then there exists groups
+<fr:tex
+display="block"><![CDATA[1=G_{0}\mathrel {<} G_{1}\mathrel {<}…\mathrel {<} G_{n}=G]]></fr:tex>
+such that <fr:tex
+display="inline"><![CDATA[G_{j}\mathrel {\trianglelefteq } G_{j+1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[G_{j+1}/G_{j}]]></fr:tex> is cyclic.</fr:p>
+<fr:p>By the Galois correspondence, <fr:tex
+display="inline"><![CDATA[G_{n-i}]]></fr:tex> corresponds to Galois extensions <fr:tex
+display="inline"><![CDATA[L_{i}/\mathbb {F}]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[\mathbb {F}=L_{0}\subset  L_{1}\subset …\subset  L_{n}=\mathbb {L}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[G_{n-i}=\mathop {\textrm {Gal}}\nolimits (L_{n} / L_{i})]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Gal}}\nolimits (L_{i+1}/L_{i})\cong \frac {\mathop {\textrm {Gal}}\nolimits (\mathbb {L} /L_{i})}{\mathop {\textrm {Gal}}\nolimits (\mathbb {L} /L_{i+1})}=\frac {G_{n-i}}{G_{n-i-1}}]]></fr:tex>
+is cyclic. <fr:link
+type="local"
+href="nt-004F.xml"
+addr="nt-004F"
+title="Composite of root extensions is a root extension">Then we see</fr:link> each element <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {L}]]></fr:tex> lies in a <fr:link
+type="local"
+href="nt-004D.xml"
+addr="nt-004D"
+title="Root Extension">Root Extension</fr:link>, hence <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is solvable by radicals.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is solvable by radicals. Let <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> lying in a root extension of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>. <fr:link
+type="local"
+href="nt-004F.xml"
+addr="nt-004F"
+title="Composite of root extensions is a root extension">Then we see</fr:link> <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> lies in a solvable Galois extension <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is Galois, it must contain the splitting extension <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> is a quotient of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\mathbb {L} / \mathbb {F})]]></fr:tex> and therefore it is solvable.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1285</fr:anchor><fr:addr
+type="machine">#350</fr:addr><fr:route>unstable-350.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This implies there is no general formula for the roots of a polynomial <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[p(x)\geq 5]]></fr:tex> in terms of radicals, addition, subtraction, multiplication, and division by constants and the coefficients of the polynomial.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

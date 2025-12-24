@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>http://localhost:8000/bruno-nachtergaele/</fr:uri>
+    <fr:display-uri>bruno-nachtergaele</fr:display-uri>
+    <fr:route>/bruno-nachtergaele/</fr:route>
+    <fr:title text="Bruno Leo Zulma Nachtergaele">Bruno Leo Zulma Nachtergaele</fr:title>
+    <fr:taxon>person</fr:taxon>
+    <fr:meta name="external">https://www.math.ucdavis.edu/~bxn/</fr:meta>
+    <fr:meta name="position">Professor of Mathematics</fr:meta>
+    <fr:meta name="institution">
+      <fr:link href="/ucdavis.edu" title="University of California, Davis" uri="http://localhost:8000/ucdavis.edu" display-uri="ucdavis.edu" type="local">University of California, Davis</fr:link>
+    </fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ela-001Z/</fr:uri>
+            <fr:display-uri>ela-001Z</fr:display-uri>
+            <fr:route>/ela-001Z/</fr:route>
+            <fr:title text="Concluding remarks">Concluding remarks</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>So we hit the "highpoints" of an elementary introduction to linear algebra (or, an introduction to elementary linear algebra). Intermediate linear algebra should revisit this subject and "distill" it into a "library" of definitions, theorems, and proofs.</html:p>
+            <html:p>Good texts for intermediate linear algebra include <fr:link href="/sheldon-jay-axler/" title="Sheldon Jay Axler" uri="http://localhost:8000/sheldon-jay-axler/" display-uri="sheldon-jay-axler" type="local">Axler</fr:link>'s <fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link>, though I learned it from <fr:link href="/isaiah-lankham/" title="Isaiah Lankham" uri="http://localhost:8000/isaiah-lankham/" display-uri="isaiah-lankham" type="local">Lankham</fr:link>, <fr:link href="/bruno-nachtergaele/" title="Bruno Leo Zulma Nachtergaele" uri="http://localhost:8000/bruno-nachtergaele/" display-uri="bruno-nachtergaele" type="local">Nachtergaele</fr:link>, and <fr:link href="/anne-schilling/" title="Anne Schilling" uri="http://localhost:8000/anne-schilling/" display-uri="anne-schilling" type="local">Schilling</fr:link>'s <fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> since this is the textbook for Math 67 at the Math Department of <fr:link href="/ucdavis.edu" title="University of California, Davis" uri="http://localhost:8000/ucdavis.edu" display-uri="ucdavis.edu" type="local">University of California, Davis</fr:link>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>http://localhost:8000/ucdavis.edu</fr:uri>
+            <fr:display-uri>ucdavis.edu</fr:display-uri>
+            <fr:route>/ucdavis.edu</fr:route>
+            <fr:title text="University of California, Davis">University of California, Davis</fr:title>
+            <fr:taxon>institution</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

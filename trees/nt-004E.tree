@@ -1,0 +1,21 @@
+\title{Simple root extension of a root extension is another root extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{lemma}
+
+\p{Let #{\kk / \FF} be a [[nt-004D]] with
+##{\FF = K_{0}\propersubset K_{1}\propersubset\dots\propersubset K_{n}=\kk}
+such that #{K_{i+1}=K_{i}(a_{i}^{1 / n_{i}})} for some #{a_{i}\in K_{i}}.}
+\p{For any #{a\in\FF} and #{m\in\NN}, writing #{\FF'=\FF(a^{1 / m})} and #{\kk' = \FF'\kk}, \textbf{then} we have #{\kk' / \FF} is a root extension.}
+
+\proof{\p{Let #{K'_{i}=\FF'K_{i}} for each #{i=0,\dots,n}. Then looking at the diagram
+\quiver{
+\begin{tikzcd}
+\FF'\ar[d,dash]\ar[r,dash] & K'_{1}\ar[d,dash]\ar[r,dash] & \dots\ar[d,dash]\ar[r,dash] & K'_{n-1}\ar[d,dash]\ar[r,dash] & K'\ar[d,dash]\\
+\FF\ar[r,dash] & K_{1}\ar[r,dash] & \dots\ar[r,dash] & K_{n-1}\ar[r,dash] & K
+\end{tikzcd}
+}
+Then we have
+##{\FF\propersubset\FF'\propersubset K'_{1}\propersubset K'_{2}\propersubset\dots\propersubset K'_{n}\propersubset K'}
+where #{\FF'=\FF(a^{1 / m})} and #{K'_{i+1}=K'(a_{i}^{1 / n_{i}})}.}}

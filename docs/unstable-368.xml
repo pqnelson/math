@@ -7,35 +7,40 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8189</fr:anchor><fr:addr
-type="machine">#368</fr:addr><fr:route>unstable-368.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1709</fr:anchor><fr:addr
+type="machine">#368</fr:addr><fr:route>unstable-368.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="nst-002J.xml"
-addr="nst-002J"
-title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
-display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separate</fr:link> <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let
+<fr:tex
+display="block"><![CDATA[g(x)=\prod _{\beta \in  G\alpha }(x-\beta ).]]></fr:tex>
+For each <fr:tex
+display="inline"><![CDATA[\sigma \in  G]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[g^{\sigma }(x)]]></fr:tex> be the polynomial obtained by applying <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to the coefficients of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[g^{\sigma }(x)=\prod _{\beta \in  G\alpha }(x-\sigma \beta ).]]></fr:tex>
+Then <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {F}[x]]]></fr:tex>.</fr:p>
+<fr:p>We see <fr:tex
+display="inline"><![CDATA[g(\alpha )=0]]></fr:tex> and irreducibility implies <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is the minimal polynomial of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> (i.e., <fr:tex
+display="inline"><![CDATA[f(x)=m_{\alpha }(x)]]></fr:tex>), which implies
+<fr:tex
+display="block"><![CDATA[f(x)\mathrel {\bigm |} g(x).]]></fr:tex>
+We see
+<fr:tex
+display="block"><![CDATA[f(\sigma \alpha )=f^{\sigma }(\alpha )=f(\alpha )=0,]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[G\alpha ]]></fr:tex> are roots of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. This then implies
+<fr:tex
+display="block"><![CDATA[g(x)\mathrel {\bigm |} f(x).]]></fr:tex>
+Hence <fr:tex
+display="inline"><![CDATA[g=f]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -52,30 +57,37 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8191</fr:anchor><fr:addr
-type="user">gt-000V</fr:addr><fr:route>gt-000V.xml</fr:route><fr:title
-text="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1711</fr:anchor><fr:addr
+type="user">nt-0033</fr:addr><fr:route>nt-0033.xml</fr:route><fr:title
+text="Irreducible polynomials with a root in a Galois extension is separable and splits over that extension">Irreducible polynomials with a root in a Galois extension is separable and splits over that extension</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> be <fr:link
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>s. Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link> extension, let <fr:tex
+display="inline"><![CDATA[G=\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> be an irreducible polynomial. If there exists some <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(\alpha )=0]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[f(x)=\prod _{\beta \in  G\alpha }(x-\beta ),]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[G\alpha =\{g\alpha \mid  g\in  G\}]]></fr:tex> is the set of <fr:link
 type="local"
-href="gt-000P.xml"
-addr="gt-000P"
-title="Continuous Function">Continuous Function</fr:link>. If <fr:tex
-display="inline"><![CDATA[E\subseteq  X]]></fr:tex> is a <fr:link
+href="nt-0032.xml"
+addr="nt-0032"
+title="Galois Conjugate">Galois conjugates</fr:link> of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex>. In particular, <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is <fr:link
 type="local"
-href="gt-000U.xml"
-addr="gt-000U"
-title="Connected Subset">Connected Subset</fr:link>, then <fr:tex
-display="inline"><![CDATA[f(E)\subseteq  Y]]></fr:tex> is a connected subset.</fr:p>
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> and splits over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -85,35 +97,40 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6244</fr:anchor><fr:addr
-type="machine">#368</fr:addr><fr:route>unstable-368.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1143</fr:anchor><fr:addr
+type="machine">#368</fr:addr><fr:route>unstable-368.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="nst-002J.xml"
-addr="nst-002J"
-title="Proof by contradiction">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> is not connected. Then let <fr:tex
-display="inline"><![CDATA[V_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{2}]]></fr:tex> be open subsets of <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex> which <fr:link
-type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separate</fr:link> <fr:tex
-display="inline"><![CDATA[f(E)]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[V_{1}\cap  V_{2}=\emptyset ]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V_{1}\cup  V_{2}=f(E)]]></fr:tex>. Then by continuity, <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> are disjoint open subsets of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> whose union is <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>. This means <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{1})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[f^{-1}(V_{2})]]></fr:tex> separate <fr:tex
-display="inline"><![CDATA[E]]></fr:tex>, which contradicts <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> being connected.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let
+<fr:tex
+display="block"><![CDATA[g(x)=\prod _{\beta \in  G\alpha }(x-\beta ).]]></fr:tex>
+For each <fr:tex
+display="inline"><![CDATA[\sigma \in  G]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[g^{\sigma }(x)]]></fr:tex> be the polynomial obtained by applying <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to the coefficients of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[g^{\sigma }(x)=\prod _{\beta \in  G\alpha }(x-\sigma \beta ).]]></fr:tex>
+Then <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {F}[x]]]></fr:tex>.</fr:p>
+<fr:p>We see <fr:tex
+display="inline"><![CDATA[g(\alpha )=0]]></fr:tex> and irreducibility implies <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is the minimal polynomial of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> (i.e., <fr:tex
+display="inline"><![CDATA[f(x)=m_{\alpha }(x)]]></fr:tex>), which implies
+<fr:tex
+display="block"><![CDATA[f(x)\mathrel {\bigm |} g(x).]]></fr:tex>
+We see
+<fr:tex
+display="block"><![CDATA[f(\sigma \alpha )=f^{\sigma }(\alpha )=f(\alpha )=0,]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[G\alpha ]]></fr:tex> are roots of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. This then implies
+<fr:tex
+display="block"><![CDATA[g(x)\mathrel {\bigm |} f(x).]]></fr:tex>
+Hence <fr:tex
+display="inline"><![CDATA[g=f]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>http://localhost:8000/bartel-van-der-waerden/</fr:uri>
+    <fr:display-uri>bartel-van-der-waerden</fr:display-uri>
+    <fr:route>/bartel-van-der-waerden/</fr:route>
+    <fr:title text="Bartel L. van der Waerden">Bartel L. van der Waerden</fr:title>
+    <fr:taxon>person</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/iaa-000C/</fr:uri>
+            <fr:display-uri>iaa-000C</fr:display-uri>
+            <fr:route>/iaa-000C/</fr:route>
+            <fr:title text="Preferatory notes about Galois Theory">Preferatory notes about Galois Theory</fr:title>
+            <fr:taxon>remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Galois theory combines everything we've studied so far in abstract algebra: we have fields which are super nice rings (relying on everything discussed in the <fr:link href="/iaa-0008/" title="Traditional Introduction to Rings" uri="http://localhost:8000/iaa-0008/" display-uri="iaa-0008" type="local">Traditional Introduction to Rings</fr:link>) and we may view some fields as vector spaces over another (relying on everything discussed in the <fr:link href="/iaa-0009/" title="Traditional Introduction to Modules" uri="http://localhost:8000/iaa-0009/" display-uri="iaa-0009" type="local">Traditional Introduction to Modules</fr:link>).</html:p>
+            <html:p>We can translate "roots of a polynomial" into "field extensions", and then study the symmetries of field extensions leaving the base field invariant. This relies on everything we learned in the <fr:link href="/iaa-0001/" title="Traditional Introduction to Groups" uri="http://localhost:8000/iaa-0001/" display-uri="iaa-0001" type="local">Traditional Introduction to Groups</fr:link>.</html:p>
+            <html:p>In other words, Galois theory combines everything we have learned into a single application (i.e., solving polynomials over fields). <fr:link href="/emmy-noether/" title="Emmy Noether" uri="http://localhost:8000/emmy-noether/" display-uri="emmy-noether" type="local">Emmy Noether</fr:link> is responsible for this presentation of material, but <fr:link href="/bartel-van-der-waerden/" title="Bartel L. van der Waerden" uri="http://localhost:8000/bartel-van-der-waerden/" display-uri="bartel-van-der-waerden" type="local">Bartel L. van der Waerden</fr:link> usually gets credit for it since it's basically the content of <fr:link href="/van-der-waerden-1949-modern1/" title="Modern Algebra, Vol. I" uri="http://localhost:8000/van-der-waerden-1949-modern1/" display-uri="van-der-waerden-1949-modern1" type="local">Modern Algebra, Vol. I</fr:link>...but people don't realize that Emmy Noether is the person who wrote the outline and highlighted the importance of this structure to the presentation of material.</html:p>
+            <html:p>Before I forget, these are mostly based on my notes and the notes of Zavosh Amir-Khosravi (who used them for Caltech's Math 5C course for Spring quarter 2018).</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

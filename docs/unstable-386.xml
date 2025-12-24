@@ -7,18 +7,42 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4697</fr:anchor><fr:addr
-type="machine">#386</fr:addr><fr:route>unstable-386.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2267</fr:anchor><fr:addr
+type="machine">#386</fr:addr><fr:route>unstable-386.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows immediately from <fr:link
-type="local"
-href="gr-004M.xml"
-addr="gr-004M"
-title="Centralizer is fixed-point of conjugation action">Centralizer is fixed-point of conjugation action</fr:link>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The proof is based loosely on two ideas:
+<fr:ol><fr:li>We may compare the factorization of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> with that of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[p\nmid  n]]></fr:tex>.</fr:li>
+<fr:li>Investigate how automorphisms of a finite field permute the roots of polynomials.</fr:li></fr:ol>
+More about the second idea: suppose <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is a polynomial over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F(x)=f(x)g(x)]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[f(x),g(x)\in \mathbb {F}_{p}[x]]]></fr:tex>. The splitting field of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, and the Frobenius morphism <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> is an automorphism of this splitting field. Since <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is the identity function on <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>, it must permute the roots of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\phi (\alpha )=\alpha ^{p}]]></fr:tex> is a root of either <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[g(\alpha ^{p})=g(\alpha )^{p}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[g(\alpha ^{p})=0]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[g(\alpha )=0]]></fr:tex>. So if <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is separable, then the Frobenius morphism permutes the roots of different factors of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> separately.</fr:p>
+<fr:p>Studying how automorphisms of a splitting field for a polynomial acts on the roots of the polynomial naturally leads to Galois theory.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,41 +57,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4699</fr:anchor><fr:addr
-type="user">gr-004N</fr:addr><fr:route>gr-004N.xml</fr:route><fr:title
-text="Index of centralizer is size of conjugacy class">Index of centralizer is size of conjugacy class</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2269</fr:anchor><fr:addr
+type="user">nt-002H</fr:addr><fr:route>nt-002H.xml</fr:route><fr:title
+text="Degree of rationals adjoined with n^{{th}} root of unity is given by Euler totient of n">Degree of rationals adjoined with <fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> root of unity is given by Euler totient of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. Consider the <fr:link
-type="local"
-href="gr-004H.xml"
-addr="gr-004H"
-title="Conjugation action">Conjugation action</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on itself. Let <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex>. Then the <fr:link
-type="local"
-href="gr-003J.xml"
-addr="gr-003J"
-title="Index of a subgroup">index</fr:link> of the <fr:link
-type="local"
-href="gr-001Q.xml"
-addr="gr-001Q"
-title="Centralizer of an element">centralizer</fr:link> <fr:tex
-display="inline"><![CDATA[C_{G}(g)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> is the cardinality of the <fr:link
-type="local"
-href="gr-002D.xml"
-addr="gr-002D"
-title="Conjugacy class of an element">Conjugacy class of an element</fr:link> of <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>:
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We claim
 <fr:tex
-display="block"><![CDATA[[G : C_{G}(g)]=|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex></fr:p>
+display="block"><![CDATA[[\mathbb {Q}(\zeta _{n}) : \mathbb {Q}]=\phi (n)]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\phi (n)]]></fr:tex> is the <fr:link
+type="local"
+href="nt-0005.xml"
+addr="nt-0005"
+title="Euler totient">Euler totient</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -77,17 +83,41 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2030</fr:anchor><fr:addr
-type="machine">#386</fr:addr><fr:route>unstable-386.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1065</fr:anchor><fr:addr
+type="machine">#386</fr:addr><fr:route>unstable-386.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows immediately from <fr:link
-type="local"
-href="gr-004M.xml"
-addr="gr-004M"
-title="Centralizer is fixed-point of conjugation action">Centralizer is fixed-point of conjugation action</fr:link>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The proof is based loosely on two ideas:
+<fr:ol><fr:li>We may compare the factorization of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> with that of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[p\nmid  n]]></fr:tex>.</fr:li>
+<fr:li>Investigate how automorphisms of a finite field permute the roots of polynomials.</fr:li></fr:ol>
+More about the second idea: suppose <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is a polynomial over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F(x)=f(x)g(x)]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[f(x),g(x)\in \mathbb {F}_{p}[x]]]></fr:tex>. The splitting field of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, and the Frobenius morphism <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> is an automorphism of this splitting field. Since <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is the identity function on <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>, it must permute the roots of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\phi (\alpha )=\alpha ^{p}]]></fr:tex> is a root of either <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[g(\alpha ^{p})=g(\alpha )^{p}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[g(\alpha ^{p})=0]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[g(\alpha )=0]]></fr:tex>. So if <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is separable, then the Frobenius morphism permutes the roots of different factors of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> separately.</fr:p>
+<fr:p>Studying how automorphisms of a splitting field for a polynomial acts on the roots of the polynomial naturally leads to Galois theory.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

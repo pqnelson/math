@@ -1,0 +1,7 @@
+\title{Rational functions invariant under permutations may be written in terms of elementary symmetric functions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{Any rational functions in #{x_{1}}, \dots, #{x_{n}} which is invariant under permutations of the #{x_{i}} may be written as a function of [[nt-003W]] #{s_{1}}, \dots, #{s_{n}}.}

@@ -7,18 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4777</fr:anchor><fr:addr
-type="machine">#406</fr:addr><fr:route>unstable-406.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2564</fr:anchor><fr:addr
+type="machine">#406</fr:addr><fr:route>unstable-406.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is commutative, <fr:tex
-display="inline"><![CDATA[g^{h}=g]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[g,h\in  G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[H^{g}=\{h^{g}=h\mid  g\in  G\}=H]]></fr:tex>. Hence the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There are many different isomorphisms between algebraic closures of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, so we can't really speak of "the" algebraic closure of a field.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,33 +28,25 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4779</fr:anchor><fr:addr
-type="user">gr-002S</fr:addr><fr:route>gr-002S.xml</fr:route><fr:title
-text="Every subgroup of a commutative group is normal">Every subgroup of a commutative group is normal</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2566</fr:anchor><fr:addr
+type="user">nt-0020</fr:addr><fr:route>nt-0020.xml</fr:route><fr:title
+text="Algebraic Closure is Unique up to Isomorphism">Algebraic Closure is Unique up to Isomorphism</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
 name="source">MML <fr:link
 type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_3.html#T116">group_3:116</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+href="https://mizar.uwb.edu.pl/version/current/html/field_12.html#T33">field_12:33</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> are <fr:link
 type="local"
-href="gr-000J.xml"
-addr="gr-000J"
-title="Abelian group">Abelian group</fr:link>. Let <fr:tex
-display="inline"><![CDATA[H\leq  G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-001B.xml"
-addr="gr-001B"
-title="Subgroup">Subgroup</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is a <fr:link
-type="local"
-href="gr-002P.xml"
-addr="gr-002P"
-title="Normal subgroup">Normal subgroup</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+href="nt-001W.xml"
+addr="nt-001W"
+title="Algebraic Closure">algebraic closures</fr:link> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -69,17 +56,40 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1850</fr:anchor><fr:addr
-type="machine">#406</fr:addr><fr:route>unstable-406.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>995</fr:anchor><fr:addr
+type="machine">#405</fr:addr><fr:route>unstable-405.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is commutative, <fr:tex
-display="inline"><![CDATA[g^{h}=g]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[g,h\in  G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[H^{g}=\{h^{g}=h\mid  g\in  G\}=H]]></fr:tex>. Hence the result.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Extending the identity map on <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> to an embedding of <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> into <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}]]></fr:tex> and applying <fr:link
+type="local"
+href="nt-0021.xml"
+addr="nt-0021"
+title="Lifting embedding of a field into an extension to an embedding of the extension into the algebraic closure">lifts of embeddings of a field <fr:tex
+display="inline"><![CDATA[\mathbb {F}\hookrightarrow \Bbbk _{1}]]></fr:tex> to an embedding <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}\hookrightarrow \Bbbk _{2}]]></fr:tex> is an isomorphism</fr:link>, we have the result.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>997</fr:anchor><fr:addr
+type="machine">#406</fr:addr><fr:route>unstable-406.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>There are many different isomorphisms between algebraic closures of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, so we can't really speak of "the" algebraic closure of a field.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

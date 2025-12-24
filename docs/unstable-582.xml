@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7556</fr:anchor><fr:addr
+type="machine">#582</fr:addr><fr:route>unstable-582.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We want to prove: for any <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\mathbf {1}_{G}^{g}=\mathbf {1}_{G}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>. Then for any <fr:tex
+display="inline"><![CDATA[x\in \mathbf {1}_{G}^{g}]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x=1_{G}^{g}=1_{G}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[x\in \mathbf {1}_{G}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\mathbf {1}_{G}^{g}=\mathbf {1}_{G}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7558</fr:anchor><fr:addr
+type="user">gr-002Q</fr:addr><fr:route>gr-002Q.xml</fr:route><fr:title
+text="Every group has a normal subgroup">Every group has a normal subgroup</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Then <fr:tex
+display="inline"><![CDATA[\mathbf {1}_{G}]]></fr:tex> is a <fr:link
+type="local"
+href="gr-002P.xml"
+addr="gr-002P"
+title="Normal subgroup">Normal subgroup</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> (thus allowing us to use "normal" as an adjective).</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4156</fr:anchor><fr:addr
+type="machine">#582</fr:addr><fr:route>unstable-582.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We want to prove: for any <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\mathbf {1}_{G}^{g}=\mathbf {1}_{G}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>. Then for any <fr:tex
+display="inline"><![CDATA[x\in \mathbf {1}_{G}^{g}]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[x=1_{G}^{g}=1_{G}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[x\in \mathbf {1}_{G}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\mathbf {1}_{G}^{g}=\mathbf {1}_{G}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

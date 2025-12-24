@@ -1,0 +1,12 @@
+\title{Algebraic Independence}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+
+\p{Let #{\kk / \FF} be a field extension. A subset #{S\subset\kk} is called \define{Algebraically Independent} over #{\FF} if for any #{s_{1}}, \dots, #{s_{n}\in S}, and any nonzero polynomial #{f(x_{1},\dots,x_{n})\in\FF[x_{1},\dots,x_{n}]}, we have
+##{f(s_{1},\dots,s_{n})\neq0.}}
+
+\rmk{This should remind the reader of [[vectsp-000Q]] from linear algebra.}
+
+\p{\textbf{Example:} #{\{\pi\}\subset\CC} is algebraically independent over #{\QQ}.}

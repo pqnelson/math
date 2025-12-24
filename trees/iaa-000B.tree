@@ -89,7 +89,7 @@
 \transclude{nt-002M} % number of extensions to field isomorphism
 \transclude{nt-002N}
 \transclude{nt-002O} % example
-\transclude{nt-002P} % galois group
+\transclude{nt-002P} % galois group, galois extension
 \transclude{nt-002Q} % ex: quadratic extensions are galois
 \transclude{nt-002R} % ex: lattice of subfields and subgroups of Gal(k/F)
 \transclude{nt-002S} % def: character (of group)
@@ -124,6 +124,7 @@
 \transclude{nt-003K} % 14.3
 \transclude{nt-003L} % Corollary 14.4
 \transclude{nt-003M} % Galois closure
+\transclude{nt-004B} % review: simple extension
 \transclude{nt-003N} % K/F finite holds K is simple iff K has finitely many subfields
 \transclude{nt-003O} % primitive element theorem
 
@@ -138,10 +139,38 @@
 % applications of Galois theory
 \transclude{nt-003U} % inverse galois problem, 16
 \transclude{nt-003W} % 16.1 elementary symmetric functions
+\transclude{nt-003X} % Galois group of F(x_1,...,x_n)/F(s_1, ..., s_n)
+\transclude{nt-003Y} % rational functions invariant under permutations may be written in terms of elementary symmetric functions
+\transclude{nt-003Z} % 16.5
+\transclude{nt-0040} % 16.6
+\transclude{nt-0041} % 16.7
+\transclude{nt-0042} % discriminant
+\transclude{nt-0044} % sqrt(D) fixed by elements of A_n
+\transclude{nt-0045} % exercises about discriminant
+\transclude{nt-0043} % fundamental theorem of algebra via Galois theory
 
+% solvability by roots
 
+\transclude{nt-0049} % cyclic extension
+\transclude{nt-004A} % 16.11 criteria for simple radical extensions
+\transclude{nt-0048} % 16.12 Lagrange resolvent
+\transclude{nt-004J} % 16.13 converse to criteria for simple radical extensions
+\transclude{nt-004D} % root extension (of a field)
+\transclude{nt-0047} % solvable by radicals
+\transclude{nt-004E} % tower of roots extendible
+\transclude{nt-004F} % composite of root extensions is a root extension
+\transclude{nt-004G} % galois closure of a root extension is a root extension
+\transclude{gr-0052} % solvable group
+\transclude{nt-0046} % Galois's theorem
+\transclude{nt-004I} % insolvability of quintic polynomials
 
-% 6 + 19 + 3 + 4 = 10 + 22 = 32
+% caclculating Galois groups by reduction
+\transclude{nt-004P} % calculating Galois groups using algebraic number theory
 
-% 47 or 49 pages for 18 or 19 lectures (resp.)
-% forester 4.3.1
+\transclude{nt-004U} % algebraically independent sets
+\transclude{nt-004V} %
+\transclude{nt-004X} % transcendental basis
+\transclude{nt-004Y} % transcendence degree
+\transclude{nt-004Z} % purely transcendental extension
+\transclude{nt-0050}
+\transclude{nt-0051} % examples of transcendental field extensions

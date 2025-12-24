@@ -7,14 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13194</fr:anchor><fr:addr
-type="machine">#482</fr:addr><fr:route>unstable-482.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11000</fr:anchor><fr:addr
+type="machine">#482</fr:addr><fr:route>unstable-482.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The basic proof idea is to do this by induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>. The base case <fr:tex
-display="inline"><![CDATA[n=1]]></fr:tex> is obvious. The inductive case requires a bit of work, but amounts to following the definitions.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
+type="local"
+href="gt-000F.xml"
+addr="gt-000F"
+title="Properties of closed subsets">Properties of closed subsets</fr:link> (2).</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -31,25 +33,24 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13196</fr:anchor><fr:addr
-type="user">matrix-001O</fr:addr><fr:route>matrix-001O.xml</fr:route><fr:title
-text="Determinant of triangular matrix is product of diagonal entries">Determinant of triangular matrix is product of diagonal entries</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11002</fr:anchor><fr:addr
+type="user">gt-000H</fr:addr><fr:route>gt-000H.xml</fr:route><fr:title
+text="Closure of a set is a closed set">Closure of a set is a closed set</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {T}=(t_{i,j})]]></fr:tex> be a triangular <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> matrix (either <fr:link
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
 type="local"
-href="matrix-000B.xml"
-addr="matrix-000B"
-title="Upper-triangular matrix">Upper-triangular matrix</fr:link> or <fr:link
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[E\subseteq  X]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\overline {E}]]></fr:tex> is a <fr:link
 type="local"
-href="matrix-000C.xml"
-addr="matrix-000C"
-title="Lower-triangular matrix">Lower-triangular matrix</fr:link>, it doesn't matter). Then the determinant of <fr:tex
-display="inline"><![CDATA[\det (\mathbf {T})]]></fr:tex> is just the product of the diagonal entries:</fr:p><fr:tex
-display="block"><![CDATA[\det (\mathbf {T})=\prod ^{n}_{i=1}t_{i,i}.]]></fr:tex>
+href="gt-000E.xml"
+addr="gt-000E"
+title="Closed set">Closed set</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -59,14 +60,16 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6918</fr:anchor><fr:addr
-type="machine">#482</fr:addr><fr:route>unstable-482.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11004</fr:anchor><fr:addr
+type="machine">#482</fr:addr><fr:route>unstable-482.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The basic proof idea is to do this by induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>. The base case <fr:tex
-display="inline"><![CDATA[n=1]]></fr:tex> is obvious. The inductive case requires a bit of work, but amounts to following the definitions.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
+type="local"
+href="gt-000F.xml"
+addr="gt-000F"
+title="Properties of closed subsets">Properties of closed subsets</fr:link> (2).</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

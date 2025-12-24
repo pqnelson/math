@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>18493</fr:anchor><fr:addr
+type="user">lang-2002-algebra</fr:addr><fr:route>lang-2002-algebra.xml</fr:route><fr:title
+text="Algebra">Algebra</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2002</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="serge-lang.xml"
+addr="serge-lang"
+title="Serge Lang">Serge Lang</fr:link></fr:author></fr:authors><fr:meta
+name="doi">10.1007/978-1-4613-0041-0</fr:meta><fr:meta
+name="bibtex"><![CDATA[@book{lang2002algebra,
+  title={Algebra},
+  author={Lang, Serge},
+  volume={211},
+  year={2002},
+  publisher={Springer},
+  edition={third}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>18495</fr:anchor><fr:addr
+type="user">nt-002W</fr:addr><fr:route>nt-002W.xml</fr:route><fr:title
+text="Size of finite subgroup of field automorphisms is not greater than index of subfield fixed by the subgroup">Size of finite subgroup of field automorphisms is not greater than index of subfield fixed by the subgroup</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Lang's <fr:link
+type="local"
+href="lang-2002-algebra.xml"
+addr="lang-2002-algebra"
+title="Algebra">Algebra</fr:link> Theorem 4.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a field, let <fr:tex
+display="inline"><![CDATA[H\leq \mathop {\textrm {Aut}}\nolimits (\Bbbk )]]></fr:tex> be a finite subgroup of field automorphisms. If <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\Bbbk ^{H}]]></fr:tex> is the <fr:link
+type="local"
+href="nt-002W.xml"
+addr="nt-002W"
+title="Size of finite subgroup of field automorphisms is not greater than index of subfield fixed by the subgroup">subfield fixed by <fr:tex
+display="inline"><![CDATA[H]]></fr:tex></fr:link>, then
+<fr:tex
+display="block"><![CDATA[|H|\leq [\Bbbk  : \mathbb {F}].]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1115</fr:anchor><fr:addr
+type="machine">#375</fr:addr><fr:route>unstable-375.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n=|H|]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[m=[\Bbbk  : \mathbb {F}]]]></fr:tex>. Either <fr:tex
+display="inline"><![CDATA[n\leq  m]]></fr:tex> (as desired) or <fr:tex
+display="inline"><![CDATA[n>m]]></fr:tex> (which we want to prove leads to contradiction).</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[n\leq  m]]></fr:tex>. This is the desired case, and we have the result.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[n>m]]></fr:tex> (i.e., there are more automorphisms than there are <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-linarly independent elements of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>). Given <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ^{m}]]></fr:tex> with components <fr:tex
+display="inline"><![CDATA[\alpha =(\alpha _{1},…,\alpha _{m})]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[\sigma \in  H]]></fr:tex> be arbitrary. We write for the componentwise application of <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> as:
+<fr:tex
+display="block"><![CDATA[\sigma \alpha =(\sigma \alpha _{1},…,\sigma \alpha _{m}).]]></fr:tex>
+Then for the <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> distinct elements of <fr:tex
+display="inline"><![CDATA[H=\{\sigma _{1},…,\sigma _{n}\},]]></fr:tex> we see <fr:tex
+display="inline"><![CDATA[\sigma _{1}\alpha ]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\sigma _{n}\alpha ]]></fr:tex> gives the basis for <fr:tex
+display="inline"><![CDATA[\Bbbk ^{n}]]></fr:tex>: there exists <fr:tex
+display="inline"><![CDATA[c_{i}\in \Bbbk ]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[c_{1}\sigma _{1}\alpha +…+c_{n}\sigma _{n}\alpha =0.]]></fr:tex>
+We write <fr:tex
+display="inline"><![CDATA[\sigma =c_{1}\sigma _{1}+…+c_{n}\sigma _{n}]]></fr:tex>. But take <fr:tex
+display="inline"><![CDATA[\alpha _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\alpha _{m}]]></fr:tex> as a <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[\sigma \alpha _{1}=…=\sigma \alpha _{m}=0]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[\sigma =0]]></fr:tex>, which contradicts the <fr:link
+type="local"
+href="nt-002T.xml"
+addr="nt-002T"
+title="Linear Independence of Characters">linear independence of characters</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>18497</fr:anchor><fr:addr
+type="user">nt-001Z</fr:addr><fr:route>nt-001Z.xml</fr:route><fr:title
+text="Existence of Algebraic Closures">Existence of Algebraic Closures</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 13.4.30</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. Then there exists an algebraically closed field <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>985</fr:anchor><fr:addr
+type="machine">#407</fr:addr><fr:route>unstable-407.xml</fr:route><fr:taxon>Proof (Jelonek 1993)</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> be a field such that
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {L}]]></fr:tex>, and</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[|\mathbb {L}| > \max (|\mathbb {F}|,\aleph _{0})=:\mathcal {N}]]></fr:tex> (to ensure <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is a set, not a proper class).</fr:li></fr:ol>
+Then we can turn this into a lattice with ordering given by inclusion. Then by <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>, there exists a maximal element <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> which we will prove is the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>: Assume for contradiction <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> is not an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then there exists a nonconstant polynomial <fr:tex
+display="inline"><![CDATA[f(x)\in  L_{0}[x]]]></fr:tex> which has no root in <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>. Then there exists an algebraic extension <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> which has a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> (say, the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>). Since <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> is an algebraic extension of <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[|L_{0}|\leq |W|\leq \mathcal {N}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[|S\setminus  L_{0}|=|S|>|W\setminus  L_{0}|]]></fr:tex>. So there exists an injection <fr:tex
+display="inline"><![CDATA[i\colon  W\to  S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[i(x)=x]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x\in  L_{0}]]></fr:tex>. If we induce by <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> an algebraic structure from <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> onto <fr:tex
+display="inline"><![CDATA[i(W)]]></fr:tex> we obtain a new maximal element of the lattice which is greater than <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>, giving us our contradiction. Hence <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> must be an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>987</fr:anchor><fr:addr
+type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) <fr:link
+type="external"
+href="https://web.archive.org/web/20180504093511/http://www2.im.uj.edu.pl/actamath/PDF/30-131-132.pdf">Jelonek proved this in 1993</fr:link>, which cleaned up a more sloppy version of the same proof by Artin. Lang's <fr:link
+type="local"
+href="lang-2002-algebra.xml"
+addr="lang-2002-algebra"
+title="Algebra">Algebra</fr:link> (Theorem V.2.6 and its Corollary) follows Artin's proof, as well, but carefully patches it. In fact, it seems Lang's approach has become more or less standard.</fr:p>
+<fr:p>(2) Jelonek's proof also establishes that the cardinality of the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\max (|\mathbb {F}|,\aleph _{0})]]></fr:tex>. In particular, the algebraic closure is always infinite.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>18499</fr:anchor><fr:addr
+type="user">nt-0021</fr:addr><fr:route>nt-0021.xml</fr:route><fr:title
+text="Lifting embedding of a field into an extension to an embedding of the extension into the algebraic closure">Lifting embedding of a field into an extension to an embedding of the extension into the algebraic closure</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/field_12.html#T25">field_12:25</fr:link></fr:meta><fr:meta
+name="source">Lang <fr:link
+type="local"
+href="lang-2002-algebra.xml"
+addr="lang-2002-algebra"
+title="Algebra">Algebra</fr:link> Theorem V.2.8</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be an algebraic extension, and <fr:tex
+display="inline"><![CDATA[i:\mathbb {F}\hookrightarrow \mathbb {L}]]></fr:tex> be an embedding of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> into an <fr:link
+type="local"
+href="nt-001X.xml"
+addr="nt-001X"
+title="Algebraically Closed Field">algebraically closed</fr:link> field <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>. Then:
+<fr:ol><fr:li>There exists an extension of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> to an embedding of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>; and</fr:li>
+<fr:li>If <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is algebraically closed and <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[i(\mathbb {F})]]></fr:tex>, then any such extension of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> is an isomorphism of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> onto <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>991</fr:anchor><fr:addr
+type="machine">#404</fr:addr><fr:route>unstable-404.xml</fr:route><fr:taxon>Proof (Lang)</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be the set of all pairs <fr:tex
+display="inline"><![CDATA[(F,\tau )]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is a subfield of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\tau ]]></fr:tex> is an extension of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> to an embedding of <fr:tex
+display="inline"><![CDATA[\tau \colon  F\hookrightarrow \mathbb {L}]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[\tau |_{\mathbb {F}}=i]]></fr:tex>).</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[(F,\tau )]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(F',\tau ')]]></fr:tex> are such pairs, we write <fr:tex
+display="inline"><![CDATA[(F,\tau )\leq (F',\tau ')]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[F\subseteq  F']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\tau '|_{F}=\tau ]]></fr:tex>. Note: <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is not empty (it contains <fr:tex
+display="inline"><![CDATA[(\mathbb {F},i)]]></fr:tex>) and it is inductively ordered: if <fr:tex
+display="inline"><![CDATA[(F_{i},\tau _{i})]]></fr:tex> is a totally ordered subset, we let <fr:tex
+display="inline"><![CDATA[F=\bigcup  F_{i}]]></fr:tex> and define <fr:tex
+display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> to be equal to <fr:tex
+display="inline"><![CDATA[\tau _{i}]]></fr:tex> on each <fr:tex
+display="inline"><![CDATA[F_{i}]]></fr:tex>.</fr:p>
+<fr:p>Then <fr:tex
+display="inline"><![CDATA[(F,\tau )]]></fr:tex> is an upper bound for the totally ordered subset. Using <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>, let <fr:tex
+display="inline"><![CDATA[(K,\lambda )]]></fr:tex> be a maximal element in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex> is an extension of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, and the claim is <fr:tex
+display="inline"><![CDATA[K=\Bbbk ]]></fr:tex>. Otherwise there exists an <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\alpha \notin  K]]></fr:tex>. But our embedding <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex> has an extension to <fr:tex
+display="inline"><![CDATA[K(\alpha )]]></fr:tex> thereby contradicting the maximality of <fr:tex
+display="inline"><![CDATA[(K,\lambda )]]></fr:tex>. This proves there exists an extension of <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>. We will just abuse notation and denote this extension by <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> again.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is algebraically closed and <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[i(\mathbb {F})]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[i(\Bbbk )]]></fr:tex> is algebraically closed and <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[i(\Bbbk )]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\mathbb {L}=i(\Bbbk )]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

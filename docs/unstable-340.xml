@@ -7,14 +7,44 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5939</fr:anchor><fr:addr
-type="machine">#340</fr:addr><fr:route>unstable-340.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>695</fr:anchor><fr:addr
+type="machine">#340</fr:addr><fr:route>unstable-340.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We see that when <fr:tex
-display="inline"><![CDATA[I=\{0,1\}]]></fr:tex>, this is bijective (but not equal) to <fr:tex
-display="inline"><![CDATA[F_{0}\times  F_{1}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Observe
+<fr:tex
+display="block"><![CDATA[\begin {align*}\sigma \lambda (a,\zeta ) &=\zeta ^{-1}\lambda (a,\zeta ) = \sigma (a + \zeta \sigma (a)+…+\zeta ^{n-1}\sigma ^{n-1}(a))\\ &=\zeta ^{-1}(\zeta \sigma (a)+\zeta ^{2}\sigma ^{2}(a)+…+\zeta ^{n-1}\sigma ^{n-1}(a)+a)\\ &=\zeta ^{-1}\lambda (a,\zeta ).\end {align*}]]></fr:tex>
+Furthermore,
+<fr:tex
+display="block"><![CDATA[\begin {align*}\sigma (\lambda (a,\zeta )^{n}) &= \zeta ^{-n}\lambda (a,\zeta )^{n}\\ &=\lambda (a,\zeta )^{n}\end {align*}]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[\lambda (a,\zeta )^{n}\in \mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[b=\lambda (a,\zeta )^{n}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\sqrt [n]{b}\in \Bbbk ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\in \mathbb {F}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\sqrt [n]{b})=\Bbbk ]]></fr:tex>.</fr:p>
+<fr:p>By the <fr:link
+type="local"
+href="nt-002T.xml"
+addr="nt-002T"
+title="Linear Independence of Characters">linear independence of characters</fr:link>, there exists an <fr:tex
+display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> such that
+<fr:tex
+display="inline"><![CDATA[\lambda (a,\zeta )\neq 0]]></fr:tex> and
+<fr:tex
+display="block"><![CDATA[\sigma \lambda (a,\zeta )=\zeta ^{-1}\lambda (a,\zeta )\neq \lambda (a,\zeta ),]]></fr:tex>
+so for any <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[\sigma ^{k}\lambda (a,\zeta )=\zeta ^{-k}\lambda (a,\zeta )\neq \lambda (a,\zeta ).]]></fr:tex>
+Hence <fr:tex
+display="inline"><![CDATA[\lambda (a,\zeta )]]></fr:tex> is not fixed by any subgroup of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}(\sqrt [n]{b})]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,35 +59,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5941</fr:anchor><fr:addr
-type="user">nst-002E</fr:addr><fr:route>nst-002E.xml</fr:route><fr:title
-text="Product of family of sets">Product of family of sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>697</fr:anchor><fr:addr
+type="user">nt-004J</fr:addr><fr:route>nt-004J.xml</fr:route><fr:title
+text="Lagrange resolvent is not fixed by any subgroup of the Galois group">Lagrange resolvent is not fixed by any subgroup of the Galois group</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/card_3.html#K4">card_3:def 5</fr:link></fr:meta><fr:meta
-name="source"><fr:link
-type="external"
-href="https://proofwiki.org/wiki/Definition:Cartesian_Product/Family_of_Sets">Proofwiki</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[I]]></fr:tex> be a set, let <fr:tex
-display="inline"><![CDATA[\mathcal {F}=\{F_{i}\}_{i\in  I}]]></fr:tex> be an <fr:link
-type="local"
-href="nst-002D.xml"
-addr="nst-002D"
-title="Indexed family of sets">Indexed family of sets</fr:link> indexed by <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Product</html:dfn> of <fr:tex
-display="inline"><![CDATA[\{F_{i}\}_{i\in  I}]]></fr:tex> to be the set <fr:tex
-display="inline"><![CDATA[\prod \mathcal {F}=\prod _{i\in  I}F_{i}]]></fr:tex> such that for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[x\in \prod _{i\in  I}]]></fr:tex> if and only if <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> if function-like and <fr:tex
-display="inline"><![CDATA[\mathop {\textrm {dom}}\nolimits (x)=\mathop {\textrm {dom}}\nolimits (\mathcal {F})]]></fr:tex> and for each <fr:tex
-display="inline"><![CDATA[i\in  I]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[x_{i}\in  F_{i}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field containing the roots of unity <fr:tex
+display="inline"><![CDATA[\mu _{n}]]></fr:tex>, of characteristic not dividing <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, i.e. <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})\nmid  n]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a cyclic Galois extension, then <fr:tex
+display="inline"><![CDATA[\Bbbk  = \mathbb {F}(\sqrt [n]{a})]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -67,21 +82,16 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2701</fr:anchor><fr:addr
-type="machine">#339</fr:addr><fr:route>unstable-339.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>691</fr:anchor><fr:addr
+type="machine">#339</fr:addr><fr:route>unstable-339.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Well-definedness:</fr:strong> We should prove this is well-defined, but we see this is equivalent to:
-<fr:tex
-display="block"><![CDATA[\prod _{i\in  I}F_{i}=\{x\in \mathop {\textrm {Hom}}\nolimits (I,\bigcup _{i\in  I}F_{i})\mid \forall  i\in  I\ldotp  x(i)\in  F_{i}\}.]]></fr:tex>
-This is obvious a well-defined set using <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is a converse to the <fr:link
 type="local"
-href="nst-0009.xml"
-addr="nst-0009"
-title="Set builder notation">Set builder notation</fr:link>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+href="nt-004A.xml"
+addr="nt-004A"
+title="Criteria for simple radical extensions">criteria for simple radical extensions</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 
  
@@ -93,13 +103,43 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2703</fr:anchor><fr:addr
-type="machine">#340</fr:addr><fr:route>unstable-340.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>693</fr:anchor><fr:addr
+type="machine">#340</fr:addr><fr:route>unstable-340.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We see that when <fr:tex
-display="inline"><![CDATA[I=\{0,1\}]]></fr:tex>, this is bijective (but not equal) to <fr:tex
-display="inline"><![CDATA[F_{0}\times  F_{1}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Observe
+<fr:tex
+display="block"><![CDATA[\begin {align*}\sigma \lambda (a,\zeta ) &=\zeta ^{-1}\lambda (a,\zeta ) = \sigma (a + \zeta \sigma (a)+…+\zeta ^{n-1}\sigma ^{n-1}(a))\\ &=\zeta ^{-1}(\zeta \sigma (a)+\zeta ^{2}\sigma ^{2}(a)+…+\zeta ^{n-1}\sigma ^{n-1}(a)+a)\\ &=\zeta ^{-1}\lambda (a,\zeta ).\end {align*}]]></fr:tex>
+Furthermore,
+<fr:tex
+display="block"><![CDATA[\begin {align*}\sigma (\lambda (a,\zeta )^{n}) &= \zeta ^{-n}\lambda (a,\zeta )^{n}\\ &=\lambda (a,\zeta )^{n}\end {align*}]]></fr:tex>
+which implies <fr:tex
+display="inline"><![CDATA[\lambda (a,\zeta )^{n}\in \mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[b=\lambda (a,\zeta )^{n}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\sqrt [n]{b}\in \Bbbk ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[b\in \mathbb {F}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\sqrt [n]{b})=\Bbbk ]]></fr:tex>.</fr:p>
+<fr:p>By the <fr:link
+type="local"
+href="nt-002T.xml"
+addr="nt-002T"
+title="Linear Independence of Characters">linear independence of characters</fr:link>, there exists an <fr:tex
+display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> such that
+<fr:tex
+display="inline"><![CDATA[\lambda (a,\zeta )\neq 0]]></fr:tex> and
+<fr:tex
+display="block"><![CDATA[\sigma \lambda (a,\zeta )=\zeta ^{-1}\lambda (a,\zeta )\neq \lambda (a,\zeta ),]]></fr:tex>
+so for any <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> we have
+<fr:tex
+display="block"><![CDATA[\sigma ^{k}\lambda (a,\zeta )=\zeta ^{-k}\lambda (a,\zeta )\neq \lambda (a,\zeta ).]]></fr:tex>
+Hence <fr:tex
+display="inline"><![CDATA[\lambda (a,\zeta )]]></fr:tex> is not fixed by any subgroup of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}(\sqrt [n]{b})]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

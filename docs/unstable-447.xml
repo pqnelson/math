@@ -7,16 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9648</fr:anchor><fr:addr
-type="machine">#447</fr:addr><fr:route>unstable-447.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4584</fr:anchor><fr:addr
+type="machine">#447</fr:addr><fr:route>unstable-447.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[\delta =\varepsilon  / c]]></fr:tex>, then the result follows immediately.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})]]></fr:tex> is either a prime number or zero.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,29 +28,24 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9650</fr:anchor><fr:addr
-type="user">ca-001R</fr:addr><fr:route>ca-001R.xml</fr:route><fr:title
-text="Lipschitz functions are uniformly continuous">Lipschitz functions are uniformly continuous</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4586</fr:anchor><fr:addr
+type="user">nt-000A</fr:addr><fr:route>nt-000A.xml</fr:route><fr:title
+text="Characteristic">Characteristic</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(Y,\rho )]]></fr:tex> be <fr:link
-type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>s. Let <fr:tex
-display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a <fr:link
-type="local"
-href="ca-001Q.xml"
-addr="ca-001Q"
-title="Lipschitz function">Lipschitz function</fr:link>. Then <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is <fr:link
-type="local"
-href="ca-001P.xml"
-addr="ca-001P"
-title="Uniformly Continuous function">uniformly continuous</fr:link>.</fr:p>
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. There is a unique ring morphism <fr:tex
+display="inline"><![CDATA[\phi \colon \mathbb {Z}\to \mathbb {F}]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\phi (1)=1]]></fr:tex>. We define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Characteristic</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> to be the smallest positive integer <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[(n)=\ker (\phi )]]></fr:tex>, if such an <fr:tex
+display="inline"><![CDATA[n>0]]></fr:tex> exists. Otherwise the characteristic of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is 0.</fr:p><fr:p>We write <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})]]></fr:tex> for the characteristic of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -63,15 +55,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8560</fr:anchor><fr:addr
-type="machine">#447</fr:addr><fr:route>unstable-447.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>783</fr:anchor><fr:addr
+type="machine">#447</fr:addr><fr:route>unstable-447.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
-display="inline"><![CDATA[\varepsilon >0]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[\delta =\varepsilon  / c]]></fr:tex>, then the result follows immediately.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})]]></fr:tex> is either a prime number or zero.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/nicolas-bourbaki/" title="Nicolas Bourbaki" uri="http://localhost:8000/nicolas-bourbaki/" display-uri="nicolas-bourbaki" type="local">Nicolas Bourbaki</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1974</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/bourbaki-1974-algebra/</fr:uri>
+    <fr:display-uri>bourbaki-1974-algebra</fr:display-uri>
+    <fr:route>/bourbaki-1974-algebra/</fr:route>
+    <fr:title text="Algebra, Chapters 1-3">Algebra, Chapters 1-3</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="bibtex"><![CDATA[@book{bourbaki1974algebra,
+  author={Bourbaki, Nicolas},
+  title={Algebra, Chapters 1--3},
+  year={1974},
+  publisher={Springer}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-001P/</fr:uri>
+            <fr:display-uri>gr-001P</fr:display-uri>
+            <fr:route>/gr-001P/</fr:route>
+            <fr:title text="Centralizes">Centralizes</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Bourbaki's <fr:link href="/bourbaki-1974-algebra/" title="Algebra, Chapters 1-3" uri="http://localhost:8000/bourbaki-1974-algebra/" display-uri="bourbaki-1974-algebra" type="local">Algebra, Chapters 1-3</fr:link> I §5.3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>.</html:p>
+            <html:ol><html:li>Let <fr:tex display="inline"><![CDATA[a\in  G]]></fr:tex> be an element, let <fr:tex display="inline"><![CDATA[B\subseteq  G]]></fr:tex> be a subset. We say <fr:tex display="inline"><![CDATA[a]]></fr:tex> <html:dfn>Centralizes</html:dfn> <fr:tex display="inline"><![CDATA[B]]></fr:tex> if for each <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex> we have <fr:tex display="inline"><![CDATA[ab=ba]]></fr:tex>. In other words, <fr:tex display="inline"><![CDATA[a\in  C_{G}(B)]]></fr:tex> is an element of the <fr:link href="/gr-001O/" title="Centralizer of a subset" uri="http://localhost:8000/gr-001O/" display-uri="gr-001O" type="local">centralizer</fr:link> of <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[A\subseteq  G]]></fr:tex> and <fr:tex display="inline"><![CDATA[B\subseteq  G]]></fr:tex> be subsets. We say <fr:tex display="inline"><![CDATA[A]]></fr:tex> <html:dfn>Centralizes</html:dfn> <fr:tex display="inline"><![CDATA[B]]></fr:tex> if every element <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> centralizes <fr:tex display="inline"><![CDATA[B]]></fr:tex>; i.e., <fr:tex display="inline"><![CDATA[A\subseteq  C_{G}(B)]]></fr:tex> is a subset of the centralizer of <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[H\leq  G]]></fr:tex> be a <fr:link href="/gr-001B/" title="Subgroup" uri="http://localhost:8000/gr-001B/" display-uri="gr-001B" type="local">Subgroup</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>, let <fr:tex display="inline"><![CDATA[B\subseteq  G]]></fr:tex> be a subset. We say <fr:tex display="inline"><![CDATA[H]]></fr:tex> <html:dfn>Centralizes</html:dfn> <fr:tex display="inline"><![CDATA[B]]></fr:tex> if every <fr:tex display="inline"><![CDATA[h\in  H]]></fr:tex> centralizes <fr:tex display="inline"><![CDATA[B]]></fr:tex>. In other words, <fr:tex display="inline"><![CDATA[H\leq  C_{G}(B)]]></fr:tex> is a subgroup of the centralizer of <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:li></html:ol>
+            <html:p>In the preceding three definitions, we may replace <fr:tex display="inline"><![CDATA[B]]></fr:tex> with a subgroup <fr:tex display="inline"><![CDATA[K\leq  G]]></fr:tex> or an element <fr:tex display="inline"><![CDATA[b\in  G]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-001S/</fr:uri>
+            <fr:display-uri>gr-001S</fr:display-uri>
+            <fr:route>/gr-001S/</fr:route>
+            <fr:title text="Normalizes">Normalizes</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Bourbaki's <fr:link href="/bourbaki-1974-algebra/" title="Algebra, Chapters 1-3" uri="http://localhost:8000/bourbaki-1974-algebra/" display-uri="bourbaki-1974-algebra" type="local">Algebra, Chapters 1-3</fr:link> I §5.3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. Let <fr:tex display="inline"><![CDATA[B\subseteq  G]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</html:p>
+            <html:ol><html:li>Let <fr:tex display="inline"><![CDATA[a\in  G]]></fr:tex> be an element. We say <fr:tex display="inline"><![CDATA[a]]></fr:tex> <html:dfn>Normalizes</html:dfn> <fr:tex display="inline"><![CDATA[B]]></fr:tex> if <fr:tex display="inline"><![CDATA[a^{-1}Ba=B]]></fr:tex>; in other words <fr:tex display="inline"><![CDATA[a\in  N_{G}(B)]]></fr:tex>.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[A\subseteq  G]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[A]]></fr:tex> <html:dfn>Normalizes</html:dfn> <fr:tex display="inline"><![CDATA[B]]></fr:tex> if every element of <fr:tex display="inline"><![CDATA[A]]></fr:tex> normalizes <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[H\leq  G]]></fr:tex> be a subgroup of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[H]]></fr:tex> <html:dfn>Normalizes</html:dfn> <fr:tex display="inline"><![CDATA[B]]></fr:tex> if every element of <fr:tex display="inline"><![CDATA[H]]></fr:tex> normalizes <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:li></html:ol>
+            <html:p>We can replace <fr:tex display="inline"><![CDATA[B]]></fr:tex> with a subgroup <fr:tex display="inline"><![CDATA[K\leq  G]]></fr:tex> and the definition of "normalizes" generalizes accordingly; and we can replace <fr:tex display="inline"><![CDATA[B]]></fr:tex> with an element <fr:tex display="inline"><![CDATA[b]]></fr:tex>, and the definition "normalizes <fr:tex display="inline"><![CDATA[b]]></fr:tex>" is just a synonym for "normalizes <fr:tex display="inline"><![CDATA[\{b\}]]></fr:tex>".</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

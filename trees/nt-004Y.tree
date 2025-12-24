@@ -1,0 +1,9 @@
+\title{Transcendence Degree}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+
+\p{Let #{\kk / \FF} be a field extension, let #{S} be a [transcendental basis](nt-004X) of #{\kk} over #{\FF}. Then the \define{Transcendence Degree} of #{\kk / \FF} is the cardinality of #{S}.}
+
+\proof{\p{We claim (without proof) that any two transcendence bases for #{\kk / \FF} have the same cardinality. Hence the transcendence degree is well-defined.}}

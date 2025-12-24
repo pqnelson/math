@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>http://localhost:8000/paul-r-halmos/</fr:uri>
+    <fr:display-uri>paul-r-halmos</fr:display-uri>
+    <fr:route>/paul-r-halmos/</fr:route>
+    <fr:title text="Paul R. Halmos">Paul R. Halmos</fr:title>
+    <fr:taxon>person</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000G/</fr:uri>
+            <fr:display-uri>nst-000G</fr:display-uri>
+            <fr:route>/nst-000G/</fr:route>
+            <fr:title text="Basic properties of intersection of two sets">Basic properties of intersection of two sets</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.4</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/boole.html#T2" type="external">boole:2</fr:link></fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T17" type="external">xboole_1:17</fr:link></fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T28" type="external">xboole_1:28</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[B]]></fr:tex>, <fr:tex display="inline"><![CDATA[C]]></fr:tex> be any three sets. Then the following all hold:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[A\cap \emptyset =\emptyset ]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[A\cap (B\cap  C)=(A\cap  B)\cap  C]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[A\subseteq  B]]></fr:tex> iff <fr:tex display="inline"><![CDATA[A\cap  B=A]]></fr:tex></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000E/</fr:uri>
+            <fr:display-uri>nst-000E</fr:display-uri>
+            <fr:route>/nst-000E/</fr:route>
+            <fr:title text="Basic properties of union of two sets">Basic properties of union of two sets</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.4</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/boole.html#T1" type="external">boole:th1</fr:link></fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T4" type="external">xboole_1:th4</fr:link></fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xboole_1.html#T12" type="external">xboole_1:th12</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[B]]></fr:tex>, <fr:tex display="inline"><![CDATA[C]]></fr:tex> be arbitrary sets. Then the following all hold:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[A\cup \emptyset =A]]></fr:tex></html:li>
+<html:li>Associativity: <fr:tex display="inline"><![CDATA[A\cup (B\cup  C)=(A\cup  B)\cup  C]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[A\subseteq  B]]></fr:tex> iff <fr:tex display="inline"><![CDATA[A\cup  B=B]]></fr:tex></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000O/</fr:uri>
+            <fr:display-uri>nst-000O</fr:display-uri>
+            <fr:route>/nst-000O/</fr:route>
+            <fr:title text="Cartesian product of two sets">Cartesian product of two sets</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.6</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/zfmisc_1.html#K2" type="external">zfmisc_1:def 2</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn>Cartesian product</html:dfn> to be the set <fr:tex display="inline"><![CDATA[X\times  Y]]></fr:tex> such that for all objects <fr:tex display="inline"><![CDATA[z]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[z\in  X\times  Y]]></fr:tex> if and only if there exists objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[z=(x,y)]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000J/</fr:uri>
+            <fr:display-uri>nst-000J</fr:display-uri>
+            <fr:route>/nst-000J/</fr:route>
+            <fr:title text="Complement of a subset">Complement of a subset</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.5</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/subset_1.html#K3" type="external">subset_1:def 4</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>. We define the <html:dfn>Complement</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be the subset <fr:tex display="inline"><![CDATA[X^{\complement }]]></fr:tex> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> equal to <fr:tex display="inline"><![CDATA[Y\setminus  X]]></fr:tex>.</html:p>
+            <html:p>Some texts use <fr:tex display="inline"><![CDATA[\complement  X]]></fr:tex> or <fr:tex display="inline"><![CDATA[X']]></fr:tex> for the complement of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0013/</fr:uri>
+            <fr:display-uri>nst-0013</fr:display-uri>
+            <fr:route>/nst-0013/</fr:route>
+            <fr:title text="Composing relations">Composing relations</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/relat_1.html#K3" type="external">relat_1:def 8</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> and <fr:tex display="inline"><![CDATA[R]]></fr:tex> be relations. We define their <html:dfn>Composition</html:dfn> to be the relation denoted <fr:tex display="inline"><![CDATA[PR]]></fr:tex> or <fr:tex display="inline"><![CDATA[R\circ  P]]></fr:tex> such that for all objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[z]]></fr:tex> we have <fr:tex display="inline"><![CDATA[(x,z)\in  PR]]></fr:tex> iff there exists an object <fr:tex display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[(x,y)\in  P]]></fr:tex> and <fr:tex display="inline"><![CDATA[(y,z)\in  R]]></fr:tex>.</html:p>
+            <html:p>The <fr:tex display="inline"><![CDATA[PR]]></fr:tex> notation means <fr:tex display="inline"><![CDATA[xPRz]]></fr:tex> iff there exists a <fr:tex display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[xPyRz]]></fr:tex>.</html:p>
+            <html:p>The <fr:tex display="inline"><![CDATA[R\circ  P]]></fr:tex> notation is useful for working with functions.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-001D/</fr:uri>
+            <fr:display-uri>nst-001D</fr:display-uri>
+            <fr:route>/nst-001D/</fr:route>
+            <fr:title text="Direct image of a function">Direct image of a function</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.10</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function. Let <fr:tex display="inline"><![CDATA[A\subseteq  X]]></fr:tex>. We define the <html:dfn>Direct Image</html:dfn> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> under <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[f(A)=\{f(x)\in  Y\mid  x\in  A\}]]></fr:tex>.</html:p>
+            <html:p>We sometimes use the notation <fr:tex display="inline"><![CDATA[f_{*}(A)]]></fr:tex> for the direct image of <fr:tex display="inline"><![CDATA[A]]></fr:tex> under <fr:tex display="inline"><![CDATA[f]]></fr:tex>, so we can describe a function <fr:tex display="inline"><![CDATA[f_{*}\colon \mathcal {P}(X)\to \mathcal {P}(Y)]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000V/</fr:uri>
+            <fr:display-uri>nst-000V</fr:display-uri>
+            <fr:route>/nst-000V/</fr:route>
+            <fr:title text="Domain of a relation">Domain of a relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a relation. We define the <html:dfn>Domain</html:dfn> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[\mathop {\textrm {dom}}\nolimits (R)=\{x\mid  \exists  y\ldotp  (x,y)\in  R\}]]></fr:tex>.</html:p>
+            <html:p>When <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a relation of <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[\mathop {\textrm {dom}}\nolimits (R)\subseteq  X]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0012/</fr:uri>
+            <fr:display-uri>nst-0012</fr:display-uri>
+            <fr:route>/nst-0012/</fr:route>
+            <fr:title text="Equivalence class">Equivalence class</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/eqrel_1.html#K6" type="external">eqrel_1:def</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be an equivalence relation of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We define the <html:dfn>Equivalence Class</html:dfn> of <fr:tex display="inline"><![CDATA[x]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[R]]></fr:tex> is the set <fr:tex display="inline"><![CDATA[[x]_{R}=\{y\in  X\mid  (x,y)\in  R\}]]></fr:tex> consisting of all elements equivalent to <fr:tex display="inline"><![CDATA[x]]></fr:tex> under <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0011/</fr:uri>
+            <fr:display-uri>nst-0011</fr:display-uri>
+            <fr:route>/nst-0011/</fr:route>
+            <fr:title text="Equivalence relation">Equivalence relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/eqrel_1.html#NM2" type="external">eqrel_1:def</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set. We define an <html:dfn>Equivalence Relation</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be a <fr:link href="/nst-000Y/" title="Reflexive relation" uri="http://localhost:8000/nst-000Y/" display-uri="nst-000Y" type="local">reflexive</fr:link> <fr:link href="/nst-000Z/" title="Symmetric relation" uri="http://localhost:8000/nst-000Z/" display-uri="nst-000Z" type="local">symmetric</fr:link> <fr:link href="/nst-0010/" title="Transitive relation" uri="http://localhost:8000/nst-0010/" display-uri="nst-0010" type="local">transitive</fr:link> relation of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:p>
+            <html:p>For example, <fr:tex display="inline"><![CDATA[R=\{(x,x)\mid  x\in  X\}]]></fr:tex> is always an equivalence relation of <fr:tex display="inline"><![CDATA[X]]></fr:tex> which describes equality of elements of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:p>
+            <html:p>More generally, an equivalence relation is a generalization of equality. Consequently, it is common to use notation like <fr:tex display="inline"><![CDATA[\sim ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\approx ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\equiv ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\cong ]]></fr:tex> for equivalence relations.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000X/</fr:uri>
+            <fr:display-uri>nst-000X</fr:display-uri>
+            <fr:route>/nst-000X/</fr:route>
+            <fr:title text="Field of a relation">Field of a relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/relat_1.html#K1" type="external">relat_1:def 6</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a relation. We define the <html:dfn>Field</html:dfn> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is just <fr:tex display="inline"><![CDATA[\mathop {\textrm {dom}}\nolimits (R)\cup \mathop {\textrm {ran}}\nolimits (R)]]></fr:tex>.</html:p>
+            <html:p>Observe when <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a relation of <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, the field <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a subset <fr:tex display="inline"><![CDATA[F\subseteq  X\cup  Y]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0014/</fr:uri>
+            <fr:display-uri>nst-0014</fr:display-uri>
+            <fr:route>/nst-0014/</fr:route>
+            <fr:title text="Function">Function</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.8</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We define a <html:dfn>Function</html:dfn> from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> to be a <fr:link href="/nst-000T/" title="Relation" uri="http://localhost:8000/nst-000T/" display-uri="nst-000T" type="local">relation</fr:link> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> denoted <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> such that:
+<html:ol><html:li><fr:link href="https://mizar.uwb.edu.pl/version/current/html/partfun1.htmlV1" type="external">Total</fr:link>: <fr:tex display="inline"><![CDATA[\mathop {\textrm {dom}}\nolimits (f)=X]]></fr:tex>, and</html:li>
+<html:li><fr:link href="https://mizar.uwb.edu.pl/version/current/html/funct_1.htmlV1" type="external">Function-like</fr:link>: for all objects <fr:tex display="inline"><![CDATA[x]]></fr:tex>, <fr:tex display="inline"><![CDATA[y]]></fr:tex>, <fr:tex display="inline"><![CDATA[z]]></fr:tex> such that <fr:tex display="inline"><![CDATA[(x,y)\in  f]]></fr:tex> and <fr:tex display="inline"><![CDATA[(x,z)\in  f]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[y=z]]></fr:tex>.</html:li></html:ol>
+Instead of <fr:tex display="inline"><![CDATA[(x,y)\in  f]]></fr:tex>, we write <fr:tex display="inline"><![CDATA[f(x)=y]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0016/</fr:uri>
+            <fr:display-uri>nst-0016</fr:display-uri>
+            <fr:route>/nst-0016/</fr:route>
+            <fr:title text="Inclusion">Inclusion</fr:title>
+            <fr:taxon>example</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.8</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/funct_3.html#K6" type="external">funct_3:def</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>. Then the <html:dfn>Inclusion</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> into <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is the function <fr:tex display="inline"><![CDATA[i\colon  X\to  Y]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[i(x)=x]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000H/</fr:uri>
+            <fr:display-uri>nst-000H</fr:display-uri>
+            <fr:route>/nst-000H/</fr:route>
+            <fr:title text="Intersection of family of sets">Intersection of family of sets</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.4</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/setfam_1.html#K1" type="external">setfam_1:def 1</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be a family of sets (i.e., a set whose members are all sets). We define the <html:dfn>Intersection</html:dfn> of <fr:tex display="inline"><![CDATA[F]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[\bigcap  F]]></fr:tex> such that for all objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in \bigcap  F]]></fr:tex> iff for each set <fr:tex display="inline"><![CDATA[Y\in  F]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in  Y]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000F/</fr:uri>
+            <fr:display-uri>nst-000F</fr:display-uri>
+            <fr:route>/nst-000F/</fr:route>
+            <fr:title text="Intersection of two sets">Intersection of two sets</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.4</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K3" type="external">xboole_0:def 4</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We define their <html:dfn>Intersection</html:dfn> to be the set denoted <fr:tex display="inline"><![CDATA[X\cap  Y]]></fr:tex> such that: for all objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in  X\cap  Y]]></fr:tex> iff <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\in  Y]]></fr:tex>.</html:p><html:p>We see this is commutative <fr:tex display="inline"><![CDATA[X\cap  Y=Y\cap  X]]></fr:tex> and idempotent <fr:tex display="inline"><![CDATA[X\cap  X=X]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><html:strong>Existence:</html:strong> We see this exists using <fr:link href="/nst-0009/" title="Set builder notation" uri="http://localhost:8000/nst-0009/" display-uri="nst-0009" type="local">set-builder notation</fr:link>  <fr:tex display="inline"><![CDATA[\{x\in  X\mid  x\in  Y\}]]></fr:tex>.</html:p>
+<html:p><html:strong>Uniqueness:</html:strong> let <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> be two possible candidates for the definition. We see <fr:tex display="inline"><![CDATA[x\in  A\iff  x\in  X\hbox { and }x\in  Y\iff  x\in  B]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link href="/nst-0004/" title="Set equality" uri="http://localhost:8000/nst-0004/" display-uri="nst-0004" type="local">Set equality</fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000M/</fr:uri>
+            <fr:display-uri>nst-000M</fr:display-uri>
+            <fr:route>/nst-000M/</fr:route>
+            <fr:title text="Ordered pairs">Ordered pairs</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.6</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/tarski.html#K4" type="external">tarski:def 5</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> be objects. We define the <html:dfn>Ordered Pair</html:dfn> to be the object <fr:tex display="inline"><![CDATA[(x,y) = \{\{x\},\{x,y\}\}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>A better definition would be <fr:tex display="inline"><![CDATA[(x,y)=\{\{0,x\},\{1,y\}\}]]></fr:tex> because then the <fr:link href="/nst-000O/" title="Cartesian product of two sets" uri="http://localhost:8000/nst-000O/" display-uri="nst-000O" type="local">Cartesian product of two sets</fr:link> coincides with the <fr:link href="/nst-002E/" title="Product of family of sets" uri="http://localhost:8000/nst-002E/" display-uri="nst-002E" type="local">Product of family of sets</fr:link> when <fr:tex display="inline"><![CDATA[I=\{0,1\}]]></fr:tex> is the indexing set.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000N/</fr:uri>
+            <fr:display-uri>nst-000N</fr:display-uri>
+            <fr:route>/nst-000N/</fr:route>
+            <fr:title text="Ordered pairs implement their specification">Ordered pairs implement their specification</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.6</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xtuple_0.html#T1" type="external">xtuple_0:1</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[a]]></fr:tex>, <fr:tex display="inline"><![CDATA[b]]></fr:tex>, <fr:tex display="inline"><![CDATA[c]]></fr:tex>, <fr:tex display="inline"><![CDATA[d]]></fr:tex> be objects. If <fr:tex display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex display="inline"><![CDATA[b=d]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We boild this proof down to two cases: either <fr:tex display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</html:p>
+<html:p><html:strong>Case 1:</html:strong> <fr:tex display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex display="inline"><![CDATA[b=d]]></fr:tex> as desired.</html:p>
+<html:p><html:strong>Case 2:</html:strong> <fr:tex display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex display="inline"><![CDATA[b=d]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000K/</fr:uri>
+            <fr:display-uri>nst-000K</fr:display-uri>
+            <fr:route>/nst-000K/</fr:route>
+            <fr:title text="Powerset">Powerset</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.5</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/zfmisc_1.html#K1" type="external">zfmisc_1:def 1</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set. We define the <html:dfn>Powerset</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[\mathcal {P}(X)]]></fr:tex> such that for any set <fr:tex display="inline"><![CDATA[Z]]></fr:tex> we have <fr:tex display="inline"><![CDATA[Z\in \mathcal {P}(X)]]></fr:tex> iff <fr:tex display="inline"><![CDATA[Z\subseteq  X]]></fr:tex>. That is to say, the powerset of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the set of all subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:p>
+            <html:p>For finite sets (especially small sets we can write out by hand), we can see this is a sensible thing to define. But for infinite sets, some Mathematicians historically were nervous about this being well-defined. The important thing is that we assert (either axiomatically or dogmatically) this is indeed a set.</html:p>
+            <html:p>(In ZFC, this is given as an axiom.)</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-001C/</fr:uri>
+            <fr:display-uri>nst-001C</fr:display-uri>
+            <fr:route>/nst-001C/</fr:route>
+            <fr:title text="Preimage of a function">Preimage of a function</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.10</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function, let <fr:tex display="inline"><![CDATA[B\subseteq  Y]]></fr:tex>. We define the <html:dfn>Preimage</html:dfn> of <fr:tex display="inline"><![CDATA[B]]></fr:tex> under <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[f^{-1}(A)=\{x\in  X\mid  f(x)\in  B\}]]></fr:tex>.</html:p>
+            <html:p>This is sometimes denoted <fr:tex display="inline"><![CDATA[f^{*}(B)]]></fr:tex> to avoid confusing the preimage with the inverse function of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. This allows us to interpret <fr:tex display="inline"><![CDATA[f^{*}\colon \mathcal {P}(Y)\to \mathcal {P}(X)]]></fr:tex> without ambiguity.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0019/</fr:uri>
+            <fr:display-uri>nst-0019</fr:display-uri>
+            <fr:route>/nst-0019/</fr:route>
+            <fr:title text="Projection of Cartesian product">Projection of Cartesian product</fr:title>
+            <fr:taxon>example</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.8</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn>Projection Functions</html:dfn> <fr:tex display="inline"><![CDATA[\pi _{1}\colon  X\times  Y\to  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi _{2}\colon  X\times  Y\to  Y]]></fr:tex> by <fr:tex display="inline"><![CDATA[\pi _{1}(x,y)=x]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi _{2}(x,y)=y]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-001E/</fr:uri>
+            <fr:display-uri>nst-001E</fr:display-uri>
+            <fr:route>/nst-001E/</fr:route>
+            <fr:title text="Properties of image and preimage of a function">Properties of image and preimage of a function</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.10</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function, let <fr:tex display="inline"><![CDATA[A\subseteq  X]]></fr:tex>, and <fr:tex display="inline"><![CDATA[B\subseteq  Y]]></fr:tex>. Then the following all hold:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[f(f^{-1}(B))\subseteq  B]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[A\subseteq  f^{-1}(f(A))]]></fr:tex></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000W/</fr:uri>
+            <fr:display-uri>nst-000W</fr:display-uri>
+            <fr:route>/nst-000W/</fr:route>
+            <fr:title text="Range of a relation">Range of a relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a relation. We define the <html:dfn>Range</html:dfn> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (R)=\{y\mid \exists  x\ldotp (x,y)\in  R\}]]></fr:tex>.</html:p>
+            <html:p>When <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a relation of <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (R)\subseteq  Y]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000Y/</fr:uri>
+            <fr:display-uri>nst-000Y</fr:display-uri>
+            <fr:route>/nst-000Y/</fr:route>
+            <fr:title text="Reflexive relation">Reflexive relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/relat_2.html#V1" type="external">relat_2:def 9</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a relation, let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be its <fr:link href="/nst-000X/" title="Field of a relation" uri="http://localhost:8000/nst-000X/" display-uri="nst-000X" type="local">field</fr:link>. We say <fr:tex display="inline"><![CDATA[R]]></fr:tex> is <html:dfn>Reflexive</html:dfn> if for each <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex display="inline"><![CDATA[(x,x)\in  R]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000T/</fr:uri>
+            <fr:display-uri>nst-000T</fr:display-uri>
+            <fr:route>/nst-000T/</fr:route>
+            <fr:title text="Relation">Relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We can define a <html:dfn>Relation</html:dfn> broadly is a set <fr:tex display="inline"><![CDATA[R]]></fr:tex> such that for all objects <fr:tex display="inline"><![CDATA[r\in  R]]></fr:tex> there exists objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[r=(x,y)]]></fr:tex>. In other words, a relation is a set which consists of ordered pairs.</html:p>
+            <html:p>When <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> are sets, a <html:dfn>Relation</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is a subset <fr:tex display="inline"><![CDATA[R\subseteq  X\times  Y]]></fr:tex>.</html:p>
+            <html:p>We will speak of a "Relation of <fr:tex display="inline"><![CDATA[X]]></fr:tex>" when referring to a subset <fr:tex display="inline"><![CDATA[R\subseteq  X\times  X]]></fr:tex>.</html:p>
+            <html:p>If <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a relation and <fr:tex display="inline"><![CDATA[(x,y)\in  R]]></fr:tex>, then we will frequently abuse notation and write <fr:tex display="inline"><![CDATA[x\;R\;y]]></fr:tex>. Usually instead of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, for particular relations we use <fr:tex display="inline"><![CDATA[\sim ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\approx ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\cong ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\equiv ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\lt ]]></fr:tex>, or other notation which is more aesthetically pleasing.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000I/</fr:uri>
+            <fr:display-uri>nst-000I</fr:display-uri>
+            <fr:route>/nst-000I/</fr:route>
+            <fr:title text="Relative complement of a set">Relative complement of a set</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.5</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K4" type="external">xboole_0:def 5</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn>Relative complement</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[Y\setminus  X]]></fr:tex> such that for all objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in  Y\setminus  X]]></fr:tex> iff <fr:tex display="inline"><![CDATA[x\in  Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\notin  X]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0018/</fr:uri>
+            <fr:display-uri>nst-0018</fr:display-uri>
+            <fr:route>/nst-0018/</fr:route>
+            <fr:title text="Restriction of a function">Restriction of a function</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.8</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/relat_1.html#K5" type="external">relat_1:def 11</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[g\colon  Y\to  Z]]></fr:tex> be a function, let <fr:tex display="inline"><![CDATA[X\subseteq  Y]]></fr:tex>. We define the <html:dfn>Restriction</html:dfn> of <fr:tex display="inline"><![CDATA[g]]></fr:tex> to <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be the function <fr:tex display="inline"><![CDATA[g|_{X}\colon  X\to  Z]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, <fr:tex display="inline"><![CDATA[g|_{X}(x)=g(x)]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000A/</fr:uri>
+            <fr:display-uri>nst-000A</fr:display-uri>
+            <fr:route>/nst-000A/</fr:route>
+            <fr:title text="Sentences in set theory">Sentences in set theory</fr:title>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The allowed sentences or predicates appearing in set builder notation may be described recursively.</html:p>
+            <html:p>We can describe what possible formulas appear using the following:</html:p>
+            <html:ul><html:li><fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[X=Y]]></fr:tex> are the atomic formulas</html:li>
+<html:li>"not &lt;formula&gt;"</html:li>
+<html:li>"&lt;formula&gt; and &lt;formula&gt;" or just a comma-separated list of formulas, all of which are expected to hold</html:li>
+<html:li>"&lt;formula&gt; or &lt;formula&gt;" for the disjunction of formulas (in the sense of "either &lt;formula&gt; or &lt;formula&gt; or both")</html:li>
+<html:li>"if &lt;formula&gt; then &lt;formula&gt;" (or "&lt;formula&gt; implies &lt;formula&gt;")</html:li>
+<html:li>"&lt;formula&gt; iff &lt;formula&gt;"</html:li>
+<html:li>"for all …"</html:li>
+<html:li>"for some …" (or "exists …")</html:li></html:ul>
+            <html:p>… as well as using any predicates we've defined (like the <fr:link href="/nst-0006/" title="Subset" uri="http://localhost:8000/nst-0006/" display-uri="nst-0006" type="local">Subset</fr:link> predicate).</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0009/</fr:uri>
+            <fr:display-uri>nst-0009</fr:display-uri>
+            <fr:route>/nst-0009/</fr:route>
+            <fr:title text="Set builder notation">Set builder notation</fr:title>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>There are times when the notation for <fr:link href="/nst-0002/" title="Finite sets" uri="http://localhost:8000/nst-0002/" display-uri="nst-0002" type="local">Finite sets</fr:link> is clunky or impractical (e.g., write out the first <fr:tex display="inline"><![CDATA[10^{120}]]></fr:tex> prime numbers). We have another notation for describing a set: if <fr:tex display="inline"><![CDATA[P[x]]]></fr:tex> is a unary predicate and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a set, then we write
+<fr:tex display="block"><![CDATA[\{x\in  X\mid  P[x]\}]]></fr:tex>
+which describes "The set of <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[P[x]]]></fr:tex> holds". The vertical bar ("|") is read "such that". The allowable predicates <fr:tex display="inline"><![CDATA[P[-]]]></fr:tex> must form a valid <fr:link href="/nst-000A/" title="Sentences in set theory" uri="http://localhost:8000/nst-000A/" display-uri="nst-000A" type="local">sentence</fr:link>. (This form of set builder notation is called "the axiom scheme of specification" in ZFC set theory.)</html:p>
+            <html:p>The other form of set builder notation which appears frequently: if <fr:tex display="inline"><![CDATA[F(-)]]></fr:tex> is some construction, and <fr:tex display="inline"><![CDATA[P[-]]]></fr:tex> is a unary predicate, and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a set, then
+<fr:tex display="block"><![CDATA[\{F(x)\mid  x\in  X,P[x]\}]]></fr:tex>
+describes the set obtained by applying <fr:tex display="inline"><![CDATA[F]]></fr:tex> to each element of <fr:tex display="inline"><![CDATA[X]]></fr:tex> which satisfies the predicate <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</html:p>
+            <html:p>The Working Mathematician usually "suppresses" (omits) the <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> clause when it is understood.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0015/</fr:uri>
+            <fr:display-uri>nst-0015</fr:display-uri>
+            <fr:route>/nst-0015/</fr:route>
+            <fr:title text="Set of all functions">Set of all functions</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.8</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/funct_2.html#K1" type="external">funct_2:def 2</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We denote the <html:dfn>Set of all functions</html:dfn> from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> as either <fr:tex display="inline"><![CDATA[Y^{X}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathop {\textrm {Hom}}\nolimits (X,Y)]]></fr:tex>.</html:p>
+            <html:p>We see this really is a set, since a function is a subset of <fr:tex display="inline"><![CDATA[X\times  Y]]></fr:tex>, so the set of all functions is a subset of <fr:tex display="inline"><![CDATA[\mathcal {P}(X\times  Y)]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000Z/</fr:uri>
+            <fr:display-uri>nst-000Z</fr:display-uri>
+            <fr:route>/nst-000Z/</fr:route>
+            <fr:title text="Symmetric relation">Symmetric relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/relat_2.html#V3" type="external">relat_2:def 11</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a relation, let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be its <fr:link href="/nst-000X/" title="Field of a relation" uri="http://localhost:8000/nst-000X/" display-uri="nst-000X" type="local">field</fr:link>. We say <fr:tex display="inline"><![CDATA[R]]></fr:tex> is <html:dfn>Symmetric</html:dfn> if for all <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> and <fr:tex display="inline"><![CDATA[y\in  F]]></fr:tex>, if <fr:tex display="inline"><![CDATA[(x,y)\in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(y,x)\in  R]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0010/</fr:uri>
+            <fr:display-uri>nst-0010</fr:display-uri>
+            <fr:route>/nst-0010/</fr:route>
+            <fr:title text="Transitive relation">Transitive relation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/relat_2.html#V8" type="external">relat_2:def 16</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a relation, let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be its <fr:link href="/nst-000X/" title="Field of a relation" uri="http://localhost:8000/nst-000X/" display-uri="nst-000X" type="local">field</fr:link>. We say <fr:tex display="inline"><![CDATA[R]]></fr:tex> is <html:dfn>Transitive</html:dfn> if for all <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[y\in  F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[z\in  F]]></fr:tex>, if <fr:tex display="inline"><![CDATA[(x,y)\in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[(y,z)\in  R]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(x,z)\in  R]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000B/</fr:uri>
+            <fr:display-uri>nst-000B</fr:display-uri>
+            <fr:route>/nst-000B/</fr:route>
+            <fr:title text="Union of a family of sets">Union of a family of sets</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.4</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/tarski.html#K3" type="external">tarski:def 4</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be a family of sets (i.e., set whose elements are sets). We define the <html:dfn>Union</html:dfn> of <fr:tex display="inline"><![CDATA[F]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[\bigcup  F]]></fr:tex> such that for all objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in \bigcup  F]]></fr:tex> iff there is some set <fr:tex display="inline"><![CDATA[X\in  F]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>.</html:p>
+            <html:p>This defines a new constant and we should set about to <fr:link href="/nst-000C/" title="Proving well-definedness of terms" uri="http://localhost:8000/nst-000C/" display-uri="nst-000C" type="local">proving it is well-defined</fr:link>, but proving its existence is impossible because it is just stipulated to exist ("axiom of union").</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-000D/</fr:uri>
+            <fr:display-uri>nst-000D</fr:display-uri>
+            <fr:route>/nst-000D/</fr:route>
+            <fr:title text="Union of two sets">Union of two sets</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.4</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/xboole_0.html#K2" type="external">xboole_0:def 3</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We define the <html:dfn>Union</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[X\cup  Y]]></fr:tex> such that for all objects <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in  X\cup  Y]]></fr:tex> iff either <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex display="inline"><![CDATA[x\in  Y]]></fr:tex>.</html:p><html:p>We see that this is commutative <fr:tex display="inline"><![CDATA[X\cup  Y=Y\cup  X]]></fr:tex> and idempotent <fr:tex display="inline"><![CDATA[X\cup  X=X]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><html:strong>Existence:</html:strong> take <fr:tex display="inline"><![CDATA[X\cup  Y=\bigcup \{X,Y\}]]></fr:tex>. We need to prove <fr:tex display="inline"><![CDATA[x\in  X\cup  Y\implies  x\in \bigcup \{X,Y\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\in \bigcup \{X,Y\}\implies  x\in  X\cup  Y]]></fr:tex>, but these follow immediately.</html:p>
+
+<html:p><html:strong>Uniqueness:</html:strong> Suppose <fr:tex display="inline"><![CDATA[A]]></fr:tex> is such that for all <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex display="inline"><![CDATA[x\in  Y]]></fr:tex>, and <fr:tex display="inline"><![CDATA[B]]></fr:tex> is such that for all <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in  B]]></fr:tex> iff <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> or <fr:tex display="inline"><![CDATA[x\in  Y]]></fr:tex>. We will prove for all <fr:tex display="inline"><![CDATA[x]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\in  A]]></fr:tex> iff <fr:tex display="inline"><![CDATA[x\in  B]]></fr:tex>: let <fr:tex display="inline"><![CDATA[x]]></fr:tex> be an arbitrary object. Then
+<fr:tex display="block"><![CDATA[x\in  A\iff  x\in  A\hbox { or }x\in  A\iff  x\in  B]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[x\in  A\iff  x\in  B]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[A=B]]></fr:tex> by <fr:link href="/nst-0004/" title="Set equality" uri="http://localhost:8000/nst-0004/" display-uri="nst-0004" type="local">Set equality</fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

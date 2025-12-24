@@ -1,0 +1,10 @@
+\title{Algebraic integers form an integral domain}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{proposition}
+\import{nt-004L}
+
+\p{Let #{\kk} be a [[nt-004K]]. The ring of [[nt-004L]] #{\AlgInt{\kk}} is an [[ra-000H]] and its [field of fractions](ra-002B) is #{\kk}.}
+
+\p{\textbf{Proof idea:} Suffices to show #{\AlgInt{\kk}} is closed under addition and multiplication. Then it's an integral domain since it's a subring of a field.}

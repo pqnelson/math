@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/ottmar-loos/" title="Ottmar Loos" uri="http://localhost:8000/ottmar-loos/" display-uri="ottmar-loos" type="local">Ottmar Loos</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/holger-petersson/" title="Holger Petersson" uri="http://localhost:8000/holger-petersson/" display-uri="holger-petersson" type="local">Holger Petersson</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/michel-racine/" title="Michel L. Racine" uri="http://localhost:8000/michel-racine/" display-uri="michel-racine" type="local">Michel L. Racine</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2008</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/loos-2008-inner/</fr:uri>
+    <fr:display-uri>loos-2008-inner</fr:display-uri>
+    <fr:route>/loos-2008-inner/</fr:route>
+    <fr:title text="Inner derivations of alternative algebras over commutative rings">Inner derivations of alternative algebras over commutative rings</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="doi">10.2140/ant.2008.2.927</fr:meta>
+    <fr:meta name="external">https://projecteuclid.org/journals/algebra-and-number-theory/volume-2/issue-8/Inner-derivations-of-alternative-algebras-over-commutative-rings/10.2140/ant.2008.2.927.full</fr:meta>
+    <fr:meta name="bibtex"><![CDATA[@article{loos2008inner,
+  title={Inner derivations of alternative algebras over commutative rings},
+  author={Loos, Ottmar and Petersson, Holger and Racine, Michel},
+  journal={Algebra \& Number Theory},
+  volume={2},
+  number={8},
+  pages={927--968},
+  year={2008},
+  publisher={Mathematical Sciences Publishers}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

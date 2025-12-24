@@ -4,7 +4,7 @@
 \date{2025-05-12}
 \import{notation}
 
-\p{This roughly corresponds to my "mental model" of Mathematics as I have learned it. For more rambling about this, see the [[preface]].}
+\p{This roughly corresponds to my "mental model" of Mathematics as I have learned it. For more rambling about this, see the [[preface]]. For feedback, feel free to file an [issue]() on Github, or send me an email (\code{pqnelson at remove this GMAIL dot} com).}
 
 \ol{
 \li{[[preface]]}
@@ -12,7 +12,14 @@
 \li{[[nst]]} % naive set theory
 \li{[[ila]]} % intermediate linear algebra
 \li{[[ca]]}  % classical analysis
-\li{[[iaa]]} % introduction to abstract algebra
+\li{[[iaa]] % introduction to abstract algebra
+\ol{
+\li{[[ia-0003]]} % preferatory notes
+\li{[[ia-0001]]} % traditional intro to groups
+\li{[[ia-0008]]} % traditional intro to rings
+\li{[[ia-0009]]} % traditional intro to modules
+\li{[[ia-000B]]} % traditional intro to Galois theory
+}}
 % graduate-level topics
 \li{[[ac]]}  % commutative algebra
 \li{[[sl]]}

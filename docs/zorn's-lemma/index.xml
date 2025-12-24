@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>18</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/zorn's-lemma/</fr:uri>
+    <fr:display-uri>zorn's-lemma</fr:display-uri>
+    <fr:route>/zorn's-lemma/</fr:route>
+    <fr:title text="Zorn's lemma">Zorn's lemma</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. If every <fr:link href="/nst-002Q/" title="Chain" uri="http://localhost:8000/nst-002Q/" display-uri="nst-002Q" type="local">chain</fr:link> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> has an <fr:link href="/nst-002R/" title="Upper bound" uri="http://localhost:8000/nst-002R/" display-uri="nst-002R" type="local">upper bound</fr:link>, then <fr:tex display="inline"><![CDATA[X]]></fr:tex> has a <fr:link href="/nst-002S/" title="Maximal element" uri="http://localhost:8000/nst-002S/" display-uri="nst-002S" type="local">Maximal element</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>This is logically equivalent to the <fr:link href="/nst-002M/" title="Axiom of Choice" uri="http://localhost:8000/nst-002M/" display-uri="nst-002M" type="local">Axiom of Choice</fr:link>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002L/</fr:uri>
+            <fr:display-uri>nst-002L</fr:display-uri>
+            <fr:route>/nst-002L/</fr:route>
+            <fr:title text="Choice">Choice</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The axiom of choice appears in various forms in modern Mathematics. This section may be skipped and returned to when needed.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002M/</fr:uri>
+                <fr:display-uri>nst-002M</fr:display-uri>
+                <fr:route>/nst-002M/</fr:route>
+                <fr:title text="Axiom of Choice">Axiom of Choice</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[I]]></fr:tex> be an indexing set. Let <fr:tex display="inline"><![CDATA[\{S_{i}\}_{i\in  I}]]></fr:tex> be a family of nonempty sets indexed by <fr:tex display="inline"><![CDATA[I]]></fr:tex>. The axiom of choice asserts the existence of a <html:dfn>choice <fr:link href="/nst-0014/" title="Function" uri="http://localhost:8000/nst-0014/" display-uri="nst-0014" type="local">function</fr:link></html:dfn>, i.e., an indexed set <fr:tex display="inline"><![CDATA[(x_{i})_{i\in  I}]]></fr:tex> such that for each <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex> we see <fr:tex display="inline"><![CDATA[x_{i}\in  S_{i}]]></fr:tex>.</html:p><html:p>In other words, we can choose "some arbitrary" <fr:tex display="inline"><![CDATA[x_{i}]]></fr:tex> from <fr:tex display="inline"><![CDATA[S_{i}]]></fr:tex> for each <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>We stress, the "choice function" is a set-theoretic <fr:link href="/nst-0014/" title="Function" uri="http://localhost:8000/nst-0014/" display-uri="nst-0014" type="local">function</fr:link>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002P/</fr:uri>
+                <fr:display-uri>nst-002P</fr:display-uri>
+                <fr:route>/nst-002P/</fr:route>
+                <fr:title text="Poset">Poset</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:dfn>Partially Ordered Set</html:dfn> (or <html:dfn>Poset</html:dfn>) is a set <fr:tex display="inline"><![CDATA[X]]></fr:tex> equipped with a <fr:link href="/nst-002O/" title="Partial Order" uri="http://localhost:8000/nst-002O/" display-uri="nst-002O" type="local">Partial Order</fr:link> <fr:tex display="inline"><![CDATA[\leq ]]></fr:tex> usually denoted as a pair <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex>.</html:p>
+                <html:p>Note: not all elements are comparable in a poset, i.e., the trichotomy law (for all <fr:tex display="inline"><![CDATA[x,y\in  X]]></fr:tex> either <fr:tex display="inline"><![CDATA[x=y]]></fr:tex> or <fr:tex display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\leq  x]]></fr:tex>) does not need to hold.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002Q/</fr:uri>
+                <fr:display-uri>nst-002Q</fr:display-uri>
+                <fr:route>/nst-002Q/</fr:route>
+                <fr:title text="Chain">Chain</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. A <html:dfn>Chain</html:dfn> is a subset <fr:tex display="inline"><![CDATA[C\subseteq  X]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x,y\in  C]]></fr:tex> either <fr:tex display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\leq  x]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002R/</fr:uri>
+                <fr:display-uri>nst-002R</fr:display-uri>
+                <fr:route>/nst-002R/</fr:route>
+                <fr:title text="Upper bound">Upper bound</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. Let <fr:tex display="inline"><![CDATA[A\subseteq  X]]></fr:tex> be some subset. An <html:dfn>Upper Bound</html:dfn> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is an element <fr:tex display="inline"><![CDATA[u\in  X]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> we have <fr:tex display="inline"><![CDATA[a\leq  u]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002S/</fr:uri>
+                <fr:display-uri>nst-002S</fr:display-uri>
+                <fr:route>/nst-002S/</fr:route>
+                <fr:title text="Maximal element">Maximal element</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. A <html:dfn>Maximal Element</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an element <fr:tex display="inline"><![CDATA[m\in  X]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\leq  m]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/zorn's-lemma/</fr:uri>
+                <fr:display-uri>zorn's-lemma</fr:display-uri>
+                <fr:route>/zorn's-lemma/</fr:route>
+                <fr:title text="Zorn's lemma">Zorn's lemma</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. If every <fr:link href="/nst-002Q/" title="Chain" uri="http://localhost:8000/nst-002Q/" display-uri="nst-002Q" type="local">chain</fr:link> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> has an <fr:link href="/nst-002R/" title="Upper bound" uri="http://localhost:8000/nst-002R/" display-uri="nst-002R" type="local">upper bound</fr:link>, then <fr:tex display="inline"><![CDATA[X]]></fr:tex> has a <fr:link href="/nst-002S/" title="Maximal element" uri="http://localhost:8000/nst-002S/" display-uri="nst-002S" type="local">Maximal element</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>This is logically equivalent to the <fr:link href="/nst-002M/" title="Axiom of Choice" uri="http://localhost:8000/nst-002M/" display-uri="nst-002M" type="local">Axiom of Choice</fr:link>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-004V/</fr:uri>
+            <fr:display-uri>ra-004V</fr:display-uri>
+            <fr:route>/ra-004V/</fr:route>
+            <fr:title text="Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module">Modules over PIDs are torsion-free iff isomorphic to a submodule of a free module</fr:title>
+            <fr:taxon>lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-001M/" title="Principal Ideal Domain" uri="http://localhost:8000/ra-001M/" display-uri="ra-001M" type="local">Principal Ideal Domain</fr:link>, let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a <fr:link href="/ra-004A/" title="Finitely-Generated Submodule" uri="http://localhost:8000/ra-004A/" display-uri="ra-004A" type="local">finitely-generated</fr:link> <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module. Then <fr:tex display="inline"><![CDATA[M]]></fr:tex> is <fr:link href="/ra-003P/" title="Torsion-Free Module" uri="http://localhost:8000/ra-003P/" display-uri="ra-003P" type="local">torsion-free</fr:link> if and only if <fr:tex display="inline"><![CDATA[R]]></fr:tex> is isomorphic to a submodule of a free module.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Any submodule of a free module over an integral domain is torsion-free.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex display="inline"><![CDATA[M]]></fr:tex> is torsion-free. Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be the set of all linearly-independent subsets of <fr:tex display="inline"><![CDATA[M]]></fr:tex>. We can check that <fr:tex display="inline"><![CDATA[S]]></fr:tex> is nonempty (since <fr:tex display="inline"><![CDATA[M]]></fr:tex> being torsion-free and <fr:tex display="inline"><![CDATA[R]]></fr:tex> being an integral domain that <fr:tex display="inline"><![CDATA[\{m\}]]></fr:tex> is linearly independent for any <fr:tex display="inline"><![CDATA[m\in  M]]></fr:tex> nonzero <fr:tex display="inline"><![CDATA[m\neq 0]]></fr:tex>) and all ascending chains in <fr:tex display="inline"><![CDATA[S]]></fr:tex> admit an upper bound. Then by <fr:link href="/zorn's-lemma/" title="Zorn's lemma" uri="http://localhost:8000/zorn's-lemma/" display-uri="zorn's-lemma" type="local">Zorn's lemma</fr:link> there exists a maximal element in <fr:tex display="inline"><![CDATA[S]]></fr:tex>. That is to say, there exists a maximal free submodule <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[M]]></fr:tex>.</html:p>
+<html:p>We claim that <fr:tex display="inline"><![CDATA[M/F]]></fr:tex> is torsion. If <fr:tex display="inline"><![CDATA[m+F\in  M]]></fr:tex> is not torsion, then the submodule <fr:tex display="inline"><![CDATA[Rm+F]]></fr:tex> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> is free and it properly contains <fr:tex display="inline"><![CDATA[F]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[M]]></fr:tex> is assumed to be torsion free, <fr:tex display="inline"><![CDATA[Rm]]></fr:tex> is free and thus it suffices to check <fr:tex display="inline"><![CDATA[Rm\cap  F=(0)]]></fr:tex>. But <fr:tex display="inline"><![CDATA[rm\in  F]]></fr:tex> iff <fr:tex display="inline"><![CDATA[r(m+F)=0]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[M]]></fr:tex> is finitely-generated then <fr:tex display="inline"><![CDATA[M/F]]></fr:tex> is finitely-generated and torsion. Then there exists some <fr:tex display="inline"><![CDATA[a\in  R]]></fr:tex> nonzero <fr:tex display="inline"><![CDATA[a\neq 0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a(M/F)=0]]></fr:tex>. Equivalently <fr:tex display="inline"><![CDATA[aM\subseteq  F]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[M]]></fr:tex> is torsion-free, <fr:tex display="inline"><![CDATA[M]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[aM]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-002M/</fr:uri>
+            <fr:display-uri>ra-002M</fr:display-uri>
+            <fr:route>/ra-002M/</fr:route>
+            <fr:title text="Principal ideal domains are unique factorization domains">Principal ideal domains are unique factorization domains</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 8.3.14</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-001M/" title="Principal Ideal Domain" uri="http://localhost:8000/ra-001M/" display-uri="ra-001M" type="local">Principal Ideal Domain</fr:link>, let <fr:tex display="inline"><![CDATA[a\in  R]]></fr:tex> be a nonzero non-invertible element of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then there exists <fr:link href="/ra-001U/" title="Irreducible element" uri="http://localhost:8000/ra-001U/" display-uri="ra-001U" type="local">irreducible elements</fr:link> <fr:tex display="inline"><![CDATA[p_{1},…,p_{n}\in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a=p_{1}(…)p_{n}]]></fr:tex>. Further, if <fr:tex display="inline"><![CDATA[q_{1},…,q_{m}\in  R]]></fr:tex> are irreducible and such that <fr:tex display="inline"><![CDATA[a=q_{1}(…)q_{m}]]></fr:tex> then <fr:tex display="inline"><![CDATA[m=n]]></fr:tex> and for each <fr:tex display="inline"><![CDATA[i=1,…,n]]></fr:tex> we have <fr:tex display="inline"><![CDATA[q_{i}=u_{i}p_{i}]]></fr:tex> where <fr:tex display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> is a unit.</html:p><html:p>In other words, <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a <fr:link href="/ra-001Z/" title="Unique Factorization Domain" uri="http://localhost:8000/ra-001Z/" display-uri="ra-001Z" type="local">Unique Factorization Domain</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>There are two claims: (1) there is a factorization, and (2) the factorization is unique.</html:p>
+<html:p><html:strong>Claim 1: Existence of a factorization.</html:strong> Assume for contradiction <fr:tex display="inline"><![CDATA[a\in  R]]></fr:tex> does not have a factorization. Then <fr:tex display="inline"><![CDATA[ua\in  R]]></fr:tex> does not have a factorization for any unit <fr:tex display="inline"><![CDATA[u\in R^{\times }]]></fr:tex>.</html:p>
+<html:p>We setup a set
+<fr:tex display="block"><![CDATA[S:=\{(r)\mathrel {\triangleleft } R\mid  r\hbox { does not have a factorization into irreducibles}\}.]]></fr:tex>
+Assume for contradiction that <fr:tex display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex>.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[(a)]]></fr:tex> be a maximal element of <fr:tex display="inline"><![CDATA[S]]></fr:tex> by <fr:link href="/zorn's-lemma/" title="Zorn's lemma" uri="http://localhost:8000/zorn's-lemma/" display-uri="zorn's-lemma" type="local">Zorn's lemma</fr:link>. We have <fr:tex display="inline"><![CDATA[a]]></fr:tex> is not irreducible, so by definition we can write it as <fr:tex display="inline"><![CDATA[a=xy]]></fr:tex> where <fr:tex display="inline"><![CDATA[x,y\notin R^{\times }]]></fr:tex> are not units, so
+<fr:tex display="block"><![CDATA[(a)\subset (x)]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[(a)\subset (y)]]></fr:tex>
+are proper subsets.</html:p>
+<html:p>But since <fr:tex display="inline"><![CDATA[(a)]]></fr:tex> is a maximal element of a chain, <fr:tex display="inline"><![CDATA[(x)\notin  S]]></fr:tex> and <fr:tex display="inline"><![CDATA[(y)\notin  S]]></fr:tex>, so <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> have a factorization. This gives us a contradiction, which means our assumption <fr:tex display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex> is wrong. We conclude <fr:tex display="inline"><![CDATA[S=\emptyset ]]></fr:tex>. Hence we've proven the factorization of elements exists.</html:p>
+<html:p><html:strong>Claim 2: Uniqueness of factorization.</html:strong> This may be proven in many, many ways. Assume for contradiction this is not true, so we may factorize
+<fr:tex display="block"><![CDATA[\prod ^{n}_{i}p_{i}=\prod ^{m}_{j}q_{j},]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[n]]></fr:tex> is minimal (i.e., the factorization <fr:tex display="inline"><![CDATA[\prod ^{n}_{i}p_{i}]]></fr:tex> is the smallest possible factorization with fewest possible factors).</html:p>
+<html:p>We have <fr:tex display="inline"><![CDATA[n\geq 1]]></fr:tex>, <fr:tex display="inline"><![CDATA[p=p_{1}]]></fr:tex> divides <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |}\prod  q_{j}]]></fr:tex>. Then there exists a <fr:tex display="inline"><![CDATA[j_{0}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} q_{j_{0}}]]></fr:tex> since <fr:tex display="inline"><![CDATA[p_{i}]]></fr:tex> and <fr:tex display="inline"><![CDATA[q_{j}]]></fr:tex> are all prime and irreducible. Then <fr:tex display="inline"><![CDATA[p=uq_{j_{0}}]]></fr:tex> for some unit <fr:tex display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> (since <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[q_{j_{0}}]]></fr:tex> are irreducible). Then
+<fr:tex display="block"><![CDATA[p_{1}\prod ^{n}_{i=2}p_{i}=(uq_{j_{0}})u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}]]></fr:tex>
+which implies
+<fr:tex display="block"><![CDATA[\prod ^{n}_{i=2}p_{i}=u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}.]]></fr:tex>
+This contradicts the assumption that <fr:tex display="inline"><![CDATA[\prod ^{n}_{i=1}p_{i}]]></fr:tex> is the minimal factorization.</html:p>
+<html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001H/</fr:uri>
+            <fr:display-uri>ra-001H</fr:display-uri>
+            <fr:route>/ra-001H/</fr:route>
+            <fr:title text="Existence of Maximal Ideals">Existence of Maximal Ideals</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Krull's <fr:link href="/krull-1929-idealtheorie/" title="Idealtheorie in Ringen ohne Endlichkeitsbedingung" uri="http://localhost:8000/krull-1929-idealtheorie/" display-uri="krull-1929-idealtheorie" type="local">Idealtheorie in Ringen ohne Endlichkeitsbedingung</fr:link> (1929)</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R\neq 0]]></fr:tex> be a nonzero unital <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>. Then there exists a <fr:link href="/ra-001C/" title="Maximal ideal" uri="http://localhost:8000/ra-001C/" display-uri="ra-001C" type="local">maximal ideal</fr:link> <fr:tex display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The typical proof offered is: consider the lattice of proper ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex> ordered by inclusion. There exists at least one ideal of <fr:tex display="inline"><![CDATA[R]]></fr:tex> (e.g., the <fr:link href="/ra-0013/" title="Trivial ideal" uri="http://localhost:8000/ra-0013/" display-uri="ra-0013" type="local">Trivial ideal</fr:link>). Then <fr:link href="/zorn's-lemma/" title="Zorn's lemma" uri="http://localhost:8000/zorn's-lemma/" display-uri="zorn's-lemma" type="local">Zorn's lemma</fr:link> implies there exists a maximal element of a chain containing the trivial ideal.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) This is often called "Krull's theorem", which is unfortunate because there are about a half dozen different results in ring theory called "Krull's theorem".</html:p>
+<html:p>(2) The condition that <fr:tex display="inline"><![CDATA[R]]></fr:tex> is unital is really critical. For example, we can turn any additive group <fr:tex display="inline"><![CDATA[G]]></fr:tex> into a nonunital ring by defining multiplication <fr:tex display="inline"><![CDATA[x\star  y=0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x,y\in  R]]></fr:tex>. There is no maximal ideal for such a ring</html:p>
+<html:p>(3) In ZF set theory, this theorem implies the axiom of choice. Hodges first proved it. For a review of this, see Alexei Entin's "Maximal Ideals in Commutative Rings and the Axiom of Choice" (<fr:link href="https://arxiv.org/abs/2404.18351" type="external">arXiv:2404.18351</fr:link>).</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002M/</fr:uri>
+            <fr:display-uri>nst-002M</fr:display-uri>
+            <fr:route>/nst-002M/</fr:route>
+            <fr:title text="Axiom of Choice">Axiom of Choice</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[I]]></fr:tex> be an indexing set. Let <fr:tex display="inline"><![CDATA[\{S_{i}\}_{i\in  I}]]></fr:tex> be a family of nonempty sets indexed by <fr:tex display="inline"><![CDATA[I]]></fr:tex>. The axiom of choice asserts the existence of a <html:dfn>choice <fr:link href="/nst-0014/" title="Function" uri="http://localhost:8000/nst-0014/" display-uri="nst-0014" type="local">function</fr:link></html:dfn>, i.e., an indexed set <fr:tex display="inline"><![CDATA[(x_{i})_{i\in  I}]]></fr:tex> such that for each <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex> we see <fr:tex display="inline"><![CDATA[x_{i}\in  S_{i}]]></fr:tex>.</html:p><html:p>In other words, we can choose "some arbitrary" <fr:tex display="inline"><![CDATA[x_{i}]]></fr:tex> from <fr:tex display="inline"><![CDATA[S_{i}]]></fr:tex> for each <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>We stress, the "choice function" is a set-theoretic <fr:link href="/nst-0014/" title="Function" uri="http://localhost:8000/nst-0014/" display-uri="nst-0014" type="local">function</fr:link>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002Q/</fr:uri>
+            <fr:display-uri>nst-002Q</fr:display-uri>
+            <fr:route>/nst-002Q/</fr:route>
+            <fr:title text="Chain">Chain</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. A <html:dfn>Chain</html:dfn> is a subset <fr:tex display="inline"><![CDATA[C\subseteq  X]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x,y\in  C]]></fr:tex> either <fr:tex display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\leq  x]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002S/</fr:uri>
+            <fr:display-uri>nst-002S</fr:display-uri>
+            <fr:route>/nst-002S/</fr:route>
+            <fr:title text="Maximal element">Maximal element</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. A <html:dfn>Maximal Element</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an element <fr:tex display="inline"><![CDATA[m\in  X]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x\leq  m]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002P/</fr:uri>
+            <fr:display-uri>nst-002P</fr:display-uri>
+            <fr:route>/nst-002P/</fr:route>
+            <fr:title text="Poset">Poset</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A <html:dfn>Partially Ordered Set</html:dfn> (or <html:dfn>Poset</html:dfn>) is a set <fr:tex display="inline"><![CDATA[X]]></fr:tex> equipped with a <fr:link href="/nst-002O/" title="Partial Order" uri="http://localhost:8000/nst-002O/" display-uri="nst-002O" type="local">Partial Order</fr:link> <fr:tex display="inline"><![CDATA[\leq ]]></fr:tex> usually denoted as a pair <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex>.</html:p>
+            <html:p>Note: not all elements are comparable in a poset, i.e., the trichotomy law (for all <fr:tex display="inline"><![CDATA[x,y\in  X]]></fr:tex> either <fr:tex display="inline"><![CDATA[x=y]]></fr:tex> or <fr:tex display="inline"><![CDATA[x\leq  y]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\leq  x]]></fr:tex>) does not need to hold.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002R/</fr:uri>
+            <fr:display-uri>nst-002R</fr:display-uri>
+            <fr:route>/nst-002R/</fr:route>
+            <fr:title text="Upper bound">Upper bound</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link href="/nst-002P/" title="Poset" uri="http://localhost:8000/nst-002P/" display-uri="nst-002P" type="local">Poset</fr:link>. Let <fr:tex display="inline"><![CDATA[A\subseteq  X]]></fr:tex> be some subset. An <html:dfn>Upper Bound</html:dfn> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is an element <fr:tex display="inline"><![CDATA[u\in  X]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> we have <fr:tex display="inline"><![CDATA[a\leq  u]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7504</fr:anchor><fr:addr
+type="machine">#507</fr:addr><fr:route>unstable-507.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This may be viewed as a special case of a <fr:link
+type="local"
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">Left group action</fr:link>.</fr:p>
+<fr:p>(2) The <fr:tex
+display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex> group morphism is called a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Representation</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on the group <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7506</fr:anchor><fr:addr
+type="user">gr-0041</fr:addr><fr:route>gr-0041.xml</fr:route><fr:title
+text="Action of a group on another group">Action of a group on another group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Sections 1.7 and 2.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> be <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>s. An <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Left) Action</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> is an uncurried form of the group morphism <fr:tex
+display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex>; i.e., it's a morphism <fr:tex
+display="inline"><![CDATA[\alpha \colon  G\times  K\to  K]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\alpha (g,k)=\rho (g)(k)]]></fr:tex>.</fr:p><fr:p>Usually we write <fr:tex
+display="inline"><![CDATA[g\cdot  k]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\alpha (g,k)]]></fr:tex> for the left action of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[k\in  K]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4288</fr:anchor><fr:addr
+type="machine">#507</fr:addr><fr:route>unstable-507.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This may be viewed as a special case of a <fr:link
+type="local"
+href="gr-004Y.xml"
+addr="gr-004Y"
+title="Left group action">Left group action</fr:link>.</fr:p>
+<fr:p>(2) The <fr:tex
+display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex> group morphism is called a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Representation</html:dfn> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> on the group <fr:tex
+display="inline"><![CDATA[K]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

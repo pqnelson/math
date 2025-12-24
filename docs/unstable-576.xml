@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:addr
+type="machine">#576</fr:addr><fr:route>unstable-576.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\sigma (\mathcal {O}_{\Bbbk })=\mathcal {O}_{\Bbbk }]]></fr:tex>.</fr:p>
+<fr:p>(2) If <fr:tex
+display="inline"><![CDATA[I\mathrel {\triangleleft }\mathcal {O}_{\Bbbk }]]></fr:tex> is a proper ideal, then <fr:tex
+display="inline"><![CDATA[\sigma (I)\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:addr
+type="user">nt-004Q</fr:addr><fr:route>nt-004Q.xml</fr:route><fr:title
+text="Algebraic Integers">Algebraic Integers</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:ol><fr:li>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {Q}(\mathrm {i})]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\mathrm {i}=\sqrt {-1}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }=\mathbb {Z}[\mathrm {i}]]]></fr:tex>.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {Q}(\sqrt {2})]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }=\mathbb {Z}[\sqrt {2}]]]></fr:tex>.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {Q}(\sqrt {5})]]></fr:tex>. Then the minimal polynomial of <fr:tex
+display="inline"><![CDATA[\sqrt {5}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[m_{\sqrt {5}}(x)=x^{2}-x-1]]></fr:tex>. This means that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }=\mathbb {Z}[\varphi ]]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\varphi =(1+\sqrt {5})/2]]></fr:tex> is the golden ratio.</fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>639</fr:anchor><fr:addr
+type="machine">#576</fr:addr><fr:route>unstable-576.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\sigma (\mathcal {O}_{\Bbbk })=\mathcal {O}_{\Bbbk }]]></fr:tex>.</fr:p>
+<fr:p>(2) If <fr:tex
+display="inline"><![CDATA[I\mathrel {\triangleleft }\mathcal {O}_{\Bbbk }]]></fr:tex> is a proper ideal, then <fr:tex
+display="inline"><![CDATA[\sigma (I)\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

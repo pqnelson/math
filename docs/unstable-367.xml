@@ -7,12 +7,35 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8183</fr:anchor><fr:addr
-type="machine">#367</fr:addr><fr:route>unstable-367.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1705</fr:anchor><fr:addr
+type="machine">#367</fr:addr><fr:route>unstable-367.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\alpha _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\alpha _{n}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis for <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>. Each <fr:tex
+display="inline"><![CDATA[\alpha _{i}]]></fr:tex> has an orbit <fr:tex
+display="inline"><![CDATA[G\alpha _{i}\in \Bbbk ]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[G=\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[G\alpha _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[G\alpha _{n}]]></fr:tex> be the distinct orbits. We see
+<fr:tex
+display="block"><![CDATA[f_{i}(x)=\prod _{\beta \in  G\alpha }(x-\beta )]]></fr:tex>
+is irreducible and separable. Then
+<fr:tex
+display="block"><![CDATA[f(x)=\prod ^{n}_{i=1}f_{i}(x)]]></fr:tex>
+<fr:link
+type="local"
+href="nt-0033.xml"
+addr="nt-0033"
+title="Irreducible polynomials with a root in a Galois extension is separable and splits over that extension">is separable</fr:link> and <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,26 +50,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8185</fr:anchor><fr:addr
-type="user">gt-000W</fr:addr><fr:route>gt-000W.xml</fr:route><fr:title
-text="Intermediate Value Property">Intermediate Value Property</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1707</fr:anchor><fr:addr
+type="user">nt-0034</fr:addr><fr:route>nt-0034.xml</fr:route><fr:title
+text="Finite field extensions are Galois iff it is the splitting field of a separable polynomial">Finite field extensions are Galois iff it is the splitting field of a separable polynomial</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Rudin <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A finite extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Chapter 4 Exercise 19</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. We say <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> has the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Intermediate Value Property</html:dfn> if the image of any continuous real-valued function on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is an interval.</fr:p>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of a <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable polynomial</fr:link> <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -56,11 +81,34 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8187</fr:anchor><fr:addr
-type="machine">#367</fr:addr><fr:route>unstable-367.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1147</fr:anchor><fr:addr
+type="machine">#367</fr:addr><fr:route>unstable-367.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to be mildly nonstandard terminology. The following proposition perhaps shows why...</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\alpha _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\alpha _{n}]]></fr:tex> be an <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis for <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>. Each <fr:tex
+display="inline"><![CDATA[\alpha _{i}]]></fr:tex> has an orbit <fr:tex
+display="inline"><![CDATA[G\alpha _{i}\in \Bbbk ]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[G=\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[G\alpha _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[G\alpha _{n}]]></fr:tex> be the distinct orbits. We see
+<fr:tex
+display="block"><![CDATA[f_{i}(x)=\prod _{\beta \in  G\alpha }(x-\beta )]]></fr:tex>
+is irreducible and separable. Then
+<fr:tex
+display="block"><![CDATA[f(x)=\prod ^{n}_{i=1}f_{i}(x)]]></fr:tex>
+<fr:link
+type="local"
+href="nt-0033.xml"
+addr="nt-0033"
+title="Irreducible polynomials with a root in a Galois extension is separable and splits over that extension">is separable</fr:link> and <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

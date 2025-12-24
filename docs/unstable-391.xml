@@ -7,14 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4717</fr:anchor><fr:addr
-type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2287</fr:anchor><fr:addr
+type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Nothing in the proof required <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> being specifically finite, but we end up with a decomposition of infinite cardinal numbers in the infinite <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> case...which is not as useful...</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Since the field extension is unique, we denote it by <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex>.</fr:p>
+<fr:p>(2) This proposition gives us all finite fields of characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex> are of the form <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex>. Moreover, they form a tower of extensions
+<fr:tex
+display="block"><![CDATA[\mathbb {F}_{p}\subset \mathbb {F}_{p^{2}}\subset \mathbb {F}_{p^{3}}\subset …]]></fr:tex></fr:p>
+<fr:p>(3) The <fr:link
+type="local"
+href="nt-0022.xml"
+addr="nt-0022"
+title="Frobenius morphism">Frobenius morphism</fr:link> extends to <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}\to \mathbb {F}_{p^{n}}]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[n>1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -29,38 +41,21 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4719</fr:anchor><fr:addr
-type="user">gr-004I</fr:addr><fr:route>gr-004I.xml</fr:route><fr:title
-text="Class equation">Class equation</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2289</fr:anchor><fr:addr
+type="user">nt-002D</fr:addr><fr:route>nt-002D.xml</fr:route><fr:title
+text="Existence and uniqueness of finite extensions for fields of nonzero characteristic">Existence and uniqueness of finite extensions for fields of nonzero characteristic</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. There exists a <fr:em>unique</fr:em> (up to isomorphism) extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, and it is the <fr:link
 type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 4.3.7</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/weddwitt.html#T14">weddwitt:14</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. Then
-<fr:tex
-display="block"><![CDATA[|G| = |Z(G)| + \sum _{x}[G : C_{G}(x)]]]></fr:tex>
-where the sum is taken over representatives from the representatives from distinct <fr:link
-type="local"
-href="gr-002D.xml"
-addr="gr-002D"
-title="Conjugacy class of an element">conjugacy classes</fr:link> disjoint from the <fr:link
-type="local"
-href="gr-002X.xml"
-addr="gr-002X"
-title="Center of a group">center</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[x^{p^{n}}-x]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -70,35 +65,65 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2034</fr:anchor><fr:addr
-type="machine">#390</fr:addr><fr:route>unstable-390.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1047</fr:anchor><fr:addr
+type="machine">#390</fr:addr><fr:route>unstable-390.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\chi =\{G\cdot  g\mid  g\in  G\}]]></fr:tex> be the set of orbits. Since the <fr:link
-type="local"
-href="gr-004J.xml"
-addr="gr-004J"
-title="Conjugacy Classes of a group">Conjugacy Classes of a group</fr:link> partitions <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, we see
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}_{p}]]></fr:tex> is a finite extension of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[x^{p^{n}}-x]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}_{p}]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is a finite field with <fr:tex
+display="inline"><![CDATA[p^{n}]]></fr:tex> elements. The group <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\times }]]></fr:tex> has <fr:tex
+display="inline"><![CDATA[p^{n}-1]]></fr:tex> elements, and so for all <fr:tex
+display="inline"><![CDATA[a\in \Bbbk ^{\times }]]></fr:tex> we have
 <fr:tex
-display="block"><![CDATA[|G|=\sum _{G\cdot  g\in \chi }|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
-and the conjugacy classes of elements <fr:tex
-display="inline"><![CDATA[z\in  Z(G)]]></fr:tex> of the <fr:link
-type="local"
-href="gr-002X.xml"
-addr="gr-002X"
-title="Center of a group">center</fr:link> is <fr:tex
-display="inline"><![CDATA[C(z)=\{z\}]]></fr:tex>, we see that
+display="block"><![CDATA[a^{p^{n}-1}=1.]]></fr:tex>
+Then every <fr:tex
+display="inline"><![CDATA[a\in \Bbbk ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[x^{p^{n}}-x]]></fr:tex>. On the other hand, <fr:tex
+display="inline"><![CDATA[x^{p^{n}}-x\in \mathbb {F}_{p}[x]]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[p^{n}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is exactly the splitting field of <fr:tex
+display="inline"><![CDATA[x^{p^{n}}-x]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>.</fr:p>
+<fr:p>(This also proves the existence of an extension of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>.)</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> Uniqueness up to isomorphism. For each <fr:tex
+display="inline"><![CDATA[n>1]]></fr:tex>, we see <fr:tex
+display="inline"><![CDATA[p(x)=x^{p^{n}}-x]]></fr:tex> is separable since <fr:tex
+display="inline"><![CDATA[p'(x)=-1\neq 0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> has <fr:tex
+display="inline"><![CDATA[p^{n}]]></fr:tex> roots in the splitting field <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[S\subseteq \Bbbk ]]></fr:tex> be the set of roots of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex>. For <fr:tex
+display="inline"><![CDATA[\alpha ,\beta \in  S]]></fr:tex> we have
 <fr:tex
-display="block"><![CDATA[|G|=\sum _{g\in  Z(G)}|\mathop {\textrm {Cl}}\nolimits (g)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|=|Z(G)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
-Hence the result since <fr:link
-type="local"
-href="gr-004N.xml"
-addr="gr-004N"
-title="Index of centralizer is size of conjugacy class">we proved <fr:tex
-display="inline"><![CDATA[|\mathop {\textrm {Cl}}\nolimits (g)|=[G : C_{G}(g)]]]></fr:tex></fr:link>.</fr:p><html:span
+display="block"><![CDATA[\begin {align*} p(\alpha +\beta )&=(\alpha +\beta )^{p^{n}}-(\alpha +\beta )\\ &=\alpha ^{p^{n}}-\alpha +\beta ^{p^{n}}-\beta \\ &=p(\alpha )+p(\beta )=0\end {align*}]]></fr:tex>
+so <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is closed under addition, and also
+<fr:tex
+display="block"><![CDATA[\begin {align*} p(\alpha \beta )&=(\alpha \beta )^{p^{n}}-(\alpha \beta )\\ &=\alpha ^{p^{n}}\beta ^{p^{n}}-\alpha \beta \\ &=\alpha \beta -\alpha \beta =0\end {align*}]]></fr:tex>
+so <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is closed under multiplication. It then follows that <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a subfield of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the smallest field extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[S=\Bbbk ]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> has <fr:tex
+display="inline"><![CDATA[p^{n}]]></fr:tex> elements, therefore has degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
@@ -112,13 +137,25 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2036</fr:anchor><fr:addr
-type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1049</fr:anchor><fr:addr
+type="machine">#391</fr:addr><fr:route>unstable-391.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Nothing in the proof required <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> being specifically finite, but we end up with a decomposition of infinite cardinal numbers in the infinite <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> case...which is not as useful...</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Since the field extension is unique, we denote it by <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex>.</fr:p>
+<fr:p>(2) This proposition gives us all finite fields of characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex> are of the form <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex>. Moreover, they form a tower of extensions
+<fr:tex
+display="block"><![CDATA[\mathbb {F}_{p}\subset \mathbb {F}_{p^{2}}\subset \mathbb {F}_{p^{3}}\subset …]]></fr:tex></fr:p>
+<fr:p>(3) The <fr:link
+type="local"
+href="nt-0022.xml"
+addr="nt-0022"
+title="Frobenius morphism">Frobenius morphism</fr:link> extends to <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}\to \mathbb {F}_{p^{n}}]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[n>1]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,18 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4753</fr:anchor><fr:addr
-type="machine">#400</fr:addr><fr:route>unstable-400.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2323</fr:anchor><fr:addr
+type="machine">#400</fr:addr><fr:route>unstable-400.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Immediately follows from <fr:link
-type="local"
-href="gr-003M.xml"
-addr="gr-003M"
-title="Product of normal subgroup with group element is commutative">Product of normal subgroup with group element is commutative</fr:link>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>When we study Galois theory, we will want to study the splitting field of a polynomial by studying the symmetries of its roots. But in this example, <fr:em>there are no symmetries to investigate</fr:em> because there's only a single root. This forces us to make a careful distinction between general splitting fields.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,28 +27,50 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4755</fr:anchor><fr:addr
-type="user">gr-003N</fr:addr><fr:route>gr-003N.xml</fr:route><fr:title
-text="Left cosets of normal subgroup are also right cosets">Left cosets of normal subgroup are also right cosets</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2325</fr:anchor><fr:addr
+type="user">nt-0024</fr:addr><fr:route>nt-0024.xml</fr:route><fr:title
+text="Finding the roots of a polynomial over a finite field">Finding the roots of a polynomial over a finite field</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[F=\mathbb {F}_{p}(t)]]></fr:tex> be our field, which has <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>, let <fr:tex
-display="inline"><![CDATA[N\mathrel {\trianglelefteq } G]]></fr:tex> be a <fr:link
+href="nt-000A.xml"
+addr="nt-000A"
+title="Characteristic">Characteristic</fr:link> <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> but it's also an infinite field. Consider the polynomial
+<fr:tex
+display="block"><![CDATA[f(x)=x^{p}-t\in  F[x].]]></fr:tex>
+Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / F]]></fr:tex> be a <fr:link
 type="local"
-href="gr-002P.xml"
-addr="gr-002P"
-title="Normal subgroup">Normal subgroup</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Then any left coset of <fr:tex
-display="inline"><![CDATA[N]]></fr:tex> is also a right coset of <fr:tex
-display="inline"><![CDATA[N]]></fr:tex>. That is to say, we may just speak of "cosets of <fr:tex
-display="inline"><![CDATA[N]]></fr:tex>" since all left cosets are right cosets of <fr:tex
-display="inline"><![CDATA[N]]></fr:tex>.</fr:p>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> for <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. Then we have
+<fr:tex
+display="block"><![CDATA[f(x)=x^{p}-\alpha ^{p}=(x-\alpha )^{p}.]]></fr:tex>
+Then all the roots of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> are <fr:em>equal</fr:em>.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> be the minimal polynomial of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. Then it must equal <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)=(x-\alpha )^{k}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[p=kq+r]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[0\leq  r<p]]></fr:tex>), then
+<fr:tex
+display="block"><![CDATA[f(x)=\bigl (m_{\alpha }(x)\bigr )^{q}\cdot (x-\alpha )^{r},]]></fr:tex>
+so that <fr:tex
+display="inline"><![CDATA[(x-\alpha )^{r}\in  F[x]]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[(x-\alpha )^{k}]]></fr:tex> is the minimal polynomial, and <fr:tex
+display="inline"><![CDATA[r < k]]></fr:tex>, it follows that <fr:tex
+display="inline"><![CDATA[r=0]]></fr:tex>.</fr:p><fr:p>It follows that <fr:tex
+display="inline"><![CDATA[x^{p}-t]]></fr:tex> is <fr:em>irreducible</fr:em> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}(t)]]></fr:tex>, yet all its roots in the splitting field are equal.</fr:p>
  
    
    <fr:tree
@@ -64,17 +80,11 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1856</fr:anchor><fr:addr
-type="machine">#400</fr:addr><fr:route>unstable-400.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1011</fr:anchor><fr:addr
+type="machine">#400</fr:addr><fr:route>unstable-400.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Immediately follows from <fr:link
-type="local"
-href="gr-003M.xml"
-addr="gr-003M"
-title="Product of normal subgroup with group element is commutative">Product of normal subgroup with group element is commutative</fr:link>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>When we study Galois theory, we will want to study the splitting field of a polynomial by studying the symmetries of its roots. But in this example, <fr:em>there are no symmetries to investigate</fr:em> because there's only a single root. This forces us to make a careful distinction between general splitting fields.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

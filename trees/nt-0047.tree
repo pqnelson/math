@@ -1,0 +1,10 @@
+\title{Solvable by Radicals}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{Let #{p(x)\in\FF[x]} be a polynomial. We say #{p(x)} is \define{Solvable by Radicals} if the roots of #{p(x)} can be expressed using addition, subtraction, multiplication, division, and radicals of constants and coefficients of #{p(x)}.}
+\p{In other words, all roots of #{p(x)} can be expressed by radicals (i.e., all the roots lie in some [[nt-004D]] of #{\FF}).}
+
+% \p{More generally, if #{\FF} is not characteristic zero, we say an element #{\alpha} which is algebraic over #{\FF} can be \define{Expressed by Radicals} if #{\alpha} is an element of a field #{\kk} which can be obtained by a succession of simple radical extensions ##{\FF=K_{0}\propersubset K_{1}\propersubset\dots\propersubset K_{i}\propersubset K_{i+1}\propersubset\dots\propersubset K_{s}=\kk} where #{K_{i+1}=K_{i}(a_{j}^{1/n_{j}})} for some #{a_{i}\in K_{i}} for #{i=0,1,\dots,s-1}. A polynomial #{f(x)\in\FF[x]} can be \define{Solved by Radicals} if all its roots can be expressed by radicals.}

@@ -1,0 +1,7 @@
+\title{Cyclic Extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{Let #{\FF} be a field. We say the extension #{\kk / \FF} is \define{Cyclic} if it is a Galois extension and #{\Gal(\kk / \FF)} is a cyclic group.}

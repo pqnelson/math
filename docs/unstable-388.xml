@@ -7,47 +7,42 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4705</fr:anchor><fr:addr
-type="machine">#388</fr:addr><fr:route>unstable-388.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2275</fr:anchor><fr:addr
+type="machine">#388</fr:addr><fr:route>unstable-388.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to show <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is a well-defined <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\Phi _{n}\in \mathbb {Z}[x]]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>.</fr:p>
+<fr:p><fr:link
 type="local"
-href="nst-0014.xml"
-addr="nst-0014"
-title="Function">Function</fr:link>. We see if <fr:tex
-display="inline"><![CDATA[aG_{x}=bG_{x}]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[a^{-1}b\in G_{x}]]></fr:tex> and by definition of the <fr:link
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[\Phi _{1}(x)=x-1]]></fr:tex> is clearly irreducible.</fr:p>
+<fr:p><fr:strong>Inductive hypothesis:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[\Phi _{d}(x)\in \mathbb {Z}[x]]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[d<n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> We see
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)f(x)=x^{n}-1]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[f(x)=\prod _{d\mathrel {\bigm |} n}\Phi _{d}(x)\in \mathbb {Z}[x]]]></fr:tex>
+by the inductive hypothesis. Then <fr:tex
+display="inline"><![CDATA[x^{n}-1=f(x)\Phi _{n}(x)]]></fr:tex> is a factorization over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. But by <fr:link
 type="local"
-href="gr-004C.xml"
-addr="gr-004C"
-title="Stabilizer">Stabilizer</fr:link> we see <fr:tex
-display="inline"><![CDATA[a^{-1}b\cdot  x=x]]></fr:tex> and therefore <fr:tex
-display="inline"><![CDATA[a\cdot  x=b\cdot  x]]></fr:tex>. Therefore this is a well-defined function.</fr:p>
-<fr:p>Reading this argument backwards, we establish <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
-type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link>.</fr:p>
-<fr:p>Since <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> maps <fr:tex
-display="inline"><![CDATA[gG_{x}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[g\cdot  x]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[g\cdot  x]]></fr:tex> can be an arbitrary element of <fr:tex
-display="inline"><![CDATA[G\cdot  x]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
-type="local"
-href="ela-001I.xml"
-addr="ela-001I"
-title="Surjective function">surjective</fr:link>. Hence <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
-type="local"
-href="ela-001K.xml"
-addr="ela-001K"
-title="Bijective function">bijective</fr:link>.</fr:p><html:span
+href="ra-002U.xml"
+addr="ra-002U"
+title="Factorization of formal polynomials with coefficients in UFDs">Gauss's lemma</fr:link>, since both <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> are monic, we see <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)\in \mathbb {Z}[x]]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -64,40 +59,21 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4707</fr:anchor><fr:addr
-type="user">gr-004L</fr:addr><fr:route>gr-004L.xml</fr:route><fr:title
-text="Cosets of stabilizer are bijective with the orbits">Cosets of stabilizer are bijective with the orbits</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2277</fr:anchor><fr:addr
+type="user">nt-002G</fr:addr><fr:route>nt-002G.xml</fr:route><fr:title
+text="Cyclotomic polynomials are irreducible polynomials in {Z}[x]">Cyclotomic polynomials are irreducible polynomials in <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[x]]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Artin's <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, the <fr:link
 type="local"
-href="artin-2010-algebra.xml"
-addr="artin-2010-algebra"
-title="Algebra">Algebra</fr:link> Proposition 6.8.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>, let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> be a set, suppose <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> <fr:link
-type="local"
-href="gr-004Y.xml"
-addr="gr-004Y"
-title="Left group action">acts</fr:link> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> be arbitrary. The function
-<fr:tex
-display="block"><![CDATA[\begin {split}\overline {f}\colon  &G/G_{x}\to  G\cdot  x\\ &gG_{x}\mapsto  g\cdot  x\end {split}]]></fr:tex>
-is a bijection between the <fr:link
-type="local"
-href="gr-003H.xml"
-addr="gr-003H"
-title="Left cosets of a subgroup">left cosets</fr:link> <fr:tex
-display="inline"><![CDATA[G/G_{x}]]></fr:tex> and the orbit <fr:tex
-display="inline"><![CDATA[G\cdot  x]]></fr:tex>.</fr:p>
+href="nt-002F.xml"
+addr="nt-002F"
+title="Cyclotomic polynomial">cyclotomic polynomial</fr:link> <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> is a monic irreducible polynomial in <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[x]]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -107,47 +83,129 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2018</fr:anchor><fr:addr
-type="machine">#388</fr:addr><fr:route>unstable-388.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1057</fr:anchor><fr:addr
+type="machine">#387</fr:addr><fr:route>unstable-387.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to show <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is a well-defined <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Cyclotomic polynomials are monic… this should be obvious.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1059</fr:anchor><fr:addr
+type="machine">#388</fr:addr><fr:route>unstable-388.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="nst-0014.xml"
-addr="nst-0014"
-title="Function">Function</fr:link>. We see if <fr:tex
-display="inline"><![CDATA[aG_{x}=bG_{x}]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[a^{-1}b\in G_{x}]]></fr:tex> and by definition of the <fr:link
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> <fr:tex
+display="inline"><![CDATA[\Phi _{n}\in \mathbb {Z}[x]]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>.</fr:p>
+<fr:p><fr:link
 type="local"
-href="gr-004C.xml"
-addr="gr-004C"
-title="Stabilizer">Stabilizer</fr:link> we see <fr:tex
-display="inline"><![CDATA[a^{-1}b\cdot  x=x]]></fr:tex> and therefore <fr:tex
-display="inline"><![CDATA[a\cdot  x=b\cdot  x]]></fr:tex>. Therefore this is a well-defined function.</fr:p>
-<fr:p>Reading this argument backwards, we establish <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[\Phi _{1}(x)=x-1]]></fr:tex> is clearly irreducible.</fr:p>
+<fr:p><fr:strong>Inductive hypothesis:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[\Phi _{d}(x)\in \mathbb {Z}[x]]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[d<n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> We see
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)f(x)=x^{n}-1]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[f(x)=\prod _{d\mathrel {\bigm |} n}\Phi _{d}(x)\in \mathbb {Z}[x]]]></fr:tex>
+by the inductive hypothesis. Then <fr:tex
+display="inline"><![CDATA[x^{n}-1=f(x)\Phi _{n}(x)]]></fr:tex> is a factorization over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. But by <fr:link
 type="local"
-href="ela-001J.xml"
-addr="ela-001J"
-title="Injective function">injective</fr:link>.</fr:p>
-<fr:p>Since <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> maps <fr:tex
-display="inline"><![CDATA[gG_{x}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[g\cdot  x]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[g\cdot  x]]></fr:tex> can be an arbitrary element of <fr:tex
-display="inline"><![CDATA[G\cdot  x]]></fr:tex>, this means <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
+href="ra-002U.xml"
+addr="ra-002U"
+title="Factorization of formal polynomials with coefficients in UFDs">Gauss's lemma</fr:link>, since both <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> are monic, we see <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)\in \mathbb {Z}[x]]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1061</fr:anchor><fr:addr
+type="machine">#389</fr:addr><fr:route>unstable-389.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="ela-001I.xml"
-addr="ela-001I"
-title="Surjective function">surjective</fr:link>. Hence <fr:tex
-display="inline"><![CDATA[\overline {f}]]></fr:tex> is <fr:link
-type="local"
-href="ela-001K.xml"
-addr="ela-001K"
-title="Bijective function">bijective</fr:link>.</fr:p><html:span
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> is irreducible. Suppose we have some factorization
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)=f(x)g(x)]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {Z}[x]]]></fr:tex> is irreducible and <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {Z}[x]]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\zeta ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\zeta \in \mu _{n}]]></fr:tex> primitive.</fr:p>
+<fr:p>We claim: for any <fr:tex
+display="inline"><![CDATA[a\in \mathbb {Z}]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is coprime to <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\zeta ^{a}]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. It suffices to prove this for <fr:tex
+display="inline"><![CDATA[a=p]]></fr:tex> prime. We have <fr:tex
+display="inline"><![CDATA[\Phi _{n}(\zeta ^{p})=0]]></fr:tex> imply either <fr:tex
+display="inline"><![CDATA[f(\zeta ^{p})=0]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[g(\zeta ^{p})=0]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Subcase 1:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[g(\zeta ^{p})=0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\zeta ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, but <fr:tex
+display="inline"><![CDATA[\zeta ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> <fr:em>and</fr:em> <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible. Then <fr:tex
+display="inline"><![CDATA[f(x)\mathrel {\bigm |} g(x^{p})]]></fr:tex>. Using the surjective map
+<fr:tex
+display="block"><![CDATA[\begin {split}\mathbb {Z}[x]\to \mathbb {F}_{p}[x]\\ f(x)\mapsto \overline {f}(x)\end {split}]]></fr:tex>
+we see <fr:tex
+display="inline"><![CDATA[f(x)\mathrel {\bigm |} g(x^{p})]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[\overline {f}(x)\mathrel {\bigm |}\overline {g}(x^{p})]]></fr:tex>, but we see <fr:tex
+display="inline"><![CDATA[\overline {g}(x^{p})=\overline {g}(x)^{p}]]></fr:tex>. This implies <fr:tex
+display="inline"><![CDATA[\overline {f}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\overline {g}]]></fr:tex> share a common root, which contradicts the irreducibility of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Subcase 2:</fr:strong> Assume <fr:tex
+display="inline"><![CDATA[f(\zeta ^{p})=0]]></fr:tex>. Then for any <fr:tex
+display="inline"><![CDATA[a\in \mathbb {Z}]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> is coprime with <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\zeta ^{a}]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. This implies
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)\mathrel {\bigm |} f(x),]]></fr:tex>
+which means <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)=f(x)]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> is irreducible.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

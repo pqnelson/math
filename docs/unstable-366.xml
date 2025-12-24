@@ -7,45 +7,37 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8179</fr:anchor><fr:addr
-type="machine">#366</fr:addr><fr:route>unstable-366.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1701</fr:anchor><fr:addr
+type="machine">#366</fr:addr><fr:route>unstable-366.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Since <fr:link
-type="local"
-href="gt-000V.xml"
-addr="gt-000V"
-title="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:link>, the result follows immediately (if one has already proven intervals of <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex> are connected).</fr:p>
+display="inline"><![CDATA[(1)\iff (2)]]></fr:tex> by definition.</fr:p>
 <fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> <fr:link
+display="inline"><![CDATA[(1)\iff (3)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(1)\iff (4)]]></fr:tex> by <fr:link
 type="local"
-href="nst-002I.xml"
-addr="nst-002I"
-title="Proof by contrapositive">Proof by contrapositive</fr:link>. We prove the contrapositive; i.e., we prove the equivalent claim if <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is not connected, then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> does not have the intermediate value property. Since <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is not connected, let <fr:tex
-display="inline"><![CDATA[U_{1},U_{2}\subseteq  X]]></fr:tex> be a <fr:link
+href="nt-0030.xml"
+addr="nt-0030"
+title="Subfield fixed under finite subgroup of automorphisms is a Galois extension">Subfield fixed under finite subgroup of automorphisms is a Galois extension</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(4)\implies (5)]]></fr:tex> Obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(5)\implies (4)]]></fr:tex> If <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is <fr:link
 type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separation</fr:link>. Define a function <fr:tex
-display="inline"><![CDATA[f\colon  X\to \mathbb {R}]]></fr:tex> by
+href="nt-0035.xml"
+addr="nt-0035"
+title="Normal field extension">normal</fr:link>, then it is the splitting field of some <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> which can be taken to be irreducible and distinct. If further <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is separable, then each <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> is separable, hence <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of
 <fr:tex
-display="block"><![CDATA[f(x) = \begin {cases}0 & \hbox {if }x\in  U_{1}\\ 1 & \hbox {if }x\in  U_{2}.\end {cases}]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is continuous, since for every open subset <fr:tex
-display="inline"><![CDATA[A\subseteq \mathbb {R}]]></fr:tex>, the preimage <fr:tex
-display="inline"><![CDATA[f^{-1}(A)]]></fr:tex> is open (by <fr:link
-type="local"
-href="gt-000Q.xml"
-addr="gt-000Q"
-title="A function is continuous iff preimage of open subsets are open">A function is continuous iff preimage of open subsets are open</fr:link>). However, <fr:tex
-display="inline"><![CDATA[f(X)]]></fr:tex> is not an interval, so we found a counter-example needed to conclude <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> fails to have the intermediate value property.</fr:p><html:span
+display="block"><![CDATA[f(x)=\prod _{i}f_{i}(x),]]></fr:tex>
+which is separable as <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> are distinct, irreducible, and separable. Hence the claim.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -62,28 +54,46 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8181</fr:anchor><fr:addr
-type="user">gt-000X</fr:addr><fr:route>gt-000X.xml</fr:route><fr:title
-text="Intermdiated value property equivalent to being connected">Intermdiated value property equivalent to being connected</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1703</fr:anchor><fr:addr
+type="user">nt-0036</fr:addr><fr:route>nt-0036.xml</fr:route><fr:title
+text="Summary of results">Summary of results</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a finite extension. Then the following are equivalent:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. Then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> has <fr:link
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]=|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the fixed field of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the <fr:link
 type="local"
-href="gt-000W.xml"
-addr="gt-000W"
-title="Intermediate Value Property">Intermediate Value Property</fr:link> if and only if <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a <fr:link
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of a <fr:link
 type="local"
-href="gt-000T.xml"
-addr="gt-000T"
-title="Connected Space">Connected Space</fr:link>.</fr:p>
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable polynomial</fr:link> <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex></fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is a <fr:link
+type="local"
+href="nt-0035.xml"
+addr="nt-0035"
+title="Normal field extension">normal</fr:link> <fr:link
+type="local"
+href="nt-002B.xml"
+addr="nt-002B"
+title="Separable field extension">separable</fr:link> extension</fr:li></fr:ol>
  
    
    <fr:tree
@@ -93,45 +103,37 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6216</fr:anchor><fr:addr
-type="machine">#366</fr:addr><fr:route>unstable-366.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1153</fr:anchor><fr:addr
+type="machine">#366</fr:addr><fr:route>unstable-366.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
-display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Since <fr:link
-type="local"
-href="gt-000V.xml"
-addr="gt-000V"
-title="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:link>, the result follows immediately (if one has already proven intervals of <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex> are connected).</fr:p>
+display="inline"><![CDATA[(1)\iff (2)]]></fr:tex> by definition.</fr:p>
 <fr:p><fr:tex
-display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> <fr:link
+display="inline"><![CDATA[(1)\iff (3)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(1)\iff (4)]]></fr:tex> by <fr:link
 type="local"
-href="nst-002I.xml"
-addr="nst-002I"
-title="Proof by contrapositive">Proof by contrapositive</fr:link>. We prove the contrapositive; i.e., we prove the equivalent claim if <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is not connected, then <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> does not have the intermediate value property. Since <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is not connected, let <fr:tex
-display="inline"><![CDATA[U_{1},U_{2}\subseteq  X]]></fr:tex> be a <fr:link
+href="nt-0030.xml"
+addr="nt-0030"
+title="Subfield fixed under finite subgroup of automorphisms is a Galois extension">Subfield fixed under finite subgroup of automorphisms is a Galois extension</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(4)\implies (5)]]></fr:tex> Obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(5)\implies (4)]]></fr:tex> If <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is <fr:link
 type="local"
-href="gt-000S.xml"
-addr="gt-000S"
-title="Separated space">separation</fr:link>. Define a function <fr:tex
-display="inline"><![CDATA[f\colon  X\to \mathbb {R}]]></fr:tex> by
+href="nt-0035.xml"
+addr="nt-0035"
+title="Normal field extension">normal</fr:link>, then it is the splitting field of some <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> which can be taken to be irreducible and distinct. If further <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is separable, then each <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> is separable, hence <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the splitting field of
 <fr:tex
-display="block"><![CDATA[f(x) = \begin {cases}0 & \hbox {if }x\in  U_{1}\\ 1 & \hbox {if }x\in  U_{2}.\end {cases}]]></fr:tex>
-Then <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is continuous, since for every open subset <fr:tex
-display="inline"><![CDATA[A\subseteq \mathbb {R}]]></fr:tex>, the preimage <fr:tex
-display="inline"><![CDATA[f^{-1}(A)]]></fr:tex> is open (by <fr:link
-type="local"
-href="gt-000Q.xml"
-addr="gt-000Q"
-title="A function is continuous iff preimage of open subsets are open">A function is continuous iff preimage of open subsets are open</fr:link>). However, <fr:tex
-display="inline"><![CDATA[f(X)]]></fr:tex> is not an interval, so we found a counter-example needed to conclude <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> fails to have the intermediate value property.</fr:p><html:span
+display="block"><![CDATA[f(x)=\prod _{i}f_{i}(x),]]></fr:tex>
+which is separable as <fr:tex
+display="inline"><![CDATA[f_{i}(x)]]></fr:tex> are distinct, irreducible, and separable. Hence the claim.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

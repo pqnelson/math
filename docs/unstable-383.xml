@@ -7,16 +7,66 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4685</fr:anchor><fr:addr
-type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2255</fr:anchor><fr:addr
+type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="gr-003K.xml"
-addr="gr-003K"
-title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n=[\Bbbk  : \mathbb {F}]]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base Case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\Bbbk '=\mathbb {F}']]></fr:tex>, and the unique extension of <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\Bbbk \to \Bbbk ']]></fr:tex> is just <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> itself.</fr:p>
+<fr:p><fr:strong>Inductive hypothesis:</fr:strong> Assume the hypothesis holds for all field extensions of degree <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]<n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> be an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex> is a subextension of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }\colon \Bbbk \to \Bbbk ']]></fr:tex> extends <fr:tex
+display="inline"><![CDATA[\sigma \colon \mathbb {F}\to \mathbb {F}']]></fr:tex>, then it maps <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> to a root <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex> of some irreducible factor <fr:tex
+display="inline"><![CDATA[g_{0}(x)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, and induces <fr:tex
+display="inline"><![CDATA[\sigma _{0}\colon \mathbb {F}(\alpha )\to \mathbb {F}(\beta )]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]]]></fr:tex> is equal to the degree of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>.</fr:p>
+<fr:p>On the other hand, there are as many maps <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )\to \Bbbk ]]></fr:tex> as there distinct roots of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>. Therefore there are at most <fr:tex
+display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]=\deg (g)]]></fr:tex> choices for <fr:tex
+display="inline"><![CDATA[\sigma _{0}(\alpha )]]></fr:tex>, with equality iff <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> is separable.</fr:p>
+<fr:p>By the inductive hypothesis, each such <fr:tex
+display="inline"><![CDATA[\sigma _{0}]]></fr:tex> has at most <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )]]]></fr:tex> extensions to <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }\colon \Bbbk \to \Bbbk ']]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is also the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>, there are exactly <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )]]]></fr:tex> extensions if <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is separable.</fr:p>
+<fr:p>Then altogether there are at most
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )][\mathbb {F}(\alpha ) : \mathbb {F}]=[\Bbbk  : \mathbb {F}]]]></fr:tex>
+extensions for <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }]]></fr:tex>, and exactly as that many if <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is separable.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,27 +81,33 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4687</fr:anchor><fr:addr
-type="user">gr-004U</fr:addr><fr:route>gr-004U.xml</fr:route><fr:title
-text="Existence of a Sylow p-Subgroup">Existence of a Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2257</fr:anchor><fr:addr
+type="user">nt-002M</fr:addr><fr:route>nt-002M.xml</fr:route><fr:title
+text="Number of extensions to field isomorphisms is at most degree of extensions">Number of extensions to field isomorphisms is at most degree of extensions</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">I. Martin Isaacs <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\sigma \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> be a field isomorphism, let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be the <fr:link
 type="local"
-href="isaacs-2008-finite.xml"
-addr="isaacs-2008-finite"
-title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.7 (Sylow E-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> for some <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex>, and let <fr:tex
+display="inline"><![CDATA[\Bbbk '/\mathbb {F}']]></fr:tex> be the splitting field for <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> (the polynomial obtained by applying <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>).</fr:p><fr:p>Then the number of extensions of <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to an isomorphism <fr:tex
+display="inline"><![CDATA[\Bbbk \to \Bbbk ']]></fr:tex> is at most <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. Let <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> be a prime number. Then <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> has a Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup.</fr:p>
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link>, then it is exactly <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -61,81 +117,64 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2054</fr:anchor><fr:addr
-type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1081</fr:anchor><fr:addr
+type="machine">#383</fr:addr><fr:route>unstable-383.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="gr-003K.xml"
-addr="gr-003K"
-title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
- 
-
- 
-   
-   <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2056</fr:anchor><fr:addr
-type="machine">#384</fr:addr><fr:route>unstable-384.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="alex-nelson.xml"
-addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(Wielendt) Let <fr:tex
-display="inline"><![CDATA[|G|=p^{a}m]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[a\geq 0]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[p\nmid  m]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[\Omega =\{A\subseteq  G\mid  |A|=p^{a}\}]]></fr:tex>. We see that <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex> by right multiplication. Since this is an action, <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into orbits, and so <fr:tex
-display="inline"><![CDATA[|\Omega |]]></fr:tex> is the sum of the orbit sizes.</fr:p>
-<fr:p>But
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n=[\Bbbk  : \mathbb {F}]]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base Case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\Bbbk '=\mathbb {F}']]></fr:tex>, and the unique extension of <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\Bbbk \to \Bbbk ']]></fr:tex> is just <fr:tex
+display="inline"><![CDATA[\sigma ]]></fr:tex> itself.</fr:p>
+<fr:p><fr:strong>Inductive hypothesis:</fr:strong> Assume the hypothesis holds for all field extensions of degree <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]<n]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Let <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> be an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex> is a subextension of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }\colon \Bbbk \to \Bbbk ']]></fr:tex> extends <fr:tex
+display="inline"><![CDATA[\sigma \colon \mathbb {F}\to \mathbb {F}']]></fr:tex>, then it maps <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> to a root <fr:tex
+display="inline"><![CDATA[\beta ]]></fr:tex> of some irreducible factor <fr:tex
+display="inline"><![CDATA[g_{0}(x)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, and induces <fr:tex
+display="inline"><![CDATA[\sigma _{0}\colon \mathbb {F}(\alpha )\to \mathbb {F}(\beta )]]></fr:tex>. We know <fr:tex
+display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]]]></fr:tex> is equal to the degree of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>.</fr:p>
+<fr:p>On the other hand, there are as many maps <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )\to \Bbbk ]]></fr:tex> as there distinct roots of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>. Therefore there are at most <fr:tex
+display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]=\deg (g)]]></fr:tex> choices for <fr:tex
+display="inline"><![CDATA[\sigma _{0}(\alpha )]]></fr:tex>, with equality iff <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> is separable.</fr:p>
+<fr:p>By the inductive hypothesis, each such <fr:tex
+display="inline"><![CDATA[\sigma _{0}]]></fr:tex> has at most <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )]]]></fr:tex> extensions to <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }\colon \Bbbk \to \Bbbk ']]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is also the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>, there are exactly <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )]]]></fr:tex> extensions if <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is separable.</fr:p>
+<fr:p>Then altogether there are at most
 <fr:tex
-display="block"><![CDATA[|\Omega |=\binom {p^{a}m}{p^{a}}\equiv  m\not \equiv 0\pmod {p},]]></fr:tex>
-and so <fr:tex
-display="inline"><![CDATA[|\Omega |]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>. Then there exists some orbit <fr:tex
-display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[X\in \mathcal {O}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[H=G_{X}]]></fr:tex> be the <fr:link
-type="local"
-href="gr-004C.xml"
-addr="gr-004C"
-title="Stabilizer">Stabilizer</fr:link> of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|=|G|/|H|]]></fr:tex> by the <fr:link
-type="local"
-href="gr-004G.xml"
-addr="gr-004G"
-title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, and since <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> does not divide <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> but <fr:tex
-display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
-display="inline"><![CDATA[|G|]]></fr:tex>, we must conclude <fr:tex
-display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
-display="inline"><![CDATA[|H|]]></fr:tex>, and in particular <fr:tex
-display="inline"><![CDATA[p^{a}\leq |H|]]></fr:tex>.</fr:p>
-<fr:p>Since <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> stabilizes <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> under right multiplication, we see if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[xH\subseteq  X]]></fr:tex>, and then <fr:tex
-display="inline"><![CDATA[|H|=|xH|\leq |X|=p^{a}]]></fr:tex>.</fr:p>
-<fr:p>Since <fr:tex
-display="inline"><![CDATA[p^{a}\leq |H|\leq  p^{a}]]></fr:tex>, we must have <fr:tex
-display="inline"><![CDATA[|H|=p^{a}]]></fr:tex>, and this is a Sylow subgroup of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> as desired.</fr:p><html:span
+display="block"><![CDATA[[\Bbbk  : \mathbb {F}(\alpha )][\mathbb {F}(\alpha ) : \mathbb {F}]=[\Bbbk  : \mathbb {F}]]]></fr:tex>
+extensions for <fr:tex
+display="inline"><![CDATA[\widetilde {\sigma }]]></fr:tex>, and exactly as that many if <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is separable.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -4,4 +4,8 @@
 \date{2025-12-23}
 \taxon{proposition}
 
-\p{Let #{\FF} be an infinite field, let #{\kk / \FF} be a finite extension. Then #{\kk} is simple if and only if #{\kk} has finitely many subfields.}
+\p{Let #{\FF} be an infinite field, let #{\kk / \FF} be a finite extension. Then #{\kk} is [simple](nt-000N) if and only if #{\kk} has finitely many subfields.}
+
+\rmk{This holds trivially for finite fields #{\FF}.}
+
+% \proof{\p{\forwardproof Assume #{\kk}

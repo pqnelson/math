@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/gr-0002/</fr:uri>
+    <fr:display-uri>gr-0002</fr:display-uri>
+    <fr:route>/gr-0002/</fr:route>
+    <fr:title text="Function composition is a binary operator on the set of all functions">Function composition is a binary operator on the set of all functions</fr:title>
+    <fr:taxon>example</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a set. Then <fr:tex display="inline"><![CDATA[X=\mathop {\textrm {Hom}}\nolimits (A,A)]]></fr:tex> the <fr:link href="/nst-0015/" title="Set of all functions" uri="http://localhost:8000/nst-0015/" display-uri="nst-0015" type="local">Set of all functions</fr:link> from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to <fr:tex display="inline"><![CDATA[A]]></fr:tex> has a binary operator, namely <fr:link href="/nst-001M/" title="Composition of functions" uri="http://localhost:8000/nst-001M/" display-uri="nst-001M" type="local">Composition of functions</fr:link>.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/iaa-0004/</fr:uri>
+            <fr:display-uri>iaa-0004</fr:display-uri>
+            <fr:route>/iaa-0004/</fr:route>
+            <fr:title text="Binary and unary operators">Binary and unary operators</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We have implicitly used binary operators when discussion the <fr:link href="/ela-000B/" title="Matrix Algebra" uri="http://localhost:8000/ela-000B/" display-uri="ela-000B" type="local">algebra of matrices</fr:link>, <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>s, <fr:link href="/vectsp-0001/" title="Vector Space" uri="http://localhost:8000/vectsp-0001/" display-uri="vectsp-0001" type="local">Vector Space</fr:link>s, and so on. Some concrete examples include <fr:link href="/matrix-000E/" title="Matrix Addition" uri="http://localhost:8000/matrix-000E/" display-uri="matrix-000E" type="local">Matrix Addition</fr:link>, <fr:link href="/matrix-000K/" title="Matrix Subtraction" uri="http://localhost:8000/matrix-000K/" display-uri="matrix-000K" type="local">Matrix Subtraction</fr:link>, and <fr:link href="/matrix-000X/" title="Matrix Multiplication" uri="http://localhost:8000/matrix-000X/" display-uri="matrix-000X" type="local">Matrix Multiplication</fr:link>.</html:p>
+            <html:p>Unary operators have been infrequently mentioned. For example, the <fr:link href="/matrix-000M/" title="Matrix Transpose" uri="http://localhost:8000/matrix-000M/" display-uri="matrix-000M" type="local">Matrix Transpose</fr:link> is a unary operator on the set of matrices.</html:p>
+            <html:p>Tradition dictates we explicitly formalize the notions of binary and unary operators.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0001/</fr:uri>
+                <fr:display-uri>gr-0001</fr:display-uri>
+                <fr:route>/gr-0001/</fr:route>
+                <fr:title text="Binary operator">Binary operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set. A <html:dfn>Binary Operator</html:dfn> (or, more archaically, <html:dfn>Law of Composition</html:dfn>) is a function <fr:tex display="inline"><![CDATA[\mu \colon  X\times  X\to  X]]></fr:tex> which is various denoted using infixed notation <fr:tex display="inline"><![CDATA[a\star  b]]></fr:tex> or <fr:tex display="inline"><![CDATA[a\cdot  b]]></fr:tex> or <fr:tex display="inline"><![CDATA[ab]]></fr:tex> (or, if commutative, <fr:tex display="inline"><![CDATA[a+b]]></fr:tex>) for any <fr:tex display="inline"><![CDATA[a,b\in  X]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0002/</fr:uri>
+                <fr:display-uri>gr-0002</fr:display-uri>
+                <fr:route>/gr-0002/</fr:route>
+                <fr:title text="Function composition is a binary operator on the set of all functions">Function composition is a binary operator on the set of all functions</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a set. Then <fr:tex display="inline"><![CDATA[X=\mathop {\textrm {Hom}}\nolimits (A,A)]]></fr:tex> the <fr:link href="/nst-0015/" title="Set of all functions" uri="http://localhost:8000/nst-0015/" display-uri="nst-0015" type="local">Set of all functions</fr:link> from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to <fr:tex display="inline"><![CDATA[A]]></fr:tex> has a binary operator, namely <fr:link href="/nst-001M/" title="Composition of functions" uri="http://localhost:8000/nst-001M/" display-uri="nst-001M" type="local">Composition of functions</fr:link>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0003/</fr:uri>
+                <fr:display-uri>gr-0003</fr:display-uri>
+                <fr:route>/gr-0003/</fr:route>
+                <fr:title text="Associative binary operator">Associative binary operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> is <html:dfn>Associative</html:dfn> if
+<fr:tex display="block"><![CDATA[\forall  a,b,c\in  X\ldotp  \mu (a,\mu (b,c))=\mu (\mu (a,b),c)]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0006/</fr:uri>
+                <fr:display-uri>gr-0006</fr:display-uri>
+                <fr:route>/gr-0006/</fr:route>
+                <fr:title text="Examples of associative binary operators">Examples of associative binary operators</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Examples of associative binary operators we have already seen in Mathematics:</html:p>
+                <html:ul><html:li>If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a set and <fr:tex display="inline"><![CDATA[X=\mathop {\textrm {Hom}}\nolimits (A,A)]]></fr:tex> is the <fr:link href="/nst-0015/" title="Set of all functions" uri="http://localhost:8000/nst-0015/" display-uri="nst-0015" type="local">Set of all functions</fr:link> from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to itself, we know <fr:link href="/gr-0002/" title="Function composition is a binary operator on the set of all functions" uri="http://localhost:8000/gr-0002/" display-uri="gr-0002" type="local">Function composition is a binary operator on the set of all functions</fr:link>. It turns out that <fr:link href="/nst-001A/" title="Composing functions is associative" uri="http://localhost:8000/nst-001A/" display-uri="nst-001A" type="local">Composing functions is associative</fr:link>.</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, then both addition and multiplication is associative.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> has <fr:link href="/matrix-0012/" title="Matrix Multiplication is Associative" uri="http://localhost:8000/matrix-0012/" display-uri="matrix-0012" type="local">Matrix Multiplication is Associative</fr:link>.</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0008/</fr:uri>
+                <fr:display-uri>gr-0008</fr:display-uri>
+                <fr:route>/gr-0008/</fr:route>
+                <fr:title text="Matrix commutator is not associative">Matrix commutator is not associative</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> can be equipped with the <fr:link href="/matrix-0029/" title="Commutator" uri="http://localhost:8000/matrix-0029/" display-uri="matrix-0029" type="local">Commutator</fr:link> which is a binary operator denoted
+<fr:tex display="block"><![CDATA[[A,B]=AB-BA]]></fr:tex>
+for any <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. The commutator is not associative, i.e., in general we have
+<fr:tex display="block"><![CDATA[[A, [B, C]] \neq  [[A,B],C]]]></fr:tex>
+but it satisfies a variant called the <fr:link href="/matrix-002A/" title="Jacobi Identity" uri="http://localhost:8000/matrix-002A/" display-uri="matrix-002A" type="local">Jacobi Identity</fr:link>:
+<fr:tex display="block"><![CDATA[[A, [B, C]] + [B, [C, A]] + [C, [A, B]] = 0]]></fr:tex>
+for any <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrices <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[B]]></fr:tex>, and <fr:tex display="inline"><![CDATA[C]]></fr:tex>.</html:li>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0004/</fr:uri>
+                <fr:display-uri>gr-0004</fr:display-uri>
+                <fr:route>/gr-0004/</fr:route>
+                <fr:title text="Commutative binary operator">Commutative binary operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> is <html:dfn>Commutative</html:dfn> if
+<fr:tex display="block"><![CDATA[\forall  a,b\in  X\ldotp  \mu (a,b)=\mu (b,a)]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0007/</fr:uri>
+                <fr:display-uri>gr-0007</fr:display-uri>
+                <fr:route>/gr-0007/</fr:route>
+                <fr:title text="Examples of commutative binary operators">Examples of commutative binary operators</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Examples of commutative binary operators we have already seen in Mathematics:</html:p>
+                <html:ul><html:li>If <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, then both addition and multiplication is commutative.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we see <fr:link href="/matrix-000G/" title="Matrix Addition is Commutative" uri="http://localhost:8000/matrix-000G/" display-uri="matrix-000G" type="local">Matrix Addition is Commutative</fr:link>.</html:li></html:ul>
+                <html:p>Some <html:strong>non-examples:</html:strong></html:p>
+                <html:ul>
+                  <html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we see <fr:link href="/matrix-0011/" title="Matrix Multiplication is not commutative" uri="http://localhost:8000/matrix-0011/" display-uri="matrix-0011" type="local">Matrix Multiplication is not commutative</fr:link>.</html:li>
+                </html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0005/</fr:uri>
+                <fr:display-uri>gr-0005</fr:display-uri>
+                <fr:route>/gr-0005/</fr:route>
+                <fr:title text="Identity element">Identity element</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[e\in  X]]></fr:tex> be an element. We say <fr:tex display="inline"><![CDATA[e]]></fr:tex> is a <html:dfn>Unit</html:dfn> (or <html:dfn>identity element</html:dfn>) for <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> if
+<fr:tex display="block"><![CDATA[\forall  a\in  X\ldotp  \mu (a,e)=a\land  \mu (e,a)=a.]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-0009/</fr:uri>
+                <fr:display-uri>gr-0009</fr:display-uri>
+                <fr:route>/gr-0009/</fr:route>
+                <fr:title text="Examples of identity element for a binary operator">Examples of identity element for a binary operator</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Examples of identity elements for binary operators we have already seen in Mathematics:</html:p>
+                <html:ul><html:li>If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a set and <fr:tex display="inline"><![CDATA[X=\mathop {\textrm {Hom}}\nolimits (A,A)]]></fr:tex> is the <fr:link href="/nst-0015/" title="Set of all functions" uri="http://localhost:8000/nst-0015/" display-uri="nst-0015" type="local">Set of all functions</fr:link> from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to itself, we know <fr:link href="/gr-0002/" title="Function composition is a binary operator on the set of all functions" uri="http://localhost:8000/gr-0002/" display-uri="gr-0002" type="local">Function composition is a binary operator on the set of all functions</fr:link>. It turns out that the <fr:link href="/nst-0017/" title="Identity function" uri="http://localhost:8000/nst-0017/" display-uri="nst-0017" type="local">Identity function</fr:link> is the identity element for the <fr:link href="/nst-001M/" title="Composition of functions" uri="http://localhost:8000/nst-001M/" display-uri="nst-001M" type="local">Composition of functions</fr:link>.</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, then its 0 acts as an identity element for addition and 1 acts as an identity element for multiplication.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> we see that <fr:link href="/matrix-0010/" title="Multiplying by Identity Matrix" uri="http://localhost:8000/matrix-0010/" display-uri="matrix-0010" type="local">Multiplying by Identity Matrix</fr:link> acts like an identity element for matrix multiplication; and also <fr:link href="/matrix-000H/" title="Matrix Addition with Zero Matrix" uri="http://localhost:8000/matrix-000H/" display-uri="matrix-000H" type="local">Matrix Addition with Zero Matrix</fr:link> has the <fr:link href="/matrix-0003/" title="zero matrix" uri="http://localhost:8000/matrix-0003/" display-uri="matrix-0003" type="local">zero matrix</fr:link> act like the identity element for matrix addition.</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-000A/</fr:uri>
+                <fr:display-uri>gr-000A</fr:display-uri>
+                <fr:route>/gr-000A/</fr:route>
+                <fr:title text="Commutator of matrices has no identity element">Commutator of matrices has no identity element</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The <fr:link href="/matrix-0029/" title="Commutator" uri="http://localhost:8000/matrix-0029/" display-uri="matrix-0029" type="local">Commutator</fr:link> of matrices over a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (or a suitable <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link>). It turns out, the commutator has no identity element. If it had one, say <fr:tex display="inline"><![CDATA[\mathbf {E}]]></fr:tex>, then for any matrix <fr:tex display="inline"><![CDATA[\mathbf {A}]]></fr:tex> we would have
+<fr:tex display="block"><![CDATA[[\mathbf {E},\mathbf {A}]=\mathbf {A}]]></fr:tex>
+and by anticommutativity of the commutator
+<fr:tex display="block"><![CDATA[[\mathbf {A},\mathbf {E}]=-\mathbf {A}.]]></fr:tex>
+But then we find the <fr:link href="/matrix-002A/" title="Jacobi Identity" uri="http://localhost:8000/matrix-002A/" display-uri="matrix-002A" type="local">Jacobi Identity</fr:link> fails to hold:
+<fr:tex display="block"><![CDATA[[\mathbf {E},[\mathbf {B},\mathbf {C}]] + [\mathbf {B}, [\mathbf {C}, \mathbf {E}]] + [\mathbf {C}, [\mathbf {E}, \mathbf {B}]] = [\mathbf {C},\mathbf {B}]\neq 0.]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-000B/</fr:uri>
+                <fr:display-uri>gr-000B</fr:display-uri>
+                <fr:route>/gr-000B/</fr:route>
+                <fr:title text="Identity element is at most unique">Identity element is at most unique</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Then there exists at most 1 <fr:link href="/gr-0005/" title="Identity element" uri="http://localhost:8000/gr-0005/" display-uri="gr-0005" type="local">Identity element</fr:link> for <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>If <fr:tex display="inline"><![CDATA[e_{1}\in  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[e_{2}\in  A]]></fr:tex> are two possible identity elements, then
+<fr:tex display="block"><![CDATA[e_{1}=\mu (e_{1},e_{2})=e_{2}.]]></fr:tex></html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-000C/</fr:uri>
+                <fr:display-uri>gr-000C</fr:display-uri>
+                <fr:route>/gr-000C/</fr:route>
+                <fr:title text="Inverse of an element with respect to a binary operator">Inverse of an element with respect to a binary operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a set equipped with a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> with an <fr:link href="/gr-0005/" title="Identity element" uri="http://localhost:8000/gr-0005/" display-uri="gr-0005" type="local">identity element</fr:link> <fr:tex display="inline"><![CDATA[e\in  A]]></fr:tex>, let <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>. A <html:dfn>(Two-Sided) Inverse</html:dfn> of <fr:tex display="inline"><![CDATA[a]]></fr:tex> is an element <fr:tex display="inline"><![CDATA[b\in  A]]></fr:tex> such that
+<fr:tex display="block"><![CDATA[\mu (a,b)=\mu (b,a)=e.]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) If <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> is an <fr:link href="/gr-0003/" title="Associative binary operator" uri="http://localhost:8000/gr-0003/" display-uri="gr-0003" type="local">Associative binary operator</fr:link>, then we can just speak of "inverses" of elements without the "two-sided" prefix. This is because the <fr:link href="/gr-000D/" title="Inverse with respect to an associative binary operator is unique" uri="http://localhost:8000/gr-000D/" display-uri="gr-000D" type="local">Inverse with respect to an associative binary operator is unique</fr:link></html:p>
+<html:p>(2) If there are multiple binary operators on <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then we should specify that <fr:tex display="inline"><![CDATA[b]]></fr:tex> is an inverse of <fr:tex display="inline"><![CDATA[a]]></fr:tex> <html:em>with respect to <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex></html:em>.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-000D/</fr:uri>
+                <fr:display-uri>gr-000D</fr:display-uri>
+                <fr:route>/gr-000D/</fr:route>
+                <fr:title text="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:title>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be an <fr:link href="/gr-0003/" title="Associative binary operator" uri="http://localhost:8000/gr-0003/" display-uri="gr-0003" type="local">Associative binary operator</fr:link> on <fr:tex display="inline"><![CDATA[A]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[e\in  A]]></fr:tex> be the <fr:link href="/gr-0005/" title="Identity element" uri="http://localhost:8000/gr-0005/" display-uri="gr-0005" type="local">Identity element</fr:link> for <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex>. For any element <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>, there is at most 1 <fr:link href="/gr-000C/" title="Inverse of an element with respect to a binary operator" uri="http://localhost:8000/gr-000C/" display-uri="gr-000C" type="local">inverse</fr:link> for <fr:tex display="inline"><![CDATA[a]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[b_{1},b_{2}\in  A]]></fr:tex> be inverses for <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[\begin {align}
+b_{1}&=\mu (b_{1},e)\\
+&=\mu (b_{1},\mu (a,b_{2}))\\
+&=\mu (\mu (b_{1},a),b_{2})\hbox { by associativity}\\
+&=\mu (e,b_{2})\\
+&=b_{2}.\end {align}]]></fr:tex>
+Hence the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0006/</fr:uri>
+            <fr:display-uri>gr-0006</fr:display-uri>
+            <fr:route>/gr-0006/</fr:route>
+            <fr:title text="Examples of associative binary operators">Examples of associative binary operators</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Examples of associative binary operators we have already seen in Mathematics:</html:p>
+            <html:ul><html:li>If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a set and <fr:tex display="inline"><![CDATA[X=\mathop {\textrm {Hom}}\nolimits (A,A)]]></fr:tex> is the <fr:link href="/nst-0015/" title="Set of all functions" uri="http://localhost:8000/nst-0015/" display-uri="nst-0015" type="local">Set of all functions</fr:link> from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to itself, we know <fr:link href="/gr-0002/" title="Function composition is a binary operator on the set of all functions" uri="http://localhost:8000/gr-0002/" display-uri="gr-0002" type="local">Function composition is a binary operator on the set of all functions</fr:link>. It turns out that <fr:link href="/nst-001A/" title="Composing functions is associative" uri="http://localhost:8000/nst-001A/" display-uri="nst-001A" type="local">Composing functions is associative</fr:link>.</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, then both addition and multiplication is associative.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> has <fr:link href="/matrix-0012/" title="Matrix Multiplication is Associative" uri="http://localhost:8000/matrix-0012/" display-uri="matrix-0012" type="local">Matrix Multiplication is Associative</fr:link>.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0009/</fr:uri>
+            <fr:display-uri>gr-0009</fr:display-uri>
+            <fr:route>/gr-0009/</fr:route>
+            <fr:title text="Examples of identity element for a binary operator">Examples of identity element for a binary operator</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Examples of identity elements for binary operators we have already seen in Mathematics:</html:p>
+            <html:ul><html:li>If <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a set and <fr:tex display="inline"><![CDATA[X=\mathop {\textrm {Hom}}\nolimits (A,A)]]></fr:tex> is the <fr:link href="/nst-0015/" title="Set of all functions" uri="http://localhost:8000/nst-0015/" display-uri="nst-0015" type="local">Set of all functions</fr:link> from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to itself, we know <fr:link href="/gr-0002/" title="Function composition is a binary operator on the set of all functions" uri="http://localhost:8000/gr-0002/" display-uri="gr-0002" type="local">Function composition is a binary operator on the set of all functions</fr:link>. It turns out that the <fr:link href="/nst-0017/" title="Identity function" uri="http://localhost:8000/nst-0017/" display-uri="nst-0017" type="local">Identity function</fr:link> is the identity element for the <fr:link href="/nst-001M/" title="Composition of functions" uri="http://localhost:8000/nst-001M/" display-uri="nst-001M" type="local">Composition of functions</fr:link>.</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, then its 0 acts as an identity element for addition and 1 acts as an identity element for multiplication.</html:li>
+<html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. Then the set of <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> we see that <fr:link href="/matrix-0010/" title="Multiplying by Identity Matrix" uri="http://localhost:8000/matrix-0010/" display-uri="matrix-0010" type="local">Multiplying by Identity Matrix</fr:link> acts like an identity element for matrix multiplication; and also <fr:link href="/matrix-000H/" title="Matrix Addition with Zero Matrix" uri="http://localhost:8000/matrix-000H/" display-uri="matrix-000H" type="local">Matrix Addition with Zero Matrix</fr:link> has the <fr:link href="/matrix-0003/" title="zero matrix" uri="http://localhost:8000/matrix-0003/" display-uri="matrix-0003" type="local">zero matrix</fr:link> act like the identity element for matrix addition.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-001M/</fr:uri>
+            <fr:display-uri>nst-001M</fr:display-uri>
+            <fr:route>/nst-001M/</fr:route>
+            <fr:title text="Composition of functions">Composition of functions</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[g\colon  Y\to  Z]]></fr:tex> be functions. Then the <html:dfn>Composition</html:dfn> of <fr:tex display="inline"><![CDATA[f]]></fr:tex> followed by <fr:tex display="inline"><![CDATA[g]]></fr:tex> is the function <fr:tex display="inline"><![CDATA[g\circ  f\colon  X\to  Z]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[(g\circ  f)(x)=g(f(x))]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>.</html:p>
+            <html:p>Observe this is just the <fr:link href="/nst-0013/" title="Composing relations" uri="http://localhost:8000/nst-0013/" display-uri="nst-0013" type="local">Composing relations</fr:link>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-0015/</fr:uri>
+            <fr:display-uri>nst-0015</fr:display-uri>
+            <fr:route>/nst-0015/</fr:route>
+            <fr:title text="Set of all functions">Set of all functions</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/paul-r-halmos/" title="Paul R. Halmos" uri="http://localhost:8000/paul-r-halmos/" display-uri="paul-r-halmos" type="local">Paul R. Halmos</fr:link> <fr:link href="/halmos-1974-naive/" title="Naive Set Theory" uri="http://localhost:8000/halmos-1974-naive/" display-uri="halmos-1974-naive" type="local">Naive Set Theory</fr:link> Ch.8</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/funct_2.html#K1" type="external">funct_2:def 2</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets. We denote the <html:dfn>Set of all functions</html:dfn> from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> as either <fr:tex display="inline"><![CDATA[Y^{X}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathop {\textrm {Hom}}\nolimits (X,Y)]]></fr:tex>.</html:p>
+            <html:p>We see this really is a set, since a function is a subset of <fr:tex display="inline"><![CDATA[X\times  Y]]></fr:tex>, so the set of all functions is a subset of <fr:tex display="inline"><![CDATA[\mathcal {P}(X\times  Y)]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

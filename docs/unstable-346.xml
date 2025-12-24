@@ -7,31 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9608</fr:anchor><fr:addr
-type="machine">#346</fr:addr><fr:route>unstable-346.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>727</fr:anchor><fr:addr
+type="machine">#346</fr:addr><fr:route>unstable-346.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, let us form a sequence <fr:tex
-display="inline"><![CDATA[(x_{n,k})]]></fr:tex> of elements of <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>. Then we arrange these sequences into an infinite table
-<fr:tex
-display="block"><![CDATA[\begin {matrix} x_{1,1} & x_{1,2} & x_{1,3} & x_{1,4} & \ldots \\ x_{2,1} & x_{2,2} & x_{2,3} & x_{2,4} & \ldots \\ x_{3,1} & x_{3,2} & x_{3,3} & x_{3,4} & \ldots \\ x_{4,1} & x_{4,2} & x_{4,3} & x_{4,4} & \ldots \\ \vdots  & \vdots  & \vdots  & \vdots  & \ddots  \end {matrix}]]></fr:tex>
-Then we form a sequence by ordering the table as <fr:tex
-display="inline"><![CDATA[x_{1,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{4,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,4}]]></fr:tex>, …, where we remove duplicate entries as they are encountered. This gives us a countably infinite sequence of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a finite field, then every extension is simple (Really? Prove it! What about infinite extensions?). But what is some good criteria for <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> infinite?</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -46,22 +29,40 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9610</fr:anchor><fr:addr
-type="user">nst-001Y</fr:addr><fr:route>nst-001Y.xml</fr:route><fr:title
-text="Cantor's diagonal argument">Cantor's diagonal argument</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>729</fr:anchor><fr:addr
+type="user">nt-004B</fr:addr><fr:route>nt-004B.xml</fr:route><fr:title
+text="Simple extension">Simple extension</fr:title><fr:taxon>Review</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>731</fr:anchor><fr:addr
+type="user">nt-000N</fr:addr><fr:route>nt-000N.xml</fr:route><fr:title
+text="Simple Field Extension">Simple Field Extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Theorem 2.12</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex> be a countable collection of countably infinite sets. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite.</fr:p>
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Simple Field Extension</html:dfn> is a <fr:link
+type="local"
+href="nt-000F.xml"
+addr="nt-000F"
+title="Field extension">Field extension</fr:link> <fr:link
+type="local"
+href="nt-000M.xml"
+addr="nt-000M"
+title="Field Generated by elements">generated</fr:link> by a single element <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>. We call <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Primitive Element</html:dfn>.</fr:p><fr:p><fr:strong>Fact:</fr:strong> If <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})=0]]></fr:tex>, then all finite extensions of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> are simple.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
    
    <fr:tree
@@ -71,30 +72,13 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2891</fr:anchor><fr:addr
-type="machine">#346</fr:addr><fr:route>unstable-346.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>733</fr:anchor><fr:addr
+type="machine">#346</fr:addr><fr:route>unstable-346.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For each <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, let us form a sequence <fr:tex
-display="inline"><![CDATA[(x_{n,k})]]></fr:tex> of elements of <fr:tex
-display="inline"><![CDATA[E_{n}]]></fr:tex>. Then we arrange these sequences into an infinite table
-<fr:tex
-display="block"><![CDATA[\begin {matrix} x_{1,1} & x_{1,2} & x_{1,3} & x_{1,4} & \ldots \\ x_{2,1} & x_{2,2} & x_{2,3} & x_{2,4} & \ldots \\ x_{3,1} & x_{3,2} & x_{3,3} & x_{3,4} & \ldots \\ x_{4,1} & x_{4,2} & x_{4,3} & x_{4,4} & \ldots \\ \vdots  & \vdots  & \vdots  & \vdots  & \ddots  \end {matrix}]]></fr:tex>
-Then we form a sequence by ordering the table as <fr:tex
-display="inline"><![CDATA[x_{1,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{4,1}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{3,2}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{2,3}]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[x_{1,4}]]></fr:tex>, …, where we remove duplicate entries as they are encountered. This gives us a countably infinite sequence of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>If <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a finite field, then every extension is simple (Really? Prove it! What about infinite extensions?). But what is some good criteria for <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> infinite?</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

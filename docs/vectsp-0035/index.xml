@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/vectsp-0035/</fr:uri>
+    <fr:display-uri>vectsp-0035</fr:display-uri>
+    <fr:route>/vectsp-0035/</fr:route>
+    <fr:title text="Linear operators on complex vector spaces have an upper-triangular matrix">Linear operators on complex vector spaces have an upper-triangular matrix</fr:title>
+    <fr:taxon>lemma</fr:taxon>
+    <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 5.45</fr:meta>
+    <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 7.5.3</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional vector space over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then there exists a basis <fr:tex display="inline"><![CDATA[B]]></fr:tex> for <fr:tex display="inline"><![CDATA[V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> is upper triangular matrix with respect to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The basic argument is that we will consider a chain of subspaces <fr:tex display="inline"><![CDATA[U_{1}\subseteq  U_{2}\subseteq …\subseteq  U_{n-1}\subseteq  V]]></fr:tex> where <fr:tex display="inline"><![CDATA[\dim (U_{k})=k]]></fr:tex> for each <fr:tex display="inline"><![CDATA[k=1,…,n-1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\dim (V)=n]]></fr:tex>. Moreover each <fr:tex display="inline"><![CDATA[U_{k}]]></fr:tex> is invariant under <fr:tex display="inline"><![CDATA[L]]></fr:tex>. Then we just need to find a basis <fr:tex display="inline"><![CDATA[v_{1},…,v_{n}]]></fr:tex> of <fr:tex display="inline"><![CDATA[V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[v_{1},…,v_{k}]]></fr:tex> forms a basis of <fr:tex display="inline"><![CDATA[U_{k}]]></fr:tex>. The <fr:link href="/vectsp-001X/" title="Criteria for linear operator to have an upper-triangular matrix" uri="http://localhost:8000/vectsp-001X/" display-uri="vectsp-001X" type="local">Criteria for linear operator to have an upper-triangular matrix</fr:link> implies <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> with respect to this basis is upper-triangular.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ila-0009/</fr:uri>
+            <fr:display-uri>ila-0009</fr:display-uri>
+            <fr:route>/ila-0009/</fr:route>
+            <fr:title text="Spectral theorem for normal linear maps">Spectral theorem for normal linear maps</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002K/</fr:uri>
+                <fr:display-uri>vectsp-002K</fr:display-uri>
+                <fr:route>/vectsp-002K/</fr:route>
+                <fr:title text="Adjoint of linear map">Adjoint of linear map</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 7.1</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 11.1.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be  <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\in \mathcal {L}(V,W)]]></fr:tex> be a linear transformation. Then the <html:dfn>Adjoint</html:dfn> (or <html:dfn>Hermitian Conjugate</html:dfn>) of <fr:tex display="inline"><![CDATA[L]]></fr:tex> is the operator <fr:tex display="inline"><![CDATA[L^{*}\in \mathcal {L}(W,V)]]></fr:tex> such that
+<fr:tex display="block"><![CDATA[\langle  L(v),w\rangle =\langle  v,L^{*}(w)\rangle ]]></fr:tex>
+for any <fr:tex display="inline"><![CDATA[v,w\in  V]]></fr:tex>.</html:p>
+                <html:p>Note: in Physics literature, the adjoint of <fr:tex display="inline"><![CDATA[L]]></fr:tex> is usually written with daggers <fr:tex display="inline"><![CDATA[L^{\dagger }]]></fr:tex> because it's a more cut-throat audience.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002L/</fr:uri>
+                <fr:display-uri>vectsp-002L</fr:display-uri>
+                <fr:route>/vectsp-002L/</fr:route>
+                <fr:title text="Self-adjoint linear map">Self-adjoint linear map</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 7.10</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 11.1.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\in \mathcal {L}(V)]]></fr:tex> be a linear operator. We say <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <html:dfn>Self-Adjoint</html:dfn> (or <html:dfn>Hermitian</html:dfn>) if <fr:tex display="inline"><![CDATA[L=L^{*}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002M/</fr:uri>
+                <fr:display-uri>vectsp-002M</fr:display-uri>
+                <fr:route>/vectsp-002M/</fr:route>
+                <fr:title text="Ant-self-adjoint linear map">Ant-self-adjoint linear map</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\in \mathcal {L}(V)]]></fr:tex> be a linear operator. We say <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <html:dfn>Anti-Self-Adjoint</html:dfn> (or <html:dfn>Anti-Hermitian</html:dfn>) if <fr:tex display="inline"><![CDATA[L=-L^{*}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002N/</fr:uri>
+                <fr:display-uri>vectsp-002N</fr:display-uri>
+                <fr:route>/vectsp-002N/</fr:route>
+                <fr:title text="Properties of the adjoint">Properties of the adjoint</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.5</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 11.1.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be  <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L_{1},L_{2}\in \mathcal {L}(V,W)]]></fr:tex> be a linear transformation. Then the following all hold:</html:p>
+                <html:ol><html:li><fr:tex display="inline"><![CDATA[(L_{1}+L_{2})^{*}=L_{1}^{*}+L_{2}^{*}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(\lambda  L_{1})^{*}=\overline {\lambda }L_{1}^{*}]]></fr:tex> for any <fr:tex display="inline"><![CDATA[\lambda \in \mathbb {F}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(L_{1}^{*})^{*}=L_{1}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[(L_{0}L_{1})^{*}=L_{1}^{*}L_{0}^{*}]]></fr:tex> where <fr:tex display="inline"><![CDATA[L_{0}\colon  U\to  V]]></fr:tex> is a linear map of an inner product space <fr:tex display="inline"><![CDATA[U]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[I^{*}=I]]></fr:tex> where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is the identity linear transformation</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[L_{1}]]></fr:tex> is invertible, then <fr:tex display="inline"><![CDATA[L_{1}^{*}]]></fr:tex> is invertible and <fr:tex display="inline"><![CDATA[(L_{1}^{*})^{-1}=(L_{1}^{-1})^{*}]]></fr:tex></html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002O/</fr:uri>
+                <fr:display-uri>vectsp-002O</fr:display-uri>
+                <fr:route>/vectsp-002O/</fr:route>
+                <fr:title text="Eigenvalues of self-adjoint operator are real">Eigenvalues of self-adjoint operator are real</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.12</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 11.1.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\in \mathcal {L}(V)]]></fr:tex> be a linear operator. Let <fr:tex display="inline"><![CDATA[\lambda \in \mathbb {F}]]></fr:tex> be an eigenvalue of <fr:tex display="inline"><![CDATA[L]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\lambda \in \mathbb {R}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002P/</fr:uri>
+                <fr:display-uri>vectsp-002P</fr:display-uri>
+                <fr:route>/vectsp-002P/</fr:route>
+                <fr:title text="Normal operator">Normal operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 7.18</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 11.2.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\in \mathcal {L}(V)]]></fr:tex> be a linear operator. We say <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <html:dfn>Normal</html:dfn> if <fr:tex display="inline"><![CDATA[LL^{*}=L^{*}L]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0031/</fr:uri>
+                <fr:display-uri>vectsp-0031</fr:display-uri>
+                <fr:route>/vectsp-0031/</fr:route>
+                <fr:title text="Operator is normal iff norm of operator equals norm of its adjoint">Operator is normal iff norm of operator equals norm of its adjoint</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.20</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link>  Proposition 11.2.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a vector space with a <fr:link href="/vectsp-0025/" title="Norm" uri="http://localhost:8000/vectsp-0025/" display-uri="vectsp-0025" type="local">Norm</fr:link>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then <fr:tex display="inline"><![CDATA[L]]></fr:tex> is normal if and only if
+<fr:tex display="block"><![CDATA[\left  \lVert  Lv \right  \rVert =\left  \lVert  L^{*}v \right  \rVert ]]></fr:tex>
+for all <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see
+<fr:tex display="block"><![CDATA[\begin {align*}
+T\hbox { is normal}&\iff  T^{*}T-TT^{*}=0\\
+&\iff  \langle (T^{*}T-TT^{*})v,v\rangle =0\hbox { for all }v\in  V\\
+&\iff  \langle  T^{*}T,v\rangle =\langle  -TT^{*}v,v\rangle \hbox { for all }v\in  V\\
+&\iff  \left  \lVert  Tv \right  \rVert ^{2}=\left  \lVert  T^{*}v \right  \rVert ^{2}\hbox { for all }v\in  V
+\end {align*}]]></fr:tex>
+Hence the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0032/</fr:uri>
+                <fr:display-uri>vectsp-0032</fr:display-uri>
+                <fr:route>/vectsp-0032/</fr:route>
+                <fr:title text="Kernel and image of normal operators">Kernel and image of normal operators</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.21</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.2.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a vector space with a <fr:link href="/vectsp-0025/" title="Norm" uri="http://localhost:8000/vectsp-0025/" display-uri="vectsp-0025" type="local">Norm</fr:link>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a <fr:link href="/vectsp-002P/" title="Normal operator" uri="http://localhost:8000/vectsp-002P/" display-uri="vectsp-002P" type="local">normal</fr:link> linear operator. Then the following all hold:</html:p>
+                <html:ol><html:li><fr:tex display="inline"><![CDATA[\ker (L)=\ker (L^{*})]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (L)=\mathop {\textrm {ran}}\nolimits (L^{*})]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[V=\ker (L)\oplus \mathop {\textrm {ran}}\nolimits (L)]]></fr:tex></html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0033/</fr:uri>
+                <fr:display-uri>vectsp-0033</fr:display-uri>
+                <fr:route>/vectsp-0033/</fr:route>
+                <fr:title text="Eigenvectors of normal operator are orthogonal">Eigenvectors of normal operator are orthogonal</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.22</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.2.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a <fr:link href="/vectsp-002P/" title="Normal operator" uri="http://localhost:8000/vectsp-002P/" display-uri="vectsp-002P" type="local">normal</fr:link> linear operator. If <fr:tex display="inline"><![CDATA[\lambda ,\mu \in \mathbb {C}]]></fr:tex> are distinct eigenvalues of <fr:tex display="inline"><![CDATA[L]]></fr:tex> with eigenvectors <fr:tex display="inline"><![CDATA[v]]></fr:tex> and <fr:tex display="inline"><![CDATA[w]]></fr:tex> (respectively), then <fr:tex display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see that
+<fr:tex display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =\langle \lambda  v,w\rangle -\langle  v,\overline {\mu }w\rangle =\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle ]]></fr:tex>
+but <fr:tex display="inline"><![CDATA[\langle  Tv,w\rangle -\langle  v,T^{*}w\rangle =0]]></fr:tex> by definition of <fr:link href="/vectsp-002K/" title="Adjoint of linear map" uri="http://localhost:8000/vectsp-002K/" display-uri="vectsp-002K" type="local">adjoint</fr:link>, so
+<fr:tex display="block"><![CDATA[(\lambda -\mu )\langle  v,w\rangle =0.]]></fr:tex>
+Since <fr:tex display="inline"><![CDATA[\lambda \neq \mu ]]></fr:tex>, this means <fr:tex display="inline"><![CDATA[\langle  v,w\rangle =0]]></fr:tex> as desired.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0035/</fr:uri>
+                <fr:display-uri>vectsp-0035</fr:display-uri>
+                <fr:route>/vectsp-0035/</fr:route>
+                <fr:title text="Linear operators on complex vector spaces have an upper-triangular matrix">Linear operators on complex vector spaces have an upper-triangular matrix</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 5.45</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 7.5.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional vector space over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then there exists a basis <fr:tex display="inline"><![CDATA[B]]></fr:tex> for <fr:tex display="inline"><![CDATA[V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> is upper triangular matrix with respect to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The basic argument is that we will consider a chain of subspaces <fr:tex display="inline"><![CDATA[U_{1}\subseteq  U_{2}\subseteq …\subseteq  U_{n-1}\subseteq  V]]></fr:tex> where <fr:tex display="inline"><![CDATA[\dim (U_{k})=k]]></fr:tex> for each <fr:tex display="inline"><![CDATA[k=1,…,n-1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\dim (V)=n]]></fr:tex>. Moreover each <fr:tex display="inline"><![CDATA[U_{k}]]></fr:tex> is invariant under <fr:tex display="inline"><![CDATA[L]]></fr:tex>. Then we just need to find a basis <fr:tex display="inline"><![CDATA[v_{1},…,v_{n}]]></fr:tex> of <fr:tex display="inline"><![CDATA[V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[v_{1},…,v_{k}]]></fr:tex> forms a basis of <fr:tex display="inline"><![CDATA[U_{k}]]></fr:tex>. The <fr:link href="/vectsp-001X/" title="Criteria for linear operator to have an upper-triangular matrix" uri="http://localhost:8000/vectsp-001X/" display-uri="vectsp-001X" type="local">Criteria for linear operator to have an upper-triangular matrix</fr:link> implies <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> with respect to this basis is upper-triangular.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0036/</fr:uri>
+                <fr:display-uri>vectsp-0036</fr:display-uri>
+                <fr:route>/vectsp-0036/</fr:route>
+                <fr:title text="If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix">If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 9.5.5</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. If there is some basis <fr:tex display="inline"><![CDATA[B]]></fr:tex> of <fr:tex display="inline"><![CDATA[V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[L]]></fr:tex> is an upper-triangular matrix with respect to <fr:tex display="inline"><![CDATA[B]]></fr:tex>, then there exists an orthonormal basis <fr:tex display="inline"><![CDATA[C]]></fr:tex> of <fr:tex display="inline"><![CDATA[V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[L]]></fr:tex> is an upper triangular matrix with respect to <fr:tex display="inline"><![CDATA[C]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0034/</fr:uri>
+                <fr:display-uri>vectsp-0034</fr:display-uri>
+                <fr:route>/vectsp-0034/</fr:route>
+                <fr:title text="Spectral theorem">Spectral theorem</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.31</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.3.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then <fr:tex display="inline"><![CDATA[L]]></fr:tex> is normal if and only if there exists an <fr:link href="/vectsp-002D/" title="Orthonormal Basis" uri="http://localhost:8000/vectsp-002D/" display-uri="vectsp-002D" type="local">Orthonormal Basis</fr:link> of <fr:tex display="inline"><![CDATA[V]]></fr:tex> consisting of <fr:link href="/vectsp-001Q/" title="Eigenvalues and eigenvectors" uri="http://localhost:8000/vectsp-001Q/" display-uri="vectsp-001Q" type="local">eigenvectors</fr:link> of <fr:tex display="inline"><![CDATA[L]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex display="inline"><![CDATA[L]]></fr:tex> is normal. Then combining <fr:link href="/vectsp-0035/" title="Linear operators on complex vector spaces have an upper-triangular matrix" uri="http://localhost:8000/vectsp-0035/" display-uri="vectsp-0035" type="local">Linear operators on complex vector spaces have an upper-triangular matrix</fr:link> and <fr:link href="/vectsp-0036/" title="If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix" uri="http://localhost:8000/vectsp-0036/" display-uri="vectsp-0036" type="local">If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix</fr:link> implies there exists an orthonormal basis <fr:tex display="inline"><![CDATA[B=(e_{1},…,e_{n})]]></fr:tex> for which the matrix <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> is upper triangular.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[M(L)=(a_{i,j})]]></fr:tex> with <fr:tex display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>j]]></fr:tex> (since it's upper triangular). We claim that <fr:tex display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i<j]]></fr:tex>. Observe, using <fr:link href="/vectsp-0031/" title="Operator is normal iff norm of operator equals norm of its adjoint" uri="http://localhost:8000/vectsp-0031/" display-uri="vectsp-0031" type="local">Operator is normal iff norm of operator equals norm of its adjoint</fr:link>,
+<fr:tex display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  a_{1,1}e_{1} \right  \rVert ^{2}=\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex>
+but by expanding <fr:tex display="inline"><![CDATA[\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex> this gives us
+<fr:tex display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  \sum ^{n}_{k=1}\overline {a}_{1,k}e_{k} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{1,k}|^{2}]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[|a_{1,2}|=…=|a_{1,k}|=0]]></fr:tex>.</html:p>
+<html:p>We can repeat this argument to find <fr:tex display="inline"><![CDATA[\left  \lVert  L^{*}e_{j} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{j,k}|^{2}=|a_{j,j}|^{2}]]></fr:tex> which implies <fr:tex display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i\neq  j]]></fr:tex>, as desired.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the eigenvectors of <fr:tex display="inline"><![CDATA[L]]></fr:tex> form an orthonormal basis for <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> is diagonal with respect to this basis (since each basis vector is an eigenvector). Then
+<fr:tex display="block"><![CDATA[M(LL^{*})=M(L)M(L^{*})=M(L^{*})M(L)=M(L^{*}L)]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[LL^{*}=L^{*}L]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[L]]></fr:tex> is normal.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0037/</fr:uri>
+                <fr:display-uri>vectsp-0037</fr:display-uri>
+                <fr:route>/vectsp-0037/</fr:route>
+                <fr:title text="A linear operator is diagonalizable iff its eigenvectors form a basis">A linear operator is diagonalizable iff its eigenvectors form a basis</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.31</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 11.4.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be finite-dimensional vector space over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator of <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[L]]></fr:tex> is diagonalizable if and only if there is a basis of <fr:tex display="inline"><![CDATA[V]]></fr:tex> consisting entirely of eigenvectors of <fr:tex display="inline"><![CDATA[L]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0038/</fr:uri>
+                <fr:display-uri>vectsp-0038</fr:display-uri>
+                <fr:route>/vectsp-0038/</fr:route>
+                <fr:title text="Linear operator is diagonalizable iff its matrix is similar to a diagonal matrix">Linear operator is diagonalizable iff its matrix is similar to a diagonal matrix</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 11.4.2</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional vector space over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Let <fr:tex display="inline"><![CDATA[B]]></fr:tex> be a basis of <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[L]]></fr:tex> is diagonalizable if and only if there exists an invertible matrix <fr:tex display="inline"><![CDATA[S\in \mathbb {F}^{n\times  n}]]></fr:tex> such that
+<fr:tex display="block"><![CDATA[S[L]_{B}S^{-1}=\begin {pmatrix}\lambda _{1} & & & \\
+& \lambda _{2} & &\\
+& & \ddots  & \\
+& & & \lambda _{n}\end {pmatrix}]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[[L]_{B}]]></fr:tex> is the matrix for <fr:tex display="inline"><![CDATA[L]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0027/</fr:uri>
+                <fr:display-uri>matrix-0027</fr:display-uri>
+                <fr:route>/matrix-0027/</fr:route>
+                <fr:title text="Orthogonal matrix">Orthogonal matrix</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 11.4.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix over a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[M]]></fr:tex> is <html:dfn>Orthogonal</html:dfn> if <fr:tex display="inline"><![CDATA[M^{\mathsf {T}}=M^{-1}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/matrix-0028/</fr:uri>
+                <fr:display-uri>matrix-0028</fr:display-uri>
+                <fr:route>/matrix-0028/</fr:route>
+                <fr:title text="Unitary matrix">Unitary matrix</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 11.4.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[M]]></fr:tex> is <html:dfn>Unitary</html:dfn> if the <fr:link href="/complex-0006/" title="Complex conjugation" uri="http://localhost:8000/complex-0006/" display-uri="complex-0006" type="local">conjugate</fr:link> transpose is its inverse <fr:tex display="inline"><![CDATA[\overline {M^{\mathsf {T}}}=M^{-1}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002Q/</fr:uri>
+                <fr:display-uri>vectsp-002Q</fr:display-uri>
+                <fr:route>/vectsp-002Q/</fr:route>
+                <fr:title text="Positive operator">Positive operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 7.34</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 11.5.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\in \mathcal {L}(V)]]></fr:tex> be a linear operator. We say <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <html:dfn>positive</html:dfn> if <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <fr:link href="/vectsp-002L/" title="Self-adjoint linear map" uri="http://localhost:8000/vectsp-002L/" display-uri="vectsp-002L" type="local">self-adjoint</fr:link> <fr:tex display="inline"><![CDATA[L=L^{*}]]></fr:tex>, and also <fr:tex display="inline"><![CDATA[\langle  Tv,v\rangle \geq 0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-002R/</fr:uri>
+                <fr:display-uri>vectsp-002R</fr:display-uri>
+                <fr:route>/vectsp-002R/</fr:route>
+                <fr:title text="Square root of a linear operator">Square root of a linear operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 7.34</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 11.5</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be an <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L,R\in \mathcal {L}(V)]]></fr:tex> be a linear operator. We say <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a <html:dfn>square root</html:dfn> of <fr:tex display="inline"><![CDATA[L]]></fr:tex> if <fr:tex display="inline"><![CDATA[L=R^{2}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0039/</fr:uri>
+                <fr:display-uri>vectsp-0039</fr:display-uri>
+                <fr:route>/vectsp-0039/</fr:route>
+                <fr:title text="Positive operator has unique square root">Positive operator has unique square root</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.39</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 11.5</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[L]]></fr:tex> be a <fr:link href="/vectsp-002Q/" title="Positive operator" uri="http://localhost:8000/vectsp-002Q/" display-uri="vectsp-002Q" type="local">Positive operator</fr:link> on <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Then there exists a unique <fr:link href="/vectsp-002R/" title="Square root of a linear operator" uri="http://localhost:8000/vectsp-002R/" display-uri="vectsp-002R" type="local">square root</fr:link> of <fr:tex display="inline"><![CDATA[L]]></fr:tex>.</html:p>
+                <html:p>Consequently, we will unambiguously refer to <fr:tex display="inline"><![CDATA[\sqrt {L}]]></fr:tex> for the square root of <fr:tex display="inline"><![CDATA[L]]></fr:tex> when we know <fr:tex display="inline"><![CDATA[L]]></fr:tex> is a positive operator.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-003B/</fr:uri>
+                <fr:display-uri>vectsp-003B</fr:display-uri>
+                <fr:route>/vectsp-003B/</fr:route>
+                <fr:title text="Unitary operator">Unitary operator</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 7.51</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a complex inner product space. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator on <fr:tex display="inline"><![CDATA[V]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <html:dfn>Unitary</html:dfn> if
+<fr:tex display="block"><![CDATA[\langle  Lv,w\rangle  = \langle  v,L^{-1}w\rangle ]]></fr:tex>
+for all <fr:tex display="inline"><![CDATA[v,w\in  V]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-003A/</fr:uri>
+                <fr:display-uri>vectsp-003A</fr:display-uri>
+                <fr:route>/vectsp-003A/</fr:route>
+                <fr:title text="Polar decomposition">Polar decomposition</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.93</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 11.6.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a (real or complex) inner product space. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then there exists a unitary <fr:tex display="inline"><![CDATA[U]]></fr:tex> such that
+<fr:tex display="block"><![CDATA[L = U\sqrt {L^{*}L}]]></fr:tex>
+This is called the <html:dfn>Polar Decomposition</html:dfn> of <fr:tex display="inline"><![CDATA[L]]></fr:tex>.</html:p>
+                <html:p>This is analogous to writing a complex number as <fr:tex display="inline"><![CDATA[z=r\mathrm {e}^{\mathrm {i}\theta }]]></fr:tex>. Here <fr:tex display="inline"><![CDATA[\mathrm {e}^{\mathrm {i}\theta }]]></fr:tex> is analogous to <fr:tex display="inline"><![CDATA[U]]></fr:tex>, and <fr:tex display="inline"><![CDATA[r]]></fr:tex> is analogous to <fr:tex display="inline"><![CDATA[\sqrt {L^{*}L}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-003C/</fr:uri>
+                <fr:display-uri>vectsp-003C</fr:display-uri>
+                <fr:route>/vectsp-003C/</fr:route>
+                <fr:title text="Singular values">Singular values</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 7.51</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex>, <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear operator. The <html:dfn>Singular values</html:dfn> of <fr:tex display="inline"><![CDATA[L]]></fr:tex> are the non-negative square roots of the eigenvalues of <fr:tex display="inline"><![CDATA[L^{*}L]]></fr:tex> listed in decreasing order, as many times as the dimension of the corresponding <fr:link href="/vectsp-001R/" title="Eigenspace" uri="http://localhost:8000/vectsp-001R/" display-uri="vectsp-001R" type="local">Eigenspace</fr:link> of <fr:tex display="inline"><![CDATA[L^{*}L]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-003D/</fr:uri>
+                <fr:display-uri>vectsp-003D</fr:display-uri>
+                <fr:route>/vectsp-003D/</fr:route>
+                <fr:title text="Singular value decomposition">Singular value decomposition</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.70</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex>, <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear operator. Suppose the positive singular values of <fr:tex display="inline"><![CDATA[L]]></fr:tex> are <fr:tex display="inline"><![CDATA[s_{1},…,s_{m}]]></fr:tex>. Then there exists orthonormal <fr:tex display="inline"><![CDATA[e_{1},…,e_{m}\in  V]]></fr:tex> and <fr:tex display="inline"><![CDATA[f_{1},…,f_{m}\in  W]]></fr:tex> such that
+<fr:tex display="block"><![CDATA[T(v)=s_{1}\langle  v,e_{1}\rangle  f_{1}+…+s_{m}\langle  v,e_{m}\rangle  f_{m}]]></fr:tex>
+for each <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/vectsp-0034/</fr:uri>
+            <fr:display-uri>vectsp-0034</fr:display-uri>
+            <fr:route>/vectsp-0034/</fr:route>
+            <fr:title text="Spectral theorem">Spectral theorem</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 7.31</fr:meta>
+            <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 11.3.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional <fr:link href="/vectsp-0020/" title="Inner product space" uri="http://localhost:8000/vectsp-0020/" display-uri="vectsp-0020" type="local">Inner product space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then <fr:tex display="inline"><![CDATA[L]]></fr:tex> is normal if and only if there exists an <fr:link href="/vectsp-002D/" title="Orthonormal Basis" uri="http://localhost:8000/vectsp-002D/" display-uri="vectsp-002D" type="local">Orthonormal Basis</fr:link> of <fr:tex display="inline"><![CDATA[V]]></fr:tex> consisting of <fr:link href="/vectsp-001Q/" title="Eigenvalues and eigenvectors" uri="http://localhost:8000/vectsp-001Q/" display-uri="vectsp-001Q" type="local">eigenvectors</fr:link> of <fr:tex display="inline"><![CDATA[L]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex display="inline"><![CDATA[L]]></fr:tex> is normal. Then combining <fr:link href="/vectsp-0035/" title="Linear operators on complex vector spaces have an upper-triangular matrix" uri="http://localhost:8000/vectsp-0035/" display-uri="vectsp-0035" type="local">Linear operators on complex vector spaces have an upper-triangular matrix</fr:link> and <fr:link href="/vectsp-0036/" title="If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix" uri="http://localhost:8000/vectsp-0036/" display-uri="vectsp-0036" type="local">If a linear operator is upper triangular to some basis, then there is an orthonormal basis which turns it into an upper triangular matrix</fr:link> implies there exists an orthonormal basis <fr:tex display="inline"><![CDATA[B=(e_{1},…,e_{n})]]></fr:tex> for which the matrix <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> is upper triangular.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[M(L)=(a_{i,j})]]></fr:tex> with <fr:tex display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i>j]]></fr:tex> (since it's upper triangular). We claim that <fr:tex display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i<j]]></fr:tex>. Observe, using <fr:link href="/vectsp-0031/" title="Operator is normal iff norm of operator equals norm of its adjoint" uri="http://localhost:8000/vectsp-0031/" display-uri="vectsp-0031" type="local">Operator is normal iff norm of operator equals norm of its adjoint</fr:link>,
+<fr:tex display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  a_{1,1}e_{1} \right  \rVert ^{2}=\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex>
+but by expanding <fr:tex display="inline"><![CDATA[\left  \lVert  Le_{1} \right  \rVert ^{2}=\left  \lVert  L^{*}e_{1} \right  \rVert ^{2}]]></fr:tex> this gives us
+<fr:tex display="block"><![CDATA[|a_{1,1}|^{2}=\left  \lVert  \sum ^{n}_{k=1}\overline {a}_{1,k}e_{k} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{1,k}|^{2}]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[|a_{1,2}|=…=|a_{1,k}|=0]]></fr:tex>.</html:p>
+<html:p>We can repeat this argument to find <fr:tex display="inline"><![CDATA[\left  \lVert  L^{*}e_{j} \right  \rVert ^{2}=\sum ^{n}_{k=1}|a_{j,k}|^{2}=|a_{j,j}|^{2}]]></fr:tex> which implies <fr:tex display="inline"><![CDATA[a_{i,j}=0]]></fr:tex> for <fr:tex display="inline"><![CDATA[i\neq  j]]></fr:tex>, as desired.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume the eigenvectors of <fr:tex display="inline"><![CDATA[L]]></fr:tex> form an orthonormal basis for <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> is diagonal with respect to this basis (since each basis vector is an eigenvector). Then
+<fr:tex display="block"><![CDATA[M(LL^{*})=M(L)M(L^{*})=M(L^{*})M(L)=M(L^{*}L)]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[LL^{*}=L^{*}L]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[L]]></fr:tex> is normal.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/vectsp-001X/</fr:uri>
+            <fr:display-uri>vectsp-001X</fr:display-uri>
+            <fr:route>/vectsp-001X/</fr:route>
+            <fr:title text="Criteria for linear operator to have an upper-triangular matrix">Criteria for linear operator to have an upper-triangular matrix</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 5.39</fr:meta>
+            <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 7.5.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> with <fr:link href="/vectsp-000T/" title="Basis of vector space" uri="http://localhost:8000/vectsp-000T/" display-uri="vectsp-000T" type="local">basis</fr:link> <fr:tex display="inline"><![CDATA[v_{1}]]></fr:tex>, …, <fr:tex display="inline"><![CDATA[v_{n}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then the following are equivalent:</html:p>
+            <html:ol><html:li>The matrix <fr:tex display="inline"><![CDATA[M(L)]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[(v_{1},…,v_{n})]]></fr:tex> is an <fr:link href="/matrix-000B/" title="Upper-triangular matrix" uri="http://localhost:8000/matrix-000B/" display-uri="matrix-000B" type="local">Upper-triangular matrix</fr:link>.</html:li>
+<html:li><fr:tex display="inline"><![CDATA[L(v_{k})\in \mathrm {span}(v_{1},…,v_{k})]]></fr:tex> for each <fr:tex display="inline"><![CDATA[k=1,…,n]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathrm {span}(v_{1},…,v_{k})]]></fr:tex> is <fr:link href="/vectsp-001P/" title="Invariant subspace" uri="http://localhost:8000/vectsp-001P/" display-uri="vectsp-001P" type="local">invariant</fr:link> under <fr:tex display="inline"><![CDATA[L]]></fr:tex> for each <fr:tex display="inline"><![CDATA[k=1,2,…,n]]></fr:tex></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/isaiah-lankham/" title="Isaiah Lankham" uri="http://localhost:8000/isaiah-lankham/" display-uri="isaiah-lankham" type="local">Isaiah Lankham</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/bruno-nachtergaele/" title="Bruno Leo Zulma Nachtergaele" uri="http://localhost:8000/bruno-nachtergaele/" display-uri="bruno-nachtergaele" type="local">Bruno Leo Zulma Nachtergaele</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/anne-schilling/" title="Anne Schilling" uri="http://localhost:8000/anne-schilling/" display-uri="anne-schilling" type="local">Anne Schilling</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2016</fr:year>
+            </fr:date>
+            <fr:uri>http://localhost:8000/lankham-2016-linear/</fr:uri>
+            <fr:display-uri>lankham-2016-linear</fr:display-uri>
+            <fr:route>/lankham-2016-linear/</fr:route>
+            <fr:title text="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:title>
+            <fr:taxon>reference</fr:taxon>
+            <fr:meta name="doi">10.1142/9808</fr:meta>
+            <fr:meta name="external">https://www.math.ucdavis.edu/~anne/linear_algebra/mat67_course_notes.pdf</fr:meta>
+            <fr:meta name="bibtex"><![CDATA[@book{lankham2016linear,
+  title={Linear algebra as an introduction to abstract mathematics},
+  author={Lankham, Isaiah and Nachtergaele, Bruno and Schilling, Anne},
+  year={2016},
+  publisher={World Scientific}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/sheldon-jay-axler/" title="Sheldon Jay Axler" uri="http://localhost:8000/sheldon-jay-axler/" display-uri="sheldon-jay-axler" type="local">Sheldon Jay Axler</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>1996</fr:year>
+            </fr:date>
+            <fr:uri>http://localhost:8000/axler-1996-linear/</fr:uri>
+            <fr:display-uri>axler-1996-linear</fr:display-uri>
+            <fr:route>/axler-1996-linear/</fr:route>
+            <fr:title text="Linear Algebra Done Right">Linear Algebra Done Right</fr:title>
+            <fr:taxon>reference</fr:taxon>
+            <fr:meta name="doi">10.1007/978-3-031-41026-0</fr:meta>
+            <fr:meta name="external">https://linear.axler.net/</fr:meta>
+            <fr:meta name="bibtex"><![CDATA[@book{axler1996linear,
+  author={Axler, Sheldon},
+  title={Linear Algebra Done Right},
+  publisher={Springer},
+  year={1996},
+  edition={Fourth}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

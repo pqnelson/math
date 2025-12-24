@@ -7,26 +7,33 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5951</fr:anchor><fr:addr
-type="machine">#409</fr:addr><fr:route>unstable-409.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2576</fr:anchor><fr:addr
+type="machine">#409</fr:addr><fr:route>unstable-409.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[x=y]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[xx^{-1}=e\in  H]]></fr:tex> contains the identity element.</fr:p>
-<fr:p>For any <fr:tex
-display="inline"><![CDATA[x\in  H]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[ex^{-1}=x^{-1}\in  H]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is closed under inverting elements.</fr:p>
-<fr:p>For any <fr:tex
-display="inline"><![CDATA[x,y\in  H]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[y^{-1}\in  H]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[x(y^{-1})^{-1}=xy\in  H]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is closed under its binary operator.</fr:p>
-<fr:p>Hence altogether <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> forms a subgroup of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f(x)\in \Bbbk [x]]]></fr:tex> and suppose <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\Bbbk (\alpha )]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Therefore there exists a polynomial <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {F}[x]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g(\alpha )=0]]></fr:tex>. As <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>. Then all roots of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> belongs to <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> splits over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -43,36 +50,24 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5953</fr:anchor><fr:addr
-type="user">gr-001C</fr:addr><fr:route>gr-001C.xml</fr:route><fr:title
-text="Criteria for a subset to be a subgroup">Criteria for a subset to be a subgroup</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2578</fr:anchor><fr:addr
+type="user">nt-001Y</fr:addr><fr:route>nt-001Y.xml</fr:route><fr:title
+text="Algebraic Closures are Algebraically Closed">Algebraic Closures are Algebraically Closed</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be an <fr:link
 type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 2.1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+href="nt-001W.xml"
+addr="nt-001W"
+title="Algebraic Closure">Algebraic Closure</fr:link> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>, let <fr:tex
-display="inline"><![CDATA[H\neq \emptyset ]]></fr:tex> be a nonempty subset of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. If for any <fr:tex
-display="inline"><![CDATA[x,y\in  H]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[xy^{-1}\in  H]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> forms a <fr:link
-type="local"
-href="gr-001B.xml"
-addr="gr-001B"
-title="Subgroup">Subgroup</fr:link>.</fr:p><fr:p>Furthermore, if <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is finite, then it suffices to check that <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is closed under multiplication (i.e., for any <fr:tex
-display="inline"><![CDATA[x,y\in  H]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[xy\in  H]]></fr:tex>).</fr:p>
+href="nt-001X.xml"
+addr="nt-001X"
+title="Algebraically Closed Field">Algebraically Closed Field</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -82,26 +77,33 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1722</fr:anchor><fr:addr
-type="machine">#409</fr:addr><fr:route>unstable-409.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>981</fr:anchor><fr:addr
+type="machine">#409</fr:addr><fr:route>unstable-409.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[x=y]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[xx^{-1}=e\in  H]]></fr:tex> contains the identity element.</fr:p>
-<fr:p>For any <fr:tex
-display="inline"><![CDATA[x\in  H]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[ex^{-1}=x^{-1}\in  H]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is closed under inverting elements.</fr:p>
-<fr:p>For any <fr:tex
-display="inline"><![CDATA[x,y\in  H]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[y^{-1}\in  H]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[x(y^{-1})^{-1}=xy\in  H]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is closed under its binary operator.</fr:p>
-<fr:p>Hence altogether <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> forms a subgroup of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f(x)\in \Bbbk [x]]]></fr:tex> and suppose <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\Bbbk (\alpha )]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Therefore there exists a polynomial <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {F}[x]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g(\alpha )=0]]></fr:tex>. As <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>. Then all roots of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> belongs to <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, and so <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> splits over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -7,13 +7,24 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8211</fr:anchor><fr:addr
-type="machine">#372</fr:addr><fr:route>unstable-372.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1725</fr:anchor><fr:addr
+type="machine">#372</fr:addr><fr:route>unstable-372.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Usually <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is used as the variable for closed sets, because Bourbaki used it (since the French word for "closed" is <fr:em>Fermé</fr:em>).</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[H=\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \Bbbk ^{H}]]></fr:tex>. <fr:link
+type="local"
+href="nt-002Y.xml"
+addr="nt-002Y"
+title="Degree of subfield fixed by a finite subgroup equals the size of the subgroup">Then we have</fr:link>,
+<fr:tex
+display="block"><![CDATA[|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|=[\Bbbk  : \Bbbk ^{H}]\leq [\Bbbk  : \Bbbk ^{H}][\Bbbk ^{H} : \mathbb {F}]]]></fr:tex>
+and equality is precisely when <fr:tex
+display="inline"><![CDATA[[\Bbbk ^{H} : \mathbb {F}]=1]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -28,28 +39,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8213</fr:anchor><fr:addr
-type="user">gt-000E</fr:addr><fr:route>gt-000E.xml</fr:route><fr:title
-text="Closed set">Closed set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1727</fr:anchor><fr:addr
+type="user">nt-002Z</fr:addr><fr:route>nt-002Z.xml</fr:route><fr:title
+text="Size of automorphism group for finite extension is not greater than the degree of the finite extension">Size of automorphism group for finite extension is not greater than the degree of the finite extension</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Munkres <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link
 type="local"
-href="munkres-2000-topology.xml"
-addr="munkres-2000-topology"
-title="Topology">Topology</fr:link> Section 17</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+href="nt-000J.xml"
+addr="nt-000J"
+title="Degree of extension">finite extension</fr:link> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|\leq [\Bbbk  : \mathbb {F}].]]></fr:tex>
+Moreover, <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[E\subseteq  X]]></fr:tex> be a subset of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex
-display="inline"><![CDATA[E]]></fr:tex> is <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Closed</html:dfn> if <fr:tex
-display="inline"><![CDATA[E^{\complement }=X\setminus  E]]></fr:tex> is open.</fr:p>
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[\mathbb {F} = \Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})}]]></fr:tex> is the subfield fixed by the automorphism group.</fr:p>
  
    
    <fr:tree
@@ -59,12 +70,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8215</fr:anchor><fr:addr
-type="machine">#372</fr:addr><fr:route>unstable-372.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1127</fr:anchor><fr:addr
+type="machine">#372</fr:addr><fr:route>unstable-372.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Usually <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is used as the variable for closed sets, because Bourbaki used it (since the French word for "closed" is <fr:em>Fermé</fr:em>).</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For <fr:tex
+display="inline"><![CDATA[H=\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \Bbbk ^{H}]]></fr:tex>. <fr:link
+type="local"
+href="nt-002Y.xml"
+addr="nt-002Y"
+title="Degree of subfield fixed by a finite subgroup equals the size of the subgroup">Then we have</fr:link>,
+<fr:tex
+display="block"><![CDATA[|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|=[\Bbbk  : \Bbbk ^{H}]\leq [\Bbbk  : \Bbbk ^{H}][\Bbbk ^{H} : \mathbb {F}]]]></fr:tex>
+and equality is precisely when <fr:tex
+display="inline"><![CDATA[[\Bbbk ^{H} : \mathbb {F}]=1]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

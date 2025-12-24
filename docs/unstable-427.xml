@@ -7,16 +7,86 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7162</fr:anchor><fr:addr
-type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2648</fr:anchor><fr:addr
+type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[e_{1}\in  A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[e_{2}\in  A]]></fr:tex> are two possible identity elements, then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We see <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> contains 0, 1, and is closed under addition. We will show it is closed under multiplication (which will prove <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a subring of <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>).</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex> be arbitrary. Then we can write them out as
 <fr:tex
-display="block"><![CDATA[e_{1}=\mu (e_{1},e_{2})=e_{2}.]]></fr:tex></fr:p><html:span
+display="block"><![CDATA[x=\sum _{i,j}c_{i,j}\alpha _{i}\beta _{j}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[y=\sum _{i,j}d_{i,j}\alpha _{i}\beta _{j}]]></fr:tex>
+for some <fr:tex
+display="inline"><![CDATA[c_{i,j}\in \mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[d_{i,j}\in \mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> is closed under multiplication, and <fr:tex
+display="inline"><![CDATA[\{\alpha _{i}\}_{i\in  I}]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis for <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex>, we have for any <fr:tex
+display="inline"><![CDATA[i_{1},i_{2}\in  I]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[\alpha _{i_{1}}\alpha _{i_{2}}=\sum _{i}a_{i}\alpha _{i}]]></fr:tex>
+for some coefficients <fr:tex
+display="inline"><![CDATA[a_{i}\in \mathbb {F}]]></fr:tex>. Similarly,
+<fr:tex
+display="block"><![CDATA[\beta _{j_{1}}\beta _{j_{2}}=\sum _{j}b_{j}\beta _{j}]]></fr:tex>
+for some <fr:tex
+display="inline"><![CDATA[b_{j}\in \mathbb {F}]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\alpha _{i_{1}}\alpha _{i_{2}}\beta _{j_{1}}\beta _{j_{2}}=\sum _{i,j}a_{i}b_{j}\alpha _{i}\beta _{j}\in  R.]]></fr:tex>
+Since the product <fr:tex
+display="inline"><![CDATA[xy]]></fr:tex> is a linear combination of elements of this form, it follows that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a subring of <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>.</fr:p>
+<fr:p>(2) We have <fr:tex
+display="inline"><![CDATA[R\subseteq \Bbbk _{1}\Bbbk _{2}]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a linear combination of <fr:tex
+display="inline"><![CDATA[\alpha _{i}\beta _{j}]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field, then <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}\Bbbk _{2}\subseteq  R]]></fr:tex> which will prove the claim. So we will now prove <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field.</fr:p>
+<fr:p><fr:strong>Claim 1:</fr:strong> Every element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> are algebraic extensions, <fr:tex
+display="inline"><![CDATA[\alpha _{i}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\beta _{j}]]></fr:tex> are algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:link
+type="local"
+href="nt-0015.xml"
+addr="nt-0015"
+title="Algebraic elements over a field forms a field">we know</fr:link> so are <fr:tex
+display="inline"><![CDATA[\alpha _{i}\beta _{j}]]></fr:tex> and their <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-linear combinations <fr:tex
+display="inline"><![CDATA[\sum _{i,j}c_{i,j}\alpha _{i}\beta _{j}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[c_{i,j}\in \mathbb {F}]]></fr:tex>. Hence every element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field. Let <fr:tex
+display="inline"><![CDATA[\gamma \in  R]]></fr:tex> be nonzero. Since <fr:tex
+display="inline"><![CDATA[\gamma ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, it follows that <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\gamma )]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]\to \mathbb {L}]]></fr:tex> sending <fr:tex
+display="inline"><![CDATA[f(x)\mapsto  f(\gamma )]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[p(\gamma )\in  R]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[F(\gamma )\subseteq  R]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[F(\gamma )]]></fr:tex> is a field, we see <fr:tex
+display="inline"><![CDATA[\gamma ^{-1}\in  R]]></fr:tex>. This, taken together with claim 1, shows that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field. Hence <fr:tex
+display="inline"><![CDATA[R=\Bbbk _{1}\Bbbk _{2}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -33,26 +103,31 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7164</fr:anchor><fr:addr
-type="user">gr-000B</fr:addr><fr:route>gr-000B.xml</fr:route><fr:title
-text="Identity element is at most unique">Identity element is at most unique</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2650</fr:anchor><fr:addr
+type="user">nt-001B</fr:addr><fr:route>nt-001B.xml</fr:route><fr:title
+text="Composite Field of Algebraic Extensions is an Algebraic Extension">Composite Field of Algebraic Extensions is an Algebraic Extension</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> be field extensions (possibly of infinite degree) contained within a larger field <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[S=\{\alpha _{i}\}_{i\in  I}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[T=\{\beta _{j}\}_{j\in  J}]]></fr:tex> be <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-bases for <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}]]></fr:tex>, respectively. Then the following all hold:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[R=\mathop {\textrm {span}}\nolimits _{\mathbb {F}}\{\alpha _{i}\beta _{j}\}_{i\in  I,j\in  J}]]></fr:tex> is a <fr:strong>subring</fr:strong> of <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex></fr:li>
+<fr:li>If further both <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> are <fr:link
 type="local"
-href="gr-0001.xml"
-addr="gr-0001"
-title="Binary operator">Binary operator</fr:link> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>. Then there exists at most 1 <fr:link
-type="local"
-href="gr-0005.xml"
-addr="gr-0005"
-title="Identity element">Identity element</fr:link> for <fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
+href="nt-000T.xml"
+addr="nt-000T"
+title="Algebraic Element">algebraic extensions</fr:link>, then <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}\Bbbk _{2}=\mathop {\textrm {span}}\nolimits _{\mathbb {F}}\{\alpha _{i}\beta _{j}\}_{i\in  I,j\in  J}]]></fr:tex>.</fr:li></fr:ol>
  
    
    <fr:tree
@@ -62,16 +137,86 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1614</fr:anchor><fr:addr
-type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>897</fr:anchor><fr:addr
+type="machine">#427</fr:addr><fr:route>unstable-427.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
-display="inline"><![CDATA[e_{1}\in  A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[e_{2}\in  A]]></fr:tex> are two possible identity elements, then
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) We see <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> contains 0, 1, and is closed under addition. We will show it is closed under multiplication (which will prove <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a subring of <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>).</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[x,y\in  R]]></fr:tex> be arbitrary. Then we can write them out as
 <fr:tex
-display="block"><![CDATA[e_{1}=\mu (e_{1},e_{2})=e_{2}.]]></fr:tex></fr:p><html:span
+display="block"><![CDATA[x=\sum _{i,j}c_{i,j}\alpha _{i}\beta _{j}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[y=\sum _{i,j}d_{i,j}\alpha _{i}\beta _{j}]]></fr:tex>
+for some <fr:tex
+display="inline"><![CDATA[c_{i,j}\in \mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[d_{i,j}\in \mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> is closed under multiplication, and <fr:tex
+display="inline"><![CDATA[\{\alpha _{i}\}_{i\in  I}]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis for <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex>, we have for any <fr:tex
+display="inline"><![CDATA[i_{1},i_{2}\in  I]]></fr:tex>,
+<fr:tex
+display="block"><![CDATA[\alpha _{i_{1}}\alpha _{i_{2}}=\sum _{i}a_{i}\alpha _{i}]]></fr:tex>
+for some coefficients <fr:tex
+display="inline"><![CDATA[a_{i}\in \mathbb {F}]]></fr:tex>. Similarly,
+<fr:tex
+display="block"><![CDATA[\beta _{j_{1}}\beta _{j_{2}}=\sum _{j}b_{j}\beta _{j}]]></fr:tex>
+for some <fr:tex
+display="inline"><![CDATA[b_{j}\in \mathbb {F}]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[\alpha _{i_{1}}\alpha _{i_{2}}\beta _{j_{1}}\beta _{j_{2}}=\sum _{i,j}a_{i}b_{j}\alpha _{i}\beta _{j}\in  R.]]></fr:tex>
+Since the product <fr:tex
+display="inline"><![CDATA[xy]]></fr:tex> is a linear combination of elements of this form, it follows that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a subring of <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>.</fr:p>
+<fr:p>(2) We have <fr:tex
+display="inline"><![CDATA[R\subseteq \Bbbk _{1}\Bbbk _{2}]]></fr:tex> since <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a linear combination of <fr:tex
+display="inline"><![CDATA[\alpha _{i}\beta _{j}]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field, then <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}\Bbbk _{2}\subseteq  R]]></fr:tex> which will prove the claim. So we will now prove <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field.</fr:p>
+<fr:p><fr:strong>Claim 1:</fr:strong> Every element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> are algebraic extensions, <fr:tex
+display="inline"><![CDATA[\alpha _{i}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\beta _{j}]]></fr:tex> are algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:link
+type="local"
+href="nt-0015.xml"
+addr="nt-0015"
+title="Algebraic elements over a field forms a field">we know</fr:link> so are <fr:tex
+display="inline"><![CDATA[\alpha _{i}\beta _{j}]]></fr:tex> and their <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-linear combinations <fr:tex
+display="inline"><![CDATA[\sum _{i,j}c_{i,j}\alpha _{i}\beta _{j}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[c_{i,j}\in \mathbb {F}]]></fr:tex>. Hence every element of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field. Let <fr:tex
+display="inline"><![CDATA[\gamma \in  R]]></fr:tex> be nonzero. Since <fr:tex
+display="inline"><![CDATA[\gamma ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, it follows that <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\gamma )]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]\to \mathbb {L}]]></fr:tex> sending <fr:tex
+display="inline"><![CDATA[f(x)\mapsto  f(\gamma )]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[p(\gamma )\in  R]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[F(\gamma )\subseteq  R]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[F(\gamma )]]></fr:tex> is a field, we see <fr:tex
+display="inline"><![CDATA[\gamma ^{-1}\in  R]]></fr:tex>. This, taken together with claim 1, shows that <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a field. Hence <fr:tex
+display="inline"><![CDATA[R=\Bbbk _{1}\Bbbk _{2}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

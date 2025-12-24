@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>743</fr:anchor><fr:addr
+type="machine">#577</fr:addr><fr:route>unstable-577.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) <fr:link
+type="local"
+href="nt-004N.xml"
+addr="nt-004N"
+title="Prime factorization of ideals of algebraic integers">Prime factorization of ideals of algebraic integers</fr:link> plus this proposition implies all the powers <fr:tex
+display="inline"><![CDATA[e_{i}]]></fr:tex> of the factorization of an ideal are equal to each other <fr:tex
+display="inline"><![CDATA[e_{i}=e_{j}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>. This exponent is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ramification Index</html:dfn>.</fr:p>
+<fr:p>(2) In this situation, we say that a prime ideal <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Lies Above <fr:tex
+display="inline"><![CDATA[p]]></fr:tex></html:dfn> if <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> occurs in the factorization of the principal ideal <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>745</fr:anchor><fr:addr
+type="user">nt-004O</fr:addr><fr:route>nt-004O.xml</fr:route><fr:title
+text="Galois group of number field acts transitively on any prime factor of an ideal">Galois group of number field acts transitively on any prime factor of an ideal</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004K.xml"
+addr="nt-004K"
+title="Number Field">Number Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[(p)\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> be a principal ideal of the algebraic integers of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, suppose we have the prime factorization of <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> into
+<fr:tex
+display="block"><![CDATA[(p)=P_{1}^{e_{1}}(…)P_{r}^{e_{r}}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[P_{i}\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> are distinct prime ideals.</fr:p><fr:p>Then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex> acts transitively on the prime ideals <fr:tex
+display="inline"><![CDATA[P_{i}]]></fr:tex>. Moreover, for each <fr:tex
+display="inline"><![CDATA[P_{i}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[P_{i}\cap \mathbb {Z}=p\mathbb {Z}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>647</fr:anchor><fr:addr
+type="machine">#577</fr:addr><fr:route>unstable-577.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) <fr:link
+type="local"
+href="nt-004N.xml"
+addr="nt-004N"
+title="Prime factorization of ideals of algebraic integers">Prime factorization of ideals of algebraic integers</fr:link> plus this proposition implies all the powers <fr:tex
+display="inline"><![CDATA[e_{i}]]></fr:tex> of the factorization of an ideal are equal to each other <fr:tex
+display="inline"><![CDATA[e_{i}=e_{j}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>. This exponent is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ramification Index</html:dfn>.</fr:p>
+<fr:p>(2) In this situation, we say that a prime ideal <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Lies Above <fr:tex
+display="inline"><![CDATA[p]]></fr:tex></html:dfn> if <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> occurs in the factorization of the principal ideal <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

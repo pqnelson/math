@@ -1,0 +1,13 @@
+\title{Composite of root extensions is a root extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{corollary}
+
+\p{If #{\kk / \FF} and #{\kk'/\FF} are [[nt-004D]]s, then so is #{(\kk\kk')/ \FF}.}
+
+\proof{\p{Suppose
+##{\FF=K_{0}\propersubset K_{1}\propersubset\dots\propersubset K_{n}=\kk}
+and
+##{\FF=K'_{0}\propersubset K'_{1}\propersubset\dots\propersubset K'_{n'}=\kk}
+[[nt-004E]] inductively implies the extensions  #{K'_{i+1}/K_{i}} gives us the extensions #{K'_{1}\kk / \FF}, #{K'_{2}\kk / \FF}, \dots, #{K'_{n'}\kk / \FF}.}}

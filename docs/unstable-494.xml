@@ -7,18 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14648</fr:anchor><fr:addr
-type="machine">#494</fr:addr><fr:route>unstable-494.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7452</fr:anchor><fr:addr
+type="machine">#494</fr:addr><fr:route>unstable-494.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=(a_{i,j}+b_{i,j})]]></fr:tex> and for each component we have <fr:tex
-display="inline"><![CDATA[a_{i,j}+b_{i,j}=b_{i,j}+a_{i,j}]]></fr:tex> since componentwise we have addition of numbers (which is commutative). But the matrix with <fr:tex
-display="inline"><![CDATA[(b_{i,j}+a_{i,j})=\mathbf {B}+\mathbf {A}]]></fr:tex>. Hence we find <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
+type="local"
+href="gr-003K.xml"
+addr="gr-003K"
+title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,17 +31,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14650</fr:anchor><fr:addr
-type="user">matrix-000G</fr:addr><fr:route>matrix-000G.xml</fr:route><fr:title
-text="Matrix Addition is Commutative">Matrix Addition is Commutative</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7454</fr:anchor><fr:addr
+type="user">gr-004U</fr:addr><fr:route>gr-004U.xml</fr:route><fr:title
+text="Existence of a Sylow p-Subgroup">Existence of a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-Subgroup</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any two <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrices <fr:tex
-display="inline"><![CDATA[\mathbf {A}=(a_{i,j})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbf {B}=(b_{i,j})]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">I. Martin Isaacs <fr:link
+type="local"
+href="isaacs-2008-finite.xml"
+addr="isaacs-2008-finite"
+title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.7 (Sylow E-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link
+type="local"
+href="gr-000G.xml"
+addr="gr-000G"
+title="Group">Group</fr:link>. Let <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> be a prime number. Then <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> has a Sylow <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>-subgroup.</fr:p>
  
    
    <fr:tree
@@ -53,16 +61,81 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2266</fr:anchor><fr:addr
-type="machine">#494</fr:addr><fr:route>unstable-494.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4366</fr:anchor><fr:addr
+type="machine">#494</fr:addr><fr:route>unstable-494.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=(a_{i,j}+b_{i,j})]]></fr:tex> and for each component we have <fr:tex
-display="inline"><![CDATA[a_{i,j}+b_{i,j}=b_{i,j}+a_{i,j}]]></fr:tex> since componentwise we have addition of numbers (which is commutative). But the matrix with <fr:tex
-display="inline"><![CDATA[(b_{i,j}+a_{i,j})=\mathbf {B}+\mathbf {A}]]></fr:tex>. Hence we find <fr:tex
-display="inline"><![CDATA[\mathbf {A}+\mathbf {B}=\mathbf {B}+\mathbf {A}]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a partial converse of <fr:link
+type="local"
+href="gr-003K.xml"
+addr="gr-003K"
+title="Lagrange's theorem">Lagrange's theorem</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4368</fr:anchor><fr:addr
+type="machine">#495</fr:addr><fr:route>unstable-495.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(Wielendt) Let <fr:tex
+display="inline"><![CDATA[|G|=p^{a}m]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a\geq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p\nmid  m]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Omega =\{A\subseteq  G\mid  |A|=p^{a}\}]]></fr:tex>. We see that <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts on <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> by right multiplication. Since this is an action, <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into orbits, and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is the sum of the orbit sizes.</fr:p>
+<fr:p>But
+<fr:tex
+display="block"><![CDATA[|\Omega |=\binom {p^{a}m}{p^{a}}\equiv  m\not \equiv 0\pmod {p},]]></fr:tex>
+and so <fr:tex
+display="inline"><![CDATA[|\Omega |]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>. Then there exists some orbit <fr:tex
+display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[X\in \mathcal {O}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H=G_{X}]]></fr:tex> be the <fr:link
+type="local"
+href="gr-004C.xml"
+addr="gr-004C"
+title="Stabilizer">Stabilizer</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|=|G|/|H|]]></fr:tex> by the <fr:link
+type="local"
+href="gr-004G.xml"
+addr="gr-004G"
+title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, and since <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide <fr:tex
+display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> but <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|G|]]></fr:tex>, we must conclude <fr:tex
+display="inline"><![CDATA[p^{a}]]></fr:tex> divides <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex>, and in particular <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[H]]></fr:tex> stabilizes <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> under right multiplication, we see if <fr:tex
+display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[xH\subseteq  X]]></fr:tex>, and then <fr:tex
+display="inline"><![CDATA[|H|=|xH|\leq |X|=p^{a}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[p^{a}\leq |H|\leq  p^{a}]]></fr:tex>, we must have <fr:tex
+display="inline"><![CDATA[|H|=p^{a}]]></fr:tex>, and this is a Sylow subgroup of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as desired.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

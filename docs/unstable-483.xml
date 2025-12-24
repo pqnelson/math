@@ -7,22 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14394</fr:anchor><fr:addr
-type="machine">#483</fr:addr><fr:route>unstable-483.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11006</fr:anchor><fr:addr
+type="machine">#483</fr:addr><fr:route>unstable-483.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Usually <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is used as the variable for closed sets, because Bourbaki used it (since the French word for "closed" is <fr:em>Fermé</fr:em>).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -37,15 +28,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14396</fr:anchor><fr:addr
-type="user">matrix-001I</fr:addr><fr:route>matrix-001I.xml</fr:route><fr:title
-text="Matrix Inverse is Idempotent">Matrix Inverse is Idempotent</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11008</fr:anchor><fr:addr
+type="user">gt-000E</fr:addr><fr:route>gt-000E.xml</fr:route><fr:title
+text="Closed set">Closed set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an invertible matrix. Then <fr:tex
-display="inline"><![CDATA[(\mathbf {A}^{-1})^{-1}=\mathbf {A}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Munkres <fr:link
+type="local"
+href="munkres-2000-topology.xml"
+addr="munkres-2000-topology"
+title="Topology">Topology</fr:link> Section 17</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+type="local"
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>. Let <fr:tex
+display="inline"><![CDATA[E\subseteq  X]]></fr:tex> be a subset of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex
+display="inline"><![CDATA[E]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Closed</html:dfn> if <fr:tex
+display="inline"><![CDATA[E^{\complement }=X\setminus  E]]></fr:tex> is open.</fr:p>
  
    
    <fr:tree
@@ -55,21 +59,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2364</fr:anchor><fr:addr
-type="machine">#483</fr:addr><fr:route>unstable-483.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11010</fr:anchor><fr:addr
+type="machine">#483</fr:addr><fr:route>unstable-483.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Set <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> equal to <fr:tex
-display="inline"><![CDATA[\mathbf {A}^{-1}]]></fr:tex>. Then
-<fr:tex
-display="block"><![CDATA[\mathbf {A}\mathbf {B} = \mathbf {B}\mathbf {A} = \mathbf {I}_{n}.]]></fr:tex>
-This means <fr:tex
-display="inline"><![CDATA[\mathbf {A} = \mathbf {B}^{-1}]]></fr:tex> by definition of the matrix inverse, which means (unfolding the definition of <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex>) we have <fr:tex
-display="inline"><![CDATA[\mathbf {A} = (\mathbf {A}^{-1})^{-1}]]></fr:tex> as desired.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Usually <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> is used as the variable for closed sets, because Bourbaki used it (since the French word for "closed" is <fr:em>Fermé</fr:em>).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

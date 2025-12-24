@@ -7,27 +7,73 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4677</fr:anchor><fr:addr
-type="machine">#381</fr:addr><fr:route>unstable-381.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1761</fr:anchor><fr:addr
+type="machine">#381</fr:addr><fr:route>unstable-381.xml</fr:route><fr:taxon>Solution</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows immediately from <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>We know the <fr:link
 type="local"
-href="gr-004X.xml"
-addr="gr-004X"
-title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> taking <fr:tex
-display="inline"><![CDATA[P=T]]></fr:tex> gives us <fr:tex
-display="inline"><![CDATA[T\subseteq  S^{g}]]></fr:tex> for some <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>. Since both <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> are Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroups, we have <fr:tex
-display="inline"><![CDATA[|S|=|T|=|S^{g}|]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[T=S^{g}]]></fr:tex> as desired.</fr:p><html:span
+href="nt-0022.xml"
+addr="nt-0022"
+title="Frobenius morphism">Frobenius morphism</fr:link> <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> gives us
+<fr:tex
+display="block"><![CDATA[\phi _{r}(x)=x^{p^{r}}=\underbrace {\phi \circ \cdots \circ \phi }_{r\text { times}}.]]></fr:tex>
+Hence
+<fr:tex
+display="block"><![CDATA[\langle \phi \rangle =\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F}),]]></fr:tex>
+which is a finite cycle group of order <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1091</fr:anchor><fr:addr
+type="machine">#380</fr:addr><fr:route>unstable-380.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We know <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\times }=\langle  a\rangle ]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a\in \Bbbk ]]></fr:tex> is of order <fr:tex
+display="inline"><![CDATA[p^{n}-1]]></fr:tex>. We can then write,
+<fr:tex
+display="block"><![CDATA[\mathbb {F}_{p^{n}}=\mathbb {F}_{p}(a);]]></fr:tex>
+and if <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, then it is determined by <fr:tex
+display="inline"><![CDATA[\sigma (a)]]></fr:tex>.</fr:p>
+<fr:p>Observe the minimal polynomial of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[\deg (m_{a})=n]]></fr:tex>.</fr:p>
+<fr:p>We claim <fr:tex
+display="inline"><![CDATA[\phi _{r}(a)]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[r=0,…,n-1]]></fr:tex>) are the <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> distinct roots of this polynomial. Otherwise, if there is a <fr:tex
+display="inline"><![CDATA[r<s]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[\phi _{r}(a)=\phi _{s}(a),]]></fr:tex>
+then we would have
+<fr:tex
+display="block"><![CDATA[a^{p^{r}}=a^{p^{s}},]]></fr:tex>
+which means
+<fr:tex
+display="block"><![CDATA[a^{p^{n-s+r}}=a^{p^{n}}=a,]]></fr:tex>
+which contradicts <fr:tex
+display="inline"><![CDATA[a^{k}\neq 1]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[k<p^{n}-1]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -42,33 +88,18 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4679</fr:anchor><fr:addr
-type="user">gr-004V</fr:addr><fr:route>gr-004V.xml</fr:route><fr:title
-text="Sylow p-Subgroups are conjugate">Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-Subgroups are conjugate</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1763</fr:anchor><fr:addr
+type="user">nt-002O</fr:addr><fr:route>nt-002O.xml</fr:route><fr:title
+text="Calculating automorphism group of {F}_{p^{n}}">Calculating automorphism group of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex></fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">I. Martin Isaacs <fr:link
-type="local"
-href="isaacs-2008-finite.xml"
-addr="isaacs-2008-finite"
-title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.12 (Sylow C-Theorem)</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> be <fr:link
-type="local"
-href="gr-004S.xml"
-addr="gr-004S"
-title="Sylow p-subgroup">Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link>s of a finite <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link> <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, then there exists a <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[T=S^{g}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}_{p^{n}}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\mathbb {F}_{p}]]></fr:tex> and suppose <fr:tex
+display="inline"><![CDATA[p\nmid  n]]></fr:tex>. What is <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>?</fr:p>
  
    
    <fr:tree
@@ -78,28 +109,25 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2064</fr:anchor><fr:addr
-type="machine">#381</fr:addr><fr:route>unstable-381.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1089</fr:anchor><fr:addr
+type="machine">#381</fr:addr><fr:route>unstable-381.xml</fr:route><fr:taxon>Solution</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows immediately from <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+<fr:p>We know the <fr:link
 type="local"
-href="gr-004X.xml"
-addr="gr-004X"
-title="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:link> taking <fr:tex
-display="inline"><![CDATA[P=T]]></fr:tex> gives us <fr:tex
-display="inline"><![CDATA[T\subseteq  S^{g}]]></fr:tex> for some <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>. Since both <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[T]]></fr:tex> are Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroups, we have <fr:tex
-display="inline"><![CDATA[|S|=|T|=|S^{g}|]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[T=S^{g}]]></fr:tex> as desired.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
- 
+href="nt-0022.xml"
+addr="nt-0022"
+title="Frobenius morphism">Frobenius morphism</fr:link> <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> gives us
+<fr:tex
+display="block"><![CDATA[\phi _{r}(x)=x^{p^{r}}=\underbrace {\phi \circ \cdots \circ \phi }_{r\text { times}}.]]></fr:tex>
+Hence
+<fr:tex
+display="block"><![CDATA[\langle \phi \rangle =\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F}),]]></fr:tex>
+which is a finite cycle group of order <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
 
  
    
@@ -110,11 +138,43 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2066</fr:anchor><fr:addr
-type="machine">#382</fr:addr><fr:route>unstable-382.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1091</fr:anchor><fr:addr
+type="machine">#380</fr:addr><fr:route>unstable-380.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This may be viewed as a "finite analog" of a result in Lie theory where all maximal tori are conjugate to each other.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We know <fr:tex
+display="inline"><![CDATA[\Bbbk ^{\times }=\langle  a\rangle ]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a\in \Bbbk ]]></fr:tex> is of order <fr:tex
+display="inline"><![CDATA[p^{n}-1]]></fr:tex>. We can then write,
+<fr:tex
+display="block"><![CDATA[\mathbb {F}_{p^{n}}=\mathbb {F}_{p}(a);]]></fr:tex>
+and if <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, then it is determined by <fr:tex
+display="inline"><![CDATA[\sigma (a)]]></fr:tex>.</fr:p>
+<fr:p>Observe the minimal polynomial of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[\deg (m_{a})=n]]></fr:tex>.</fr:p>
+<fr:p>We claim <fr:tex
+display="inline"><![CDATA[\phi _{r}(a)]]></fr:tex> (for <fr:tex
+display="inline"><![CDATA[r=0,…,n-1]]></fr:tex>) are the <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> distinct roots of this polynomial. Otherwise, if there is a <fr:tex
+display="inline"><![CDATA[r<s]]></fr:tex> such that
+<fr:tex
+display="block"><![CDATA[\phi _{r}(a)=\phi _{s}(a),]]></fr:tex>
+then we would have
+<fr:tex
+display="block"><![CDATA[a^{p^{r}}=a^{p^{s}},]]></fr:tex>
+which means
+<fr:tex
+display="block"><![CDATA[a^{p^{n-s+r}}=a^{p^{n}}=a,]]></fr:tex>
+which contradicts <fr:tex
+display="inline"><![CDATA[a^{k}\neq 1]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[k<p^{n}-1]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

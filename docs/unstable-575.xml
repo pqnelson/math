@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr
+type="machine">#575</fr:addr><fr:route>unstable-575.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> is lying over <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Z}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }/P]]></fr:tex> is a finite field containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}\cong \mathbb {Z} / p\mathbb {Z}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }/P\cong \mathbb {F}_{q}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[q=p^{m}]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[\sigma \in  D_{P}]]></fr:tex>, then it induces a field automorphism
+<fr:tex
+display="block"><![CDATA[\begin {split}\overline {\sigma }\colon &\mathcal {O}_{\Bbbk }/P\to \mathcal {O}_{\Bbbk }/P\\ &x+P\mapsto \sigma (x)+P\end {split}]]></fr:tex>
+Therefore there is a map <fr:tex
+display="inline"><![CDATA[D_{P}\to \mathop {\textrm {Gal}}\nolimits (\mathbb {F}_{q}/\mathbb {F}_{p})]]></fr:tex> sending <fr:tex
+display="inline"><![CDATA[\sigma \mapsto \overline {\sigma }]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>737</fr:anchor><fr:addr
+type="user">nt-004R</fr:addr><fr:route>nt-004R.xml</fr:route><fr:title
+text="Decomposition subgroup">Decomposition subgroup</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> be a prime ideal <fr:link
+type="local"
+href="nt-004O.xml"
+addr="nt-004O"
+title="Galois group of number field acts transitively on any prime factor of an ideal">over <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Z}]]></fr:tex></fr:link>. Then the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Decomposition Subgroup</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex> is
+<fr:tex
+display="block"><![CDATA[D_{P}=\{\sigma \in \mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})\mid  \sigma (P)=P\}]]></fr:tex>
+the elements of the Galois group leaving <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> invariant.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr
+type="machine">#575</fr:addr><fr:route>unstable-575.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> is lying over <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Z}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }/P]]></fr:tex> is a finite field containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}\cong \mathbb {Z} / p\mathbb {Z}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }/P\cong \mathbb {F}_{q}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[q=p^{m}]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[\sigma \in  D_{P}]]></fr:tex>, then it induces a field automorphism
+<fr:tex
+display="block"><![CDATA[\begin {split}\overline {\sigma }\colon &\mathcal {O}_{\Bbbk }/P\to \mathcal {O}_{\Bbbk }/P\\ &x+P\mapsto \sigma (x)+P\end {split}]]></fr:tex>
+Therefore there is a map <fr:tex
+display="inline"><![CDATA[D_{P}\to \mathop {\textrm {Gal}}\nolimits (\mathbb {F}_{q}/\mathbb {F}_{p})]]></fr:tex> sending <fr:tex
+display="inline"><![CDATA[\sigma \mapsto \overline {\sigma }]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

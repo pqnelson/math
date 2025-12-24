@@ -1,0 +1,11 @@
+\title{Lagrange Resolvent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{Let #{\FF} be a field. Let #{\kk} be any [cyclic extension](nt-0049) of degree #{n} over #{\FF}. Assume #{\Char(\FF)\nmid n} and #{\FF} contains the #{n^{\text{th}}} roots of unity. Let #{\sigma} be a generator for the Galois group #{\Gal(\kk / \FF)}. Let #{\zeta} be an #{n^{\text{th}}} root of unity. We define the \define{Lagrange Resolvent} #{\lambda(\alpha,\zeta)\in\kk} by
+##{\lambda(\alpha,\zeta):=\alpha+\zeta\sigma(\alpha)+\zeta^{2}\sigma^{2}(\alpha)+\dots+\zeta^{n-1}\sigma^{n-1}(\alpha)}
+where #{\sigma^{k}=\sigma\circ\dots\circ\sigma} is #{\sigma} composed with itself #{k} times.}
+
+\rmk{This was invented by Lagrange in his memoirs [book] \textit{Réflexions sur la résolution algébrique des équations} (1770).}

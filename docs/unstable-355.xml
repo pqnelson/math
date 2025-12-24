@@ -7,43 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11872</fr:anchor><fr:addr
-type="machine">#355</fr:addr><fr:route>unstable-355.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1657</fr:anchor><fr:addr
+type="machine">#355</fr:addr><fr:route>unstable-355.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
-
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Steinitz presented this in its modern form first in his paper <fr:link
 type="local"
-href="nst-002J.xml"
-addr="nst-002J"
-title="Proof by contradiction">Proof by contradiction</fr:link>. Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="steinitz-1910-algebraische.xml"
+addr="steinitz-1910-algebraische"
+title="Algebraische Theorie der Körper">Algebraische Theorie der Körper</fr:link> (1910).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -58,15 +31,18 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11874</fr:anchor><fr:addr
-type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
-text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1659</fr:anchor><fr:addr
+type="user">nt-003O</fr:addr><fr:route>nt-003O.xml</fr:route><fr:title
+text="Primitive Element Theorem">Primitive Element Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define <fr:em>the</fr:em> empty set to be the constant denoted <fr:tex
-display="inline"><![CDATA[\emptyset ]]></fr:tex> (or sometimes <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>).</fr:p><fr:p>We need to prove this is well-defined. For constants, this means proving it exists and is unique.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Any finite separable extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is simple. In particular, any finite extensions of a <fr:link
+type="local"
+href="nt-002A.xml"
+addr="nt-002A"
+title="Perfect field">Perfect field</fr:link> is simple.</fr:p>
  
    
    <fr:tree
@@ -76,42 +52,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2809</fr:anchor><fr:addr
-type="machine">#355</fr:addr><fr:route>unstable-355.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1213</fr:anchor><fr:addr
+type="machine">#355</fr:addr><fr:route>unstable-355.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> Take the empty list as a set <fr:tex
-display="inline"><![CDATA[\{\}]]></fr:tex>. This is clearly empty.</fr:p>
-
-<fr:p><fr:strong>Uniqueness:</fr:strong> Suppose we have <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex> both be empty sets. We want to prove <fr:tex
-display="inline"><![CDATA[X=Y]]></fr:tex>. Then for any object <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, we want to prove (1) if <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>, and (2) if <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex> then <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>.</fr:p>
-
-<fr:p>(1) <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Steinitz presented this in its modern form first in his paper <fr:link
 type="local"
-href="nst-002J.xml"
-addr="nst-002J"
-title="Proof by contradiction">Proof by contradiction</fr:link>. Assume <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is <fr:link
-type="local"
-href="nst-0004.xml"
-addr="nst-0004"
-title="Set equality">empty</fr:link>, so <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> cannot have any members. Then we have a contradiction. Hence we can conclude whatever we want, in particular <fr:tex
-display="inline"><![CDATA[x\in  Y]]></fr:tex>.</fr:p>
-
-<fr:p>(2) The argument is the same but switching <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+href="steinitz-1910-algebraische.xml"
+addr="steinitz-1910-algebraische"
+title="Algebraische Theorie der Körper">Algebraische Theorie der Körper</fr:link> (1910).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

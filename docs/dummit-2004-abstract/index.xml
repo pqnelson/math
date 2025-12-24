@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/david-s-dummit/" title="David Steven Dummit" uri="http://localhost:8000/david-s-dummit/" display-uri="david-s-dummit" type="local">David Steven Dummit</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/richard-m-foote/" title="Richard M. Foote" uri="http://localhost:8000/richard-m-foote/" display-uri="richard-m-foote" type="local">Richard M. Foote</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:uri>http://localhost:8000/dummit-2004-abstract/</fr:uri>
+    <fr:display-uri>dummit-2004-abstract</fr:display-uri>
+    <fr:route>/dummit-2004-abstract/</fr:route>
+    <fr:title text="Abstract Algebra">Abstract Algebra</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="bibtex"><![CDATA[@book{dummit2004abstract,
+  title={Abstract algebra},
+  author={Dummit, David Steven and Foote, Richard M.},
+  edition={Third},
+  year={2004},
+  publisher={Wiley}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>References to theorems will be made by <html:code>⟨chapter⟩.⟨section⟩.⟨theorem number⟩</html:code>, but references to definitions will be made by <html:code>⟨chapter⟩.⟨section⟩</html:code>.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-000T/</fr:uri>
+            <fr:display-uri>nt-000T</fr:display-uri>
+            <fr:route>/nt-000T/</fr:route>
+            <fr:title text="Algebraic Element">Algebraic Element</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 13.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>. An element <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> is called <html:dfn>Algebraic Over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex></html:dfn> if there is some nonzero <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p(\alpha )=0]]></fr:tex>. Otherwise we say <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is <html:dfn>Transcendental</html:dfn> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+            <html:p>When all elements of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> are algebraic elements over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we say the field extension <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is an <html:dfn>Algebraic Extension</html:dfn>. Otherwise we say <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a <html:dfn>Transcendental Extension</html:dfn>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-000K/</fr:uri>
+            <fr:display-uri>nt-000K</fr:display-uri>
+            <fr:route>/nt-000K/</fr:route>
+            <fr:title text="Generic form a finite field extension">Generic form a finite field extension</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 13.1.4</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> be a nonconstant irreducible polynomial of degree <fr:tex display="inline"><![CDATA[\deg (p)=n]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[\Bbbk =\mathbb {F}[x]/(p(x))]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be the image of <fr:tex display="inline"><![CDATA[x]]></fr:tex> under the quotient map
+<fr:tex display="block"><![CDATA[\pi \colon \mathbb {F}[x]\twoheadrightarrow \Bbbk ,]]></fr:tex>
+then <fr:tex display="inline"><![CDATA[\{1,\alpha ,…,\alpha ^{n-1}\}]]></fr:tex> is a basis for <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> as a vector space over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. In particular, <fr:tex display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]=n]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see <fr:tex display="inline"><![CDATA[\{1,\alpha ,…,\alpha ^{n-1}\}]]></fr:tex> spans <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> as a vector space since it is the image of <fr:tex display="inline"><![CDATA[\{1,x,…,x^{n-1},…\}]]></fr:tex> and that spans <fr:tex display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> be the image of some <fr:tex display="inline"><![CDATA[b(x)\in \mathbb {F}[x]]]></fr:tex>. By the division algorithm,
+<fr:tex display="block"><![CDATA[b(x)=q(x)p(x)+r(x)]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[0\leq \deg (r)<n=\deg (p)]]></fr:tex>. Observe if <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[x]]></fr:tex> under the quotient map, then
+<fr:tex display="block"><![CDATA[b(\alpha )=q(\alpha )\cdot 0+r(\alpha )=r(\alpha ).]]></fr:tex>
+Since <fr:tex display="inline"><![CDATA[\deg (r)<n]]></fr:tex>, we have
+<fr:tex display="block"><![CDATA[b(\alpha )=c_{0}+c_{1}\alpha +…+c_{n-1}\alpha ^{n-1},]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[b(\alpha )=\beta \in \mathop {\textrm {span}}\nolimits (1,\alpha ,…,\alpha ^{n-1})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> was arbitrary, and we showed it was a linear combination of the proposed basis, we have obtained the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-000P/</fr:uri>
+            <fr:display-uri>nt-000P</fr:display-uri>
+            <fr:route>/nt-000P/</fr:route>
+            <fr:title text="Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials">Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 13.1.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>, let <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> be <fr:link href="/ra-001U/" title="Irreducible element" uri="http://localhost:8000/ra-001U/" display-uri="ra-001U" type="local">irreducible</fr:link>, let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be a root of <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )\subseteq \Bbbk ]]></fr:tex> be a <fr:link href="/nt-000M/" title="Field Generated by elements" uri="http://localhost:8000/nt-000M/" display-uri="nt-000M" type="local">field generated</fr:link> by <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>. Then the map
+<fr:tex display="block"><![CDATA[\begin {split}e_{\alpha }\colon &\mathbb {F}[x]/(p(x))\to \mathbb {F}(\alpha )\\
+&g(x)\mapsto  g(\alpha )\end {split}]]></fr:tex>
+is an isomorphism.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>The choice of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> in this theorem is irrelevant.</fr:mainmatter></fr:tree>
+ 
+
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see <fr:tex display="inline"><![CDATA[\mathbb {F}[x]/(p(x))]]></fr:tex> is a field since <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> is irreducible. Since <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> is nonzero, <fr:link href="/nt-000E/" title="Morphisms of fields are injective or zero" uri="http://localhost:8000/nt-000E/" display-uri="nt-000E" type="local">it must be injective</fr:link>. Then the image of <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> must be a subfield of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> and also contained in <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>, in particular the image of <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> must contain <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[F(\alpha )]]></fr:tex> is the minimal such field, <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> must be surjective.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-003X/</fr:uri>
+            <fr:display-uri>ra-003X</fr:display-uri>
+            <fr:route>/ra-003X/</fr:route>
+            <fr:title text="Submodule criteria">Submodule criteria</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 10.1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>, let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be an <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module, and let <fr:tex display="inline"><![CDATA[N\subseteq  M]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[M]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[N]]></fr:tex> is a submodule of <fr:tex display="inline"><![CDATA[M]]></fr:tex> if and only if
+<html:ol><html:li><fr:tex display="inline"><![CDATA[N\neq \emptyset ]]></fr:tex> and</html:li>
+<html:li>for all <fr:tex display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[x,y\in  N]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[x+ry\in  N]]></fr:tex>.</html:li></html:ol></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-004S/</fr:uri>
+            <fr:display-uri>ra-004S</fr:display-uri>
+            <fr:route>/ra-004S/</fr:route>
+            <fr:title text="Submodules of a rank n free module over a PID are free and have rank less than or equal to n">Submodules of a rank <fr:tex display="inline"><![CDATA[n]]></fr:tex> free module over a PID are free and have rank less than or equal to <fr:tex display="inline"><![CDATA[n]]></fr:tex></fr:title>
+            <fr:taxon>lemma</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 12.1.4</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-001M/" title="Principal Ideal Domain" uri="http://localhost:8000/ra-001M/" display-uri="ra-001M" type="local">Principal Ideal Domain</fr:link>, let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be an <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module. If <fr:tex display="inline"><![CDATA[M\leq  R^{n}]]></fr:tex> is free, then <fr:tex display="inline"><![CDATA[M]]></fr:tex> is free and  the <fr:link href="/ra-004T/" title="Rank of a module" uri="http://localhost:8000/ra-004T/" display-uri="ra-004T" type="local">rank</fr:link> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> is bounded as <fr:tex display="inline"><![CDATA[\mathop {\textrm {rank}}\nolimits (M)\leq  n]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>By induction on <fr:tex display="inline"><![CDATA[n]]></fr:tex>. The base case is trivial.</html:p>
+<html:p>The inductive case, we write <fr:tex display="inline"><![CDATA[R^{n}=R^{n-1}\oplus  R]]></fr:tex> and take <fr:tex display="inline"><![CDATA[F_{0}=R^{n-1}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[M\cap  F_{0}\subseteq  M]]></fr:tex>. Let us call this <fr:tex display="inline"><![CDATA[M_{0}=M\cap  F_{0}]]></fr:tex>. By induction <fr:tex display="inline"><![CDATA[M_{0}]]></fr:tex> is free, finitely-generated of rank at most <fr:tex display="inline"><![CDATA[n-1]]></fr:tex>.</html:p>
+<html:p>If <fr:tex display="inline"><![CDATA[M=M_{0}]]></fr:tex>, then we're done.</html:p>
+<html:p>If <fr:tex display="inline"><![CDATA[M\neq  M_{0}]]></fr:tex>, then we have to consider some element of <fr:tex display="inline"><![CDATA[R]]></fr:tex> which generates the rest of <fr:tex display="inline"><![CDATA[M]]></fr:tex>. We look at
+<fr:tex display="block"><![CDATA[I=\{\alpha \mid \alpha  e_{n}+f_{0}\in  M,f_{0}\in  F_{0}\},]]></fr:tex>
+and the claim is that <fr:tex display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> is a nonzero ideal. This is because <fr:tex display="inline"><![CDATA[I=(0)]]></fr:tex> iff <fr:tex display="inline"><![CDATA[M\subseteq  F_{0}]]></fr:tex>. So <fr:tex display="inline"><![CDATA[I\neq (0)]]></fr:tex> is generated by a single nonzero element (since <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a principal ideal domain), say <fr:tex display="inline"><![CDATA[I=(\gamma )]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[M=M_{0}\oplus  R\omega ]]></fr:tex> where <fr:tex display="inline"><![CDATA[\omega =e_{n}\gamma +f\in  M]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-004X/</fr:uri>
+            <fr:display-uri>ra-004X</fr:display-uri>
+            <fr:route>/ra-004X/</fr:route>
+            <fr:title text="p-Primary Component"><fr:tex display="inline"><![CDATA[p]]></fr:tex>-Primary Component</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 12.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-001M/" title="Principal Ideal Domain" uri="http://localhost:8000/ra-001M/" display-uri="ra-001M" type="local">Principal Ideal Domain</fr:link>, let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be a <fr:link href="/ra-004A/" title="Finitely-Generated Submodule" uri="http://localhost:8000/ra-004A/" display-uri="ra-004A" type="local">finitely-generated</fr:link> <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module. Let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a <fr:link href="/ra-001T/" title="Prime element" uri="http://localhost:8000/ra-001T/" display-uri="ra-001T" type="local">prime element</fr:link> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then a <html:dfn><fr:tex display="inline"><![CDATA[p]]></fr:tex>-Primary Component</html:dfn> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> is a submodule <fr:tex display="inline"><![CDATA[M(p)]]></fr:tex> of <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that:
+<html:ol><html:li><fr:tex display="inline"><![CDATA[M=\bigoplus _{p}M(p)]]></fr:tex>, and</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[M=M(p)]]></fr:tex>, then <fr:tex display="inline"><![CDATA[M=\bigoplus _{i}^{m}R/p^{\alpha _{i}}]]></fr:tex>.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>We have two conditions: either <fr:tex display="inline"><![CDATA[M(p)=\{x\in  M\mid  p^{r}x=0,r\geq 0\}]]></fr:tex>, or <fr:tex display="inline"><![CDATA[M[p^{r}]=\{x\in  M\mid  p^{r}x=0\}]]></fr:tex> where <fr:tex display="inline"><![CDATA[p^{r}\mathrel {\bigm |}\mathop {\textrm {Ann}}\nolimits _{R}(M)]]></fr:tex>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-0029/</fr:uri>
+            <fr:display-uri>ra-0029</fr:display-uri>
+            <fr:route>/ra-0029/</fr:route>
+            <fr:title text="Abstract Chinese Remainder Theorem">Abstract Chinese Remainder Theorem</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 7.6.17</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Theorem III.2.25</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>. Let <fr:tex display="inline"><![CDATA[I]]></fr:tex> and <fr:tex display="inline"><![CDATA[J]]></fr:tex> be <fr:link href="/ra-0024/" title="Comaximal ideals" uri="http://localhost:8000/ra-0024/" display-uri="ra-0024" type="local">comaximal</fr:link> <fr:link href="/ra-0011/" title="Ideal" uri="http://localhost:8000/ra-0011/" display-uri="ra-0011" type="local">two-sided ideals</fr:link> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then
+<html:ol><html:li>the map
+<fr:tex display="block"><![CDATA[R/(I\cap  J)\to  (R/I)\times (R/J)]]></fr:tex>
+defined by sending <fr:tex display="inline"><![CDATA[x\mapsto (x+I,x+J)]]></fr:tex> is a <fr:link href="/ra-000X/" title="Ring Isomorphism" uri="http://localhost:8000/ra-000X/" display-uri="ra-000X" type="local">Ring Isomorphism</fr:link>; and</html:li>
+<html:li>furthermore if we write <fr:tex display="inline"><![CDATA[I\cdot  J=\langle \{ab\in  R\mid  a\in  I,b\in  J\}\rangle ]]></fr:tex> for the two-sided ideal generated by products of elements of <fr:tex display="inline"><![CDATA[I]]></fr:tex> and <fr:tex display="inline"><![CDATA[J]]></fr:tex>, then <fr:tex display="inline"><![CDATA[I\cdot  J=I\cap  J]]></fr:tex>.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) Let <fr:tex display="inline"><![CDATA[\varphi \colon  R\to (R/I)\times (R/J)]]></fr:tex> be the mapping such that <fr:tex display="inline"><![CDATA[\varphi (x)=(x+I,x+J)]]></fr:tex> for any <fr:tex display="inline"><![CDATA[x\in  R]]></fr:tex>. Its kernel is <fr:tex display="inline"><![CDATA[I\cap  J]]></fr:tex>. Then by the <fr:link href="/ra-0018/" title="First Isomorphism Theorem for Rings" uri="http://localhost:8000/ra-0018/" display-uri="ra-0018" type="local">first isomorphism theorem</fr:link> <fr:tex display="inline"><![CDATA[\varphi '\colon  R/(I\cap  J)\to (R/I)\times (R/J)]]></fr:tex> is injective because it has a trivial kernel. We need to show it is surjective.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[(u+I,v+J)\in (R/I)\times (R/J)]]></fr:tex>, we want to find <fr:tex display="inline"><![CDATA[x\in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\varphi (x)=(u+I,v+J)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[a\in  I]]></fr:tex>, <fr:tex display="inline"><![CDATA[b\in  J]]></fr:tex> be such that <fr:tex display="inline"><![CDATA[a+b=1]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[x=va+ub]]></fr:tex>, so we can check <fr:tex display="inline"><![CDATA[\varphi '(x)=(a+A,b+B)]]></fr:tex>. We find
+<fr:tex display="block"><![CDATA[\begin {align*}x
+&\equiv  ub\bmod {I}\\
+&\equiv  (1-a)u\bmod {I}\\
+&\equiv  u\bmod {I}\end {align*}]]></fr:tex>
+and similarly <fr:tex display="inline"><![CDATA[x\equiv  v\bmod {B}]]></fr:tex> as desired.</html:p>
+<html:p>(2) Since <fr:tex display="inline"><![CDATA[I]]></fr:tex> and <fr:tex display="inline"><![CDATA[J]]></fr:tex> are comaximal, there exists <fr:tex display="inline"><![CDATA[a\in  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[b\in  J]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a+b=1]]></fr:tex>. We want to show <fr:tex display="inline"><![CDATA[I\cap  J\subseteq  I\cdot  J]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[x\in  I\cap  J]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[x=x\cdot 1=xa+xb]]></fr:tex>, so <fr:tex display="inline"><![CDATA[xa\in  JI]]></fr:tex> and <fr:tex display="inline"><![CDATA[xb\in  IJ]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[x\in  I\cdot  J]]></fr:tex>.</html:p>
+<html:p>We see <fr:tex display="inline"><![CDATA[I\cap  J\supseteq  I\cdot  J]]></fr:tex> obviously.</html:p>
+<html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-0024/</fr:uri>
+            <fr:display-uri>ra-0024</fr:display-uri>
+            <fr:route>/ra-0024/</fr:route>
+            <fr:title text="Comaximal ideals">Comaximal ideals</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 7.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link href="/ra-0003/" title="Commutative Ring" uri="http://localhost:8000/ra-0003/" display-uri="ra-0003" type="local">Commutative Ring</fr:link>. Let <fr:tex display="inline"><![CDATA[A\mathrel {\trianglelefteq } R]]></fr:tex> and <fr:tex display="inline"><![CDATA[B\mathrel {\trianglelefteq } R]]></fr:tex> be <fr:link href="/ra-0011/" title="Ideal" uri="http://localhost:8000/ra-0011/" display-uri="ra-0011" type="local">ideals</fr:link> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> are <html:dfn>Comaximal</html:dfn> if their <fr:link href="/ra-0025/" title="Adding ideals" uri="http://localhost:8000/ra-0025/" display-uri="ra-0025" type="local">sum</fr:link> is the entire ring <fr:tex display="inline"><![CDATA[A+B=R]]></fr:tex>.</html:p>
+            <html:p>We see that this is a symmetric predicate in <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> since <fr:tex display="inline"><![CDATA[A+B=B+A]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-002V/</fr:uri>
+            <fr:display-uri>ra-002V</fr:display-uri>
+            <fr:route>/ra-002V/</fr:route>
+            <fr:title text="Eisenstein criteria of reducibility">Eisenstein criteria of reducibility</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 9.4.13</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be an <fr:link href="/ra-000H/" title="Integral domain" uri="http://localhost:8000/ra-000H/" display-uri="ra-000H" type="local">Integral domain</fr:link>, let <fr:tex display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Let <fr:tex display="inline"><![CDATA[f(x)\in  R[x]]]></fr:tex> be a (nonconstant) monic polynomial
+<fr:tex display="block"><![CDATA[f(x)=x^{n}+a_{n-1}x^{n-1}+…+a_{1}x+a_{0}.]]></fr:tex>
+Let <fr:tex display="inline"><![CDATA[P\mathrel {\trianglelefteq } R]]></fr:tex> be a <fr:link href="/ra-001D/" title="Prime Ideal" uri="http://localhost:8000/ra-001D/" display-uri="ra-001D" type="local">prime ideal</fr:link> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Suppose for all <fr:tex display="inline"><![CDATA[j=1,…,n]]></fr:tex> we have <fr:tex display="inline"><![CDATA[p_{j}\in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:link href="/nst-002J/" title="Proof by contradiction" uri="http://localhost:8000/nst-002J/" display-uri="nst-002J" type="local">Proof by contradiction</fr:link>. Assume for contradiction <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> were reducible, say <fr:tex display="inline"><![CDATA[f(x)=a(x)b(x)]]></fr:tex> in <fr:tex display="inline"><![CDATA[R[x]]]></fr:tex> where <fr:tex display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex display="inline"><![CDATA[b(x)]]></fr:tex> are nonconstant polynomials. Reducing this equation modulo <fr:tex display="inline"><![CDATA[P]]></fr:tex> and using the assumption on the coefficients of <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex>, we obtain the equation
+<fr:tex display="block"><![CDATA[x^{n}=\overline {a(x)b(x)}]]></fr:tex>
+in <fr:tex display="inline"><![CDATA[(R/P)[x]]]></fr:tex> where the bar denotes the polynomials with coefficients reduced modulo <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</html:p>
+<html:p>Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a prime ideal, <fr:tex display="inline"><![CDATA[R/P]]></fr:tex> is an integral domain (by <fr:link href="/ra-001F/" title="Ideal is prime iff quotient ring is integral domain" uri="http://localhost:8000/ra-001F/" display-uri="ra-001F" type="local">Ideal is prime iff quotient ring is integral domain</fr:link>). Then both <fr:tex display="inline"><![CDATA[\overline {a(x)}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {b(x)}]]></fr:tex> have 0 constant terms, i.e., the constant terms of both <fr:tex display="inline"><![CDATA[a(x)]]></fr:tex> and <fr:tex display="inline"><![CDATA[b(x)]]></fr:tex> belong to <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</html:p>
+<html:p>But then the constant term <fr:tex display="inline"><![CDATA[a_{0}]]></fr:tex> of <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> may be written as the product of these two, which contradicts the hypothesis that <fr:tex display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-002U/</fr:uri>
+            <fr:display-uri>ra-002U</fr:display-uri>
+            <fr:route>/ra-002U/</fr:route>
+            <fr:title text="Factorization of formal polynomials with coefficients in UFDs">Factorization of formal polynomials with coefficients in UFDs</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 9.3.5</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-001Z/" title="Unique Factorization Domain" uri="http://localhost:8000/ra-001Z/" display-uri="ra-001Z" type="local">Unique Factorization Domain</fr:link>, let <fr:tex display="inline"><![CDATA[\mathbb {F}=\mathop {\textrm {Frac}}\nolimits (R)]]></fr:tex> be its <fr:link href="/ra-002B/" title="Universal property of field of fractions" uri="http://localhost:8000/ra-002B/" display-uri="ra-002B" type="local">field of fractions</fr:link>, let <fr:tex display="inline"><![CDATA[x]]></fr:tex> be a formal variable. Let <fr:tex display="inline"><![CDATA[p(x)\in  R[x]]]></fr:tex>.</html:p><html:p>If <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> is reducible in <fr:tex display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex>, then <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> is reducible in <fr:tex display="inline"><![CDATA[R[x]]]></fr:tex>. More precisely: if <fr:tex display="inline"><![CDATA[p(x)=A(x)B(x)]]></fr:tex> for some nonconstant polynomials <fr:tex display="inline"><![CDATA[A(x),B(x)\in \mathbb {F}[x]]]></fr:tex>, then there are nonzero elements <fr:tex display="inline"><![CDATA[r,s\in \mathbb {F}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[rA(x)=a(x)]]></fr:tex> and <fr:tex display="inline"><![CDATA[sB(x)=b(x)]]></fr:tex> both lie in <fr:tex display="inline"><![CDATA[R[x]]]></fr:tex> and <fr:tex display="inline"><![CDATA[p(x)=a(x)b(x)]]></fr:tex> is a factorization in <fr:tex display="inline"><![CDATA[R[x]]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>This is called "Gauss's Lemma", but as far as I can tell, like most things named after Gauss, it's completely unmerited.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-002N/</fr:uri>
+            <fr:display-uri>ra-002N</fr:display-uri>
+            <fr:route>/ra-002N/</fr:route>
+            <fr:title text="Fundamental Theorem of Arithmetic">Fundamental Theorem of Arithmetic</fr:title>
+            <fr:taxon>corollary</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Corollary 8.3.15</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The integers are a unique factorization domain.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-0021/</fr:uri>
+            <fr:display-uri>ra-0021</fr:display-uri>
+            <fr:route>/ra-0021/</fr:route>
+            <fr:title text="In a UFD, elements are irreducible iff prime">In a UFD, elements are irreducible iff prime</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 8.3.12</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-001Z/" title="Unique Factorization Domain" uri="http://localhost:8000/ra-001Z/" display-uri="ra-001Z" type="local">Unique Factorization Domain</fr:link>, let <fr:tex display="inline"><![CDATA[p\in  R]]></fr:tex> be an element of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[p]]></fr:tex> is <fr:link href="/ra-001T/" title="Prime element" uri="http://localhost:8000/ra-001T/" display-uri="ra-001T" type="local">prime</fr:link> if and only if <fr:tex display="inline"><![CDATA[p]]></fr:tex> is <fr:link href="/ra-001U/" title="Irreducible element" uri="http://localhost:8000/ra-001U/" display-uri="ra-001U" type="local">irreducible</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Well, since a UFD is an integral domain, this follows immediately from <fr:link href="/ra-001Y/" title="Nonzero prime elements of an integral domain are irreducible" uri="http://localhost:8000/ra-001Y/" display-uri="ra-001Y" type="local">Nonzero prime elements of an integral domain are irreducible</fr:link>.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Assume <fr:tex display="inline"><![CDATA[p]]></fr:tex> is irreducible. We want to prove <fr:tex display="inline"><![CDATA[p]]></fr:tex> is prime.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[a,b\in  R]]></fr:tex> be arbitrary. Assume <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex>. Then there exists some <fr:tex display="inline"><![CDATA[c\in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[ab=pc]]></fr:tex>. We can write the unique factorization of <fr:tex display="inline"><![CDATA[a]]></fr:tex> as
+<fr:tex display="block"><![CDATA[a=u\prod ^{N}_{i=1}p_{i}^{n_{i}}]]></fr:tex>
+and the unique factorization of <fr:tex display="inline"><![CDATA[b]]></fr:tex> as
+<fr:tex display="block"><![CDATA[b=v\prod ^{M}_{j=1}q_{j}^{m_{j}}]]></fr:tex>
+and the unique factorization of <fr:tex display="inline"><![CDATA[c]]></fr:tex> as
+<fr:tex display="block"><![CDATA[c=w\prod ^{L}_{k=1}r_{k}^{\ell _{k}}.]]></fr:tex>
+Then <fr:tex display="inline"><![CDATA[p]]></fr:tex> must <fr:link href="/ra-0022/" title="Associated Irreducibles" uri="http://localhost:8000/ra-0022/" display-uri="ra-0022" type="local">associate</fr:link> with one of the irreducibles appearing in the factorization of <fr:tex display="inline"><![CDATA[a]]></fr:tex> or {b}. We have <fr:tex display="inline"><![CDATA[ab=pc]]></fr:tex> be
+<fr:tex display="block"><![CDATA[uv\prod ^{N}_{i=1}p_{i}^{n_{i}}\prod ^{M}_{j=1}q_{j}^{m_{j}}=wp\prod ^{L}_{k=1}r_{k}^{\ell _{k}},]]></fr:tex>
+and by uniqueness of the factorizations <fr:tex display="inline"><![CDATA[N+M-1=L]]></fr:tex>, and either
+<fr:tex display="block"><![CDATA[p_{i}=pu'\quad \hbox {for some }i\hbox { and }u'\in R^{\times }]]></fr:tex>
+(which means <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex>),
+or
+<fr:tex display="block"><![CDATA[q_{j}=pu'\quad \hbox {for some }j\hbox { and }u'\in R^{\times }]]></fr:tex>
+(which means <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>).
+Hence <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} ab]]></fr:tex> implies <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} a]]></fr:tex> or <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} b]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[p]]></fr:tex> is a prime element of <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-002M/</fr:uri>
+            <fr:display-uri>ra-002M</fr:display-uri>
+            <fr:route>/ra-002M/</fr:route>
+            <fr:title text="Principal ideal domains are unique factorization domains">Principal ideal domains are unique factorization domains</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 8.3.14</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-001M/" title="Principal Ideal Domain" uri="http://localhost:8000/ra-001M/" display-uri="ra-001M" type="local">Principal Ideal Domain</fr:link>, let <fr:tex display="inline"><![CDATA[a\in  R]]></fr:tex> be a nonzero non-invertible element of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then there exists <fr:link href="/ra-001U/" title="Irreducible element" uri="http://localhost:8000/ra-001U/" display-uri="ra-001U" type="local">irreducible elements</fr:link> <fr:tex display="inline"><![CDATA[p_{1},…,p_{n}\in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a=p_{1}(…)p_{n}]]></fr:tex>. Further, if <fr:tex display="inline"><![CDATA[q_{1},…,q_{m}\in  R]]></fr:tex> are irreducible and such that <fr:tex display="inline"><![CDATA[a=q_{1}(…)q_{m}]]></fr:tex> then <fr:tex display="inline"><![CDATA[m=n]]></fr:tex> and for each <fr:tex display="inline"><![CDATA[i=1,…,n]]></fr:tex> we have <fr:tex display="inline"><![CDATA[q_{i}=u_{i}p_{i}]]></fr:tex> where <fr:tex display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> is a unit.</html:p><html:p>In other words, <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a <fr:link href="/ra-001Z/" title="Unique Factorization Domain" uri="http://localhost:8000/ra-001Z/" display-uri="ra-001Z" type="local">Unique Factorization Domain</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>There are two claims: (1) there is a factorization, and (2) the factorization is unique.</html:p>
+<html:p><html:strong>Claim 1: Existence of a factorization.</html:strong> Assume for contradiction <fr:tex display="inline"><![CDATA[a\in  R]]></fr:tex> does not have a factorization. Then <fr:tex display="inline"><![CDATA[ua\in  R]]></fr:tex> does not have a factorization for any unit <fr:tex display="inline"><![CDATA[u\in R^{\times }]]></fr:tex>.</html:p>
+<html:p>We setup a set
+<fr:tex display="block"><![CDATA[S:=\{(r)\mathrel {\triangleleft } R\mid  r\hbox { does not have a factorization into irreducibles}\}.]]></fr:tex>
+Assume for contradiction that <fr:tex display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex>.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[(a)]]></fr:tex> be a maximal element of <fr:tex display="inline"><![CDATA[S]]></fr:tex> by <fr:link href="/zorn's-lemma/" title="Zorn's lemma" uri="http://localhost:8000/zorn's-lemma/" display-uri="zorn's-lemma" type="local">Zorn's lemma</fr:link>. We have <fr:tex display="inline"><![CDATA[a]]></fr:tex> is not irreducible, so by definition we can write it as <fr:tex display="inline"><![CDATA[a=xy]]></fr:tex> where <fr:tex display="inline"><![CDATA[x,y\notin R^{\times }]]></fr:tex> are not units, so
+<fr:tex display="block"><![CDATA[(a)\subset (x)]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[(a)\subset (y)]]></fr:tex>
+are proper subsets.</html:p>
+<html:p>But since <fr:tex display="inline"><![CDATA[(a)]]></fr:tex> is a maximal element of a chain, <fr:tex display="inline"><![CDATA[(x)\notin  S]]></fr:tex> and <fr:tex display="inline"><![CDATA[(y)\notin  S]]></fr:tex>, so <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> have a factorization. This gives us a contradiction, which means our assumption <fr:tex display="inline"><![CDATA[S\neq \emptyset ]]></fr:tex> is wrong. We conclude <fr:tex display="inline"><![CDATA[S=\emptyset ]]></fr:tex>. Hence we've proven the factorization of elements exists.</html:p>
+<html:p><html:strong>Claim 2: Uniqueness of factorization.</html:strong> This may be proven in many, many ways. Assume for contradiction this is not true, so we may factorize
+<fr:tex display="block"><![CDATA[\prod ^{n}_{i}p_{i}=\prod ^{m}_{j}q_{j},]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[n]]></fr:tex> is minimal (i.e., the factorization <fr:tex display="inline"><![CDATA[\prod ^{n}_{i}p_{i}]]></fr:tex> is the smallest possible factorization with fewest possible factors).</html:p>
+<html:p>We have <fr:tex display="inline"><![CDATA[n\geq 1]]></fr:tex>, <fr:tex display="inline"><![CDATA[p=p_{1}]]></fr:tex> divides <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |}\prod  q_{j}]]></fr:tex>. Then there exists a <fr:tex display="inline"><![CDATA[j_{0}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p\mathrel {\bigm |} q_{j_{0}}]]></fr:tex> since <fr:tex display="inline"><![CDATA[p_{i}]]></fr:tex> and <fr:tex display="inline"><![CDATA[q_{j}]]></fr:tex> are all prime and irreducible. Then <fr:tex display="inline"><![CDATA[p=uq_{j_{0}}]]></fr:tex> for some unit <fr:tex display="inline"><![CDATA[u\in R^{\times }]]></fr:tex> (since <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[q_{j_{0}}]]></fr:tex> are irreducible). Then
+<fr:tex display="block"><![CDATA[p_{1}\prod ^{n}_{i=2}p_{i}=(uq_{j_{0}})u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}]]></fr:tex>
+which implies
+<fr:tex display="block"><![CDATA[\prod ^{n}_{i=2}p_{i}=u^{-1}\prod ^{m}_{j\neq  j_{0}}q_{j}.]]></fr:tex>
+This contradicts the assumption that <fr:tex display="inline"><![CDATA[\prod ^{n}_{i=1}p_{i}]]></fr:tex> is the minimal factorization.</html:p>
+<html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-003E/</fr:uri>
+            <fr:display-uri>ra-003E</fr:display-uri>
+            <fr:route>/ra-003E/</fr:route>
+            <fr:title text="Universal property of free modules">Universal property of free modules</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 10.3.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>. There exists an <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module <fr:tex display="inline"><![CDATA[F(A)]]></fr:tex> called the <html:dfn>Free Module of <fr:tex display="inline"><![CDATA[A]]></fr:tex></html:dfn> such that: for any <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module <fr:tex display="inline"><![CDATA[M]]></fr:tex> and function of sets <fr:tex display="inline"><![CDATA[\varphi \colon  A\to  M]]></fr:tex>, there exists a unique <fr:tex display="inline"><![CDATA[R]]></fr:tex>-linear map <fr:tex display="inline"><![CDATA[\Phi \colon  F(A)\to  M]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\Phi (a)=\varphi (a)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001N/</fr:uri>
+            <fr:display-uri>ra-001N</fr:display-uri>
+            <fr:route>/ra-001N/</fr:route>
+            <fr:title text="Euclidean Domain">Euclidean Domain</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 8.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>An <fr:link href="/ra-000H/" title="Integral domain" uri="http://localhost:8000/ra-000H/" display-uri="ra-000H" type="local">Integral domain</fr:link> <fr:tex display="inline"><![CDATA[R]]></fr:tex> is said to be a <html:dfn>Euclidean Domain</html:dfn> if there is a norm <fr:tex display="inline"><![CDATA[N\colon  R\to \mathbb {N}_{0}]]></fr:tex> such that for any two elements <fr:tex display="inline"><![CDATA[a,b\in  R]]></fr:tex> with <fr:tex display="inline"><![CDATA[b\neq 0]]></fr:tex>, there exists elements [the quotient] <fr:tex display="inline"><![CDATA[q\in  R]]></fr:tex> and [the remainder] <fr:tex display="inline"><![CDATA[r\in  R]]></fr:tex> such that
+<fr:tex display="block"><![CDATA[a=qb+r]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[r=0\quad \hbox {or}\quad  N(r)<N(b).]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001P/</fr:uri>
+            <fr:display-uri>ra-001P</fr:display-uri>
+            <fr:route>/ra-001P/</fr:route>
+            <fr:title text="Euclidean Domains are Principal Ideal Domains">Euclidean Domains are Principal Ideal Domains</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 8.1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Every ideal in a <fr:link href="/ra-001N/" title="Euclidean Domain" uri="http://localhost:8000/ra-001N/" display-uri="ra-001N" type="local">Euclidean Domain</fr:link> is <fr:link href="/ra-001B/" title="Principal Ideal" uri="http://localhost:8000/ra-001B/" display-uri="ra-001B" type="local">principal</fr:link>: if <fr:tex display="inline"><![CDATA[R]]></fr:tex> is any Euclidean domain and <fr:tex display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> with <fr:tex display="inline"><![CDATA[0\neq  I]]></fr:tex>, then <fr:tex display="inline"><![CDATA[I=(d)]]></fr:tex> where <fr:tex display="inline"><![CDATA[d]]></fr:tex> is any nonzero element of <fr:tex display="inline"><![CDATA[I]]></fr:tex> of minimum norm.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001L/</fr:uri>
+            <fr:display-uri>ra-001L</fr:display-uri>
+            <fr:route>/ra-001L/</fr:route>
+            <fr:title text="Field morphisms are injective nonzero ring morphisms">Field morphisms are injective nonzero ring morphisms</fr:title>
+            <fr:taxon>corollary</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Corollary 7.4.10</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>If <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, then any nonzero <fr:link href="/ra-000T/" title="Ring morphism" uri="http://localhost:8000/ra-000T/" display-uri="ra-000T" type="local">Ring morphism</fr:link> from <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> into another ring must be an <fr:link href="/ela-001J/" title="Injective function" uri="http://localhost:8000/ela-001J/" display-uri="ela-001J" type="local">Injective function</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The <fr:link href="/ra-0012/" title="Kernel of a ring morphism" uri="http://localhost:8000/ra-0012/" display-uri="ra-0012" type="local">Kernel of a ring morphism</fr:link> is an ideal. The kernel of a nonzero morphism is a proper ideal, hence must be 0 by <fr:link href="/ra-001L/" title="Field morphisms are injective nonzero ring morphisms" uri="http://localhost:8000/ra-001L/" display-uri="ra-001L" type="local">Field morphisms are injective nonzero ring morphisms</fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001K/</fr:uri>
+            <fr:display-uri>ra-001K</fr:display-uri>
+            <fr:route>/ra-001K/</fr:route>
+            <fr:title text="Fields only have trivial ideals">Fields only have trivial ideals</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 7.4.9(2)</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-0003/" title="Commutative Ring" uri="http://localhost:8000/ra-0003/" display-uri="ra-0003" type="local">Commutative Ring</fr:link>. Then <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link> if and only if its only ideals are <fr:tex display="inline"><![CDATA[0]]></fr:tex> and <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a field iff every nonzero element is a unit (by <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">definition of a field</fr:link>).</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> If <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a field, then every nonzero ideal contains a unit, which means that <fr:tex display="inline"><![CDATA[R]]></fr:tex> is the only nonzero ideal.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose the only ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is the trivial ideal and <fr:tex display="inline"><![CDATA[R]]></fr:tex> itself. Let <fr:tex display="inline"><![CDATA[u]]></fr:tex> be any nonzero element of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[(u)=R]]></fr:tex> so <fr:tex display="inline"><![CDATA[1\in (u)]]></fr:tex>. Hence there must be some <fr:tex display="inline"><![CDATA[v\in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[1=vu]]></fr:tex> (i.e., <fr:tex display="inline"><![CDATA[u]]></fr:tex> is a <fr:link href="/ra-000I/" title="Unit" uri="http://localhost:8000/ra-000I/" display-uri="ra-000I" type="local">unit</fr:link>). Therefore every nonzero element of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a unit, hence <fr:tex display="inline"><![CDATA[R]]></fr:tex> must be a field.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-0011/</fr:uri>
+            <fr:display-uri>ra-0011</fr:display-uri>
+            <fr:route>/ra-0011/</fr:route>
+            <fr:title text="Ideal">Ideal</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 7.3</fr:meta>
+            <fr:meta name="source">Artin <fr:link href="/artin-2010-algebra/" title="Algebra" uri="http://localhost:8000/artin-2010-algebra/" display-uri="artin-2010-algebra" type="local">Algebra</fr:link> Section 11.3</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Section III.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>. A <html:dfn>(Two-Sided) Ideal</html:dfn> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[I]]></fr:tex> is a <fr:link href="/ra-000Z/" title="Left ideal of a ring" uri="http://localhost:8000/ra-000Z/" display-uri="ra-000Z" type="local">left ideal</fr:link> and a <fr:link href="/ra-0010/" title="Right ideal of a ring" uri="http://localhost:8000/ra-0010/" display-uri="ra-0010" type="local">right ideal</fr:link> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p><html:p>Furthermore, when <fr:tex display="inline"><![CDATA[I\neq  R]]></fr:tex> we say <fr:tex display="inline"><![CDATA[I]]></fr:tex> is a <html:dfn>Proper (two-sided) ideal</html:dfn> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p><html:p>Some authors use the notation <fr:tex display="inline"><![CDATA[I\mathrel {\trianglelefteq }R]]></fr:tex> to indicate <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an ideal of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, as well as <fr:tex display="inline"><![CDATA[I\mathrel {\triangleleft }R]]></fr:tex> for proper ideals, analogous to the notation used for <fr:link href="/gr-002P/" title="Normal subgroup" uri="http://localhost:8000/gr-002P/" display-uri="gr-002P" type="local">Normal subgroup</fr:link>s.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) For commutative rings, any left ideal is also a right ideal, and so we just speak of "ideals".</html:p>
+<html:p>(2) "Ideal" originally described "ideal elements" adjoined to a ring, which are not "real".</html:p>
+<html:p>(3) A two-sided ideal forms a <fr:link href="/ra-000Q/" title="Subring" uri="http://localhost:8000/ra-000Q/" display-uri="ra-000Q" type="local">Subring</fr:link> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, same for one-sided ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p>
+<html:p>(4) Traditionally, the historic notation used to indicate we're working with ideals was to use fraktur letters (<fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathfrak {c}]]></fr:tex>, and so on). This was a horrible decision. Modern conventions use <fr:tex display="inline"><![CDATA[I]]></fr:tex>, <fr:tex display="inline"><![CDATA[J]]></fr:tex>, and variants using apostrophes or indices.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001J/</fr:uri>
+            <fr:display-uri>ra-001J</fr:display-uri>
+            <fr:route>/ra-001J/</fr:route>
+            <fr:title text="Ideal generated by a set">Ideal generated by a set</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 7.4</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link> with <fr:tex display="inline"><![CDATA[1\neq 0]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[A\subseteq  R]]></fr:tex> be any subset of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then the <html:dfn>Ideal Generated by <fr:tex display="inline"><![CDATA[A]]></fr:tex></html:dfn> is the ideal <fr:tex display="inline"><![CDATA[\langle  A\rangle ]]></fr:tex> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> equal to
+<fr:tex display="block"><![CDATA[\langle  A\rangle  = \bigcap _{A\subseteq  I\mathrel {\trianglelefteq } R}I.]]></fr:tex>
+This is the smallest ideal of <fr:tex display="inline"><![CDATA[R]]></fr:tex> containing <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:p>
+            <html:p>When <fr:tex display="inline"><![CDATA[A=\{a_{1},…,a_{n}\}]]></fr:tex> is a finite set, then we just write <fr:tex display="inline"><![CDATA[\langle  a_{1},…,a_{n}\rangle ]]></fr:tex> or <fr:tex display="inline"><![CDATA[(a_{1},…,a_{n})]]></fr:tex> for the ideal generated by <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:p>
+            <html:p><html:strong>Exercise:</html:strong> What is <fr:tex display="inline"><![CDATA[\langle \emptyset \rangle ]]></fr:tex> the ideal generated by the empty set?</html:p>
+            <html:p><html:strong>Exercise:</html:strong> If we allow <fr:tex display="inline"><![CDATA[R]]></fr:tex> to be a nonunital ring, then is the ideal generated by a set still well-defined?</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001E/</fr:uri>
+            <fr:display-uri>ra-001E</fr:display-uri>
+            <fr:route>/ra-001E/</fr:route>
+            <fr:title text="Ideal is maximal iff quotient ring is field">Ideal is maximal iff quotient ring is field</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 7.4.12</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-0003/" title="Commutative Ring" uri="http://localhost:8000/ra-0003/" display-uri="ra-0003" type="local">Commutative Ring</fr:link>, let <fr:tex display="inline"><![CDATA[M\mathrel {\triangleleft } R]]></fr:tex> be an ideal. Then <fr:tex display="inline"><![CDATA[M]]></fr:tex> is <fr:link href="/ra-001C/" title="Maximal ideal" uri="http://localhost:8000/ra-001C/" display-uri="ra-001C" type="local">Maximal ideal</fr:link> if and only if the <fr:link href="/ra-0015/" title="Quotient Ring" uri="http://localhost:8000/ra-0015/" display-uri="ra-0015" type="local">Quotient Ring</fr:link> <fr:tex display="inline"><![CDATA[R/M]]></fr:tex> is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001F/</fr:uri>
+            <fr:display-uri>ra-001F</fr:display-uri>
+            <fr:route>/ra-001F/</fr:route>
+            <fr:title text="Ideal is prime iff quotient ring is integral domain">Ideal is prime iff quotient ring is integral domain</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 7.4.13</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-0003/" title="Commutative Ring" uri="http://localhost:8000/ra-0003/" display-uri="ra-0003" type="local">Commutative Ring</fr:link>, let <fr:tex display="inline"><![CDATA[P\mathrel {\triangleleft } R]]></fr:tex> be an ideal. Then <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <fr:link href="/ra-001D/" title="Prime Ideal" uri="http://localhost:8000/ra-001D/" display-uri="ra-001D" type="local">Prime Ideal</fr:link> if and only if the <fr:link href="/ra-0015/" title="Quotient Ring" uri="http://localhost:8000/ra-0015/" display-uri="ra-0015" type="local">Quotient Ring</fr:link> <fr:tex display="inline"><![CDATA[R/P]]></fr:tex> is a <fr:link href="/ra-000H/" title="Integral domain" uri="http://localhost:8000/ra-000H/" display-uri="ra-000H" type="local">Integral domain</fr:link>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-000Z/</fr:uri>
+            <fr:display-uri>ra-000Z</fr:display-uri>
+            <fr:route>/ra-000Z/</fr:route>
+            <fr:title text="Left ideal of a ring">Left ideal of a ring</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/ideal_1.html#M1" type="external">ideal_1:def 1</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 7.3</fr:meta>
+            <fr:meta name="source">Artin <fr:link href="/artin-2010-algebra/" title="Algebra" uri="http://localhost:8000/artin-2010-algebra/" display-uri="artin-2010-algebra" type="local">Algebra</fr:link> Section 11.3</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Section III.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>. A <html:dfn>Left Ideal</html:dfn> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that
+<html:ol><html:li>for any <fr:tex display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\in  I]]></fr:tex> we have <fr:tex display="inline"><![CDATA[rx\in  I]]></fr:tex>; and</html:li>
+<html:li>for any <fr:tex display="inline"><![CDATA[x,y\in  I]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x+y\in  I]]></fr:tex>.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>We could speak of ideals in more general settings, e.g., rings without negation.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-000L/</fr:uri>
+            <fr:display-uri>ra-000L</fr:display-uri>
+            <fr:route>/ra-000L/</fr:route>
+            <fr:title text="Polynomial ring">Polynomial ring</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ra-0003/" title="Commutative Ring" uri="http://localhost:8000/ra-0003/" display-uri="ra-0003" type="local">Commutative Ring</fr:link>. Let <fr:tex display="inline"><![CDATA[x\notin  R]]></fr:tex> be a formal variable (just a symbol, not a number). We define the <html:dfn>Ring of Polynomials</html:dfn> with coefficients <fr:tex display="inline"><![CDATA[R]]></fr:tex> and in unknown <fr:tex display="inline"><![CDATA[x]]></fr:tex> to be the ring <fr:tex display="inline"><![CDATA[R[x]]]></fr:tex> consisting of formal polynomials which are finite sums
+<fr:tex display="block"><![CDATA[p(x)=\sum ^{n}_{k=0}a_{k}x^{k}]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[a_{n}\neq 0]]></fr:tex>, addition is done with the coefficients of each power, and multiplication is done using the Cauchy convolution product
+<fr:tex display="block"><![CDATA[\left (\sum ^{m}_{j=0}a_{j}x^{j}\right )\left (\sum ^{n}_{k=0}b_{k}x^{k}\right )=\sum ^{m+n}_{k=0}\left (\sum ^{k}_{j=0}a_{j}b_{k-j}\right )x^{k}.]]></fr:tex>
+Then this forms a commutative ring.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) We can extend this to as many unknowns as we want, writing <fr:tex display="inline"><![CDATA[R[x_{1},…,x_{n}]]]></fr:tex> or even <fr:tex display="inline"><![CDATA[R[x_{1},…,x_{n},…]]]></fr:tex> for infinitely many unknowns. Then the sums make use of <fr:link href="/ra-000M/" title="Multi-index" uri="http://localhost:8000/ra-000M/" display-uri="ra-000M" type="local">Multi-index</fr:link> notation. For example, for <fr:tex display="inline"><![CDATA[R[x,y]]]></fr:tex> we have
+<fr:tex display="block"><![CDATA[p(x,y)=\sum ^{n}_{|\alpha |=0}a_{\alpha }x^{\alpha _{1}}y^{\alpha _{2}}]]></fr:tex>
+and so on. In fact, Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> define (Section 9.1) <fr:tex display="inline"><![CDATA[R[x_{1},…,x_{n}]=R[x_{1},…,x_{n-1}][x_{n}]]]></fr:tex>.</html:p>
+<html:p>(2) We could generalize this to noncommutative <fr:tex display="inline"><![CDATA[R]]></fr:tex>, but there are subtle issues which cause problems best left to be revisited in a graduate level algebra course.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-001M/</fr:uri>
+            <fr:display-uri>ra-001M</fr:display-uri>
+            <fr:route>/ra-001M/</fr:route>
+            <fr:title text="Principal Ideal Domain">Principal Ideal Domain</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 7.4</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>An <fr:link href="/ra-000H/" title="Integral domain" uri="http://localhost:8000/ra-000H/" display-uri="ra-000H" type="local">Integral domain</fr:link> <fr:tex display="inline"><![CDATA[R]]></fr:tex> is called a <html:dfn>Principal Ideal Domain</html:dfn> if every ideal is <fr:link href="/ra-001B/" title="Principal Ideal" uri="http://localhost:8000/ra-001B/" display-uri="ra-001B" type="local">principal</fr:link> (i.e., generated by a single element).</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-0015/</fr:uri>
+            <fr:display-uri>ra-0015</fr:display-uri>
+            <fr:route>/ra-0015/</fr:route>
+            <fr:title text="Quotient Ring">Quotient Ring</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 7.3.6</fr:meta>
+            <fr:meta name="source">Artin <fr:link href="/artin-2010-algebra/" title="Algebra" uri="http://localhost:8000/artin-2010-algebra/" display-uri="artin-2010-algebra" type="local">Algebra</fr:link> Section 11.3</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Theorem III.2.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/ring_1.html#K2" type="external">ring_1:def 6</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link> and <fr:tex display="inline"><![CDATA[I\mathrel {\trianglelefteq } R]]></fr:tex> be an <fr:link href="/ra-0011/" title="Ideal" uri="http://localhost:8000/ra-0011/" display-uri="ra-0011" type="local">Ideal</fr:link> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Then the additive quotient group <fr:tex display="inline"><![CDATA[R/I]]></fr:tex> is a ring under the following binary operators
+<fr:tex display="block"><![CDATA[(r+I)+(s+I)=(r+s)+I]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[(r+I)(s+I)=(rs)+I]]></fr:tex>
+for all <fr:tex display="inline"><![CDATA[r,s\in  R]]></fr:tex>.</html:p><html:p>Furthermore,
+<html:ol><html:li>If <fr:tex display="inline"><![CDATA[R]]></fr:tex> is commutative, then <fr:tex display="inline"><![CDATA[R/I]]></fr:tex> is commutative.</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[R]]></fr:tex> is unital, then <fr:tex display="inline"><![CDATA[R/I]]></fr:tex> is unital.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>To prove well-definedness, we should prove <fr:tex display="inline"><![CDATA[R/I]]></fr:tex> equipped with these operators form a ring (since existence and uniqueness follow from the quotient group). Specifically, that multiplication exists and satisfies the various axioms.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-0010/</fr:uri>
+            <fr:display-uri>ra-0010</fr:display-uri>
+            <fr:route>/ra-0010/</fr:route>
+            <fr:title text="Right ideal of a ring">Right ideal of a ring</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/ideal_1.html#M2" type="external">ideal_1:def 2</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 7.3</fr:meta>
+            <fr:meta name="source">Artin <fr:link href="/artin-2010-algebra/" title="Algebra" uri="http://localhost:8000/artin-2010-algebra/" display-uri="artin-2010-algebra" type="local">Algebra</fr:link> Section 11.3</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Section III.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>. A <html:dfn>Right Ideal</html:dfn> of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a nonempty subset <fr:tex display="inline"><![CDATA[I\subseteq  R]]></fr:tex> such that
+<html:ol><html:li>for any <fr:tex display="inline"><![CDATA[r\in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\in  I]]></fr:tex> we have <fr:tex display="inline"><![CDATA[xr\in  I]]></fr:tex>; and</html:li>
+<html:li>for any <fr:tex display="inline"><![CDATA[x,y\in  I]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x+y\in  I]]></fr:tex>.</html:li></html:ol></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ra-000T/</fr:uri>
+            <fr:display-uri>ra-000T</fr:display-uri>
+            <fr:route>/ra-000T/</fr:route>
+            <fr:title text="Ring morphism">Ring morphism</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 7.3</fr:meta>
+            <fr:meta name="source">Artin <fr:link href="/artin-2010-algebra/" title="Algebra" uri="http://localhost:8000/artin-2010-algebra/" display-uri="artin-2010-algebra" type="local">Algebra</fr:link> Section 11.3</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Section III.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> and <fr:tex display="inline"><![CDATA[S]]></fr:tex> be <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>s. We define a <html:dfn>Ring Morphism</html:dfn> (or just a <html:dfn>Morphism</html:dfn> if unambiguous) to be a function <fr:tex display="inline"><![CDATA[\varphi \colon  R\to  S]]></fr:tex> such that:</html:p>
+            <html:ol><html:li>Additive: for any <fr:tex display="inline"><![CDATA[x,y\in  R]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\varphi (x+y)=\varphi (x)+\varphi (y)]]></fr:tex></html:li>
+<html:li>Preserves zero: <fr:tex display="inline"><![CDATA[\varphi (0_{R})=0_{S}]]></fr:tex></html:li>
+<html:li>Multiplicative: for any <fr:tex display="inline"><![CDATA[x,y\in  R]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\varphi (xy)=\varphi (x)\varphi (y)]]></fr:tex></html:li>
+<html:li>Preserves one (when between unital rings): <fr:tex display="inline"><![CDATA[\varphi (1_{R})=1_{S}]]></fr:tex> when there is a <fr:tex display="inline"><![CDATA[1_{R}\in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[1_{S}\in  S]]></fr:tex></html:li></html:ol>
+            <html:p><html:strong>Exercise:</html:strong> Do we really need <fr:tex display="inline"><![CDATA[\varphi (0)=0]]></fr:tex> or is this a consequence of additivity?</html:p>
+            <html:p><html:strong>Exercise:</html:strong> Do we really need <fr:tex display="inline"><![CDATA[\varphi (1_{R})=1_{S}]]></fr:tex> or is this a consequence of the multiplicative property?</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0041/</fr:uri>
+            <fr:display-uri>gr-0041</fr:display-uri>
+            <fr:route>/gr-0041/</fr:route>
+            <fr:title text="Action of a group on another group">Action of a group on another group</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Sections 1.7 and 2.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[K]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s. An <html:dfn>(Left) Action</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> on <fr:tex display="inline"><![CDATA[K]]></fr:tex> is an uncurried form of the group morphism <fr:tex display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex>; i.e., it's a morphism <fr:tex display="inline"><![CDATA[\alpha \colon  G\times  K\to  K]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\alpha (g,k)=\rho (g)(k)]]></fr:tex>.</html:p><html:p>Usually we write <fr:tex display="inline"><![CDATA[g\cdot  k]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[\alpha (g,k)]]></fr:tex> for the left action of <fr:tex display="inline"><![CDATA[G]]></fr:tex> on <fr:tex display="inline"><![CDATA[K]]></fr:tex>, where <fr:tex display="inline"><![CDATA[g\in  G]]></fr:tex> and <fr:tex display="inline"><![CDATA[k\in  K]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) This may be viewed as a special case of a <fr:link href="/gr-004Y/" title="Left group action" uri="http://localhost:8000/gr-004Y/" display-uri="gr-004Y" type="local">Left group action</fr:link>.</html:p>
+<html:p>(2) The <fr:tex display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex> group morphism is called a <html:dfn>Representation</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> on the group <fr:tex display="inline"><![CDATA[K]]></fr:tex>.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-004F/</fr:uri>
+            <fr:display-uri>gr-004F</fr:display-uri>
+            <fr:route>/gr-004F/</fr:route>
+            <fr:title text="Cayley's theorem">Cayley's theorem</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/cayley.html#T14" type="external">cayley:14</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Corollary 4.2.4</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. Then there is some <fr:link href="/gr-000F/" title="Symmetric group of a set" uri="http://localhost:8000/gr-000F/" display-uri="gr-000F" type="local">symmetric group</fr:link> <fr:tex display="inline"><![CDATA[\mathop {\textrm {Sym}}\nolimits (G)]]></fr:tex> and some subgroup <fr:tex display="inline"><![CDATA[H\leq \mathop {\textrm {Sym}}\nolimits {G}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[G\cong  H]]></fr:tex>.</html:p>
+            <html:p>Moreover, if the <fr:link href="/gr-000P/" title="Order of a group" uri="http://localhost:8000/gr-000P/" display-uri="gr-000P" type="local">order</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> is <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then <fr:tex display="inline"><![CDATA[G]]></fr:tex> is isomorphic to a subgroup of <fr:tex display="inline"><![CDATA[S_{n}]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-004I/</fr:uri>
+            <fr:display-uri>gr-004I</fr:display-uri>
+            <fr:route>/gr-004I/</fr:route>
+            <fr:title text="Class equation">Class equation</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 4.3.7</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/weddwitt.html#T14" type="external">weddwitt:14</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a finite <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. Then
+<fr:tex display="block"><![CDATA[|G| = |Z(G)| + \sum _{x}[G : C_{G}(x)]]]></fr:tex>
+where the sum is taken over representatives from the representatives from distinct <fr:link href="/gr-002D/" title="Conjugacy class of an element" uri="http://localhost:8000/gr-002D/" display-uri="gr-002D" type="local">conjugacy classes</fr:link> disjoint from the <fr:link href="/gr-002X/" title="Center of a group" uri="http://localhost:8000/gr-002X/" display-uri="gr-002X" type="local">center</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\chi =\{G\cdot  g\mid  g\in  G\}]]></fr:tex> be the set of orbits. Since the <fr:link href="/gr-004J/" title="Conjugacy Classes of a group" uri="http://localhost:8000/gr-004J/" display-uri="gr-004J" type="local">Conjugacy Classes of a group</fr:link> partitions <fr:tex display="inline"><![CDATA[G]]></fr:tex>, we see
+<fr:tex display="block"><![CDATA[|G|=\sum _{G\cdot  g\in \chi }|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+and the conjugacy classes of elements <fr:tex display="inline"><![CDATA[z\in  Z(G)]]></fr:tex> of the <fr:link href="/gr-002X/" title="Center of a group" uri="http://localhost:8000/gr-002X/" display-uri="gr-002X" type="local">center</fr:link> is <fr:tex display="inline"><![CDATA[C(z)=\{z\}]]></fr:tex>, we see that
+<fr:tex display="block"><![CDATA[|G|=\sum _{g\in  Z(G)}|\mathop {\textrm {Cl}}\nolimits (g)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|=|Z(G)| + \sum _{\substack {G\cdot  g\in \chi \\ g\notin  Z(G)}}|\mathop {\textrm {Cl}}\nolimits (g)|.]]></fr:tex>
+Hence the result since <fr:link href="/gr-004N/" title="Index of centralizer is size of conjugacy class" uri="http://localhost:8000/gr-004N/" display-uri="gr-004N" type="local">we proved <fr:tex display="inline"><![CDATA[|\mathop {\textrm {Cl}}\nolimits (g)|=[G : C_{G}(g)]]]></fr:tex></fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>Nothing in the proof required <fr:tex display="inline"><![CDATA[G]]></fr:tex> being specifically finite, but we end up with a decomposition of infinite cardinal numbers in the infinite <fr:tex display="inline"><![CDATA[G]]></fr:tex> case...which is not as useful...</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-004H/</fr:uri>
+            <fr:display-uri>gr-004H</fr:display-uri>
+            <fr:route>/gr-004H/</fr:route>
+            <fr:title text="Conjugation action">Conjugation action</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 2.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. The <html:dfn>Conjugation Action</html:dfn> is an <fr:link href="/gr-004Y/" title="Left group action" uri="http://localhost:8000/gr-004Y/" display-uri="gr-004Y" type="local">action</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> on itself given by <fr:tex display="inline"><![CDATA[g\cdot  x:=g^{-1}xg]]></fr:tex> <fr:link href="/gr-001X/" title="Conjugation of an element by an element" uri="http://localhost:8000/gr-001X/" display-uri="gr-001X" type="local">conjugation</fr:link>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-004G/</fr:uri>
+            <fr:display-uri>gr-004G</fr:display-uri>
+            <fr:route>/gr-004G/</fr:route>
+            <fr:title text="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 4.1.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a nonempty set. Suppose <fr:tex display="inline"><![CDATA[G]]></fr:tex> <fr:link href="/gr-004Y/" title="Left group action" uri="http://localhost:8000/gr-004Y/" display-uri="gr-004Y" type="local">acts</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Then for each <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the <fr:link href="/nst-002B/" title="Cardinality of a set" uri="http://localhost:8000/nst-002B/" display-uri="nst-002B" type="local">cardinality</fr:link> of the <fr:link href="/gr-004B/" title="Orbit" uri="http://localhost:8000/gr-004B/" display-uri="gr-004B" type="local">Orbit</fr:link> <fr:tex display="inline"><![CDATA[G\cdot  x]]></fr:tex> is equal to the <fr:link href="/gr-003J/" title="Index of a subgroup" uri="http://localhost:8000/gr-003J/" display-uri="gr-003J" type="local">index</fr:link> of the <fr:link href="/gr-004C/" title="Stabilizer" uri="http://localhost:8000/gr-004C/" display-uri="gr-004C" type="local">Stabilizer</fr:link> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>,
+<fr:tex display="block"><![CDATA[[G : G_{x}]=|G\cdot  x|.]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-004A/</fr:uri>
+            <fr:display-uri>gr-004A</fr:display-uri>
+            <fr:route>/gr-004A/</fr:route>
+            <fr:title text="Permutation representation">Permutation representation</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 4.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. A <html:dfn>Permutation Representation</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a group morphism <fr:tex display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Sym}}\nolimits (X)]]></fr:tex> from <fr:tex display="inline"><![CDATA[G]]></fr:tex> to the <fr:link href="/gr-000F/" title="Symmetric group of a set" uri="http://localhost:8000/gr-000F/" display-uri="gr-000F" type="local">symmetric group of <fr:tex display="inline"><![CDATA[X]]></fr:tex></fr:link>.</html:p><html:p>When <fr:tex display="inline"><![CDATA[g\in  G]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, we write <fr:tex display="inline"><![CDATA[g\cdot  x]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[\rho (g)(x)]]></fr:tex>. If there's ambiguity, we'll write <fr:tex display="inline"><![CDATA[\rho _{g}(x)]]></fr:tex> to stress which representation we're using.</html:p><html:p>More generally, a <html:dfn>Permutation Representation</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> (without any mention of the representation space <fr:tex display="inline"><![CDATA[X]]></fr:tex>) consists of a set <fr:tex display="inline"><![CDATA[X]]></fr:tex> equipped with a group morphism <fr:tex display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Sym}}\nolimits (X)]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>This is a "curried" form of a <fr:link href="/gr-004Y/" title="Left group action" uri="http://localhost:8000/gr-004Y/" display-uri="gr-004Y" type="local">Left group action</fr:link>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-001O/</fr:uri>
+            <fr:display-uri>gr-001O</fr:display-uri>
+            <fr:route>/gr-001O/</fr:route>
+            <fr:title text="Centralizer of a subset">Centralizer of a subset</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 2.2</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_22.html#K1" type="external">group_22:def 4</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>, let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. Then the <html:dfn>Centralizer</html:dfn> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> is the subgroup <fr:tex display="inline"><![CDATA[C_{G}(A)=\{g\in  G\mid \forall  a\in  A\ldotp  gag^{-1}=a\}]]></fr:tex> consisting of all elements of <fr:tex display="inline"><![CDATA[G]]></fr:tex> which commutes with every element of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-001C/</fr:uri>
+            <fr:display-uri>gr-001C</fr:display-uri>
+            <fr:route>/gr-001C/</fr:route>
+            <fr:title text="Criteria for a subset to be a subgroup">Criteria for a subset to be a subgroup</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 2.1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>, let <fr:tex display="inline"><![CDATA[H\neq \emptyset ]]></fr:tex> be a nonempty subset of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. If for any <fr:tex display="inline"><![CDATA[x,y\in  H]]></fr:tex> we have <fr:tex display="inline"><![CDATA[xy^{-1}\in  H]]></fr:tex>, then <fr:tex display="inline"><![CDATA[H]]></fr:tex> forms a <fr:link href="/gr-001B/" title="Subgroup" uri="http://localhost:8000/gr-001B/" display-uri="gr-001B" type="local">Subgroup</fr:link>.</html:p><html:p>Furthermore, if <fr:tex display="inline"><![CDATA[H]]></fr:tex> is finite, then it suffices to check that <fr:tex display="inline"><![CDATA[H]]></fr:tex> is closed under multiplication (i.e., for any <fr:tex display="inline"><![CDATA[x,y\in  H]]></fr:tex> we have <fr:tex display="inline"><![CDATA[xy\in  H]]></fr:tex>).</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>If <fr:tex display="inline"><![CDATA[x=y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[xx^{-1}=e\in  H]]></fr:tex> contains the identity element.</html:p>
+<html:p>For any <fr:tex display="inline"><![CDATA[x\in  H]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[ex^{-1}=x^{-1}\in  H]]></fr:tex>, so <fr:tex display="inline"><![CDATA[H]]></fr:tex> is closed under inverting elements.</html:p>
+<html:p>For any <fr:tex display="inline"><![CDATA[x,y\in  H]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[y^{-1}\in  H]]></fr:tex>, so <fr:tex display="inline"><![CDATA[x(y^{-1})^{-1}=xy\in  H]]></fr:tex>, which means <fr:tex display="inline"><![CDATA[H]]></fr:tex> is closed under its binary operator.</html:p>
+<html:p>Hence altogether <fr:tex display="inline"><![CDATA[H]]></fr:tex> forms a subgroup of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-001B/</fr:uri>
+            <fr:display-uri>gr-001B</fr:display-uri>
+            <fr:route>/gr-001B/</fr:route>
+            <fr:title text="Subgroup">Subgroup</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_2.html#M1" type="external">group_2:def 5</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 2.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. A <html:dfn>Subgroup</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> is a group <fr:tex display="inline"><![CDATA[H]]></fr:tex> such that its underlying set of elements is a subset of the set of elements of <fr:tex display="inline"><![CDATA[G]]></fr:tex>, and the binary operator of <fr:tex display="inline"><![CDATA[H]]></fr:tex> is the same as the binary operator of <fr:tex display="inline"><![CDATA[G]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[H]]></fr:tex>.</html:p>
+            <html:p>When <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a subgroup of <fr:tex display="inline"><![CDATA[G]]></fr:tex>, we write <fr:tex display="inline"><![CDATA[H\leq  G]]></fr:tex>.</html:p>
+            <html:p>When <fr:tex display="inline"><![CDATA[H\neq  G]]></fr:tex>, we say <fr:tex display="inline"><![CDATA[H]]></fr:tex> is a <html:dfn>Proper Subgroup</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> and write <fr:tex display="inline"><![CDATA[H\mathrel {<} G]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-001F/</fr:uri>
+            <fr:display-uri>gr-001F</fr:display-uri>
+            <fr:route>/gr-001F/</fr:route>
+            <fr:title text="Torsion subgroup">Torsion subgroup</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Exercise 2.1.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be an Abelian group. We define the <html:dfn>Torsion Subgroup</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex> to be the <fr:link href="/gr-001B/" title="Subgroup" uri="http://localhost:8000/gr-001B/" display-uri="gr-001B" type="local">Subgroup</fr:link> <fr:tex display="inline"><![CDATA[H=\{g\in  G\mid \mathop {\mathrm {ord}}\nolimits (g)<\infty \}]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/iaa-0005/</fr:uri>
+            <fr:display-uri>iaa-0005</fr:display-uri>
+            <fr:route>/iaa-0005/</fr:route>
+            <fr:title text="Traditional way of teaching abstract algebra">Traditional way of teaching abstract algebra</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The traditional way we teach undergraduates is by introducing several types of gadgets in abstract algebra in the following order:</html:p>
+            <html:ol><html:li>Initially, there's some discussion of set theory sufficient for developing algebra. This is "time honored tradition" starting with van der Waerden's book.</html:li>
+<html:li>When the structure-preserving transformations leave something invariant (e.g., <fr:link href="/vectsp-001P/" title="Invariant subspace" uri="http://localhost:8000/vectsp-001P/" display-uri="vectsp-001P" type="local">Invariant subspace</fr:link>s in linear algebra), composing such transformations also leaves the thing invariant. This is the guiding intuition of what a "symmetry" is, and the "collection of symmetries" is precisely what a "group" is (originally, they were a "group of symmetries" or a <html:em>symmetry group</html:em>).</html:li>
+<html:li><html:p>(a) But we also saw how, e.g., square matrices have a neat <fr:link href="/ela-000B/" title="Matrix Algebra" uri="http://localhost:8000/ela-000B/" display-uri="ela-000B" type="local">algebraic structure</fr:link> with matrix addition and matrix multiplication. They act like a "number system". This is precisely what is studied with number ring (or just a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>). A sufficiently nice ring is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>.</html:p>
+<html:p>(b) We can generalize linear algebra to describe "vector spaces over arbitrary rings", and these are modules.</html:p></html:li>
+<html:li>Galois theory is offered as the pinnacle of abstract algebra, connecting group theory to field theory. Honestly, I never understood the excitement behind Galois theory, since the beautiful parts of it are just the representation theory of groups (describing how "the same symmetries appearing in different situations").</html:li></html:ol>
+            <html:p>This is just the first 7 chapters of van der Waerden's <fr:link href="/van-der-waerden-1949-modern1/" title="Modern Algebra, Vol. I" uri="http://localhost:8000/van-der-waerden-1949-modern1/" display-uri="van-der-waerden-1949-modern1" type="local">Modern Algebra, Vol. I</fr:link>. Most textbooks have followed this manner of presentation: Dummit and Foote's <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> covers this material in the first 14 chapters; Hungerford's <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> does this in the first 6 chapters.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/iaa-0003/</fr:uri>
+            <fr:display-uri>iaa-0003</fr:display-uri>
+            <fr:route>/iaa-0003/</fr:route>
+            <fr:title text="Preferatory notes">Preferatory notes</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>This is loosely following the material covered in the Math 5 series at <fr:link href="/caltech.edu" title="California Institute of Technology" uri="http://localhost:8000/caltech.edu" display-uri="caltech.edu" type="local">California Institute of Technology</fr:link> (based on Dummit and Foote's <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link>) or the Math 150 series at <fr:link href="/ucdavis.edu" title="University of California, Davis" uri="http://localhost:8000/ucdavis.edu" display-uri="ucdavis.edu" type="local">University of California, Davis</fr:link> (based on Artin's <fr:link href="/artin-2010-algebra/" title="Algebra" uri="http://localhost:8000/artin-2010-algebra/" display-uri="artin-2010-algebra" type="local">Algebra</fr:link>).</html:p><html:p>We have already seen a number of different "species" of Mathematical Gadgets, like:</html:p><html:ul><html:li><fr:link href="/vectsp-0001/" title="Vector Space" uri="http://localhost:8000/vectsp-0001/" display-uri="vectsp-0001" type="local">Vector Space</fr:link></html:li>
+<html:li><fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link></html:li>
+<html:li><fr:link href="/ca-000K/" title="Metric Space" uri="http://localhost:8000/ca-000K/" display-uri="ca-000K" type="local">Metric Space</fr:link></html:li>
+<html:li><fr:link href="/gt-0002/" title="Topological space" uri="http://localhost:8000/gt-0002/" display-uri="gt-0002" type="local">Topological space</fr:link></html:li>
+<html:li><fr:link href="/nst-0001/" title="Set" uri="http://localhost:8000/nst-0001/" display-uri="nst-0001" type="local">Set</fr:link></html:li></html:ul><html:p>It turns out, all the information which was really interesting was encoded in the "structure-preserving transformations" between them. (That was the bulk of our time spent studying <fr:link href="/ela/" title="Elementary linear algebra" uri="http://localhost:8000/ela/" display-uri="ela" type="local">Elementary linear algebra</fr:link> and <fr:link href="/ila/" title="Intermediate linear algebra" uri="http://localhost:8000/ila/" display-uri="ila" type="local">Intermediate linear algebra</fr:link>, after all!)</html:p><html:p>We can form an abstraction describing this situation where we have a [gadget] and [transformations] between them: this is category theory.</html:p><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:uri>http://localhost:8000/iaa-0005/</fr:uri><fr:display-uri>iaa-0005</fr:display-uri><fr:route>/iaa-0005/</fr:route><fr:title text="Traditional way of teaching abstract algebra">Traditional way of teaching abstract algebra</fr:title></fr:frontmatter><fr:mainmatter><html:p>The traditional way we teach undergraduates is by introducing several types of gadgets in abstract algebra in the following order:</html:p><html:ol><html:li>Initially, there's some discussion of set theory sufficient for developing algebra. This is "time honored tradition" starting with van der Waerden's book.</html:li>
+<html:li>When the structure-preserving transformations leave something invariant (e.g., <fr:link href="/vectsp-001P/" title="Invariant subspace" uri="http://localhost:8000/vectsp-001P/" display-uri="vectsp-001P" type="local">Invariant subspace</fr:link>s in linear algebra), composing such transformations also leaves the thing invariant. This is the guiding intuition of what a "symmetry" is, and the "collection of symmetries" is precisely what a "group" is (originally, they were a "group of symmetries" or a <html:em>symmetry group</html:em>).</html:li>
+<html:li><html:p>(a) But we also saw how, e.g., square matrices have a neat <fr:link href="/ela-000B/" title="Matrix Algebra" uri="http://localhost:8000/ela-000B/" display-uri="ela-000B" type="local">algebraic structure</fr:link> with matrix addition and matrix multiplication. They act like a "number system". This is precisely what is studied with number ring (or just a <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">Ring</fr:link>). A sufficiently nice ring is a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>.</html:p>
+<html:p>(b) We can generalize linear algebra to describe "vector spaces over arbitrary rings", and these are modules.</html:p></html:li>
+<html:li>Galois theory is offered as the pinnacle of abstract algebra, connecting group theory to field theory. Honestly, I never understood the excitement behind Galois theory, since the beautiful parts of it are just the representation theory of groups (describing how "the same symmetries appearing in different situations").</html:li></html:ol><html:p>This is just the first 7 chapters of van der Waerden's <fr:link href="/van-der-waerden-1949-modern1/" title="Modern Algebra, Vol. I" uri="http://localhost:8000/van-der-waerden-1949-modern1/" display-uri="van-der-waerden-1949-modern1" type="local">Modern Algebra, Vol. I</fr:link>. Most textbooks have followed this manner of presentation: Dummit and Foote's <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> covers this material in the first 14 chapters; Hungerford's <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> does this in the first 6 chapters.</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:uri>http://localhost:8000/iaa-0006/</fr:uri><fr:display-uri>iaa-0006</fr:display-uri><fr:route>/iaa-0006/</fr:route><fr:title text="Modern ways to teach abstract algebra">Modern ways to teach abstract algebra</fr:title></fr:frontmatter><fr:mainmatter><html:p>The more modern approaches to teaching abstract algebra incorporates some degree of category theory into the mix.</html:p><html:p>Aluffi's <fr:link href="/aluffi-2009-algebra/" title="Algebra: Chapter 0" uri="http://localhost:8000/aluffi-2009-algebra/" display-uri="aluffi-2009-algebra" type="local">Algebra: Chapter 0</fr:link> is perhaps the most bold attempt to reorganize abstract algebra around category theory entirely. Instead of ending at Galois theory, Aluffi concludes with homological algebra.</html:p><html:p>Some ideas from the traditional approach (like "groups with operators") turn out to be confused and muddled (which should be replaced with groups acting on other groups).</html:p></fr:mainmatter></fr:tree>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>
+<html:p>If I had to teach abstract algebra to undergraduates, I am torn between the traditional approaches (starting from van der Waerden's <html:em>Moderne Algebra</html:em> onwards) which I just outlined, and more modern adaptations which wrap everything in the framework of category theory. Aluffi's <html:em>Algebra: Chapter Zero</html:em> seemingly attempts a happy medium, and I am unhappy with it.</html:p>
+<html:p>One fortunate aspect to Forester is that I'm not forced to choose one or the other. I can outline the "traditional" presentation of topics, and the "modern" presentation of topics, and allow the reader to pick which manner of presentation they wish to peruse.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000R/</fr:uri>
+            <fr:display-uri>gr-000R</fr:display-uri>
+            <fr:route>/gr-000R/</fr:route>
+            <fr:title text="Cancellation law">Cancellation law</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#T6" type="external">group_1:6</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Proposition 1.1.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>, let <fr:tex display="inline"><![CDATA[a,b,c\in  G]]></fr:tex>. Then the following all hold:
+<html:ol><html:li>If <fr:tex display="inline"><![CDATA[ac=bc]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a=b]]></fr:tex>; and</html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[ca=cb]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a=b]]></fr:tex>.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) Assume <fr:tex display="inline"><![CDATA[ac=bc]]></fr:tex>, then multiply both sides on the right by <fr:tex display="inline"><![CDATA[c^{-1}]]></fr:tex>, we see the left-hand side becomes <fr:tex display="inline"><![CDATA[(ac)c^{-1}=a(cc^{-1})=ae=a]]></fr:tex> by assocativity and inverse, and the right-hand side becomes <fr:tex display="inline"><![CDATA[(bc)c^{-1}=b(cc^{-1})=be=b]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[a=b]]></fr:tex>.</html:p>
+<html:p>(2) Assume <fr:tex display="inline"><![CDATA[ca=cb]]></fr:tex>. Multiply both sides on the left by <fr:tex display="inline"><![CDATA[c^{-1}]]></fr:tex> gives the result by similar reasoning as (1).</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0013/</fr:uri>
+            <fr:display-uri>gr-0013</fr:display-uri>
+            <fr:route>/gr-0013/</fr:route>
+            <fr:title text="Dihedral group">Dihedral group</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.2</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Theorem 1.6.13</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a positive integer. We define the <html:dfn>Dihedral group</html:dfn> <fr:tex display="inline"><![CDATA[D_{n}]]></fr:tex> to consist of the set <fr:tex display="inline"><![CDATA[\{x^{k}y^{j}\mid  0\leq  k<n,0\leq  j\leq  1\}]]></fr:tex> where we also write <fr:tex display="inline"><![CDATA[x^{0}y^{0}=1]]></fr:tex>, such that
+<fr:tex display="block"><![CDATA[x^{n}=y^{2}=1]]></fr:tex>
+and also
+<fr:tex display="block"><![CDATA[yx=x^{-1}y.]]></fr:tex>
+It's not hard to see <fr:tex display="inline"><![CDATA[yx^{k}=x^{-k}y]]></fr:tex> by applying that second relation <fr:tex display="inline"><![CDATA[k]]></fr:tex> times.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) The dihedral group describes the symmetries of the regular <fr:tex display="inline"><![CDATA[n]]></fr:tex>-gon in the plane, where <fr:tex display="inline"><![CDATA[x]]></fr:tex> is rotation anticlockwise by <fr:tex display="inline"><![CDATA[2\pi  / n]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> is reflection about a line through the origin.</html:p>
+<html:p>(2) Some authors (like Dummit and Foote) call this group <fr:tex display="inline"><![CDATA[D_{2n}]]></fr:tex> because it is of <fr:link href="/gr-000P/" title="Order of a group" uri="http://localhost:8000/gr-000P/" display-uri="gr-000P" type="local">order</fr:link> <fr:tex display="inline"><![CDATA[2n]]></fr:tex>.</html:p>
+<html:p>(3) <fr:tex display="inline"><![CDATA[D_{1}]]></fr:tex> has <fr:tex display="inline"><![CDATA[x=1]]></fr:tex> and <fr:tex display="inline"><![CDATA[D_{0}]]></fr:tex> is degenerate.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0011/</fr:uri>
+            <fr:display-uri>gr-0011</fr:display-uri>
+            <fr:route>/gr-0011/</fr:route>
+            <fr:title text="Direct sum of groups">Direct sum of groups</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Exercise 5.1.17</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_7.html#K3" type="external">group_7:def 9</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[\{\mathcal {F}_{i}\}_{i\in  I}]]></fr:tex> be a family of groups. We define the <html:dfn>Direct Sum</html:dfn> <fr:tex display="inline"><![CDATA[\bigoplus _{i\in  I}\mathcal {F}_{i}]]></fr:tex> whose underlying set is the product of the underlying sets of the family where only finitely many components are not the identity element, where the binary operator is defined by, for any <fr:tex display="inline"><![CDATA[g,h\in  \prod _{i\in  I}\mathcal {F}_{i}]]></fr:tex>,
+<fr:tex display="block"><![CDATA[(gh)_{i}=g_{i}h_{i}]]></fr:tex>
+For <fr:tex display="inline"><![CDATA[I]]></fr:tex> being a finite indexing set, this coincides with <fr:link href="/gr-0010/" title="Product of family of groups" uri="http://localhost:8000/gr-0010/" display-uri="gr-0010" type="local">Product of family of groups</fr:link>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0012/</fr:uri>
+            <fr:display-uri>gr-0012</fr:display-uri>
+            <fr:route>/gr-0012/</fr:route>
+            <fr:title text="General Linear Group of matrices">General Linear Group of matrices</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.4</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}_{0}]]></fr:tex> be a non-negative integer. Let <fr:tex display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})]]></fr:tex> be the set of all <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrices</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. We define the <html:dfn>General Linear Group</html:dfn> <fr:tex display="inline"><![CDATA[\mathop {\textrm {GL}}\nolimits _{n}(\mathbb {F})=\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})^{\times }]]></fr:tex> the <fr:link href="/gr-000I/" title="Set of invertible elements for associative binary operator is a group" uri="http://localhost:8000/gr-000I/" display-uri="gr-000I" type="local">group of invertible elements</fr:link> of <fr:tex display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})]]></fr:tex> under matrix multiplication.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>This can be defined more generally replacing <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> with a unital (possibly noncommutative) <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link> <fr:tex display="inline"><![CDATA[R]]></fr:tex>, or even a ringoid (where we don't require additive inverses to exist).</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000G/</fr:uri>
+            <fr:display-uri>gr-000G</fr:display-uri>
+            <fr:route>/gr-000G/</fr:route>
+            <fr:title text="Group">Group</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#NM1" type="external">group_1:def</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>A <html:dfn>Group</html:dfn> consists of a set <fr:tex display="inline"><![CDATA[G]]></fr:tex> equipped with an <fr:link href="/gr-0003/" title="Associative binary operator" uri="http://localhost:8000/gr-0003/" display-uri="gr-0003" type="local">Associative binary operator</fr:link> <fr:tex display="inline"><![CDATA[\star ]]></fr:tex> and an <fr:link href="/gr-0005/" title="Identity element" uri="http://localhost:8000/gr-0005/" display-uri="gr-0005" type="local">Identity element</fr:link> with respect to <fr:tex display="inline"><![CDATA[\star ]]></fr:tex>, usually denoted either <fr:tex display="inline"><![CDATA[e\in  G]]></fr:tex> or <fr:tex display="inline"><![CDATA[1\in  G]]></fr:tex>, such that every element has a unique <fr:link href="/gr-000C/" title="Inverse of an element with respect to a binary operator" uri="http://localhost:8000/gr-000C/" display-uri="gr-000C" type="local">inverse</fr:link>,
+<fr:tex display="block"><![CDATA[\forall  a\in  G\ldotp \exists  a^{-1}\in  A\ldotp  a\star  a^{-1}=a^{-1}\star  a=e.]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) When the binary operator for the group is commutative, we usually use <fr:tex display="inline"><![CDATA[+]]></fr:tex> for the binary operator and <fr:tex display="inline"><![CDATA[0]]></fr:tex> for the identity element.</html:p>
+<html:p>(2) The "exact formalization" varies. For example, we could have equipped <fr:tex display="inline"><![CDATA[G]]></fr:tex> with a binary operator <fr:tex display="inline"><![CDATA[\star ]]></fr:tex>, a unary operator <fr:tex display="inline"><![CDATA[(-)^{-1}\colon  G\to  G]]></fr:tex>, and a constant element <fr:tex display="inline"><![CDATA[e\in  G]]></fr:tex>; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.</html:p>
+<html:p>(3) The intuition is that <fr:tex display="inline"><![CDATA[G]]></fr:tex> consists of <fr:link href="/ela-001K/" title="Bijective function" uri="http://localhost:8000/ela-001K/" display-uri="ela-001K" type="local">bijections</fr:link> from a set to itself, and the binary operator is just the <fr:link href="/nst-001M/" title="Composition of functions" uri="http://localhost:8000/nst-001M/" display-uri="nst-001M" type="local">Composition of functions</fr:link> and the identity element is just the <fr:link href="/nst-0017/" title="Identity function" uri="http://localhost:8000/nst-0017/" display-uri="nst-0017" type="local">Identity function</fr:link>. These bijections are "symmetries" of the set.</html:p>
+<html:p>(4) See also Forrester-Barker's <fr:link href="/forrester-2002-group/" title="Group objects and internal categories" uri="http://localhost:8000/forrester-2002-group/" display-uri="forrester-2002-group" type="local">Group objects and internal categories</fr:link> for a way to generalize the notion of groups to other settings.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000U/</fr:uri>
+            <fr:display-uri>gr-000U</fr:display-uri>
+            <fr:route>/gr-000U/</fr:route>
+            <fr:title text="Group Isomorphism">Group Isomorphism</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s. Let <fr:tex display="inline"><![CDATA[\varphi \colon  G\to  H]]></fr:tex> be a <fr:link href="/gr-000T/" title="Group Morphism" uri="http://localhost:8000/gr-000T/" display-uri="gr-000T" type="local">Group Morphism</fr:link>. We say <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> is a <html:dfn>Group Isomorphism</html:dfn> (or just <html:dfn>Isomorphism</html:dfn>) if it is bijective and has an inverse function which is a also a group morphism.</html:p>
+            <html:p>When <fr:tex display="inline"><![CDATA[G=H]]></fr:tex>, we say <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> is a <html:dfn>Automorphism</html:dfn> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000T/</fr:uri>
+            <fr:display-uri>gr-000T</fr:display-uri>
+            <fr:route>/gr-000T/</fr:route>
+            <fr:title text="Group Morphism">Group Morphism</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#NM2" type="external">group_6:def 6bis</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s. Let <fr:tex display="inline"><![CDATA[\varphi \colon  G\to  H]]></fr:tex> be a function. We say <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> is a <html:dfn>Group Morphism</html:dfn> (or just <html:dfn>Morphism</html:dfn>) if it preserves multiplication, i.e., for any <fr:tex display="inline"><![CDATA[g_{1},g_{2}\in  G]]></fr:tex> we have
+<fr:tex display="block"><![CDATA[\varphi (g_{1}g_{2})=\varphi (g_{1})\varphi (g_{2}).]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000V/</fr:uri>
+            <fr:display-uri>gr-000V</fr:display-uri>
+            <fr:route>/gr-000V/</fr:route>
+            <fr:title text="Isomorphic groups">Isomorphic groups</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.6</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s. We typically say <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> are <html:dfn>Isomorphic</html:dfn> if there exists a <fr:link href="/gr-000U/" title="Group Isomorphism" uri="http://localhost:8000/gr-000U/" display-uri="gr-000U" type="local">Group Isomorphism</fr:link> between them. This is <fr:link href="/nst-000Y/" title="Reflexive relation" uri="http://localhost:8000/nst-000Y/" display-uri="nst-000Y" type="local">reflexive</fr:link> since the identity function is an automorphism.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000O/</fr:uri>
+            <fr:display-uri>gr-000O</fr:display-uri>
+            <fr:route>/gr-000O/</fr:route>
+            <fr:title text="Order of a group element">Order of a group element</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#K6" type="external">group_1:def 11</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. Let <fr:tex display="inline"><![CDATA[g\in  G]]></fr:tex>. We define <html:dfn>Order</html:dfn> of <fr:tex display="inline"><![CDATA[g]]></fr:tex> is the integer <fr:tex display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> equal to <html:em>either</html:em> the smallest positive integer <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[g^{n}=e]]></fr:tex> <html:em>or</html:em> if no such positive integer exists, it is defined to be zero.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>Some authors prefer <fr:tex display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> to be infinite if there is no smallest positive integer <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[g^{n}=e]]></fr:tex>, but it can complicate some results.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000Z/</fr:uri>
+            <fr:display-uri>gr-000Z</fr:display-uri>
+            <fr:route>/gr-000Z/</fr:route>
+            <fr:title text="Product group">Product group</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s. We define the <html:dfn>Product Group</html:dfn> <fr:tex display="inline"><![CDATA[G\times  H]]></fr:tex> whose underlying set is the <fr:link href="/nst-000O/" title="Cartesian product of two sets" uri="http://localhost:8000/nst-000O/" display-uri="nst-000O" type="local">Cartesian product of two sets</fr:link> of the sets underlying <fr:tex display="inline"><![CDATA[G]]></fr:tex> and <fr:tex display="inline"><![CDATA[H]]></fr:tex>, whose binary operator is given by
+<fr:tex display="block"><![CDATA[(g_{1},h_{1})(g_{2},h_{2})=(g_{1}g_{2},h_{1}h_{2})]]></fr:tex>
+and the identity element is <fr:tex display="inline"><![CDATA[1_{G\times  H}=(1_{G},1_{H})]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0016/</fr:uri>
+            <fr:display-uri>gr-0016</fr:display-uri>
+            <fr:route>/gr-0016/</fr:route>
+            <fr:title text="Quaternion Group">Quaternion Group</fr:title>
+            <fr:taxon>example</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.5</fr:meta>
+            <fr:meta name="source">Hungerford <fr:link href="/hungerford-1974-algebra/" title="Algebra" uri="http://localhost:8000/hungerford-1974-algebra/" display-uri="hungerford-1974-algebra" type="local">Algebra</fr:link> Exercise 1.2.3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We may define the <html:dfn>Quaternion Group</html:dfn> as consisting of the set <fr:tex display="inline"><![CDATA[Q_{8}=\{-1\}\cup \{i^{m}j^{n}k^{p}\mid  0\leq  m,n,p\leq  3\}]]></fr:tex> where we identify <fr:tex display="inline"><![CDATA[1=i^{0}j^{0}k^{0}]]></fr:tex> and it obeys the identities
+<fr:tex display="block"><![CDATA[i^{2}=j^{2}=k^{2}=ijk=-1]]></fr:tex>
+and so we write <fr:tex display="inline"><![CDATA[-i=i^{3}]]></fr:tex>, <fr:tex display="inline"><![CDATA[-j=j^{3}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[-k=k^{3}]]></fr:tex>, and also
+<fr:tex display="block"><![CDATA[(-1)^{2}=1.]]></fr:tex>
+We have <fr:tex display="inline"><![CDATA[(-1)i=-i]]></fr:tex>, <fr:tex display="inline"><![CDATA[(-1)j=-j]]></fr:tex>, and <fr:tex display="inline"><![CDATA[(-1)k=-k]]></fr:tex>.
+After a bit of work, we find
+<fr:tex display="block"><![CDATA[ij=-ji=k]]></fr:tex>
+<fr:tex display="block"><![CDATA[jk=-kj=i]]></fr:tex>
+<fr:tex display="block"><![CDATA[ki=-ik=j]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-000F/</fr:uri>
+            <fr:display-uri>gr-000F</fr:display-uri>
+            <fr:route>/gr-000F/</fr:route>
+            <fr:title text="Symmetric group of a set">Symmetric group of a set</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/cayley.html#K2" type="external">cayley:def 2</fr:link></fr:meta>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set. We define the <html:dfn>Symmetric Group</html:dfn> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> to be the <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link> <fr:tex display="inline"><![CDATA[\mathop {\textrm {Sym}}\nolimits (X)]]></fr:tex> consisting of all <fr:link href="/gr-000E/" title="Permutation of a set" uri="http://localhost:8000/gr-000E/" display-uri="gr-000E" type="local">permutations</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, equipped with <fr:link href="/nst-001M/" title="Composition of functions" uri="http://localhost:8000/nst-001M/" display-uri="nst-001M" type="local">Composition of functions</fr:link> as its <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0003/</fr:uri>
+            <fr:display-uri>gr-0003</fr:display-uri>
+            <fr:route>/gr-0003/</fr:route>
+            <fr:title text="Associative binary operator">Associative binary operator</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> is <html:dfn>Associative</html:dfn> if
+<fr:tex display="block"><![CDATA[\forall  a,b,c\in  X\ldotp  \mu (a,\mu (b,c))=\mu (\mu (a,b),c)]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0001/</fr:uri>
+            <fr:display-uri>gr-0001</fr:display-uri>
+            <fr:route>/gr-0001/</fr:route>
+            <fr:title text="Binary operator">Binary operator</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set. A <html:dfn>Binary Operator</html:dfn> (or, more archaically, <html:dfn>Law of Composition</html:dfn>) is a function <fr:tex display="inline"><![CDATA[\mu \colon  X\times  X\to  X]]></fr:tex> which is various denoted using infixed notation <fr:tex display="inline"><![CDATA[a\star  b]]></fr:tex> or <fr:tex display="inline"><![CDATA[a\cdot  b]]></fr:tex> or <fr:tex display="inline"><![CDATA[ab]]></fr:tex> (or, if commutative, <fr:tex display="inline"><![CDATA[a+b]]></fr:tex>) for any <fr:tex display="inline"><![CDATA[a,b\in  X]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0004/</fr:uri>
+            <fr:display-uri>gr-0004</fr:display-uri>
+            <fr:route>/gr-0004/</fr:route>
+            <fr:title text="Commutative binary operator">Commutative binary operator</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> is <html:dfn>Commutative</html:dfn> if
+<fr:tex display="block"><![CDATA[\forall  a,b\in  X\ldotp  \mu (a,b)=\mu (b,a)]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-0002/</fr:uri>
+            <fr:display-uri>nt-0002</fr:display-uri>
+            <fr:route>/nt-0002/</fr:route>
+            <fr:title text="Division algorithm">Division algorithm</fr:title>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 0.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For any integers <fr:tex display="inline"><![CDATA[a,b\in \mathbb {Z}]]></fr:tex>, there exists <fr:tex display="inline"><![CDATA[q,r\in \mathbb {Z}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[0\leq  r<|b|]]></fr:tex> and <fr:tex display="inline"><![CDATA[a=qb+r]]></fr:tex>.</html:p>
+            <html:p>We could take <fr:tex display="inline"><![CDATA[A=\{a-qb\mid  q\in \mathbb {Z},a-qb\geq 0\}]]></fr:tex>, then apply the <fr:link href="/nt-0001/" title="Well-ordering principle" uri="http://localhost:8000/nt-0001/" display-uri="nt-0001" type="local">Well-ordering principle</fr:link> to give us <fr:tex display="inline"><![CDATA[r]]></fr:tex> as a minimal element of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-0005/</fr:uri>
+            <fr:display-uri>nt-0005</fr:display-uri>
+            <fr:route>/nt-0005/</fr:route>
+            <fr:title text="Euler totient">Euler totient</fr:title>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 0.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We have <fr:tex display="inline"><![CDATA[\varphi (n)]]></fr:tex> be the number of positive integers less than <fr:tex display="inline"><![CDATA[n]]></fr:tex> which are coprime to <fr:tex display="inline"><![CDATA[n]]></fr:tex>,
+<fr:tex display="block"><![CDATA[\varphi (n)=|\{k\in \mathbb {N}\mid  k<n,\gcd (k,n)=1\}|.]]></fr:tex>
+So <fr:tex display="inline"><![CDATA[\varphi (12)=|\{1,5,7,11\}|=4]]></fr:tex>, but <fr:tex display="inline"><![CDATA[\varphi (11)=10]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-0003/</fr:uri>
+            <fr:display-uri>nt-0003</fr:display-uri>
+            <fr:route>/nt-0003/</fr:route>
+            <fr:title text="Greatest common divisor">Greatest common divisor</fr:title>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 0.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>If <fr:tex display="inline"><![CDATA[a,b\in \mathbb {Z}]]></fr:tex> are nonzero integers, there exists a unique positive integer called the <html:dfn>Greatest Common Divisor</html:dfn> of <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex>, usually denoted <fr:tex display="inline"><![CDATA[\gcd (a,b)]]></fr:tex>, such that:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[\gcd (a,b)\mathrel {\bigm |} a]]></fr:tex> and <fr:tex display="inline"><![CDATA[\gcd (a,b)\mathrel {\bigm |} b]]></fr:tex> (so <fr:tex display="inline"><![CDATA[\gcd (a,b)]]></fr:tex> is a common divisor of <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex>)</html:li>
+<html:li>if <fr:tex display="inline"><![CDATA[e\mathrel {\bigm |} a]]></fr:tex> and <fr:tex display="inline"><![CDATA[e\mathrel {\bigm |} b]]></fr:tex> is another integer, then <fr:tex display="inline"><![CDATA[e\mathrel {\bigm |}\gcd (a,b)]]></fr:tex> (so <fr:tex display="inline"><![CDATA[\gcd (a,b)]]></fr:tex> is the <html:em>greatest</html:em> such divisor).</html:li></html:ol>
+            <html:p>If <fr:tex display="inline"><![CDATA[\gcd (a,b)=1]]></fr:tex> we say <fr:tex display="inline"><![CDATA[a]]></fr:tex> and {b} are <html:dfn>Coprime</html:dfn> (or are <html:dfn>Relatively Prime</html:dfn>).</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0005/</fr:uri>
+            <fr:display-uri>gr-0005</fr:display-uri>
+            <fr:route>/gr-0005/</fr:route>
+            <fr:title text="Identity element">Identity element</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> be a <fr:link href="/gr-0001/" title="Binary operator" uri="http://localhost:8000/gr-0001/" display-uri="gr-0001" type="local">Binary operator</fr:link> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[e\in  X]]></fr:tex> be an element. We say <fr:tex display="inline"><![CDATA[e]]></fr:tex> is a <html:dfn>Unit</html:dfn> (or <html:dfn>identity element</html:dfn>) for <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex> if
+<fr:tex display="block"><![CDATA[\forall  a\in  X\ldotp  \mu (a,e)=a\land  \mu (e,a)=a.]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-0008/</fr:uri>
+            <fr:display-uri>nt-0008</fr:display-uri>
+            <fr:route>/nt-0008/</fr:route>
+            <fr:title text="Integers modulo n">Integers modulo <fr:tex display="inline"><![CDATA[n]]></fr:tex></fr:title>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 0.3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> be a fixed positive integer. Let us define the <fr:link href="/nst-0011/" title="Equivalence relation" uri="http://localhost:8000/nst-0011/" display-uri="nst-0011" type="local">Equivalence relation</fr:link> on the integers by
+<fr:tex display="inline"><![CDATA[a\sim  b\iff  n\mathrel {\bigm |}(b-a).]]></fr:tex>
+This is reflexive (<fr:tex display="inline"><![CDATA[a\sim  a]]></fr:tex> since <fr:tex display="inline"><![CDATA[n\mathrel {\bigm |}(a-a)]]></fr:tex>), symmetric (<fr:tex display="inline"><![CDATA[a\sim  b\iff  n\mathrel {\bigm |}(b-a)\iff  n\mathrel {\bigm |}(a-b)\iff  b\sim  a]]></fr:tex>) and transitive.</html:p>
+            <html:p>Then the quotient set <fr:tex display="inline"><![CDATA[\mathbb {Z} /\mathord {\sim }]]></fr:tex> is often denoted <fr:tex display="inline"><![CDATA[\mathbb {Z} / n\mathbb {Z}]]></fr:tex>. Moreover, there are well-defined operations <fr:tex display="inline"><![CDATA[[a]+[b]=[a+b]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[a]\cdot [b]=[a\cdot  b]]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-0007/</fr:uri>
+            <fr:display-uri>nt-0007</fr:display-uri>
+            <fr:route>/nt-0007/</fr:route>
+            <fr:title text="Quotient set">Quotient set</fr:title>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 0.3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be <fr:link href="/nst-0011/" title="Equivalence relation" uri="http://localhost:8000/nst-0011/" display-uri="nst-0011" type="local">Equivalence relation</fr:link> on a set <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Then we define the <html:dfn>Quotient set</html:dfn>
+<fr:tex display="block"><![CDATA[X/R := \{[a]\mid  a\in  X\}]]></fr:tex>
+is the set of <fr:link href="/nst-0012/" title="Equivalence class" uri="http://localhost:8000/nst-0012/" display-uri="nst-0012" type="local">equivalence classes</fr:link>. We have a natural surjective map <fr:tex display="inline"><![CDATA[X\to  X/R]]></fr:tex> sending <fr:tex display="inline"><![CDATA[a\mapsto [a]]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-0004/</fr:uri>
+            <fr:display-uri>nt-0004</fr:display-uri>
+            <fr:route>/nt-0004/</fr:route>
+            <fr:title text="Unique prime factorization">Unique prime factorization</fr:title>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 0.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For any <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, we may write it as a product
+<fr:tex display="block"><![CDATA[n=p_{1}^{\alpha _{1}}(…)p_{k}^{\alpha _{k}}]]></fr:tex>
+of distinct primes <fr:tex display="inline"><![CDATA[p_{i}]]></fr:tex> and exponents <fr:tex display="inline"><![CDATA[\alpha _{i}\in \mathbb {N}]]></fr:tex>. Here "uniqueness" means if we have another factorization
+<fr:tex display="block"><![CDATA[n=q_{1}^{\beta _{1}}(…)q_{\ell }^{\beta _{\ell }},]]></fr:tex>
+then <fr:tex display="inline"><![CDATA[k=\ell ]]></fr:tex> and we have a bijection <fr:tex display="inline"><![CDATA[\sigma \colon \{1,…,k\}\to \{1,…,\ell \}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p_{i}=q_{\sigma (i)}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\alpha _{i}=\beta _{\sigma (i)}]]></fr:tex>. In other words, the two factorizations differ only in the ordering of factors.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-0001/</fr:uri>
+            <fr:display-uri>nt-0001</fr:display-uri>
+            <fr:route>/nt-0001/</fr:route>
+            <fr:title text="Well-ordering principle">Well-ordering principle</fr:title>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 0.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Every nonempty subset <fr:tex display="inline"><![CDATA[A\subseteq \mathbb {N}]]></fr:tex> has a minimal element:</html:p>
+            <fr:tex display="block"><![CDATA[\forall  A\subseteq \mathbb {N}\ldotp  A\neq \emptyset \implies  \exists  a\in  A\ldotp \forall  x\in  A\ldotp  a\leq  x.]]></fr:tex>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/field-0001/</fr:uri>
+            <fr:display-uri>field-0001</fr:display-uri>
+            <fr:route>/field-0001/</fr:route>
+            <fr:title text="Field">Field</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.4</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A <html:dfn>Field</html:dfn> is traditionally defined as a set <fr:tex display="inline"><![CDATA[F]]></fr:tex> with two binary operators, addition (denoted <fr:tex display="inline"><![CDATA[+]]></fr:tex>) and multiplication (denoted <fr:tex display="inline"><![CDATA[\cdot ]]></fr:tex>), satisfying the field axioms:</html:p>
+            <html:ol><html:li>Associativity of addition: for all <fr:tex display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[(x+y)+z=x+(y+z)]]></fr:tex></html:li>
+<html:li>Commutativity of addition: for all <fr:tex display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[x+y=y+x]]></fr:tex></html:li>
+<html:li>Additive identity: there exists a <fr:tex display="inline"><![CDATA[0\in  F]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex display="inline"><![CDATA[0+x=x]]></fr:tex> and <fr:tex display="inline"><![CDATA[x+0=x]]></fr:tex></html:li>
+<html:li>Additive inverses: for each <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> there is a unique <fr:tex display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x+y=0]]></fr:tex> and <fr:tex display="inline"><![CDATA[y+x=0]]></fr:tex>; in this case, we usually denote <fr:tex display="inline"><![CDATA[y]]></fr:tex> as <fr:tex display="inline"><![CDATA[(-x)]]></fr:tex></html:li>
+<html:li>Associativity of multiplication: for all <fr:tex display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[(x\cdot  y)\cdot  z=x\cdot  (y\cdot  z)]]></fr:tex></html:li>
+<html:li>Commutativity of multiplication: for all <fr:tex display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[x\cdot  y=y\cdot  x]]></fr:tex></html:li>
+<html:li>Multiplicative identity: there exists a <fr:tex display="inline"><![CDATA[1\in  F]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex display="inline"><![CDATA[1\cdot  x=x]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\cdot  1=x]]></fr:tex></html:li>
+<html:li>Multiplicative inverses: for each <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> which is nonzero <fr:tex display="inline"><![CDATA[x\neq 0]]></fr:tex> there is a unique <fr:tex display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x\cdot  y=1]]></fr:tex> and <fr:tex display="inline"><![CDATA[y\cdot  x=1]]></fr:tex>; usually we denote <fr:tex display="inline"><![CDATA[y]]></fr:tex> as <fr:tex display="inline"><![CDATA[x^{-1}]]></fr:tex></html:li>
+<html:li>Distributivity of multiplication over addition: for all <fr:tex display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[x\cdot (y+z)=(x\cdot  y)+(x\cdot  z)]]></fr:tex> and <fr:tex display="inline"><![CDATA[(x+y)\cdot  z=(x\cdot  z)+(x\cdot  y)]]></fr:tex></html:li></html:ol>
+            <html:p>Note that some of these are redundant.</html:p>
+            <html:p>Also note: fields are usually written in blackboard bold, and the generic field is either <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since the German word for field is "<html:em>Körper</html:em>").</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

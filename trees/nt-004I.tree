@@ -1,0 +1,9 @@
+\title{Insolvability of Quintic Equations}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{corollary}
+
+\p{In general, a polynomial #{p(x)} of degree #{\deg(p)\geq5} is not solvable by radicals.}
+
+\proof{\p{The Galois group of such a #{p(x)} is #{S_{n}} which is not solvable for #{n\geq5}. [Galois's theorem](nt-0046) implies the result.}}

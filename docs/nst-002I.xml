@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6210</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8983</fr:anchor><fr:addr
 type="user">nst-002I</fr:addr><fr:route>nst-002I.xml</fr:route><fr:title
 text="Proof by contrapositive">Proof by contrapositive</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -46,7 +46,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6212</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8985</fr:anchor><fr:addr
 type="user">nst-002H</fr:addr><fr:route>nst-002H.xml</fr:route><fr:title
 text="Proof strategies">Proof strategies</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -59,7 +59,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2785</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1489</fr:anchor><fr:addr
 type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
 text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -79,7 +79,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2787</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1491</fr:anchor><fr:addr
 type="user">nst-002I</fr:addr><fr:route>nst-002I.xml</fr:route><fr:title
 text="Proof by contrapositive">Proof by contrapositive</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -110,7 +110,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2789</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1493</fr:anchor><fr:addr
 type="user">nst-002J</fr:addr><fr:route>nst-002J.xml</fr:route><fr:title
 text="Proof by contradiction">Proof by contradiction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -135,7 +135,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2791</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1495</fr:anchor><fr:addr
 type="user">nst-002K</fr:addr><fr:route>nst-002K.xml</fr:route><fr:title
 text="Proof by induction">Proof by induction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -172,7 +172,185 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6214</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8987</fr:anchor><fr:addr
+type="user">nt-0026</fr:addr><fr:route>nt-0026.xml</fr:route><fr:title
+text="Criteria for polynomials to be separable">Criteria for polynomials to be separable</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A polynomial <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p'(x)]]></fr:tex> have no common root.</fr:p><fr:p>Note: by <fr:tex
+display="inline"><![CDATA[p'(x)]]></fr:tex> we mean the formal derivative. That is, if
+<fr:tex
+display="block"><![CDATA[p(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+…+a_{1}x+a_{0},]]></fr:tex>
+then
+<fr:tex
+display="block"><![CDATA[p'(x)=na_{n}x^{n-1}+(n-1)a_{n-1}x^{n-2}+…+a_{1}.]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1019</fr:anchor><fr:addr
+type="machine">#397</fr:addr><fr:route>unstable-397.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let
+<fr:tex
+display="block"><![CDATA[p(x)=c(x-\alpha _{1})(…)(x-\alpha _{n})]]></fr:tex>
+be the factorization of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> over the splitting field. Then by the product rule for differentiation,
+<fr:tex
+display="block"><![CDATA[p'(x)=c\left (\frac {p(x)}{x-\alpha _{1}}+\frac {p(x)}{x-\alpha _{2}}+…+\frac {p(x)}{x-\alpha _{n}}\right ).]]></fr:tex>
+We see each term in the sum is a polynomial.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002I.xml"
+addr="nst-002I"
+title="Proof by contrapositive">Proof by contrapositive</fr:link>.) If <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is inseparable, then <fr:tex
+display="inline"><![CDATA[\alpha _{i}=\alpha _{j}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[i\neq  j]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\alpha _{i}]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[p(x)/(x-\alpha _{k})]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[p'(\alpha _{i})=0]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\alpha _{i}]]></fr:tex> is a common root of <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p'(x)]]></fr:tex>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002G.xml"
+addr="nst-002G"
+title="Direct proof">Direct proof</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is separable over its splitting field, then we see its roots satisfy <fr:tex
+display="inline"><![CDATA[\alpha _{i}-\alpha _{j}\neq 0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i\neq  j]]></fr:tex>. Then we see
+<fr:tex
+display="block"><![CDATA[p'(\alpha _{i})=c\prod _{i\neq  j}(\alpha _{i}-\alpha _{j}),]]></fr:tex>
+so that <fr:tex
+display="inline"><![CDATA[\alpha _{i}]]></fr:tex> is not a root of <fr:tex
+display="inline"><![CDATA[p'(x)]]></fr:tex>. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1021</fr:anchor><fr:addr
+type="machine">#398</fr:addr><fr:route>unstable-398.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Note that <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[q(x)\in \mathbb {F}[x]]]></fr:tex> have no common root if and only if <fr:tex
+display="inline"><![CDATA[\gcd (p(x),q(x))=1]]></fr:tex>, which can be checked in <fr:tex
+display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> using the Euclidean algorithm, without any need to compute any extensions.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+<fr:p><fr:strong>Exercise:</fr:strong> For <fr:tex
+display="inline"><![CDATA[p(x)=x^{p}-t\in \mathbb {F}_{p}(t)]]></fr:tex>, calculate <fr:tex
+display="inline"><![CDATA[p'(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\gcd (p(x),p'(x))]]></fr:tex> to prove <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is inseparable.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8989</fr:anchor><fr:addr
+type="user">nt-0027</fr:addr><fr:route>nt-0027.xml</fr:route><fr:title
+text="Irreducible polynomials are separable iff its derivative is not identically zero">Irreducible polynomials are separable iff its derivative is not identically zero</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An irreducible polynomial <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[p'(x)\neq 0]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1025</fr:anchor><fr:addr
+type="machine">#396</fr:addr><fr:route>unstable-396.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002I.xml"
+addr="nst-002I"
+title="Proof by contrapositive">Proof by contrapositive</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)=0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p(x)\mathrel {\bigm |} p'(x)]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is separable by <fr:link
+type="local"
+href="nt-0026.xml"
+addr="nt-0026"
+title="Criteria for polynomials to be separable">the criteria for polynomials to be separable</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)\neq 0]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[p(x)=p'(x)q(x)+r(x),]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\deg (r)<\deg (p')]]></fr:tex> by the division algorithm.</fr:p>
+<fr:p>Now assume for contradiction <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> has a double root <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[r(\alpha )=p(\alpha )-p'(\alpha )q(\alpha )=0.]]></fr:tex>
+Then the minimal polynomial divides the remainder polynomial <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\mathrel {\bigm |} r(x)]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\neq  p(x)]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible. This contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is irreducible. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8991</fr:anchor><fr:addr
 type="user">gt-000X</fr:addr><fr:route>gt-000X.xml</fr:route><fr:title
 text="Intermdiated value property equivalent to being connected">Intermdiated value property equivalent to being connected</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -203,8 +381,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6216</fr:anchor><fr:addr
-type="machine">#366</fr:addr><fr:route>unstable-366.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8993</fr:anchor><fr:addr
+type="machine">#477</fr:addr><fr:route>unstable-477.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -260,7 +438,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6218</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8995</fr:anchor><fr:addr
 type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
 text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"

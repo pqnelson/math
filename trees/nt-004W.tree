@@ -1,0 +1,11 @@
+\title{Well-definedness of transcendental basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{proof}
+
+\p{Let #{\kk / \FF} be a field extension. Let #{S_{1}\subset S_{2}\subset\dots\subset\kk} be a tower of [algebraically independent](nt-004U) sets. Then
+##{S=\bigcup_{i=1}^{\infty}S_{i}}
+is algebraically independent.}
+
+\p{This follows from [[zorn's-lemma]].}

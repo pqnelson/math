@@ -1,0 +1,12 @@
+\title{Criteria for simple radical extensions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 14.7.36}
+
+\p{Let #{n\in\NN}. Let #{\FF} be a field containing the #{n^{\text{th}}} roots of unity. If #{\Char(\FF)\nmid n}, then for any #{a\in\FF} the extension #{\FF(\sqrt[n]{a})} ic [cyclic](nt-0049) over #{\FF} of degree dividing #{n}.}
+\p{Here #{\sqrt[n]{a}} is any solution to #{x^{n}-a\in\FF[x]}.}
+
+\rmk{We say #{\FF(\sqrt[n]{a})} is a \define{Simple Radical Extension} of #{\FF}.}

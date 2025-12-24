@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/leonhard-euler/" title="Leonhard Euler" uri="http://localhost:8000/leonhard-euler/" display-uri="leonhard-euler" type="local">Leonhard Euler</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1765</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/euler-1765-elements/</fr:uri>
+    <fr:display-uri>euler-1765-elements</fr:display-uri>
+    <fr:route>/euler-1765-elements/</fr:route>
+    <fr:title text="Elements of Algebra">Elements of Algebra</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="bibtex"><![CDATA[@book{euler2012elements,
+  title={Elements of algebra},
+  author={Euler, Leonhard},
+  year={2012},
+  publisher={Springer Science \& Business Media},
+  note={Translated by Scott L Hecht}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ela-0002/</fr:uri>
+            <fr:display-uri>ela-0002</fr:display-uri>
+            <fr:route>/ela-0002/</fr:route>
+            <fr:title text="mule and donkey">mule and donkey</fr:title>
+            <fr:taxon>example</fr:taxon>
+            <fr:meta name="source"><fr:link href="/euler-1765-elements/" title="Elements of Algebra" uri="http://localhost:8000/euler-1765-elements/" display-uri="euler-1765-elements" type="local">Elements of Algebra</fr:link>, Ch IV §4 question 3, par.612</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A mule and donkey carry a large load. The donkey complained of his load and said to the mule, "I need only 100 pounds of your load to make mine twice as heavy as yours would be." To which the mule answered, "But if you gave me 100 pounds of your load, I'd be carrying three times you would carry." How much did they carry?</html:p>
+            <html:p>Let <fr:tex display="inline"><![CDATA[d]]></fr:tex> be the donkey's load, <fr:tex display="inline"><![CDATA[m]]></fr:tex> be the mule's load. The donkey's statement could be presented in the equation,
+<fr:tex display="block"><![CDATA[d + 100 = 2(m - 100),]]></fr:tex>
+whereas the mule's response,
+<fr:tex display="block"><![CDATA[m + 100 = 3(d - 100).]]></fr:tex>
+From the first of these equations, we find
+<fr:tex display="block"><![CDATA[d = 2m - 300.]]></fr:tex>
+We plug this into the second equation to find
+<fr:tex display="block"><![CDATA[\begin {split}
+  m + 100 &= 3(2m - 400)\\
+  &= 6m - 1200.
+\end {split}]]></fr:tex>
+Hence the mule carries,
+<fr:tex display="block"><![CDATA[m = \frac {1300}{5} = 260~\hbox {pounds},]]></fr:tex>
+and this means the donkey carries,
+<fr:tex display="block"><![CDATA[d = 520 - 300 = 220~\hbox {pounds}.]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/vectsp-0012/</fr:uri>
+    <fr:display-uri>vectsp-0012</fr:display-uri>
+    <fr:route>/vectsp-0012/</fr:route>
+    <fr:title text="Linear map">Linear map</fr:title>
+    <fr:taxon>definition</fr:taxon>
+    <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.1</fr:meta>
+    <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 6.1.1</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. A <html:dfn>Linear Map</html:dfn> from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to <fr:tex display="inline"><![CDATA[W]]></fr:tex> is a function <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> such that:
+<html:ol><html:li>Additive: <fr:tex display="inline"><![CDATA[L(u+v)=L(u)+L(v)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[u,v\in  V]]></fr:tex>, and</html:li>
+<html:li>Homogeneous: <fr:tex display="inline"><![CDATA[L(av)=aL(v)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex></html:li></html:ol>
+We denote the set of all linear transformations from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to <fr:tex display="inline"><![CDATA[W]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathcal {L}(V,W)]]></fr:tex>.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ila-0005/</fr:uri>
+            <fr:display-uri>ila-0005</fr:display-uri>
+            <fr:route>/ila-0005/</fr:route>
+            <fr:title text="Linear maps">Linear maps</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0012/</fr:uri>
+                <fr:display-uri>vectsp-0012</fr:display-uri>
+                <fr:route>/vectsp-0012/</fr:route>
+                <fr:title text="Linear map">Linear map</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.1</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 6.1.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. A <html:dfn>Linear Map</html:dfn> from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to <fr:tex display="inline"><![CDATA[W]]></fr:tex> is a function <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> such that:
+<html:ol><html:li>Additive: <fr:tex display="inline"><![CDATA[L(u+v)=L(u)+L(v)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[u,v\in  V]]></fr:tex>, and</html:li>
+<html:li>Homogeneous: <fr:tex display="inline"><![CDATA[L(av)=aL(v)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex></html:li></html:ol>
+We denote the set of all linear transformations from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to <fr:tex display="inline"><![CDATA[W]]></fr:tex> by <fr:tex display="inline"><![CDATA[\mathcal {L}(V,W)]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001Y/</fr:uri>
+                <fr:display-uri>vectsp-001Y</fr:display-uri>
+                <fr:route>/vectsp-001Y/</fr:route>
+                <fr:title text="Differentiation is a linear operator on space of polynomials">Differentiation is a linear operator on space of polynomials</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>, let <fr:tex display="inline"><![CDATA[\mathbb {F}[z]]]></fr:tex> be the vector space of polynomials with coefficients in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> and in unknown <fr:tex display="inline"><![CDATA[z]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[\frac {\mathrm {d}}{\mathrm {d} z}\colon \mathbb {F}[z]\to \mathbb {F}[z]]]></fr:tex>
+defined by
+<fr:tex display="block"><![CDATA[\frac {\mathrm {d}}{\mathrm {d} z}(a_{0}+a_{1}z+…+a_{n}z^{n})=a_{1}+…+a_{k}kz^{k-1}+…+a_{n}nz^{n-1}]]></fr:tex>
+is a linear operator on <fr:tex display="inline"><![CDATA[\mathbb {F}[z]]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0013/</fr:uri>
+                <fr:display-uri>vectsp-0013</fr:display-uri>
+                <fr:route>/vectsp-0013/</fr:route>
+                <fr:title text="Linear map lemma">Linear map lemma</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Lemma 3.4</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 6.1.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be finite-dimensional vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[v_{1},…,v_{n}]]></fr:tex> is a basis of <fr:tex display="inline"><![CDATA[V]]></fr:tex>, and suppose <fr:tex display="inline"><![CDATA[w_{1},…,w_{n}]]></fr:tex> is a basis of <fr:tex display="inline"><![CDATA[W]]></fr:tex>. Then there exists a unique linear map <fr:tex display="inline"><![CDATA[T\colon  V\to  W]]></fr:tex> such that <fr:tex display="inline"><![CDATA[T(v_{i})=w_{i}]]></fr:tex> for each <fr:tex display="inline"><![CDATA[i=1,…,n]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0014/</fr:uri>
+                <fr:display-uri>vectsp-0014</fr:display-uri>
+                <fr:route>/vectsp-0014/</fr:route>
+                <fr:title text="Addition of linear maps">Addition of linear maps</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.5</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 6.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[S,T\in \mathcal {L}(V,W)]]></fr:tex> be linear transformations from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to <fr:tex display="inline"><![CDATA[W]]></fr:tex>. Then we may define the <html:dfn>Sum</html:dfn> of <fr:tex display="inline"><![CDATA[S]]></fr:tex> and <fr:tex display="inline"><![CDATA[T]]></fr:tex> to be the linear transformation <fr:tex display="inline"><![CDATA[S+T]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[(S+T)(v)=S(v)+T(v)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0015/</fr:uri>
+                <fr:display-uri>vectsp-0015</fr:display-uri>
+                <fr:route>/vectsp-0015/</fr:route>
+                <fr:title text="Scalar multiplication of linear maps">Scalar multiplication of linear maps</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.5</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 6.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[S\in \mathcal {L}(V,W)]]></fr:tex> be a linear transformation from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to <fr:tex display="inline"><![CDATA[W]]></fr:tex> and <fr:tex display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex>. Then we may define the <html:dfn>Scalar multiple</html:dfn> <fr:tex display="inline"><![CDATA[aS]]></fr:tex> to be the linear transformation defined by <fr:tex display="inline"><![CDATA[(aS)(v)=aS(v)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0016/</fr:uri>
+                <fr:display-uri>vectsp-0016</fr:display-uri>
+                <fr:route>/vectsp-0016/</fr:route>
+                <fr:title text="Linear maps form a vector space">Linear maps form a vector space</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.6</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 6.1.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\mathcal {L}(V,W)]]></fr:tex> forms a vector space over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0017/</fr:uri>
+                <fr:display-uri>vectsp-0017</fr:display-uri>
+                <fr:route>/vectsp-0017/</fr:route>
+                <fr:title text="Composition of linear transformations is a linear transformation">Composition of linear transformations is a linear transformation</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.7</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 6.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[U]]></fr:tex>, <fr:tex display="inline"><![CDATA[V]]></fr:tex>, <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[S\in \mathcal {L}(U,V)]]></fr:tex> and <fr:tex display="inline"><![CDATA[T\in \mathcal {L}(V,W)]]></fr:tex> be linear maps. Then <fr:tex display="inline"><![CDATA[T\circ  S\in \mathcal {L}(U,W)]]></fr:tex> is a linear transformation defined by <fr:tex display="inline"><![CDATA[(T\circ  S)(u)=T(S(u))]]></fr:tex> for all <fr:tex display="inline"><![CDATA[u\in  U]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0018/</fr:uri>
+                <fr:display-uri>vectsp-0018</fr:display-uri>
+                <fr:route>/vectsp-0018/</fr:route>
+                <fr:title text="Algebraic properties of composition of linear transformations">Algebraic properties of composition of linear transformations</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.8</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 6.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The following hold:</html:p>
+                <html:ol><html:li>Associativity: for any <fr:tex display="inline"><![CDATA[T_{1}\in \mathcal {L}(V_{1},V_{2})]]></fr:tex>, <fr:tex display="inline"><![CDATA[T_{2}\in \mathcal {L}(V_{2},V_{3})]]></fr:tex>, <fr:tex display="inline"><![CDATA[T_{3}\in \mathcal {L}(V_{3},V_{4})]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[(T_{1}\circ  T_{2})\circ  T_{3}=T_{1}\circ (T_{2}\circ  T_{3})]]></fr:tex>.</html:li>
+<html:li>Identity: <fr:tex display="inline"><![CDATA[I\circ  T=T]]></fr:tex> and <fr:tex display="inline"><![CDATA[T\circ  I=T]]></fr:tex> for any <fr:tex display="inline"><![CDATA[T\in \mathcal {L}(V,W)]]></fr:tex></html:li>
+<html:li>Distributivity: <fr:tex display="inline"><![CDATA[(S_{1}+S_{2})\circ  T=(S_{1}\circ  T)+(S_{2}\circ  T)]]></fr:tex> and <fr:tex display="inline"><![CDATA[S\circ (T_{1}+T_{2})=(S\circ  T_{1})+(S\circ  T_{2})]]></fr:tex> whenver these are defined.</html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-0019/</fr:uri>
+                <fr:display-uri>vectsp-0019</fr:display-uri>
+                <fr:route>/vectsp-0019/</fr:route>
+                <fr:title text="Linear maps take zero to zero">Linear maps take zero to zero</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.10</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map of vector spaces. Then <fr:tex display="inline"><![CDATA[L(\vec {0}_{V})=\vec {0}_{W}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see
+<fr:tex display="block"><![CDATA[L(\vec {0}_{V})=L(\vec {0}_{V}+\vec {0}_{V})=L(\vec {0}_{V})+L(\vec {0}_{V})]]></fr:tex>
+and then adding the inverse of <fr:tex display="inline"><![CDATA[L(\vec {0}_{V})]]></fr:tex> gives the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001A/</fr:uri>
+                <fr:display-uri>vectsp-001A</fr:display-uri>
+                <fr:route>/vectsp-001A/</fr:route>
+                <fr:title text="Kernel of linear map">Kernel of linear map</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.11</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 6.2.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then the <html:dfn>Kernel</html:dfn> (or "null space") of <fr:tex display="inline"><![CDATA[L]]></fr:tex> is the set <fr:tex display="inline"><![CDATA[\ker (L)]]></fr:tex> of all vectors of <fr:tex display="inline"><![CDATA[V]]></fr:tex> mapped to the zero vector of <fr:tex display="inline"><![CDATA[W]]></fr:tex> by <fr:tex display="inline"><![CDATA[L]]></fr:tex>; i.e.,
+<fr:tex display="block"><![CDATA[\ker (L)=\{v\in  V\mid  L(v)=\vec {0}_{W}\}]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001B/</fr:uri>
+                <fr:display-uri>vectsp-001B</fr:display-uri>
+                <fr:route>/vectsp-001B/</fr:route>
+                <fr:title text="Kernel is a subspace of the domain">Kernel is a subspace of the domain</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.13</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then <fr:tex display="inline"><![CDATA[\ker (L)]]></fr:tex> is a subspace of <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><html:strong>Claim 1:</html:strong> for any <fr:tex display="inline"><![CDATA[u,v\in \ker (L)]]></fr:tex>, we claim <fr:tex display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex>. Observe <fr:tex display="inline"><![CDATA[L(u+v)=L(u)+L(v)=\vec {0}_{W}+\vec {0}_{W}=\vec {0}_{W}]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[(u+v)\in \ker (L)]]></fr:tex> as desired.</html:p>
+<html:p><html:strong>Claim 2:</html:strong> For any <fr:tex display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[v\in \ker (L)]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[L(av)=aL(v)=a\vec {0}_{W}=\vec {0}_{W}]]></fr:tex> by <fr:link href="/vectsp-000A/" title="Scalar multiples of zero vector are the zero vector" uri="http://localhost:8000/vectsp-000A/" display-uri="vectsp-000A" type="local">Scalar multiples of zero vector are the zero vector</fr:link>, hence <fr:tex display="inline"><![CDATA[av\in \ker (L)]]></fr:tex>.</html:p>
+<html:p>From these two claims and by <fr:link href="/vectsp-000D/" title="Criteria for subset to be a subspace" uri="http://localhost:8000/vectsp-000D/" display-uri="vectsp-000D" type="local">Criteria for subset to be a subspace</fr:link>, we have the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/ela-001J/</fr:uri>
+                <fr:display-uri>ela-001J</fr:display-uri>
+                <fr:route>/ela-001J/</fr:route>
+                <fr:title text="Injective function">Injective function</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function. We say <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:dfn>injective</html:dfn> (or that it's a <html:em>injection</html:em>) if for all <fr:tex display="inline"><![CDATA[x_{1},x_{2}\in  X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f(x_{1})=f(x_{2})]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x_{1}=x_{2}]]></fr:tex>.</html:p>
+                <html:p>Equivalently, if <fr:tex display="inline"><![CDATA[f(x_{1})\neq  f(x_{2})]]></fr:tex>, then <fr:tex display="inline"><![CDATA[x_{1}\neq  x_{2}]]></fr:tex>.</html:p>
+                <html:p>So no two distinct elements of <fr:tex display="inline"><![CDATA[X]]></fr:tex> are mapped to the same element under <fr:tex display="inline"><![CDATA[f]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001C/</fr:uri>
+                <fr:display-uri>vectsp-001C</fr:display-uri>
+                <fr:route>/vectsp-001C/</fr:route>
+                <fr:title text="Linear transformation is injective iff kernel is trivial">Linear transformation is injective iff kernel is trivial</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.15</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.6</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <fr:link href="/ela-001J/" title="Injective function" uri="http://localhost:8000/ela-001J/" display-uri="ela-001J" type="local">injective</fr:link> if and only if <fr:tex display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Assume <fr:tex display="inline"><![CDATA[L]]></fr:tex> is injective. We know <fr:tex display="inline"><![CDATA[\vec {0}\in \ker (L)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[v\in \ker (L)]]></fr:tex> be arbitrary. Then <fr:tex display="inline"><![CDATA[L(v)=\vec {0}_{W}=L(\vec {0_{V}})]]></fr:tex> which implies <fr:tex display="inline"><![CDATA[v=\vec {0}_{V}]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[\ker (L)=\{\vec {0}_{V}\}]]></fr:tex> as desired.</html:p>
+
+<html:p>Now, assume <fr:tex display="inline"><![CDATA[\ker (L)=\{\vec {0}\}]]></fr:tex>. We will show that <fr:tex display="inline"><![CDATA[L]]></fr:tex> is <fr:link href="/ela-001J/" title="Injective function" uri="http://localhost:8000/ela-001J/" display-uri="ela-001J" type="local">injective</fr:link> Let <fr:tex display="inline"><![CDATA[u,v\in  V]]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[L(u)=L(v)]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[\vec {0}_{W}=L(u)-L(v)=L(u-v),]]></fr:tex>
+so <fr:tex display="inline"><![CDATA[(u-v)\in \ker (L)]]></fr:tex>. But by assumption, this means <fr:tex display="inline"><![CDATA[(u-v)\in \{\vec {0}_{V}\}]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[u-v=\vec {0}_{V}]]></fr:tex>, which means (by adding <fr:tex display="inline"><![CDATA[v]]></fr:tex> to both sides) <fr:tex display="inline"><![CDATA[u=v]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[L]]></fr:tex> is injective.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/ela-001B/</fr:uri>
+                <fr:display-uri>ela-001B</fr:display-uri>
+                <fr:route>/ela-001B/</fr:route>
+                <fr:title text="Image of a function">Image of a function</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> be sets, let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function. We define the <html:dfn>Image</html:dfn> (or <html:dfn>Range</html:dfn>) of <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be the subset <fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (f)=f(X)=\{f(x)\in  Y\mid  x\in  X\}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001D/</fr:uri>
+                <fr:display-uri>vectsp-001D</fr:display-uri>
+                <fr:route>/vectsp-001D/</fr:route>
+                <fr:title text="Image of linear map is a subspace of codomain">Image of linear map is a subspace of codomain</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.18</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.2.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then its image <fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (L)]]></fr:tex> is a subspace of <fr:tex display="inline"><![CDATA[W]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We will show <fr:tex display="inline"><![CDATA[\vec {0}\in \mathop {\textrm {ran}}\nolimits (L)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (L)]]></fr:tex> is closed under vector addition and scalar multiplication, then the <fr:link href="/vectsp-000D/" title="Criteria for subset to be a subspace" uri="http://localhost:8000/vectsp-000D/" display-uri="vectsp-000D" type="local">Criteria for subset to be a subspace</fr:link> implies <fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (L)]]></fr:tex> is a subspace of <fr:tex display="inline"><![CDATA[W]]></fr:tex>.</html:p>
+<html:p>Well, since <fr:link href="/vectsp-0019/" title="Linear maps take zero to zero" uri="http://localhost:8000/vectsp-0019/" display-uri="vectsp-0019" type="local">Linear maps take zero to zero</fr:link>, we have established that <fr:tex display="inline"><![CDATA[L(\vec {0}_{V})=\vec {0}_{W}]]></fr:tex>.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[w_{1},w_{2}\in \mathop {\textrm {ran}}\nolimits (L)]]></fr:tex>. Then there exists <fr:tex display="inline"><![CDATA[v_{1},v_{2}\in  V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[L(v_{1})=w_{1}]]></fr:tex> and <fr:tex display="inline"><![CDATA[L(v_{2})=w_{2}]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[L(v_{1}+v_{2})=L(v_{1})+L(v_{2})=w_{1}+w_{2}]]></fr:tex>
+Hence <fr:tex display="inline"><![CDATA[w_{1}+w_{2}\in \mathop {\textrm {ran}}\nolimits (L)]]></fr:tex>, which implies it is closed under vector addition.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[w\in \mathop {\textrm {ran}}\nolimits (L)]]></fr:tex> and <fr:tex display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex>. Then there exists a <fr:tex display="inline"><![CDATA[v\in  V]]></fr:tex> such that <fr:tex display="inline"><![CDATA[L(v)=w]]></fr:tex>. We see
+<fr:tex display="block"><![CDATA[L(av)=aL(v)=aw]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[aw\in \mathop {\textrm {ran}}\nolimits (L)]]></fr:tex>. Hence the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001E/</fr:uri>
+                <fr:display-uri>vectsp-001E</fr:display-uri>
+                <fr:route>/vectsp-001E/</fr:route>
+                <fr:title text="Dimensional formula">Dimensional formula</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.21</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 6.5.1</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[W]]></fr:tex> be a (not necessarily finite-dimensional) vector space over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map. Then the following all hold:
+<html:ol><html:li><fr:tex display="inline"><![CDATA[\mathop {\textrm {ran}}\nolimits (L)]]></fr:tex> is a finite-dimensional subspace of <fr:tex display="inline"><![CDATA[W]]></fr:tex>, and</html:li>
+<html:li><fr:tex display="inline"><![CDATA[\dim (V)=\dim (\ker (L))+\dim (\mathop {\textrm {ran}}\nolimits (L))]]></fr:tex></html:li></html:ol></html:p>
+                <html:p>Note: this theorem goes by many names (e.g., <fr:link href="/sheldon-jay-axler/" title="Sheldon Jay Axler" uri="http://localhost:8000/sheldon-jay-axler/" display-uri="sheldon-jay-axler" type="local">Axler</fr:link> calls it "the fundamental theorem of linear maps").</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001F/</fr:uri>
+                <fr:display-uri>vectsp-001F</fr:display-uri>
+                <fr:route>/vectsp-001F/</fr:route>
+                <fr:title text="Linear map to lower-dimensional space cannot be injective">Linear map to lower-dimensional space cannot be injective</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.22</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 6.5.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\dim (V)>\dim (W)]]></fr:tex>. Then no linear map <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> can be <fr:link href="/ela-001J/" title="Injective function" uri="http://localhost:8000/ela-001J/" display-uri="ela-001J" type="local">injective</fr:link>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001G/</fr:uri>
+                <fr:display-uri>vectsp-001G</fr:display-uri>
+                <fr:route>/vectsp-001G/</fr:route>
+                <fr:title text="Linear map to higher-dimensional spaces cannot be surjective">Linear map to higher-dimensional spaces cannot be surjective</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.24</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Corollary 6.5.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\dim (V)<\dim (W)]]></fr:tex>. Then no linear map <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> can be <fr:link href="/ela-001I/" title="Surjective function" uri="http://localhost:8000/ela-001I/" display-uri="ela-001I" type="local">surjective</fr:link>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001H/</fr:uri>
+                <fr:display-uri>vectsp-001H</fr:display-uri>
+                <fr:route>/vectsp-001H/</fr:route>
+                <fr:title text="Matrix of a linear map">Matrix of a linear map</fr:title>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.31</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 6.6</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex display="inline"><![CDATA[(e_{1},…,e_{n})]]></fr:tex> be an ordered basis of <fr:tex display="inline"><![CDATA[V]]></fr:tex>, let <fr:tex display="inline"><![CDATA[(f_{1},…,f_{m})]]></fr:tex> be an ordered basis of <fr:tex display="inline"><![CDATA[W]]></fr:tex>, let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map.</html:p>
+                <html:p>There is an <fr:tex display="inline"><![CDATA[m\times  n]]></fr:tex> <fr:link href="/matrix-0001/" title="matrix" uri="http://localhost:8000/matrix-0001/" display-uri="matrix-0001" type="local">matrix</fr:link> with entries in <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>
+<fr:tex display="block"><![CDATA[M(L)=\begin {pmatrix}a_{11} & … & a_{1n}\\\vdots & \ddots  &\vdots \\a_{m1}&…&a_{mn}\end {pmatrix}]]></fr:tex>
+where
+<fr:tex display="block"><![CDATA[L(v_{j})=a_{1j}w_{1}+…+a_{mj}w_{m}]]></fr:tex>
+for <fr:tex display="inline"><![CDATA[j=1,…,n]]></fr:tex>.</html:p>
+                <html:p>Compare this to the <fr:link href="/ela-001G/" title="Matrix of a linear transformation" uri="http://localhost:8000/ela-001G/" display-uri="ela-001G" type="local">notion</fr:link> in elementary linear algebra.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001I/</fr:uri>
+                <fr:display-uri>vectsp-001I</fr:display-uri>
+                <fr:route>/vectsp-001I/</fr:route>
+                <fr:title text="Matrix of sum of linear maps">Matrix of sum of linear maps</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.35</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 6.6</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex display="inline"><![CDATA[L_{1},L_{2}\colon  V\to  W]]></fr:tex> be linear maps.</html:p>
+                <html:p>Then the matrix of the <fr:link href="/vectsp-0014/" title="Addition of linear maps" uri="http://localhost:8000/vectsp-0014/" display-uri="vectsp-0014" type="local">sum of linear maps</fr:link> is the <fr:link href="/matrix-000E/" title="Matrix Addition" uri="http://localhost:8000/matrix-000E/" display-uri="matrix-000E" type="local">matrix sum</fr:link> of respective matrices <fr:tex display="inline"><![CDATA[M(L_{1}+L_{2})=M(L_{1})+M(L_{2})]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001J/</fr:uri>
+                <fr:display-uri>vectsp-001J</fr:display-uri>
+                <fr:route>/vectsp-001J/</fr:route>
+                <fr:title text="Matrix of a scalar multiple of a linear map">Matrix of a scalar multiple of a linear map</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.38</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Section 6.6</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be a linear map, let <fr:tex display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex>.</html:p>
+                <html:p>Then the matrix of a <fr:link href="/vectsp-0015/" title="Scalar multiplication of linear maps" uri="http://localhost:8000/vectsp-0015/" display-uri="vectsp-0015" type="local">scalar multiple</fr:link> of <fr:tex display="inline"><![CDATA[L]]></fr:tex> is a <fr:link href="/matrix-000I/" title="Scalar multiplication (on a matrix)" uri="http://localhost:8000/matrix-000I/" display-uri="matrix-000I" type="local">scalar multiple</fr:link> of the matrix, i.e., <fr:tex display="inline"><![CDATA[M(aL)=aM(L)]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001K/</fr:uri>
+                <fr:display-uri>vectsp-001K</fr:display-uri>
+                <fr:route>/vectsp-001K/</fr:route>
+                <fr:title text="Matrix of composition of linear transformations is matrix multiplication">Matrix of composition of linear transformations is matrix multiplication</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.43</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.6.5</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[U]]></fr:tex>, <fr:tex display="inline"><![CDATA[V]]></fr:tex>, and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be <fr:link href="/vectsp-000O/" title="Finite-Dimensional Vector Space" uri="http://localhost:8000/vectsp-000O/" display-uri="vectsp-000O" type="local">Finite-Dimensional Vector Space</fr:link>s over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, let <fr:tex display="inline"><![CDATA[L_{1}\colon  U\to  V]]></fr:tex> and <fr:tex display="inline"><![CDATA[L_{2}\colon  V\to  W]]></fr:tex> be linear maps.</html:p>
+                <html:p>Then the matrix of their <fr:link href="/vectsp-0017/" title="Composition of linear transformations is a linear transformation" uri="http://localhost:8000/vectsp-0017/" display-uri="vectsp-0017" type="local">composition</fr:link> is the <fr:link href="/matrix-000X/" title="Matrix Multiplication" uri="http://localhost:8000/matrix-000X/" display-uri="matrix-000X" type="local">matrix multiplication</fr:link> of their respective matrices: <fr:tex display="inline"><![CDATA[M(L_{2}\circ  L_{1})=M(L_{2})M(L_{1})]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-001L/</fr:uri>
+                <fr:display-uri>nst-001L</fr:display-uri>
+                <fr:route>/nst-001L/</fr:route>
+                <fr:title text="Inverse function">Inverse function</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function. We call a function <fr:tex display="inline"><![CDATA[g\colon  Y\to  X]]></fr:tex> the <html:dfn>Inverse</html:dfn> of <fr:tex display="inline"><![CDATA[f]]></fr:tex> if <fr:tex display="inline"><![CDATA[f\circ  g=\mathop {\textrm {id}}\nolimits _{Y}]]></fr:tex> and <fr:tex display="inline"><![CDATA[g\circ  f=\mathop {\textrm {id}}\nolimits _{X}]]></fr:tex>. When such a <fr:tex display="inline"><![CDATA[g]]></fr:tex> exists, we denote it by <fr:tex display="inline"><![CDATA[f^{-1}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-001I/</fr:uri>
+                <fr:display-uri>nst-001I</fr:display-uri>
+                <fr:route>/nst-001I/</fr:route>
+                <fr:title text="Bijective functions have unique inverse">Bijective functions have unique inverse</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/funct_1.html#K2" type="external">funct_1:def 5</fr:link></fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be an <fr:link href="/ela-001K/" title="Bijective function" uri="http://localhost:8000/ela-001K/" display-uri="ela-001K" type="local">Bijective function</fr:link>. Then there exists a function <fr:tex display="inline"><![CDATA[g\colon  Y\to  X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f\circ  g=\mathop {\textrm {id}}\nolimits _{Y}]]></fr:tex> and <fr:tex display="inline"><![CDATA[g\circ  f=\mathop {\textrm {id}}\nolimits _{X}]]></fr:tex>. Moreover this function <fr:tex display="inline"><![CDATA[g]]></fr:tex> is unique.</html:p>
+                <html:p>We call such a <fr:tex display="inline"><![CDATA[g]]></fr:tex> the <html:dfn>Inverse</html:dfn> of <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and we usually denote it by <fr:tex display="inline"><![CDATA[f^{-1}=g]]></fr:tex>.</html:p>
+                <html:p>We see that if <fr:tex display="inline"><![CDATA[(x,y)\in  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[(y,x)\in  g]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001L/</fr:uri>
+                <fr:display-uri>vectsp-001L</fr:display-uri>
+                <fr:route>/vectsp-001L/</fr:route>
+                <fr:title text="Inverse of a linear transformation is linear">Inverse of a linear transformation is linear</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.7.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex> be invertible. Then <fr:tex display="inline"><![CDATA[L^{-1}\colon  W\to  V]]></fr:tex> is a linear transformation.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001M/</fr:uri>
+                <fr:display-uri>vectsp-001M</fr:display-uri>
+                <fr:route>/vectsp-001M/</fr:route>
+                <fr:title text="Isomorphic vector spaces">Isomorphic vector spaces</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 3.69</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 6.7.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> are <html:dfn>Isomorphic</html:dfn> if there exists a bijective linear transformation <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex>. We will often write <fr:tex display="inline"><![CDATA[V\cong  W]]></fr:tex> to indicate <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> are isomorphic.</html:p>
+                <html:p>In this case, we often call <fr:tex display="inline"><![CDATA[L]]></fr:tex> an <html:dfn>Isomorphism</html:dfn>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001N/</fr:uri>
+                <fr:display-uri>vectsp-001N</fr:display-uri>
+                <fr:route>/vectsp-001N/</fr:route>
+                <fr:title text="Finite-dimensional vector spaces are isomorphic iff they are the same dimension">Finite-dimensional vector spaces are isomorphic iff they are the same dimension</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Proposition 6.7.3</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be finite-dimension vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[V]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[W]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[\dim (V)=\dim (W)]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/vectsp-001O/</fr:uri>
+                <fr:display-uri>vectsp-001O</fr:display-uri>
+                <fr:route>/vectsp-001O/</fr:route>
+                <fr:title text="Injective linear maps between finite-dimensional vector spaces are surjective">Injective linear maps between finite-dimensional vector spaces are surjective</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Theorem 3.65</fr:meta>
+                <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Theorem 6.7.7</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex> be finite-dimensional vector spaces over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[L\colon  V\to  W]]></fr:tex>. Then the following are equivalent:
+<html:ol><html:li><fr:tex display="inline"><![CDATA[L]]></fr:tex> is invertible</html:li>
+<html:li><fr:tex display="inline"><![CDATA[L]]></fr:tex> is <fr:link href="/ela-001I/" title="Surjective function" uri="http://localhost:8000/ela-001I/" display-uri="ela-001I" type="local">surjective</fr:link></html:li>
+<html:li><fr:tex display="inline"><![CDATA[L]]></fr:tex> is <fr:link href="/ela-001J/" title="Injective function" uri="http://localhost:8000/ela-001J/" display-uri="ela-001J" type="local">injective</fr:link></html:li></html:ol></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-0019/</fr:uri>
+            <fr:display-uri>gr-0019</fr:display-uri>
+            <fr:route>/gr-0019/</fr:route>
+            <fr:title text="General Linear group of a vector space">General Linear group of a vector space</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link>. Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a <fr:link href="/vectsp-0001/" title="Vector Space" uri="http://localhost:8000/vectsp-0001/" display-uri="vectsp-0001" type="local">Vector Space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. We define the <html:dfn>General Linear Group</html:dfn> on <fr:tex display="inline"><![CDATA[V]]></fr:tex> to be the group <fr:tex display="inline"><![CDATA[\mathop {\textrm {GL}}\nolimits (V)]]></fr:tex> consisting of all invertible <fr:link href="/vectsp-0012/" title="Linear map" uri="http://localhost:8000/vectsp-0012/" display-uri="vectsp-0012" type="local">linear maps</fr:link> from <fr:tex display="inline"><![CDATA[V]]></fr:tex> to itself, equipped with <fr:link href="/vectsp-0017/" title="Composition of linear transformations is a linear transformation" uri="http://localhost:8000/vectsp-0017/" display-uri="vectsp-0017" type="local">composition</fr:link> and the identity linear transformation as the identity element.</html:p>
+            <html:p>When we pick an ordered basis <fr:tex display="inline"><![CDATA[B]]></fr:tex> for <fr:tex display="inline"><![CDATA[V]]></fr:tex> and write <fr:link href="/vectsp-001H/" title="Matrix of a linear map" uri="http://localhost:8000/vectsp-001H/" display-uri="vectsp-001H" type="local">matrix</fr:link> <fr:tex display="inline"><![CDATA[M(g)]]></fr:tex> relative to <fr:tex display="inline"><![CDATA[B]]></fr:tex> for each linear transformation <fr:tex display="inline"><![CDATA[g\in \mathop {\textrm {GL}}\nolimits (V)]]></fr:tex>, then we recover the <fr:link href="/gr-0012/" title="General Linear Group of matrices" uri="http://localhost:8000/gr-0012/" display-uri="gr-0012" type="local">General Linear Group of matrices</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/isaiah-lankham/" title="Isaiah Lankham" uri="http://localhost:8000/isaiah-lankham/" display-uri="isaiah-lankham" type="local">Isaiah Lankham</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/bruno-nachtergaele/" title="Bruno Leo Zulma Nachtergaele" uri="http://localhost:8000/bruno-nachtergaele/" display-uri="bruno-nachtergaele" type="local">Bruno Leo Zulma Nachtergaele</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/anne-schilling/" title="Anne Schilling" uri="http://localhost:8000/anne-schilling/" display-uri="anne-schilling" type="local">Anne Schilling</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2016</fr:year>
+            </fr:date>
+            <fr:uri>http://localhost:8000/lankham-2016-linear/</fr:uri>
+            <fr:display-uri>lankham-2016-linear</fr:display-uri>
+            <fr:route>/lankham-2016-linear/</fr:route>
+            <fr:title text="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:title>
+            <fr:taxon>reference</fr:taxon>
+            <fr:meta name="doi">10.1142/9808</fr:meta>
+            <fr:meta name="external">https://www.math.ucdavis.edu/~anne/linear_algebra/mat67_course_notes.pdf</fr:meta>
+            <fr:meta name="bibtex"><![CDATA[@book{lankham2016linear,
+  title={Linear algebra as an introduction to abstract mathematics},
+  author={Lankham, Isaiah and Nachtergaele, Bruno and Schilling, Anne},
+  year={2016},
+  publisher={World Scientific}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/sheldon-jay-axler/" title="Sheldon Jay Axler" uri="http://localhost:8000/sheldon-jay-axler/" display-uri="sheldon-jay-axler" type="local">Sheldon Jay Axler</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>1996</fr:year>
+            </fr:date>
+            <fr:uri>http://localhost:8000/axler-1996-linear/</fr:uri>
+            <fr:display-uri>axler-1996-linear</fr:display-uri>
+            <fr:route>/axler-1996-linear/</fr:route>
+            <fr:title text="Linear Algebra Done Right">Linear Algebra Done Right</fr:title>
+            <fr:taxon>reference</fr:taxon>
+            <fr:meta name="doi">10.1007/978-3-031-41026-0</fr:meta>
+            <fr:meta name="external">https://linear.axler.net/</fr:meta>
+            <fr:meta name="bibtex"><![CDATA[@book{axler1996linear,
+  author={Axler, Sheldon},
+  title={Linear Algebra Done Right},
+  publisher={Springer},
+  year={1996},
+  edition={Fourth}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

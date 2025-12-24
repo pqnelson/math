@@ -1,0 +1,9 @@
+\title{}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{proposition}
+
+\p{An algebraic number #{\alpha} over #{\FF} lies in a [[nt-004D]] #{\kk / \FF} if and only if it lies in a [Galois extension](nt-002P) #{\LL / \FF} such that there exists a tower of subfields
+##{\FF=L_{0}\propersubset L_{1}\propersubset\dots\propersubset L_{n}=\kk}
+where each #{L_{i+1}/L_{i}} is [Galois](nt-002P) and [cyclic](nt-0049).}

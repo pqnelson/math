@@ -1,0 +1,18 @@
+\title{Fundamental Theorem of Algebra via Galois Theory}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proof}
+
+\p{We will use the following facts:}
+\ol{
+\li{Any odd-degree polynomial with real coefficients has a real root (which is a consequence of the intermediate value theorem from calculus);}
+\li{Any quadratic polynomial over the complex numbers has a complex root (which can be verified using the quadratic formula).}
+}
+\p{\textbf{Claim:} \emph{Any non-constant polynomial #{p(x)\in\CC[x]} has a root in #{\CC}. In other words, #{\CC} is [algebraically closed](nt-001X).}}
+
+\p{\textbf{Proof:} It's enough to prove this for #{p(x)\in\RR[x]}. Indeed, #{p(x)} has a complex root if and only if #{\overline{p}(x)} does, which is the polynomial obtained from #{p(x)} by [complex conjugation](complex-0006). Then #{p(x)} has a complex root if and only if #{q(x)=p(x)\overline{p}(x)} does. Now #{q(x)} is invariant under complex conjugation, so it belongs to #{\RR[x]}.}
+\p{Let #{p(x)\in\RR[x]} be a nonconstant polynomial, let #{\kk / \RR} be its splitting field. Let #{H} be the [Sylow](gr-004S) 2-subgroup of #{\Gal(\kk(i)/\RR)}. Then #{\kk(i)^{H}} has odd degree over #{\RR}.}
+\p{By fact (1), #{\kk(i)^{H}} must be the trivial extension, i.e., #{\kk(i)^{H}=\RR}. Therefore #{\Gal(\kk(i)/\RR)} is a finite 2-group, therefore so is #{\Gal(\kk(i)/\CC)} (say, of order #{2^{n}}). If #{n\geq1}, the latter must therefore contain a subgroup #{H'} of order #{2^{n-1}} of index 2 and necessarily normal. Then #{\kk(i)^{H'}} is a quadratic extension of #{\CC}.}
+\p{By fact (2), this is impossible, so #{n=0}, and #{\kk(i)=\CC}.}
+\p{In other words, #{\CC} contains all the roots of #{p(x)}.}

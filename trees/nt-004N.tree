@@ -1,0 +1,10 @@
+\title{Prime factorization of ideals of algebraic integers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{proposition}
+\import{nt-004L}
+
+\p{Let #{\kk} be a [[nt-004K]]. Any ideal #{I\ideal\AlgInt{\kk}} factors into a product
+##{I=P_{1}^{e_{1}}(\dots)P_{r}^{e_{r}}}
+of distinct prime ideals #{P_{i}\ideal\AlgInt{\kk}}, and this factorization is unique up to rearrangement.}

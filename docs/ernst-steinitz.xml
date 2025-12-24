@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>21400</fr:anchor><fr:addr
+type="user">ernst-steinitz</fr:addr><fr:route>ernst-steinitz.xml</fr:route><fr:title
+text="Ernst Steinitz">Ernst Steinitz</fr:title><fr:taxon>People</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Contributions">Contributions</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>21401</fr:anchor><fr:addr
+type="user">steinitz-1910-algebraische</fr:addr><fr:route>steinitz-1910-algebraische.xml</fr:route><fr:title
+text="Algebraische Theorie der Körper">Algebraische Theorie der Körper</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1910</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="ernst-steinitz.xml"
+addr="ernst-steinitz"
+title="Ernst Steinitz">Ernst Steinitz</fr:link></fr:author></fr:authors><fr:meta
+name="external">https://eudml.org/doc/149323</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{Steinitz1910,
+author = {Steinitz, Ernst},
+journal = {Journal für die reine und angewandte Mathematik},
+pages = {167-309},
+title = {Algebraische Theorie der Körper},
+url = {http://eudml.org/doc/149323},
+volume = {137},
+year = {1910},
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

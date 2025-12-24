@@ -1,0 +1,11 @@
+\title{Solvable Group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+
+\p{Let #{G} be a group. We say #{G} is \define{Solvable} if there is a tower of subgroups
+##{1=G_{0}\propersubgroup G_{1}\propersubgroup\dots\propersubgroup G_{k}=G}
+such that for each #{i} we have #{G_{i}\normalsubgroup G_{i+1}} and #{G_{i+1}/G_{i}} is Abelian.}
+
+\p{\textbf{Exercise:} Prove #{S_{n}} is solvable for #{n<5}, but not solvable for #{n\geq 5}.}

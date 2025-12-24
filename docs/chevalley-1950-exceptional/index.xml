@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/claude-chevalley/" title="Claude Chevalley" uri="http://localhost:8000/claude-chevalley/" display-uri="claude-chevalley" type="local">Claude Chevalley</fr:link>
+      </fr:author>
+      <fr:author>
+        <fr:link href="/richard-d-schafer/" title="Richard D. Schafer" uri="http://localhost:8000/richard-d-schafer/" display-uri="richard-d-schafer" type="local">Richard D. Schafer</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1950</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/chevalley-1950-exceptional/</fr:uri>
+    <fr:display-uri>chevalley-1950-exceptional</fr:display-uri>
+    <fr:route>/chevalley-1950-exceptional/</fr:route>
+    <fr:title text="The Exceptional Simple Lie Algebras F4 and E6">The Exceptional Simple Lie Algebras F4 and E6</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="external">https://www.pnas.org/doi/pdf/10.1073/pnas.36.2.137</fr:meta>
+    <fr:meta name="bibtex"><![CDATA[@article{chevalley1950exceptional,
+  title={The exceptional simple Lie algebras F4 and E6},
+  author={Chevalley, Claude and Schafer, Richard D},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={36},
+  number={2},
+  pages={137--141},
+  year={1950}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/sl-0008/</fr:uri>
+            <fr:display-uri>sl-0008</fr:display-uri>
+            <fr:route>/sl-0008/</fr:route>
+            <fr:title text="Baez-ian Special Linear Group over Octonions">Baez-ian Special Linear Group over Octonions</fr:title>
+            <fr:taxon>corollary</fr:taxon>
+            <fr:meta name="source">Corollary 4.2 in <fr:link href="/petyt-2018-special/" title="The special linear group for nonassociative rings" uri="http://localhost:8000/petyt-2018-special/" display-uri="petyt-2018-special" type="local">[petyt-2018-special]</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>In particular, for <fr:tex display="inline"><![CDATA[n\geq 3]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(\mathbb {O})\cong \mathrm {SL}_{8n}(\mathbb {R})]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>25</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>From the <fr:link href="/sl-0007/" title="Baez-ian Special Linear Algebra for n\geq 3" uri="http://localhost:8000/sl-0007/" display-uri="sl-0007" type="local">previous theorem</fr:link>, we have <fr:tex display="inline"><![CDATA[\mathfrak {sl}_{n}(\mathbb {O})\cong \mathfrak {sl}_{8n}(\mathbb {R})]]></fr:tex>. Then exponentiating this gives the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+<html:p>Compare this to Sudbery's definition, Eq (5.5) in <fr:link href="/sudbery-1984-division/" title="Division algebras, (pseudo)orthogonal groups and spinors" uri="http://localhost:8000/sudbery-1984-division/" display-uri="sudbery-1984-division" type="local">[sudbery-1984-division]</fr:link>, for <fr:tex display="inline"><![CDATA[\mathfrak {sl}_{n}(\mathbb {O})]]></fr:tex> as left multiplication by traceless elements of <fr:tex display="inline"><![CDATA[\mathfrak {h}_{n}(\mathbb {O})]]></fr:tex> together with its derivations. Chevalley and Schafer's "<fr:link href="/chevalley-1950-exceptional/" title="The Exceptional Simple Lie Algebras F4 and E6" uri="http://localhost:8000/chevalley-1950-exceptional/" display-uri="chevalley-1950-exceptional" type="local">The Exceptional Simple Lie Algebras F4 and E6</fr:link>" prove this is isomorphic with <fr:tex display="inline"><![CDATA[\mathfrak {e}_{6}]]></fr:tex>.</html:p></fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

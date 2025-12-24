@@ -7,14 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2562</fr:anchor><fr:addr
-type="machine">#337</fr:addr><fr:route>unstable-337.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>675</fr:anchor><fr:addr
+type="machine">#337</fr:addr><fr:route>unstable-337.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider the mapping <fr:tex
-display="inline"><![CDATA[\mathbb {Z} / mn\mathbb {Z}\to \mathbb {Z} / m\mathbb {Z}\times \mathbb {Z} / n\mathbb {Z}]]></fr:tex> given by <fr:tex
-display="block"><![CDATA[x\mapsto (x\bmod {m},x\bmod {n})]]></fr:tex> is an isomorphism of additive groups. Surjectivity means a solution exists, injectivity means the solution is unique.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We claim (without proof) that any two transcendence bases for <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> have the same cardinality. Hence the transcendence degree is well-defined.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -31,23 +30,24 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2564</fr:anchor><fr:addr
-type="user">nt-0009</fr:addr><fr:route>nt-0009.xml</fr:route><fr:title
-text="Chinese Remainder Theorem">Chinese Remainder Theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>677</fr:anchor><fr:addr
+type="user">nt-004Y</fr:addr><fr:route>nt-004Y.xml</fr:route><fr:title
+text="Transcendence Degree">Transcendence Degree</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[m,n\in \mathbb {Z}]]></fr:tex> be integers. If <fr:tex
-display="inline"><![CDATA[m]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> are coprime <fr:tex
-display="inline"><![CDATA[\gcd (m,n)=1]]></fr:tex>, then for all <fr:tex
-display="inline"><![CDATA[a,b\in \mathbb {Z}]]></fr:tex> the system of congruences
-<fr:tex
-display="block"><![CDATA[\begin {align*}x&\equiv  a\pmod {n}\\ x&\equiv  b\pmod {m}\end {align*}]]></fr:tex>
-has a unique solution modulo <fr:tex
-display="inline"><![CDATA[mn]]></fr:tex>, i.e., <fr:tex
-display="inline"><![CDATA[\{x_{k}=x_{0}+kmn\mid  k\in \mathbb {Z}\}]]></fr:tex> is the set of all possible solutions.</fr:p>
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a field extension, let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004X.xml"
+addr="nt-004X"
+title="Transcendental Basis">transcendental basis</fr:link> of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Transcendence Degree</html:dfn> of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is the cardinality of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -57,14 +57,13 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1341</fr:anchor><fr:addr
-type="machine">#337</fr:addr><fr:route>unstable-337.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:addr
+type="machine">#337</fr:addr><fr:route>unstable-337.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider the mapping <fr:tex
-display="inline"><![CDATA[\mathbb {Z} / mn\mathbb {Z}\to \mathbb {Z} / m\mathbb {Z}\times \mathbb {Z} / n\mathbb {Z}]]></fr:tex> given by <fr:tex
-display="block"><![CDATA[x\mapsto (x\bmod {m},x\bmod {n})]]></fr:tex> is an isomorphism of additive groups. Surjectivity means a solution exists, injectivity means the solution is unique.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We claim (without proof) that any two transcendence bases for <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> have the same cardinality. Hence the transcendence degree is well-defined.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

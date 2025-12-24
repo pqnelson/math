@@ -7,19 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7134</fr:anchor><fr:addr
-type="machine">#420</fr:addr><fr:route>unstable-420.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2620</fr:anchor><fr:addr
+type="machine">#420</fr:addr><fr:route>unstable-420.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Divide this up into the four cases where <fr:tex
-display="inline"><![CDATA[m\geq 0]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[-m>0]]></fr:tex> (i.e,, <fr:tex
-display="inline"><![CDATA[m<0]]></fr:tex>), and separately <fr:tex
-display="inline"><![CDATA[n\geq 0]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[-n>0]]></fr:tex> (i.e., <fr:tex
-display="inline"><![CDATA[n<0]]></fr:tex>). It's useful to note <fr:tex
-display="inline"><![CDATA[g^{-m}=(g^{-1})^{m}=(g^{m})^{-1}]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have <fr:link
+type="local"
+href="nt-001L.xml"
+addr="nt-001L"
+title="Criteria for constructible lengths">by the criteria of constructible lengths</fr:link> <fr:tex
+display="inline"><![CDATA[[F_{n} : F_{0}]=2^{n}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}(\ell )]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {Q}]]]></fr:tex> which divides <fr:tex
+display="inline"><![CDATA[[F_{n} : \mathbb {F}]=2^{n}]]></fr:tex> and so must be <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[k\in \mathbb {N}_{0}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -36,25 +40,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7136</fr:anchor><fr:addr
-type="user">gr-000M</fr:addr><fr:route>gr-000M.xml</fr:route><fr:title
-text="Power law">Power law</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2622</fr:anchor><fr:addr
+type="user">nt-001M</fr:addr><fr:route>nt-001M.xml</fr:route><fr:title
+text="Constructible points live in field extensions of degree 2^{k}">Constructible points live in field extensions of degree <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex></fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#T35">group_1:35</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points in the plane containing the origin and points <fr:tex
+display="inline"><![CDATA[P,Q\in  S]]></fr:tex> whose line segment connecting them has unit length <fr:tex
+display="inline"><![CDATA[|PQ|=1]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be the field generated over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> by the coordinates of the points in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\ell \in \mathbb {R}]]></fr:tex> is <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>, let <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[m,n\in \mathbb {Z}]]></fr:tex> be integers. Then
-<fr:tex
-display="block"><![CDATA[(g^{m})^{n}=g^{mn}.]]></fr:tex></fr:p>
+href="nt-001F.xml"
+addr="nt-001F"
+title="Constructible length">constructible</fr:link>, then it is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[k\in \mathbb {N}_{0}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -64,19 +71,23 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1678</fr:anchor><fr:addr
-type="machine">#420</fr:addr><fr:route>unstable-420.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>935</fr:anchor><fr:addr
+type="machine">#420</fr:addr><fr:route>unstable-420.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Divide this up into the four cases where <fr:tex
-display="inline"><![CDATA[m\geq 0]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[-m>0]]></fr:tex> (i.e,, <fr:tex
-display="inline"><![CDATA[m<0]]></fr:tex>), and separately <fr:tex
-display="inline"><![CDATA[n\geq 0]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[-n>0]]></fr:tex> (i.e., <fr:tex
-display="inline"><![CDATA[n<0]]></fr:tex>). It's useful to note <fr:tex
-display="inline"><![CDATA[g^{-m}=(g^{-1})^{m}=(g^{m})^{-1}]]></fr:tex>.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have <fr:link
+type="local"
+href="nt-001L.xml"
+addr="nt-001L"
+title="Criteria for constructible lengths">by the criteria of constructible lengths</fr:link> <fr:tex
+display="inline"><![CDATA[[F_{n} : F_{0}]=2^{n}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}(\ell )]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {Q}]]]></fr:tex> which divides <fr:tex
+display="inline"><![CDATA[[F_{n} : \mathbb {F}]=2^{n}]]></fr:tex> and so must be <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[k\in \mathbb {N}_{0}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

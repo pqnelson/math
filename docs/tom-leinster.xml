@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>21657</fr:anchor><fr:addr
+type="user">tom-leinster</fr:addr><fr:route>tom-leinster.xml</fr:route><fr:title
+text="Tom Leinster">Tom Leinster</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
+name="external">https://webhomes.maths.ed.ac.uk/~tl/</fr:meta><fr:meta
+name="position">Professor of Mathematics</fr:meta><fr:meta
+name="institution">University of Edinburgh</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Contributions">Contributions</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>21658</fr:anchor><fr:addr
+type="user">leinster-2024-galois</fr:addr><fr:route>leinster-2024-galois.xml</fr:route><fr:title
+text="Galois Theory">Galois Theory</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="tom-leinster.xml"
+addr="tom-leinster"
+title="Tom Leinster">Tom Leinster</fr:link></fr:author></fr:authors><fr:meta
+name="external">https://arxiv.org/abs/2408.07499</fr:meta><fr:meta
+name="bibtex"><![CDATA[@misc{leinster2024galois,
+      title={Galois Theory}, 
+      author={Tom Leinster},
+      year={2024},
+      eprint={2408.07499},
+      archivePrefix={arXiv},
+      primaryClass={math.NT},
+      url={https://arxiv.org/abs/2408.07499}, 
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

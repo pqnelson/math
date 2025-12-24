@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6220</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8997</fr:anchor><fr:addr
 type="user">nst-002J</fr:addr><fr:route>nst-002J.xml</fr:route><fr:title
 text="Proof by contradiction">Proof by contradiction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -40,7 +40,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6222</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8999</fr:anchor><fr:addr
 type="user">nst-002H</fr:addr><fr:route>nst-002H.xml</fr:route><fr:title
 text="Proof strategies">Proof strategies</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -53,7 +53,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2785</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1489</fr:anchor><fr:addr
 type="user">nst-002G</fr:addr><fr:route>nst-002G.xml</fr:route><fr:title
 text="Direct proof">Direct proof</fr:title><fr:taxon>Proof strategy</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -73,7 +73,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2787</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1491</fr:anchor><fr:addr
 type="user">nst-002I</fr:addr><fr:route>nst-002I.xml</fr:route><fr:title
 text="Proof by contrapositive">Proof by contrapositive</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -104,7 +104,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2789</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1493</fr:anchor><fr:addr
 type="user">nst-002J</fr:addr><fr:route>nst-002J.xml</fr:route><fr:title
 text="Proof by contradiction">Proof by contradiction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -129,7 +129,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2791</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1495</fr:anchor><fr:addr
 type="user">nst-002K</fr:addr><fr:route>nst-002K.xml</fr:route><fr:title
 text="Proof by induction">Proof by induction</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -166,7 +166,416 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6224</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9001</fr:anchor><fr:addr
+type="user">nt-002T</fr:addr><fr:route>nt-002T.xml</fr:route><fr:title
+text="Linear Independence of Characters">Linear Independence of Characters</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 14.2.7</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[\chi _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\chi _{n}]]></fr:tex> are distinct <fr:link
+type="local"
+href="nt-002S.xml"
+addr="nt-002S"
+title="Character">characters</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with values in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then they are linearly independent over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1105</fr:anchor><fr:addr
+type="machine">#377</fr:addr><fr:route>unstable-377.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(<fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>) Assume <fr:tex
+display="inline"><![CDATA[\chi _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\chi _{n}]]></fr:tex> are linearly dependent. By removing some <fr:tex
+display="inline"><![CDATA[\chi _{i}]]></fr:tex>, we can assume any proper subset of <fr:tex
+display="inline"><![CDATA[\{\chi _{1},…,\chi _{n}\}]]></fr:tex> is independent.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[a_{j}\in \mathbb {F}]]></fr:tex> be such that not all are zero and
+<fr:tex
+display="block"><![CDATA[(*)\qquad  a_{1}\chi _{1}+…+a_{n}\chi _{n}=0.]]></fr:tex>
+In fact, at least two <fr:tex
+display="inline"><![CDATA[a_{i}\neq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{j}\neq 0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i\neq  j]]></fr:tex> since characters are never zero. Without loss of generality, suppose <fr:tex
+display="inline"><![CDATA[a_{i}=a_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{j}=a_{2}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\chi _{i}\neq \chi _{j}]]></fr:tex>, then there exists an <fr:tex
+display="inline"><![CDATA[h\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\chi _{i}(h)\neq \chi _{j}(h)]]></fr:tex>. For any <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>, if we evaluate Equation (*) at <fr:tex
+display="inline"><![CDATA[hg\in  G]]></fr:tex>, we see
+<fr:tex
+display="block"><![CDATA[\begin {split}0&=a_{1}\chi _{1}(hg)+…+a_{n}\chi _{n}(hg)\\ &=a_{1}\chi _{1}(h)\chi _{1}(g)+…+a_{n}\chi _{n}(h)\chi _{n}(g)\end {split}]]></fr:tex>
+Since this had <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> be arbitrary, this implies <fr:tex
+display="block"><![CDATA[(**)\qquad (a_{1}\chi _{1}(h))\chi _{1}+…+(a_{n}\chi _{n}(h))\chi _{n}=0]]></fr:tex>
+On the other hand, multiplying Equation (*) by <fr:tex
+display="inline"><![CDATA[\chi _{1}(h)]]></fr:tex> gives us
+<fr:tex
+display="block"><![CDATA[(a_{1}\chi _{1}(h))\chi _{1}+(a_{2}\chi _{1}(h))\chi _{2}+…+(a_{n}\chi _{1}(h))\chi _{n}=0,]]></fr:tex>
+and then subtracting Equation (**) from this gives us
+<fr:tex
+display="block"><![CDATA[b_{2}\chi _{2}+…+b_{n}\chi _{n}=0,]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[b_{i}=a_{i}(\chi _{i}(h)-\chi _{1}(h))]]></fr:tex>. We have <fr:tex
+display="inline"><![CDATA[b_{2}\neq 0]]></fr:tex> since we supposed <fr:tex
+display="inline"><![CDATA[\chi _{1}(h)\neq \chi _{2}(h)]]></fr:tex> which proves <fr:tex
+display="inline"><![CDATA[\{\chi _{2},…,\chi _{n}\}]]></fr:tex> are linearly dependent, which contradicts our assumption that any proper subset is linearly independent.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9003</fr:anchor><fr:addr
+type="user">nt-002C</fr:addr><fr:route>nt-002C.xml</fr:route><fr:title
+text="Criteria for perfect fields of finite characteristic">Criteria for perfect fields of finite characteristic</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field of characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex>. Then the following are equivalent:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:link
+type="local"
+href="nt-002A.xml"
+addr="nt-002A"
+title="Perfect field">perfect</fr:link>;</fr:li>
+<fr:li>The <fr:link
+type="local"
+href="nt-0022.xml"
+addr="nt-0022"
+title="Frobenius morphism">Frobenius morphism</fr:link> <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> is surjective; and</fr:li>
+<fr:li>Every finite extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:link
+type="local"
+href="nt-002B.xml"
+addr="nt-002B"
+title="Separable field extension">separable</fr:link>.</fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1041</fr:anchor><fr:addr
+type="machine">#392</fr:addr><fr:route>unstable-392.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(1)\implies (2):]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is perfect. Let <fr:tex
+display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[x^{s}-a]]></fr:tex> and let <fr:tex
+display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> be such that <fr:tex
+display="inline"><![CDATA[\beta ^{p}=a]]></fr:tex>. Then the characteristic polynomial <fr:tex
+display="inline"><![CDATA[m_{\beta }(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is irreducible, and divides
+<fr:tex
+display="block"><![CDATA[x^{p}-a=x^{p}-\beta ^{p}=(x-\beta )^{p}.]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is perfect, <fr:tex
+display="inline"><![CDATA[m_{\beta }]]></fr:tex> has no repeated roots, so
+<fr:tex
+display="block"><![CDATA[m_{\beta }=x-\beta ,]]></fr:tex>
+and <fr:tex
+display="inline"><![CDATA[\beta \in \mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(2)\implies (3):]]></fr:tex> (<fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is surjective. Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a finite extension, let <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>, and let
+<fr:tex
+display="block"><![CDATA[m_{\alpha }(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+…+a_{1}x+a_{0}.]]></fr:tex>
+Assume for contradiction <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">inseparable</fr:link>, so that <fr:tex
+display="inline"><![CDATA[m'_{\alpha }(x)=0]]></fr:tex> and <fr:link
+type="local"
+href="nt-0029.xml"
+addr="nt-0029"
+title="Inseparable polynomial over field with characteristic p has p divide the nonzero coefficients of its derivative">then we see</fr:link> <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} k]]></fr:tex> whenever <fr:tex
+display="inline"><![CDATA[a_{k}\neq 0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is surjective, each <fr:tex
+display="inline"><![CDATA[a_{k}=b_{k}^{p}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[b_{k}\in \mathbb {F}]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[m_{\alpha }(x)=(b_{m}x^{m})^{p}+(b_{m-1}x^{m-1})^{p-1}+…+(b_{1}x)^{p}+b_{0}^{p}=(q(x))^{p},]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[q(x)=b_{m}x^{m}+…+b_{1}x+b_{0},]]></fr:tex>
+which contradicts the irreducibility of <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> must be separable.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(3)\implies (1):]]></fr:tex> Suppose <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> is irreducible. Then <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}[x]/(p(x))]]></fr:tex> is a separable extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[x\in \mathbb {F}[x]]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)=p(x)]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1043</fr:anchor><fr:addr
+type="machine">#393</fr:addr><fr:route>unstable-393.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary:  Finite fields are <fr:link
+type="local"
+href="nt-002A.xml"
+addr="nt-002A"
+title="Perfect field">perfect</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9005</fr:anchor><fr:addr
+type="user">nt-0027</fr:addr><fr:route>nt-0027.xml</fr:route><fr:title
+text="Irreducible polynomials are separable iff its derivative is not identically zero">Irreducible polynomials are separable iff its derivative is not identically zero</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An irreducible polynomial <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[p'(x)\neq 0]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1025</fr:anchor><fr:addr
+type="machine">#396</fr:addr><fr:route>unstable-396.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002I.xml"
+addr="nst-002I"
+title="Proof by contrapositive">Proof by contrapositive</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)=0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p(x)\mathrel {\bigm |} p'(x)]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is separable by <fr:link
+type="local"
+href="nt-0026.xml"
+addr="nt-0026"
+title="Criteria for polynomials to be separable">the criteria for polynomials to be separable</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)\neq 0]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[p(x)=p'(x)q(x)+r(x),]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\deg (r)<\deg (p')]]></fr:tex> by the division algorithm.</fr:p>
+<fr:p>Now assume for contradiction <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> has a double root <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[r(\alpha )=p(\alpha )-p'(\alpha )q(\alpha )=0.]]></fr:tex>
+Then the minimal polynomial divides the remainder polynomial <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\mathrel {\bigm |} r(x)]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\neq  p(x)]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible. This contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is irreducible. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9007</fr:anchor><fr:addr
+type="user">nt-001Z</fr:addr><fr:route>nt-001Z.xml</fr:route><fr:title
+text="Existence of Algebraic Closures">Existence of Algebraic Closures</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
+type="local"
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 13.4.30</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. Then there exists an algebraically closed field <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>985</fr:anchor><fr:addr
+type="machine">#407</fr:addr><fr:route>unstable-407.xml</fr:route><fr:taxon>Proof (Jelonek 1993)</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> be a field such that
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {L}]]></fr:tex>, and</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[|\mathbb {L}| > \max (|\mathbb {F}|,\aleph _{0})=:\mathcal {N}]]></fr:tex> (to ensure <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is a set, not a proper class).</fr:li></fr:ol>
+Then we can turn this into a lattice with ordering given by inclusion. Then by <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>, there exists a maximal element <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> which we will prove is the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>: Assume for contradiction <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> is not an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then there exists a nonconstant polynomial <fr:tex
+display="inline"><![CDATA[f(x)\in  L_{0}[x]]]></fr:tex> which has no root in <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>. Then there exists an algebraic extension <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> which has a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> (say, the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>). Since <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> is an algebraic extension of <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[|L_{0}|\leq |W|\leq \mathcal {N}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[|S\setminus  L_{0}|=|S|>|W\setminus  L_{0}|]]></fr:tex>. So there exists an injection <fr:tex
+display="inline"><![CDATA[i\colon  W\to  S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[i(x)=x]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x\in  L_{0}]]></fr:tex>. If we induce by <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> an algebraic structure from <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> onto <fr:tex
+display="inline"><![CDATA[i(W)]]></fr:tex> we obtain a new maximal element of the lattice which is greater than <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>, giving us our contradiction. Hence <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> must be an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>987</fr:anchor><fr:addr
+type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) <fr:link
+type="external"
+href="https://web.archive.org/web/20180504093511/http://www2.im.uj.edu.pl/actamath/PDF/30-131-132.pdf">Jelonek proved this in 1993</fr:link>, which cleaned up a more sloppy version of the same proof by Artin. Lang's <fr:link
+type="local"
+href="lang-2002-algebra.xml"
+addr="lang-2002-algebra"
+title="Algebra">Algebra</fr:link> (Theorem V.2.6 and its Corollary) follows Artin's proof, as well, but carefully patches it. In fact, it seems Lang's approach has become more or less standard.</fr:p>
+<fr:p>(2) Jelonek's proof also establishes that the cardinality of the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\max (|\mathbb {F}|,\aleph _{0})]]></fr:tex>. In particular, the algebraic closure is always infinite.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9009</fr:anchor><fr:addr
 type="user">ra-002V</fr:addr><fr:route>ra-002V.xml</fr:route><fr:title
 text="Eisenstein criteria of reducibility">Eisenstein criteria of reducibility</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -207,7 +616,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1371</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3439</fr:anchor><fr:addr
 type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
@@ -248,14 +657,16 @@ display="inline"><![CDATA[a_{0}\notin  P^{2}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+<fr:p><fr:strong>Exercise:</fr:strong> Is <fr:tex
+display="inline"><![CDATA[p(x)=x^{5}-4x^{4}+2]]></fr:tex> irreducible in <fr:tex
+display="inline"><![CDATA[\mathbb {Q}[x]]]></fr:tex> or not?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6226</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9011</fr:anchor><fr:addr
 type="user">gt-001A</fr:addr><fr:route>gt-001A.xml</fr:route><fr:title
 text="Banach contraction principle">Banach contraction principle</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -286,8 +697,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6228</fr:anchor><fr:addr
-type="machine">#357</fr:addr><fr:route>unstable-357.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9013</fr:anchor><fr:addr
+type="machine">#468</fr:addr><fr:route>unstable-468.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -304,8 +715,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6230</fr:anchor><fr:addr
-type="machine">#358</fr:addr><fr:route>unstable-358.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9015</fr:anchor><fr:addr
+type="machine">#469</fr:addr><fr:route>unstable-469.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -390,8 +801,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6232</fr:anchor><fr:addr
-type="machine">#359</fr:addr><fr:route>unstable-359.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9017</fr:anchor><fr:addr
+type="machine">#470</fr:addr><fr:route>unstable-470.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -407,7 +818,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6234</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9019</fr:anchor><fr:addr
 type="user">ca-0023</fr:addr><fr:route>ca-0023.xml</fr:route><fr:title
 text="Characterization of compactness for metric spaces">Characterization of compactness for metric spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -450,8 +861,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6236</fr:anchor><fr:addr
-type="machine">#439</fr:addr><fr:route>unstable-439.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9021</fr:anchor><fr:addr
+type="machine">#550</fr:addr><fr:route>unstable-550.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -541,8 +952,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6238</fr:anchor><fr:addr
-type="machine">#440</fr:addr><fr:route>unstable-440.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9023</fr:anchor><fr:addr
+type="machine">#551</fr:addr><fr:route>unstable-551.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -623,8 +1034,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6240</fr:anchor><fr:addr
-type="machine">#441</fr:addr><fr:route>unstable-441.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9025</fr:anchor><fr:addr
+type="machine">#552</fr:addr><fr:route>unstable-552.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -700,7 +1111,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6242</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9027</fr:anchor><fr:addr
 type="user">gt-000V</fr:addr><fr:route>gt-000V.xml</fr:route><fr:title
 text="Continuous image of a connected subset is connected">Continuous image of a connected subset is connected</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -733,8 +1144,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6244</fr:anchor><fr:addr
-type="machine">#368</fr:addr><fr:route>unstable-368.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9029</fr:anchor><fr:addr
+type="machine">#479</fr:addr><fr:route>unstable-479.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -772,7 +1183,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6246</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9031</fr:anchor><fr:addr
 type="user">ca-0025</fr:addr><fr:route>ca-0025.xml</fr:route><fr:title
 text="Heine-Cantor theorem">Heine-Cantor theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -819,8 +1230,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6248</fr:anchor><fr:addr
-type="machine">#437</fr:addr><fr:route>unstable-437.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9033</fr:anchor><fr:addr
+type="machine">#548</fr:addr><fr:route>unstable-548.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -879,7 +1290,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6250</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9035</fr:anchor><fr:addr
 type="user">gt-0011</fr:addr><fr:route>gt-0011.xml</fr:route><fr:title
 text="Sequences in Hausdorff space converge to at most one value">Sequences in Hausdorff space converge to at most one value</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -912,8 +1323,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6252</fr:anchor><fr:addr
-type="machine">#361</fr:addr><fr:route>unstable-361.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9037</fr:anchor><fr:addr
+type="machine">#472</fr:addr><fr:route>unstable-472.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -955,7 +1366,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6254</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9039</fr:anchor><fr:addr
 type="user">ca-0014</fr:addr><fr:route>ca-0014.xml</fr:route><fr:title
 text="A set is open iff its complement is closed">A set is open iff its complement is closed</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -987,8 +1398,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6256</fr:anchor><fr:addr
-type="machine">#457</fr:addr><fr:route>unstable-457.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9041</fr:anchor><fr:addr
+type="machine">#568</fr:addr><fr:route>unstable-568.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1057,7 +1468,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6258</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9043</fr:anchor><fr:addr
 type="user">ca-001M</fr:addr><fr:route>ca-001M.xml</fr:route><fr:title
 text="A function is continuous iff it maps convergent sequences to convergent sequences">A function is continuous iff it maps convergent sequences to convergent sequences</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1087,8 +1498,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6260</fr:anchor><fr:addr
-type="machine">#449</fr:addr><fr:route>unstable-449.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9045</fr:anchor><fr:addr
+type="machine">#560</fr:addr><fr:route>unstable-560.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1145,7 +1556,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6262</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9047</fr:anchor><fr:addr
 type="user">nst-002C</fr:addr><fr:route>nst-002C.xml</fr:route><fr:title
 text="There is no set of all ordinals">There is no set of all ordinals</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1167,8 +1578,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2923</fr:anchor><fr:addr
-type="machine">#341</fr:addr><fr:route>unstable-341.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5660</fr:anchor><fr:addr
+type="machine">#452</fr:addr><fr:route>unstable-452.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1208,8 +1619,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2925</fr:anchor><fr:addr
-type="machine">#342</fr:addr><fr:route>unstable-342.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5662</fr:anchor><fr:addr
+type="machine">#453</fr:addr><fr:route>unstable-453.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
@@ -1226,7 +1637,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6264</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9049</fr:anchor><fr:addr
 type="user">nst-0005</fr:addr><fr:route>nst-0005.xml</fr:route><fr:title
 text="The empty set">The empty set</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -1244,8 +1655,8 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2809</fr:anchor><fr:addr
-type="machine">#355</fr:addr><fr:route>unstable-355.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1513</fr:anchor><fr:addr
+type="machine">#466</fr:addr><fr:route>unstable-466.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"

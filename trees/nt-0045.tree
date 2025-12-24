@@ -1,0 +1,14 @@
+\title{Exercises about discriminants}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+
+\p{\textbf{Exercise 1:} Consider a quadratic polynomial #{f(x)=x^{2}+ax+b}. Suppose it has roots #{\alpha}, #{\beta}. What is its discriminant in terms of #{a} and #{b}?}
+
+\p{\textbf{Exercise 2:} Consider a cubic polynomial
+##{f(x)=x^{3}+ax^{2}+bx+c.}
+A change of variables #{x=y-(a/3)} transforms the polynomial into
+##{g(y)=y^{3}+py+q.}
+\ol{\li{What is #{p} and #{q} in terms of #{a}, #{b}, and #{c}?}
+\li{Check the discriminant is #{(\alpha-\beta)^{2}(\beta-\gamma)^{2}}. What is this in terms of the coefficients #{a}, #{b}, #{c}? What is it in terms of #{p} and #{q}?}
+}}

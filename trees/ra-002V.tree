@@ -15,3 +15,5 @@ Let #{P\ideal R} be a [prime ideal](ra-001D) of #{R}. Suppose for all #{j=1,\dot
 in #{(R/P)[x]} where the bar denotes the polynomials with coefficients reduced modulo #{P}.}
 \p{Since #{P} is a prime ideal, #{R/P} is an integral domain (by [[ra-001F]]). Then both #{\overline{a(x)}} and #{\overline{b(x)}} have 0 constant terms, i.e., the constant terms of both #{a(x)} and #{b(x)} belong to #{P}.}
 \p{But then the constant term #{a_{0}} of #{f(x)} may be written as the product of these two, which contradicts the hypothesis that #{a_{0}\notin P^{2}}.}}
+
+\p{\textbf{Exercise:} Is #{p(x)=x^{5}-4x^{4}+2} irreducible in #{\QQ[x]} or not?}

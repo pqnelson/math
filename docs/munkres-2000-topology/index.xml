@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/james-r-munkres/" title="James R. Munkres" uri="http://localhost:8000/james-r-munkres/" display-uri="james-r-munkres" type="local">James R. Munkres</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2000</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/munkres-2000-topology/</fr:uri>
+    <fr:display-uri>munkres-2000-topology</fr:display-uri>
+    <fr:route>/munkres-2000-topology/</fr:route>
+    <fr:title text="Topology">Topology</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="bibtex"><![CDATA[@book{munkres2000topology,
+  author={Munkres, James R.},
+  title={Topology},
+  edition={second},
+  publisher={Prentice Hall},
+  year={2000}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Hatcher once wrote something along the lines of: "It is hard for me to understand the enthusiasm for this rather pedestrian book." Honestly, same.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gt-000E/</fr:uri>
+            <fr:display-uri>gt-000E</fr:display-uri>
+            <fr:route>/gt-000E/</fr:route>
+            <fr:title text="Closed set">Closed set</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Munkres <fr:link href="/munkres-2000-topology/" title="Topology" uri="http://localhost:8000/munkres-2000-topology/" display-uri="munkres-2000-topology" type="local">Topology</fr:link> Section 17</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link href="/gt-0002/" title="Topological space" uri="http://localhost:8000/gt-0002/" display-uri="gt-0002" type="local">Topological space</fr:link>. Let <fr:tex display="inline"><![CDATA[E\subseteq  X]]></fr:tex> be a subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[E]]></fr:tex> is <html:dfn>Closed</html:dfn> if <fr:tex display="inline"><![CDATA[E^{\complement }=X\setminus  E]]></fr:tex> is open.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>Usually <fr:tex display="inline"><![CDATA[F]]></fr:tex> is used as the variable for closed sets, because Bourbaki used it (since the French word for "closed" is <html:em>Fermé</html:em>).</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gt-000G/</fr:uri>
+            <fr:display-uri>gt-000G</fr:display-uri>
+            <fr:route>/gt-000G/</fr:route>
+            <fr:title text="Closure">Closure</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Munkres <fr:link href="/munkres-2000-topology/" title="Topology" uri="http://localhost:8000/munkres-2000-topology/" display-uri="munkres-2000-topology" type="local">Topology</fr:link> Section 17</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link href="/gt-0002/" title="Topological space" uri="http://localhost:8000/gt-0002/" display-uri="gt-0002" type="local">Topological space</fr:link>. Let <fr:tex display="inline"><![CDATA[E\subseteq  X]]></fr:tex>. We define the <html:dfn>Closure</html:dfn> of <fr:tex display="inline"><![CDATA[E]]></fr:tex> to be the set <fr:tex display="inline"><![CDATA[\overline {E}]]></fr:tex> equal to the intersection of all closed sets containing <fr:tex display="inline"><![CDATA[E]]></fr:tex>,
+<fr:tex display="block"><![CDATA[\overline {E}:=\bigcap \{F\mid  F\hbox { is closed}, E\subseteq  F\}.]]></fr:tex></html:p>
+            <html:p>Note that other possible notations for the closure of <fr:tex display="inline"><![CDATA[E]]></fr:tex> includes <fr:tex display="inline"><![CDATA[\mathop {\textrm {Cl}}(E)]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gt-000P/</fr:uri>
+            <fr:display-uri>gt-000P</fr:display-uri>
+            <fr:route>/gt-000P/</fr:route>
+            <fr:title text="Continuous Function">Continuous Function</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Munkres <fr:link href="/munkres-2000-topology/" title="Topology" uri="http://localhost:8000/munkres-2000-topology/" display-uri="munkres-2000-topology" type="local">Topology</fr:link> Section 18</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/tops_2.html#T43" type="external">tops_2:43</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> be <fr:link href="/gt-0002/" title="Topological space" uri="http://localhost:8000/gt-0002/" display-uri="gt-0002" type="local">Topological space</fr:link>s. Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function, let <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:dfn>Continuous at a point</html:dfn> <fr:tex display="inline"><![CDATA[x]]></fr:tex> if for any <fr:link href="/gt-0003/" title="Neighborhood" uri="http://localhost:8000/gt-0003/" display-uri="gt-0003" type="local">Neighborhood</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex> of <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex>, there is a <fr:link href="/gt-0003/" title="Neighborhood" uri="http://localhost:8000/gt-0003/" display-uri="gt-0003" type="local">Neighborhood</fr:link> <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f(U)\subseteq  V]]></fr:tex>.</html:p>
+            <html:p>We say <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <html:dfn>Continuous</html:dfn> if it is continuous at each point of <fr:tex display="inline"><![CDATA[x]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gt-000Y/</fr:uri>
+            <fr:display-uri>gt-000Y</fr:display-uri>
+            <fr:route>/gt-000Y/</fr:route>
+            <fr:title text="Hausdorff space">Hausdorff space</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Munkres <fr:link href="/munkres-2000-topology/" title="Topology" uri="http://localhost:8000/munkres-2000-topology/" display-uri="munkres-2000-topology" type="local">Topology</fr:link> Section 17</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/pre_topsc.html#V8" type="external">pre_topsc:def 10</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link href="/gt-0002/" title="Topological space" uri="http://localhost:8000/gt-0002/" display-uri="gt-0002" type="local">Topological space</fr:link>. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:dfn>Hausdorff</html:dfn> if for any two distinct points <fr:tex display="inline"><![CDATA[x,y\in  X]]></fr:tex>, there are disjoint open sets <fr:tex display="inline"><![CDATA[U,V\subseteq  X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x\in  U]]></fr:tex> and <fr:tex display="inline"><![CDATA[y\in  V]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>The literature also calls this the <html:dfn><fr:tex display="inline"><![CDATA[T_{2}]]></fr:tex> Property</html:dfn>.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gt-000F/</fr:uri>
+            <fr:display-uri>gt-000F</fr:display-uri>
+            <fr:route>/gt-000F/</fr:route>
+            <fr:title text="Properties of closed subsets">Properties of closed subsets</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Munkres <fr:link href="/munkres-2000-topology/" title="Topology" uri="http://localhost:8000/munkres-2000-topology/" display-uri="munkres-2000-topology" type="local">Topology</fr:link> Theorem 17.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link href="/gt-0002/" title="Topological space" uri="http://localhost:8000/gt-0002/" display-uri="gt-0002" type="local">Topological space</fr:link>. If <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> is the collection of closed subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, then the following all hold:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[X\in \mathcal {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\emptyset \in \mathcal {F}]]></fr:tex></html:li>
+<html:li>Intersection of arbitrary family of closed sets is closed: <fr:tex display="inline"><![CDATA[\bigcap \{F_{\alpha }\in \mathcal {F}\mid \alpha \in  I\}\in \mathcal {F}]]></fr:tex></html:li>
+<html:li>Union of finitely-many closed sets is closed: If <fr:tex display="inline"><![CDATA[F_{1},…,F_{n}\in \mathcal {F}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[F_{1}\cup …\cup  F_{n}\in \mathcal {F}]]></fr:tex>.</html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gt-0011/</fr:uri>
+            <fr:display-uri>gt-0011</fr:display-uri>
+            <fr:route>/gt-0011/</fr:route>
+            <fr:title text="Sequences in Hausdorff space converge to at most one value">Sequences in Hausdorff space converge to at most one value</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source">Munkres <fr:link href="/munkres-2000-topology/" title="Topology" uri="http://localhost:8000/munkres-2000-topology/" display-uri="munkres-2000-topology" type="local">Topology</fr:link> Theorem 17.10</fr:meta>
+            <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/frechet_2.html#T24" type="external">frechet_2:24</fr:link></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link href="/gt-000Y/" title="Hausdorff space" uri="http://localhost:8000/gt-000Y/" display-uri="gt-000Y" type="local">Hausdorff space</fr:link>. Let <fr:tex display="inline"><![CDATA[(x_{n})]]></fr:tex> be a convergent sequence in <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Then there exists a unique <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x_{n}\to  x]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:link href="/nst-002J/" title="Proof by contradiction" uri="http://localhost:8000/nst-002J/" display-uri="nst-002J" type="local">Proof by contradiction</fr:link>. Assume for contradiction that <fr:tex display="inline"><![CDATA[(x_{n})]]></fr:tex> converges to two distinct points <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[y\in  X]]></fr:tex>. Then by <fr:link href="/gt-000Y/" title="Hausdorff space" uri="http://localhost:8000/gt-000Y/" display-uri="gt-000Y" type="local">Hausdorff property</fr:link>, there are disjoint open neighborhoods <fr:tex display="inline"><![CDATA[U_{x}\ni  x]]></fr:tex> and <fr:tex display="inline"><![CDATA[U_{y}\ni  y]]></fr:tex>. By definition of <fr:link href="/gt-000O/" title="Convergence of sequence in a topological space" uri="http://localhost:8000/gt-000O/" display-uri="gt-000O" type="local">Convergence of sequence in a topological space</fr:link>, there are two positive integers <fr:tex display="inline"><![CDATA[N_{x}\in \mathbb {N}]]></fr:tex> and <fr:tex display="inline"><![CDATA[N_{y}\in \mathbb {N}]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[n\geq  N_{x}]]></fr:tex>, <fr:tex display="inline"><![CDATA[x_{n}\in  U_{x}]]></fr:tex> and for all <fr:tex display="inline"><![CDATA[n\geq  N_{y}]]></fr:tex>, <fr:tex display="inline"><![CDATA[x_{n}\in  U_{y}]]></fr:tex>. Setting <fr:tex display="inline"><![CDATA[N=\max (N_{x},N_{y})]]></fr:tex>, then for all <fr:tex display="inline"><![CDATA[n\geq  N]]></fr:tex> we have <fr:tex display="inline"><![CDATA[x_{n}\in  U_{x}\cap  U_{y}]]></fr:tex> which is disjoint. Hence <fr:tex display="inline"><![CDATA[(x_{n})]]></fr:tex> cannot converge to more than one point in a Hausdorff space.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

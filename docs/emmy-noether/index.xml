@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>http://localhost:8000/emmy-noether/</fr:uri>
+    <fr:display-uri>emmy-noether</fr:display-uri>
+    <fr:route>/emmy-noether/</fr:route>
+    <fr:title text="Emmy Noether">Emmy Noether</fr:title>
+    <fr:taxon>person</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>One of the greatest heroines of Mathematics, truly a "GOAT" [Greatest Of All Times].</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/iaa-000C/</fr:uri>
+            <fr:display-uri>iaa-000C</fr:display-uri>
+            <fr:route>/iaa-000C/</fr:route>
+            <fr:title text="Preferatory notes about Galois Theory">Preferatory notes about Galois Theory</fr:title>
+            <fr:taxon>remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Galois theory combines everything we've studied so far in abstract algebra: we have fields which are super nice rings (relying on everything discussed in the <fr:link href="/iaa-0008/" title="Traditional Introduction to Rings" uri="http://localhost:8000/iaa-0008/" display-uri="iaa-0008" type="local">Traditional Introduction to Rings</fr:link>) and we may view some fields as vector spaces over another (relying on everything discussed in the <fr:link href="/iaa-0009/" title="Traditional Introduction to Modules" uri="http://localhost:8000/iaa-0009/" display-uri="iaa-0009" type="local">Traditional Introduction to Modules</fr:link>).</html:p>
+            <html:p>We can translate "roots of a polynomial" into "field extensions", and then study the symmetries of field extensions leaving the base field invariant. This relies on everything we learned in the <fr:link href="/iaa-0001/" title="Traditional Introduction to Groups" uri="http://localhost:8000/iaa-0001/" display-uri="iaa-0001" type="local">Traditional Introduction to Groups</fr:link>.</html:p>
+            <html:p>In other words, Galois theory combines everything we have learned into a single application (i.e., solving polynomials over fields). <fr:link href="/emmy-noether/" title="Emmy Noether" uri="http://localhost:8000/emmy-noether/" display-uri="emmy-noether" type="local">Emmy Noether</fr:link> is responsible for this presentation of material, but <fr:link href="/bartel-van-der-waerden/" title="Bartel L. van der Waerden" uri="http://localhost:8000/bartel-van-der-waerden/" display-uri="bartel-van-der-waerden" type="local">Bartel L. van der Waerden</fr:link> usually gets credit for it since it's basically the content of <fr:link href="/van-der-waerden-1949-modern1/" title="Modern Algebra, Vol. I" uri="http://localhost:8000/van-der-waerden-1949-modern1/" display-uri="van-der-waerden-1949-modern1" type="local">Modern Algebra, Vol. I</fr:link>...but people don't realize that Emmy Noether is the person who wrote the outline and highlighted the importance of this structure to the presentation of material.</html:p>
+            <html:p>Before I forget, these are mostly based on my notes and the notes of Zavosh Amir-Khosravi (who used them for Caltech's Math 5C course for Spring quarter 2018).</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/gr-003Q/</fr:uri>
+            <fr:display-uri>gr-003Q</fr:display-uri>
+            <fr:route>/gr-003Q/</fr:route>
+            <fr:title text="Isomorphism theorems">Isomorphism theorems</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The three (sometimes four) isomorphism theorems are important, but no one agrees with how to enumerate them: the first isomorphism theorem is usually the same, but all bets are off for the remaining isomorphism theorems.</html:p>
+            <html:p>These isomorphism theorems may be traced back to <fr:link href="/emmy-noether/" title="Emmy Noether" uri="http://localhost:8000/emmy-noether/" display-uri="emmy-noether" type="local">Emmy Noether</fr:link>'s <fr:link href="/noether-1927-abstrakter/" title="Abstrakter Aufbau der Idealtheorie in algebraischen Zahl- und Funktionenkörpern" uri="http://localhost:8000/noether-1927-abstrakter/" display-uri="noether-1927-abstrakter" type="local">Abstrakter Aufbau der Idealtheorie in algebraischen Zahl- und Funktionenkörpern</fr:link> (1927).</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-003P/</fr:uri>
+                <fr:display-uri>gr-003P</fr:display-uri>
+                <fr:route>/gr-003P/</fr:route>
+                <fr:title text="First isomorphism theorem">First isomorphism theorem</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#T79" type="external">group_6:79</fr:link></fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[G_{1}]]></fr:tex> and <fr:tex display="inline"><![CDATA[G_{2}]]></fr:tex> be <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>s, let <fr:tex display="inline"><![CDATA[\varphi \colon  G_{1}\to  G_{2}]]></fr:tex> be a <fr:link href="/gr-000T/" title="Group Morphism" uri="http://localhost:8000/gr-000T/" display-uri="gr-000T" type="local">Group Morphism</fr:link>. Then there exists an <fr:link href="/gr-000U/" title="Group Isomorphism" uri="http://localhost:8000/gr-000U/" display-uri="gr-000U" type="local">isomorphism</fr:link> <fr:tex display="inline"><![CDATA[\psi \colon  G_{1}/\ker (\varphi )\to  G_{2}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\psi \circ n_{\ker (\varphi )}=\varphi ]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-003R/</fr:uri>
+                <fr:display-uri>gr-003R</fr:display-uri>
+                <fr:route>/gr-003R/</fr:route>
+                <fr:title text="Normal subgroup of a subgroup">Normal subgroup of a subgroup</fr:title>
+                <fr:taxon>notation</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. Let <fr:tex display="inline"><![CDATA[B\leq  G]]></fr:tex> be a <fr:link href="/gr-001B/" title="Subgroup" uri="http://localhost:8000/gr-001B/" display-uri="gr-001B" type="local">Subgroup</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>, let <fr:tex display="inline"><![CDATA[N\mathrel {\trianglelefteq } G]]></fr:tex> be a <fr:link href="/gr-002P/" title="Normal subgroup" uri="http://localhost:8000/gr-002P/" display-uri="gr-002P" type="local">Normal subgroup</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. If <fr:tex display="inline"><![CDATA[M\leq  B]]></fr:tex> is a subgroup of <fr:tex display="inline"><![CDATA[B]]></fr:tex>, then we will denote <fr:tex display="inline"><![CDATA[(M)_{B}]]></fr:tex> for <fr:tex display="inline"><![CDATA[M\mathrel {\trianglelefteq } B]]></fr:tex> as a normal subgroup of <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/gr-003S/</fr:uri>
+                <fr:display-uri>gr-003S</fr:display-uri>
+                <fr:route>/gr-003S/</fr:route>
+                <fr:title text="Second isomorphism theorem">Second isomorphism theorem</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#T81" type="external">group_6:81</fr:link></fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>. Let <fr:tex display="inline"><![CDATA[B\leq  G]]></fr:tex> be a <fr:link href="/gr-001B/" title="Subgroup" uri="http://localhost:8000/gr-001B/" display-uri="gr-001B" type="local">Subgroup</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>, let <fr:tex display="inline"><![CDATA[N\mathrel {\trianglelefteq } G]]></fr:tex> be a [strict] <fr:link href="/gr-002P/" title="Normal subgroup" uri="http://localhost:8000/gr-002P/" display-uri="gr-002P" type="local">Normal subgroup</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[\frac {\langle  BN\rangle }{(N)_{\langle  BN\rangle }}\cong  \frac {B}{B\cap  N}.]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:uri>http://localhost:8000/gr-003T/</fr:uri>
+                <fr:display-uri>gr-003T</fr:display-uri>
+                <fr:route>/gr-003T/</fr:route>
+                <fr:title text="Third isomorphism theorem">Third isomorphism theorem</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#T80" type="external">group_6:80</fr:link></fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[G]]></fr:tex> be a <fr:link href="/gr-000G/" title="Group" uri="http://localhost:8000/gr-000G/" display-uri="gr-000G" type="local">Group</fr:link>.
+Let <fr:tex display="inline"><![CDATA[N\mathrel {\trianglelefteq } G]]></fr:tex> be a <fr:link href="/gr-002P/" title="Normal subgroup" uri="http://localhost:8000/gr-002P/" display-uri="gr-002P" type="local">Normal subgroup</fr:link> of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+Let <fr:tex display="inline"><![CDATA[M\mathrel {\trianglelefteq } G]]></fr:tex> and <fr:tex display="inline"><![CDATA[J\mathrel {\trianglelefteq } G]]></fr:tex> be [strict] <fr:link href="/gr-002P/" title="Normal subgroup" uri="http://localhost:8000/gr-002P/" display-uri="gr-002P" type="local">Normal subgroup</fr:link>s of <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+If <fr:tex display="inline"><![CDATA[J = N/(M)_{N}]]></fr:tex> and <fr:tex display="inline"><![CDATA[M\leq  N]]></fr:tex>,
+then
+<fr:tex display="block"><![CDATA[\frac {G/M}{J}\cong  G/N.]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/bartel-van-der-waerden/" title="Bartel L. van der Waerden" uri="http://localhost:8000/bartel-van-der-waerden/" display-uri="bartel-van-der-waerden" type="local">Bartel L. van der Waerden</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>1949</fr:year>
+            </fr:date>
+            <fr:uri>http://localhost:8000/van-der-waerden-1949-modern1/</fr:uri>
+            <fr:display-uri>van-der-waerden-1949-modern1</fr:display-uri>
+            <fr:route>/van-der-waerden-1949-modern1/</fr:route>
+            <fr:title text="Modern Algebra, Vol. I">Modern Algebra, Vol. I</fr:title>
+            <fr:taxon>reference</fr:taxon>
+            <fr:meta name="bibtex"><![CDATA[@book{vanderwaerden1949modern1,
+  author={van der Waerden, Bartel L},
+  title={Modern Algebra, Vol.~I},
+  year={1949},
+  publisher={Frederick Ungar Publishing Co.},
+  pages={264}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>English translation of the second revised German edition, with revisions and additions by the author. Translator Fred Blum.</html:p>
+            <html:p>All the hardwork was done by <fr:link href="/emmy-noether/" title="Emmy Noether" uri="http://localhost:8000/emmy-noether/" display-uri="emmy-noether" type="local">Emmy Noether</fr:link>, but she never gets credit for inventing modern abstract algebra. Instead, sadly and unfairly, van der Waerden gets credit.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

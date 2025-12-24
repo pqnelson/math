@@ -7,26 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7158</fr:anchor><fr:addr
-type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2644</fr:anchor><fr:addr
+type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex> is an <fr:link
-type="local"
-href="gr-0003.xml"
-addr="gr-0003"
-title="Associative binary operator">Associative binary operator</fr:link>, then we can just speak of "inverses" of elements without the "two-sided" prefix. This is because the <fr:link
-type="local"
-href="gr-000D.xml"
-addr="gr-000D"
-title="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:link></fr:p>
-<fr:p>(2) If there are multiple binary operators on <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, then we should specify that <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> is an inverse of <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> <fr:em>with respect to <fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex></fr:em>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We stress that a "straightedge" is an "unmarked ruler" which cannot measure lengths. If we allow the user to write "markings" on the straightedge (i.e., work with a ruler), then the allowed constructions are known as <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Neusis_construction">Neusis constructions</fr:link>. We will not discuss them any further here.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -41,30 +29,39 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7160</fr:anchor><fr:addr
-type="user">gr-000C</fr:addr><fr:route>gr-000C.xml</fr:route><fr:title
-text="Inverse of an element with respect to a binary operator">Inverse of an element with respect to a binary operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2646</fr:anchor><fr:addr
+type="user">nt-001D</fr:addr><fr:route>nt-001D.xml</fr:route><fr:title
+text="Allowed constructions with straightedge and compass">Allowed constructions with straightedge and compass</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> be a set equipped with a <fr:link
-type="local"
-href="gr-0001.xml"
-addr="gr-0001"
-title="Binary operator">Binary operator</fr:link> <fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex> with an <fr:link
-type="local"
-href="gr-0005.xml"
-addr="gr-0005"
-title="Identity element">identity element</fr:link> <fr:tex
-display="inline"><![CDATA[e\in  A]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[a\in  A]]></fr:tex>. A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">(Two-Sided) Inverse</html:dfn> of <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> is an element <fr:tex
-display="inline"><![CDATA[b\in  A]]></fr:tex> such that
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>With a straightedge and compass, we may only allow the first three of Euclid's postulates, i.e.:
+<fr:ol><fr:li>draw a straightline (possibly passing through two given points), and</fr:li>
+<fr:li>draw a circle.</fr:li></fr:ol>
+It follows that the only <fr:em>points</fr:em> we may construct with straightedge and compass along are:
+<fr:ol><fr:li>The intersection of two lines;</fr:li>
+<fr:li>The intersection of two circles; and</fr:li>
+<fr:li>The intersection of a line and a circle.</fr:li></fr:ol></fr:p><fr:p>More concretely, let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points on the plane. For any two distinct points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2}\in  S]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[P_{1}\neq  P_{2}]]></fr:tex>, we denote the set of points (i.e., the subset of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>):
 <fr:tex
-display="block"><![CDATA[\mu (a,b)=\mu (b,a)=e.]]></fr:tex></fr:p>
+display="block"><![CDATA[P_{1}P_{2}=\hbox {line passing through }P_{1}\hbox { and }P_{2}]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[C(P_{1},P_{2})=\hbox {circle centered at }P_{1}\hbox { and passing through }P_{2}.]]></fr:tex>
+From <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> we may construct a new point <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> by:
+<fr:ol><fr:li>Given points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2},Q_{1},Q_{2}\in  S]]></fr:tex>, marking <fr:tex
+display="inline"><![CDATA[Q\in  P_{1}P_{2}\cap  Q_{1}Q_{2}]]></fr:tex>;</fr:li>
+<fr:li>Given points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2},O,P\in  S]]></fr:tex>, and marking <fr:tex
+display="inline"><![CDATA[Q\in  P_{1}P_{2}\cap  C(O,P)]]></fr:tex>;</fr:li>
+<fr:li>Given points <fr:tex
+display="inline"><![CDATA[O,O',P,P'\in  S]]></fr:tex>, and marking <fr:tex
+display="inline"><![CDATA[Q\in  C(O,P)\cap  C(O',P')]]></fr:tex>.</fr:li></fr:ol></fr:p>
  
    
    <fr:tree
@@ -74,25 +71,13 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1618</fr:anchor><fr:addr
-type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>905</fr:anchor><fr:addr
+type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex> is an <fr:link
-type="local"
-href="gr-0003.xml"
-addr="gr-0003"
-title="Associative binary operator">Associative binary operator</fr:link>, then we can just speak of "inverses" of elements without the "two-sided" prefix. This is because the <fr:link
-type="local"
-href="gr-000D.xml"
-addr="gr-000D"
-title="Inverse with respect to an associative binary operator is unique">Inverse with respect to an associative binary operator is unique</fr:link></fr:p>
-<fr:p>(2) If there are multiple binary operators on <fr:tex
-display="inline"><![CDATA[A]]></fr:tex>, then we should specify that <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> is an inverse of <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> <fr:em>with respect to <fr:tex
-display="inline"><![CDATA[\mu ]]></fr:tex></fr:em>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We stress that a "straightedge" is an "unmarked ruler" which cannot measure lengths. If we allow the user to write "markings" on the straightedge (i.e., work with a ruler), then the allowed constructions are known as <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Neusis_construction">Neusis constructions</fr:link>. We will not discuss them any further here.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

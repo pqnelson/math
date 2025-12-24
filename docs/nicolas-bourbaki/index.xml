@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>http://localhost:8000/nicolas-bourbaki/</fr:uri>
+    <fr:display-uri>nicolas-bourbaki</fr:display-uri>
+    <fr:route>/nicolas-bourbaki/</fr:route>
+    <fr:title text="Nicolas Bourbaki">Nicolas Bourbaki</fr:title>
+    <fr:taxon>person</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-001K/</fr:uri>
+            <fr:display-uri>nst-001K</fr:display-uri>
+            <fr:route>/nst-001K/</fr:route>
+            <fr:title text="Direct image preserves only union">Direct image preserves only union</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/nicolas-bourbaki/" title="Nicolas Bourbaki" uri="http://localhost:8000/nicolas-bourbaki/" display-uri="nicolas-bourbaki" type="local">Nicolas Bourbaki</fr:link> <fr:link href="/bourbaki-1968-theory/" title="Theory of Sets" uri="http://localhost:8000/bourbaki-1968-theory/" display-uri="bourbaki-1968-theory" type="local">Theory of Sets</fr:link> R§2.5</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function, let <fr:tex display="inline"><![CDATA[L\subseteq  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[R\subseteq  X]]></fr:tex> be subsets. Then the following all hold:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[f(L\cup  R)=f(L)\cup  f(R)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[f(L\cap  R)\subseteq  f(L)\cap  f(R)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[f(L\setminus  R)\supseteq  f(L)\setminus  f(R)]]></fr:tex></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-001J/</fr:uri>
+            <fr:display-uri>nst-001J</fr:display-uri>
+            <fr:route>/nst-001J/</fr:route>
+            <fr:title text="Preimages preserve everything">Preimages preserve everything</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/nicolas-bourbaki/" title="Nicolas Bourbaki" uri="http://localhost:8000/nicolas-bourbaki/" display-uri="nicolas-bourbaki" type="local">Nicolas Bourbaki</fr:link> <fr:link href="/bourbaki-1968-theory/" title="Theory of Sets" uri="http://localhost:8000/bourbaki-1968-theory/" display-uri="bourbaki-1968-theory" type="local">Theory of Sets</fr:link> R §2.10</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[f\colon  X\to  Y]]></fr:tex> be a function, let <fr:tex display="inline"><![CDATA[L\subseteq  Y]]></fr:tex> and <fr:tex display="inline"><![CDATA[R\subseteq  Y]]></fr:tex> be subsets. Then the following all hold:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[f^{-1}(L\cup  R)=f^{-1}(L)\cup  f^{-1}(R)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[f^{-1}(L\cap  R)=f^{-1}(L)\cap  f^{-1}(R)]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[f^{-1}(L\setminus  R)=f^{-1}(L)\setminus  f^{-1}(R)]]></fr:tex></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

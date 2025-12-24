@@ -7,12 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14414</fr:anchor><fr:addr
-type="machine">#488</fr:addr><fr:route>unstable-488.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11036</fr:anchor><fr:addr
+type="machine">#488</fr:addr><fr:route>unstable-488.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Associativity is one of the more important properties of a binary operator. Whenever we define a new gadget with some notion of "multiplication" (or "addition" or some other binary operator) on it, we should really desire it to be associative.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should look at point-set topology as generalizing everything from our discussion about the <fr:link
+type="local"
+href="ca-000G.xml"
+addr="ca-000G"
+title="Topology of metric spaces">Topology of metric spaces</fr:link> to arbitrary sets.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,22 +31,24 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>14416</fr:anchor><fr:addr
-type="user">matrix-0012</fr:addr><fr:route>matrix-0012.xml</fr:route><fr:title
-text="Matrix Multiplication is Associative">Matrix Multiplication is Associative</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11038</fr:anchor><fr:addr
+type="user">gt-0004</fr:addr><fr:route>gt-0004.xml</fr:route><fr:title
+text="Metric topology">Metric topology</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbf {A}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[m\times  n]]></fr:tex> matrix, <fr:tex
-display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[n\times  p]]></fr:tex> matrix, and <fr:tex
-display="inline"><![CDATA[\mathbf {C}]]></fr:tex> be an <fr:tex
-display="inline"><![CDATA[p\times  q]]></fr:tex> matrix. Then
-<fr:tex
-display="block"><![CDATA[(\mathbf {A}\mathbf {B})\mathbf {C} = \mathbf {A}(\mathbf {B}\mathbf {C}).]]></fr:tex>
-In other words, matrix multiplication is associative.</fr:p>
+display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+type="local"
+href="ca-000K.xml"
+addr="ca-000K"
+title="Metric Space">Metric Space</fr:link>. We can define the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Metric Topology</html:dfn> for <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> consisting of all <fr:link
+type="local"
+href="ca-000M.xml"
+addr="ca-000M"
+title="Open Set">open subsets</fr:link> (defined using open balls) as the only open sets in the topology.</fr:p>
  
    
    <fr:tree
@@ -52,11 +58,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2322</fr:anchor><fr:addr
-type="machine">#488</fr:addr><fr:route>unstable-488.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11040</fr:anchor><fr:addr
+type="machine">#488</fr:addr><fr:route>unstable-488.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Associativity is one of the more important properties of a binary operator. Whenever we define a new gadget with some notion of "multiplication" (or "addition" or some other binary operator) on it, we should really desire it to be associative.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should look at point-set topology as generalizing everything from our discussion about the <fr:link
+type="local"
+href="ca-000G.xml"
+addr="ca-000G"
+title="Topology of metric spaces">Topology of metric spaces</fr:link> to arbitrary sets.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

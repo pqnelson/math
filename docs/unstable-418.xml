@@ -7,15 +7,47 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7126</fr:anchor><fr:addr
-type="machine">#418</fr:addr><fr:route>unstable-418.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2612</fr:anchor><fr:addr
+type="machine">#418</fr:addr><fr:route>unstable-418.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Some authors prefer <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> to be infinite if there is no smallest positive integer <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[g^{n}=e]]></fr:tex>, but it can complicate some results.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[f(x)=x-\alpha ]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {F}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Suppose this is true for any polynomial of degree strictly less than <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> be an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, we suppose <fr:tex
+display="inline"><![CDATA[\deg (f)=n]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[F_{1}=\mathbb {F}[x]/(f_{1}(x))\cong \mathbb {F}(\alpha )]]></fr:tex> for a root <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[f_{1}]]></fr:tex> (which is also a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>).</fr:p>
+<fr:p>But then <fr:tex
+display="inline"><![CDATA[f(x)=(x-\alpha )g(x)]]></fr:tex> for some polynomial <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\deg (g)<\deg (f)]]></fr:tex>. Then by the inductive hypothesis, there exists an extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> over which <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> splits completely with
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : F_{1}]\leq \deg (g)!=(n-1)!]]></fr:tex>
+Then
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : \mathbb {F}]\leq  n!]]></fr:tex>
+and <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -30,32 +62,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7128</fr:anchor><fr:addr
-type="user">gr-000O</fr:addr><fr:route>gr-000O.xml</fr:route><fr:title
-text="Order of a group element">Order of a group element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2614</fr:anchor><fr:addr
+type="user">nt-001P</fr:addr><fr:route>nt-001P.xml</fr:route><fr:title
+text="For any polynomial there exists a field over which it splits">For any polynomial there exists a field over which it splits</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#K6">group_1:def 11</fr:link></fr:meta><fr:meta
-name="source">Dummit and Foote <fr:link
-type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. Let <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex>. We define <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Order</html:dfn> of <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> is the integer <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> equal to <fr:em>either</fr:em> the smallest positive integer <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[g^{n}=e]]></fr:tex> <fr:em>or</fr:em> if no such positive integer exists, it is defined to be zero.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> be a polynomial. If <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>, then there exists a field extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> of degree at most <fr:tex
+display="inline"><![CDATA[n!]]></fr:tex>such that <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, i.e., <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> factors into linear factors in <fr:tex
+display="inline"><![CDATA[\Bbbk [x]]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -65,14 +87,46 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1686</fr:anchor><fr:addr
-type="machine">#418</fr:addr><fr:route>unstable-418.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>945</fr:anchor><fr:addr
+type="machine">#418</fr:addr><fr:route>unstable-418.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Some authors prefer <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {ord}}\nolimits (g)]]></fr:tex> to be infinite if there is no smallest positive integer <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[g^{n}=e]]></fr:tex>, but it can complicate some results.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+type="local"
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[n=1]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[f(x)=x-\alpha ]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {F}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Suppose this is true for any polynomial of degree strictly less than <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> be an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, we suppose <fr:tex
+display="inline"><![CDATA[\deg (f)=n]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[F_{1}=\mathbb {F}[x]/(f_{1}(x))\cong \mathbb {F}(\alpha )]]></fr:tex> for a root <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[f_{1}]]></fr:tex> (which is also a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>).</fr:p>
+<fr:p>But then <fr:tex
+display="inline"><![CDATA[f(x)=(x-\alpha )g(x)]]></fr:tex> for some polynomial <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\deg (g)<\deg (f)]]></fr:tex>. Then by the inductive hypothesis, there exists an extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> over which <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex> splits completely with
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : F_{1}]\leq \deg (g)!=(n-1)!]]></fr:tex>
+Then
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : \mathbb {F}]\leq  n!]]></fr:tex>
+and <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

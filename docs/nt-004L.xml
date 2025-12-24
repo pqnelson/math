@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:addr
+type="user">nt-004L</fr:addr><fr:route>nt-004L.xml</fr:route><fr:title
+text="Algebraic Integers">Algebraic Integers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {Q}]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004K.xml"
+addr="nt-004K"
+title="Number Field">Number Field</fr:link>. An element <fr:tex
+display="inline"><![CDATA[a\in \Bbbk ]]></fr:tex> is called an <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Algebraic Integer</html:dfn> if its minimal polynomial <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> is a polynomial with integer coefficients, i.e., <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\in \mathbb {Z}[x]]]></fr:tex>.</fr:p><fr:p>The set of all algebraic integers in <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is denoted <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:addr
+type="user">nt-004P</fr:addr><fr:route>nt-004P.xml</fr:route><fr:title
+text="Tools from algebraic number theory for calculating Galois groups">Tools from algebraic number theory for calculating Galois groups</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {Q}[x]]]></fr:tex> is an irreducible polynomial. Often it's enough to determine the Galois group of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> up to isomorphism, as a subgroup of <fr:tex
+display="inline"><![CDATA[S_{n}]]></fr:tex>.</fr:p><fr:p>Let us review some relevant parts of algebraic number theory which will help us calculate the cycle type in Galois groups of polynomials over the integers.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>633</fr:anchor><fr:addr
+type="user">nt-004K</fr:addr><fr:route>nt-004K.xml</fr:route><fr:title
+text="Number Field">Number Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Number Field</html:dfn> is a finite field extension of <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>635</fr:anchor><fr:addr
+type="user">nt-004L</fr:addr><fr:route>nt-004L.xml</fr:route><fr:title
+text="Algebraic Integers">Algebraic Integers</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {Q}]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004K.xml"
+addr="nt-004K"
+title="Number Field">Number Field</fr:link>. An element <fr:tex
+display="inline"><![CDATA[a\in \Bbbk ]]></fr:tex> is called an <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Algebraic Integer</html:dfn> if its minimal polynomial <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> is a polynomial with integer coefficients, i.e., <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\in \mathbb {Z}[x]]]></fr:tex>.</fr:p><fr:p>The set of all algebraic integers in <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is denoted <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>637</fr:anchor><fr:addr
+type="user">nt-004Q</fr:addr><fr:route>nt-004Q.xml</fr:route><fr:title
+text="Algebraic Integers">Algebraic Integers</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:ol><fr:li>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {Q}(\mathrm {i})]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\mathrm {i}=\sqrt {-1}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }=\mathbb {Z}[\mathrm {i}]]]></fr:tex>.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {Q}(\sqrt {2})]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }=\mathbb {Z}[\sqrt {2}]]]></fr:tex>.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {Q}(\sqrt {5})]]></fr:tex>. Then the minimal polynomial of <fr:tex
+display="inline"><![CDATA[\sqrt {5}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[m_{\sqrt {5}}(x)=x^{2}-x-1]]></fr:tex>. This means that <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }=\mathbb {Z}[\varphi ]]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\varphi =(1+\sqrt {5})/2]]></fr:tex> is the golden ratio.</fr:li></fr:ol>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>639</fr:anchor><fr:addr
+type="machine">#576</fr:addr><fr:route>unstable-576.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) If <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\sigma (\mathcal {O}_{\Bbbk })=\mathcal {O}_{\Bbbk }]]></fr:tex>.</fr:p>
+<fr:p>(2) If <fr:tex
+display="inline"><![CDATA[I\mathrel {\triangleleft }\mathcal {O}_{\Bbbk }]]></fr:tex> is a proper ideal, then <fr:tex
+display="inline"><![CDATA[\sigma (I)\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[\sigma \in \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>641</fr:anchor><fr:addr
+type="user">nt-004M</fr:addr><fr:route>nt-004M.xml</fr:route><fr:title
+text="Algebraic integers form an integral domain">Algebraic integers form an integral domain</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004K.xml"
+addr="nt-004K"
+title="Number Field">Number Field</fr:link>. The ring of <fr:link
+type="local"
+href="nt-004L.xml"
+addr="nt-004L"
+title="Algebraic Integers">Algebraic Integers</fr:link> <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }]]></fr:tex> is an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link> and its <fr:link
+type="local"
+href="ra-002B.xml"
+addr="ra-002B"
+title="Universal property of field of fractions">field of fractions</fr:link> is <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p><fr:p><fr:strong>Proof idea:</fr:strong> Suffices to show <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }]]></fr:tex> is closed under addition and multiplication. Then it's an integral domain since it's a subring of a field.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>643</fr:anchor><fr:addr
+type="user">nt-004N</fr:addr><fr:route>nt-004N.xml</fr:route><fr:title
+text="Prime factorization of ideals of algebraic integers">Prime factorization of ideals of algebraic integers</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004K.xml"
+addr="nt-004K"
+title="Number Field">Number Field</fr:link>. Any ideal <fr:tex
+display="inline"><![CDATA[I\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> factors into a product
+<fr:tex
+display="block"><![CDATA[I=P_{1}^{e_{1}}(…)P_{r}^{e_{r}}]]></fr:tex>
+of distinct prime ideals <fr:tex
+display="inline"><![CDATA[P_{i}\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex>, and this factorization is unique up to rearrangement.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>645</fr:anchor><fr:addr
+type="user">nt-004O</fr:addr><fr:route>nt-004O.xml</fr:route><fr:title
+text="Galois group of number field acts transitively on any prime factor of an ideal">Galois group of number field acts transitively on any prime factor of an ideal</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004K.xml"
+addr="nt-004K"
+title="Number Field">Number Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[(p)\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> be a principal ideal of the algebraic integers of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>, suppose we have the prime factorization of <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex> into
+<fr:tex
+display="block"><![CDATA[(p)=P_{1}^{e_{1}}(…)P_{r}^{e_{r}}]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[P_{i}\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> are distinct prime ideals.</fr:p><fr:p>Then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex> acts transitively on the prime ideals <fr:tex
+display="inline"><![CDATA[P_{i}]]></fr:tex>. Moreover, for each <fr:tex
+display="inline"><![CDATA[P_{i}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[P_{i}\cap \mathbb {Z}=p\mathbb {Z}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>647</fr:anchor><fr:addr
+type="machine">#577</fr:addr><fr:route>unstable-577.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) <fr:link
+type="local"
+href="nt-004N.xml"
+addr="nt-004N"
+title="Prime factorization of ideals of algebraic integers">Prime factorization of ideals of algebraic integers</fr:link> plus this proposition implies all the powers <fr:tex
+display="inline"><![CDATA[e_{i}]]></fr:tex> of the factorization of an ideal are equal to each other <fr:tex
+display="inline"><![CDATA[e_{i}=e_{j}]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>. This exponent is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Ramification Index</html:dfn>.</fr:p>
+<fr:p>(2) In this situation, we say that a prime ideal <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Lies Above <fr:tex
+display="inline"><![CDATA[p]]></fr:tex></html:dfn> if <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> occurs in the factorization of the principal ideal <fr:tex
+display="inline"><![CDATA[(p)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>649</fr:anchor><fr:addr
+type="user">nt-004R</fr:addr><fr:route>nt-004R.xml</fr:route><fr:title
+text="Decomposition subgroup">Decomposition subgroup</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> be a prime ideal <fr:link
+type="local"
+href="nt-004O.xml"
+addr="nt-004O"
+title="Galois group of number field acts transitively on any prime factor of an ideal">over <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Z}]]></fr:tex></fr:link>. Then the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Decomposition Subgroup</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex> is
+<fr:tex
+display="block"><![CDATA[D_{P}=\{\sigma \in \mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})\mid  \sigma (P)=P\}]]></fr:tex>
+the elements of the Galois group leaving <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> invariant.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>651</fr:anchor><fr:addr
+type="machine">#575</fr:addr><fr:route>unstable-575.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When <fr:tex
+display="inline"><![CDATA[P\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> is lying over <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Z}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }/P]]></fr:tex> is a finite field containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}\cong \mathbb {Z} / p\mathbb {Z}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }/P\cong \mathbb {F}_{q}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[q=p^{m}]]></fr:tex>.</fr:p>
+<fr:p>If <fr:tex
+display="inline"><![CDATA[\sigma \in  D_{P}]]></fr:tex>, then it induces a field automorphism
+<fr:tex
+display="block"><![CDATA[\begin {split}\overline {\sigma }\colon &\mathcal {O}_{\Bbbk }/P\to \mathcal {O}_{\Bbbk }/P\\ &x+P\mapsto \sigma (x)+P\end {split}]]></fr:tex>
+Therefore there is a map <fr:tex
+display="inline"><![CDATA[D_{P}\to \mathop {\textrm {Gal}}\nolimits (\mathbb {F}_{q}/\mathbb {F}_{p})]]></fr:tex> sending <fr:tex
+display="inline"><![CDATA[\sigma \mapsto \overline {\sigma }]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>653</fr:anchor><fr:addr
+type="user">nt-004S</fr:addr><fr:route>nt-004S.xml</fr:route><fr:title
+text="" /><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {Q}]]></fr:tex> be the splitting field of an irreducible monic polynomial <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {Z}[x]]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Z}]]></fr:tex> is a prime not dividing the discriminant of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>.</fr:p><fr:p>Then <fr:tex
+display="inline"><![CDATA[p\mathbb {Z}=P_{1}(…)P_{r}]]></fr:tex> is a prime ideal factorization of <fr:tex
+display="inline"><![CDATA[p\mathbb {Z}]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[P_{i}\mathrel {\trianglelefteq }\mathcal {O}_{\Bbbk }]]></fr:tex> distinct.</fr:p><fr:p>For each <fr:tex
+display="inline"><![CDATA[P=P_{i}]]></fr:tex>, the group morphism <fr:tex
+display="inline"><![CDATA[D_{P}\to \mathop {\textrm {Gal}}\nolimits (\mathbb {F}_{q} / \mathbb {F}_{p})]]></fr:tex> is an isomorphism. In particular, <fr:tex
+display="inline"><![CDATA[D_{P}]]></fr:tex> is cyclic of order <fr:tex
+display="inline"><![CDATA[[\mathbb {F}_{q} : \mathbb {F}_{p}]]]></fr:tex> generated by the Frobenius element in <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\mathbb {F}_{q}/\mathbb {F}_{p})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>655</fr:anchor><fr:addr
+type="user">nt-004T</fr:addr><fr:route>nt-004T.xml</fr:route><fr:title
+text="Cebotarev density theorem">Cebotarev density theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[C\subseteq \mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})]]></fr:tex> be a conjugacy class of size <fr:tex
+display="inline"><![CDATA[r]]></fr:tex>, let <fr:tex
+display="inline"><![CDATA[n=|\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {Q})|]]></fr:tex>. Then the density (proportion) of primes <fr:tex
+display="inline"><![CDATA[p\in \mathbb {Z}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[C=\mathbb {F}_{p}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[r/n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:addr
+type="user">nt-004M</fr:addr><fr:route>nt-004M.xml</fr:route><fr:title
+text="Algebraic integers form an integral domain">Algebraic integers form an integral domain</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a <fr:link
+type="local"
+href="nt-004K.xml"
+addr="nt-004K"
+title="Number Field">Number Field</fr:link>. The ring of <fr:link
+type="local"
+href="nt-004L.xml"
+addr="nt-004L"
+title="Algebraic Integers">Algebraic Integers</fr:link> <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }]]></fr:tex> is an <fr:link
+type="local"
+href="ra-000H.xml"
+addr="ra-000H"
+title="Integral domain">Integral domain</fr:link> and its <fr:link
+type="local"
+href="ra-002B.xml"
+addr="ra-002B"
+title="Universal property of field of fractions">field of fractions</fr:link> is <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:p><fr:p><fr:strong>Proof idea:</fr:strong> Suffices to show <fr:tex
+display="inline"><![CDATA[\mathcal {O}_{\Bbbk }]]></fr:tex> is closed under addition and multiplication. Then it's an integral domain since it's a subring of a field.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:addr
+type="user">nt-004K</fr:addr><fr:route>nt-004K.xml</fr:route><fr:title
+text="Number Field">Number Field</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Number Field</html:dfn> is a finite field extension of <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

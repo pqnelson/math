@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/preface/</fr:uri>
+    <fr:display-uri>preface</fr:display-uri>
+    <fr:route>/preface/</fr:route>
+    <fr:title text="Preface">Preface</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>This is the forest of my notes on Mathematics. It's an attempt to describe the "mental landscape" of Mathematics, at least how I view it (based on how I learned it).</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>8</fr:day>
+        </fr:date>
+        <fr:uri>http://localhost:8000/preface-0001/</fr:uri>
+        <fr:display-uri>preface-0001</fr:display-uri>
+        <fr:route>/preface-0001/</fr:route>
+        <fr:title text="Naive handling of material followed by rigorous presentation">Naive handling of material followed by rigorous presentation</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>There is a "naive" introduction to some of the material: in <fr:link href="/ela/" title="Elementary linear algebra" uri="http://localhost:8000/ela/" display-uri="ela" type="local">Elementary linear algebra</fr:link>, for example, we just assume the real numbers exist and familiarity with calculating with them (at least to the level expected of a calculus student). But it isn't until <fr:link href="/ca/" title="Classical Analysis" uri="http://localhost:8000/ca/" display-uri="ca" type="local">Classical Analysis</fr:link> where <html:em>constructing</html:em> real numbers is really examined.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>8</fr:day>
+        </fr:date>
+        <fr:uri>http://localhost:8000/preface-0002/</fr:uri>
+        <fr:display-uri>preface-0002</fr:display-uri>
+        <fr:route>/preface-0002/</fr:route>
+        <fr:title text="Circular learning of Mathematics">Circular learning of Mathematics</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Arguably this "circular" treatment of material is a pedagogical virtue when actually "executed" in practice: the student will study <fr:link href="/ela/" title="Elementary linear algebra" uri="http://localhost:8000/ela/" display-uri="ela" type="local">Elementary linear algebra</fr:link> one quarter, then intermediate linear algebra the next quarter, then <fr:link href="/ca/" title="Classical Analysis" uri="http://localhost:8000/ca/" display-uri="ca" type="local">Classical Analysis</fr:link> the following quarter. This spaces out the material and the review, which strengthens mental connections.</html:p>
+        <html:p>For better or worse, this forest of notes lacks that quality. After all, you can sit down and just "cram" the notes, possibly over the course of several days. So for you, the reader, you will not have the advantage of spaced learning.</html:p>
+        <html:p>Also I am being a bit sparse when giving proofs in the earlier parts of the forest. So <fr:link href="/ela/" title="Elementary linear algebra" uri="http://localhost:8000/ela/" display-uri="ela" type="local">Elementary linear algebra</fr:link> lacks proofs for every theorem, but they could be supplied if desired.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>8</fr:day>
+        </fr:date>
+        <fr:uri>http://localhost:8000/preface-0003/</fr:uri>
+        <fr:display-uri>preface-0003</fr:display-uri>
+        <fr:route>/preface-0003/</fr:route>
+        <fr:title text="Ordering material">Ordering material</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>The choice to order material partially reflects how I learned it (<fr:link href="/ela/" title="Elementary linear algebra" uri="http://localhost:8000/ela/" display-uri="ela" type="local">Elementary linear algebra</fr:link>, followed by intermediate linear algebra, then <fr:link href="/ca/" title="Classical Analysis" uri="http://localhost:8000/ca/" display-uri="ca" type="local">Classical Analysis</fr:link>, and so on) and partially how I mentally think of the material: linear algebra is the "central" subject in Mathematics, and everything "branches off" from it.</html:p>
+        <html:p>This means we successively review linear algebra in greater generality.</html:p>
+        <html:p>Moreover, I have decided to "cluster" trees into "subforests" reflecting the course materials. This means each "identifier" for a tree is prefixed by some "slug" for the "subforest". Sometimes (like with <html:code>field</html:code> or <html:code>sl</html:code>) a mathematical object or gadget is used as the slug. Othertimes (like with <html:code>ela</html:code> or <html:code>ca</html:code>) the course name is used.</html:p>
+        <html:p>I'll typically try to follow the <fr:link href="https://arxiv.org/archive/math" type="external">categories used by arXiv</fr:link>.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/index/</fr:uri>
+            <fr:display-uri>index</fr:display-uri>
+            <fr:route>/index/</fr:route>
+            <fr:title text="Forests of Mathematics">Forests of Mathematics</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>This roughly corresponds to my "mental model" of Mathematics as I have learned it. For more rambling about this, see the <fr:link href="/preface/" title="Preface" uri="http://localhost:8000/preface/" display-uri="preface" type="local">Preface</fr:link>.</html:p>
+            <html:ol><html:li><fr:link href="/preface/" title="Preface" uri="http://localhost:8000/preface/" display-uri="preface" type="local">Preface</fr:link></html:li>
+<html:li><fr:link href="/ela/" title="Elementary linear algebra" uri="http://localhost:8000/ela/" display-uri="ela" type="local">Elementary linear algebra</fr:link></html:li> <html:li><fr:link href="/nst/" title="Naive set theory" uri="http://localhost:8000/nst/" display-uri="nst" type="local">Naive set theory</fr:link></html:li> <html:li><fr:link href="/ila/" title="Intermediate linear algebra" uri="http://localhost:8000/ila/" display-uri="ila" type="local">Intermediate linear algebra</fr:link></html:li> <html:li><fr:link href="/ca/" title="Classical Analysis" uri="http://localhost:8000/ca/" display-uri="ca" type="local">Classical Analysis</fr:link></html:li>  <html:li><fr:link href="/iaa/" title="Introduction to Abstract Algebra" uri="http://localhost:8000/iaa/" display-uri="iaa" type="local">Introduction to Abstract Algebra</fr:link></html:li> <html:li><fr:link href="/ac/" title="Commutative Algebra" uri="http://localhost:8000/ac/" display-uri="ac" type="local">Commutative Algebra</fr:link></html:li>  <html:li><fr:link href="/sl/" title="Special linear group" uri="http://localhost:8000/sl/" display-uri="sl" type="local">Special linear group</fr:link></html:li>
+<html:li><fr:link href="/jordan/" title="Jordan algebras" uri="http://localhost:8000/jordan/" display-uri="jordan" type="local">Jordan algebras</fr:link></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

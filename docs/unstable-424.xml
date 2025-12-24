@@ -7,38 +7,35 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7150</fr:anchor><fr:addr
-type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2636</fr:anchor><fr:addr
+type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) When the binary operator for the group is commutative, we usually use <fr:tex
-display="inline"><![CDATA[+]]></fr:tex> for the binary operator and <fr:tex
-display="inline"><![CDATA[0]]></fr:tex> for the identity element.</fr:p>
-<fr:p>(2) The "exact formalization" varies. For example, we could have equipped <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> with a binary operator <fr:tex
-display="inline"><![CDATA[\star ]]></fr:tex>, a unary operator <fr:tex
-display="inline"><![CDATA[(-)^{-1}\colon  G\to  G]]></fr:tex>, and a constant element <fr:tex
-display="inline"><![CDATA[e\in  G]]></fr:tex>; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.</fr:p>
-<fr:p>(3) The intuition is that <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> consists of <fr:link
-type="local"
-href="ela-001K.xml"
-addr="ela-001K"
-title="Bijective function">bijections</fr:link> from a set to itself, and the binary operator is just the <fr:link
-type="local"
-href="nst-001M.xml"
-addr="nst-001M"
-title="Composition of functions">Composition of functions</fr:link> and the identity element is just the <fr:link
-type="local"
-href="nst-0017.xml"
-addr="nst-0017"
-title="Identity function">Identity function</fr:link>. These bijections are "symmetries" of the set.</fr:p>
-<fr:p>(4) See also Forrester-Barker's <fr:link
-type="local"
-href="forrester-2002-group.xml"
-addr="forrester-2002-group"
-title="Group objects and internal categories">Group objects and internal categories</fr:link> for a way to generalize the notion of groups to other settings.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we have two points <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x_{1},y_{1})]]></fr:tex> which are given. The line passing through these points have the form
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[A=y-y_{0},\quad  B=x-x_{0},\quad  C=x_{0}y_{1}-x_{1}y_{0}.]]></fr:tex>
+We see the coefficients are <fr:em>polynomials</fr:em> in the coordinates of the given points.</fr:p>
+<fr:p>The intersection of two lines
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[A'x+B'y+C'=0,]]></fr:tex>
+is nonempty if and only if
+<fr:tex
+display="block"><![CDATA[AB'-A'B\neq 0,]]></fr:tex>
+in which case the intersection point has coordinates,
+<fr:tex
+display="block"><![CDATA[x_{i}=\frac {BC-B'C'}{AB'-A'B},\quad  y_{i}=\frac {A'C'-AC}{AB'-A'B}.]]></fr:tex>
+The coordinates of the intersection point are <fr:em>rational functions</fr:em> in the coefficients for equations of the given lines.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -53,41 +50,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7152</fr:anchor><fr:addr
-type="user">gr-000G</fr:addr><fr:route>gr-000G.xml</fr:route><fr:title
-text="Group">Group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2638</fr:anchor><fr:addr
+type="user">nt-001I</fr:addr><fr:route>nt-001I.xml</fr:route><fr:title
+text="Points with coordinates in a field have intersecting lines at points with coordinates in a field">Points with coordinates in a field have intersecting lines at points with coordinates in a field</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#NM1">group_1:def</fr:link></fr:meta><fr:meta
-name="source">Dummit and Foote <fr:link
-type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Group</html:dfn> consists of a set <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> equipped with an <fr:link
-type="local"
-href="gr-0003.xml"
-addr="gr-0003"
-title="Associative binary operator">Associative binary operator</fr:link> <fr:tex
-display="inline"><![CDATA[\star ]]></fr:tex> and an <fr:link
-type="local"
-href="gr-0005.xml"
-addr="gr-0005"
-title="Identity element">Identity element</fr:link> with respect to <fr:tex
-display="inline"><![CDATA[\star ]]></fr:tex>, usually denoted either <fr:tex
-display="inline"><![CDATA[e\in  G]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[1\in  G]]></fr:tex>, such that every element has a unique <fr:link
-type="local"
-href="gr-000C.xml"
-addr="gr-000C"
-title="Inverse of an element with respect to a binary operator">inverse</fr:link>,
-<fr:tex
-display="block"><![CDATA[\forall  a\in  G\ldotp \exists  a^{-1}\in  A\ldotp  a\star  a^{-1}=a^{-1}\star  a=e.]]></fr:tex></fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points whose coordinates lie in a field <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {R}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is directly constructed from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by intersecting two lines, then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> will also have coordinates in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -97,37 +72,34 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1626</fr:anchor><fr:addr
-type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>919</fr:anchor><fr:addr
+type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) When the binary operator for the group is commutative, we usually use <fr:tex
-display="inline"><![CDATA[+]]></fr:tex> for the binary operator and <fr:tex
-display="inline"><![CDATA[0]]></fr:tex> for the identity element.</fr:p>
-<fr:p>(2) The "exact formalization" varies. For example, we could have equipped <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> with a binary operator <fr:tex
-display="inline"><![CDATA[\star ]]></fr:tex>, a unary operator <fr:tex
-display="inline"><![CDATA[(-)^{-1}\colon  G\to  G]]></fr:tex>, and a constant element <fr:tex
-display="inline"><![CDATA[e\in  G]]></fr:tex>; this is what we will find useful in category theory later. But they are describing "the same thing". So don't worry about it if you're reading a textbook with a slightly different definition.</fr:p>
-<fr:p>(3) The intuition is that <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> consists of <fr:link
-type="local"
-href="ela-001K.xml"
-addr="ela-001K"
-title="Bijective function">bijections</fr:link> from a set to itself, and the binary operator is just the <fr:link
-type="local"
-href="nst-001M.xml"
-addr="nst-001M"
-title="Composition of functions">Composition of functions</fr:link> and the identity element is just the <fr:link
-type="local"
-href="nst-0017.xml"
-addr="nst-0017"
-title="Identity function">Identity function</fr:link>. These bijections are "symmetries" of the set.</fr:p>
-<fr:p>(4) See also Forrester-Barker's <fr:link
-type="local"
-href="forrester-2002-group.xml"
-addr="forrester-2002-group"
-title="Group objects and internal categories">Group objects and internal categories</fr:link> for a way to generalize the notion of groups to other settings.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we have two points <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x_{1},y_{1})]]></fr:tex> which are given. The line passing through these points have the form
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[A=y-y_{0},\quad  B=x-x_{0},\quad  C=x_{0}y_{1}-x_{1}y_{0}.]]></fr:tex>
+We see the coefficients are <fr:em>polynomials</fr:em> in the coordinates of the given points.</fr:p>
+<fr:p>The intersection of two lines
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[A'x+B'y+C'=0,]]></fr:tex>
+is nonempty if and only if
+<fr:tex
+display="block"><![CDATA[AB'-A'B\neq 0,]]></fr:tex>
+in which case the intersection point has coordinates,
+<fr:tex
+display="block"><![CDATA[x_{i}=\frac {BC-B'C'}{AB'-A'B},\quad  y_{i}=\frac {A'C'-AC}{AB'-A'B}.]]></fr:tex>
+The coordinates of the intersection point are <fr:em>rational functions</fr:em> in the coefficients for equations of the given lines.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

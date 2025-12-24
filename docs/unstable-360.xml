@@ -7,16 +7,28 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8145</fr:anchor><fr:addr
-type="machine">#360</fr:addr><fr:route>unstable-360.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1677</fr:anchor><fr:addr
+type="machine">#360</fr:addr><fr:route>unstable-360.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This forms an <fr:link
-type="local"
-href="nst-0011.xml"
-addr="nst-0011"
-title="Equivalence relation">Equivalence relation</fr:link> on topological spaces.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}^{\times }]]></fr:tex> is cyclic, the result follows. More explicitly, let <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> be a generator, then every other element of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex> is a power of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex>, so
+<fr:tex
+display="block"><![CDATA[\mathbb {F}_{p^{n}}\cong \mathbb {F}_{p}[\alpha ]\cong \mathbb {F}_{p}[x]/(f(x)),]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[f(x)=m_{\alpha }(x)]]></fr:tex> is the minimal polynomial of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>, so does <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,26 +43,29 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8147</fr:anchor><fr:addr
-type="user">gt-0017</fr:addr><fr:route>gt-0017.xml</fr:route><fr:title
-text="Homeomorphic spaces">Homeomorphic spaces</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1679</fr:anchor><fr:addr
+type="user">nt-003D</fr:addr><fr:route>nt-003D.xml</fr:route><fr:title
+text="Finite extensions of finite fields of characteristic p>0 are simple">Finite extensions of finite fields of characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex> are simple</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> be <fr:link
+display="inline"><![CDATA[p\in \mathbb {N}]]></fr:tex> be prime, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. Then the <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>s. We say <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T_{1}})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(Y,\mathcal {T}_{2})]]></fr:tex> <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">are Homeomorphic</html:dfn> if there exists a <fr:link
+href="nt-000J.xml"
+addr="nt-000J"
+title="Degree of extension">finite extension</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}} / \mathbb {F}_{p}]]></fr:tex> is <fr:link
 type="local"
-href="gt-0016.xml"
-addr="gt-0016"
-title="Homeomorphism">Homeomorphism</fr:link> between them.</fr:p>
+href="nt-000N.xml"
+addr="nt-000N"
+title="Simple Field Extension">simple</fr:link>, which means there exists some irreducible polynomial <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}_{p}[x]]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> such that
+<fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}\cong \mathbb {F}_{p}[x]/(f(x)).]]></fr:tex></fr:p>
  
    
    <fr:tree
@@ -60,15 +75,27 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8149</fr:anchor><fr:addr
-type="machine">#360</fr:addr><fr:route>unstable-360.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1179</fr:anchor><fr:addr
+type="machine">#360</fr:addr><fr:route>unstable-360.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This forms an <fr:link
-type="local"
-href="nst-0011.xml"
-addr="nst-0011"
-title="Equivalence relation">Equivalence relation</fr:link> on topological spaces.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}^{\times }]]></fr:tex> is cyclic, the result follows. More explicitly, let <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> be a generator, then every other element of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex> is a power of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex>, so
+<fr:tex
+display="block"><![CDATA[\mathbb {F}_{p^{n}}\cong \mathbb {F}_{p}[\alpha ]\cong \mathbb {F}_{p}[x]/(f(x)),]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[f(x)=m_{\alpha }(x)]]></fr:tex> is the minimal polynomial of <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>, so does <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

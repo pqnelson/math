@@ -7,35 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11856</fr:anchor><fr:addr
-type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1641</fr:anchor><fr:addr
+type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
-display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
-display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
-display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It's easy to see <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is invariant under transpositions, hence under all the elements of <fr:tex
+display="inline"><![CDATA[S_{n}]]></fr:tex>. Therefore <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is a function of <fr:tex
+display="inline"><![CDATA[s_{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[s_{n}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -50,32 +32,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11858</fr:anchor><fr:addr
-type="user">nst-000N</fr:addr><fr:route>nst-000N.xml</fr:route><fr:title
-text="Ordered pairs implement their specification">Ordered pairs implement their specification</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1643</fr:anchor><fr:addr
+type="user">nt-0042</fr:addr><fr:route>nt-0042.xml</fr:route><fr:title
+text="Discriminant">Discriminant</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
-type="local"
-href="paul-r-halmos.xml"
-addr="paul-r-halmos"
-title="Paul R. Halmos">Paul R. Halmos</fr:link> <fr:link
-type="local"
-href="halmos-1974-naive.xml"
-addr="halmos-1974-naive"
-title="Naive Set Theory">Naive Set Theory</fr:link> Ch.6</fr:meta><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/xtuple_0.html#T1">xtuple_0:1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[c]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[d]]></fr:tex> be objects. If <fr:tex
-display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x_{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[x_{n}]]></fr:tex> be a set of numbers. Their <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Discriminant</html:dfn> is
+<fr:tex
+display="block"><![CDATA[D=\prod _{i<j}(x_{i}-x_{j})^{2}.]]></fr:tex>
+The discriminant of a polynomial is the discriminant of its roots.</fr:p>
  
    
    <fr:tree
@@ -85,34 +54,16 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2861</fr:anchor><fr:addr
-type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1249</fr:anchor><fr:addr
+type="machine">#351</fr:addr><fr:route>unstable-351.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We boild this proof down to two cases: either <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex> or not. We assume <fr:tex
-display="inline"><![CDATA[(a,b)=(c,d)]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Case 1:</fr:strong> <fr:tex
-display="inline"><![CDATA[c=d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[(c,d)=(c,c)=\{\{c,c\},\{c\}\}=\{\{c\}\}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[(a,b)=\{\{a,b\},\{a\}\}=\{\{c\}\}]]></fr:tex> requires <fr:tex
-display="inline"><![CDATA[\{a,b\}=\{c\}]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=b=c]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=b=c=d]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex> as desired.</fr:p>
-<fr:p><fr:strong>Case 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[c\neq  d]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\{a\}\neq \{c,d\}]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[\{a\}=\{c\}]]></fr:tex>, which means <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex>. Then we see <fr:tex
-display="inline"><![CDATA[(a,b)=(c,b)=(c,d)]]></fr:tex> which implies <fr:tex
-display="inline"><![CDATA[\{c,b\}=\{c,d\}]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=c]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b=d]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>It's easy to see <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is invariant under transpositions, hence under all the elements of <fr:tex
+display="inline"><![CDATA[S_{n}]]></fr:tex>. Therefore <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is a function of <fr:tex
+display="inline"><![CDATA[s_{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[s_{n}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,26 @@
+\title{Lagrange resolvent is not fixed by any subgroup of the Galois group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{proposition}
+
+\p{Let #{\FF} be a field containing the roots of unity #{\mu_{n}}, of characteristic not dividing #{n}, i.e. #{\Char(\FF)\nmid n}. If #{\kk / \FF} is a cyclic Galois extension, then #{\kk = \FF(\sqrt[n]{a})} for some #{a\in\FF}.}
+
+\rmk{This is a converse to the [criteria for simple radical extensions](nt-004A).}
+
+\proof{\p{Observe
+##{\begin{align*}\sigma\lambda(a,\zeta)
+&=\zeta^{-1}\lambda(a,\zeta) = \sigma(a + \zeta\sigma(a)+\dots+\zeta^{n-1}\sigma^{n-1}(a))\\
+&=\zeta^{-1}(\zeta\sigma(a)+\zeta^{2}\sigma^{2}(a)+\dots+\zeta^{n-1}\sigma^{n-1}(a)+a)\\
+&=\zeta^{-1}\lambda(a,\zeta).\end{align*}}
+Furthermore,
+##{\begin{align*}\sigma(\lambda(a,\zeta)^{n}) &= \zeta^{-n}\lambda(a,\zeta)^{n}\\
+&=\lambda(a,\zeta)^{n}\end{align*}}
+which implies #{\lambda(a,\zeta)^{n}\in\FF}.}
+\p{If #{b=\lambda(a,\zeta)^{n}}, then #{\sqrt[n]{b}\in\kk} and #{b\in\FF}. Then #{\FF(\sqrt[n]{b})=\kk}.}
+\p{By the [linear independence of characters](nt-002T), there exists an #{a\in\FF} such that
+#{\lambda(a,\zeta)\neq0} and
+##{\sigma\lambda(a,\zeta)=\zeta^{-1}\lambda(a,\zeta)\neq\lambda(a,\zeta),}
+so for any #{k} we have
+##{\sigma^{k}\lambda(a,\zeta)=\zeta^{-k}\lambda(a,\zeta)\neq\lambda(a,\zeta).}
+Hence #{\lambda(a,\zeta)} is not fixed by any subgroup of #{\Gal(\kk / \FF)}. Hence #{\kk=\FF(\sqrt[n]{b})}.}}

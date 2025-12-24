@@ -1,0 +1,13 @@
+\title{Root Extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+
+\p{Suppose #{\FF} is a field of characteristic zero. Let #{\kk / \FF} be a finite extension. We say #{\kk / \FF} is a \define{Root Extension} if there exists subfields
+##{\FF=K_{0}\propersubset K_{1}\propersubset\dots\propersubset K_{i}\propersubset K_{i+1}\propersubset\dots\propersubset K_{s}=\kk}
+where #{K_{i+1}=K_{i}(a_{j}^{1/n_{j}})} for some #{a_{i}\in K_{i}} for #{i=0,1,\dots,s-1}.}
+
+\p{If #{\alpha} is algebraic over #{\FF}, we say it can be \define{Expressed by Radicals} if #{\alpha} lies in a root extension of #{\FF}.}
+
+\rmk{This notion is well-defined when #{\FF} is characteristic #{p>0} and #{p} does not divide any of the #{n_{j}} (orders of the roots that are taken).}

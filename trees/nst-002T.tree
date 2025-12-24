@@ -1,0 +1,42 @@
+\title{Types of nodes in Mathematics}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{remark}
+
+\p{We should explain there are roughly four or five different types of "nodes" in Mathematics:}
+
+\ol{
+\li{\textbf{Definitions:} these introduce new words and phrases. Loosely speaking, these may be "terms" (constants, possibly parametrized by other terms), "predicates" (propositions parametrized by terms), "types" (species of mathematical objects), or "attributes" (modifiers of types). We need to prove definitions of terms are well-defined (specifically, its existence and uniqueness).}
+\li{\textbf{Propositions:} these are claims which need to be proven. Propositions come in a variety of flavors, usually:
+\ul{
+\li{"Theorems" for important results}
+\li{"Lemmas" for "helper propositions" used for proving other propositions within a subject, but usually not applicable anywhere else. Sometimes propositions are labeled "lemmas" for historic reasons (like Gauss's lemma, Nakayama's lemma, or Yoneda's lemma) but really they are later realized to be so significant, they should have been theorems.}
+\li{"Corollary" for results which immediately follow from a proposition.}
+}}
+\li{\textbf{Examples:} Working through a calculation, or giving an instance of a definition. Arguably these are "extraordinarily specialized propositions". Applied Mathematics (and related fields like Physics) may be viewed as a sequence of examples.
+\ul{
+\li{\textbf{Non-example:} a deceptive situation where a claim is false, or an object does not satisfy a property or predicate}
+}}
+\li{\textbf{Proofs:} Propositions, examples, and some kinds of definitions require logical proofs.}
+\li{\textbf{Remarks:} "informal" discussion about Mathematics, applications, or whatever. For example, the history of a definition, or useful future applications. Some common species of remarks includes:
+\ul{
+\li{\textbf{Caution:} common errors to avoid}
+\li{\textbf{Motivation:} some reason we care about a field, a problem, a result}
+\li{\textbf{Notation:} discussing the notation used for a definition}
+\li{\textbf{Roadmap:} to give the reader some idea where we're heading}
+\li{\textbf{Strategy:} to discuss a specific proof strategy}
+}}
+}
+
+\p{We try to adhere to this taxonomy, but there may be other useful types of "nodes" we use, like:}
+\ul{
+\li{\textbf{Application:} An example or proposition showing how to use a result or definition}
+\li{\textbf{Conjecture:} a proposition lacking a proof, which may or may not be true}
+\li{\textbf{Caution:} a remark to warn the reader about possible mistakes or errors}
+\li{\textbf{Convention:} a remark about the practices "Working Mathematicians" adhere to, usually an idiosyncratic change of notation or terminology}
+\li{\textbf{Exercises:} to make the reader work through some problems}
+\li{\textbf{Fact:} a proposition which is true and either (a) we proved it, (b) its proof is too distracting and long to discuss, or (c) we proved a more general version of it.}
+\li{\textbf{Provisional Definition:} An attempted definition, which is either (a) a "straw man" (i.e., a failed attempt which we will improve), or (b) not well-defined because it is a primitive notion (e.g., [[nst-0001]]).}
+\li{\textbf{Puzzles:} to guide discussion, sometimes to mention an open research problem.}
+}

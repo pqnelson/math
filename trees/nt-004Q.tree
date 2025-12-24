@@ -1,0 +1,15 @@
+\title{Algebraic Integers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{example}
+\import{nt-004L}
+
+\ol{
+\li{Let #{\kk=\QQ(\I)} where #{\I=\sqrt{-1}}. Then #{\AlgInt{\kk}=\ZZ[\I]}.}
+\li{Let #{\kk=\QQ(\sqrt{2})}. Then #{\AlgInt{\kk}=\ZZ[\sqrt{2}]}.}
+\li{Let #{\kk=\QQ(\sqrt{5})}. Then the minimal polynomial of #{\sqrt{5}} is #{m_{\sqrt{5}}(x)=x^{2}-x-1}. This means that #{\AlgInt{\kk}=\ZZ[\varphi]} where #{\varphi=(1+\sqrt{5})/2} is the golden ratio.}
+}
+
+\rmk{\p{(1) If #{\sigma\in\Aut(\kk / \QQ)}, then #{\sigma(\AlgInt{\kk})=\AlgInt{\kk}}.}
+\p{(2) If #{I\properideal\AlgInt{\kk}} is a proper ideal, then #{\sigma(I)\ideal\AlgInt{\kk}} for any #{\sigma\in\Aut(\kk / \QQ)}.}}

@@ -7,41 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13914</fr:anchor><fr:addr
-type="machine">#460</fr:addr><fr:route>unstable-460.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12433</fr:anchor><fr:addr
+type="machine">#460</fr:addr><fr:route>unstable-460.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just a sketch of the proof.</fr:p>
-<fr:p><fr:strong>Step 1:</fr:strong> the fields <fr:tex
-display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R_{2}]]></fr:tex> are both character zero, i.e., there is no <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[1_{R} + \cdots  + 1_{R}=0]]></fr:tex> (the sum of <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> copies of <fr:tex
-display="inline"><![CDATA[1_{R}]]></fr:tex> vanishes). This is never true for either <fr:tex
-display="inline"><![CDATA[R_{1}]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Step 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is order-dense in <fr:tex
-display="inline"><![CDATA[R_{i}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Step 3:</fr:strong> Let <fr:tex
-display="inline"><![CDATA[f_{0}\colon  \mathbb {Q}\cap  R_{1}\to  R_{2}]]></fr:tex> be a function taking <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> in the sense that if <fr:tex
-display="inline"><![CDATA[q\in  R_{1}\cap \mathbb {Q}]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[f_{0}(q)=q]]></fr:tex>.</fr:p>
-<fr:p>We extend this <fr:tex
-display="inline"><![CDATA[f_{0}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[f(r)=\sup \{f(q)\mid  q<r\}]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[r\in  R_{1}]]></fr:tex>. Then by the order-density of <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, this <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is an order isomorphism.</fr:p>
-<fr:p><fr:strong>Step 4:</fr:strong> The <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> we just constructed is a field isomorphism.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We're playing "fast and loose" with things here, but for a discussion of axiomatic set theory based on classes (using the NBG axioms), see <fr:link
+type="local"
+href="taras-banakh.xml"
+addr="taras-banakh"
+title="Taras Banakh">Taras Banakh</fr:link>'s <fr:link
+type="local"
+href="banakh-2020-classical.xml"
+addr="banakh-2020-classical"
+title="Classical Set Theory: Theory of Sets and Classes">Classical Set Theory: Theory of Sets and Classes</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -56,27 +35,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>13916</fr:anchor><fr:addr
-type="user">ca-000B</fr:addr><fr:route>ca-000B.xml</fr:route><fr:title
-text="Uniqueness of Real Field">Uniqueness of Real Field</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>12435</fr:anchor><fr:addr
+type="user">nst-001P</fr:addr><fr:route>nst-001P.xml</fr:route><fr:title
+text="Classes">Classes</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we have two ordered fields <fr:tex
-display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R_{2}]]></fr:tex> which both have the <fr:link
-type="local"
-href="ca-0007.xml"
-addr="ca-0007"
-title="Least-Upper-Bound Property">Least-Upper-Bound Property</fr:link> and each contain the rational numbers <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield. Then there exists an order-preserving field isomorphism <fr:tex
-display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex>, i.e., <fr:tex
-display="inline"><![CDATA[R_{1}]]></fr:tex> is isomorphic to <fr:tex
-display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p><fr:p>Since the ordered field <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> with the LUB property and containing <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is essentially unique, we refer to it as the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Real Numbers</html:dfn> and write it as <fr:tex
-display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We will often informally refer to a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">(Proper) Class</html:dfn> as an unordered collection which is "too big" to be a set.</fr:p><fr:p>For example, the von Neumann universe <fr:tex
+display="inline"><![CDATA[\mathbf {V}]]></fr:tex> is the proper class of all sets.</fr:p><fr:p>In practice, we seldom need to work with proper classes directly. The Working Mathematician needs only sets (until we get to Category Theory, but we'll revisit this as needed).</fr:p><fr:p>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Axiom of limitation of size</html:dfn> asserts a collection <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> is a proper class if and only if there exists a surjective function from <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> to the von Neumann universe <fr:tex
+display="inline"><![CDATA[\mathbf {V}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -86,40 +57,19 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9186</fr:anchor><fr:addr
-type="machine">#460</fr:addr><fr:route>unstable-460.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1533</fr:anchor><fr:addr
+type="machine">#460</fr:addr><fr:route>unstable-460.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Just a sketch of the proof.</fr:p>
-<fr:p><fr:strong>Step 1:</fr:strong> the fields <fr:tex
-display="inline"><![CDATA[R_{1}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[R_{2}]]></fr:tex> are both character zero, i.e., there is no <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[1_{R} + \cdots  + 1_{R}=0]]></fr:tex> (the sum of <fr:tex
-display="inline"><![CDATA[n]]></fr:tex> copies of <fr:tex
-display="inline"><![CDATA[1_{R}]]></fr:tex> vanishes). This is never true for either <fr:tex
-display="inline"><![CDATA[R_{1}]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[R_{2}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Step 2:</fr:strong> <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is order-dense in <fr:tex
-display="inline"><![CDATA[R_{i}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Step 3:</fr:strong> Let <fr:tex
-display="inline"><![CDATA[f_{0}\colon  \mathbb {Q}\cap  R_{1}\to  R_{2}]]></fr:tex> be a function taking <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> in the sense that if <fr:tex
-display="inline"><![CDATA[q\in  R_{1}\cap \mathbb {Q}]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[f_{0}(q)=q]]></fr:tex>.</fr:p>
-<fr:p>We extend this <fr:tex
-display="inline"><![CDATA[f_{0}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[f\colon  R_{1}\to  R_{2}]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[f(r)=\sup \{f(q)\mid  q<r\}]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[r\in  R_{1}]]></fr:tex>. Then by the order-density of <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, this <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is an order isomorphism.</fr:p>
-<fr:p><fr:strong>Step 4:</fr:strong> The <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> we just constructed is a field isomorphism.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We're playing "fast and loose" with things here, but for a discussion of axiomatic set theory based on classes (using the NBG axioms), see <fr:link
+type="local"
+href="taras-banakh.xml"
+addr="taras-banakh"
+title="Taras Banakh">Taras Banakh</fr:link>'s <fr:link
+type="local"
+href="banakh-2020-classical.xml"
+addr="banakh-2020-classical"
+title="Classical Set Theory: Theory of Sets and Classes">Classical Set Theory: Theory of Sets and Classes</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

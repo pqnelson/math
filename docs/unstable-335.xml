@@ -7,21 +7,23 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1017</fr:anchor><fr:addr
-type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>663</fr:anchor><fr:addr
+type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:tex
-display="inline"><![CDATA[\phi \colon \mathbb {Z}\to \mathbb {F}]]></fr:tex> is injective since its kernel is trivial. The prime subfield of <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> must contain <fr:tex
-display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>. Hence the prime subfield must contain the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x\in \Bbbk ]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is not algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}(S)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[S'=S\cup \{x\}]]></fr:tex> is <fr:link
 type="local"
-href="ra-002B.xml"
-addr="ra-002B"
-title="Universal property of field of fractions">field of fractions</fr:link> <fr:tex
-display="inline"><![CDATA[\mathbb {Q}=\mathop {\textrm {Frac}}\nolimits (\mathbb {Z})]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> itself is the prime subfield.</fr:p><html:span
+href="nt-004U.xml"
+addr="nt-004U"
+title="Algebraic Independence">algebraically independent</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> and strictly contains <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, which contradicts the maximality of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -38,21 +40,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1019</fr:anchor><fr:addr
-type="user">nt-000C</fr:addr><fr:route>nt-000C.xml</fr:route><fr:title
-text="Characteristic zero fields have rational numbers as its prime subfield">Characteristic zero fields have rational numbers as its prime subfield</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>665</fr:anchor><fr:addr
+type="user">nt-0050</fr:addr><fr:route>nt-0050.xml</fr:route><fr:title
+text="Field extensions over purely transcendental extensions are algebraic">Field extensions over purely transcendental extensions are algebraic</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. If <fr:tex
-display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})=0]]></fr:tex>, then the <fr:link
+display="inline"><![CDATA[S\subseteq \Bbbk ]]></fr:tex> be a <fr:link
 type="local"
-href="nt-000B.xml"
-addr="nt-000B"
-title="Prime Subfield">Prime Subfield</fr:link> of <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.</fr:p>
+href="nt-004X.xml"
+addr="nt-004X"
+title="Transcendental Basis">transcendental basis</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\Bbbk  / (\mathbb {F}(S))]]></fr:tex> is an algebraic extension.</fr:p>
  
    
    <fr:tree
@@ -62,22 +63,48 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr
-type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>667</fr:anchor><fr:addr
+type="machine">#335</fr:addr><fr:route>unstable-335.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:tex
-display="inline"><![CDATA[\phi \colon \mathbb {Z}\to \mathbb {F}]]></fr:tex> is injective since its kernel is trivial. The prime subfield of <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> must contain <fr:tex
-display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>. Hence the prime subfield must contain the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[x\in \Bbbk ]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> is not algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}(S)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[S'=S\cup \{x\}]]></fr:tex> is <fr:link
 type="local"
-href="ra-002B.xml"
-addr="ra-002B"
-title="Universal property of field of fractions">field of fractions</fr:link> <fr:tex
-display="inline"><![CDATA[\mathbb {Q}=\mathop {\textrm {Frac}}\nolimits (\mathbb {Z})]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> itself is the prime subfield.</fr:p><html:span
+href="nt-004U.xml"
+addr="nt-004U"
+title="Algebraic Independence">algebraically independent</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> and strictly contains <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, which contradicts the maximality of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>669</fr:anchor><fr:addr
+type="machine">#336</fr:addr><fr:route>unstable-336.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Therefore a completely arbitrary extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> can be decomposed into extensions <fr:tex
+display="inline"><![CDATA[\Bbbk  / (\mathbb {F}(S))]]></fr:tex> which is purely algebraic, and <fr:tex
+display="inline"><![CDATA[\mathbb {F}(S) / \mathbb {F}]]></fr:tex> which is purely <fr:link
+type="local"
+href="nt-004Z.xml"
+addr="nt-004Z"
+title="Purely Transcendental Extension">transcendental</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

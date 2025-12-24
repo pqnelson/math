@@ -1,0 +1,7 @@
+\title{Field extensions with nonempty algebraically independent sets are not finite extensions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{fact}
+
+\p{Let #{\kk / \FF} be a field extension. If #{S\subset\kk} is a nonempty [[nt-004U]] set, then #{\kk / \FF} is not finite.}

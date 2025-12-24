@@ -1,0 +1,11 @@
+\title{Field extensions over purely transcendental extensions are algebraic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{proposition}
+
+\p{Let #{S\subset\kk} be a [transcendental basis](nt-004X) over #{\FF}. Then #{\kk / (\FF(S))} is an algebraic extension.}
+
+\proof{\p{Let #{x\in\kk}. If #{x} is not algebraic over #{\FF(S)}, then #{S'=S\cup\{x\}} is [algebraically independent](nt-004U) over #{\FF} and strictly contains #{S}, which contradicts the maximality of #{S}.}}
+
+\rmk{Therefore a completely arbitrary extension #{\kk / \FF} can be decomposed into extensions #{\kk / (\FF(S))} which is purely algebraic, and #{\FF(S) / \FF} which is purely [transcendental](nt-004Z).}

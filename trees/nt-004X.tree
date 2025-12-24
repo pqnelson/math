@@ -1,0 +1,9 @@
+\title{Transcendental Basis}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+
+\p{Let #{\kk / \FF} be a field extension. A \define{Transcendental Basis} of #{\kk} over #{\FF} is an [algebraically independent](nt-004U) set #{S} that is maximal with respect to inclusion.}
+
+\transclude{nt-004W}

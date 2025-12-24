@@ -7,18 +7,74 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7104</fr:anchor><fr:addr
-type="machine">#413</fr:addr><fr:route>unstable-413.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2592</fr:anchor><fr:addr
+type="machine">#413</fr:addr><fr:route>unstable-413.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This can be defined more generally replacing <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> with a unital (possibly noncommutative) <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">ring</fr:link> <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, or even a ringoid (where we don't require additive inverses to exist).</fr:mainmatter><fr:backmatter><fr:tree
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[\deg (f)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[\deg (f)=1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f(x)=x-\alpha ]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g(x)=x-\varphi (\alpha )]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {F}']]></fr:tex> the splitting field of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is an isomorphism of the two trivially extending itself.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Suppose the result holds for polynomials of degree strictly less than <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>).</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[\alpha _{1}\in \Bbbk ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f_{1}(x)\in \mathbb {F}[x]]]></fr:tex> is an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f_{1}(\alpha )=0]]></fr:tex>.</fr:p>
+<fr:p>Set <fr:tex
+display="inline"><![CDATA[F_{1}=\mathbb {F}(\alpha _{1})]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> be the polynomial obtained from <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> by applying <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to the coefficients. Then <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {F}']]></fr:tex> since <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\beta _{1}\in \Bbbk ']]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> and set <fr:tex
+display="inline"><![CDATA[F'_{1}=\mathbb {F}'(\beta ).]]></fr:tex> <fr:link
+type="local"
+href="nt-000S.xml"
+addr="nt-000S"
+title="Isomorphisms of fields extends to isomorphisms of simple field extensions">Isomorphisms of fields extends to isomorphisms of simple field extensions</fr:link> implies the isomorphism <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> extends to an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi _{1}\colon  F_{1}\to  F'_{1}]]></fr:tex>. Writing <fr:tex
+display="inline"><![CDATA[f(x)=(x-\alpha )f_{0}(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g(x)=(x-\beta )g_{0}(x)]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[g_{0}\in  F'_{1}[x]]]></fr:tex> is obtained by applying <fr:tex
+display="inline"><![CDATA[\varphi _{1}]]></fr:tex> to the coefficients of <fr:tex
+display="inline"><![CDATA[f_{0}(x)\in  F_{1}[x]]]></fr:tex>.</fr:p>
+<fr:p>By the inductive hypothesis, the field <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is a splitting field for <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{1}]]></fr:tex>.</fr:p>
+<fr:p>Similarly, <fr:tex
+display="inline"><![CDATA[\Bbbk ']]></fr:tex> is a splitting field for <fr:tex
+display="inline"><![CDATA[g_{0}(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[F'_{1}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\deg (f_{0})=\deg (g_{0})=n-1<n]]></fr:tex>, the inductive hypothesis ensures the existence of an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi '\colon \Bbbk \to \Bbbk ']]></fr:tex> extending <fr:tex
+display="inline"><![CDATA[\varphi _{1}\colon  F_{1}\to  F'_{1}]]></fr:tex>, which itself extends <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex>. The result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,38 +89,36 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7106</fr:anchor><fr:addr
-type="user">gr-0012</fr:addr><fr:route>gr-0012.xml</fr:route><fr:title
-text="General Linear Group of matrices">General Linear Group of matrices</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2594</fr:anchor><fr:addr
+type="user">nt-001U</fr:addr><fr:route>nt-001U.xml</fr:route><fr:title
+text="Field isomorphisms extends to splitting fields">Field isomorphisms extends to splitting fields</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/field_8.html#T57">field_8:57</fr:link></fr:meta><fr:meta
 name="source">Dummit and Foote <fr:link
 type="local"
 href="dummit-2004-abstract.xml"
 addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Section 1.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 13.4.27</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f(x)=a_{n}x^{n}+…+a_{1}x+a_{0}\in \mathbb {F}[x]]]></fr:tex> be a polynomial, let <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> be a field isomorphism, and <fr:tex
+display="inline"><![CDATA[g(x)\in \mathbb {F}'[x]]]></fr:tex> be a polynomial obtained by applying <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to the coefficients of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a <fr:link
 type="local"
-href="field-0001.xml"
-addr="field-0001"
-title="Field">Field</fr:link>, let <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}_{0}]]></fr:tex> be a non-negative integer. Let <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})]]></fr:tex> be the set of all <fr:tex
-display="inline"><![CDATA[n\times  n]]></fr:tex> <fr:link
-type="local"
-href="matrix-0001.xml"
-addr="matrix-0001"
-title="Matrix">matrices</fr:link> over <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">General Linear Group</html:dfn> <fr:tex
-display="inline"><![CDATA[\mathop {\textrm {GL}}\nolimits _{n}(\mathbb {F})=\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})^{\times }]]></fr:tex> the <fr:link
-type="local"
-href="gr-000I.xml"
-addr="gr-000I"
-title="Set of invertible elements for associative binary operator is a group">group of invertible elements</fr:link> of <fr:tex
-display="inline"><![CDATA[\mathop {\mathrm {Mat}}\nolimits _{n}(\mathbb {F})]]></fr:tex> under matrix multiplication.</fr:p>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\Bbbk '/\mathbb {F}']]></fr:tex> is a splitting field of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> extends to an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi '\colon \Bbbk \to \Bbbk ']]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -74,17 +128,73 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1656</fr:anchor><fr:addr
-type="machine">#413</fr:addr><fr:route>unstable-413.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>965</fr:anchor><fr:addr
+type="machine">#413</fr:addr><fr:route>unstable-413.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This can be defined more generally replacing <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> with a unital (possibly noncommutative) <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-href="ring-0001.xml"
-addr="ring-0001"
-title="Ring">ring</fr:link> <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, or even a ringoid (where we don't require additive inverses to exist).</fr:mainmatter><fr:backmatter /></fr:tree>
+href="nst-002K.xml"
+addr="nst-002K"
+title="Proof by induction">Proof by induction</fr:link> on <fr:tex
+display="inline"><![CDATA[\deg (f)]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
+display="inline"><![CDATA[\deg (f)=1]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[f(x)=x-\alpha ]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[\alpha \in \mathbb {F}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g(x)=x-\varphi (\alpha )]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the splitting field of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {F}']]></fr:tex> the splitting field of <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is an isomorphism of the two trivially extending itself.</fr:p>
+<fr:p><fr:strong>Inductive case:</fr:strong> Suppose the result holds for polynomials of degree strictly less than <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> (where <fr:tex
+display="inline"><![CDATA[n=\deg (f)]]></fr:tex>).</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[\alpha _{1}\in \Bbbk ]]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f_{1}(x)\in \mathbb {F}[x]]]></fr:tex> is an irreducible factor of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f_{1}(\alpha )=0]]></fr:tex>.</fr:p>
+<fr:p>Set <fr:tex
+display="inline"><![CDATA[F_{1}=\mathbb {F}(\alpha _{1})]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> be the polynomial obtained from <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> by applying <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> to the coefficients. Then <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {F}']]></fr:tex> since <fr:tex
+display="inline"><![CDATA[f_{1}(x)]]></fr:tex> is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\beta _{1}\in \Bbbk ']]></fr:tex> be a root of <fr:tex
+display="inline"><![CDATA[g_{1}(x)]]></fr:tex> and set <fr:tex
+display="inline"><![CDATA[F'_{1}=\mathbb {F}'(\beta ).]]></fr:tex> <fr:link
+type="local"
+href="nt-000S.xml"
+addr="nt-000S"
+title="Isomorphisms of fields extends to isomorphisms of simple field extensions">Isomorphisms of fields extends to isomorphisms of simple field extensions</fr:link> implies the isomorphism <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> extends to an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi _{1}\colon  F_{1}\to  F'_{1}]]></fr:tex>. Writing <fr:tex
+display="inline"><![CDATA[f(x)=(x-\alpha )f_{0}(x)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g(x)=(x-\beta )g_{0}(x)]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[g_{0}\in  F'_{1}[x]]]></fr:tex> is obtained by applying <fr:tex
+display="inline"><![CDATA[\varphi _{1}]]></fr:tex> to the coefficients of <fr:tex
+display="inline"><![CDATA[f_{0}(x)\in  F_{1}[x]]]></fr:tex>.</fr:p>
+<fr:p>By the inductive hypothesis, the field <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is a splitting field for <fr:tex
+display="inline"><![CDATA[f_{0}(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{1}]]></fr:tex>.</fr:p>
+<fr:p>Similarly, <fr:tex
+display="inline"><![CDATA[\Bbbk ']]></fr:tex> is a splitting field for <fr:tex
+display="inline"><![CDATA[g_{0}(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[F'_{1}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\deg (f_{0})=\deg (g_{0})=n-1<n]]></fr:tex>, the inductive hypothesis ensures the existence of an isomorphism <fr:tex
+display="inline"><![CDATA[\varphi '\colon \Bbbk \to \Bbbk ']]></fr:tex> extending <fr:tex
+display="inline"><![CDATA[\varphi _{1}\colon  F_{1}\to  F'_{1}]]></fr:tex>, which itself extends <fr:tex
+display="inline"><![CDATA[\varphi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex>. The result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

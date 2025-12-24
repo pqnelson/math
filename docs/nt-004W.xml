@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1573</fr:anchor><fr:addr
+type="user">nt-004W</fr:addr><fr:route>nt-004W.xml</fr:route><fr:title
+text="Well-definedness of transcendental basis">Well-definedness of transcendental basis</fr:title><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a field extension. Let <fr:tex
+display="inline"><![CDATA[S_{1}\subseteq  S_{2}\subseteq …\subseteq \Bbbk ]]></fr:tex> be a tower of <fr:link
+type="local"
+href="nt-004U.xml"
+addr="nt-004U"
+title="Algebraic Independence">algebraically independent</fr:link> sets. Then
+<fr:tex
+display="block"><![CDATA[S=\bigcup _{i=1}^{\infty }S_{i}]]></fr:tex>
+is algebraically independent.</fr:p><fr:p>This follows from <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1575</fr:anchor><fr:addr
+type="user">nt-004X</fr:addr><fr:route>nt-004X.xml</fr:route><fr:title
+text="Transcendental Basis">Transcendental Basis</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a field extension. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Transcendental Basis</html:dfn> of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is an <fr:link
+type="local"
+href="nt-004U.xml"
+addr="nt-004U"
+title="Algebraic Independence">algebraically independent</fr:link> set <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> that is maximal with respect to inclusion.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1297</fr:anchor><fr:addr
+type="user">nt-004W</fr:addr><fr:route>nt-004W.xml</fr:route><fr:title
+text="Well-definedness of transcendental basis">Well-definedness of transcendental basis</fr:title><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a field extension. Let <fr:tex
+display="inline"><![CDATA[S_{1}\subseteq  S_{2}\subseteq …\subseteq \Bbbk ]]></fr:tex> be a tower of <fr:link
+type="local"
+href="nt-004U.xml"
+addr="nt-004U"
+title="Algebraic Independence">algebraically independent</fr:link> sets. Then
+<fr:tex
+display="block"><![CDATA[S=\bigcup _{i=1}^{\infty }S_{i}]]></fr:tex>
+is algebraically independent.</fr:p><fr:p>This follows from <fr:link
+type="local"
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1577</fr:anchor><fr:addr
+type="user">nt-004U</fr:addr><fr:route>nt-004U.xml</fr:route><fr:title
+text="Algebraic Independence">Algebraic Independence</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a field extension. A subset <fr:tex
+display="inline"><![CDATA[S\subseteq \Bbbk ]]></fr:tex> is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Algebraically Independent</html:dfn> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> if for any <fr:tex
+display="inline"><![CDATA[s_{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[s_{n}\in  S]]></fr:tex>, and any nonzero polynomial <fr:tex
+display="inline"><![CDATA[f(x_{1},…,x_{n})\in \mathbb {F}[x_{1},…,x_{n}]]]></fr:tex>, we have
+<fr:tex
+display="block"><![CDATA[f(s_{1},…,s_{n})\neq 0.]]></fr:tex></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>685</fr:anchor><fr:addr
+type="machine">#338</fr:addr><fr:route>unstable-338.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This should remind the reader of <fr:link
+type="local"
+href="vectsp-000Q.xml"
+addr="vectsp-000Q"
+title="Linearly Independent Vectors">Linearly Independent Vectors</fr:link> from linear algebra.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+<fr:p><fr:strong>Example:</fr:strong> <fr:tex
+display="inline"><![CDATA[\{\pi \}\subseteq \mathbb {C}]]></fr:tex> is algebraically independent over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1579</fr:anchor><fr:addr
+type="user">zorn's-lemma</fr:addr><fr:route>zorn's-lemma.xml</fr:route><fr:title
+text="Zorn's lemma">Zorn's lemma</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\leq )]]></fr:tex> be a nonempty <fr:link
+type="local"
+href="nst-002P.xml"
+addr="nst-002P"
+title="Poset">Poset</fr:link>. If every <fr:link
+type="local"
+href="nst-002Q.xml"
+addr="nst-002Q"
+title="Chain">chain</fr:link> of <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has an <fr:link
+type="local"
+href="nst-002R.xml"
+addr="nst-002R"
+title="Upper bound">upper bound</fr:link>, then <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has a <fr:link
+type="local"
+href="nst-002S.xml"
+addr="nst-002S"
+title="Maximal element">Maximal element</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1581</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is logically equivalent to the <fr:link
+type="local"
+href="nst-002M.xml"
+addr="nst-002M"
+title="Axiom of Choice">Axiom of Choice</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

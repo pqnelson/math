@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>18777</fr:anchor><fr:addr
+type="user">banaschewski-1992-algebraic</fr:addr><fr:route>banaschewski-1992-algebraic.xml</fr:route><fr:title
+text="Algebraic Closure without Choice">Algebraic Closure without Choice</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1992</fr:year></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="bernhard-banaschewski.xml"
+addr="bernhard-banaschewski"
+title="Bernhard Banaschewski">Bernhard Banaschewski</fr:link></fr:author></fr:authors><fr:meta
+name="doi">10.1002/malq.19920380136</fr:meta><fr:meta
+name="bibtex"><![CDATA[@article{banaschewski1992algebraic,
+  title={Algebraic Closure without Choice},
+  author={Banaschewski, Bernhard},
+  journal={Mathematical Logic Quarterly},
+  volume={38},
+  number={1},
+  year={1992}
+}]]></fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>18779</fr:anchor><fr:addr
+type="user">nt-001W</fr:addr><fr:route>nt-001W.xml</fr:route><fr:title
+text="Algebraic Closure">Algebraic Closure</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/field_2.html#M3">field_2:def 11</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. An <fr:link
+type="local"
+href="nt-000T.xml"
+addr="nt-000T"
+title="Algebraic Element">algebraic extension</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex> is called an <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Algebraic Closure</html:dfn> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> if every polynomial <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> splits completely over <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex>.</fr:p><fr:p><fr:strong>Notation:</fr:strong> We typically denote the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> with an overline <fr:tex
+display="inline"><![CDATA[\overline {\mathbb {F}}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>973</fr:anchor><fr:addr
+type="machine">#410</fr:addr><fr:route>unstable-410.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> To prove this is a well-defined notion, we need to prove the <fr:link
+type="local"
+href="nt-001Z.xml"
+addr="nt-001Z"
+title="Existence of Algebraic Closures">existence of the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link>. We defer this until later.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>975</fr:anchor><fr:addr
+type="machine">#411</fr:addr><fr:route>unstable-411.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Steinitz proved the existence of the algebraic closure of a field, and that it is unique up to isomorphism, in <fr:link
+type="local"
+href="steinitz-1910-algebraische.xml"
+addr="steinitz-1910-algebraische"
+title="Algebraische Theorie der Körper">Algebraische Theorie der Körper</fr:link> (1910) which essentially invented Field Theory from scratch.</fr:p>
+<fr:p>(2) Without the axiom of choice, the algebraic closure may not even exist. See, e.g., Banaschewski's <fr:link
+type="local"
+href="banaschewski-1992-algebraic.xml"
+addr="banaschewski-1992-algebraic"
+title="Algebraic Closure without Choice">Algebraic Closure without Choice</fr:link> for a proof of its existence and uniqueness requiring "only" the Boolean Ultrafilter Theorem (which seems to be equivalent to the axiom of countable choice).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -7,29 +7,54 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7130</fr:anchor><fr:addr
-type="machine">#419</fr:addr><fr:route>unstable-419.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2616</fr:anchor><fr:addr
+type="machine">#419</fr:addr><fr:route>unstable-419.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to prove this is actually a group and it is commutative.</fr:p>
-<fr:p><fr:strong>Claim 1: it is a group.</fr:strong> Suffices to show the binary operator of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is closed on this set and <fr:tex
-display="inline"><![CDATA[e\in  G]]></fr:tex> and it contains all its inverses. The binary operator of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is clearly closed on this set by the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> It is impossible to square the circle. We could do this if <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> were a constructible length. But <fr:link
 type="local"
-href="gr-000L.xml"
-addr="gr-000L"
-title="Product law">Product law</fr:link> and <fr:tex
-display="inline"><![CDATA[g^{0}=e]]></fr:tex> so the identity element belongs to it. Further, if <fr:tex
-display="inline"><![CDATA[g^{n}\in \langle  g\rangle ]]></fr:tex>, then its inverse <fr:tex
-display="inline"><![CDATA[g^{-n}\in \langle  g\rangle ]]></fr:tex> clearly belongs to it. Hence this is really a group.</fr:p>
-<fr:p><fr:strong>Claim 2: it is commutative.</fr:strong> We see for any arbitrary <fr:tex
-display="inline"><![CDATA[g^{m}g^{n}=g^{m+n}=g^{n+m}=g^{n}g^{m}]]></fr:tex> by the <fr:link
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">that would mean</fr:link> <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, which it isn't. So <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is not a constructible length, which means we cannot square the unit circle.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> It is impossible to double the cube. Suppose we had a unit cube. Then we will want to construct a cube whose edges are length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\ell ^{3}=2]]></fr:tex>. This requires <fr:tex
+display="inline"><![CDATA[\ell =\sqrt [3]{2}]]></fr:tex> which has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> which <fr:link
 type="local"
-href="gr-000L.xml"
-addr="gr-000L"
-title="Product law">Product law</fr:link> and the commutativity of addition for integers.</fr:p><html:span
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">is impossible to construct</fr:link>.</fr:p>
+<fr:p><fr:strong>Claim 3:</fr:strong> It is impossible to trisect an angle. To construct an angle <fr:tex
+display="inline"><![CDATA[\theta ]]></fr:tex> is equivalent to give a point with coordinates <fr:tex
+display="inline"><![CDATA[(\cos (\theta ),\sin (\theta ))]]></fr:tex>. We know the triple angle formula
+<fr:tex
+display="block"><![CDATA[\cos (3\theta )=4\cos ^{3}(\theta )-3\cos (\theta ).]]></fr:tex>
+Let <fr:tex
+display="inline"><![CDATA[\theta =20^{\circ }]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\ell =2\cos (\theta )]]></fr:tex> satisfies
+<fr:tex
+display="block"><![CDATA[\frac {1}{2}=4(\ell  / 2)^{3}-3\ell  / 2\iff  \ell ^{3}-3\ell -1=0.]]></fr:tex>
+This line making angle <fr:tex
+display="inline"><![CDATA[3\theta =60^{\circ }]]></fr:tex> with the <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>-axis passes through the point <fr:tex
+display="inline"><![CDATA[(1,\sqrt {3})]]></fr:tex>. In particular, <fr:tex
+display="inline"><![CDATA[60^{\circ }]]></fr:tex> is a constructible angle. But the polynomial
+<fr:tex
+display="block"><![CDATA[x^{3}-3x-1]]></fr:tex>
+is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">and cannot be constructible</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -46,27 +71,17 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7132</fr:anchor><fr:addr
-type="user">gr-000N</fr:addr><fr:route>gr-000N.xml</fr:route><fr:title
-text="Cyclic subgroup generated by an element">Cyclic subgroup generated by an element</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2618</fr:anchor><fr:addr
+type="user">nt-001N</fr:addr><fr:route>nt-001N.xml</fr:route><fr:title
+text="It is impossible to square the circle, double the cube, or trisect an angle">It is impossible to square the circle, double the cube, or trisect an angle</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>It is impossible using only <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link> and let <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex>. Then we define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Cyclic subgroup</html:dfn> generated by <fr:tex
-display="inline"><![CDATA[g]]></fr:tex> to be the <fr:link
-type="local"
-href="gr-000J.xml"
-addr="gr-000J"
-title="Abelian group">commutative group</fr:link> <fr:tex
-display="inline"><![CDATA[\langle  g\rangle ]]></fr:tex> whose underlying set is <fr:tex
-display="inline"><![CDATA[\{g^{n}\mid  n\in \mathbb {Z}\}]]></fr:tex>.</fr:p>
+href="nt-001D.xml"
+addr="nt-001D"
+title="Allowed constructions with straightedge and compass">the allowed constructions with straightedge and compass</fr:link> to square the circle, double the cube, or trisect an angle.</fr:p>
  
    
    <fr:tree
@@ -76,29 +91,54 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1682</fr:anchor><fr:addr
-type="machine">#419</fr:addr><fr:route>unstable-419.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>939</fr:anchor><fr:addr
+type="machine">#419</fr:addr><fr:route>unstable-419.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We need to prove this is actually a group and it is commutative.</fr:p>
-<fr:p><fr:strong>Claim 1: it is a group.</fr:strong> Suffices to show the binary operator of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is closed on this set and <fr:tex
-display="inline"><![CDATA[e\in  G]]></fr:tex> and it contains all its inverses. The binary operator of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is clearly closed on this set by the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> It is impossible to square the circle. We could do this if <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> were a constructible length. But <fr:link
 type="local"
-href="gr-000L.xml"
-addr="gr-000L"
-title="Product law">Product law</fr:link> and <fr:tex
-display="inline"><![CDATA[g^{0}=e]]></fr:tex> so the identity element belongs to it. Further, if <fr:tex
-display="inline"><![CDATA[g^{n}\in \langle  g\rangle ]]></fr:tex>, then its inverse <fr:tex
-display="inline"><![CDATA[g^{-n}\in \langle  g\rangle ]]></fr:tex> clearly belongs to it. Hence this is really a group.</fr:p>
-<fr:p><fr:strong>Claim 2: it is commutative.</fr:strong> We see for any arbitrary <fr:tex
-display="inline"><![CDATA[g^{m}g^{n}=g^{m+n}=g^{n+m}=g^{n}g^{m}]]></fr:tex> by the <fr:link
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">that would mean</fr:link> <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, which it isn't. So <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is not a constructible length, which means we cannot square the unit circle.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> It is impossible to double the cube. Suppose we had a unit cube. Then we will want to construct a cube whose edges are length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\ell ^{3}=2]]></fr:tex>. This requires <fr:tex
+display="inline"><![CDATA[\ell =\sqrt [3]{2}]]></fr:tex> which has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> which <fr:link
 type="local"
-href="gr-000L.xml"
-addr="gr-000L"
-title="Product law">Product law</fr:link> and the commutativity of addition for integers.</fr:p><html:span
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">is impossible to construct</fr:link>.</fr:p>
+<fr:p><fr:strong>Claim 3:</fr:strong> It is impossible to trisect an angle. To construct an angle <fr:tex
+display="inline"><![CDATA[\theta ]]></fr:tex> is equivalent to give a point with coordinates <fr:tex
+display="inline"><![CDATA[(\cos (\theta ),\sin (\theta ))]]></fr:tex>. We know the triple angle formula
+<fr:tex
+display="block"><![CDATA[\cos (3\theta )=4\cos ^{3}(\theta )-3\cos (\theta ).]]></fr:tex>
+Let <fr:tex
+display="inline"><![CDATA[\theta =20^{\circ }]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\ell =2\cos (\theta )]]></fr:tex> satisfies
+<fr:tex
+display="block"><![CDATA[\frac {1}{2}=4(\ell  / 2)^{3}-3\ell  / 2\iff  \ell ^{3}-3\ell -1=0.]]></fr:tex>
+This line making angle <fr:tex
+display="inline"><![CDATA[3\theta =60^{\circ }]]></fr:tex> with the <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>-axis passes through the point <fr:tex
+display="inline"><![CDATA[(1,\sqrt {3})]]></fr:tex>. In particular, <fr:tex
+display="inline"><![CDATA[60^{\circ }]]></fr:tex> is a constructible angle. But the polynomial
+<fr:tex
+display="block"><![CDATA[x^{3}-3x-1]]></fr:tex>
+is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">and cannot be constructible</fr:link>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>20</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/nt-000Z/</fr:uri>
+    <fr:display-uri>nt-000Z</fr:display-uri>
+    <fr:route>/nt-000Z/</fr:route>
+    <fr:title text="Simple field extension is algebraic iff adjoined with algebraic element">Simple field extension is algebraic iff adjoined with algebraic element</fr:title>
+    <fr:taxon>corollary</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>The <fr:link href="/nt-000N/" title="Simple Field Extension" uri="http://localhost:8000/nt-000N/" display-uri="nt-000N" type="local">simple field extension</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> if and only if <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> If <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is an algebraic extension, then <fr:tex display="inline"><![CDATA[\alpha \in \mathbb {F}(\alpha )]]></fr:tex> is obviously algebraic.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Since <fr:link href="/nt-000Y/" title="An element is algebraic iff it is the primitive element of a finite extension" uri="http://localhost:8000/nt-000Y/" display-uri="nt-000Y" type="local">An element is algebraic iff it is the primitive element of a finite extension</fr:link>, we see <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is a finite extension. Let <fr:tex display="inline"><![CDATA[\beta \in \mathbb {F}(\alpha )]]></fr:tex> be an arbitrary element. Then <fr:tex display="inline"><![CDATA[\mathbb {F}(\beta )]]></fr:tex> is a <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-subspace of <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>, so <fr:tex display="inline"><![CDATA[[\mathbb {F}(\beta ) : \mathbb {F}]\leq [\mathbb {F}(\alpha ) : \mathbb {F}]<\infty ]]></fr:tex>. <fr:link href="/nt-000Y/" title="An element is algebraic iff it is the primitive element of a finite extension" uri="http://localhost:8000/nt-000Y/" display-uri="nt-000Y" type="local">Then <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> is algebraic</fr:link>, and since <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> is arbitrary, this means the entire extension <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is algebraic.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/iaa-000B/</fr:uri>
+            <fr:display-uri>iaa-000B</fr:display-uri>
+            <fr:route>/iaa-000B/</fr:route>
+            <fr:title text="Traditional Treatment of Galois Theory">Traditional Treatment of Galois Theory</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/iaa-000C/</fr:uri>
+                <fr:display-uri>iaa-000C</fr:display-uri>
+                <fr:route>/iaa-000C/</fr:route>
+                <fr:title text="Preferatory notes about Galois Theory">Preferatory notes about Galois Theory</fr:title>
+                <fr:taxon>remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Galois theory combines everything we've studied so far in abstract algebra: we have fields which are super nice rings (relying on everything discussed in the <fr:link href="/iaa-0008/" title="Traditional Introduction to Rings" uri="http://localhost:8000/iaa-0008/" display-uri="iaa-0008" type="local">Traditional Introduction to Rings</fr:link>) and we may view some fields as vector spaces over another (relying on everything discussed in the <fr:link href="/iaa-0009/" title="Traditional Introduction to Modules" uri="http://localhost:8000/iaa-0009/" display-uri="iaa-0009" type="local">Traditional Introduction to Modules</fr:link>).</html:p>
+                <html:p>We can translate "roots of a polynomial" into "field extensions", and then study the symmetries of field extensions leaving the base field invariant. This relies on everything we learned in the <fr:link href="/iaa-0001/" title="Traditional Introduction to Groups" uri="http://localhost:8000/iaa-0001/" display-uri="iaa-0001" type="local">Traditional Introduction to Groups</fr:link>.</html:p>
+                <html:p>In other words, Galois theory combines everything we have learned into a single application (i.e., solving polynomials over fields). <fr:link href="/emmy-noether/" title="Emmy Noether" uri="http://localhost:8000/emmy-noether/" display-uri="emmy-noether" type="local">Emmy Noether</fr:link> is responsible for this presentation of material, but <fr:link href="/bartel-van-der-waerden/" title="Bartel L. van der Waerden" uri="http://localhost:8000/bartel-van-der-waerden/" display-uri="bartel-van-der-waerden" type="local">Bartel L. van der Waerden</fr:link> usually gets credit for it since it's basically the content of <fr:link href="/van-der-waerden-1949-modern1/" title="Modern Algebra, Vol. I" uri="http://localhost:8000/van-der-waerden-1949-modern1/" display-uri="van-der-waerden-1949-modern1" type="local">Modern Algebra, Vol. I</fr:link>...but people don't realize that Emmy Noether is the person who wrote the outline and highlighted the importance of this structure to the presentation of material.</html:p>
+                <html:p>Before I forget, these are mostly based on my notes and the notes of Zavosh Amir-Khosravi (who used them for Caltech's Math 5C course for Spring quarter 2018).</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/field-0001/</fr:uri>
+                <fr:display-uri>field-0001</fr:display-uri>
+                <fr:route>/field-0001/</fr:route>
+                <fr:title text="Field">Field</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 1.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:dfn>Field</html:dfn> is traditionally defined as a set <fr:tex display="inline"><![CDATA[F]]></fr:tex> with two binary operators, addition (denoted <fr:tex display="inline"><![CDATA[+]]></fr:tex>) and multiplication (denoted <fr:tex display="inline"><![CDATA[\cdot ]]></fr:tex>), satisfying the field axioms:</html:p>
+                <html:ol><html:li>Associativity of addition: for all <fr:tex display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[(x+y)+z=x+(y+z)]]></fr:tex></html:li>
+<html:li>Commutativity of addition: for all <fr:tex display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[x+y=y+x]]></fr:tex></html:li>
+<html:li>Additive identity: there exists a <fr:tex display="inline"><![CDATA[0\in  F]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex display="inline"><![CDATA[0+x=x]]></fr:tex> and <fr:tex display="inline"><![CDATA[x+0=x]]></fr:tex></html:li>
+<html:li>Additive inverses: for each <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> there is a unique <fr:tex display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x+y=0]]></fr:tex> and <fr:tex display="inline"><![CDATA[y+x=0]]></fr:tex>; in this case, we usually denote <fr:tex display="inline"><![CDATA[y]]></fr:tex> as <fr:tex display="inline"><![CDATA[(-x)]]></fr:tex></html:li>
+<html:li>Associativity of multiplication: for all <fr:tex display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[(x\cdot  y)\cdot  z=x\cdot  (y\cdot  z)]]></fr:tex></html:li>
+<html:li>Commutativity of multiplication: for all <fr:tex display="inline"><![CDATA[x,y\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[x\cdot  y=y\cdot  x]]></fr:tex></html:li>
+<html:li>Multiplicative identity: there exists a <fr:tex display="inline"><![CDATA[1\in  F]]></fr:tex> such that for all <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> we have <fr:tex display="inline"><![CDATA[1\cdot  x=x]]></fr:tex> and <fr:tex display="inline"><![CDATA[x\cdot  1=x]]></fr:tex></html:li>
+<html:li>Multiplicative inverses: for each <fr:tex display="inline"><![CDATA[x\in  F]]></fr:tex> which is nonzero <fr:tex display="inline"><![CDATA[x\neq 0]]></fr:tex> there is a unique <fr:tex display="inline"><![CDATA[y\in  F]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x\cdot  y=1]]></fr:tex> and <fr:tex display="inline"><![CDATA[y\cdot  x=1]]></fr:tex>; usually we denote <fr:tex display="inline"><![CDATA[y]]></fr:tex> as <fr:tex display="inline"><![CDATA[x^{-1}]]></fr:tex></html:li>
+<html:li>Distributivity of multiplication over addition: for all <fr:tex display="inline"><![CDATA[x,y,z\in  F]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[x\cdot (y+z)=(x\cdot  y)+(x\cdot  z)]]></fr:tex> and <fr:tex display="inline"><![CDATA[(x+y)\cdot  z=(x\cdot  z)+(x\cdot  y)]]></fr:tex></html:li></html:ol>
+                <html:p>Note that some of these are redundant.</html:p>
+                <html:p>Also note: fields are usually written in blackboard bold, and the generic field is either <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since the German word for field is "<html:em>Körper</html:em>").</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000A/</fr:uri>
+                <fr:display-uri>nt-000A</fr:display-uri>
+                <fr:route>/nt-000A/</fr:route>
+                <fr:title text="Characteristic">Characteristic</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. There is a unique ring morphism <fr:tex display="inline"><![CDATA[\phi \colon \mathbb {Z}\to \mathbb {F}]]></fr:tex> where <fr:tex display="inline"><![CDATA[\phi (1)=1]]></fr:tex>. We define the <html:dfn>Characteristic</html:dfn> of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> to be the smallest positive integer <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[(n)=\ker (\phi )]]></fr:tex>, if such an <fr:tex display="inline"><![CDATA[n>0]]></fr:tex> exists. Otherwise the characteristic of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is 0.</html:p><html:p>We write <fr:tex display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})]]></fr:tex> for the characteristic of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>The <fr:tex display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})]]></fr:tex> is either a prime number or zero.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000B/</fr:uri>
+                <fr:display-uri>nt-000B</fr:display-uri>
+                <fr:route>/nt-000B/</fr:route>
+                <fr:title text="Prime Subfield">Prime Subfield</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. The <html:dfn>Prime Subfield</html:dfn> is the subfield generated by the multiplicative unit <fr:tex display="inline"><![CDATA[1\in \mathbb {F}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000C/</fr:uri>
+                <fr:display-uri>nt-000C</fr:display-uri>
+                <fr:route>/nt-000C/</fr:route>
+                <fr:title text="Characteristic zero fields have rational numbers as its prime subfield">Characteristic zero fields have rational numbers as its prime subfield</fr:title>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. If <fr:tex display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})=0]]></fr:tex>, then the <fr:link href="/nt-000B/" title="Prime Subfield" uri="http://localhost:8000/nt-000B/" display-uri="nt-000B" type="local">Prime Subfield</fr:link> of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>The <fr:tex display="inline"><![CDATA[\phi \colon \mathbb {Z}\to \mathbb {F}]]></fr:tex> is injective since its kernel is trivial. The prime subfield of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> must contain <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>. Hence the prime subfield must contain the <fr:link href="/ra-002B/" title="Universal property of field of fractions" uri="http://localhost:8000/ra-002B/" display-uri="ra-002B" type="local">field of fractions</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {Q}=\mathop {\textrm {Frac}}\nolimits (\mathbb {Z})]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> itself is the prime subfield.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000D/</fr:uri>
+                <fr:display-uri>nt-000D</fr:display-uri>
+                <fr:route>/nt-000D/</fr:route>
+                <fr:title text="Characteristic p fields have a finite prime subfield">Characteristic p fields have a finite prime subfield</fr:title>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[p]]></fr:tex> be a prime number, let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. If the <fr:link href="/nt-000A/" title="Characteristic" uri="http://localhost:8000/nt-000A/" display-uri="nt-000A" type="local">Characteristic</fr:link> of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:tex display="inline"><![CDATA[p=\mathop {\textrm {char}}\nolimits (\mathbb {F})]]></fr:tex>, then the finite field <fr:tex display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> is the prime subfield of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000E/</fr:uri>
+                <fr:display-uri>nt-000E</fr:display-uri>
+                <fr:route>/nt-000E/</fr:route>
+                <fr:title text="Morphisms of fields are injective or zero">Morphisms of fields are injective or zero</fr:title>
+                <fr:taxon>remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>We recall that <fr:link href="/ra-001L/" title="Field morphisms are injective nonzero ring morphisms" uri="http://localhost:8000/ra-001L/" display-uri="ra-001L" type="local">Field morphisms are injective nonzero ring morphisms</fr:link> or field morphisms are zero morphisms. We only really care about injective nonzero morphisms, since they describe "extensions" of fields.</html:p>
+                <html:p>Moral: nonzero field morphisms are necessarily injective.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000F/</fr:uri>
+                <fr:display-uri>nt-000F</fr:display-uri>
+                <fr:route>/nt-000F/</fr:route>
+                <fr:title text="Field extension">Field extension</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">MML <fr:link href="https://mizar.uwb.edu.pl/version/current/html/field_4.html#V1" type="external">field_4:def 1</fr:link></fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. A <html:dfn>Field Extension</html:dfn> of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a field denoted <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a field <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> containing <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> as a subfield. We say, "<fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> is over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>" and write this as:</html:p>
+  <html:center><fr:resource hash="df6fecaf8d5aa3f5f4aa460fea561ee3"><fr:resource-content><html:img src="/df6fecaf8d5aa3f5f4aa460fea561ee3.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {quiver, amsopn, amssymb, mathrsfs}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}\Bbbk\arrow[d, dash]\\
+  \mathbb {F}
+  \end {tikzcd}
+]]></fr:resource-source></fr:resource></html:center>
+
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>This idea generalizes to rings instead of fields (and we speak of "ring extensions"). Galois theory focuses on field extensions, however.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000G/</fr:uri>
+                <fr:display-uri>nt-000G</fr:display-uri>
+                <fr:route>/nt-000G/</fr:route>
+                <fr:title text="Adjoining a root to rationals is a field extension">Adjoining a root to rationals is a field extension</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>We can adjoin <fr:tex display="inline"><![CDATA[\mathrm {i}=\sqrt {-1}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> to obtain the <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {Q}(\mathrm {i})]]></fr:tex>.</html:p>
+                <html:p>More generally, if <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {Q}[x]]]></fr:tex> is a nonconstant polynomial, then we see <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {C}[x]]]></fr:tex> and so by the <fr:link href="/complex-000J/" title="Fundamental Theorem of Algebra" uri="http://localhost:8000/complex-000J/" display-uri="complex-000J" type="local">Fundamental Theorem of Algebra</fr:link> there is a root <fr:tex display="inline"><![CDATA[c\in \mathbb {C}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p(c)=0]]></fr:tex>. We can adjoin <fr:tex display="inline"><![CDATA[c]]></fr:tex> to the rationals to get a field extension <fr:tex display="inline"><![CDATA[\mathbb {Q}(c) / \mathbb {Q}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000H/</fr:uri>
+                <fr:display-uri>nt-000H</fr:display-uri>
+                <fr:route>/nt-000H/</fr:route>
+                <fr:title text="Irreducible polynomial has a root in a field extension">Irreducible polynomial has a root in a field extension</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> be a nonconstant irreducible polynomial. Then there always exists a field extension <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p]]></fr:tex> has a root in <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000I/</fr:uri>
+                <fr:display-uri>nt-000I</fr:display-uri>
+                <fr:route>/nt-000I/</fr:route>
+                <fr:title text="Field extension is a vector space">Field extension is a vector space</fr:title>
+                <fr:taxon>fact</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> is a <fr:link href="/vectsp-0001/" title="Vector Space" uri="http://localhost:8000/vectsp-0001/" display-uri="vectsp-0001" type="local">Vector Space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000J/</fr:uri>
+                <fr:display-uri>nt-000J</fr:display-uri>
+                <fr:route>/nt-000J/</fr:route>
+                <fr:title text="Degree of extension">Degree of extension</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>. The <html:dfn>Degree</html:dfn> of <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]]]></fr:tex>, is equal to <fr:tex display="inline"><![CDATA[\dim _{\mathbb {F}}(\Bbbk )]]></fr:tex> the dimension of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> <fr:link href="/nt-000I/" title="Field extension is a vector space" uri="http://localhost:8000/nt-000I/" display-uri="nt-000I" type="local">as a vector space</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+                <html:p>If <fr:tex display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]<\infty ]]></fr:tex>, then we say <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a <html:dfn>Finite Extension</html:dfn>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000K/</fr:uri>
+                <fr:display-uri>nt-000K</fr:display-uri>
+                <fr:route>/nt-000K/</fr:route>
+                <fr:title text="Generic form a finite field extension">Generic form a finite field extension</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 13.1.4</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> be a nonconstant irreducible polynomial of degree <fr:tex display="inline"><![CDATA[\deg (p)=n]]></fr:tex>, and let <fr:tex display="inline"><![CDATA[\Bbbk =\mathbb {F}[x]/(p(x))]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be the image of <fr:tex display="inline"><![CDATA[x]]></fr:tex> under the quotient map
+<fr:tex display="block"><![CDATA[\pi \colon \mathbb {F}[x]\twoheadrightarrow \Bbbk ,]]></fr:tex>
+then <fr:tex display="inline"><![CDATA[\{1,\alpha ,…,\alpha ^{n-1}\}]]></fr:tex> is a basis for <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> as a vector space over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. In particular, <fr:tex display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]=n]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see <fr:tex display="inline"><![CDATA[\{1,\alpha ,…,\alpha ^{n-1}\}]]></fr:tex> spans <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> as a vector space since it is the image of <fr:tex display="inline"><![CDATA[\{1,x,…,x^{n-1},…\}]]></fr:tex> and that spans <fr:tex display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> be the image of some <fr:tex display="inline"><![CDATA[b(x)\in \mathbb {F}[x]]]></fr:tex>. By the division algorithm,
+<fr:tex display="block"><![CDATA[b(x)=q(x)p(x)+r(x)]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[0\leq \deg (r)<n=\deg (p)]]></fr:tex>. Observe if <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[x]]></fr:tex> under the quotient map, then
+<fr:tex display="block"><![CDATA[b(\alpha )=q(\alpha )\cdot 0+r(\alpha )=r(\alpha ).]]></fr:tex>
+Since <fr:tex display="inline"><![CDATA[\deg (r)<n]]></fr:tex>, we have
+<fr:tex display="block"><![CDATA[b(\alpha )=c_{0}+c_{1}\alpha +…+c_{n-1}\alpha ^{n-1},]]></fr:tex>
+which implies <fr:tex display="inline"><![CDATA[b(\alpha )=\beta \in \mathop {\textrm {span}}\nolimits (1,\alpha ,…,\alpha ^{n-1})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> was arbitrary, and we showed it was a linear combination of the proposed basis, we have obtained the result.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000L/</fr:uri>
+                <fr:display-uri>nt-000L</fr:display-uri>
+                <fr:route>/nt-000L/</fr:route>
+                <fr:title text="Bases for field extensions">Bases for field extensions</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let's give a grocery list of example.</html:p>
+                <html:ol><html:li>We see <fr:tex display="inline"><![CDATA[\{1,\mathrm {i}\}]]></fr:tex> is a <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-basis for <fr:tex display="inline"><![CDATA[\mathbb {Q}(\mathrm {i})]]></fr:tex>.</html:li>
+<html:li>We see <fr:tex display="inline"><![CDATA[\{1,2^{1/3},2^{2/3}=4^{1/3},2^{-1/3}\}]]></fr:tex> is a <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>-basis for <fr:tex display="inline"><![CDATA[\mathbb {Q}(\sqrt [3]{2})]]></fr:tex>.</html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000M/</fr:uri>
+                <fr:display-uri>nt-000M</fr:display-uri>
+                <fr:route>/nt-000M/</fr:route>
+                <fr:title text="Field Generated by elements">Field Generated by elements</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}\subseteq \Bbbk ]]></fr:tex> be a subfield (usually proper, otherwise this will be boring). Let <fr:tex display="inline"><![CDATA[\alpha ,\beta ,\gamma ,…\in \Bbbk ]]></fr:tex> be nonzero elements of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex>. Then the <html:dfn>Field Generated</html:dfn> by <fr:tex display="inline"><![CDATA[\alpha ,\beta ,\gamma ,…]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the field denoted <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha ,\beta ,\gamma ,…)]]></fr:tex> is the smallest subfield of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> containing <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex>, ….</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000N/</fr:uri>
+                <fr:display-uri>nt-000N</fr:display-uri>
+                <fr:route>/nt-000N/</fr:route>
+                <fr:title text="Simple Field Extension">Simple Field Extension</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:dfn>Simple Field Extension</html:dfn> is a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link> <fr:link href="/nt-000M/" title="Field Generated by elements" uri="http://localhost:8000/nt-000M/" display-uri="nt-000M" type="local">generated</fr:link> by a single element <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>. We call <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> a <html:dfn>Primitive Element</html:dfn>.</html:p>
+                <html:p><html:strong>Fact:</html:strong> If <fr:tex display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})=0]]></fr:tex>, then all finite extensions of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> are simple.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000R/</fr:uri>
+                <fr:display-uri>nt-000R</fr:display-uri>
+                <fr:route>/nt-000R/</fr:route>
+                <fr:title text="Roots of Unity">Roots of Unity</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. We will adopt the notation
+<fr:tex display="block"><![CDATA[\zeta _{n}=\mathop {\textrm {exp}}\nolimits (\mathrm {i} 2\pi  / n)]]></fr:tex>
+for the <fr:tex display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> root of unity.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000P/</fr:uri>
+                <fr:display-uri>nt-000P</fr:display-uri>
+                <fr:route>/nt-000P/</fr:route>
+                <fr:title text="Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials">Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Theorem 13.1.6</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>, let <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> be <fr:link href="/ra-001U/" title="Irreducible element" uri="http://localhost:8000/ra-001U/" display-uri="ra-001U" type="local">irreducible</fr:link>, let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be a root of <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )\subseteq \Bbbk ]]></fr:tex> be a <fr:link href="/nt-000M/" title="Field Generated by elements" uri="http://localhost:8000/nt-000M/" display-uri="nt-000M" type="local">field generated</fr:link> by <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>. Then the map
+<fr:tex display="block"><![CDATA[\begin {split}e_{\alpha }\colon &\mathbb {F}[x]/(p(x))\to \mathbb {F}(\alpha )\\
+&g(x)\mapsto  g(\alpha )\end {split}]]></fr:tex>
+is an isomorphism.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>The choice of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> in this theorem is irrelevant.</fr:mainmatter></fr:tree>
+ 
+
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We see <fr:tex display="inline"><![CDATA[\mathbb {F}[x]/(p(x))]]></fr:tex> is a field since <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> is irreducible. Since <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> is nonzero, <fr:link href="/nt-000E/" title="Morphisms of fields are injective or zero" uri="http://localhost:8000/nt-000E/" display-uri="nt-000E" type="local">it must be injective</fr:link>. Then the image of <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> must be a subfield of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> and also contained in <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>, in particular the image of <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> must contain <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[F(\alpha )]]></fr:tex> is the minimal such field, <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> must be surjective.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000O/</fr:uri>
+                <fr:display-uri>nt-000O</fr:display-uri>
+                <fr:route>/nt-000O/</fr:route>
+                <fr:title text="Cyclotomic field">Cyclotomic field</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Consider
+<fr:tex display="block"><![CDATA[p(x)=x^{4}+x^{3}+x^{2}+x+1=\frac {x^{5}-1}{x-1}]]></fr:tex>
+By <fr:link href="/ra-002V/" title="Eisenstein criteria of reducibility" uri="http://localhost:8000/ra-002V/" display-uri="ra-002V" type="local">Eisenstein's criteria</fr:link>, it's <fr:link href="/ra-001U/" title="Irreducible element" uri="http://localhost:8000/ra-001U/" display-uri="ra-001U" type="local">irreducible</fr:link>. We see
+<fr:tex display="block"><![CDATA[\mathbb {F}:=Q[x]/(p(x)).]]></fr:tex>
+Let
+<fr:tex display="block"><![CDATA[\zeta =\mathop {\textrm {exp}}\nolimits (\mathrm {i} 2\pi  / 5)\in \mathbb {C},]]></fr:tex>
+then <fr:tex display="inline"><![CDATA[\mathbb {Q}(\zeta )\subseteq \mathbb {C}]]></fr:tex> is a field containing a root of <fr:tex display="inline"><![CDATA[p]]></fr:tex>.</html:p>
+                <html:p>The numbers <fr:tex display="inline"><![CDATA[\mathop {\textrm {exp}}\nolimits (\mathrm {i} 2\pi  / n)]]></fr:tex> are <html:dfn>Roots of Unity</html:dfn>, and adjoining a root of unity to the rationals is an example of a simple field extension. (The resulting field is called a <html:dfn>Cyclotomic field</html:dfn>).</html:p>
+                <html:p>Moreover, since <fr:link href="/nt-000P/" title="Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials" uri="http://localhost:8000/nt-000P/" display-uri="nt-000P" type="local">Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials</fr:link>, we see <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {Q}(\zeta )]]></fr:tex> are isomorphic fields.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000Q/</fr:uri>
+                <fr:display-uri>nt-000Q</fr:display-uri>
+                <fr:route>/nt-000Q/</fr:route>
+                <fr:title text="Isomorphic field extensions which are not equal to each other">Isomorphic field extensions which are not equal to each other</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[F_{1}=\mathbb {Q}(\sqrt [3]{2})\subseteq \mathbb {R}]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_{2}=\mathbb {Q}(\zeta _{3}\sqrt [3]{2})\subseteq \mathbb {C}]]></fr:tex>. Both <fr:tex display="inline"><![CDATA[\sqrt [3]{2}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\zeta _{3}\sqrt [3]{2}]]></fr:tex> are <fr:link href="/ra-001U/" title="Irreducible element" uri="http://localhost:8000/ra-001U/" display-uri="ra-001U" type="local">irreducible</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. By <fr:link href="/nt-000P/" title="Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials" uri="http://localhost:8000/nt-000P/" display-uri="nt-000P" type="local">Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials</fr:link>, <fr:tex display="inline"><![CDATA[F_{1}]]></fr:tex> and <fr:tex display="inline"><![CDATA[F_{2}]]></fr:tex> are both isomorphic to <fr:tex display="inline"><![CDATA[\mathbb {Q}[x] / (x^{3}-2)]]></fr:tex>. In particular <fr:tex display="inline"><![CDATA[F_{1}\cong  F_{2}]]></fr:tex> even though <fr:tex display="inline"><![CDATA[F_{1}\neq  F_{2}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000S/</fr:uri>
+                <fr:display-uri>nt-000S</fr:display-uri>
+                <fr:route>/nt-000S/</fr:route>
+                <fr:title text="Isomorphisms of fields extends to isomorphisms of simple field extensions">Isomorphisms of fields extends to isomorphisms of simple field extensions</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk '/\mathbb {F}']]></fr:tex> be <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">field extensions</fr:link>, and <fr:tex display="inline"><![CDATA[\phi \colon \mathbb {F}\to \mathbb {F}']]></fr:tex> an isomorphism. Suppose <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> is a root of an irreducible <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\beta \in \Bbbk ']]></fr:tex> is a root of <fr:tex display="inline"><![CDATA[q(x)=\phi (p(x))\in \in \mathbb {F}'[x]]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex> extends to an isomorphism <fr:tex display="inline"><![CDATA[\widetilde {\phi }\colon \mathbb {F}(\alpha )\to \mathbb {F}(\beta )]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>We want to show <fr:tex display="inline"><![CDATA[\mathbb {F}[x]/(p(x))\cong \mathbb {F}'[x]/(\phi (p(x)))]]></fr:tex> are isomorphic. We see <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex> extends to <fr:tex display="inline"><![CDATA[\Phi \colon \mathbb {F}[x]\to \mathbb {F}'[x]]]></fr:tex> induces an isomorphism
+<fr:tex display="block"><![CDATA[\psi \colon \mathbb {F}[x]/(p(x))\to \mathbb {F}'[x]/(q(x)).]]></fr:tex>
+Since <fr:link href="/nt-000P/" title="Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials" uri="http://localhost:8000/nt-000P/" display-uri="nt-000P" type="local">Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials</fr:link>, we have isomorphisms
+<fr:tex display="block"><![CDATA[\phi _{1}\colon \mathbb {F}[x]/(p(x))\to \mathbb {F}(\alpha )]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[\phi _{2}\colon \mathbb {F}[x]/(q(x))\to \mathbb {F}'(\beta ).]]></fr:tex>
+Then
+<fr:tex display="inline"><![CDATA[\widetilde {\phi }=\phi _{2}\circ \psi \circ \phi _{1}^{-1}\colon \mathbb {F}(\alpha )\to \mathbb {F}'(\beta )]]></fr:tex>
+is an isomorphism sending <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> to <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex>, and restricts to <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex> on <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000T/</fr:uri>
+                <fr:display-uri>nt-000T</fr:display-uri>
+                <fr:route>/nt-000T/</fr:route>
+                <fr:title text="Algebraic Element">Algebraic Element</fr:title>
+                <fr:taxon>definition</fr:taxon>
+                <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 13.2</fr:meta>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>. An element <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> is called <html:dfn>Algebraic Over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex></html:dfn> if there is some nonzero <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p(\alpha )=0]]></fr:tex>. Otherwise we say <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is <html:dfn>Transcendental</html:dfn> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+                <html:p>When all elements of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> are algebraic elements over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we say the field extension <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is an <html:dfn>Algebraic Extension</html:dfn>. Otherwise we say <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a <html:dfn>Transcendental Extension</html:dfn>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000U/</fr:uri>
+                <fr:display-uri>nt-000U</fr:display-uri>
+                <fr:route>/nt-000U/</fr:route>
+                <fr:title text="Examples of algebraic and transcendental extensions">Examples of algebraic and transcendental extensions</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ol><html:li>Let <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. Let <fr:tex display="inline"><![CDATA[\mathbb {F}(x)]]></fr:tex> be the field of rational functions. Then <fr:tex display="inline"><![CDATA[x]]></fr:tex> is a transcendental element of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:li>
+<html:li>The field <fr:tex display="inline"><![CDATA[\mathbb {Q}(\pi )]]></fr:tex> generated by <fr:tex display="inline"><![CDATA[\pi \in \mathbb {R}]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is transcendental, because <fr:tex display="inline"><![CDATA[\pi ]]></fr:tex> is not the root of any polynomial. Therefore <fr:tex display="inline"><![CDATA[\mathbb {Q}(\pi ) / \mathbb {Q}]]></fr:tex> is transcendental.</html:li>
+<html:li>We see <fr:tex display="inline"><![CDATA[\sqrt [3]{2}\in \mathbb {Q}(\sqrt [3]{2})]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> because it's a root of <fr:tex display="inline"><![CDATA[x^{3}-2]]></fr:tex>. But does this means that <fr:tex display="inline"><![CDATA[\mathbb {Q}(\sqrt [3]{2}) / \mathbb {Q}]]></fr:tex> is algebraic? We need to better understand algebraicity to answer this question.</html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000V/</fr:uri>
+                <fr:display-uri>nt-000V</fr:display-uri>
+                <fr:route>/nt-000V/</fr:route>
+                <fr:title text="Existence and uniqueness of minimal polynomial for primitive algebraic elements">Existence and uniqueness of minimal polynomial for primitive algebraic elements</fr:title>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>, let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then there exists a unique monic irreducible polynomial <fr:tex display="inline"><![CDATA[m_{\alpha }(x)\in \mathbb {F}[x]]]></fr:tex> having <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> as a root.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><html:strong>Existence:</html:strong> Consider the map
+<fr:tex display="block"><![CDATA[\begin {split}\psi \colon &\mathbb {F}[x]\to \Bbbk \\
+&q(x)\mapsto  q(\alpha )\end {split}]]></fr:tex>
+Let <fr:tex display="inline"><![CDATA[M=\ker (\psi )]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )=\mathop {\textrm {Im}}\nolimits (\psi )\cong \mathbb {F}[x]/M]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[M]]></fr:tex> is a maximal ideal. Since <fr:tex display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> is a principal ideal domain, there exists a <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> such that <fr:tex display="inline"><![CDATA[M=(p(x))]]></fr:tex>. There is only one way to turn <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> into a monic polynomial,
+<fr:tex display="block"><![CDATA[m_{\alpha }(x)=c\cdot  p(x),]]></fr:tex>
+for some <fr:tex display="inline"><![CDATA[c\in \mathbb {F}^{\times }]]></fr:tex>. The polynomial <fr:tex display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> is irreducible since the ideal it generates is maximal.</html:p>
+<html:p><html:strong>Uniqueness:</html:strong> Let <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> be any polynomial with <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> as a root <fr:tex display="inline"><![CDATA[p(\alpha )=0]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[p(x)\in  M]]></fr:tex>, so <fr:tex display="inline"><![CDATA[p(x)=m_{\alpha }(x)q(x)]]></fr:tex> for some <fr:tex display="inline"><![CDATA[q(x)]]></fr:tex>. If <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> is irreducible, <fr:tex display="inline"><![CDATA[q(x)]]></fr:tex> must be a constant polynomial equal to a unit. If <fr:tex display="inline"><![CDATA[p(x)]]></fr:tex> is also monic, then <fr:tex display="inline"><![CDATA[q(x)=1]]></fr:tex> and therefore <fr:tex display="inline"><![CDATA[p(x)=m_{\alpha }(x)]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> is unique.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000W/</fr:uri>
+                <fr:display-uri>nt-000W</fr:display-uri>
+                <fr:route>/nt-000W/</fr:route>
+                <fr:title text="Degree of simple field extension is degree of minimal polynomial">Degree of simple field extension is degree of minimal polynomial</fr:title>
+                <fr:taxon>corollary</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>, let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]=\deg (m_{\alpha }(x))]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:link href="/nt-000P/" title="Simple field extensions are isomorphic to quotient fields with respect to principal ideals generated by irreducible polynomials" uri="http://localhost:8000/nt-000P/" display-uri="nt-000P" type="local">We know</fr:link> <fr:tex display="inline"><![CDATA[e_{\alpha }\mathbb {F}[x]/(m_{\alpha }(x))\to \mathbb {F}[\alpha ]]]></fr:tex> is an isomorphism. <fr:link href="/nt-000K/" title="Generic form a finite field extension" uri="http://localhost:8000/nt-000K/" display-uri="nt-000K" type="local">We also know</fr:link> the image of <fr:tex display="inline"><![CDATA[\{1,x,…,x^{d-1}\}]]></fr:tex> under <fr:tex display="inline"><![CDATA[e_{\alpha }]]></fr:tex> forms a <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis of <fr:tex display="inline"><![CDATA[\mathbb {F}[\alpha ]]]></fr:tex>, where <fr:tex display="inline"><![CDATA[d=\deg (m_{\alpha }(x))]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000X/</fr:uri>
+                <fr:display-uri>nt-000X</fr:display-uri>
+                <fr:route>/nt-000X/</fr:route>
+                <fr:title text="Minimal Polynomial for Algebraic Element">Minimal Polynomial for Algebraic Element</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, the <fr:link href="/nt-000V/" title="Existence and uniqueness of minimal polynomial for primitive algebraic elements" uri="http://localhost:8000/nt-000V/" display-uri="nt-000V" type="local">unique monic polynomial</fr:link> <fr:tex display="inline"><![CDATA[m_{\alpha }\in \mathbb {F}[x]]]></fr:tex>, which has <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> as a root, is called the <html:dfn>Minimal Polynomial</html:dfn> of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. The <html:dfn>degree</html:dfn> of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is the degree of its minimal polynomial.</html:p>
+                <html:p>(We've already <fr:link href="/nt-000V/" title="Existence and uniqueness of minimal polynomial for primitive algebraic elements" uri="http://localhost:8000/nt-000V/" display-uri="nt-000V" type="local">proved this is well-defined</fr:link>.)</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000Y/</fr:uri>
+                <fr:display-uri>nt-000Y</fr:display-uri>
+                <fr:route>/nt-000Y/</fr:route>
+                <fr:title text="An element is algebraic iff it is the primitive element of a finite extension">An element is algebraic iff it is the primitive element of a finite extension</fr:title>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a field over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha ) / \mathbb {F}]]></fr:tex> is a <fr:link href="/nt-000J/" title="Degree of extension" uri="http://localhost:8000/nt-000J/" display-uri="nt-000J" type="local">finite extension</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Obvious, since <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> being algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]]]></fr:tex> is finite.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose <fr:tex display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]]]></fr:tex> is finite. Define
+<fr:tex display="block"><![CDATA[\begin {split}T\colon &\mathbb {F}(\alpha )\to \mathbb {F}(\alpha )\\
+&x\mapsto \alpha  x\end {split}]]></fr:tex>
+Then <fr:tex display="inline"><![CDATA[T]]></fr:tex> is a linear operator on a finite-diumensional vector space. So it has a <fr:link href="/iaa-0009/" title="Traditional Introduction to Modules" uri="http://localhost:8000/iaa-0009/" display-uri="iaa-0009" type="local">minimal polynomial as a linear operator</fr:link>. Let <fr:tex display="inline"><![CDATA[m(x)]]></fr:tex> be this minimal polynomial for <fr:tex display="inline"><![CDATA[T]]></fr:tex>. We find <fr:tex display="inline"><![CDATA[m(T)]]></fr:tex> sends <fr:tex display="inline"><![CDATA[x\mapsto  m(\alpha )x]]></fr:tex>, but we also know <fr:tex display="inline"><![CDATA[m(\alpha )=0]]></fr:tex> by the <fr:link href="/ra-0052/" title="Cayley-Hamilton theorem" uri="http://localhost:8000/ra-0052/" display-uri="ra-0052" type="local">Cayley-Hamilton theorem</fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-000Z/</fr:uri>
+                <fr:display-uri>nt-000Z</fr:display-uri>
+                <fr:route>/nt-000Z/</fr:route>
+                <fr:title text="Simple field extension is algebraic iff adjoined with algebraic element">Simple field extension is algebraic iff adjoined with algebraic element</fr:title>
+                <fr:taxon>corollary</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>The <fr:link href="/nt-000N/" title="Simple Field Extension" uri="http://localhost:8000/nt-000N/" display-uri="nt-000N" type="local">simple field extension</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> if and only if <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> If <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is an algebraic extension, then <fr:tex display="inline"><![CDATA[\alpha \in \mathbb {F}(\alpha )]]></fr:tex> is obviously algebraic.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Since <fr:link href="/nt-000Y/" title="An element is algebraic iff it is the primitive element of a finite extension" uri="http://localhost:8000/nt-000Y/" display-uri="nt-000Y" type="local">An element is algebraic iff it is the primitive element of a finite extension</fr:link>, we see <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is a finite extension. Let <fr:tex display="inline"><![CDATA[\beta \in \mathbb {F}(\alpha )]]></fr:tex> be an arbitrary element. Then <fr:tex display="inline"><![CDATA[\mathbb {F}(\beta )]]></fr:tex> is a <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-subspace of <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>, so <fr:tex display="inline"><![CDATA[[\mathbb {F}(\beta ) : \mathbb {F}]\leq [\mathbb {F}(\alpha ) : \mathbb {F}]<\infty ]]></fr:tex>. <fr:link href="/nt-000Y/" title="An element is algebraic iff it is the primitive element of a finite extension" uri="http://localhost:8000/nt-000Y/" display-uri="nt-000Y" type="local">Then <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> is algebraic</fr:link>, and since <fr:tex display="inline"><![CDATA[\beta ]]></fr:tex> is arbitrary, this means the entire extension <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is algebraic.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0010/</fr:uri>
+                <fr:display-uri>nt-0010</fr:display-uri>
+                <fr:route>/nt-0010/</fr:route>
+                <fr:title text="Finite field extensions are algebraic">Finite field extensions are algebraic</fr:title>
+                <fr:taxon>corollary</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>A <fr:link href="/nt-000J/" title="Degree of extension" uri="http://localhost:8000/nt-000J/" display-uri="nt-000J" type="local">finite extension</fr:link> <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Assume <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is finite. Let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )\subseteq \Bbbk ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\dim _{\mathbb {F}}(\mathbb {F}(\alpha ))\leq \dim _{\mathbb {F}}\Bbbk <\infty ]]></fr:tex> and so <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )/\mathbb {F}]]></fr:tex> is finite. <fr:link href="/nt-000Y/" title="An element is algebraic iff it is the primitive element of a finite extension" uri="http://localhost:8000/nt-000Y/" display-uri="nt-000Y" type="local">It then follows</fr:link> that <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link>. Since this is true for all <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is an algebraic extension.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0011/</fr:uri>
+                <fr:display-uri>nt-0011</fr:display-uri>
+                <fr:route>/nt-0011/</fr:route>
+                <fr:title text="Degree of Field Extensions is Multiplicative">Degree of Field Extensions is Multiplicative</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {L} / \Bbbk ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be field extensions. Then
+<fr:tex display="block"><![CDATA[[\mathbb {L} : \mathbb {F}]=[\mathbb {L} : \Bbbk ][\Bbbk  : \mathbb {F}].]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>This is also known as "the degree equation", "the tower rule", and "the tower law", since a [finite] chain of field extensions is known as a "tower of fields".</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0012/</fr:uri>
+                <fr:display-uri>nt-0012</fr:display-uri>
+                <fr:route>/nt-0012/</fr:route>
+                <fr:title text="Finitely Generated Extension">Finitely Generated Extension</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>An <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">extension</fr:link> <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is <html:dfn>Finitely Generated</html:dfn> if <fr:tex display="inline"><![CDATA[\Bbbk =\mathbb {F}(\alpha _{1},…,\alpha _{n})]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha _{1},…,\alpha _{n}\in \Bbbk ]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) Finitely generated extensions are not necessarily <fr:link href="/nt-000J/" title="Degree of extension" uri="http://localhost:8000/nt-000J/" display-uri="nt-000J" type="local">finite extensions</fr:link>.</html:p>
+<html:p>(2) This should remind the reader of <fr:link href="/ra-004A/" title="Finitely-Generated Submodule" uri="http://localhost:8000/ra-004A/" display-uri="ra-004A" type="local">finitely generated modules</fr:link>.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0013/</fr:uri>
+                <fr:display-uri>nt-0013</fr:display-uri>
+                <fr:route>/nt-0013/</fr:route>
+                <fr:title text="A finite sequence of simple extensions is a finitely generated extension">A finite sequence of simple extensions is a finitely generated extension</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be an extension, let <fr:tex display="inline"><![CDATA[\alpha _{1},…,\alpha _{r}\in \Bbbk ]]></fr:tex>. Define the extensions
+<fr:tex display="block"><![CDATA[\mathbb {F}=F_{0}\subseteq  F_{1}\subseteq …\subseteq  F_{r}]]></fr:tex>
+by <fr:tex display="inline"><![CDATA[F_{i+1}=F_{i}(\alpha _{i+1})]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[F_{r}=\mathbb {F}(\alpha _{1},…,\alpha _{r})]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:link href="/nst-002K/" title="Proof by induction" uri="http://localhost:8000/nst-002K/" display-uri="nst-002K" type="local">Proof by induction</fr:link> on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</html:p>
+<html:p><html:strong>Base case</html:strong>: <fr:tex display="inline"><![CDATA[r=1]]></fr:tex>. The result is immediate.</html:p>
+<html:p><html:strong>Inductive case:</html:strong> For any <fr:tex display="inline"><![CDATA[r]]></fr:tex>, suppose the result <fr:tex display="inline"><![CDATA[F_{r}=\mathbb {F}(\alpha _{1},…,\alpha _{r})]]></fr:tex>. We want to prove the claim for <fr:tex display="inline"><![CDATA[r+1]]></fr:tex>, i.e.,
+<fr:tex display="block"><![CDATA[\mathbb {F}(\alpha _{1},…,\alpha _{r})(\alpha _{r+1})=\mathbb {F}(\alpha _{1},…,\alpha _{r},\alpha _{r+1}).]]></fr:tex>
+But this is literally the base case.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0014/</fr:uri>
+                <fr:display-uri>nt-0014</fr:display-uri>
+                <fr:route>/nt-0014/</fr:route>
+                <fr:title text="An extension is finite iff it is finitely-generated by algebraic elements">An extension is finite iff it is finitely-generated by algebraic elements</fr:title>
+                <fr:taxon>theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>An extension <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is finite if and only if <fr:tex display="inline"><![CDATA[\Bbbk =\mathbb {F}(\alpha _{1},…,\alpha _{n})]]></fr:tex> for <fr:tex display="inline"><![CDATA[\alpha _{i}\in \Bbbk ]]></fr:tex> being <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> for each <fr:tex display="inline"><![CDATA[i]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> If <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is finite, then it is algebraic. This means <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> has an <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis <fr:tex display="inline"><![CDATA[\alpha _{1},…,\alpha _{n}]]></fr:tex> (where each <fr:tex display="inline"><![CDATA[\alpha _{i}]]></fr:tex> is algebraic). We have
+<fr:tex display="block"><![CDATA[\Bbbk =\mathop {\textrm {span}}\nolimits _{\mathbb {F}}(\alpha _{1},…,\alpha _{n})\subseteq \mathbb {F}(\alpha _{1},…,\alpha _{n})\subseteq \Bbbk ]]></fr:tex>
+hence <fr:tex display="inline"><![CDATA[\Bbbk =\mathbb {F}(\alpha _{1},…,\alpha _{n})]]></fr:tex>.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> We have the finite sequence of fields <fr:tex display="inline"><![CDATA[F_{0}=\mathbb {F}]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_{i}=\mathbb {F}_{i-1}(\alpha _{i})]]></fr:tex> for <fr:tex display="inline"><![CDATA[i\geq 1]]></fr:tex>. Each <fr:tex display="inline"><![CDATA[\alpha _{i}]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, hence it's algebraic ove <fr:tex display="inline"><![CDATA[\mathbb {F}_{i-1}]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[F_{i}=F_{i-1}(\alpha _{i})]]></fr:tex> is finite over <fr:tex display="inline"><![CDATA[F_{i-1}]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[[\Bbbk  : \mathbb {F}]=[F_{r} : \mathbb {F}]=[F_{r} : F_{r-1}](…)[F_{1} : F_{0}]<\infty ]]></fr:tex>
+But each factor on the right-hand side is finite (and the finite product of finite numbers is finite). So <fr:tex display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]<\infty ]]></fr:tex> is finite.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0015/</fr:uri>
+                <fr:display-uri>nt-0015</fr:display-uri>
+                <fr:route>/nt-0015/</fr:route>
+                <fr:title text="Algebraic elements over a field forms a field">Algebraic elements over a field forms a field</fr:title>
+                <fr:taxon>corollary</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a field extension. The elements <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> which are algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> form a subfield of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[L]]></fr:tex> be the set of all elements <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> which are algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+<html:p><html:strong>Claim 1:</html:strong> <fr:tex display="inline"><![CDATA[\mathbb {F}\subseteq  L]]></fr:tex>. We see that for any <fr:tex display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex> the polynomial <fr:tex display="inline"><![CDATA[(x-a)\in \mathbb {F}[x]]]></fr:tex> has a root (namely <fr:tex display="inline"><![CDATA[a]]></fr:tex>) which belongs to <fr:tex display="inline"><![CDATA[L]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[\forall  a\in \mathbb {F}\ldotp  a\in  L]]></fr:tex>, i.e., <fr:tex display="inline"><![CDATA[\mathbb {F}\subseteq  L]]></fr:tex>.</html:p>
+<html:p><html:strong>Claim 2:</html:strong> <fr:tex display="inline"><![CDATA[L]]></fr:tex> is closed under field operations. Let <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>, <fr:tex display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> be algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha ,\beta )/\mathbb {F}]]></fr:tex> is an algebraic extension (since <fr:link href="/nt-0014/" title="An extension is finite iff it is finitely-generated by algebraic elements" uri="http://localhost:8000/nt-0014/" display-uri="nt-0014" type="local">An extension is finite iff it is finitely-generated by algebraic elements</fr:link>). Then <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha ,\beta )\subseteq  L]]></fr:tex>. In particular this means <fr:tex display="inline"><![CDATA[\alpha \pm \beta \in  L]]></fr:tex> and <fr:tex display="inline"><![CDATA[\alpha \beta \in  L]]></fr:tex> and when <fr:tex display="inline"><![CDATA[\beta \neq 0]]></fr:tex> also <fr:tex display="inline"><![CDATA[\alpha  / \beta \in  L]]></fr:tex>.</html:p>
+<html:p>Hence <fr:tex display="inline"><![CDATA[L]]></fr:tex> is a field and a subfield of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0016/</fr:uri>
+                <fr:display-uri>nt-0016</fr:display-uri>
+                <fr:route>/nt-0016/</fr:route>
+                <fr:title text="Algebraic Closure of Rational Numbers">Algebraic Closure of Rational Numbers</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Let <fr:tex display="inline"><![CDATA[\overline {\mathbb {Q}}\subseteq \mathbb {C}]]></fr:tex> be the subset of all numbers that are algebraic over the complex numbers. Since <fr:link href="/nt-0015/" title="Algebraic elements over a field forms a field" uri="http://localhost:8000/nt-0015/" display-uri="nt-0015" type="local">algebraic elements over a field forms a field</fr:link>, <fr:tex display="inline"><![CDATA[\overline {\mathbb {Q}}]]></fr:tex> forms a field containing <html:em>all</html:em> the roots of all the polynomials with coefficients in <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. In particular, all finite extensions of <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> are subfields of <fr:tex display="inline"><![CDATA[\overline {\mathbb {Q}}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\overline {\mathbb {Q}}]]></fr:tex> is of infinite degree over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Algebraic number theory is (to a large extent) the study of the extension <fr:tex display="inline"><![CDATA[\overline {\mathbb {Q}} / \mathbb {Q}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0017/</fr:uri>
+                <fr:display-uri>nt-0017</fr:display-uri>
+                <fr:route>/nt-0017/</fr:route>
+                <fr:title text="How do different field extensions interact?">How do different field extensions interact?</fr:title>
+                <fr:taxon>puzzle</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>We now have a basic understanding of algebraic extensions <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>. The next thing we want to investigate is how different algebraic extensions interact. One possibility is an extension of an extension, something like <fr:tex display="inline"><![CDATA[\mathbb {L} / \Bbbk ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex>.</html:p><html:p>Another possible situation is an extension with two subextensions, something like:</html:p>
+  <html:center><fr:resource hash="b43b4c4a09907a85c584796df66aa95a"><fr:resource-content><html:img src="/b43b4c4a09907a85c584796df66aa95a.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {quiver, amsopn, amssymb, mathrsfs}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    & \ar[dl, dash] L \ar[dr, dash] & \\
+K_{1} \ar[dr, dash] & & \ar[dl, dash] K_{2}\\
+    &   F   &
+  \end {tikzcd}]]></fr:resource-source></fr:resource></html:center>
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0018/</fr:uri>
+                <fr:display-uri>nt-0018</fr:display-uri>
+                <fr:route>/nt-0018/</fr:route>
+                <fr:title text="Algebraic elements over an algebraic extension are algebraic over the base field">Algebraic elements over an algebraic extension are algebraic over the base field</fr:title>
+                <fr:taxon>lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\mathbb {F}\subseteq \Bbbk \subseteq \mathbb {L}]]></fr:tex> be fields. Suppose <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is an <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic extension</fr:link>. If <fr:tex display="inline"><![CDATA[\alpha \in \mathbb {L}]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Let
+<fr:tex display="block"><![CDATA[m_{\alpha }(x)=x^{n}+c_{n-1}x^{n-1}+…+c_{1}x+c_{0}]]></fr:tex>
+be the <fr:link href="/nt-000X/" title="Minimal Polynomial for Algebraic Element" uri="http://localhost:8000/nt-000X/" display-uri="nt-000X" type="local">minimal polynomial</fr:link> of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> over <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is algebraic, the coefficients <fr:tex display="inline"><![CDATA[c_{i}]]></fr:tex> are algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, and so
+<fr:tex display="block"><![CDATA[\mathbb {F}'=\mathbb {F}(c_{0},…,c_{n-1})]]></fr:tex>
+is a finite extension of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> (since <fr:link href="/nt-0014/" title="An extension is finite iff it is finitely-generated by algebraic elements" uri="http://localhost:8000/nt-0014/" display-uri="nt-0014" type="local">finitely-generated extensions with algebraic primitives is an algebraic extension</fr:link>).</html:p>
+<html:p>Since <fr:tex display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> is irreducible over <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {F}'\subseteq \Bbbk ]]></fr:tex>, it's also irreducible over <fr:tex display="inline"><![CDATA[\mathbb {F}']]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[\mathbb {F}'(\alpha )\cong \mathbb {F}'[x]/(m_{\alpha }(x))]]></fr:tex>
+and <fr:tex display="inline"><![CDATA[[\mathbb {F}'(\alpha ) : \mathbb {F}']=n]]></fr:tex>. Since <fr:link href="/nt-0011/" title="Degree of Field Extensions is Multiplicative" uri="http://localhost:8000/nt-0011/" display-uri="nt-0011" type="local">degree of fields is multiplicative</fr:link>, we see
+<fr:tex display="block"><![CDATA[[\mathbb {F}'(\alpha ) : \mathbb {F}]=[\mathbb {F}'(\alpha ) : \mathbb {F}'][\mathbb {F}' : \mathbb {F}]<\infty ,]]></fr:tex>
+so <fr:tex display="inline"><![CDATA[\mathbb {F}'(\alpha )/\mathbb {F}]]></fr:tex> is a finite extension, <fr:link href="/nt-0010/" title="Finite field extensions are algebraic" uri="http://localhost:8000/nt-0010/" display-uri="nt-0010" type="local">hence it's an algebraic extension</fr:link>. In particular, <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-0019/</fr:uri>
+                <fr:display-uri>nt-0019</fr:display-uri>
+                <fr:route>/nt-0019/</fr:route>
+                <fr:title text="Transitivity of algebraic extensions">Transitivity of algebraic extensions</fr:title>
+                <fr:taxon>corollary</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>If <fr:tex display="inline"><![CDATA[\mathbb {L} / \Bbbk ]]></fr:tex> is an <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic extension</fr:link>, and if <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is an algebraic extension, then <fr:tex display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex> is an algebraic extension.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Since <fr:tex display="inline"><![CDATA[\mathbb {L} / \Bbbk ]]></fr:tex> is algegbra, any <fr:tex display="inline"><![CDATA[\alpha \in \mathbb {L}]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> since <fr:link href="/nt-0018/" title="Algebraic elements over an algebraic extension are algebraic over the base field" uri="http://localhost:8000/nt-0018/" display-uri="nt-0018" type="local">elements of <fr:tex display="inline"><![CDATA[\mathbb {L}]]></fr:tex> which are algebraic over <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> are also algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-001A/</fr:uri>
+                <fr:display-uri>nt-001A</fr:display-uri>
+                <fr:route>/nt-001A/</fr:route>
+                <fr:title text="Composite Field">Composite Field</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk _{1} / \mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk _{2} / \mathbb {F}]]></fr:tex> be subextensions of some extension <fr:tex display="inline"><![CDATA[\mathbb {L} / \mathbb {F}]]></fr:tex>, as in the following diagram:
+
+  <html:center><fr:resource hash="6d03ede50544f16f70a79fa7eb92d744"><fr:resource-content><html:img src="/6d03ede50544f16f70a79fa7eb92d744.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {quiver, amsopn, amssymb, mathrsfs}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    & \ar[dl, dash] \mathbb {L} \ar[dr, dash] & \\
+\Bbbk_{1} \ar[dr, dash] & & \ar[dl, dash] \Bbbk_{2}\\
+    &   \mathbb {F}   &
+  \end {tikzcd}]]></fr:resource-source></fr:resource></html:center>
+
+The <html:dfn>Composite Field</html:dfn> of <fr:tex display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> with <fr:tex display="inline"><![CDATA[\Bbbk _{2}]]></fr:tex> is the smallest field subfield denoted <fr:tex display="inline"><![CDATA[\Bbbk _{1}\Bbbk _{2}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {L}]]></fr:tex> containing both <fr:tex display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk _{2}]]></fr:tex>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>remark</fr:taxon></fr:frontmatter><fr:mainmatter>I've also seen this described as the "amalgam" of <fr:tex display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk _{2}]]></fr:tex>, but I don't think this is terribly common terminology.</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-001B/</fr:uri>
+                <fr:display-uri>nt-001B</fr:display-uri>
+                <fr:route>/nt-001B/</fr:route>
+                <fr:title text="Composite Field of Algebraic Extensions is an Algebraic Extension">Composite Field of Algebraic Extensions is an Algebraic Extension</fr:title>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> be field extensions (possibly of infinite degree) contained within a larger field <fr:tex display="inline"><![CDATA[\mathbb {L}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[S=\{\alpha _{i}\}_{i\in  I}]]></fr:tex> and <fr:tex display="inline"><![CDATA[T=\{\beta _{j}\}_{j\in  J}]]></fr:tex> be <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-bases for <fr:tex display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk _{2}]]></fr:tex>, respectively. Then the following all hold:</html:p><html:ol><html:li><fr:tex display="inline"><![CDATA[R=\mathop {\textrm {span}}\nolimits _{\mathbb {F}}\{\alpha _{i}\beta _{j}\}_{i\in  I,j\in  J}]]></fr:tex> is a <html:strong>subring</html:strong> of <fr:tex display="inline"><![CDATA[\mathbb {L}]]></fr:tex></html:li>
+<html:li>If further both <fr:tex display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> are <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic extensions</fr:link>, then <fr:tex display="inline"><![CDATA[\Bbbk _{1}\Bbbk _{2}=\mathop {\textrm {span}}\nolimits _{\mathbb {F}}\{\alpha _{i}\beta _{j}\}_{i\in  I,j\in  J}]]></fr:tex>.</html:li></html:ol>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>(1) We see <fr:tex display="inline"><![CDATA[R]]></fr:tex> contains 0, 1, and is closed under addition. We will show it is closed under multiplication (which will prove <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a subring of <fr:tex display="inline"><![CDATA[\mathbb {L}]]></fr:tex>).</html:p>
+<html:p>Let <fr:tex display="inline"><![CDATA[x,y\in  R]]></fr:tex> be arbitrary. Then we can write them out as
+<fr:tex display="block"><![CDATA[x=\sum _{i,j}c_{i,j}\alpha _{i}\beta _{j}]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[y=\sum _{i,j}d_{i,j}\alpha _{i}\beta _{j}]]></fr:tex>
+for some <fr:tex display="inline"><![CDATA[c_{i,j}\in \mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[d_{i,j}\in \mathbb {F}]]></fr:tex>.</html:p>
+<html:p>Since <fr:tex display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex> is closed under multiplication, and <fr:tex display="inline"><![CDATA[\{\alpha _{i}\}_{i\in  I}]]></fr:tex> is an <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-basis for <fr:tex display="inline"><![CDATA[\Bbbk _{1}]]></fr:tex>, we have for any <fr:tex display="inline"><![CDATA[i_{1},i_{2}\in  I]]></fr:tex>,
+<fr:tex display="block"><![CDATA[\alpha _{i_{1}}\alpha _{i_{2}}=\sum _{i}a_{i}\alpha _{i}]]></fr:tex>
+for some coefficients <fr:tex display="inline"><![CDATA[a_{i}\in \mathbb {F}]]></fr:tex>. Similarly,
+<fr:tex display="block"><![CDATA[\beta _{j_{1}}\beta _{j_{2}}=\sum _{j}b_{j}\beta _{j}]]></fr:tex>
+for some <fr:tex display="inline"><![CDATA[b_{j}\in \mathbb {F}]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[\alpha _{i_{1}}\alpha _{i_{2}}\beta _{j_{1}}\beta _{j_{2}}=\sum _{i,j}a_{i}b_{j}\alpha _{i}\beta _{j}\in  R.]]></fr:tex>
+Since the product <fr:tex display="inline"><![CDATA[xy]]></fr:tex> is a linear combination of elements of this form, it follows that <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a subring of <fr:tex display="inline"><![CDATA[\mathbb {L}]]></fr:tex>.</html:p>
+<html:p>(2) We have <fr:tex display="inline"><![CDATA[R\subseteq \Bbbk _{1}\Bbbk _{2}]]></fr:tex> since <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a linear combination of <fr:tex display="inline"><![CDATA[\alpha _{i}\beta _{j}]]></fr:tex>.</html:p>
+<html:p>If <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a field, then <fr:tex display="inline"><![CDATA[\Bbbk _{1}\Bbbk _{2}\subseteq  R]]></fr:tex> which will prove the claim. So we will now prove <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a field.</html:p>
+<html:p><html:strong>Claim 1:</html:strong> Every element of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\Bbbk _{1}/\mathbb {F}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Bbbk _{2}/\mathbb {F}]]></fr:tex> are algebraic extensions, <fr:tex display="inline"><![CDATA[\alpha _{i}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta _{j}]]></fr:tex> are algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:link href="/nt-0015/" title="Algebraic elements over a field forms a field" uri="http://localhost:8000/nt-0015/" display-uri="nt-0015" type="local">we know</fr:link> so are <fr:tex display="inline"><![CDATA[\alpha _{i}\beta _{j}]]></fr:tex> and their <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>-linear combinations <fr:tex display="inline"><![CDATA[\sum _{i,j}c_{i,j}\alpha _{i}\beta _{j}]]></fr:tex> for <fr:tex display="inline"><![CDATA[c_{i,j}\in \mathbb {F}]]></fr:tex>. Hence every element of <fr:tex display="inline"><![CDATA[R]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+<html:p><html:strong>Claim 2:</html:strong> <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a field. Let <fr:tex display="inline"><![CDATA[\gamma \in  R]]></fr:tex> be nonzero. Since <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, it follows that <fr:tex display="inline"><![CDATA[\mathbb {F}(\gamma )]]></fr:tex> is the image of <fr:tex display="inline"><![CDATA[\mathbb {F}[x]\to \mathbb {L}]]></fr:tex> sending <fr:tex display="inline"><![CDATA[f(x)\mapsto  f(\gamma )]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[p(\gamma )\in  R]]></fr:tex> for any <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[F(\gamma )\subseteq  R]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[F(\gamma )]]></fr:tex> is a field, we see <fr:tex display="inline"><![CDATA[\gamma ^{-1}\in  R]]></fr:tex>. This, taken together with claim 1, shows that <fr:tex display="inline"><![CDATA[R]]></fr:tex> is a field. Hence <fr:tex display="inline"><![CDATA[R=\Bbbk _{1}\Bbbk _{2}]]></fr:tex>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nt-001C/</fr:uri>
+                <fr:display-uri>nt-001C</fr:display-uri>
+                <fr:route>/nt-001C/</fr:route>
+                <fr:title text="Composite Field of Simple Extensions of Rational Numbers">Composite Field of Simple Extensions of Rational Numbers</fr:title>
+                <fr:taxon>example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Consider the two simple extensions <fr:tex display="inline"><![CDATA[\mathbb {Q}(\sqrt {5})/\mathbb {Q}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {Q}(\sqrt [7]{2})/\mathbb {Q}]]></fr:tex>. Then their composite field is an algebraic extension. We can draw a diagram of the field extensions with edges labeled by the <fr:link href="/nt-000J/" title="Degree of extension" uri="http://localhost:8000/nt-000J/" display-uri="nt-000J" type="local">degrees</fr:link> of the extensions:</html:p>
+  <html:center><fr:resource hash="5ebe76ff0e162598651d8881d590636a"><fr:resource-content><html:img src="/5ebe76ff0e162598651d8881d590636a.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {quiver, amsopn, amssymb, mathrsfs}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    & \ar[dl, "7", dash] \mathbb {Q}(\sqrt {5},\sqrt [7]{2}) \ar[dr, "2", dash] & \\
+\mathbb {Q}(\sqrt {5}) \ar[dr, "2", dash] & & \ar[dl, "7", dash] \mathbb {Q}(\sqrt [7]{2})\\
+    &   \mathbb {Q}   &
+  \end {tikzcd}]]></fr:resource-source></fr:resource></html:center>
+<html:p>We see <fr:tex display="inline"><![CDATA[\sqrt [7]{2}]]></fr:tex> is a root of <fr:tex display="inline"><![CDATA[x^{7}-2]]></fr:tex> which is irreducible over <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. We also see that the degree
+<fr:tex display="block"><![CDATA[[\mathbb {Q}(\sqrt {5}\sqrt [7]{2}) : \mathbb {Q}(\sqrt {5})]=7,]]></fr:tex>
+which is the degree of the minimal polynomial of <fr:tex display="inline"><![CDATA[\sqrt [7]{2}]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {Q}(\sqrt {5})]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[x^{7}-2]]></fr:tex> must be this minimal polynomial. In particular, <fr:tex display="inline"><![CDATA[x^{7}-2]]></fr:tex> is irreducible over <fr:tex display="inline"><![CDATA[\mathbb {Q}(\sqrt {5})]]></fr:tex>.</html:p></fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-000T/</fr:uri>
+            <fr:display-uri>nt-000T</fr:display-uri>
+            <fr:route>/nt-000T/</fr:route>
+            <fr:title text="Algebraic Element">Algebraic Element</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source">Dummit and Foote <fr:link href="/dummit-2004-abstract/" title="Abstract Algebra" uri="http://localhost:8000/dummit-2004-abstract/" display-uri="dummit-2004-abstract" type="local">Abstract Algebra</fr:link> Section 13.2</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link>. An element <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> is called <html:dfn>Algebraic Over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex></html:dfn> if there is some nonzero <fr:tex display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p(\alpha )=0]]></fr:tex>. Otherwise we say <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is <html:dfn>Transcendental</html:dfn> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</html:p>
+            <html:p>When all elements of <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> are algebraic elements over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we say the field extension <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is an <html:dfn>Algebraic Extension</html:dfn>. Otherwise we say <fr:tex display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a <html:dfn>Transcendental Extension</html:dfn>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-000Y/</fr:uri>
+            <fr:display-uri>nt-000Y</fr:display-uri>
+            <fr:route>/nt-000Y/</fr:route>
+            <fr:title text="An element is algebraic iff it is the primitive element of a finite extension">An element is algebraic iff it is the primitive element of a finite extension</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Let <fr:tex display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>, let <fr:tex display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a field over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is <fr:link href="/nt-000T/" title="Algebraic Element" uri="http://localhost:8000/nt-000T/" display-uri="nt-000T" type="local">algebraic</fr:link> over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> if and only if <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha ) / \mathbb {F}]]></fr:tex> is a <fr:link href="/nt-000J/" title="Degree of extension" uri="http://localhost:8000/nt-000J/" display-uri="nt-000J" type="local">finite extension</fr:link>.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Obvious, since <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> being algebraic over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]]]></fr:tex> is finite.</html:p>
+<html:p><fr:tex display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suppose <fr:tex display="inline"><![CDATA[[\mathbb {F}(\alpha ) : \mathbb {F}]]]></fr:tex> is finite. Define
+<fr:tex display="block"><![CDATA[\begin {split}T\colon &\mathbb {F}(\alpha )\to \mathbb {F}(\alpha )\\
+&x\mapsto \alpha  x\end {split}]]></fr:tex>
+Then <fr:tex display="inline"><![CDATA[T]]></fr:tex> is a linear operator on a finite-diumensional vector space. So it has a <fr:link href="/iaa-0009/" title="Traditional Introduction to Modules" uri="http://localhost:8000/iaa-0009/" display-uri="iaa-0009" type="local">minimal polynomial as a linear operator</fr:link>. Let <fr:tex display="inline"><![CDATA[m(x)]]></fr:tex> be this minimal polynomial for <fr:tex display="inline"><![CDATA[T]]></fr:tex>. We find <fr:tex display="inline"><![CDATA[m(T)]]></fr:tex> sends <fr:tex display="inline"><![CDATA[x\mapsto  m(\alpha )x]]></fr:tex>, but we also know <fr:tex display="inline"><![CDATA[m(\alpha )=0]]></fr:tex> by the <fr:link href="/ra-0052/" title="Cayley-Hamilton theorem" uri="http://localhost:8000/ra-0052/" display-uri="ra-0052" type="local">Cayley-Hamilton theorem</fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nt-000N/</fr:uri>
+            <fr:display-uri>nt-000N</fr:display-uri>
+            <fr:route>/nt-000N/</fr:route>
+            <fr:title text="Simple Field Extension">Simple Field Extension</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A <html:dfn>Simple Field Extension</html:dfn> is a <fr:link href="/nt-000F/" title="Field extension" uri="http://localhost:8000/nt-000F/" display-uri="nt-000F" type="local">Field extension</fr:link> <fr:link href="/nt-000M/" title="Field Generated by elements" uri="http://localhost:8000/nt-000M/" display-uri="nt-000M" type="local">generated</fr:link> by a single element <fr:tex display="inline"><![CDATA[\mathbb {F}(\alpha )]]></fr:tex>. We call <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> a <html:dfn>Primitive Element</html:dfn>.</html:p>
+            <html:p><html:strong>Fact:</html:strong> If <fr:tex display="inline"><![CDATA[\mathop {\textrm {char}}\nolimits (\mathbb {F})=0]]></fr:tex>, then all finite extensions of <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> are simple.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

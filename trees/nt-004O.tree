@@ -1,0 +1,14 @@
+\title{Galois group of number field acts transitively on any prime factor of an ideal}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{proposition}
+\import{nt-004L}
+
+\p{Let #{\kk} be a [[nt-004K]], let #{(p)\ideal\AlgInt{\kk}} be a principal ideal of the algebraic integers of #{\kk}, suppose we have the prime factorization of #{(p)} into
+##{(p)=P_{1}^{e_{1}}(\dots)P_{r}^{e_{r}}}
+where #{P_{i}\ideal\AlgInt{\kk}} are distinct prime ideals.}
+\p{Then #{\Gal(\kk / \QQ)} acts transitively on the prime ideals #{P_{i}}. Moreover, for each #{P_{i}}, we have #{P_{i}\cap\ZZ=p\ZZ}.}
+
+\rmk{\p{(1) [[nt-004N]] plus this proposition implies all the powers #{e_{i}} of the factorization of an ideal are equal to each other #{e_{i}=e_{j}} for all #{i}, #{j}. This exponent is called the \define{Ramification Index}.}
+\p{(2) In this situation, we say that a prime ideal #{P\ideal\AlgInt{\kk}} \define{Lies Above #{p}} if #{P} occurs in the factorization of the principal ideal #{(p)}.}}

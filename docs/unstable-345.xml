@@ -7,26 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9604</fr:anchor><fr:addr
-type="machine">#345</fr:addr><fr:route>unstable-345.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>723</fr:anchor><fr:addr
+type="machine">#345</fr:addr><fr:route>unstable-345.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
-display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite by <fr:link
-type="local"
-href="nst-001Y.xml"
-addr="nst-001Y"
-title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This notion is well-defined when <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide any of the <fr:tex
+display="inline"><![CDATA[n_{j}]]></fr:tex> (orders of the roots that are taken).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -41,19 +31,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9606</fr:anchor><fr:addr
-type="user">nst-001Z</fr:addr><fr:route>nst-001Z.xml</fr:route><fr:title
-text="{Q} is countable"><fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countable</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>725</fr:anchor><fr:addr
+type="user">nt-004D</fr:addr><fr:route>nt-004D.xml</fr:route><fr:title
+text="Root Extension">Root Extension</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
-type="local"
-href="baby-rudin.xml"
-addr="baby-rudin"
-title="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:link>, Corollary to Theorem 2.13</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>The set of rational numbers is countably infinite.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is a field of characteristic zero. Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a finite extension. We say <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is a <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Root Extension</html:dfn> if there exists subfields
+<fr:tex
+display="block"><![CDATA[\mathbb {F}=K_{0}\subset  K_{1}\subset …\subset  K_{i}\subset  K_{i+1}\subset …\subset  K_{s}=\Bbbk ]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[K_{i+1}=K_{i}(a_{j}^{1/n_{j}})]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[a_{i}\in  K_{i}]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i=0,1,…,s-1]]></fr:tex>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we say it can be <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Expressed by Radicals</html:dfn> if <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> lies in a root extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -63,25 +62,15 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2895</fr:anchor><fr:addr
-type="machine">#345</fr:addr><fr:route>unstable-345.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>621</fr:anchor><fr:addr
+type="machine">#345</fr:addr><fr:route>unstable-345.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We form the countably infinite family <fr:tex
-display="inline"><![CDATA[E_{n}=\{z/n\in \mathbb {Q}\mid  z\in \mathbb {Z},\gcd (z,n)=1\}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> is a positive integer. Each member is bijective with the integers, which is countably infinite. Then
-<fr:tex
-display="block"><![CDATA[S=\bigcup ^{\infty }_{n=1}E_{n}]]></fr:tex>
-is countably infinite by <fr:link
-type="local"
-href="nst-001Y.xml"
-addr="nst-001Y"
-title="Cantor's diagonal argument">Cantor's diagonal argument</fr:link>, and <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> bijective to the set <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is countably infinite.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This notion is well-defined when <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> does not divide any of the <fr:tex
+display="inline"><![CDATA[n_{j}]]></fr:tex> (orders of the roots that are taken).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

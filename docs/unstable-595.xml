@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4588</fr:anchor><fr:addr
+type="machine">#595</fr:addr><fr:route>unstable-595.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Matrix similarity form an <fr:link
+type="local"
+href="nst-0011.xml"
+addr="nst-0011"
+title="Equivalence relation">equivalence relation</fr:link> on the set of all <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4590</fr:anchor><fr:addr
+type="user">matrix-002B</fr:addr><fr:route>matrix-002B.xml</fr:route><fr:title
+text="Similar Matrices">Similar Matrices</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbf {A}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbf {B}]]></fr:tex> be two <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices. We say they are <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Similar</html:dfn>, denoted <fr:tex
+display="inline"><![CDATA[\mathbf {A}\sim \mathbf {B}]]></fr:tex>, if there exists an <fr:link
+type="local"
+href="matrix-001C.xml"
+addr="matrix-001C"
+title="Matrix Inverse">invertible <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrix</fr:link> <fr:tex
+display="inline"><![CDATA[\mathbf {X}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathbf {A}=\mathbf {X}\mathbf {B}\mathbf {X}^{-1}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4592</fr:anchor><fr:addr
+type="machine">#595</fr:addr><fr:route>unstable-595.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Matrix similarity form an <fr:link
+type="local"
+href="nst-0011.xml"
+addr="nst-0011"
+title="Equivalence relation">equivalence relation</fr:link> on the set of all <fr:tex
+display="inline"><![CDATA[n\times  n]]></fr:tex> matrices.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

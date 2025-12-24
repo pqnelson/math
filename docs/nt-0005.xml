@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8881</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11676</fr:anchor><fr:addr
 type="user">nt-0005</fr:addr><fr:route>nt-0005.xml</fr:route><fr:title
 text="Euler totient">Euler totient</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -41,9 +41,9 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8883</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11678</fr:anchor><fr:addr
 type="user">dummit-2004-abstract</fr:addr><fr:route>dummit-2004-abstract.xml</fr:route><fr:title
-text="Abstract Algebra">Abstract Algebra</fr:title><fr:taxon>Reference</fr:taxon><fr:authors><fr:author><fr:link
+text="Abstract Algebra">Abstract Algebra</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2004</fr:year></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="david-s-dummit.xml"
 addr="david-s-dummit"
@@ -73,7 +73,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8886</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11681</fr:anchor><fr:addr
 type="user">iaa-0002</fr:addr><fr:route>iaa-0002.xml</fr:route><fr:title
 text="Review of the integers">Review of the integers</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -86,7 +86,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1574</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3886</fr:anchor><fr:addr
 type="user">nt-0001</fr:addr><fr:route>nt-0001.xml</fr:route><fr:title
 text="Well-ordering principle">Well-ordering principle</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -106,7 +106,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1576</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3888</fr:anchor><fr:addr
 type="user">nt-0002</fr:addr><fr:route>nt-0002.xml</fr:route><fr:title
 text="Division algorithm">Division algorithm</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -135,7 +135,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1578</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3890</fr:anchor><fr:addr
 type="user">nt-0003</fr:addr><fr:route>nt-0003.xml</fr:route><fr:title
 text="Greatest common divisor">Greatest common divisor</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -172,7 +172,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1580</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3892</fr:anchor><fr:addr
 type="user">nt-0004</fr:addr><fr:route>nt-0004.xml</fr:route><fr:title
 text="Unique prime factorization">Unique prime factorization</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -203,7 +203,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1582</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3894</fr:anchor><fr:addr
 type="user">nt-0005</fr:addr><fr:route>nt-0005.xml</fr:route><fr:title
 text="Euler totient">Euler totient</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -229,7 +229,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1584</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3896</fr:anchor><fr:addr
 type="user">nt-0006</fr:addr><fr:route>nt-0006.xml</fr:route><fr:title
 text="Euler totient is multiplicative on products of coprime numbers">Euler totient is multiplicative on products of coprime numbers</fr:title><fr:taxon>Exercise</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -245,7 +245,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1586</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3898</fr:anchor><fr:addr
 type="user">nt-0007</fr:addr><fr:route>nt-0007.xml</fr:route><fr:title
 text="Quotient set">Quotient set</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -279,7 +279,7 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1588</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3900</fr:anchor><fr:addr
 type="user">nt-0008</fr:addr><fr:route>nt-0008.xml</fr:route><fr:title
 text="Integers modulo n">Integers modulo <fr:tex
 display="inline"><![CDATA[n]]></fr:tex></fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -306,4 +306,126 @@ display="inline"><![CDATA[a\sim  b\iff  n\mathrel {\bigm |}(b-a)\iff  n\mathrel 
 display="inline"><![CDATA[\mathbb {Z} /\mathord {\sim }]]></fr:tex> is often denoted <fr:tex
 display="inline"><![CDATA[\mathbb {Z} / n\mathbb {Z}]]></fr:tex>. Moreover, there are well-defined operations <fr:tex
 display="inline"><![CDATA[[a]+[b]=[a+b]]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[[a]\cdot [b]=[a\cdot  b]]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+display="inline"><![CDATA[[a]\cdot [b]=[a\cdot  b]]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11683</fr:anchor><fr:addr
+type="user">nt-002F</fr:addr><fr:route>nt-002F.xml</fr:route><fr:title
+text="Cyclotomic polynomial">Cyclotomic polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Primitive</html:dfn> <fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> roots of unity are the <fr:tex
+display="inline"><![CDATA[\zeta \in \mu _{n}]]></fr:tex> such that they generate the group <fr:tex
+display="inline"><![CDATA[\langle \zeta \rangle =\mu _{n}]]></fr:tex>.</fr:p><fr:p>The <fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Cyclotomic Polynomial</html:dfn> is defined as
+<fr:tex
+display="block"><![CDATA[\Phi _{n}(x)=\prod _{\substack {\zeta \in \mu _{n}\\\zeta \text { primitive}}}(x-\zeta ).]]></fr:tex></fr:p><fr:p><fr:strong>Exercise 1:</fr:strong> When <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is prime, prove every element of <fr:tex
+display="inline"><![CDATA[\mu _{p}]]></fr:tex> is primitive.</fr:p><fr:p><fr:strong>Exercise 2:</fr:strong> When <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> is prime, prove
+<fr:tex
+display="block"><![CDATA[\Phi _{p}(x)=\frac {x^{p}-1}{x-1}=x^{p-1}+x^{p-2}+…+x+1.]]></fr:tex></fr:p><fr:p><fr:strong>Exercise 3:</fr:strong> Prove <fr:tex
+display="inline"><![CDATA[\deg (\Phi _{n}(x))=\phi (n)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\phi (n)]]></fr:tex> is the <fr:link
+type="local"
+href="nt-0005.xml"
+addr="nt-0005"
+title="Euler totient">Euler totient</fr:link> function.</fr:p><fr:p><fr:strong>Exercise 4:</fr:strong> Prove
+<fr:tex
+display="block"><![CDATA[x^{n}-1=\sum _{\zeta \in \mu _{n}}(x-\zeta )=\prod _{d\mathrel {\bigm |} n}\prod _{\text {prim }\zeta \in \mu _{d}}(x-\zeta )=\prod _{d\mathrel {\bigm |} n}\Phi _{d}(x).]]></fr:tex></fr:p><fr:p><fr:strong>Exercise 5:</fr:strong> Prove <fr:tex
+display="inline"><![CDATA[\Phi _{4}(x)=x^{2}+1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\Phi _{6}(x)=x^{2}-x+1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\Phi _{8}(x)=x^{4}+1]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\Phi _{9}(x)=x^{6}+x^{3}+1]]></fr:tex>. (Hint: use exercise 4 and calculate <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[n=4,6,8,9]]></fr:tex>.)</fr:p><fr:p><fr:strong>Caution:</fr:strong> it is false that all coefficients of <fr:tex
+display="inline"><![CDATA[\Phi _{n}(x)]]></fr:tex> are <fr:tex
+display="inline"><![CDATA[\pm 1]]></fr:tex> or 0. But the first counter-example appears at <fr:tex
+display="inline"><![CDATA[n=105]]></fr:tex> which has two terms with coefficient <fr:tex
+display="inline"><![CDATA[-2]]></fr:tex>. However, it is true that all coefficients of every Cyclotomic polynomial are integers.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>11685</fr:anchor><fr:addr
+type="user">nt-002H</fr:addr><fr:route>nt-002H.xml</fr:route><fr:title
+text="Degree of rationals adjoined with n^{{th}} root of unity is given by Euler totient of n">Degree of rationals adjoined with <fr:tex
+display="inline"><![CDATA[n^{\text {th}}]]></fr:tex> root of unity is given by Euler totient of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex></fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We claim
+<fr:tex
+display="block"><![CDATA[[\mathbb {Q}(\zeta _{n}) : \mathbb {Q}]=\phi (n)]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\phi (n)]]></fr:tex> is the <fr:link
+type="local"
+href="nt-0005.xml"
+addr="nt-0005"
+title="Euler totient">Euler totient</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1065</fr:anchor><fr:addr
+type="machine">#386</fr:addr><fr:route>unstable-386.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The proof is based loosely on two ideas:
+<fr:ol><fr:li>We may compare the factorization of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> with that of <fr:tex
+display="inline"><![CDATA[x^{n}-1]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[p\nmid  n]]></fr:tex>.</fr:li>
+<fr:li>Investigate how automorphisms of a finite field permute the roots of polynomials.</fr:li></fr:ol>
+More about the second idea: suppose <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is a polynomial over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[F(x)=f(x)g(x)]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[f(x),g(x)\in \mathbb {F}_{p}[x]]]></fr:tex>. The splitting field of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p^{n}}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, and the Frobenius morphism <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> is an automorphism of this splitting field. Since <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is the identity function on <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>, it must permute the roots of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex> is a root of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\phi (\alpha )=\alpha ^{p}]]></fr:tex> is a root of either <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[g(x)]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[g(\alpha ^{p})=g(\alpha )^{p}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[g(\alpha ^{p})=0]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[g(\alpha )=0]]></fr:tex>. So if <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> is separable, then the Frobenius morphism permutes the roots of different factors of <fr:tex
+display="inline"><![CDATA[F(x)]]></fr:tex> separately.</fr:p>
+<fr:p>Studying how automorphisms of a splitting field for a polynomial acts on the roots of the polynomial naturally leads to Galois theory.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

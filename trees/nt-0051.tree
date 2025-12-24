@@ -1,0 +1,12 @@
+\title{Examples of transcendental field extensions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+
+\ol{
+\li{We see the field of rational functions in two unknowns with rational coefficients #{\QQ(t_{1},t_{2})} is purely transcendental over #{\QQ} and has transcendental degree equal to 2.}
+\li{Although both #{\QQ(\pi) / \QQ} and #{\QQ(\E) / \QQ} are both purely transcendental. However, it is not known if #{\QQ(\pi,\E) / \QQ} is purely transcendental (i.e., there may be some nonconstant polynomial #{f(x,y)\in\QQ[x,y]} such that #{f(\E,\pi)=0}): this is still an open problem.}
+\li{Let #{C\subset\CC^{2}} be the algebraic curve given by #{\{(a,b)\in\CC^{2}\mid f(a,b)=0\}} for some irreducible #{f\in\CC[x,y]}. Then #{A=\CC[x,y]/(f(x,y))} is the set of all polynomial functions on #{C}, and its fraction field #{K} corresponds to the rational functions on #{C}. Then #{K} is a field of transcendental degree 1 over #{\CC}, but it is not purely transcendental.}
+}
+
+\rmk{This last example leads naturally to algebraic geometry. The classic text to classical algebraic geometry is Griffiths' \textit{Introduction to Algebraic Curves}.}

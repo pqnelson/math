@@ -1,0 +1,16 @@
+\title{Decomposition subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+\import{nt-004L}
+
+\p{Let #{P\ideal\AlgInt{\kk}} be a prime ideal [over #{p\in\ZZ}](nt-004O). Then the \define{Decomposition Subgroup} of #{\Gal(\kk / \QQ)} is
+##{D_{P}=\{\sigma\in\Gal(\kk / \QQ)\mid \sigma(P)=P\}}
+the elements of the Galois group leaving #{P} invariant.}
+
+\rmk{\p{When #{P\ideal\AlgInt{\kk}} is lying over #{p\in\ZZ}, then #{\AlgInt{\kk}/P} is a finite field containing #{\FF_{p}\iso\ZZ / p\ZZ}, so #{\AlgInt{\kk}/P\iso\FF_{q}} for some #{q=p^{m}}.}
+\p{If #{\sigma\in D_{P}}, then it induces a field automorphism
+##{\begin{split}\overline{\sigma}\colon&\AlgInt{\kk}/P\to\AlgInt{\kk}/P\\
+&x+P\mapsto\sigma(x)+P\end{split}}
+Therefore there is a map #{D_{P}\to\Gal(\FF_{q}/\FF_{p})} sending #{\sigma\mapsto\overline{\sigma}}.}}

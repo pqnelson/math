@@ -1,0 +1,8 @@
+\title{Simple extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{review}
+
+\transclude{nt-000N}
+\rmk{If #{\FF} is a finite field, then every extension is simple (Really? Prove it! What about infinite extensions?). But what is some good criteria for #{\FF} infinite?}

@@ -7,13 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4765</fr:anchor><fr:addr
-type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2552</fr:anchor><fr:addr
+type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This definition can be generalized to any nonempty multiplicative magma.</fr:p>
-<fr:p>(2) There is no standard term for this product. Historically, van der Waerden called it the "complex product" (or "products of complexes"). Others have called it the Frobenius product.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to have first appeared in Ferdinand Georg Frobenius's "Über Beziehungen zwischen den Primidealen eines algebraischen Körpers und den Substitutionen seiner Gruppe" (<fr:em>Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin</fr:em> <fr:strong>2</fr:strong> (1896) 689–703; reprinted in his <fr:em>Gesammelte Abhandlungen</fr:em> [Collected Papers], Springer, vol. 2, 1968, pages 719-733).</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -28,29 +27,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4767</fr:anchor><fr:addr
-type="user">gr-0032</fr:addr><fr:route>gr-0032.xml</fr:route><fr:title
-text="Product of subsets of a group">Product of subsets of a group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2554</fr:anchor><fr:addr
+type="user">nt-0022</fr:addr><fr:route>nt-0022.xml</fr:route><fr:title
+text="Frobenius morphism">Frobenius morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
 name="source">MML <fr:link
 type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_2.html#K2">group_2:def 2</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>, let <fr:tex
-display="inline"><![CDATA[A]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[B]]></fr:tex> be subsets of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. We define their <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Product</html:dfn> to be the subset <fr:tex
-display="inline"><![CDATA[AB]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> equal to
+href="https://mizar.uwb.edu.pl/version/current/html/field_16.html#K5">field_16:def 6</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field of characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex>. The <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Frobenius Morphism</html:dfn> is
 <fr:tex
-display="block"><![CDATA[AB=\{ab\in  G\mid  a\in  A,b\in  B\}.]]></fr:tex></fr:p>
+display="block"><![CDATA[\begin {split}\phi \colon &\mathbb {F}\to \mathbb {F}\\ &x\mapsto  x^{p}\end {split}]]></fr:tex>
+Moreover, this is a field morphism.</fr:p>
  
    
    <fr:tree
@@ -60,12 +52,45 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1702</fr:anchor><fr:addr
-type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1001</fr:anchor><fr:addr
+type="machine">#402</fr:addr><fr:route>unstable-402.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This definition can be generalized to any nonempty multiplicative magma.</fr:p>
-<fr:p>(2) There is no standard term for this product. Historically, van der Waerden called it the "complex product" (or "products of complexes"). Others have called it the Frobenius product.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We just need to prove this is a field morphism. It's clear <fr:tex
+display="inline"><![CDATA[\phi (1)=1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\phi (xy)=xy]]></fr:tex>. We see:
+<fr:tex
+display="block"><![CDATA[\begin {align*} \phi (x+y) &= (x+y)^{p}\\ &= x^{p}+\binom {p}{1}x^{p-1}y+\binom {p}{2}x^{p-2}y^{2}+…+\binom {p}{1}xy^{p-1}+y^{p} \end {align*}]]></fr:tex>
+We see if <fr:tex
+display="inline"><![CDATA[0<k<p]]></fr:tex>, the numerator of the binomial coefficient <fr:tex
+display="inline"><![CDATA[\binom {p}{k}]]></fr:tex> is divisible by <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, but not its denominator. Since <fr:tex
+display="inline"><![CDATA[\binom {p}{k}]]></fr:tex> is an integer, it must be a multiple of <fr:tex
+display="inline"><![CDATA[p]]></fr:tex>, hence equal to 0 in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Therefore
+<fr:tex
+display="block"><![CDATA[\phi (x+y)=x^{p}+y^{p}=\phi (x)+\phi (y).]]></fr:tex>
+Hence <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is a field morphism.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1003</fr:anchor><fr:addr
+type="machine">#403</fr:addr><fr:route>unstable-403.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This seems to have first appeared in Ferdinand Georg Frobenius's "Über Beziehungen zwischen den Primidealen eines algebraischen Körpers und den Substitutionen seiner Gruppe" (<fr:em>Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin</fr:em> <fr:strong>2</fr:strong> (1896) 689–703; reprinted in his <fr:em>Gesammelte Abhandlungen</fr:em> [Collected Papers], Springer, vol. 2, 1968, pages 719-733).</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

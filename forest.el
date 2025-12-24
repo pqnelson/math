@@ -90,6 +90,7 @@
       (if (string-suffix-p ".tree" file-name)
           (find-file file-name)
           (find-file (format "%s.tree" file-name))))
+    (cd forest-tree-dir)
     (insert "\\title{}\n")
     (insert (format "\\author{%s}\n" forest-author-name))
     (insert "\\import{notation}\n")

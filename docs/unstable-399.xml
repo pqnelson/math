@@ -7,12 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4749</fr:anchor><fr:addr
-type="machine">#399</fr:addr><fr:route>unstable-399.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2319</fr:anchor><fr:addr
+type="machine">#399</fr:addr><fr:route>unstable-399.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This reflects how morphisms contain all the interesting information about constructions.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Consider the example where we were <fr:link
+type="local"
+href="nt-0024.xml"
+addr="nt-0024"
+title="Finding the roots of a polynomial over a finite field">Finding the roots of a polynomial over a finite field</fr:link>. All the roots for the polynomial were "inseparable" (i.e., they were "the same" when our intuition from the fundamental theorem of algebra would mislead us into thinking there were <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> roots). This is the motivation for the terminology here.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -27,26 +32,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4751</fr:anchor><fr:addr
-type="user">gr-003U</fr:addr><fr:route>gr-003U.xml</fr:route><fr:title
-text="Universal property of product groups">Universal property of product groups</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2321</fr:anchor><fr:addr
+type="user">nt-0025</fr:addr><fr:route>nt-0025.xml</fr:route><fr:title
+text="Separable Polynomial">Separable Polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathcal {F}=\{F_{i}\}_{i\in  I}]]></fr:tex> be an indexed family of groups. For any group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> and for any family of <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A polynomial <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> over a field <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Separable</html:dfn> if its roots are all distinct in its <fr:link
 type="local"
-href="gr-000T.xml"
-addr="gr-000T"
-title="Group Morphism">Group Morphism</fr:link>s <fr:tex
-display="inline"><![CDATA[\varphi _{i}\colon  G\to  F_{i}]]></fr:tex>, there exists a unique morphism <fr:tex
-display="inline"><![CDATA[\varphi \colon  G\to \prod \mathcal {F}]]></fr:tex> such that for each <fr:tex
-display="inline"><![CDATA[i\in  I]]></fr:tex> we have <fr:tex
-display="inline"><![CDATA[\pi _{i}\circ \varphi =\varphi _{i}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[\pi _{i}(x)=x_{i}]]></fr:tex> is the projection onto the <fr:tex
-display="inline"><![CDATA[i^{\text {th}}]]></fr:tex> factor of the product group <fr:tex
-display="inline"><![CDATA[\pi _{i}\colon \prod \mathcal {F}\to  F_{i}]]></fr:tex>.</fr:p>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Otherwise, we say <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Inseparable</html:dfn>.</fr:p>
  
    
    <fr:tree
@@ -56,11 +58,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1948</fr:anchor><fr:addr
-type="machine">#399</fr:addr><fr:route>unstable-399.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1015</fr:anchor><fr:addr
+type="machine">#399</fr:addr><fr:route>unstable-399.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This reflects how morphisms contain all the interesting information about constructions.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>Consider the example where we were <fr:link
+type="local"
+href="nt-0024.xml"
+addr="nt-0024"
+title="Finding the roots of a polynomial over a finite field">Finding the roots of a polynomial over a finite field</fr:link>. All the roots for the polynomial were "inseparable" (i.e., they were "the same" when our intuition from the fundamental theorem of algebra would mislead us into thinking there were <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> roots). This is the motivation for the terminology here.</fr:mainmatter><fr:backmatter /></fr:tree>
  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:p><fr:strong>Puzzle:</fr:strong> do we need to find the splitting field for <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> to determine if it's separable or not?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

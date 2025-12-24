@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9891</fr:anchor><fr:addr
+type="machine">#522</fr:addr><fr:route>unstable-522.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This generalizes to any commutative unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link> or even ringoid instead of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9893</fr:anchor><fr:addr
+type="user">gr-0014</fr:addr><fr:route>gr-0014.xml</fr:route><fr:title
+text="Determinant is a group morphism">Determinant is a group morphism</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a <fr:link
+type="local"
+href="field-0001.xml"
+addr="field-0001"
+title="Field">Field</fr:link>, let <fr:tex
+display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. The <fr:link
+type="local"
+href="determinant-000D.xml"
+addr="determinant-000D"
+title="Determinant of linear operator">determinant</fr:link> <fr:tex
+display="inline"><![CDATA[\det \colon \mathop {\textrm {GL}}\nolimits _{n}(\mathbb {F})\to \mathbb {F}^{\times }]]></fr:tex> is a <fr:link
+type="local"
+href="gr-000T.xml"
+addr="gr-000T"
+title="Group Morphism">Group Morphism</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4206</fr:anchor><fr:addr
+type="machine">#521</fr:addr><fr:route>unstable-521.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
+type="local"
+href="determinant-000E.xml"
+addr="determinant-000E"
+title="Properties of the determinant">Properties of the determinant</fr:link>, specifically property (8), and elements of <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {GL}}\nolimits _{n}(\mathbb {F})]]></fr:tex> have nonzero determinant.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4208</fr:anchor><fr:addr
+type="machine">#522</fr:addr><fr:route>unstable-522.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This generalizes to any commutative unital <fr:link
+type="local"
+href="ring-0001.xml"
+addr="ring-0001"
+title="Ring">ring</fr:link> or even ringoid instead of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

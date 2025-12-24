@@ -5,3 +5,7 @@
 \taxon{theorem}
 
 \p{Any finite [Abelian extension](nt-003S) of #{\QQ} is contained in some cyclotomic field.}
+
+\rmk{\p{(1) This is a difficult theorem in algebraic number theory requiring class field theory. We won't prove this theorem.}
+\p{(2) If #{\kk / \QQ} is Abelian, then #{\kk=\QQ(\alpha)} where #{\alpha} is some rational function of #{n^{\text{th}}} roots of unity #{\zeta_{n}}.}
+\p{(3) How to generalize this to arbitrary quadratic extensions over #{\QQ} and how to find them? This remains an open problem.}}

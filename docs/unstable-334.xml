@@ -7,38 +7,12 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>525</fr:anchor><fr:addr
-type="machine">#334</fr:addr><fr:route>unstable-334.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>657</fr:anchor><fr:addr
+type="machine">#334</fr:addr><fr:route>unstable-334.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[\{1,\alpha ,…,\alpha ^{n-1}\}]]></fr:tex> spans <fr:tex
-display="inline"><![CDATA[\Bbbk ]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> as a vector space since it is the image of <fr:tex
-display="inline"><![CDATA[\{1,x,…,x^{n-1},…\}]]></fr:tex> and that spans <fr:tex
-display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> be the image of some <fr:tex
-display="inline"><![CDATA[b(x)\in \mathbb {F}[x]]]></fr:tex>. By the division algorithm,
-<fr:tex
-display="block"><![CDATA[b(x)=q(x)p(x)+r(x)]]></fr:tex>
-where <fr:tex
-display="inline"><![CDATA[0\leq \deg (r)<n=\deg (p)]]></fr:tex>. Observe if <fr:tex
-display="inline"><![CDATA[\alpha ]]></fr:tex> is the image of <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> under the quotient map, then
-<fr:tex
-display="block"><![CDATA[b(\alpha )=q(\alpha )\cdot 0+r(\alpha )=r(\alpha ).]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\deg (r)<n]]></fr:tex>, we have
-<fr:tex
-display="block"><![CDATA[b(\alpha )=c_{0}+c_{1}\alpha +…+c_{n-1}\alpha ^{n-1},]]></fr:tex>
-which implies <fr:tex
-display="inline"><![CDATA[b(\alpha )=\beta \in \mathop {\textrm {span}}\nolimits (1,\alpha ,…,\alpha ^{n-1})]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> was arbitrary, and we showed it was a linear combination of the proposed basis, we have obtained the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This last example leads naturally to algebraic geometry. The classic text to classical algebraic geometry is Griffiths' <fr:em>Introduction to Algebraic Curves</fr:em>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -53,31 +27,31 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>527</fr:anchor><fr:addr
-type="user">nt-000K</fr:addr><fr:route>nt-000K.xml</fr:route><fr:title
-text="Generic form a finite field extension">Generic form a finite field extension</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>659</fr:anchor><fr:addr
+type="user">nt-0051</fr:addr><fr:route>nt-0051.xml</fr:route><fr:title
+text="Examples of transcendental field extensions">Examples of transcendental field extensions</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
-type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 13.1.4</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field, let <fr:tex
-display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> be a nonconstant irreducible polynomial of degree <fr:tex
-display="inline"><![CDATA[\deg (p)=n]]></fr:tex>, and let <fr:tex
-display="inline"><![CDATA[\Bbbk =\mathbb {F}[x]/(p(x))]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> be the image of <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> under the quotient map
-<fr:tex
-display="block"><![CDATA[\pi \colon \mathbb {F}[x]\twoheadrightarrow \Bbbk ,]]></fr:tex>
-then <fr:tex
-display="inline"><![CDATA[\{1,\alpha ,…,\alpha ^{n-1}\}]]></fr:tex> is a basis for <fr:tex
-display="inline"><![CDATA[\Bbbk ]]></fr:tex> as a vector space over <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. In particular, <fr:tex
-display="inline"><![CDATA[[\Bbbk  : \mathbb {F}]=n]]></fr:tex>.</fr:p>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:ol><fr:li>We see the field of rational functions in two unknowns with rational coefficients <fr:tex
+display="inline"><![CDATA[\mathbb {Q}(t_{1},t_{2})]]></fr:tex> is purely transcendental over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> and has transcendental degree equal to 2.</fr:li>
+<fr:li>Although both <fr:tex
+display="inline"><![CDATA[\mathbb {Q}(\pi ) / \mathbb {Q}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathbb {Q}(\mathrm {e}) / \mathbb {Q}]]></fr:tex> are both purely transcendental. However, it is not known if <fr:tex
+display="inline"><![CDATA[\mathbb {Q}(\pi ,\mathrm {e}) / \mathbb {Q}]]></fr:tex> is purely transcendental (i.e., there may be some nonconstant polynomial <fr:tex
+display="inline"><![CDATA[f(x,y)\in \mathbb {Q}[x,y]]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[f(\mathrm {e},\pi )=0]]></fr:tex>): this is still an open problem.</fr:li>
+<fr:li>Let <fr:tex
+display="inline"><![CDATA[C\subseteq \mathbb {C}^{2}]]></fr:tex> be the algebraic curve given by <fr:tex
+display="inline"><![CDATA[\{(a,b)\in \mathbb {C}^{2}\mid  f(a,b)=0\}]]></fr:tex> for some irreducible <fr:tex
+display="inline"><![CDATA[f\in \mathbb {C}[x,y]]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[A=\mathbb {C}[x,y]/(f(x,y))]]></fr:tex> is the set of all polynomial functions on <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>, and its fraction field <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> corresponds to the rational functions on <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> is a field of transcendental degree 1 over <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex>, but it is not purely transcendental.</fr:li></fr:ol>
  
    
    <fr:tree
@@ -87,37 +61,11 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>529</fr:anchor><fr:addr
-type="machine">#334</fr:addr><fr:route>unstable-334.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>661</fr:anchor><fr:addr
+type="machine">#334</fr:addr><fr:route>unstable-334.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see <fr:tex
-display="inline"><![CDATA[\{1,\alpha ,…,\alpha ^{n-1}\}]]></fr:tex> spans <fr:tex
-display="inline"><![CDATA[\Bbbk ]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex> as a vector space since it is the image of <fr:tex
-display="inline"><![CDATA[\{1,x,…,x^{n-1},…\}]]></fr:tex> and that spans <fr:tex
-display="inline"><![CDATA[\mathbb {F}[x]]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
-<fr:p>Let <fr:tex
-display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> be the image of some <fr:tex
-display="inline"><![CDATA[b(x)\in \mathbb {F}[x]]]></fr:tex>. By the division algorithm,
-<fr:tex
-display="block"><![CDATA[b(x)=q(x)p(x)+r(x)]]></fr:tex>
-where <fr:tex
-display="inline"><![CDATA[0\leq \deg (r)<n=\deg (p)]]></fr:tex>. Observe if <fr:tex
-display="inline"><![CDATA[\alpha ]]></fr:tex> is the image of <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> under the quotient map, then
-<fr:tex
-display="block"><![CDATA[b(\alpha )=q(\alpha )\cdot 0+r(\alpha )=r(\alpha ).]]></fr:tex>
-Since <fr:tex
-display="inline"><![CDATA[\deg (r)<n]]></fr:tex>, we have
-<fr:tex
-display="block"><![CDATA[b(\alpha )=c_{0}+c_{1}\alpha +…+c_{n-1}\alpha ^{n-1},]]></fr:tex>
-which implies <fr:tex
-display="inline"><![CDATA[b(\alpha )=\beta \in \mathop {\textrm {span}}\nolimits (1,\alpha ,…,\alpha ^{n-1})]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> was arbitrary, and we showed it was a linear combination of the proposed basis, we have obtained the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This last example leads naturally to algebraic geometry. The classic text to classical algebraic geometry is Griffiths' <fr:em>Introduction to Algebraic Curves</fr:em>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

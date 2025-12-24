@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>19</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/ra-0046/</fr:uri>
+    <fr:display-uri>ra-0046</fr:display-uri>
+    <fr:route>/ra-0046/</fr:route>
+    <fr:title text="Exercises about hom-sets of modules">Exercises about hom-sets of modules</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a ring.</html:p>
+    <html:ol><html:li>Let <fr:tex display="inline"><![CDATA[X\in \mathop {\mathrm {Mat}}\nolimits _{n}(R)]]></fr:tex> be an <fr:tex display="inline"><![CDATA[n\times  n]]></fr:tex> matrix with entries in <fr:tex display="inline"><![CDATA[R]]></fr:tex>. If <fr:tex display="inline"><![CDATA[\det (X)\neq 0]]></fr:tex>, then is <fr:tex display="inline"><![CDATA[X]]></fr:tex> invertible as a matrix? (Does <fr:tex display="inline"><![CDATA[\det (X)]]></fr:tex> even make sense if <fr:tex display="inline"><![CDATA[R]]></fr:tex> is noncommutative?)</html:li>
+<html:li>For any <fr:tex display="inline"><![CDATA[m,n\in \mathbb {N}]]></fr:tex>, if <fr:tex display="inline"><![CDATA[R^{m}\cong  R^{n}]]></fr:tex> as modules, then is it true that <fr:tex display="inline"><![CDATA[m=n]]></fr:tex>?</html:li>
+<html:li>Does the notion of a <fr:link href="/vectsp-000T/" title="Basis of vector space" uri="http://localhost:8000/vectsp-000T/" display-uri="vectsp-000T" type="local">"basis"</fr:link> carry over to <fr:tex display="inline"><![CDATA[R^{n}]]></fr:tex>?</html:li></html:ol>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/vectsp-000T/</fr:uri>
+            <fr:display-uri>vectsp-000T</fr:display-uri>
+            <fr:route>/vectsp-000T/</fr:route>
+            <fr:title text="Basis of vector space">Basis of vector space</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="source"><fr:link href="/axler-1996-linear/" title="Linear Algebra Done Right" uri="http://localhost:8000/axler-1996-linear/" display-uri="axler-1996-linear" type="local">Linear Algebra Done Right</fr:link> Definition 2.26</fr:meta>
+            <fr:meta name="source"><fr:link href="/lankham-2016-linear/" title="Linear algebra as an introduction to abstract mathematics" uri="http://localhost:8000/lankham-2016-linear/" display-uri="lankham-2016-linear" type="local">Linear algebra as an introduction to abstract mathematics</fr:link> Definition 5.3.1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[V]]></fr:tex> be a finite-dimensional vector space over <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[v_{1},…,v_{m}\in  V]]></fr:tex> be vectors. We say <fr:tex display="inline"><![CDATA[B=\{v_{1},…,v_{m}\}]]></fr:tex> is a <html:dfn>Basis</html:dfn> of <fr:tex display="inline"><![CDATA[V]]></fr:tex> if <fr:tex display="inline"><![CDATA[B]]></fr:tex> is <fr:link href="/vectsp-000Q/" title="Linearly Independent Vectors" uri="http://localhost:8000/vectsp-000Q/" display-uri="vectsp-000Q" type="local">linearly independent</fr:link> and <fr:tex display="inline"><![CDATA[\mathrm {span}(B)=V]]></fr:tex>.</html:p>
+            <html:p>Compare this to <fr:link href="/ela-000U/" title="Basis of Vector Space" uri="http://localhost:8000/ela-000U/" display-uri="ela-000U" type="local">Basis of Vector Space</fr:link> from elementary linear algebra.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

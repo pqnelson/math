@@ -1,0 +1,11 @@
+\title{Algebraic Integers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{definition}
+
+\def\AlgInt[K]{\mathcal{O}_{\K}}
+
+\p{Let #{\kk / \QQ} be a [[nt-004K]]. An element #{a\in\kk} is called an \define{Algebraic Integer} if its minimal polynomial #{m_{\alpha}(x)} is a polynomial with integer coefficients, i.e., #{m_{\alpha}(x)\in\ZZ[x]}.}
+
+\p{The set of all algebraic integers in #{\kk} is denoted #{\AlgInt{\kk}}.}

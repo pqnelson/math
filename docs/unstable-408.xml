@@ -7,31 +7,21 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5947</fr:anchor><fr:addr
-type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2572</fr:anchor><fr:addr
+type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see that <fr:tex
-display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under multiplication since for any <fr:tex
-display="inline"><![CDATA[x,y\in \ker (\varphi )]]></fr:tex> has <fr:tex
-display="inline"><![CDATA[\varphi (xy)=\varphi (x)\varphi (y)=ee=e]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[xy\in \ker (\varphi )]]></fr:tex>.</fr:p>
-<fr:p>We also see that for any <fr:tex
-display="inline"><![CDATA[x\in \ker (\varphi )]]></fr:tex> that <fr:tex
-display="inline"><![CDATA[\varphi (x)=e=e^{-1}=\varphi (x)^{-1}=\varphi (x^{-1})]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[x^{-1}\in \ker (\varphi )]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under inverting elements.</fr:p>
-<fr:p>Hence <fr:tex
-display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is a group and its underlying set is a subset of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> by <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) <fr:link
+type="external"
+href="https://web.archive.org/web/20180504093511/http://www2.im.uj.edu.pl/actamath/PDF/30-131-132.pdf">Jelonek proved this in 1993</fr:link>, which cleaned up a more sloppy version of the same proof by Artin. Lang's <fr:link
 type="local"
-href="gr-001H.xml"
-addr="gr-001H"
-title="Subgroups with the same sets are equal to each other">Subgroups with the same sets are equal to each other</fr:link>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="lang-2002-algebra.xml"
+addr="lang-2002-algebra"
+title="Algebra">Algebra</fr:link> (Theorem V.2.6 and its Corollary) follows Artin's proof, as well, but carefully patches it. In fact, it seems Lang's approach has become more or less standard.</fr:p>
+<fr:p>(2) Jelonek's proof also establishes that the cardinality of the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\max (|\mathbb {F}|,\aleph _{0})]]></fr:tex>. In particular, the algebraic closure is always infinite.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -46,32 +36,21 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>5949</fr:anchor><fr:addr
-type="user">gr-001G</fr:addr><fr:route>gr-001G.xml</fr:route><fr:title
-text="Kernel of a group morphism">Kernel of a group morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2574</fr:anchor><fr:addr
+type="user">nt-001Z</fr:addr><fr:route>nt-001Z.xml</fr:route><fr:title
+text="Existence of Algebraic Closures">Existence of Algebraic Closures</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#K9">group_6:def 9</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> be <fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>s. Let <fr:tex
-display="inline"><![CDATA[\varphi \colon  G\to  H]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000T.xml"
-addr="gr-000T"
-title="Group Morphism">Group Morphism</fr:link>. We define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Kernel</html:dfn> of <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> to be the subgroup <fr:tex
-display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> such that its underlying set equals <fr:tex
-display="inline"><![CDATA[\{g\in  G\mid  \varphi (g)=e\}]]></fr:tex>.</fr:p>
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 13.4.30</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field. Then there exists an algebraically closed field <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> containing <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -81,30 +60,83 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1910</fr:anchor><fr:addr
-type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>985</fr:anchor><fr:addr
+type="machine">#407</fr:addr><fr:route>unstable-407.xml</fr:route><fr:taxon>Proof (Jelonek 1993)</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> We see that <fr:tex
-display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under multiplication since for any <fr:tex
-display="inline"><![CDATA[x,y\in \ker (\varphi )]]></fr:tex> has <fr:tex
-display="inline"><![CDATA[\varphi (xy)=\varphi (x)\varphi (y)=ee=e]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[xy\in \ker (\varphi )]]></fr:tex>.</fr:p>
-<fr:p>We also see that for any <fr:tex
-display="inline"><![CDATA[x\in \ker (\varphi )]]></fr:tex> that <fr:tex
-display="inline"><![CDATA[\varphi (x)=e=e^{-1}=\varphi (x)^{-1}=\varphi (x^{-1})]]></fr:tex> which means <fr:tex
-display="inline"><![CDATA[x^{-1}\in \ker (\varphi )]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is closed under inverting elements.</fr:p>
-<fr:p>Hence <fr:tex
-display="inline"><![CDATA[\ker (\varphi )]]></fr:tex> is a group and its underlying set is a subset of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Uniqueness:</fr:strong> by <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> be a field such that
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {L}]]></fr:tex>, and</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[|\mathbb {L}| > \max (|\mathbb {F}|,\aleph _{0})=:\mathcal {N}]]></fr:tex> (to ensure <fr:tex
+display="inline"><![CDATA[\mathbb {L}]]></fr:tex> is a set, not a proper class).</fr:li></fr:ol>
+Then we can turn this into a lattice with ordering given by inclusion. Then by <fr:link
 type="local"
-href="gr-001H.xml"
-addr="gr-001H"
-title="Subgroups with the same sets are equal to each other">Subgroups with the same sets are equal to each other</fr:link>.</fr:p><html:span
+href="zorn's-lemma.xml"
+addr="zorn's-lemma"
+title="Zorn's lemma">Zorn's lemma</fr:link>, there exists a maximal element <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> which we will prove is the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p><fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>: Assume for contradiction <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> is not an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. Then there exists a nonconstant polynomial <fr:tex
+display="inline"><![CDATA[f(x)\in  L_{0}[x]]]></fr:tex> which has no root in <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>. Then there exists an algebraic extension <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> which has a root of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> (say, the <fr:link
+type="local"
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>). Since <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> is an algebraic extension of <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[|L_{0}|\leq |W|\leq \mathcal {N}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[|S\setminus  L_{0}|=|S|>|W\setminus  L_{0}|]]></fr:tex>. So there exists an injection <fr:tex
+display="inline"><![CDATA[i\colon  W\to  S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[i(x)=x]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[x\in  L_{0}]]></fr:tex>. If we induce by <fr:tex
+display="inline"><![CDATA[i]]></fr:tex> an algebraic structure from <fr:tex
+display="inline"><![CDATA[W]]></fr:tex> onto <fr:tex
+display="inline"><![CDATA[i(W)]]></fr:tex> we obtain a new maximal element of the lattice which is greater than <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex>, giving us our contradiction. Hence <fr:tex
+display="inline"><![CDATA[L_{0}]]></fr:tex> must be an algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>987</fr:anchor><fr:addr
+type="machine">#408</fr:addr><fr:route>unstable-408.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) <fr:link
+type="external"
+href="https://web.archive.org/web/20180504093511/http://www2.im.uj.edu.pl/actamath/PDF/30-131-132.pdf">Jelonek proved this in 1993</fr:link>, which cleaned up a more sloppy version of the same proof by Artin. Lang's <fr:link
+type="local"
+href="lang-2002-algebra.xml"
+addr="lang-2002-algebra"
+title="Algebra">Algebra</fr:link> (Theorem V.2.6 and its Corollary) follows Artin's proof, as well, but carefully patches it. In fact, it seems Lang's approach has become more or less standard.</fr:p>
+<fr:p>(2) Jelonek's proof also establishes that the cardinality of the algebraic closure of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\max (|\mathbb {F}|,\aleph _{0})]]></fr:tex>. In particular, the algebraic closure is always infinite.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

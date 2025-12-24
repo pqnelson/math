@@ -7,65 +7,13 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4669</fr:anchor><fr:addr
-type="machine">#379</fr:addr><fr:route>unstable-379.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1753</fr:anchor><fr:addr
+type="machine">#379</fr:addr><fr:route>unstable-379.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\Omega =\{Sx\mid  x\in  G\}]]></fr:tex> be the set of <fr:link
-type="local"
-href="gr-003I.xml"
-addr="gr-003I"
-title="Right cosets of a subgroup">right cosets</fr:link> of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Observe <fr:tex
-display="inline"><![CDATA[|\Omega |=[G : S]]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> since <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is a Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. We know <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> acts by right multiplication on <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex>, and so <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> acts too, and <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>-orbits. Since <fr:tex
-display="inline"><![CDATA[|\Omega ]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>, there must exist some <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>-orbit <fr:tex
-display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
-<fr:p>By the <fr:link
-type="local"
-href="gr-004G.xml"
-addr="gr-004G"
-title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is the index in <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> of some subgroup. It follows that <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> divides <fr:tex
-display="inline"><![CDATA[|P|]]></fr:tex>, which is a power of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is both a power of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> and not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>, so the only possibility is <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|=1]]></fr:tex>. Since the members of <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex> are right cosets of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, we can consider <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\mathcal {O}=\{Sg\}]]></fr:tex>.</fr:p>
-<fr:p>Since <fr:tex
-display="inline"><![CDATA[Sg]]></fr:tex> is alone in a <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>-orbit, it follows that it is fixed under the action of <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[Sgu=Sg]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[u\in  P]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[gu\in  Sg]]></fr:tex>, hence <fr:tex
-display="inline"><![CDATA[u\in  g^{-1}Sg=S^{g}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We follow Dummit and Foote in defining the Galois group of an extension so that <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> has the maximal number of automorphisms. Some authors are more generous and just treat the Galois group as a synonym for the Automorphism group for field extensions, <fr:em>any</fr:em> arbitrary field extension.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -80,39 +28,45 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4671</fr:anchor><fr:addr
-type="user">gr-004X</fr:addr><fr:route>gr-004X.xml</fr:route><fr:title
-text="Any p-subgroup is contained in a conjugate of a Sylow subgroup">Any <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup is contained in a conjugate of a Sylow subgroup</fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1755</fr:anchor><fr:addr
+type="user">nt-002P</fr:addr><fr:route>nt-002P.xml</fr:route><fr:title
+text="Galois extension and Galois group">Galois extension and Galois group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">I. Martin Isaacs <fr:link
+name="source">Dummit and Foote <fr:link
 type="local"
-href="isaacs-2008-finite.xml"
-addr="isaacs-2008-finite"
-title="Finite Group Theory">Finite Group Theory</fr:link> Theorem 1.11</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> be an arbitrary <fr:link
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Section 14.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A <fr:link
 type="local"
-href="gr-004O.xml"
-addr="gr-004O"
-title="P-Group"><fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of a finite <fr:link
+href="nt-000J.xml"
+addr="nt-000J"
+title="Degree of extension">finite extension</fr:link> <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is said to be <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Galois</html:dfn> if
+<fr:tex
+display="block"><![CDATA[|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})| = [\Bbbk  : \mathbb {F}].]]></fr:tex>
+In that case, we write <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, and it is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Galois Group of <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex></html:dfn>.</fr:p><fr:p>If <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> is <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link> <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be any <fr:link
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> and <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> is the <fr:link
 type="local"
-href="gr-004S.xml"
-addr="gr-004S"
-title="Sylow p-subgroup">Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup</fr:link> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Then there exists a <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> is called the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Galois Group of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex></html:dfn>.</fr:p>
  
    
    <fr:tree
@@ -122,64 +76,12 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2060</fr:anchor><fr:addr
-type="machine">#379</fr:addr><fr:route>unstable-379.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>627</fr:anchor><fr:addr
+type="machine">#379</fr:addr><fr:route>unstable-379.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[\Omega =\{Sx\mid  x\in  G\}]]></fr:tex> be the set of <fr:link
-type="local"
-href="gr-003I.xml"
-addr="gr-003I"
-title="Right cosets of a subgroup">right cosets</fr:link> of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. Observe <fr:tex
-display="inline"><![CDATA[|\Omega |=[G : S]]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> since <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is a Sylow <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>-subgroup of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. We know <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> acts by right multiplication on <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex>, and so <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> acts too, and <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex> is partitioned into <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>-orbits. Since <fr:tex
-display="inline"><![CDATA[|\Omega ]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>, there must exist some <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>-orbit <fr:tex
-display="inline"><![CDATA[\mathcal {O}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
-<fr:p>By the <fr:link
-type="local"
-href="gr-004G.xml"
-addr="gr-004G"
-title="Orbit-Stabilizer theorem">Orbit-Stabilizer theorem</fr:link>, <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is the index in <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> of some subgroup. It follows that <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> divides <fr:tex
-display="inline"><![CDATA[|P|]]></fr:tex>, which is a power of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|]]></fr:tex> is both a power of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> and not divisible by <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>, so the only possibility is <fr:tex
-display="inline"><![CDATA[|\mathcal {O}|=1]]></fr:tex>. Since the members of <fr:tex
-display="inline"><![CDATA[\Omega ]]></fr:tex> are right cosets of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, we can consider <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\mathcal {O}=\{Sg\}]]></fr:tex>.</fr:p>
-<fr:p>Since <fr:tex
-display="inline"><![CDATA[Sg]]></fr:tex> is alone in a <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>-orbit, it follows that it is fixed under the action of <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>, so <fr:tex
-display="inline"><![CDATA[Sgu=Sg]]></fr:tex> for all <fr:tex
-display="inline"><![CDATA[u\in  P]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[gu\in  Sg]]></fr:tex>, hence <fr:tex
-display="inline"><![CDATA[u\in  g^{-1}Sg=S^{g}]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[P\subseteq  S^{g}]]></fr:tex>.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We follow Dummit and Foote in defining the Galois group of an extension so that <fr:tex
+display="inline"><![CDATA[\mathop {\textrm {Gal}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex> has the maximal number of automorphisms. Some authors are more generous and just treat the Galois group as a synonym for the Automorphism group for field extensions, <fr:em>any</fr:em> arbitrary field extension.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

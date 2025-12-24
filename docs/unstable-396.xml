@@ -7,21 +7,47 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4737</fr:anchor><fr:addr
-type="machine">#396</fr:addr><fr:route>unstable-396.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2307</fr:anchor><fr:addr
+type="machine">#396</fr:addr><fr:route>unstable-396.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This may be viewed as a special case of a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> (<fr:link
 type="local"
-href="gr-004Y.xml"
-addr="gr-004Y"
-title="Left group action">Left group action</fr:link>.</fr:p>
-<fr:p>(2) The <fr:tex
-display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex> group morphism is called a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Representation</html:dfn> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on the group <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+href="nst-002I.xml"
+addr="nst-002I"
+title="Proof by contrapositive">Proof by contrapositive</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)=0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p(x)\mathrel {\bigm |} p'(x)]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is separable by <fr:link
+type="local"
+href="nt-0026.xml"
+addr="nt-0026"
+title="Criteria for polynomials to be separable">the criteria for polynomials to be separable</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)\neq 0]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[p(x)=p'(x)q(x)+r(x),]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\deg (r)<\deg (p')]]></fr:tex> by the division algorithm.</fr:p>
+<fr:p>Now assume for contradiction <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> has a double root <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[r(\alpha )=p(\alpha )-p'(\alpha )q(\alpha )=0.]]></fr:tex>
+Then the minimal polynomial divides the remainder polynomial <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\mathrel {\bigm |} r(x)]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\neq  p(x)]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible. This contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is irreducible. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -36,36 +62,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4739</fr:anchor><fr:addr
-type="user">gr-0041</fr:addr><fr:route>gr-0041.xml</fr:route><fr:title
-text="Action of a group on another group">Action of a group on another group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2309</fr:anchor><fr:addr
+type="user">nt-0027</fr:addr><fr:route>nt-0027.xml</fr:route><fr:title
+text="Irreducible polynomials are separable iff its derivative is not identically zero">Irreducible polynomials are separable iff its derivative is not identically zero</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An irreducible polynomial <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> is <fr:link
 type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Sections 1.7 and 2.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>s. An <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">(Left) Action</html:dfn> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> is an uncurried form of the group morphism <fr:tex
-display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex>; i.e., it's a morphism <fr:tex
-display="inline"><![CDATA[\alpha \colon  G\times  K\to  K]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\alpha (g,k)=\rho (g)(k)]]></fr:tex>.</fr:p><fr:p>Usually we write <fr:tex
-display="inline"><![CDATA[g\cdot  k]]></fr:tex> instead of <fr:tex
-display="inline"><![CDATA[\alpha (g,k)]]></fr:tex> for the left action of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[k\in  K]]></fr:tex>.</fr:p>
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link> if and only if <fr:tex
+display="inline"><![CDATA[p'(x)\neq 0]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -75,20 +84,46 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1976</fr:anchor><fr:addr
-type="machine">#396</fr:addr><fr:route>unstable-396.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1025</fr:anchor><fr:addr
+type="machine">#396</fr:addr><fr:route>unstable-396.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) This may be viewed as a special case of a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> (<fr:link
 type="local"
-href="gr-004Y.xml"
-addr="gr-004Y"
-title="Left group action">Left group action</fr:link>.</fr:p>
-<fr:p>(2) The <fr:tex
-display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Aut}}\nolimits (K)]]></fr:tex> group morphism is called a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Representation</html:dfn> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on the group <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="nst-002I.xml"
+addr="nst-002I"
+title="Proof by contrapositive">Proof by contrapositive</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)=0]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[p(x)\mathrel {\bigm |} p'(x)]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is separable by <fr:link
+type="local"
+href="nt-0026.xml"
+addr="nt-0026"
+title="Criteria for polynomials to be separable">the criteria for polynomials to be separable</fr:link>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> (<fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[p'(x)\neq 0]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[p(x)=p'(x)q(x)+r(x),]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[\deg (r)<\deg (p')]]></fr:tex> by the division algorithm.</fr:p>
+<fr:p>Now assume for contradiction <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> has a double root <fr:tex
+display="inline"><![CDATA[\alpha ]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[r(\alpha )=p(\alpha )-p'(\alpha )q(\alpha )=0.]]></fr:tex>
+Then the minimal polynomial divides the remainder polynomial <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\mathrel {\bigm |} r(x)]]></fr:tex>, so that <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)\neq  p(x)]]></fr:tex> and so <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is reducible. This contradicts the hypothesis that <fr:tex
+display="inline"><![CDATA[p(x)]]></fr:tex> is irreducible. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

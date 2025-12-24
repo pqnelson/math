@@ -1,0 +1,13 @@
+\title{Galois closure of a root extension is a root extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{corollary}
+
+\p{Let #{\kk / \FF} be a [[nt-004D]], let #{\LL} be a [[nt-003M]] of #{\kk}. Then #{\LL / \FF} is a [[nt-004D]].}
+
+\proof{\p{Write #{\Gal(\kk / \FF)=\{\sigma_{1},\dots,\sigma_{r}\}}, then #{\sigma_{i}\kk / \FF} is a root extension, so each extension
+##{\FF=K_{0}\propersubset K_{1}\propersubset\dots\propersubset K_{n}=\kk}
+we have for each #{\sigma_{j}\in\Gal(\kk / \FF)},
+##{\FF=\sigma_{j}K_{0}\propersubset\sigma_{j}K_{1}\propersubset\dots\propersubset\sigma_{j}K_{n}=\sigma_{j}\kk.}
+If #{K_{i+1}=K_{i}(a_{i}^{1 / n_{i}})}, then #{\sigma_{j}K_{i+1}\sigma_{j}K_{i}(\sigma_{j}a^{1 / n_{i}})}. But since #{a_{i}^{1 / n_{i}}} is a root of #{x^{n_{i}}-a_{i}}, we see that #{\sigma_{j}a_{i}^{1 / n_{i}}} is a root of #{x^{n_{i}}-\sigma_{j}a_{i}}. So if #{\kk / \FF} is a root extension, then so is #{\sigma_{j}\kk / \FF}. Then applying [[nt-004F]] inductively, the composite of all #{\sigma_{j}\kk} (which is #{\LL}) is a root extension of #{\FF}.}}

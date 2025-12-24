@@ -7,19 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7112</fr:anchor><fr:addr
-type="machine">#415</fr:addr><fr:route>unstable-415.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2600</fr:anchor><fr:addr
+type="machine">#415</fr:addr><fr:route>unstable-415.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align}1_{H}\varphi (1_{G})&=\varphi (1_{G})\\ &=\varphi (1_{G}1_{G})\\ &=\varphi (1_{G})\varphi (1_{G})\end {align}]]></fr:tex>
-and then the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> <fr:link
 type="local"
-href="gr-000R.xml"
-addr="gr-000R"
-title="Cancellation law">Cancellation law</fr:link> gives the result.</fr:p><html:span
+href="nt-001T.xml"
+addr="nt-001T"
+title="Every polynomial has a splitting field">Every polynomial has a splitting field</fr:link>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> this follows from the second condition (<fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> being the smallest such field extension).</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -36,32 +35,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7114</fr:anchor><fr:addr
-type="user">gr-000X</fr:addr><fr:route>gr-000X.xml</fr:route><fr:title
-text="Group morphism preserves identity element">Group morphism preserves identity element</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2602</fr:anchor><fr:addr
+type="user">nt-001S</fr:addr><fr:route>nt-001S.xml</fr:route><fr:title
+text="Splitting Field of a Polynomial">Splitting Field of a Polynomial</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
 name="source">MML <fr:link
 type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_6.html#T31">group_6:31</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> be <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>s, let <fr:tex
-display="inline"><![CDATA[\varphi \colon  G\to  H]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000T.xml"
-addr="gr-000T"
-title="Group Morphism">Group Morphism</fr:link>. If <fr:tex
-display="inline"><![CDATA[1_{G}]]></fr:tex> is the identity element of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[1_{H}]]></fr:tex> is the identity element of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[\varphi (1_{G})=1_{H}]]></fr:tex>.</fr:p>
+href="https://mizar.uwb.edu.pl/version/current/html/field_8.html#M1">field_8:def 1</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f(x)\in \mathbb {F}[x]]]></fr:tex> be a polynomial. A <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Splitting Field</html:dfn> of <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is an extension <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> such that
+<fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> factors completely over <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>; and</fr:li>
+<fr:li><fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> does not factor completely over a proper subfield of <fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex>.</fr:li></fr:ol></fr:p>
  
    
    <fr:tree
@@ -71,20 +65,44 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1900</fr:anchor><fr:addr
-type="machine">#415</fr:addr><fr:route>unstable-415.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>955</fr:anchor><fr:addr
+type="machine">#415</fr:addr><fr:route>unstable-415.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align}1_{H}\varphi (1_{G})&=\varphi (1_{G})\\ &=\varphi (1_{G}1_{G})\\ &=\varphi (1_{G})\varphi (1_{G})\end {align}]]></fr:tex>
-and then the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Existence:</fr:strong> <fr:link
 type="local"
-href="gr-000R.xml"
-addr="gr-000R"
-title="Cancellation law">Cancellation law</fr:link> gives the result.</fr:p><html:span
+href="nt-001T.xml"
+addr="nt-001T"
+title="Every polynomial has a splitting field">Every polynomial has a splitting field</fr:link>.</fr:p>
+<fr:p><fr:strong>Uniqueness:</fr:strong> this follows from the second condition (<fr:tex
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> being the smallest such field extension).</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>957</fr:anchor><fr:addr
+type="machine">#416</fr:addr><fr:route>unstable-416.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is technically not well-defined, because the second condition only specifies the splitting field up to isomorphism.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+<fr:p><fr:strong>Exercise:</fr:strong> The Hermite polynomials are defined recursively as <fr:tex
+display="inline"><![CDATA[H_{0}(x)=1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[H_{1}(x)=x]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[H_{n+1}(x)=xH_{n}(x)-nH_{n-1}(x)]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[n>1]]></fr:tex>. What are the splitting fields for the Hermite polynomials <fr:tex
+display="inline"><![CDATA[H_{n}(x)]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[1<x<5]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>? Over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{p}]]></fr:tex>?</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

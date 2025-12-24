@@ -7,18 +7,29 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8205</fr:anchor><fr:addr
-type="machine">#371</fr:addr><fr:route>unstable-371.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1721</fr:anchor><fr:addr
+type="machine">#371</fr:addr><fr:route>unstable-371.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Recall the <fr:link
 type="local"
-href="gt-000F.xml"
-addr="gt-000F"
-title="Properties of closed subsets">Properties of closed subsets</fr:link> (2).</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+href="nt-002L.xml"
+addr="nt-002L"
+title="Galois correspondences are order-reversing bijection between field extensions and their automorphisms">Galois correspondence</fr:link> looks like
+<fr:tex
+display="block"><![CDATA[\begin {split}\left \{\begin {matrix}\hbox {subgroups}\\\hbox {of }\mathop {\textrm {Aut}}\nolimits (\Bbbk )\end {matrix}\right \}&\to \left \{\begin {matrix}\hbox {subfields}\\\hbox {of }\Bbbk \end {matrix}\right \}\\ H&\mapsto \Bbbk ^{H}\end {split}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\begin {split}\left \{\begin {matrix}\hbox {subfields}\\\hbox {of }\Bbbk \end {matrix}\right \}&\to \left \{\begin {matrix}\hbox {subgroups}\\\hbox {of }\mathop {\textrm {Aut}}\nolimits (\Bbbk )\end {matrix}\right \}\\ \mathbb {F} & \mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})\end {split}]]></fr:tex>
+This corollary says composing these maps <fr:tex
+display="inline"><![CDATA[H\mapsto \Bbbk ^{H}\mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \Bbbk ^{H})]]></fr:tex> is the identity map.</fr:p>
+<fr:p>The failure in bijectivity lies in the composition <fr:tex
+display="inline"><![CDATA[\mathbb {F}\mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})\mapsto \Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})}]]></fr:tex>. But being <fr:link
+type="local"
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link> means this composition is the identity map.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,24 +44,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8207</fr:anchor><fr:addr
-type="user">gt-000H</fr:addr><fr:route>gt-000H.xml</fr:route><fr:title
-text="Closure of a set is a closed set">Closure of a set is a closed set</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1723</fr:anchor><fr:addr
+type="user">nt-0030</fr:addr><fr:route>nt-0030.xml</fr:route><fr:title
+text="Subfield fixed under finite subgroup of automorphisms is a Galois extension">Subfield fixed under finite subgroup of automorphisms is a Galois extension</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
+display="inline"><![CDATA[\Bbbk ]]></fr:tex> be a field and <fr:tex
+display="inline"><![CDATA[H\leq \mathop {\textrm {Aut}}\nolimits (\Bbbk )]]></fr:tex> is a finite subgroup. Then
+<fr:tex
+display="block"><![CDATA[\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \Bbbk ^{H})=H,]]></fr:tex>
+and in particular <fr:tex
+display="inline"><![CDATA[\Bbbk  / \Bbbk ^{H}]]></fr:tex> is <fr:link
 type="local"
-href="gt-0002.xml"
-addr="gt-0002"
-title="Topological space">Topological space</fr:link>. Let <fr:tex
-display="inline"><![CDATA[E\subseteq  X]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\overline {E}]]></fr:tex> is a <fr:link
-type="local"
-href="gt-000E.xml"
-addr="gt-000E"
-title="Closed set">Closed set</fr:link>.</fr:p>
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link>.</fr:p>
  
    
    <fr:tree
@@ -60,17 +70,69 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8209</fr:anchor><fr:addr
-type="machine">#371</fr:addr><fr:route>unstable-371.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1131</fr:anchor><fr:addr
+type="machine">#370</fr:addr><fr:route>unstable-370.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This follows from <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}=\Bbbk ^{H}]]></fr:tex>. We see if <fr:tex
+display="inline"><![CDATA[H\leq \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})]]></fr:tex>, then
+<fr:tex
+display="block"><![CDATA[|H|\leq |\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|\leq [\Bbbk  : \mathbb {F}]]]></fr:tex>
+(where the last inequality follows by <fr:link
 type="local"
-href="gt-000F.xml"
-addr="gt-000F"
-title="Properties of closed subsets">Properties of closed subsets</fr:link> (2).</fr:p><html:span
+href="nt-002Z.xml"
+addr="nt-002Z"
+title="Size of automorphism group for finite extension is not greater than the degree of the finite extension">Size of automorphism group for finite extension is not greater than the degree of the finite extension</fr:link>). <fr:link
+type="local"
+href="nt-002W.xml"
+addr="nt-002W"
+title="Size of finite subgroup of field automorphisms is not greater than index of subfield fixed by the subgroup">We also see</fr:link> that
+<fr:tex
+display="block"><![CDATA[[\Bbbk  : \mathbb {F}]\leq |H|.]]></fr:tex>
+Hence <fr:tex
+display="inline"><![CDATA[|H|=|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|=[\Bbbk  : \mathbb {F}]]]></fr:tex>. Moreover,
+<fr:tex
+display="block"><![CDATA[H=\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F}).]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[|\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})|=[\Bbbk  : \mathbb {F}]]]></fr:tex>, it follows that <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> is Galois.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1133</fr:anchor><fr:addr
+type="machine">#371</fr:addr><fr:route>unstable-371.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Recall the <fr:link
+type="local"
+href="nt-002L.xml"
+addr="nt-002L"
+title="Galois correspondences are order-reversing bijection between field extensions and their automorphisms">Galois correspondence</fr:link> looks like
+<fr:tex
+display="block"><![CDATA[\begin {split}\left \{\begin {matrix}\hbox {subgroups}\\\hbox {of }\mathop {\textrm {Aut}}\nolimits (\Bbbk )\end {matrix}\right \}&\to \left \{\begin {matrix}\hbox {subfields}\\\hbox {of }\Bbbk \end {matrix}\right \}\\ H&\mapsto \Bbbk ^{H}\end {split}]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[\begin {split}\left \{\begin {matrix}\hbox {subfields}\\\hbox {of }\Bbbk \end {matrix}\right \}&\to \left \{\begin {matrix}\hbox {subgroups}\\\hbox {of }\mathop {\textrm {Aut}}\nolimits (\Bbbk )\end {matrix}\right \}\\ \mathbb {F} & \mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})\end {split}]]></fr:tex>
+This corollary says composing these maps <fr:tex
+display="inline"><![CDATA[H\mapsto \Bbbk ^{H}\mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \Bbbk ^{H})]]></fr:tex> is the identity map.</fr:p>
+<fr:p>The failure in bijectivity lies in the composition <fr:tex
+display="inline"><![CDATA[\mathbb {F}\mapsto \mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})\mapsto \Bbbk ^{\mathop {\textrm {Aut}}\nolimits (\Bbbk  / \mathbb {F})}]]></fr:tex>. But being <fr:link
+type="local"
+href="nt-002P.xml"
+addr="nt-002P"
+title="Galois extension and Galois group">Galois</fr:link> means this composition is the identity map.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

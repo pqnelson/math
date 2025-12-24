@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/ca-000U/</fr:uri>
+    <fr:display-uri>ca-000U</fr:display-uri>
+    <fr:route>/ca-000U/</fr:route>
+    <fr:title text="Dedekind cuts">Dedekind cuts</fr:title>
+    <fr:taxon>definition</fr:taxon>
+    <fr:meta name="source"><fr:link href="/baby-rudin/" title="Principles of Mathematical Analysis" uri="http://localhost:8000/baby-rudin/" display-uri="baby-rudin" type="local">Principles of Mathematical Analysis</fr:link>, Appendix to Ch. 1</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A <html:dfn>Dedekind Cut</html:dfn> is a subset <fr:tex display="inline"><![CDATA[\alpha \subset \mathbb {Q}]]></fr:tex> such that:
+<html:ol><html:li><fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is not empty and also <fr:tex display="inline"><![CDATA[\alpha \neq \mathbb {Q}]]></fr:tex></html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[p\in \alpha ]]></fr:tex> and <fr:tex display="inline"><![CDATA[q\in \mathbb {Q}]]></fr:tex> with <fr:tex display="inline"><![CDATA[q<p]]></fr:tex>, then <fr:tex display="inline"><![CDATA[q\in \alpha ]]></fr:tex></html:li>
+<html:li>If <fr:tex display="inline"><![CDATA[p\in \alpha ]]></fr:tex>, then there exists some <fr:tex display="inline"><![CDATA[r\in \alpha ]]></fr:tex> such that <fr:tex display="inline"><![CDATA[r\in \alpha ]]></fr:tex></html:li></html:ol></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ca-000X/</fr:uri>
+            <fr:display-uri>ca-000X</fr:display-uri>
+            <fr:route>/ca-000X/</fr:route>
+            <fr:title text="Construct addition operator on the set of Dedekind cuts">Construct addition operator on the set of Dedekind cuts</fr:title>
+            <fr:meta name="source"><fr:link href="/baby-rudin/" title="Principles of Mathematical Analysis" uri="http://localhost:8000/baby-rudin/" display-uri="baby-rudin" type="local">Principles of Mathematical Analysis</fr:link>, Appendix to Ch. 1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be the set of all <fr:link href="/ca-000U/" title="Dedekind cuts" uri="http://localhost:8000/ca-000U/" display-uri="ca-000U" type="local">Dedekind cuts</fr:link>. Let <fr:tex display="inline"><![CDATA[\alpa ,\beta \in  R]]></fr:tex>. We will define the set <fr:tex display="inline"><![CDATA[\alpha +\beta =\{r+s\mid  r\in \alpha ,s\in \beta \}]]></fr:tex>.</html:p>
+            <html:p>For the sake of clarity, we will denote <fr:tex display="inline"><![CDATA[0_{R}]]></fr:tex> to be the set of all negative rational numbers. We see <fr:tex display="inline"><![CDATA[0_{R}]]></fr:tex> is a <fr:link href="/ca-000U/" title="Dedekind cuts" uri="http://localhost:8000/ca-000U/" display-uri="ca-000U" type="local">Dedekind cuts</fr:link>. We claim <fr:tex display="inline"><![CDATA[0_{R}]]></fr:tex> acts like the "zero" of <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</html:p>
+            <html:p><html:strong>Claim 1:</html:strong> For any <fr:tex display="inline"><![CDATA[\alpha ,\beta \in  R]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[\alpha +\beta ]]></fr:tex> is a <fr:link href="/ca-000U/" title="Dedekind cuts" uri="http://localhost:8000/ca-000U/" display-uri="ca-000U" type="local">Dedekind cuts</fr:link>.</html:p>
+            <html:p><html:strong>Claim 2:</html:strong> For any <fr:tex display="inline"><![CDATA[\alpha ,\beta \in  R]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[\alpha +\beta =\beta +\alpha ]]></fr:tex>.</html:p>
+            <html:p><html:strong>Claim 3:</html:strong> For any <fr:tex display="inline"><![CDATA[\alpha ,\beta ,\gamma \in  R]]></fr:tex>, we see <fr:tex display="inline"><![CDATA[(\alpha +\beta )+\gamma =\alpha +(\beta +\gamma )]]></fr:tex></html:p>
+            <html:p><html:strong>Claim 4:</html:strong> <fr:tex display="inline"><![CDATA[0_{R}\in  R]]></fr:tex> and for all <fr:tex display="inline"><![CDATA[\alpha \in  R]]></fr:tex>, <fr:tex display="inline"><![CDATA[0_{R}+\alpha =\alpha ]]></fr:tex></html:p>
+            <html:p><html:strong>Claim 5:</html:strong> To every <fr:tex display="inline"><![CDATA[\alpha \in  R]]></fr:tex> there exists an <fr:tex display="inline"><![CDATA[-\alpha \in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\alpha +(-\alpha )=0_{R}]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ca-000Z/</fr:uri>
+            <fr:display-uri>ca-000Z</fr:display-uri>
+            <fr:route>/ca-000Z/</fr:route>
+            <fr:title text="Construct multiplication operator on subset of positive Dedekind cuts">Construct multiplication operator on subset of positive Dedekind cuts</fr:title>
+            <fr:meta name="source"><fr:link href="/baby-rudin/" title="Principles of Mathematical Analysis" uri="http://localhost:8000/baby-rudin/" display-uri="baby-rudin" type="local">Principles of Mathematical Analysis</fr:link>, Appendix to Ch. 1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We define <fr:tex display="inline"><![CDATA[1_{R}]]></fr:tex> to be the set of rational numbers strictly less than 1. We claim this is a <fr:link href="/ca-000U/" title="Dedekind cuts" uri="http://localhost:8000/ca-000U/" display-uri="ca-000U" type="local">Dedekind cuts</fr:link>. It will play the role of 1 in multiplying Dedekind cuts together.</html:p>
+            <html:p>If <fr:tex display="inline"><![CDATA[\alpha \in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta \in  R]]></fr:tex> are both positive <fr:tex display="inline"><![CDATA[0_{R}\subset \alpha ]]></fr:tex> and <fr:tex display="inline"><![CDATA[0_{R}\subset \beta ]]></fr:tex>, then we define <fr:tex display="inline"><![CDATA[\alpha \beta ]]></fr:tex> to be the set of all <fr:tex display="inline"><![CDATA[p\in \mathbb {Q}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p\leq  rs]]></fr:tex> for some <fr:tex display="inline"><![CDATA[r\in \alpha ]]></fr:tex> and <fr:tex display="inline"><![CDATA[s\in \beta ]]></fr:tex> with <fr:tex display="inline"><![CDATA[r>0]]></fr:tex> and <fr:tex display="inline"><![CDATA[s>0]]></fr:tex>.</html:p>
+            <html:p>Then this multiplication operation satisfies all the axioms for the <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link> restricted to <fr:tex display="inline"><![CDATA[R^{+}]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ca-0010/</fr:uri>
+            <fr:display-uri>ca-0010</fr:display-uri>
+            <fr:route>/ca-0010/</fr:route>
+            <fr:title text="Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field">Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field</fr:title>
+            <fr:meta name="source"><fr:link href="/baby-rudin/" title="Principles of Mathematical Analysis" uri="http://localhost:8000/baby-rudin/" display-uri="baby-rudin" type="local">Principles of Mathematical Analysis</fr:link>, Appendix to Ch. 1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We then define the multiplication for <html:em>any arbitrary</html:em> <fr:link href="/ca-000U/" title="Dedekind cuts" uri="http://localhost:8000/ca-000U/" display-uri="ca-000U" type="local">Dedekind cuts</fr:link> <fr:tex display="inline"><![CDATA[\alpha \in  R]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta \in  R]]></fr:tex> by
+<fr:tex display="block"><![CDATA[\alpha \beta  = \begin {cases}(-\alpha )(-\beta ) & \hbox {if }\alpha <0_{R},\beta <0_{R},\\
+-[(-\alpha )\beta ] & \hbox {if }\alpha <0_{R}<\beta \\
+-[\alpha \cdot (-\beta )] & \hbox {if }\beta <0_{R}<\alpha .
+\end {cases}]]></fr:tex>
+The product used in each of these cases is the one from <fr:link href="/ca-000Y/" title="Addition of Dedekind cuts satisfies the relevant ordered field axioms" uri="http://localhost:8000/ca-000Y/" display-uri="ca-000Y" type="local">Addition of Dedekind cuts satisfies the relevant ordered field axioms</fr:link>.</html:p>
+            <html:p>Since <fr:tex display="inline"><![CDATA[\gamma =-(-\gamma )]]></fr:tex>, the axioms for multiplication of a <fr:link href="/field-0001/" title="Field" uri="http://localhost:8000/field-0001/" display-uri="field-0001" type="local">Field</fr:link> holds for <fr:tex display="inline"><![CDATA[R]]></fr:tex> except we need to check distributivity.</html:p>
+            <html:p>Let <fr:tex display="inline"><![CDATA[\alpha ,\beta ,\gamma \in  R]]></fr:tex>. Then
+<fr:tex display="block"><![CDATA[\alpha (\beta +\gamma )=\alpha \beta +\alpha \gamma .]]></fr:tex>
+The proof breaks up into cases depending on <fr:tex display="inline"><![CDATA[\alpha >0_{R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\alpha <0_{R}]]></fr:tex>, and separately <fr:tex display="inline"><![CDATA[\beta >0_{R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\beta <0_{R}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\beta +\gamma >0_{R}]]></fr:tex> or <fr:tex display="inline"><![CDATA[\beta +\gamma <0_{R}]]></fr:tex>.</html:p>
+            <html:p>For example, <fr:tex display="inline"><![CDATA[\alpha >0_{R}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta <0_{R}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta +\gamma >0_{R}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\gamma =(\beta +\gamma )+(-\beta )]]></fr:tex>, which means
+<fr:tex display="block"><![CDATA[\alpha \gamma =\alpha (\beta +\gamma )+\alpha \cdot (-\beta )]]></fr:tex>
+But <fr:tex display="inline"><![CDATA[\alpha \cdot (-\beta )=-(\alpha \beta )]]></fr:tex>. Thus
+<fr:tex display="block"><![CDATA[\alpha \beta +\alpha \gamma =\alpha (\beta +\gamma ).]]></fr:tex>
+The remaining cases are proved similarly.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ca-0011/</fr:uri>
+            <fr:display-uri>ca-0011</fr:display-uri>
+            <fr:route>/ca-0011/</fr:route>
+            <fr:title text="Identify a subset of Dedekind cuts with the rational numbers">Identify a subset of Dedekind cuts with the rational numbers</fr:title>
+            <fr:meta name="source"><fr:link href="/baby-rudin/" title="Principles of Mathematical Analysis" uri="http://localhost:8000/baby-rudin/" display-uri="baby-rudin" type="local">Principles of Mathematical Analysis</fr:link>, Appendix to Ch. 1</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>To each <fr:tex display="inline"><![CDATA[r\in \mathbb {Q}]]></fr:tex>, the set <fr:tex display="inline"><![CDATA[r_{R}]]></fr:tex> consists of all rational numbers <fr:tex display="inline"><![CDATA[p\in \mathbb {Q}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p<r]]></fr:tex>. It is clear that <fr:tex display="inline"><![CDATA[r_{R}]]></fr:tex> is a <fr:link href="/ca-000U/" title="Dedekind cuts" uri="http://localhost:8000/ca-000U/" display-uri="ca-000U" type="local">Dedekind cuts</fr:link>.</html:p>
+            <html:p>Moreover, these cuts satisfy for any <fr:tex display="inline"><![CDATA[r,s\in \mathbb {Q}]]></fr:tex>:</html:p>
+            <html:ol><html:li><fr:tex display="inline"><![CDATA[r_{R}+s_{R}=(r+s)_{R}]]></fr:tex>; to see this, choose <fr:tex display="inline"><![CDATA[p\in  r_{R}+s_{R}]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[p=u+v]]></fr:tex> where <fr:tex display="inline"><![CDATA[u<r]]></fr:tex> and <fr:tex display="inline"><![CDATA[v<s]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[p<r+s]]></fr:tex>, which is equivalent to <fr:tex display="inline"><![CDATA[p\in (r+s)_{R}]]></fr:tex>. Conversely if <fr:tex display="inline"><![CDATA[p\in (r+s)_{R}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[p<r+s]]></fr:tex>. Choosing <fr:tex display="inline"><![CDATA[t]]></fr:tex> such that <fr:tex display="inline"><![CDATA[2t=r+s-p]]></fr:tex>, put <fr:tex display="inline"><![CDATA[r'=r-t]]></fr:tex> and <fr:tex display="inline"><![CDATA[s'=s-t]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[r'\in  r_{R}]]></fr:tex> and <fr:tex display="inline"><![CDATA[s'\in  s_{R}]]></fr:tex> and <fr:tex display="inline"><![CDATA[p=r'+s']]></fr:tex>, so <fr:tex display="inline"><![CDATA[p\in  r_{R}+s_{R}]]></fr:tex>.</html:li>
+<html:li><fr:tex display="inline"><![CDATA[r_{R}s_{R}=(rs)_{R}]]></fr:tex>, the proof is similar to the previous condition.</html:li>
+<html:li><fr:tex display="inline"><![CDATA[r_{R}<s_{R}]]></fr:tex> iff <fr:tex display="inline"><![CDATA[r<s]]></fr:tex>.</html:li></html:ol>
+            <html:p>If <fr:tex display="inline"><![CDATA[r<s]]></fr:tex>, then <fr:tex display="inline"><![CDATA[r\in  s_{R}]]></fr:tex> but <fr:tex display="inline"><![CDATA[r\notin  r_{R}]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[r_{R}<s_{R}]]></fr:tex>.</html:p>
+            <html:p>If <fr:tex display="inline"><![CDATA[r_{R}<s_{R}]]></fr:tex>, then there is a <fr:tex display="inline"><![CDATA[p\in  s_{R}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[p\notin  r_{R}]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[r\leq  p<s]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[r<s]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/ca-000A/</fr:uri>
+            <fr:display-uri>ca-000A</fr:display-uri>
+            <fr:route>/ca-000A/</fr:route>
+            <fr:title text="Existence of real field">Existence of real field</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="source"><fr:link href="/baby-rudin/" title="Principles of Mathematical Analysis" uri="http://localhost:8000/baby-rudin/" display-uri="baby-rudin" type="local">Principles of Mathematical Analysis</fr:link>, 1.19</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>There exists an ordered field <fr:tex display="inline"><![CDATA[R]]></fr:tex> which has the <fr:link href="/ca-0007/" title="Least-Upper-Bound Property" uri="http://localhost:8000/ca-0007/" display-uri="ca-0007" type="local">Least-Upper-Bound Property</fr:link>. Moreover, <fr:tex display="inline"><![CDATA[R]]></fr:tex> contains the rational numbers <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield.</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>10</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p><html:strong>Step 1:</html:strong> Define <fr:tex display="inline"><![CDATA[R]]></fr:tex> as the set of all <fr:link href="/ca-000U/" title="Dedekind cuts" uri="http://localhost:8000/ca-000U/" display-uri="ca-000U" type="local">Dedekind cuts</fr:link></html:p>
+<html:p><html:strong>Step 2:</html:strong> <fr:link href="/ca-000V/" title="Ordering the Dedekind cuts" uri="http://localhost:8000/ca-000V/" display-uri="ca-000V" type="local">Ordering the Dedekind cuts</fr:link>.</html:p>
+<html:p><html:strong>Step 3:</html:strong> <fr:link href="/ca-000W/" title="The set of Dedekind cuts has the least-upper bound property" uri="http://localhost:8000/ca-000W/" display-uri="ca-000W" type="local">The set of Dedekind cuts has the least-upper bound property</fr:link>.</html:p>
+<html:p><html:strong>Step 4:</html:strong> <fr:link href="/ca-000X/" title="Construct addition operator on the set of Dedekind cuts" uri="http://localhost:8000/ca-000X/" display-uri="ca-000X" type="local">Construct addition operator on the set of Dedekind cuts</fr:link>.</html:p>
+<html:p><html:strong>Step 5:</html:strong> <fr:link href="/ca-000Y/" title="Addition of Dedekind cuts satisfies the relevant ordered field axioms" uri="http://localhost:8000/ca-000Y/" display-uri="ca-000Y" type="local">Addition of Dedekind cuts satisfies the relevant ordered field axioms</fr:link>.</html:p>
+<html:p><html:strong>Step 6:</html:strong> <fr:link href="/ca-000Z/" title="Construct multiplication operator on subset of positive Dedekind cuts" uri="http://localhost:8000/ca-000Z/" display-uri="ca-000Z" type="local">Construct multiplication operator on subset of positive Dedekind cuts</fr:link>.</html:p>
+<html:p><html:strong>Step 7:</html:strong> <fr:link href="/ca-0010/" title="Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field" uri="http://localhost:8000/ca-0010/" display-uri="ca-0010" type="local">Finish constructing mutliplication of Dedekind cuts, and it forms an ordered field</fr:link>.</html:p>
+<html:p><html:strong>Step 8:</html:strong> <fr:link href="/ca-0011/" title="Identify a subset of Dedekind cuts with the rational numbers" uri="http://localhost:8000/ca-0011/" display-uri="ca-0011" type="local">Identify a subset of Dedekind cuts with the rational numbers</fr:link>.</html:p>
+<html:p><html:strong>Step 9:</html:strong> <fr:link href="/ca-0012/" title="The &quot;rational&quot; Dedekind cuts are isomorphic to the field of rational numbers" uri="http://localhost:8000/ca-0012/" display-uri="ca-0012" type="local">The "rational" Dedekind cuts are isomorphic to the field of rational numbers</fr:link>.</html:p><html:span class="qed">∎</html:span></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/walter-rudin/" title="Walter Rudin" uri="http://localhost:8000/walter-rudin/" display-uri="walter-rudin" type="local">Walter Rudin</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>1976</fr:year>
+            </fr:date>
+            <fr:uri>http://localhost:8000/baby-rudin/</fr:uri>
+            <fr:display-uri>baby-rudin</fr:display-uri>
+            <fr:route>/baby-rudin/</fr:route>
+            <fr:title text="Principles of Mathematical Analysis">Principles of Mathematical Analysis</fr:title>
+            <fr:taxon>reference</fr:taxon>
+            <fr:meta name="bibtex"><![CDATA[@book{rudin1976principles,
+author={Rudin, Walter},
+title={{Principles of Mathematical Analysis}},
+year={1976},
+edition={McGraw Hill},
+publisher={third}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

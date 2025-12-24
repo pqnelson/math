@@ -7,17 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9704</fr:anchor><fr:addr
-type="machine">#476</fr:addr><fr:route>unstable-476.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10968</fr:anchor><fr:addr
+type="machine">#476</fr:addr><fr:route>unstable-476.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align*} T\hbox { is normal}&\iff  T^{*}T-TT^{*}=0\\ &\iff  \langle (T^{*}T-TT^{*})v,v\rangle =0\hbox { for all }v\in  V\\ &\iff  \langle  T^{*}T,v\rangle =\langle  -TT^{*}v,v\rangle \hbox { for all }v\in  V\\ &\iff  \left  \lVert  Tv \right  \rVert ^{2}=\left  \lVert  T^{*}v \right  \rVert ^{2}\hbox { for all }v\in  V \end {align*}]]></fr:tex>
-Hence the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The literature also calls this the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
+display="inline"><![CDATA[T_{2}]]></fr:tex> Property</html:dfn>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -32,34 +29,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>9706</fr:anchor><fr:addr
-type="user">vectsp-0031</fr:addr><fr:route>vectsp-0031.xml</fr:route><fr:title
-text="Operator is normal iff norm of operator equals norm of its adjoint">Operator is normal iff norm of operator equals norm of its adjoint</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10970</fr:anchor><fr:addr
+type="user">gt-000Y</fr:addr><fr:route>gt-000Y.xml</fr:route><fr:title
+text="Hausdorff space">Hausdorff space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
 title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source"><fr:link
+name="source">Munkres <fr:link
 type="local"
-href="axler-1996-linear.xml"
-addr="axler-1996-linear"
-title="Linear Algebra Done Right">Linear Algebra Done Right</fr:link> Theorem 7.20</fr:meta><fr:meta
-name="source"><fr:link
+href="munkres-2000-topology.xml"
+addr="munkres-2000-topology"
+title="Topology">Topology</fr:link> Section 17</fr:meta><fr:meta
+name="source">MML <fr:link
+type="external"
+href="https://mizar.uwb.edu.pl/version/current/html/pre_topsc.html#V8">pre_topsc:def 10</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[(X,\mathcal {T})]]></fr:tex> be a <fr:link
 type="local"
-href="lankham-2016-linear.xml"
-addr="lankham-2016-linear"
-title="Linear algebra as an introduction to abstract mathematics">Linear algebra as an introduction to abstract mathematics</fr:link>  Proposition 11.2.3</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> be a vector space with a <fr:link
-type="local"
-href="vectsp-0025.xml"
-addr="vectsp-0025"
-title="Norm">Norm</fr:link>. Let <fr:tex
-display="inline"><![CDATA[L\colon  V\to  V]]></fr:tex> be a linear operator. Then <fr:tex
-display="inline"><![CDATA[L]]></fr:tex> is normal if and only if
-<fr:tex
-display="block"><![CDATA[\left  \lVert  Lv \right  \rVert =\left  \lVert  L^{*}v \right  \rVert ]]></fr:tex>
-for all <fr:tex
-display="inline"><![CDATA[v\in  V]]></fr:tex>.</fr:p>
+href="gt-0002.xml"
+addr="gt-0002"
+title="Topological space">Topological space</fr:link>. We say <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Hausdorff</html:dfn> if for any two distinct points <fr:tex
+display="inline"><![CDATA[x,y\in  X]]></fr:tex>, there are disjoint open sets <fr:tex
+display="inline"><![CDATA[U,V\subseteq  X]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x\in  U]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y\in  V]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -69,16 +64,13 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>6806</fr:anchor><fr:addr
-type="machine">#476</fr:addr><fr:route>unstable-476.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>10972</fr:anchor><fr:addr
+type="machine">#476</fr:addr><fr:route>unstable-476.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see
-<fr:tex
-display="block"><![CDATA[\begin {align*} T\hbox { is normal}&\iff  T^{*}T-TT^{*}=0\\ &\iff  \langle (T^{*}T-TT^{*})v,v\rangle =0\hbox { for all }v\in  V\\ &\iff  \langle  T^{*}T,v\rangle =\langle  -TT^{*}v,v\rangle \hbox { for all }v\in  V\\ &\iff  \left  \lVert  Tv \right  \rVert ^{2}=\left  \lVert  T^{*}v \right  \rVert ^{2}\hbox { for all }v\in  V \end {align*}]]></fr:tex>
-Hence the result.</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The literature also calls this the <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml"><fr:tex
+display="inline"><![CDATA[T_{2}]]></fr:tex> Property</html:dfn>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

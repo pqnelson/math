@@ -7,18 +7,26 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4729</fr:anchor><fr:addr
-type="machine">#394</fr:addr><fr:route>unstable-394.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2299</fr:anchor><fr:addr
+type="machine">#394</fr:addr><fr:route>unstable-394.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The terminology over the years here is rather confused, unfortunately. But it seems the way to think of it is that <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is an extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>. It is becoming more common to choose <fr:tex
-display="inline"><![CDATA[\widehat {K}]]></fr:tex> instead of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> for the extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see the coefficients of <fr:tex
+display="inline"><![CDATA[f'(x)]]></fr:tex> are <fr:tex
+display="inline"><![CDATA[ka_{k}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible and inseparable, <fr:link
+type="local"
+href="nt-0027.xml"
+addr="nt-0027"
+title="Irreducible polynomials are separable iff its derivative is not identically zero">then its derivative vanishes identically</fr:link> <fr:tex
+display="inline"><![CDATA[f'(x)=0]]></fr:tex>. Then we see for each <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[ka_{k}=0]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} k]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[a_{k}\neq 0]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -33,30 +41,30 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4731</fr:anchor><fr:addr
-type="user">gr-0044</fr:addr><fr:route>gr-0044.xml</fr:route><fr:title
-text="Extension problem">Extension problem</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2301</fr:anchor><fr:addr
+type="user">nt-0029</fr:addr><fr:route>nt-0029.xml</fr:route><fr:title
+text="Inseparable polynomial over field with characteristic p has p divide the nonzero coefficients of its derivative">Inseparable polynomial over field with characteristic <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> has <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> divide the nonzero coefficients of its derivative</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Given:</fr:strong> <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> be <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field with <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>s.</fr:p><fr:p><fr:strong>Problem:</fr:strong> find which groups <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> fit a <fr:link
+href="nt-000A.xml"
+addr="nt-000A"
+title="Characteristic">Characteristic</fr:link> <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f(x)=a_{n}x^{n}+…+a_{1}x+a_{0}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is <fr:link
 type="local"
-href="gr-0043.xml"
-addr="gr-0043"
-title="Short exact sequence of groups">short exact sequence</fr:link>
-<fr:tex
-display="block"><![CDATA[\mathbf {1}\to  H\to  G\xrightarrow {\pi }K\to \mathbf {1}]]></fr:tex>
-where <fr:tex
-display="inline"><![CDATA[K\cong  G/\ker (\pi )]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\ker (\pi )\cong  H]]></fr:tex>.</fr:p><fr:p>We can study this further using group chomology (specifically the first group cohomology <fr:tex
-display="inline"><![CDATA[H^{1}(K,-)]]></fr:tex>).</fr:p>
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">inseparable</fr:link>, then <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} k]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[a_{k}\neq 0]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -66,17 +74,25 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1986</fr:anchor><fr:addr
-type="machine">#394</fr:addr><fr:route>unstable-394.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1033</fr:anchor><fr:addr
+type="machine">#394</fr:addr><fr:route>unstable-394.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>The terminology over the years here is rather confused, unfortunately. But it seems the way to think of it is that <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> is an extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>. It is becoming more common to choose <fr:tex
-display="inline"><![CDATA[\widehat {K}]]></fr:tex> instead of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> for the extension of <fr:tex
-display="inline"><![CDATA[K]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see the coefficients of <fr:tex
+display="inline"><![CDATA[f'(x)]]></fr:tex> are <fr:tex
+display="inline"><![CDATA[ka_{k}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible and inseparable, <fr:link
+type="local"
+href="nt-0027.xml"
+addr="nt-0027"
+title="Irreducible polynomials are separable iff its derivative is not identically zero">then its derivative vanishes identically</fr:link> <fr:tex
+display="inline"><![CDATA[f'(x)=0]]></fr:tex>. Then we see for each <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[ka_{k}=0]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} k]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[a_{k}\neq 0]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

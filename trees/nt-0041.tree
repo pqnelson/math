@@ -1,0 +1,10 @@
+\title{Asymptotic density of polynomials whose Galois group is not the symmetric group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{theorem}
+
+\p{Let #{R_{n}(M)} be the number of polynomials of degree #{n} with coefficients #{|a_{i}|\leq M} and whose Galois group is not #{S_{n}}. Then
+##{R_{n}(M)\ll M^{n-1/2}\log(M).}}
+
+\rmk{This was proved by Patrick X. Gallagher, "The large sieve and probabilistic Galois theory", \textit{Proceedings of Symposia in Pure Mathematics XXIII} (AMS, 1973), pages 91–101. Gallagher improved an earlier result of van der Waerden. See also Dietmann's "Probabilistic Galois Theory" (\arXiv{1111.2853}) for recent developments.}

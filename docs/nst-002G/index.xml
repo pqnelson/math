@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:uri>http://localhost:8000/nst-002G/</fr:uri>
+    <fr:display-uri>nst-002G</fr:display-uri>
+    <fr:route>/nst-002G/</fr:route>
+    <fr:title text="Direct proof">Direct proof</fr:title>
+    <fr:taxon>proof strategy</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>When trying to prove a claim of the form "If <fr:tex display="inline"><![CDATA[P]]></fr:tex>, then <fr:tex display="inline"><![CDATA[Q]]></fr:tex>", a direct proof has the following skeleton:</html:p>
+  <html:blockquote>Assume <fr:tex display="inline"><![CDATA[P]]></fr:tex>. [Intermediate proof steps] Thus <fr:tex display="inline"><![CDATA[Q]]></fr:tex>.</html:blockquote>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002H/</fr:uri>
+            <fr:display-uri>nst-002H</fr:display-uri>
+            <fr:route>/nst-002H/</fr:route>
+            <fr:title text="Proof strategies">Proof strategies</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>There are various common "strategies" for proving various claims in Mathematics. We will review the basic strategies here.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002G/</fr:uri>
+                <fr:display-uri>nst-002G</fr:display-uri>
+                <fr:route>/nst-002G/</fr:route>
+                <fr:title text="Direct proof">Direct proof</fr:title>
+                <fr:taxon>proof strategy</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>When trying to prove a claim of the form "If <fr:tex display="inline"><![CDATA[P]]></fr:tex>, then <fr:tex display="inline"><![CDATA[Q]]></fr:tex>", a direct proof has the following skeleton:</html:p>
+  <html:blockquote>Assume <fr:tex display="inline"><![CDATA[P]]></fr:tex>. [Intermediate proof steps] Thus <fr:tex display="inline"><![CDATA[Q]]></fr:tex>.</html:blockquote>
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002I/</fr:uri>
+                <fr:display-uri>nst-002I</fr:display-uri>
+                <fr:route>/nst-002I/</fr:route>
+                <fr:title text="Proof by contrapositive">Proof by contrapositive</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>We can take advantage of the fact that "If <fr:tex display="inline"><![CDATA[P]]></fr:tex> then <fr:tex display="inline"><![CDATA[Q]]></fr:tex>" has the same truth table as "If not <fr:tex display="inline"><![CDATA[Q]]></fr:tex>, then not <fr:tex display="inline"><![CDATA[P]]></fr:tex>". This "Not <fr:tex display="inline"><![CDATA[Q]]></fr:tex> implies not <fr:tex display="inline"><![CDATA[P]]></fr:tex>" is called the <html:dfn>Contrapositive</html:dfn> of "<fr:tex display="inline"><![CDATA[P]]></fr:tex> implies <fr:tex display="inline"><![CDATA[Q]]></fr:tex>". Usually we embark on a <fr:link href="/nst-002G/" title="Direct proof" uri="http://localhost:8000/nst-002G/" display-uri="nst-002G" type="local">Direct proof</fr:link> and so the proof looks like:</html:p>
+  <html:blockquote>Assume not <fr:tex display="inline"><![CDATA[Q]]></fr:tex>. [Intermediate proof steps.] Hence not <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</html:blockquote>
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002J/</fr:uri>
+                <fr:display-uri>nst-002J</fr:display-uri>
+                <fr:route>/nst-002J/</fr:route>
+                <fr:title text="Proof by contradiction">Proof by contradiction</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>When trying to prove the claim <fr:tex display="inline"><![CDATA[P]]></fr:tex>, it is useful to use the fact that its double negation "Not (not <fr:tex display="inline"><![CDATA[P]]></fr:tex>)" is logically equivalent to <fr:tex display="inline"><![CDATA[P]]></fr:tex>, and then use the fact  that "Not <fr:tex display="inline"><![CDATA[Q]]></fr:tex>" is logically equivalent to "If <fr:tex display="inline"><![CDATA[Q]]></fr:tex> then contradiction". Taken together, <fr:tex display="inline"><![CDATA[P]]></fr:tex> is logically equivalent to "If not <fr:tex display="inline"><![CDATA[P]]></fr:tex>, then contradiction." This is a proof by contradiction.</html:p>
+                <html:p>When <fr:tex display="inline"><![CDATA[P]]></fr:tex> is an implication "If <fr:tex display="inline"><![CDATA[H]]></fr:tex> then <fr:tex display="inline"><![CDATA[R]]></fr:tex>", a proof by contradiction looks like "If <fr:tex display="inline"><![CDATA[H]]></fr:tex> and not <fr:tex display="inline"><![CDATA[R]]></fr:tex>, then contradiction".</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>http://localhost:8000/nst-002K/</fr:uri>
+                <fr:display-uri>nst-002K</fr:display-uri>
+                <fr:route>/nst-002K/</fr:route>
+                <fr:title text="Proof by induction">Proof by induction</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>If we have a claim which is a formula indexed by natural numbers <fr:tex display="inline"><![CDATA[P[n]]]></fr:tex>, then a proof by induction on <fr:tex display="inline"><![CDATA[n]]></fr:tex> looks like:</html:p>
+                <html:ol><html:li><html:strong>Base case:</html:strong> For <fr:tex display="inline"><![CDATA[n=0]]></fr:tex> (or <fr:tex display="inline"><![CDATA[n=1]]></fr:tex>), prove <fr:tex display="inline"><![CDATA[P[0]]]></fr:tex> (resp., <fr:tex display="inline"><![CDATA[P[1]]]></fr:tex>).</html:li>
+<html:li><html:strong>Inductive argument:</html:strong> For arbitrary <fr:tex display="inline"><![CDATA[n]]></fr:tex>, prove the claim "If <fr:tex display="inline"><![CDATA[P[n]]]></fr:tex> then <fr:tex display="inline"><![CDATA[P[n+1]]]></fr:tex>". Usually this is done by a <fr:link href="/nst-002G/" title="Direct proof" uri="http://localhost:8000/nst-002G/" display-uri="nst-002G" type="local">Direct proof</fr:link> and we call the statement "Assume <fr:tex display="inline"><![CDATA[P[n]]]></fr:tex>" the <html:dfn>Inductive Hypothesis</html:dfn>.</html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002I/</fr:uri>
+            <fr:display-uri>nst-002I</fr:display-uri>
+            <fr:route>/nst-002I/</fr:route>
+            <fr:title text="Proof by contrapositive">Proof by contrapositive</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>We can take advantage of the fact that "If <fr:tex display="inline"><![CDATA[P]]></fr:tex> then <fr:tex display="inline"><![CDATA[Q]]></fr:tex>" has the same truth table as "If not <fr:tex display="inline"><![CDATA[Q]]></fr:tex>, then not <fr:tex display="inline"><![CDATA[P]]></fr:tex>". This "Not <fr:tex display="inline"><![CDATA[Q]]></fr:tex> implies not <fr:tex display="inline"><![CDATA[P]]></fr:tex>" is called the <html:dfn>Contrapositive</html:dfn> of "<fr:tex display="inline"><![CDATA[P]]></fr:tex> implies <fr:tex display="inline"><![CDATA[Q]]></fr:tex>". Usually we embark on a <fr:link href="/nst-002G/" title="Direct proof" uri="http://localhost:8000/nst-002G/" display-uri="nst-002G" type="local">Direct proof</fr:link> and so the proof looks like:</html:p>
+  <html:blockquote>Assume not <fr:tex display="inline"><![CDATA[Q]]></fr:tex>. [Intermediate proof steps.] Hence not <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</html:blockquote>
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/nst-002K/</fr:uri>
+            <fr:display-uri>nst-002K</fr:display-uri>
+            <fr:route>/nst-002K/</fr:route>
+            <fr:title text="Proof by induction">Proof by induction</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>If we have a claim which is a formula indexed by natural numbers <fr:tex display="inline"><![CDATA[P[n]]]></fr:tex>, then a proof by induction on <fr:tex display="inline"><![CDATA[n]]></fr:tex> looks like:</html:p>
+            <html:ol><html:li><html:strong>Base case:</html:strong> For <fr:tex display="inline"><![CDATA[n=0]]></fr:tex> (or <fr:tex display="inline"><![CDATA[n=1]]></fr:tex>), prove <fr:tex display="inline"><![CDATA[P[0]]]></fr:tex> (resp., <fr:tex display="inline"><![CDATA[P[1]]]></fr:tex>).</html:li>
+<html:li><html:strong>Inductive argument:</html:strong> For arbitrary <fr:tex display="inline"><![CDATA[n]]></fr:tex>, prove the claim "If <fr:tex display="inline"><![CDATA[P[n]]]></fr:tex> then <fr:tex display="inline"><![CDATA[P[n+1]]]></fr:tex>". Usually this is done by a <fr:link href="/nst-002G/" title="Direct proof" uri="http://localhost:8000/nst-002G/" display-uri="nst-002G" type="local">Direct proof</fr:link> and we call the statement "Assume <fr:tex display="inline"><![CDATA[P[n]]]></fr:tex>" the <html:dfn>Inductive Hypothesis</html:dfn>.</html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

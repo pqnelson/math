@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/paul-m-cohn/" title="Paul M. Cohn" uri="http://localhost:8000/paul-m-cohn/" display-uri="paul-m-cohn" type="local">Paul M. Cohn</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1966</fr:year>
+    </fr:date>
+    <fr:uri>http://localhost:8000/cohn-1966-structure/</fr:uri>
+    <fr:display-uri>cohn-1966-structure</fr:display-uri>
+    <fr:route>/cohn-1966-structure/</fr:route>
+    <fr:title text="On the structure of the \mathrm {GL}_{2} of a ring">On the structure of the <fr:tex display="inline"><![CDATA[\mathrm {GL}_{2}]]></fr:tex> of a ring</fr:title>
+    <fr:taxon>reference</fr:taxon>
+    <fr:meta name="source">https://www.numdam.org/item/PMIHES_1966__30__5_0.pdf</fr:meta>
+    <fr:meta name="bibtex"><![CDATA[@article{cohn1966structure,
+  title={On the structure of the $ GL\_2 $ of a ring},
+  author={Cohn, Paul M},
+  journal={Publications Math{\'e}matiques de l'IH{\'E}S},
+  volume={30},
+  pages={5--53},
+  year={1966}
+}]]></fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/alex-nelson/" title="Alex Nelson" uri="http://localhost:8000/alex-nelson/" display-uri="alex-nelson" type="local">Alex Nelson</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>http://localhost:8000/sl-0006/</fr:uri>
+            <fr:display-uri>sl-0006</fr:display-uri>
+            <fr:route>/sl-0006/</fr:route>
+            <fr:title text="Derived subgroup of general linear group">Derived subgroup of general linear group</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We can relate the commutator subgroup of <fr:tex display="inline"><![CDATA[\mathrm {GL}_{n}(R)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\mathrm {SL}_{n}(R)]]></fr:tex> under certain circumstances on <fr:tex display="inline"><![CDATA[n]]></fr:tex> and <fr:tex display="inline"><![CDATA[R]]></fr:tex>. For skew-fields, the derived subgroup is equal to the elementary linear group.</html:p>
+            <html:ol><html:li><html:p>Let <fr:tex display="inline"><![CDATA[R]]></fr:tex> be a unital <fr:link href="/ring-0001/" title="Ring" uri="http://localhost:8000/ring-0001/" display-uri="ring-0001" type="local">ring</fr:link> of finite stable rank <fr:tex display="inline"><![CDATA[\mathrm {sr}(R)]]></fr:tex>. Then for every <fr:tex display="inline"><![CDATA[n>\mathrm {sr}(R)]]></fr:tex> we have <fr:tex display="inline"><![CDATA[[\mathrm {GL}_{n}(R),\mathrm {GL}_{n}(R)]=\mathrm {EL}_{n}(R)]]></fr:tex>.</html:p>
+
+<html:p>This follows from Vaserstein's injective stability theorem (theorem 10.15 in B. Magurn, <html:em>An Algebraic Introduction to <fr:tex display="inline"><![CDATA[K]]></fr:tex>-Theory</html:em>, CUP, 2002).</html:p></html:li>
+
+<html:li><html:p>Bass proved this is true for <html:em>any</html:em> (associative) unital ring <fr:tex display="inline"><![CDATA[R]]></fr:tex> when <fr:tex display="inline"><![CDATA[n\geq 3]]></fr:tex>. See <fr:link href="https://arxiv.org/abs/1510.07143" type="external">arXiv:1510.07143</fr:link>. Further when <fr:tex display="inline"><![CDATA[R]]></fr:tex> is commutative, <fr:tex display="inline"><![CDATA[n=1]]></fr:tex> has <fr:tex display="inline"><![CDATA[[\mathrm {GL}_{1}(R),\mathrm {GL}_{1}(R)]=\mathrm {EL}_{1}(R)]]></fr:tex>. For more about the <fr:tex display="inline"><![CDATA[n=2]]></fr:tex> case, see Cohn's "<fr:link href="/cohn-1966-structure/" title="On the structure of the \mathrm {GL}_{2} of a ring" uri="http://localhost:8000/cohn-1966-structure/" display-uri="cohn-1966-structure" type="local">On the structure of the <fr:tex display="inline"><![CDATA[\mathrm {GL}_{2}]]></fr:tex> of a ring</fr:link>".</html:p></html:li>
+
+<html:li><html:p>In particular, for any field <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[[\mathrm {GL}_{n}(\mathbb {F}),\mathrm {GL}_{n}(\mathbb {F})]=\mathrm {EL}_{n}(\mathbb {F})]]></fr:tex> when either <fr:tex display="inline"><![CDATA[n\neq  2]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathbb {F}\neq \mathbb {F}_{2}]]></fr:tex>.</html:p></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

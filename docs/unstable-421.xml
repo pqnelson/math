@@ -7,21 +7,41 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7138</fr:anchor><fr:addr
-type="machine">#421</fr:addr><fr:route>unstable-421.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2624</fr:anchor><fr:addr
+type="machine">#421</fr:addr><fr:route>unstable-421.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>By induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
-display="inline"><![CDATA[n=0]]></fr:tex>. We see <fr:tex
-display="inline"><![CDATA[g^{m}g^{0}=g^{m}e=g^{m}=g^{m+n}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Inductive case:</fr:strong> Assume the inductive hypothesis <fr:tex
-display="inline"><![CDATA[g^{m}g^{n}=g^{m+n}]]></fr:tex> for arbitrary <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>. We want to show <fr:tex
-display="inline"><![CDATA[g^{m}g^{n+1}=g^{m+n+1}]]></fr:tex> and also <fr:tex
-display="inline"><![CDATA[g^{m}g^{n-1}=g^{m+n-1}]]></fr:tex>, but this follows by the inductive hypothesis and associativity.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Since a constructible length is obtained by finitely many constructible points, and <fr:link
+type="local"
+href="nt-001K.xml"
+addr="nt-001K"
+title="A point whose coordinates like in a quadratic extension of the field is directly constructible">each directly constructible point gives us a quadratic field extension</fr:link>, the forward proof is obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suffices to show <fr:tex
+display="inline"><![CDATA[\sqrt {\ell }]]></fr:tex> is constructible, but this is the well-known construction using the "geometric mean theorem". Given a length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex>, we draw a line <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> and {Q} and find the intersection <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> of the circle centered at <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> of length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> with the line <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|P'Q|=\ell +1]]></fr:tex>.</fr:p>
+<fr:p>Now, we find the midpoint between <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> and call this <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> (for "midpoint"). We draw a circle <fr:tex
+display="inline"><![CDATA[C(M,Q)]]></fr:tex> centered at <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> (and <fr:tex
+display="inline"><![CDATA[P']]></fr:tex>). We draw a perpendicular line with <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> which intersects <fr:tex
+display="inline"><![CDATA[C(M,Q)]]></fr:tex> at <fr:tex
+display="inline"><![CDATA[Q']]></fr:tex>. Then the length of <fr:tex
+display="inline"><![CDATA[|PQ'|=\sqrt {\ell }]]></fr:tex> by the well-known geometric mean theorem. Hence the result.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
@@ -38,25 +58,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7140</fr:anchor><fr:addr
-type="user">gr-000L</fr:addr><fr:route>gr-000L.xml</fr:route><fr:title
-text="Product law">Product law</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2626</fr:anchor><fr:addr
+type="user">nt-001L</fr:addr><fr:route>nt-001L.xml</fr:route><fr:title
+text="Criteria for constructible lengths">Criteria for constructible lengths</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#T33">group_1:33</fr:link></fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points on the plane containing the origin and two points <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> such that their length <fr:tex
+display="inline"><![CDATA[|PQ|=1]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be the field generated over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> by the coordinates of the points of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. A length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> is <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>, let <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex>, let <fr:tex
-display="inline"><![CDATA[m,n\in \mathbb {Z}]]></fr:tex>. Then
+href="nt-001F.xml"
+addr="nt-001F"
+title="Constructible length">constructible</fr:link> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if and only if there exists a finite sequence
 <fr:tex
-display="block"><![CDATA[g^{m}g^{n}=g^{m+n}.]]></fr:tex></fr:p>
+display="block"><![CDATA[\mathbb {F}=F_{0}\subset  F_{1}\subset …\subset  F_{n},]]></fr:tex>
+where each <fr:tex
+display="inline"><![CDATA[F_{i}]]></fr:tex> is a quadratic extension of <fr:tex
+display="inline"><![CDATA[F_{i-1}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\ell \in  F_{n}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -66,21 +93,41 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1674</fr:anchor><fr:addr
-type="machine">#421</fr:addr><fr:route>unstable-421.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>931</fr:anchor><fr:addr
+type="machine">#421</fr:addr><fr:route>unstable-421.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>By induction on <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Base case:</fr:strong> <fr:tex
-display="inline"><![CDATA[n=0]]></fr:tex>. We see <fr:tex
-display="inline"><![CDATA[g^{m}g^{0}=g^{m}e=g^{m}=g^{m+n}]]></fr:tex>.</fr:p>
-<fr:p><fr:strong>Inductive case:</fr:strong> Assume the inductive hypothesis <fr:tex
-display="inline"><![CDATA[g^{m}g^{n}=g^{m+n}]]></fr:tex> for arbitrary <fr:tex
-display="inline"><![CDATA[n\in \mathbb {Z}]]></fr:tex>. We want to show <fr:tex
-display="inline"><![CDATA[g^{m}g^{n+1}=g^{m+n+1}]]></fr:tex> and also <fr:tex
-display="inline"><![CDATA[g^{m}g^{n-1}=g^{m+n-1}]]></fr:tex>, but this follows by the inductive hypothesis and associativity.</fr:p><html:span
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Since a constructible length is obtained by finitely many constructible points, and <fr:link
+type="local"
+href="nt-001K.xml"
+addr="nt-001K"
+title="A point whose coordinates like in a quadratic extension of the field is directly constructible">each directly constructible point gives us a quadratic field extension</fr:link>, the forward proof is obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suffices to show <fr:tex
+display="inline"><![CDATA[\sqrt {\ell }]]></fr:tex> is constructible, but this is the well-known construction using the "geometric mean theorem". Given a length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex>, we draw a line <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> and {Q} and find the intersection <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> of the circle centered at <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> of length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> with the line <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|P'Q|=\ell +1]]></fr:tex>.</fr:p>
+<fr:p>Now, we find the midpoint between <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> and call this <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> (for "midpoint"). We draw a circle <fr:tex
+display="inline"><![CDATA[C(M,Q)]]></fr:tex> centered at <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> (and <fr:tex
+display="inline"><![CDATA[P']]></fr:tex>). We draw a perpendicular line with <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> which intersects <fr:tex
+display="inline"><![CDATA[C(M,Q)]]></fr:tex> at <fr:tex
+display="inline"><![CDATA[Q']]></fr:tex>. Then the length of <fr:tex
+display="inline"><![CDATA[|PQ'|=\sqrt {\ell }]]></fr:tex> by the well-known geometric mean theorem. Hence the result.</fr:p><html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  

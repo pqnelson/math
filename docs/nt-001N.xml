@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2914</fr:anchor><fr:addr
+type="user">nt-001N</fr:addr><fr:route>nt-001N.xml</fr:route><fr:title
+text="It is impossible to square the circle, double the cube, or trisect an angle">It is impossible to square the circle, double the cube, or trisect an angle</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>It is impossible using only <fr:link
+type="local"
+href="nt-001D.xml"
+addr="nt-001D"
+title="Allowed constructions with straightedge and compass">the allowed constructions with straightedge and compass</fr:link> to square the circle, double the cube, or trisect an angle.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>939</fr:anchor><fr:addr
+type="machine">#419</fr:addr><fr:route>unstable-419.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> It is impossible to square the circle. We could do this if <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> were a constructible length. But <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">that would mean</fr:link> <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, which it isn't. So <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is not a constructible length, which means we cannot square the unit circle.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> It is impossible to double the cube. Suppose we had a unit cube. Then we will want to construct a cube whose edges are length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\ell ^{3}=2]]></fr:tex>. This requires <fr:tex
+display="inline"><![CDATA[\ell =\sqrt [3]{2}]]></fr:tex> which has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> which <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">is impossible to construct</fr:link>.</fr:p>
+<fr:p><fr:strong>Claim 3:</fr:strong> It is impossible to trisect an angle. To construct an angle <fr:tex
+display="inline"><![CDATA[\theta ]]></fr:tex> is equivalent to give a point with coordinates <fr:tex
+display="inline"><![CDATA[(\cos (\theta ),\sin (\theta ))]]></fr:tex>. We know the triple angle formula
+<fr:tex
+display="block"><![CDATA[\cos (3\theta )=4\cos ^{3}(\theta )-3\cos (\theta ).]]></fr:tex>
+Let <fr:tex
+display="inline"><![CDATA[\theta =20^{\circ }]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\ell =2\cos (\theta )]]></fr:tex> satisfies
+<fr:tex
+display="block"><![CDATA[\frac {1}{2}=4(\ell  / 2)^{3}-3\ell  / 2\iff  \ell ^{3}-3\ell -1=0.]]></fr:tex>
+This line making angle <fr:tex
+display="inline"><![CDATA[3\theta =60^{\circ }]]></fr:tex> with the <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>-axis passes through the point <fr:tex
+display="inline"><![CDATA[(1,\sqrt {3})]]></fr:tex>. In particular, <fr:tex
+display="inline"><![CDATA[60^{\circ }]]></fr:tex> is a constructible angle. But the polynomial
+<fr:tex
+display="block"><![CDATA[x^{3}-3x-1]]></fr:tex>
+is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">and cannot be constructible</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2916</fr:anchor><fr:addr
+type="user">iaa-000D</fr:addr><fr:route>iaa-000D.xml</fr:route><fr:title
+text="Classical straightedge and compass constructions">Classical straightedge and compass constructions</fr:title><fr:taxon>Application</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(This is an obligatory topic of discussion with field extensions, the uninterested reader may skip it entirely if they wish to deprive themselves of all the fun of planar geometry.)</fr:p><fr:p>There have been a number of famous geometry problems dating back to the ancient Greeks which we can settle using field extensions, problems like:
+<fr:ol><fr:li><fr:strong>Squaring the circle:</fr:strong> Given a circle, can we construct a square with the same area?</fr:li>
+<fr:li><fr:strong>Doubling the cube:</fr:strong> given a cube with volume <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>, can we construct a cube with twice the volume (i.e., with volume <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>) using straightedge and compass along?</fr:li>
+<fr:li><fr:strong>Trisecting an angle:</fr:strong> Given an angle <fr:tex
+display="inline"><![CDATA[\theta ]]></fr:tex>, can we trisect it to produce an angle <fr:tex
+display="inline"><![CDATA[\alpha =\theta  / 3]]></fr:tex>?</fr:li></fr:ol>
+All three of these problems are, alas, impossible. And we can prove it!</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>903</fr:anchor><fr:addr
+type="user">nt-001D</fr:addr><fr:route>nt-001D.xml</fr:route><fr:title
+text="Allowed constructions with straightedge and compass">Allowed constructions with straightedge and compass</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>With a straightedge and compass, we may only allow the first three of Euclid's postulates, i.e.:
+<fr:ol><fr:li>draw a straightline (possibly passing through two given points), and</fr:li>
+<fr:li>draw a circle.</fr:li></fr:ol>
+It follows that the only <fr:em>points</fr:em> we may construct with straightedge and compass along are:
+<fr:ol><fr:li>The intersection of two lines;</fr:li>
+<fr:li>The intersection of two circles; and</fr:li>
+<fr:li>The intersection of a line and a circle.</fr:li></fr:ol></fr:p><fr:p>More concretely, let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points on the plane. For any two distinct points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2}\in  S]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[P_{1}\neq  P_{2}]]></fr:tex>, we denote the set of points (i.e., the subset of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>):
+<fr:tex
+display="block"><![CDATA[P_{1}P_{2}=\hbox {line passing through }P_{1}\hbox { and }P_{2}]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[C(P_{1},P_{2})=\hbox {circle centered at }P_{1}\hbox { and passing through }P_{2}.]]></fr:tex>
+From <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> we may construct a new point <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> by:
+<fr:ol><fr:li>Given points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2},Q_{1},Q_{2}\in  S]]></fr:tex>, marking <fr:tex
+display="inline"><![CDATA[Q\in  P_{1}P_{2}\cap  Q_{1}Q_{2}]]></fr:tex>;</fr:li>
+<fr:li>Given points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2},O,P\in  S]]></fr:tex>, and marking <fr:tex
+display="inline"><![CDATA[Q\in  P_{1}P_{2}\cap  C(O,P)]]></fr:tex>;</fr:li>
+<fr:li>Given points <fr:tex
+display="inline"><![CDATA[O,O',P,P'\in  S]]></fr:tex>, and marking <fr:tex
+display="inline"><![CDATA[Q\in  C(O,P)\cap  C(O',P')]]></fr:tex>.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>905</fr:anchor><fr:addr
+type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We stress that a "straightedge" is an "unmarked ruler" which cannot measure lengths. If we allow the user to write "markings" on the straightedge (i.e., work with a ruler), then the allowed constructions are known as <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Neusis_construction">Neusis constructions</fr:link>. We will not discuss them any further here.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>907</fr:anchor><fr:addr
+type="user">nt-001E</fr:addr><fr:route>nt-001E.xml</fr:route><fr:title
+text="Constructible points">Constructible points</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points. A point <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Directly Constructible</html:dfn> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if it's the marked point obtained by any of the <fr:link
+type="local"
+href="nt-001D.xml"
+addr="nt-001D"
+title="Allowed constructions with straightedge and compass">Allowed constructions with straightedge and compass</fr:link>.</fr:p><fr:p>A point <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is called <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Constructible</html:dfn> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if there exists a sequence of sets
+<fr:tex
+display="block"><![CDATA[S=S_{0}\subset  S_{1}\subset  S_{2}\subset …\subset  S_{n}]]></fr:tex>
+where each <fr:tex
+display="inline"><![CDATA[S_{i}=S_{i-1}\cup \{P_{i}\}]]></fr:tex> for a point <fr:tex
+display="inline"><![CDATA[P_{i}]]></fr:tex> directly constructible from <fr:tex
+display="inline"><![CDATA[S_{i-1}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[P=P_{n}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>909</fr:anchor><fr:addr
+type="user">nt-001F</fr:addr><fr:route>nt-001F.xml</fr:route><fr:title
+text="Constructible length">Constructible length</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points. A length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> is <html:dfn
+xmlns:html="http://www.w3.org/1999/xhtml">Constructible</html:dfn> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if there are two <fr:link
+type="local"
+href="nt-001E.xml"
+addr="nt-001E"
+title="Constructible points">Constructible points</fr:link> <fr:tex
+display="inline"><![CDATA[P\in  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Q\in  S]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> is the distance between <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>911</fr:anchor><fr:addr
+type="user">nt-001G</fr:addr><fr:route>nt-001G.xml</fr:route><fr:title
+text="Identify Cartesian Plane with Set of Points">Identify Cartesian Plane with Set of Points</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can now use algebraic geometry (a tool unavailable to the Ancient Greeks) to answer the questions posed to us. We take the Cartesian plane <fr:tex
+display="inline"><![CDATA[\mathbb {R}^{2}]]></fr:tex> as the set of points, identifying each point with their coordinates <fr:tex
+display="inline"><![CDATA[(x,y)]]></fr:tex>.</fr:p><fr:p>This is done by starting with the affine real plane <fr:tex
+display="inline"><![CDATA[\mathbb {A}^{2}]]></fr:tex>, picking some point <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> as the origin, and picking some point <fr:tex
+display="inline"><![CDATA[P\in \mathbb {A}^{2}]]></fr:tex> as having coordinates <fr:tex
+display="inline"><![CDATA[(1,0)]]></fr:tex>. We can construct a line passing through <fr:tex
+display="inline"><![CDATA[OP]]></fr:tex> as the <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>-axis, and then we can construct an orthogonal line passing through <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> as the <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>-axis.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>913</fr:anchor><fr:addr
+type="user">nt-001H</fr:addr><fr:route>nt-001H.xml</fr:route><fr:title
+text="Criteria for constructible lengths">Criteria for constructible lengths</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> is <fr:link
+type="local"
+href="nt-001F.xml"
+addr="nt-001F"
+title="Constructible length">constructible</fr:link> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if and only if the point <fr:tex
+display="inline"><![CDATA[(0,\ell )]]></fr:tex> is <fr:link
+type="local"
+href="nt-001E.xml"
+addr="nt-001E"
+title="Constructible points">constructible</fr:link>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>915</fr:anchor><fr:addr
+type="machine">#425</fr:addr><fr:route>unstable-425.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> If <fr:tex
+display="inline"><![CDATA[(0,\ell )]]></fr:tex> is constructible, its distance from <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> is constructible.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> is a constructible length. Then there exists points <fr:tex
+display="inline"><![CDATA[P\in  S]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Q\in  S]]></fr:tex> which has length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex>. We will prove <fr:tex
+display="inline"><![CDATA[(0,\ell )]]></fr:tex> is constructible. There are three possible cases: (1) <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> does not pass through <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>, (2) <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> is either <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>, (3) <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> are distinct points lying on the same line.</fr:p>
+<fr:p><fr:strong>Case 1:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> does not pass through <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>. Draw the line parallel to <fr:tex
+display="inline"><![CDATA[OP]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>, and draw the line parallel to <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> be the intersection of these two lines. Then we have a parallelogram <fr:tex
+display="inline"><![CDATA[OPQR]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[OR]]></fr:tex> has the same length as <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex>. Draw a circle centered at <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, and then we see the circle intersects the <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>-axis at the point <fr:tex
+display="inline"><![CDATA[(0,\ell )]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 2:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> is either <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>. Then drawing a circle at <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> passing through the other point will intersect the <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>-axis as <fr:tex
+display="inline"><![CDATA[(0,\ell )]]></fr:tex>.</fr:p>
+<fr:p><fr:strong>Case 3:</fr:strong> Suppose <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> are three distinct points lying on the same line <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>. Draw a line <fr:tex
+display="inline"><![CDATA[L_{2}]]></fr:tex> perpendicular to <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>. Draw a circle <fr:tex
+display="inline"><![CDATA[C(P,Q)]]></fr:tex> centered at <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[Q'\in  L_{2}\cap  C(P,Q)]]></fr:tex> be the intersection of the perpendicular line at <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> with the circle we just constructed. We can draw a line <fr:tex
+display="inline"><![CDATA[L_{1}]]></fr:tex> which is perpendicular to <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[O]]></fr:tex>, which is parallel to <fr:tex
+display="inline"><![CDATA[L_{2}]]></fr:tex>. We draw a line parallel to <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[Q']]></fr:tex> which intersects <fr:tex
+display="inline"><![CDATA[L_{1}]]></fr:tex> at <fr:tex
+display="inline"><![CDATA[P']]></fr:tex>. Draw a circle centered at <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P']]></fr:tex>. Since the length of <fr:tex
+display="inline"><![CDATA[OP']]></fr:tex> is the same as the length of <fr:tex
+display="inline"><![CDATA[PQ']]></fr:tex> (which is the same as the length of <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex>, i.e., it's the same as <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex>), drawing a circle at <fr:tex
+display="inline"><![CDATA[O]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> will intersect the <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>-axis at <fr:tex
+display="inline"><![CDATA[(0,\ell )]]></fr:tex>, as desired.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>917</fr:anchor><fr:addr
+type="user">nt-001I</fr:addr><fr:route>nt-001I.xml</fr:route><fr:title
+text="Points with coordinates in a field have intersecting lines at points with coordinates in a field">Points with coordinates in a field have intersecting lines at points with coordinates in a field</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points whose coordinates lie in a field <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {R}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is directly constructed from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> by intersecting two lines, then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> will also have coordinates in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>919</fr:anchor><fr:addr
+type="machine">#424</fr:addr><fr:route>unstable-424.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose we have two points <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x_{1},y_{1})]]></fr:tex> which are given. The line passing through these points have the form
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[A=y-y_{0},\quad  B=x-x_{0},\quad  C=x_{0}y_{1}-x_{1}y_{0}.]]></fr:tex>
+We see the coefficients are <fr:em>polynomials</fr:em> in the coordinates of the given points.</fr:p>
+<fr:p>The intersection of two lines
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[A'x+B'y+C'=0,]]></fr:tex>
+is nonempty if and only if
+<fr:tex
+display="block"><![CDATA[AB'-A'B\neq 0,]]></fr:tex>
+in which case the intersection point has coordinates,
+<fr:tex
+display="block"><![CDATA[x_{i}=\frac {BC-B'C'}{AB'-A'B},\quad  y_{i}=\frac {A'C'-AC}{AB'-A'B}.]]></fr:tex>
+The coordinates of the intersection point are <fr:em>rational functions</fr:em> in the coefficients for equations of the given lines.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>921</fr:anchor><fr:addr
+type="user">nt-001J</fr:addr><fr:route>nt-001J.xml</fr:route><fr:title
+text="Coordinates of intersection of a circle and a line lie in a quadratic extension">Coordinates of intersection of a circle and a line lie in a quadratic extension</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points in the plane with coordinates in the field <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {R}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[O,P,P_{1},P_{2}\in  S]]></fr:tex>. Then the coordinates for the point constructed from intersecting the circle <fr:tex
+display="inline"><![CDATA[C(O,P)]]></fr:tex> with the line <fr:tex
+display="inline"><![CDATA[P_{1}P_{2}]]></fr:tex> lies in a quadratic extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>923</fr:anchor><fr:addr
+type="machine">#423</fr:addr><fr:route>unstable-423.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We see that two points with coordinates <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[(x_{1},y_{1})]]></fr:tex> has a line segment connecting them with length
+<fr:tex
+display="block"><![CDATA[\sqrt {(x_{1}-x_{0})^{2}+(y_{1}-y_{0})^{2}}.]]></fr:tex>
+Using a compass, we can draw a circle with a center at a given point <fr:tex
+display="inline"><![CDATA[(a,b)]]></fr:tex> that passes through another point <fr:tex
+display="inline"><![CDATA[(x_{0},y_{0})]]></fr:tex>. The equation describing the coordinates for points on the circle is
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=(x_{0}-a)^{2}+(y_{0}-b)^{2}.]]></fr:tex>
+Observe the coefficients of this equation are again polynomials in <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y_{0}]]></fr:tex>.</fr:p>
+<fr:p>Suppose we have a line and a circle given by equations
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+and
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=r^{2}.]]></fr:tex>
+To find the coordinates of the intersection point <fr:tex
+display="inline"><![CDATA[(x_{i},y_{i})]]></fr:tex> we will have to solve a quadratic equation. The formula for <fr:tex
+display="inline"><![CDATA[x_{i}]]></fr:tex> will look like
+<fr:tex
+display="block"><![CDATA[ax_{i}^{2}+bx_{i}+c=0]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[c]]></fr:tex> are quantities which may be expressed as polynomials in <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{0}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[y_{0}]]></fr:tex>. We stipulate by hypothesis these quantities like in the field <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. The quadratic formula
+<fr:tex
+display="block"><![CDATA[x_{\pm }=\frac {-b\pm \sqrt {\Delta }}{2a}]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[\Delta =b^{2}-4ac]]></fr:tex>
+will then imply that <fr:tex
+display="inline"><![CDATA[x_{i}]]></fr:tex> lies in a <fr:em>quadratic extension</fr:em> of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, namely <fr:tex
+display="inline"><![CDATA[\mathbb {F}(\sqrt {\Delta })]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[y_{i}]]></fr:tex> is a rational function of <fr:tex
+display="inline"><![CDATA[x_{i}]]></fr:tex>, it follows that <fr:tex
+display="inline"><![CDATA[y_{i}\in \mathbb {F}(\sqrt {\Delta })]]></fr:tex>. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>925</fr:anchor><fr:addr
+type="user">nt-001K</fr:addr><fr:route>nt-001K.xml</fr:route><fr:title
+text="A point whose coordinates like in a quadratic extension of the field is directly constructible">A point whose coordinates like in a quadratic extension of the field is directly constructible</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points in the plane. Suppose the points in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> have coordinates in the field <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {R}]]></fr:tex>. If a point <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> has coordinates lying in a quadratic field extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is <fr:link
+type="local"
+href="nt-001E.xml"
+addr="nt-001E"
+title="Constructible points">directly constructible</fr:link> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>927</fr:anchor><fr:addr
+type="machine">#422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suffices to prove the intersection of two circles have coordinates in a quadratic extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (since we have shown <fr:link
+type="local"
+href="nt-001I.xml"
+addr="nt-001I"
+title="Points with coordinates in a field have intersecting lines at points with coordinates in a field">the intersection of two lines lie in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link> and <fr:link
+type="local"
+href="nt-001J.xml"
+addr="nt-001J"
+title="Coordinates of intersection of a circle and a line lie in a quadratic extension">the intersection of a line and a circle lie in a quadratic extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link>).</fr:p>
+<fr:p>If we have two circles whose points satisfy the equation
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=r_{0}^{2},]]></fr:tex>
+or
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=r_{1}^{2}.]]></fr:tex>
+If we expand and subtract one equation from another, we obtain the equation where the quadratic terms cancel out; it has the form
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[\begin {align*}A&=2x(x_{1}-x_{0})\\ B&=2y(y_{1}-y_{0})\\ C&=x_{0}^{2}-x_{1}^{2}+y_{0}^{2}-y_{1}^{2}-r_{0}^{2}+r_{1}^{2}.\end {align*}]]></fr:tex>
+Then the intersecting the two circles is the same as intersecting either of them with the line above. Note the coefficients <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> are again polynomials in the coordinates <fr:tex
+display="inline"><![CDATA[x_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y_{1}]]></fr:tex>, and the lengths <fr:tex
+display="inline"><![CDATA[r_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[r_{1}]]></fr:tex>.</fr:p>
+<fr:p>Hence the result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>929</fr:anchor><fr:addr
+type="user">nt-001L</fr:addr><fr:route>nt-001L.xml</fr:route><fr:title
+text="Criteria for constructible lengths">Criteria for constructible lengths</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points on the plane containing the origin and two points <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> such that their length <fr:tex
+display="inline"><![CDATA[|PQ|=1]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be the field generated over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> by the coordinates of the points of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. A length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> is <fr:link
+type="local"
+href="nt-001F.xml"
+addr="nt-001F"
+title="Constructible length">constructible</fr:link> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> if and only if there exists a finite sequence
+<fr:tex
+display="block"><![CDATA[\mathbb {F}=F_{0}\subset  F_{1}\subset …\subset  F_{n},]]></fr:tex>
+where each <fr:tex
+display="inline"><![CDATA[F_{i}]]></fr:tex> is a quadratic extension of <fr:tex
+display="inline"><![CDATA[F_{i-1}]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[\ell \in  F_{n}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>931</fr:anchor><fr:addr
+type="machine">#421</fr:addr><fr:route>unstable-421.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(\Longrightarrow )]]></fr:tex> Since a constructible length is obtained by finitely many constructible points, and <fr:link
+type="local"
+href="nt-001K.xml"
+addr="nt-001K"
+title="A point whose coordinates like in a quadratic extension of the field is directly constructible">each directly constructible point gives us a quadratic field extension</fr:link>, the forward proof is obvious.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(\Longleftarrow )]]></fr:tex> Suffices to show <fr:tex
+display="inline"><![CDATA[\sqrt {\ell }]]></fr:tex> is constructible, but this is the well-known construction using the "geometric mean theorem". Given a length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex>, we draw a line <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> and {Q} and find the intersection <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> of the circle centered at <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> of length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> with the line <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[|P'Q|=\ell +1]]></fr:tex>.</fr:p>
+<fr:p>Now, we find the midpoint between <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> and call this <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> (for "midpoint"). We draw a circle <fr:tex
+display="inline"><![CDATA[C(M,Q)]]></fr:tex> centered at <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> (and <fr:tex
+display="inline"><![CDATA[P']]></fr:tex>). We draw a perpendicular line with <fr:tex
+display="inline"><![CDATA[PQ]]></fr:tex> passing through <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> which intersects <fr:tex
+display="inline"><![CDATA[C(M,Q)]]></fr:tex> at <fr:tex
+display="inline"><![CDATA[Q']]></fr:tex>. Then the length of <fr:tex
+display="inline"><![CDATA[|PQ'|=\sqrt {\ell }]]></fr:tex> by the well-known geometric mean theorem. Hence the result.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>933</fr:anchor><fr:addr
+type="user">nt-001M</fr:addr><fr:route>nt-001M.xml</fr:route><fr:title
+text="Constructible points live in field extensions of degree 2^{k}">Constructible points live in field extensions of degree <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex></fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points in the plane containing the origin and points <fr:tex
+display="inline"><![CDATA[P,Q\in  S]]></fr:tex> whose line segment connecting them has unit length <fr:tex
+display="inline"><![CDATA[|PQ|=1]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be the field generated over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> by the coordinates of the points in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\ell \in \mathbb {R}]]></fr:tex> is <fr:link
+type="local"
+href="nt-001F.xml"
+addr="nt-001F"
+title="Constructible length">constructible</fr:link>, then it is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[k\in \mathbb {N}_{0}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>935</fr:anchor><fr:addr
+type="machine">#420</fr:addr><fr:route>unstable-420.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have <fr:link
+type="local"
+href="nt-001L.xml"
+addr="nt-001L"
+title="Criteria for constructible lengths">by the criteria of constructible lengths</fr:link> <fr:tex
+display="inline"><![CDATA[[F_{n} : F_{0}]=2^{n}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}(\ell )]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {Q}]]]></fr:tex> which divides <fr:tex
+display="inline"><![CDATA[[F_{n} : \mathbb {F}]=2^{n}]]></fr:tex> and so must be <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[k\in \mathbb {N}_{0}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>937</fr:anchor><fr:addr
+type="user">nt-001N</fr:addr><fr:route>nt-001N.xml</fr:route><fr:title
+text="It is impossible to square the circle, double the cube, or trisect an angle">It is impossible to square the circle, double the cube, or trisect an angle</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>It is impossible using only <fr:link
+type="local"
+href="nt-001D.xml"
+addr="nt-001D"
+title="Allowed constructions with straightedge and compass">the allowed constructions with straightedge and compass</fr:link> to square the circle, double the cube, or trisect an angle.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>939</fr:anchor><fr:addr
+type="machine">#419</fr:addr><fr:route>unstable-419.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Claim 1:</fr:strong> It is impossible to square the circle. We could do this if <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> were a constructible length. But <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">that would mean</fr:link> <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, which it isn't. So <fr:tex
+display="inline"><![CDATA[\sqrt {\pi }]]></fr:tex> is not a constructible length, which means we cannot square the unit circle.</fr:p>
+<fr:p><fr:strong>Claim 2:</fr:strong> It is impossible to double the cube. Suppose we had a unit cube. Then we will want to construct a cube whose edges are length <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\ell ^{3}=2]]></fr:tex>. This requires <fr:tex
+display="inline"><![CDATA[\ell =\sqrt [3]{2}]]></fr:tex> which has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> which <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">is impossible to construct</fr:link>.</fr:p>
+<fr:p><fr:strong>Claim 3:</fr:strong> It is impossible to trisect an angle. To construct an angle <fr:tex
+display="inline"><![CDATA[\theta ]]></fr:tex> is equivalent to give a point with coordinates <fr:tex
+display="inline"><![CDATA[(\cos (\theta ),\sin (\theta ))]]></fr:tex>. We know the triple angle formula
+<fr:tex
+display="block"><![CDATA[\cos (3\theta )=4\cos ^{3}(\theta )-3\cos (\theta ).]]></fr:tex>
+Let <fr:tex
+display="inline"><![CDATA[\theta =20^{\circ }]]></fr:tex>. Then <fr:tex
+display="inline"><![CDATA[\ell =2\cos (\theta )]]></fr:tex> satisfies
+<fr:tex
+display="block"><![CDATA[\frac {1}{2}=4(\ell  / 2)^{3}-3\ell  / 2\iff  \ell ^{3}-3\ell -1=0.]]></fr:tex>
+This line making angle <fr:tex
+display="inline"><![CDATA[3\theta =60^{\circ }]]></fr:tex> with the <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>-axis passes through the point <fr:tex
+display="inline"><![CDATA[(1,\sqrt {3})]]></fr:tex>. In particular, <fr:tex
+display="inline"><![CDATA[60^{\circ }]]></fr:tex> is a constructible angle. But the polynomial
+<fr:tex
+display="block"><![CDATA[x^{3}-3x-1]]></fr:tex>
+is irreducible over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree 3 over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> <fr:link
+type="local"
+href="nt-001M.xml"
+addr="nt-001M"
+title="Constructible points live in field extensions of degree 2^{k}">and cannot be constructible</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>941</fr:anchor><fr:addr
+type="user">nt-001O</fr:addr><fr:route>nt-001O.xml</fr:route><fr:title
+text="Can we do Physics with constructible numbers?">Can we do Physics with constructible numbers?</fr:title><fr:taxon>Puzzle</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Isaac Newton's <fr:em>Principia Mathematica</fr:em> used (ostensibly) Euclidean geometry alone to do physics.</fr:p><fr:p>Does this actually work? Can we do physics (at least, classical mechanics with gravity and other simple forces) with constructible numbers alone? Or did Newton "cheat" somewhere?</fr:p><fr:p>Newton also did a lot of fluid mechanics in book II of his <fr:em>Principia</fr:em>, can we describe fluid mechanics using constructible numbers alone?</fr:p><fr:p>Can we do calculus with constructible numbers alone? Perhaps this might be easier to answer.</fr:p><fr:p>The interested reader may consult <fr:link
+type="local"
+href="jacques-fleuriot.xml"
+addr="jacques-fleuriot"
+title="Jacques Fleuriot">Jacques Fleuriot</fr:link> <fr:link
+type="local"
+href="fleuriot-2001-combination.xml"
+addr="fleuriot-2001-combination"
+title="A combination of geometry theorem proving and nonstandard analysis with application to Newton's Principia">A combination of geometry theorem proving and nonstandard analysis with application to Newton's Principia</fr:link> and <fr:link
+type="local"
+href="lars-werne.xml"
+addr="lars-werne"
+title="Lars Werne">Lars Werne</fr:link>'s <fr:link
+type="local"
+href="werne-2022-mechanising.xml"
+addr="werne-2022-mechanising"
+title="Mechanising Newtonian Mechanics in Isabelle">Mechanising Newtonian Mechanics in Isabelle</fr:link> for formalizations of Newton's <fr:em>Principia</fr:em> in the Isabelle proof assistant.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2918</fr:anchor><fr:addr
+type="user">nt-001D</fr:addr><fr:route>nt-001D.xml</fr:route><fr:title
+text="Allowed constructions with straightedge and compass">Allowed constructions with straightedge and compass</fr:title><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>With a straightedge and compass, we may only allow the first three of Euclid's postulates, i.e.:
+<fr:ol><fr:li>draw a straightline (possibly passing through two given points), and</fr:li>
+<fr:li>draw a circle.</fr:li></fr:ol>
+It follows that the only <fr:em>points</fr:em> we may construct with straightedge and compass along are:
+<fr:ol><fr:li>The intersection of two lines;</fr:li>
+<fr:li>The intersection of two circles; and</fr:li>
+<fr:li>The intersection of a line and a circle.</fr:li></fr:ol></fr:p><fr:p>More concretely, let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points on the plane. For any two distinct points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2}\in  S]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[P_{1}\neq  P_{2}]]></fr:tex>, we denote the set of points (i.e., the subset of <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>):
+<fr:tex
+display="block"><![CDATA[P_{1}P_{2}=\hbox {line passing through }P_{1}\hbox { and }P_{2}]]></fr:tex>
+<fr:tex
+display="block"><![CDATA[C(P_{1},P_{2})=\hbox {circle centered at }P_{1}\hbox { and passing through }P_{2}.]]></fr:tex>
+From <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> we may construct a new point <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> by:
+<fr:ol><fr:li>Given points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2},Q_{1},Q_{2}\in  S]]></fr:tex>, marking <fr:tex
+display="inline"><![CDATA[Q\in  P_{1}P_{2}\cap  Q_{1}Q_{2}]]></fr:tex>;</fr:li>
+<fr:li>Given points <fr:tex
+display="inline"><![CDATA[P_{1},P_{2},O,P\in  S]]></fr:tex>, and marking <fr:tex
+display="inline"><![CDATA[Q\in  P_{1}P_{2}\cap  C(O,P)]]></fr:tex>;</fr:li>
+<fr:li>Given points <fr:tex
+display="inline"><![CDATA[O,O',P,P'\in  S]]></fr:tex>, and marking <fr:tex
+display="inline"><![CDATA[Q\in  C(O,P)\cap  C(O',P')]]></fr:tex>.</fr:li></fr:ol></fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>905</fr:anchor><fr:addr
+type="machine">#426</fr:addr><fr:route>unstable-426.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We stress that a "straightedge" is an "unmarked ruler" which cannot measure lengths. If we allow the user to write "markings" on the straightedge (i.e., work with a ruler), then the allowed constructions are known as <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Neusis_construction">Neusis constructions</fr:link>. We will not discuss them any further here.</fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2920</fr:anchor><fr:addr
+type="user">nt-001M</fr:addr><fr:route>nt-001M.xml</fr:route><fr:title
+text="Constructible points live in field extensions of degree 2^{k}">Constructible points live in field extensions of degree <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex></fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points in the plane containing the origin and points <fr:tex
+display="inline"><![CDATA[P,Q\in  S]]></fr:tex> whose line segment connecting them has unit length <fr:tex
+display="inline"><![CDATA[|PQ|=1]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be the field generated over <fr:tex
+display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> by the coordinates of the points in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\ell \in \mathbb {R}]]></fr:tex> is <fr:link
+type="local"
+href="nt-001F.xml"
+addr="nt-001F"
+title="Constructible length">constructible</fr:link>, then it is algebraic over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> of degree <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[k\in \mathbb {N}_{0}]]></fr:tex>.</fr:p>
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>935</fr:anchor><fr:addr
+type="machine">#420</fr:addr><fr:route>unstable-420.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have <fr:link
+type="local"
+href="nt-001L.xml"
+addr="nt-001L"
+title="Criteria for constructible lengths">by the criteria of constructible lengths</fr:link> <fr:tex
+display="inline"><![CDATA[[F_{n} : F_{0}]=2^{n}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}(\ell )]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\ell ]]></fr:tex> has degree <fr:tex
+display="inline"><![CDATA[[\Bbbk  : \mathbb {Q}]]]></fr:tex> which divides <fr:tex
+display="inline"><![CDATA[[F_{n} : \mathbb {F}]=2^{n}]]></fr:tex> and so must be <fr:tex
+display="inline"><![CDATA[2^{k}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[k\in \mathbb {N}_{0}]]></fr:tex>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

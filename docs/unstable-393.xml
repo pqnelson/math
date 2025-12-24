@@ -7,16 +7,16 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4725</fr:anchor><fr:addr
-type="machine">#393</fr:addr><fr:route>unstable-393.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2295</fr:anchor><fr:addr
+type="machine">#393</fr:addr><fr:route>unstable-393.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is a "curried" form of a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary:  Finite fields are <fr:link
 type="local"
-href="gr-004Y.xml"
-addr="gr-004Y"
-title="Left group action">Left group action</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
+href="nt-002A.xml"
+addr="nt-002A"
+title="Perfect field">perfect</fr:link>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,44 +31,32 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>4727</fr:anchor><fr:addr
-type="user">gr-004A</fr:addr><fr:route>gr-004A.xml</fr:route><fr:title
-text="Permutation representation">Permutation representation</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2297</fr:anchor><fr:addr
+type="user">nt-002C</fr:addr><fr:route>nt-002C.xml</fr:route><fr:title
+text="Criteria for perfect fields of finite characteristic">Criteria for perfect fields of finite characteristic</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">Dummit and Foote <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> be a field of characteristic <fr:tex
+display="inline"><![CDATA[p>0]]></fr:tex>. Then the following are equivalent:</fr:p><fr:ol><fr:li><fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:link
 type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Section 4.1</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> be a set, let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
+href="nt-002A.xml"
+addr="nt-002A"
+title="Perfect field">perfect</fr:link>;</fr:li>
+<fr:li>The <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>. A <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Permutation Representation</html:dfn> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is a group morphism <fr:tex
-display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Sym}}\nolimits (X)]]></fr:tex> from <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> to the <fr:link
+href="nt-0022.xml"
+addr="nt-0022"
+title="Frobenius morphism">Frobenius morphism</fr:link> <fr:tex
+display="inline"><![CDATA[\phi (x)=x^{p}]]></fr:tex> is surjective; and</fr:li>
+<fr:li>Every finite extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is <fr:link
 type="local"
-href="gr-000F.xml"
-addr="gr-000F"
-title="Symmetric group of a set">symmetric group of <fr:tex
-display="inline"><![CDATA[X]]></fr:tex></fr:link>.</fr:p><fr:p>When <fr:tex
-display="inline"><![CDATA[g\in  G]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[x\in  X]]></fr:tex>, we write <fr:tex
-display="inline"><![CDATA[g\cdot  x]]></fr:tex> instead of <fr:tex
-display="inline"><![CDATA[\rho (g)(x)]]></fr:tex>. If there's ambiguity, we'll write <fr:tex
-display="inline"><![CDATA[\rho _{g}(x)]]></fr:tex> to stress which representation we're using.</fr:p><fr:p>More generally, a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Permutation Representation</html:dfn> of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> (without any mention of the representation space <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>) consists of a set <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> equipped with a group morphism <fr:tex
-display="inline"><![CDATA[\rho \colon  G\to \mathop {\textrm {Sym}}\nolimits (X)]]></fr:tex>.</fr:p>
+href="nt-002B.xml"
+addr="nt-002B"
+title="Separable field extension">separable</fr:link>.</fr:li></fr:ol>
  
    
    <fr:tree
@@ -78,15 +66,103 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2000</fr:anchor><fr:addr
-type="machine">#393</fr:addr><fr:route>unstable-393.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1041</fr:anchor><fr:addr
+type="machine">#392</fr:addr><fr:route>unstable-392.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is a "curried" form of a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[(1)\implies (2):]]></fr:tex> Assume <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is perfect. Let <fr:tex
+display="inline"><![CDATA[a\in \mathbb {F}]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be the <fr:link
 type="local"
-href="gr-004Y.xml"
-addr="gr-004Y"
-title="Left group action">Left group action</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="nt-001S.xml"
+addr="nt-001S"
+title="Splitting Field of a Polynomial">splitting field</fr:link> of <fr:tex
+display="inline"><![CDATA[x^{s}-a]]></fr:tex> and let <fr:tex
+display="inline"><![CDATA[\beta \in \Bbbk ]]></fr:tex> be such that <fr:tex
+display="inline"><![CDATA[\beta ^{p}=a]]></fr:tex>. Then the characteristic polynomial <fr:tex
+display="inline"><![CDATA[m_{\beta }(x)]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is irreducible, and divides
+<fr:tex
+display="block"><![CDATA[x^{p}-a=x^{p}-\beta ^{p}=(x-\beta )^{p}.]]></fr:tex>
+Since <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> is perfect, <fr:tex
+display="inline"><![CDATA[m_{\beta }]]></fr:tex> has no repeated roots, so
+<fr:tex
+display="block"><![CDATA[m_{\beta }=x-\beta ,]]></fr:tex>
+and <fr:tex
+display="inline"><![CDATA[\beta \in \mathbb {F}]]></fr:tex>.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(2)\implies (3):]]></fr:tex> (<fr:link
+type="local"
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>.) Assume <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is surjective. Let <fr:tex
+display="inline"><![CDATA[\Bbbk  / \mathbb {F}]]></fr:tex> be a finite extension, let <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex>, and let
+<fr:tex
+display="block"><![CDATA[m_{\alpha }(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+…+a_{1}x+a_{0}.]]></fr:tex>
+Assume for contradiction <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">inseparable</fr:link>, so that <fr:tex
+display="inline"><![CDATA[m'_{\alpha }(x)=0]]></fr:tex> and <fr:link
+type="local"
+href="nt-0029.xml"
+addr="nt-0029"
+title="Inseparable polynomial over field with characteristic p has p divide the nonzero coefficients of its derivative">then we see</fr:link> <fr:tex
+display="inline"><![CDATA[p\mathrel {\bigm |} k]]></fr:tex> whenever <fr:tex
+display="inline"><![CDATA[a_{k}\neq 0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[\phi ]]></fr:tex> is surjective, each <fr:tex
+display="inline"><![CDATA[a_{k}=b_{k}^{p}]]></fr:tex> for some <fr:tex
+display="inline"><![CDATA[b_{k}\in \mathbb {F}]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[m_{\alpha }(x)=(b_{m}x^{m})^{p}+(b_{m-1}x^{m-1})^{p-1}+…+(b_{1}x)^{p}+b_{0}^{p}=(q(x))^{p},]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[q(x)=b_{m}x^{m}+…+b_{1}x+b_{0},]]></fr:tex>
+which contradicts the irreducibility of <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)]]></fr:tex> must be separable.</fr:p>
+<fr:p><fr:tex
+display="inline"><![CDATA[(3)\implies (1):]]></fr:tex> Suppose <fr:tex
+display="inline"><![CDATA[p(x)\in \mathbb {F}[x]]]></fr:tex> is irreducible. Then <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}[x]/(p(x))]]></fr:tex> is a separable extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[\alpha \in \Bbbk ]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[x\in \mathbb {F}[x]]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[m_{\alpha }(x)=p(x)]]></fr:tex> is <fr:link
+type="local"
+href="nt-0025.xml"
+addr="nt-0025"
+title="Separable Polynomial">separable</fr:link>.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+ 
+
+ 
+   
+   <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1043</fr:anchor><fr:addr
+type="machine">#393</fr:addr><fr:route>unstable-393.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="alex-nelson.xml"
+addr="alex-nelson"
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>An immediate corollary:  Finite fields are <fr:link
+type="local"
+href="nt-002A.xml"
+addr="nt-002A"
+title="Perfect field">perfect</fr:link>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

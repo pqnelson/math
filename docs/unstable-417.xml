@@ -7,22 +7,14 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7122</fr:anchor><fr:addr
-type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2608</fr:anchor><fr:addr
+type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[ac=bc]]></fr:tex>, then multiply both sides on the right by <fr:tex
-display="inline"><![CDATA[c^{-1}]]></fr:tex>, we see the left-hand side becomes <fr:tex
-display="inline"><![CDATA[(ac)c^{-1}=a(cc^{-1})=ae=a]]></fr:tex> by assocativity and inverse, and the right-hand side becomes <fr:tex
-display="inline"><![CDATA[(bc)c^{-1}=b(cc^{-1})=be=b]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=b]]></fr:tex>.</fr:p>
-<fr:p>(2) Assume <fr:tex
-display="inline"><![CDATA[ca=cb]]></fr:tex>. Multiply both sides on the left by <fr:tex
-display="inline"><![CDATA[c^{-1}]]></fr:tex> gives the result by similar reasoning as (1).</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is an example where <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> splits completely over an extension of degree strictly smaller than <fr:tex
+display="inline"><![CDATA[\deg (f)!]]></fr:tex>.</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -37,33 +29,38 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7124</fr:anchor><fr:addr
-type="user">gr-000R</fr:addr><fr:route>gr-000R.xml</fr:route><fr:title
-text="Cancellation law">Cancellation law</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2610</fr:anchor><fr:addr
+type="user">nt-001R</fr:addr><fr:route>nt-001R.xml</fr:route><fr:title
+text="Splitting field for x^{3}-2 over the {F}_{7}">Splitting field for <fr:tex
+display="inline"><![CDATA[x^{3}-2]]></fr:tex> over the <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{7}]]></fr:tex></fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
-name="source">MML <fr:link
-type="external"
-href="https://mizar.uwb.edu.pl/version/current/html/group_1.html#T6">group_1:6</fr:link></fr:meta><fr:meta
-name="source">Dummit and Foote <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider <fr:link
 type="local"
-href="dummit-2004-abstract.xml"
-addr="dummit-2004-abstract"
-title="Abstract Algebra">Abstract Algebra</fr:link> Proposition 1.1.2</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> be a <fr:link
-type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link>, let <fr:tex
-display="inline"><![CDATA[a,b,c\in  G]]></fr:tex>. Then the following all hold:
-<fr:ol><fr:li>If <fr:tex
-display="inline"><![CDATA[ac=bc]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[a=b]]></fr:tex>; and</fr:li>
-<fr:li>If <fr:tex
-display="inline"><![CDATA[ca=cb]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[a=b]]></fr:tex>.</fr:li></fr:ol></fr:p>
+href="nt-001Q.xml"
+addr="nt-001Q"
+title="Splitting field for x^{3}-2 over the rationals">the same polynomial as before but over a different field</fr:link>: <fr:tex
+display="inline"><![CDATA[f(x)=x^{3}-2]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{7}]]></fr:tex>. We see for any <fr:tex
+display="inline"><![CDATA[c\in \mathbb {F}_{7}]]></fr:tex> that
+<fr:tex
+display="block"><![CDATA[c^{3}\equiv \pm 1\pmod {7},]]></fr:tex>
+so <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> has no root in <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{7}]]></fr:tex>. Hence <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> is irreducible.</fr:p><fr:p>Let <fr:tex
+display="inline"><![CDATA[\Bbbk =\mathbb {F}_{7}[x]/(f(x))]]></fr:tex> which we write as <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{7}(\alpha )]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[\alpha ^{3}=2]]></fr:tex>. We see <fr:tex
+display="inline"><![CDATA[\{2,4,1\}\subseteq \mathbb {F}_{7}^{\times }]]></fr:tex> are third roots of unity, so <fr:tex
+display="inline"><![CDATA[f(2\alpha )=f(4\alpha )=1]]></fr:tex>. Then
+<fr:tex
+display="block"><![CDATA[x^{3}-2=(x-\alpha )(x-2\alpha )(x-4\alpha )\in \Bbbk [x],]]></fr:tex>
+so that <fr:tex
+display="inline"><![CDATA[x^{3}-2]]></fr:tex> factors completely over an extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}_{7}]]></fr:tex> of degree 3.</fr:p>
  
    
    <fr:tree
@@ -73,21 +70,13 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1694</fr:anchor><fr:addr
-type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>951</fr:anchor><fr:addr
+type="machine">#417</fr:addr><fr:route>unstable-417.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(1) Assume <fr:tex
-display="inline"><![CDATA[ac=bc]]></fr:tex>, then multiply both sides on the right by <fr:tex
-display="inline"><![CDATA[c^{-1}]]></fr:tex>, we see the left-hand side becomes <fr:tex
-display="inline"><![CDATA[(ac)c^{-1}=a(cc^{-1})=ae=a]]></fr:tex> by assocativity and inverse, and the right-hand side becomes <fr:tex
-display="inline"><![CDATA[(bc)c^{-1}=b(cc^{-1})=be=b]]></fr:tex>. Hence <fr:tex
-display="inline"><![CDATA[a=b]]></fr:tex>.</fr:p>
-<fr:p>(2) Assume <fr:tex
-display="inline"><![CDATA[ca=cb]]></fr:tex>. Multiply both sides on the left by <fr:tex
-display="inline"><![CDATA[c^{-1}]]></fr:tex> gives the result by similar reasoning as (1).</fr:p><html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>This is an example where <fr:tex
+display="inline"><![CDATA[f(x)]]></fr:tex> splits completely over an extension of degree strictly smaller than <fr:tex
+display="inline"><![CDATA[\deg (f)!]]></fr:tex>.</fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

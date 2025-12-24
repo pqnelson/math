@@ -7,21 +7,48 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7142</fr:anchor><fr:addr
-type="machine">#422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2628</fr:anchor><fr:addr
+type="machine">#422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I have grown to believe over the years that an Abelian group should be reserved for a generalization of a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suffices to prove the intersection of two circles have coordinates in a quadratic extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (since we have shown <fr:link
 type="local"
-href="vectsp-0001.xml"
-addr="vectsp-0001"
-title="Vector Space">Vector Space</fr:link> if we just forget about scalar multiplication and the field. This is how most proof assistants handle it.</fr:p>
-<fr:p>Commutative groups are groups which are, well, equipped with a <fr:link
+href="nt-001I.xml"
+addr="nt-001I"
+title="Points with coordinates in a field have intersecting lines at points with coordinates in a field">the intersection of two lines lie in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link> and <fr:link
 type="local"
-href="gr-0004.xml"
-addr="gr-0004"
-title="Commutative binary operator">Commutative binary operator</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+href="nt-001J.xml"
+addr="nt-001J"
+title="Coordinates of intersection of a circle and a line lie in a quadratic extension">the intersection of a line and a circle lie in a quadratic extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link>).</fr:p>
+<fr:p>If we have two circles whose points satisfy the equation
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=r_{0}^{2},]]></fr:tex>
+or
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=r_{1}^{2}.]]></fr:tex>
+If we expand and subtract one equation from another, we obtain the equation where the quadratic terms cancel out; it has the form
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[\begin {align*}A&=2x(x_{1}-x_{0})\\ B&=2y(y_{1}-y_{0})\\ C&=x_{0}^{2}-x_{1}^{2}+y_{0}^{2}-y_{1}^{2}-r_{0}^{2}+r_{1}^{2}.\end {align*}]]></fr:tex>
+Then the intersecting the two circles is the same as intersecting either of them with the line above. Note the coefficients <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> are again polynomials in the coordinates <fr:tex
+display="inline"><![CDATA[x_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y_{1}]]></fr:tex>, and the lengths <fr:tex
+display="inline"><![CDATA[r_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[r_{1}]]></fr:tex>.</fr:p>
+<fr:p>Hence the result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -36,27 +63,24 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>7144</fr:anchor><fr:addr
-type="user">gr-000J</fr:addr><fr:route>gr-000J.xml</fr:route><fr:title
-text="Abelian group">Abelian group</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2630</fr:anchor><fr:addr
+type="user">nt-001K</fr:addr><fr:route>nt-001K.xml</fr:route><fr:title
+text="A point whose coordinates like in a quadratic extension of the field is directly constructible">A point whose coordinates like in a quadratic extension of the field is directly constructible</fr:title><fr:taxon>Proposition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>When a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> be a set of points in the plane. Suppose the points in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> have coordinates in the field <fr:tex
+display="inline"><![CDATA[\mathbb {F}\subseteq \mathbb {R}]]></fr:tex>. If a point <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> has coordinates lying in a quadratic field extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is <fr:link
 type="local"
-href="gr-000G.xml"
-addr="gr-000G"
-title="Group">Group</fr:link> has a <fr:link
-type="local"
-href="gr-0004.xml"
-addr="gr-0004"
-title="Commutative binary operator">commutative binary operator</fr:link>, we call it an <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Abelian</html:dfn> group (or a <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Commutative</html:dfn> group).</fr:p><fr:p>Typically, for Abelian groups, we write the binary operator as addition, and the <fr:link
-type="local"
-href="gr-000B.xml"
-addr="gr-000B"
-title="Identity element is at most unique">identity element</fr:link> as 0.</fr:p>
+href="nt-001E.xml"
+addr="nt-001E"
+title="Constructible points">directly constructible</fr:link> from <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -66,20 +90,47 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1668</fr:anchor><fr:addr
-type="machine">#422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>927</fr:anchor><fr:addr
+type="machine">#422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I have grown to believe over the years that an Abelian group should be reserved for a generalization of a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suffices to prove the intersection of two circles have coordinates in a quadratic extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex> (since we have shown <fr:link
 type="local"
-href="vectsp-0001.xml"
-addr="vectsp-0001"
-title="Vector Space">Vector Space</fr:link> if we just forget about scalar multiplication and the field. This is how most proof assistants handle it.</fr:p>
-<fr:p>Commutative groups are groups which are, well, equipped with a <fr:link
+href="nt-001I.xml"
+addr="nt-001I"
+title="Points with coordinates in a field have intersecting lines at points with coordinates in a field">the intersection of two lines lie in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link> and <fr:link
 type="local"
-href="gr-0004.xml"
-addr="gr-0004"
-title="Commutative binary operator">Commutative binary operator</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="nt-001J.xml"
+addr="nt-001J"
+title="Coordinates of intersection of a circle and a line lie in a quadratic extension">the intersection of a line and a circle lie in a quadratic extension of <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex></fr:link>).</fr:p>
+<fr:p>If we have two circles whose points satisfy the equation
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=r_{0}^{2},]]></fr:tex>
+or
+<fr:tex
+display="block"><![CDATA[(x-x_{0})^{2}+(y-y_{0})^{2}=r_{1}^{2}.]]></fr:tex>
+If we expand and subtract one equation from another, we obtain the equation where the quadratic terms cancel out; it has the form
+<fr:tex
+display="block"><![CDATA[Ax+By+C=0,]]></fr:tex>
+where
+<fr:tex
+display="block"><![CDATA[\begin {align*}A&=2x(x_{1}-x_{0})\\ B&=2y(y_{1}-y_{0})\\ C&=x_{0}^{2}-x_{1}^{2}+y_{0}^{2}-y_{1}^{2}-r_{0}^{2}+r_{1}^{2}.\end {align*}]]></fr:tex>
+Then the intersecting the two circles is the same as intersecting either of them with the line above. Note the coefficients <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> are again polynomials in the coordinates <fr:tex
+display="inline"><![CDATA[x_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[x_{1}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[y_{1}]]></fr:tex>, and the lengths <fr:tex
+display="inline"><![CDATA[r_{0}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[r_{1}]]></fr:tex>.</fr:p>
+<fr:p>Hence the result follows immediately.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

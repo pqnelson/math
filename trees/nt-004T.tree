@@ -1,0 +1,8 @@
+\title{Cebotarev density theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-24}
+\taxon{theorem}
+\import{nt-004L}
+
+\p{Let #{C\subset\Gal(\kk / \QQ)} be a conjugacy class of size #{r}, let #{n=|\Gal(\kk / \QQ)|}. Then the density (proportion) of primes #{p\in\ZZ} such that #{C=\FF_{p}} is #{r/n}.}

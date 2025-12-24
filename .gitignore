@@ -1,3 +1,7 @@
+# ignore output directory
+output/
+output/*
+
 # Ignore emacs autosaves and backups
 *~
 

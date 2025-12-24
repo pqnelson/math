@@ -7,16 +7,55 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8241</fr:anchor><fr:addr
-type="machine">#377</fr:addr><fr:route>unstable-377.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1745</fr:anchor><fr:addr
+type="machine">#377</fr:addr><fr:route>unstable-377.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should look at point-set topology as generalizing everything from our discussion about the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(<fr:link
 type="local"
-href="ca-000G.xml"
-addr="ca-000G"
-title="Topology of metric spaces">Topology of metric spaces</fr:link> to arbitrary sets.</fr:mainmatter><fr:backmatter><fr:tree
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>) Assume <fr:tex
+display="inline"><![CDATA[\chi _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\chi _{n}]]></fr:tex> are linearly dependent. By removing some <fr:tex
+display="inline"><![CDATA[\chi _{i}]]></fr:tex>, we can assume any proper subset of <fr:tex
+display="inline"><![CDATA[\{\chi _{1},…,\chi _{n}\}]]></fr:tex> is independent.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[a_{j}\in \mathbb {F}]]></fr:tex> be such that not all are zero and
+<fr:tex
+display="block"><![CDATA[(*)\qquad  a_{1}\chi _{1}+…+a_{n}\chi _{n}=0.]]></fr:tex>
+In fact, at least two <fr:tex
+display="inline"><![CDATA[a_{i}\neq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{j}\neq 0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i\neq  j]]></fr:tex> since characters are never zero. Without loss of generality, suppose <fr:tex
+display="inline"><![CDATA[a_{i}=a_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{j}=a_{2}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\chi _{i}\neq \chi _{j}]]></fr:tex>, then there exists an <fr:tex
+display="inline"><![CDATA[h\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\chi _{i}(h)\neq \chi _{j}(h)]]></fr:tex>. For any <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>, if we evaluate Equation (*) at <fr:tex
+display="inline"><![CDATA[hg\in  G]]></fr:tex>, we see
+<fr:tex
+display="block"><![CDATA[\begin {split}0&=a_{1}\chi _{1}(hg)+…+a_{n}\chi _{n}(hg)\\ &=a_{1}\chi _{1}(h)\chi _{1}(g)+…+a_{n}\chi _{n}(h)\chi _{n}(g)\end {split}]]></fr:tex>
+Since this had <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> be arbitrary, this implies <fr:tex
+display="block"><![CDATA[(**)\qquad (a_{1}\chi _{1}(h))\chi _{1}+…+(a_{n}\chi _{n}(h))\chi _{n}=0]]></fr:tex>
+On the other hand, multiplying Equation (*) by <fr:tex
+display="inline"><![CDATA[\chi _{1}(h)]]></fr:tex> gives us
+<fr:tex
+display="block"><![CDATA[(a_{1}\chi _{1}(h))\chi _{1}+(a_{2}\chi _{1}(h))\chi _{2}+…+(a_{n}\chi _{1}(h))\chi _{n}=0,]]></fr:tex>
+and then subtracting Equation (**) from this gives us
+<fr:tex
+display="block"><![CDATA[b_{2}\chi _{2}+…+b_{n}\chi _{n}=0,]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[b_{i}=a_{i}(\chi _{i}(h)-\chi _{1}(h))]]></fr:tex>. We have <fr:tex
+display="inline"><![CDATA[b_{2}\neq 0]]></fr:tex> since we supposed <fr:tex
+display="inline"><![CDATA[\chi _{1}(h)\neq \chi _{2}(h)]]></fr:tex> which proves <fr:tex
+display="inline"><![CDATA[\{\chi _{2},…,\chi _{n}\}]]></fr:tex> are linearly dependent, which contradicts our assumption that any proper subset is linearly independent.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -31,24 +70,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8243</fr:anchor><fr:addr
-type="user">gt-0004</fr:addr><fr:route>gt-0004.xml</fr:route><fr:title
-text="Metric topology">Metric topology</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1747</fr:anchor><fr:addr
+type="user">nt-002T</fr:addr><fr:route>nt-002T.xml</fr:route><fr:title
+text="Linear Independence of Characters">Linear Independence of Characters</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[(X,d)]]></fr:tex> be a <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors><fr:meta
+name="source">Dummit and Foote <fr:link
 type="local"
-href="ca-000K.xml"
-addr="ca-000K"
-title="Metric Space">Metric Space</fr:link>. We can define the <html:dfn
-xmlns:html="http://www.w3.org/1999/xhtml">Metric Topology</html:dfn> for <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> consisting of all <fr:link
+href="dummit-2004-abstract.xml"
+addr="dummit-2004-abstract"
+title="Abstract Algebra">Abstract Algebra</fr:link> Theorem 14.2.7</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[\chi _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\chi _{n}]]></fr:tex> are distinct <fr:link
 type="local"
-href="ca-000M.xml"
-addr="ca-000M"
-title="Open Set">open subsets</fr:link> (defined using open balls) as the only open sets in the topology.</fr:p>
+href="nt-002S.xml"
+addr="nt-002S"
+title="Character">characters</fr:link> of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with values in <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>, then they are linearly independent over <fr:tex
+display="inline"><![CDATA[\mathbb {F}]]></fr:tex>.</fr:p>
  
    
    <fr:tree
@@ -58,15 +100,54 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>8245</fr:anchor><fr:addr
-type="machine">#377</fr:addr><fr:route>unstable-377.xml</fr:route><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1105</fr:anchor><fr:addr
+type="machine">#377</fr:addr><fr:route>unstable-377.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>23</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="alex-nelson.xml"
 addr="alex-nelson"
-title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>We should look at point-set topology as generalizing everything from our discussion about the <fr:link
+title="Alex Nelson">Alex Nelson</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(<fr:link
 type="local"
-href="ca-000G.xml"
-addr="ca-000G"
-title="Topology of metric spaces">Topology of metric spaces</fr:link> to arbitrary sets.</fr:mainmatter><fr:backmatter /></fr:tree>
+href="nst-002J.xml"
+addr="nst-002J"
+title="Proof by contradiction">Proof by contradiction</fr:link>) Assume <fr:tex
+display="inline"><![CDATA[\chi _{1}]]></fr:tex>, …, <fr:tex
+display="inline"><![CDATA[\chi _{n}]]></fr:tex> are linearly dependent. By removing some <fr:tex
+display="inline"><![CDATA[\chi _{i}]]></fr:tex>, we can assume any proper subset of <fr:tex
+display="inline"><![CDATA[\{\chi _{1},…,\chi _{n}\}]]></fr:tex> is independent.</fr:p>
+<fr:p>Let <fr:tex
+display="inline"><![CDATA[a_{j}\in \mathbb {F}]]></fr:tex> be such that not all are zero and
+<fr:tex
+display="block"><![CDATA[(*)\qquad  a_{1}\chi _{1}+…+a_{n}\chi _{n}=0.]]></fr:tex>
+In fact, at least two <fr:tex
+display="inline"><![CDATA[a_{i}\neq 0]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{j}\neq 0]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[i\neq  j]]></fr:tex> since characters are never zero. Without loss of generality, suppose <fr:tex
+display="inline"><![CDATA[a_{i}=a_{1}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[a_{j}=a_{2}]]></fr:tex>.</fr:p>
+<fr:p>Since <fr:tex
+display="inline"><![CDATA[\chi _{i}\neq \chi _{j}]]></fr:tex>, then there exists an <fr:tex
+display="inline"><![CDATA[h\in  G]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\chi _{i}(h)\neq \chi _{j}(h)]]></fr:tex>. For any <fr:tex
+display="inline"><![CDATA[g\in  G]]></fr:tex>, if we evaluate Equation (*) at <fr:tex
+display="inline"><![CDATA[hg\in  G]]></fr:tex>, we see
+<fr:tex
+display="block"><![CDATA[\begin {split}0&=a_{1}\chi _{1}(hg)+…+a_{n}\chi _{n}(hg)\\ &=a_{1}\chi _{1}(h)\chi _{1}(g)+…+a_{n}\chi _{n}(h)\chi _{n}(g)\end {split}]]></fr:tex>
+Since this had <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> be arbitrary, this implies <fr:tex
+display="block"><![CDATA[(**)\qquad (a_{1}\chi _{1}(h))\chi _{1}+…+(a_{n}\chi _{n}(h))\chi _{n}=0]]></fr:tex>
+On the other hand, multiplying Equation (*) by <fr:tex
+display="inline"><![CDATA[\chi _{1}(h)]]></fr:tex> gives us
+<fr:tex
+display="block"><![CDATA[(a_{1}\chi _{1}(h))\chi _{1}+(a_{2}\chi _{1}(h))\chi _{2}+…+(a_{n}\chi _{1}(h))\chi _{n}=0,]]></fr:tex>
+and then subtracting Equation (**) from this gives us
+<fr:tex
+display="block"><![CDATA[b_{2}\chi _{2}+…+b_{n}\chi _{n}=0,]]></fr:tex>
+where <fr:tex
+display="inline"><![CDATA[b_{i}=a_{i}(\chi _{i}(h)-\chi _{1}(h))]]></fr:tex>. We have <fr:tex
+display="inline"><![CDATA[b_{2}\neq 0]]></fr:tex> since we supposed <fr:tex
+display="inline"><![CDATA[\chi _{1}(h)\neq \chi _{2}(h)]]></fr:tex> which proves <fr:tex
+display="inline"><![CDATA[\{\chi _{2},…,\chi _{n}\}]]></fr:tex> are linearly dependent, which contradicts our assumption that any proper subset is linearly independent.</fr:p><html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="qed">∎</html:span></fr:mainmatter><fr:backmatter /></fr:tree>
  
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
