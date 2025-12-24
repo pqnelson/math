@@ -1,0 +1,22 @@
+\title{Irreducible polynomials with a root in a Galois extension is separable and splits over that extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{theorem}
+
+\p{Let #{\kk / \FF} be a [Galois](nt-002P) extension, let #{G=\Gal(\kk / \FF)}, let #{f(x)\in\FF[x]} be an irreducible polynomial. If there exists some #{\alpha\in\kk} such that #{f(\alpha)=0}, then
+##{f(x)=\prod_{\beta\in G\alpha}(x-\beta),}
+where #{G\alpha=\{g\alpha\mid g\in G\}} is the set of [Galois conjugates](nt-0032) of #{\alpha}. In particular, #{f(x)} is [separable](nt-0025) and splits over #{\kk}.}
+
+\proof{\p{Let
+##{g(x)=\prod_{\beta\in G\alpha}(x-\beta).}
+For each #{\sigma\in G}, let #{g^{\sigma}(x)} be the polynomial obtained by applying #{\sigma} to the coefficients of #{g}. Then
+##{g^{\sigma}(x)=\prod_{\beta\in G\alpha}(x-\sigma\beta).}
+Then #{g(x)\in\FF[x]}.}
+\p{We see #{g(\alpha)=0} and irreducibility implies #{f} is the minimal polynomial of #{\alpha} (i.e., #{f(x)=m_{\alpha}(x)}), which implies
+##{f(x)\divides g(x).}
+We see
+##{f(\sigma\alpha)=f^{\sigma}(\alpha)=f(\alpha)=0,}
+which implies #{G\alpha} are roots of #{f}. This then implies
+##{g(x)\divides f(x).}
+Hence #{g=f}.}}

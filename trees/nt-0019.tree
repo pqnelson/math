@@ -1,0 +1,9 @@
+\title{Transitivity of algebraic extensions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{corollary}
+
+\p{If #{\LL / \kk} is an [algebraic extension](nt-000T), and if #{\kk / \FF} is an algebraic extension, then #{\LL / \FF} is an algebraic extension.}
+
+\proof{\p{Since #{\LL / \kk} is algegbra, any #{\alpha\in\LL} is algebraic over #{\kk}. Then #{\alpha} is algebraic over #{\FF} since [elements of #{\LL} which are algebraic over #{\kk} are also algebraic over #{\FF}](nt-0018).}}

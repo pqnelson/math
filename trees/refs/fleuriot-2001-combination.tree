@@ -1,0 +1,13 @@
+\title{A combination of geometry theorem proving and nonstandard analysis with application to Newton's Principia}
+\author{jacques-fleuriot}
+\taxon{reference}
+\date{2001}
+\meta{external}{https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-469.pdf}
+
+\meta{bibtex}{\startverb
+@book{fleuriot2001combination,
+  title={A combination of geometry theorem proving and nonstandard analysis with application to Newton's Principia},
+  author={Fleuriot, Jacques},
+  year={2001},
+  publisher={Springer}
+}\stopverb}

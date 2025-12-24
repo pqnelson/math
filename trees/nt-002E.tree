@@ -1,0 +1,12 @@
+\title{Group of #{n^{\text{th}}} roots of unity}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{definition}
+\MML{uniroots}{def 3}{K3}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 13.6}
+
+\p{The group of all #{n^{\text{th}}} roots of unity (equipped with multiplication) is denoted #{\RootsOf1{n}}.}
+
+\p{\textbf{Exercise:} Prove #{\RootsOf1{n}\iso\ZZ / n\ZZ} as groups (with addition on the right-hand side, but multiplication on the left-hand side).}

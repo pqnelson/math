@@ -1,0 +1,20 @@
+\title{Summary of results}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{Let #{\kk / \FF} be a finite extension. Then the following are equivalent:}
+\ol{
+\li{#{\kk / \FF} is [Galois](nt-002P)}
+\li{#{\Index{\kk}{\FF}=|\Aut(\kk / \FF)|}}
+\li{#{\FF} is the fixed field of #{\Aut(\kk / \FF)} in #{\kk}}
+\li{#{\kk} is the [splitting field](nt-001S) of a [separable polynomial](nt-0025) #{f(x)\in\FF[x]}}
+\li{#{\kk} is a [normal](nt-0035) [separable](nt-002B) extension}
+}
+\proof{\p{#{(1)\iff(2)} by definition.}
+\p{#{(1)\iff(3)} and #{(1)\iff(4)} by [[nt-0030]].}
+\p{#{(4)\implies(5)} Obvious.}
+\p{#{(5)\implies(4)} If #{\kk} is [normal](nt-0035), then it is the splitting field of some #{f_{i}(x)} which can be taken to be irreducible and distinct. If further #{\kk} is separable, then each #{f_{i}(x)} is separable, hence #{\kk} is the splitting field of
+##{f(x)=\prod_{i}f_{i}(x),}
+which is separable as #{f_{i}(x)} are distinct, irreducible, and separable. Hence the claim.}}

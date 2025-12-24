@@ -1,0 +1,27 @@
+\title{Allowed constructions with straightedge and compass}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+
+\p{With a straightedge and compass, we may only allow the first three of Euclid's postulates, i.e.:
+\ol{
+\li{draw a straightline (possibly passing through two given points), and}
+\li{draw a circle.}
+}
+It follows that the only \emph{points} we may construct with straightedge and compass along are:
+\ol{
+\li{The intersection of two lines;}
+\li{The intersection of two circles; and}
+\li{The intersection of a line and a circle.}
+}}
+\p{More concretely, let #{S} be a set of points on the plane. For any two distinct points #{P_{1},P_{2}\in S} with #{P_{1}\neq P_{2}}, we denote the set of points (i.e., the subset of #{S}):
+##{P_{1}P_{2}=\mbox{line passing through }P_{1}\mbox{ and }P_{2}}
+##{C(P_{1},P_{2})=\mbox{circle centered at }P_{1}\mbox{ and passing through }P_{2}.}
+From #{S} we may construct a new point #{Q} by:
+\ol{
+\li{Given points #{P_{1},P_{2},Q_{1},Q_{2}\in S}, marking #{Q\in P_{1}P_{2}\cap Q_{1}Q_{2}};}
+\li{Given points #{P_{1},P_{2},O,P\in S}, and marking #{Q\in P_{1}P_{2}\cap C(O,P)};}
+\li{Given points #{O,O',P,P'\in S}, and marking #{Q\in C(O,P)\cap C(O',P')}.}
+}}
+
+\rmk{We stress that a "straightedge" is an "unmarked ruler" which cannot measure lengths. If we allow the user to write "markings" on the straightedge (i.e., work with a ruler), then the allowed constructions are known as [Neusis constructions](https://en.wikipedia.org/wiki/Neusis_construction). We will not discuss them any further here.}

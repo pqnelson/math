@@ -1,0 +1,16 @@
+\title{Are Quadratic extensions Galois?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{example}
+
+\p{\textbf{Question:} Are Quadratic extensions Galois?}
+
+\p{\textbf{Scratchwork:} Let #{\FF} be a field of [[nt-000A]] #{\Char(\FF)\neq2}. Let
+##{\kk=\FF(\sqrt{a})}
+be a quadratic extension. Then
+##{|\Aut(\kk / \FF)|=2=\Index{\kk}{\FF},}
+which implies #{\kk / \FF} is [Galois](nt-002P). The nontrivial #{\sigma\in\Gal(\kk / \FF)} is determined by
+##{\sigma(a)=\pm a.}}
+
+\p{\textbf{Answer:} Yes.}

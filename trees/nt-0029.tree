@@ -1,0 +1,9 @@
+\title{Inseparable polynomial over field with characteristic #{p} has #{p} divide the nonzero coefficients of its derivative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{corollary}
+
+\p{Let #{\FF} be a field with [[nt-000A]] #{p>0} and #{f(x)=a_{n}x^{n}+\dots+a_{1}x+a_{0}}. If #{f(x)} is [inseparable](nt-0025), then #{p\divides k} for each #{k} where #{a_{k}\neq0}.}
+
+\proof{\p{We see the coefficients of #{f'(x)} are #{ka_{k}}. If #{f(x)} is irreducible and inseparable, [then its derivative vanishes identically](nt-0027) #{f'(x)=0}. Then we see for each #{k}, #{ka_{k}=0}. Hence #{p\divides k} if #{a_{k}\neq0}.}}

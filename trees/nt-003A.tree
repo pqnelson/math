@@ -1,0 +1,19 @@
+\title{Where do the missing automorphisms go?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{Let #{\kk / \FF} be Galois, let #{G=\Gal(\kk / \FF)}, and let #{\LL=\kk^{H}} for #{H\subgroup G}. Then (1) map
+##{\begin{split}\Gal(\kk / \FF)&\to\hom_{\FF}(\LL,\KK)\\
+\sigma&\mapsto\sigma|_{\LL}\end{split}}
+is surjective and induces a bijection of sets
+##{G/H\longleftrightarrow\hom_{\FF}(\LL,\kk).}
+(2) Then #{\LL / \FF} is Galois if and only if #{H} is [normal](gr-002P) (if and only if #{\hom_{\FF}(\LL,\kk)=\Aut_{\FF}(\LL)}). In that case, the above bijection is a group isomorphism #{G/H\iso\Gal(\LL / \FF)}.}
+
+\proof{\p{\textbf{Claim 1:} The map #{\Gal(\kk / \FF)\to\hom_{\FF}(\LL,\KK)} is surjective.}
+
+\p{\textbf{Claim 2:} The map from claim 1 induces a bijection of sets #{G/H\longleftrightarrow\hom_{\FF}(\LL,\kk)}.}
+
+\p{\textbf{Claim 3:} #{\LL / \FF} is normal iff #{H\normalsubgroup G}.}
+}

@@ -1,0 +1,11 @@
+\title{Perfect field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{definition}
+
+\p{A field #{\FF} is called \define{Perfect} if every irreducible #{p(x)\in\FF[x]} is [seperable](nt-0025).}
+
+\p{\textbf{Exercise:} Prove or find a counter-example: Fields of characteristic zero are perfect.}
+
+\p{\textbf{Puzzle:} Are there any finite fields which are perfect?}

@@ -9,7 +9,7 @@
 
 \proof{\p{\textbf{Claim 1:} #{K} is closed. Let #{x\in X\setminus K}. Then for each #{z\in K}, let #{r_{z}>0} and #{s_{z}>0} be such that
 ##{B_{r_{z}}(z)\cap B_{s_{z}}(x)=\emptyset.}
-We can do this for every #{z\in K}. Then #{\{B_{r_{z}}(z)\}} forms an [open cover](ca-001S) of #{K}. Since #{K} is [compact](001T), it has a finite subcover: #{B_{r_{1}}(z_{1})}, \dots, #{B_{r_{k}}(z_{k})} which covers #{K}. Let
+We can do this for every #{z\in K}. Then #{\{B_{r_{z}}(z)\}} forms an [open cover](ca-001S) of #{K}. Since #{K} is [compact](ca-001T), it has a finite subcover: #{B_{r_{1}}(z_{1})}, \dots, #{B_{r_{k}}(z_{k})} which covers #{K}. Let
 ##{s=\min(s_{z_{j}}\mid j=1,\dots,k)\}}
 Then #{B_{s}(x)\cap B_{z_{j}}(z_{j})=\emptyset} for each #{j=1,\dots,k}. Then
 ##{B_{s}(x)\cap(B_{r_{1}}(z_{1})\cup\dots\cup B_{r_{k}}(z_{k}))=\emptyset,}

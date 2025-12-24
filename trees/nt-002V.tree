@@ -1,0 +1,9 @@
+\title{Subfield fixed by a group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{notation}
+
+\p{Let #{\kk / \FF} be an extension, let #{G = \Aut(\kk / \FF)}. Let #{H\subgroup G} be a subgroup. Then we introduce the notation
+##{\kk^{H} := \{a\in\kk\mid\forall\sigma\in H\ldotp\sigma(a)=a\}.}
+Then #{\kk^{H}} is a subfield of #{\kk} and also #{\FF\subset\kk^{H}\subset\kk}.}

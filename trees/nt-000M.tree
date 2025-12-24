@@ -4,4 +4,4 @@
 \date{2025-12-20}
 \taxon{definition}
 
-\p{Let #{\FF\subset\kk} be a subfield (usually proper, otherwise this will be boring). Let #{\alpha,\beta,\gamma,\dots\in\kk}. Then the \define{Field Generated} by #{\alpha,\beta,\gamma,\dots} over #{\FF} is the field denoted #{\FF(\alpha,\beta,\gamma,\dots)} is the smallest subfield of #{\kk} containing #{\FF} and #{\alpha}, #{\beta}, #{\gamma}, \dots.}
+\p{Let #{\FF\subset\kk} be a subfield (usually proper, otherwise this will be boring). Let #{\alpha,\beta,\gamma,\dots\in\kk} be nonzero elements of #{\kk}. Then the \define{Field Generated} by #{\alpha,\beta,\gamma,\dots} over #{\FF} is the field denoted #{\FF(\alpha,\beta,\gamma,\dots)} is the smallest subfield of #{\kk} containing #{\FF} and #{\alpha}, #{\beta}, #{\gamma}, \dots.}

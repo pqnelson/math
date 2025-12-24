@@ -1,0 +1,19 @@
+\title{Existence of Algebraic Closures}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 13.4.30}
+
+\p{Let #{\FF} be a field. Then there exists an algebraically closed field #{\LL} containing #{\FF}.}
+
+\labeled-proof{Jelonek 1993}{\p{Let #{\LL} be a field such that
+\ol{
+\li{#{\FF\subset\LL}, and}
+\li{#{|\LL| > \max(|\FF|,\aleph_{0})=:\mathcal{N}} (to ensure #{\LL} is a set, not a proper class).}
+}
+Then we can turn this into a lattice with ordering given by inclusion. Then by [[zorn's-lemma]], there exists a maximal element #{L_{0}} which we will prove is the algebraic closure of #{\FF}.}
+\p{[[nst-002J]]: Assume for contradiction #{L_{0}} is not an algebraic closure of #{\FF}. Then there exists a nonconstant polynomial #{f(x)\in L_{0}[x]} which has no root in #{L_{0}}. Then there exists an algebraic extension #{W} of #{L_{0}} which has a root of #{f(x)} (say, the [splitting field](nt-001S) of #{f(x)} over #{L_{0}}). Since #{W} is an algebraic extension of #{L_{0}}, we have #{|L_{0}|\leq|W|\leq\mathcal{N}}, hence #{|S\setminus L_{0}|=|S|>|W\setminus L_{0}|}. So there exists an injection #{i\colon W\to S} such that #{i(x)=x} for all #{x\in L_{0}}. If we induce by #{i} an algebraic structure from #{W} onto #{i(W)} we obtain a new maximal element of the lattice which is greater than #{L_{0}}, giving us our contradiction. Hence #{L_{0}} must be an algebraic closure of #{\FF}.}}
+
+\rmk{\p{(1) [Jelonek proved this in 1993](https://web.archive.org/web/20180504093511/http://www2.im.uj.edu.pl/actamath/PDF/30-131-132.pdf), which cleaned up a more sloppy version of the same proof by Artin. Lang's [[lang-2002-algebra]] (Theorem V.2.6 and its Corollary) follows Artin's proof, as well, but carefully patches it. In fact, it seems Lang's approach has become more or less standard.}
+\p{(2) Jelonek's proof also establishes that the cardinality of the algebraic closure of #{\FF} is #{\max(|\FF|,\aleph_{0})}. In particular, the algebraic closure is always infinite.}}

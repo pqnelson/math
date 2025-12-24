@@ -1,0 +1,25 @@
+\title{}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{Suppose #{\kk_{1}} and #{\kk_{2}} are both extensions of #{\FF}, both contained in a larger field #{\LL}. If #{\kk_{1}} is Galois over #{\FF}, so is #{\kk=\kk_{1}\kk_{2}} over #{\kk_{2}}. But now #{\kk_{1}\cap\kk_{2}} may be larger than #{\FF}, so we have:
+\quiver{
+\begin{tikzcd}
+  &  \ar[dl,dash]\kk_{1}\kk_{2}\ar[dr,dash] & \\
+\kk_{1}\ar[dr,dash] &  & \ar[dl,dash]\kk_{2} \\
+& \kk_{1}\cap\kk_{2}\ar[d,dash] & \\
+ & \FF &
+\end{tikzcd}
+}
+In this situation, we have
+##{\Index{\kk_{1}\kk_{2}}{\FF} = \frac{\Index{\kk_{1}}{\FF}\Index{\kk_{2}}{\FF}}{\Index{\kk_{1}\cap\kk_{2}}{\FF}}.}}
+
+\proof{\p{We see by direct calculation,
+##{\begin{align*}
+\frac{\Index{\kk_{1}}{\FF}\Index{\kk_{2}}{\FF}}{\Index{\kk_{1}\cap\kk_{2}}{\FF}}
+&= \Index{\kk_{1}}{\kk_{1}\cap\kk_{2}}\Index{\kk_{2}}{\FF}\\
+&= \Index{\kk_{1}\kk_{2}}{\kk_{2}}\Index{\kk_{2}}{\FF}\\
+&= \Index{\kk_{1}\kk_{2}}{\FF}.
+\end{align*}}}}

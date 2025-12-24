@@ -1,0 +1,28 @@
+\title{Criteria for perfect fields of finite characteristic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{proposition}
+
+\p{Let #{\FF} be a field of characteristic #{p>0}. Then the following are equivalent:}
+\ol{
+\li{#{\FF} is [perfect](nt-002A);}
+\li{The [Frobenius morphism](nt-0022) #{\phi(x)=x^{p}} is surjective; and}
+\li{Every finite extension of #{\FF} is [separable](nt-002B).}
+}
+
+\proof{\p{#{(1)\implies(2):} Assume #{\FF} is perfect. Let #{a\in\FF}. Let #{\kk / \FF} be the [splitting field](nt-001S) of #{x^{s}-a} and let #{\beta\in\kk} be such that #{\beta^{p}=a}. Then the characteristic polynomial #{m_{\beta}(x)} over #{\FF} is irreducible, and divides
+##{x^{p}-a=x^{p}-\beta^{p}=(x-\beta)^{p}.}
+Since #{\FF} is perfect, #{m_{\beta}} has no repeated roots, so
+##{m_{\beta}=x-\beta,}
+and #{\beta\in\FF}.}
+\p{#{(2)\implies(3):} ([[nst-002J]].) Assume #{\phi} is surjective. Let #{\kk / \FF} be a finite extension, let #{\alpha\in\kk}, and let
+##{m_{\alpha}(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\dots+a_{1}x+a_{0}.}
+Assume for contradiction #{m_{\alpha}(x)} is [inseparable](nt-0025), so that #{m'_{\alpha}(x)=0} and [then we see](nt-0029) #{p\divides k} whenever #{a_{k}\neq0}. Since #{\phi} is surjective, each #{a_{k}=b_{k}^{p}} for some #{b_{k}\in\FF}. Then
+##{m_{\alpha}(x)=(b_{m}x^{m})^{p}+(b_{m-1}x^{m-1})^{p-1}+\dots+(b_{1}x)^{p}+b_{0}^{p}=(q(x))^{p},}
+where
+##{q(x)=b_{m}x^{m}+\dots+b_{1}x+b_{0},}
+which contradicts the irreducibility of #{m_{\alpha}(x)}. Hence #{m_{\alpha}(x)} must be separable.}
+\p{#{(3)\implies(1):} Suppose #{p(x)\in\FF[x]} is irreducible. Then #{\kk=\FF[x]/(p(x))} is a separable extension of #{\FF}. If #{\alpha\in\kk} is the image of #{x\in\FF[x]}, then #{m_{\alpha}(x)=p(x)} is [separable](nt-0025).}}
+
+\rmk{An immediate corollary:  Finite fields are [perfect](nt-002A).}

@@ -1,0 +1,15 @@
+\title{A finite sequence of simple extensions is a finitely generated extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{lemma}
+
+\p{Let #{\kk / \FF} be an extension, let #{\alpha_{1},\dots,\alpha_{r}\in\kk}. Define the extensions
+##{\FF=F_{0}\subset F_{1}\subset\dots\subset F_{r}}
+by #{F_{i+1}=F_{i}(\alpha_{i+1})}. Then #{F_{r}=\FF(\alpha_{1},\dots,\alpha_{r})}.}
+
+\proof{\p{[[nst-002K]] on #{r}.}
+\p{\textbf{Base case}: #{r=1}. The result is immediate.}
+\p{\textbf{Inductive case:} For any #{r}, suppose the result #{F_{r}=\FF(\alpha_{1},\dots,\alpha_{r})}. We want to prove the claim for #{r+1}, i.e.,
+##{\FF(\alpha_{1},\dots,\alpha_{r})(\alpha_{r+1})=\FF(\alpha_{1},\dots,\alpha_{r},\alpha_{r+1}).}
+But this is literally the base case.}}

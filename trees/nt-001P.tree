@@ -1,0 +1,16 @@
+\title{For any polynomial there exists a field over which it splits}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{Let #{\FF} be a field, let #{f(x)\in\FF[x]} be a polynomial. If #{n=\deg(f)}, then there exists a field extension #{\kk / \FF} of degree at most #{n!}such that #{f(x)} splits completely over #{\kk}, i.e., #{f(x)} factors into linear factors in #{\kk[x]}.}
+
+\proof{\p{[[nst-002K]] on #{n=\deg(f)}.}
+\p{\textbf{Base case:} #{n=1}, so #{f(x)=x-\alpha}. Then #{\alpha\in\FF}, so #{\alpha\in\kk}.}
+\p{\textbf{Inductive case:} Suppose this is true for any polynomial of degree strictly less than #{n}. Let #{f_{1}(x)} be an irreducible factor of #{f(x)}, we suppose #{\deg(f)=n}. Let #{F_{1}=\FF[x]/(f_{1}(x))\iso\FF(\alpha)} for a root #{\alpha} of #{f_{1}} (which is also a root of #{f(x)}).}
+\p{But then #{f(x)=(x-\alpha)g(x)} for some polynomial #{g(x)} with #{\deg(g)<\deg(f)}. Then by the inductive hypothesis, there exists an extension #{\kk / \FF} over which #{g(x)} splits completely with
+##{\Index{\kk}{F_{1}}\leq\deg(g)!=(n-1)!}
+Then
+##{\Index{\kk}{\FF}\leq n!}
+and #{f} splits completely over #{\kk}.}}

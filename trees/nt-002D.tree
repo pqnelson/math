@@ -1,0 +1,30 @@
+\title{Existence and uniqueness of finite extensions for fields of nonzero characteristic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{proposition}
+
+\p{Let #{n\in\NN} be a positive integer. There exists a \emph{unique} (up to isomorphism) extension of #{\FF_{p}} of degree #{n}, and it is the [splitting field](nt-001S) of #{x^{p^{n}}-x}.}
+
+\proof{\p{Suppose #{\kk / \FF_{p}} is a finite extension of degree #{n}.}
+\p{\textbf{Claim 1:} #{\kk} is the splitting field of #{x^{p^{n}}-x}. Since #{\kk / \FF_{p}} has degree #{n}, then #{\kk} is a finite field with #{p^{n}} elements. The group #{\UnitGroup{\kk}} has #{p^{n}-1} elements, and so for all #{a\in\UnitGroup{\kk}} we have
+##{a^{p^{n}-1}=1.}
+Then every #{a\in\kk} is a root of #{x^{p^{n}}-x}. On the other hand, #{x^{p^{n}}-x\in\FF_{p}[x]} has degree #{p^{n}}, so #{\kk} is exactly the splitting field of #{x^{p^{n}}-x} over #{\FF_{p}}.}
+\p{(This also proves the existence of an extension of degree #{n} of #{\FF_{p}}.)}
+\p{\textbf{Claim 2:} Uniqueness up to isomorphism. For each #{n>1}, we see #{p(x)=x^{p^{n}}-x} is separable since #{p'(x)=-1\neq0}. Then #{p(x)} has #{p^{n}} roots in the splitting field #{\kk}. Let #{S\subset\kk} be the set of roots of #{p(x)}. For #{\alpha,\beta\in S} we have
+##{\begin{align*}
+p(\alpha+\beta)&=(\alpha+\beta)^{p^{n}}-(\alpha+\beta)\\
+&=\alpha^{p^{n}}-\alpha+\beta^{p^{n}}-\beta\\
+&=p(\alpha)+p(\beta)=0\end{align*}}
+so #{S} is closed under addition, and also
+##{\begin{align*}
+p(\alpha\beta)&=(\alpha\beta)^{p^{n}}-(\alpha\beta)\\
+&=\alpha^{p^{n}}\beta^{p^{n}}-\alpha\beta\\
+&=\alpha\beta-\alpha\beta=0\end{align*}}
+so #{S} is closed under multiplication. It then follows that #{S} is a subfield of #{\kk}. But #{\kk} is the smallest field extension of #{\FF} containing #{S}, so #{S=\kk}. Then #{\kk} has #{p^{n}} elements, therefore has degree #{n} over #{\FF}.}}
+
+
+\rmk{\p{(1) Since the field extension is unique, we denote it by #{\FF_{p^{n}}}.}
+\p{(2) This proposition gives us all finite fields of characteristic #{p>0} are of the form #{\FF_{p^{n}}}. Moreover, they form a tower of extensions
+##{\FF_{p}\propersubset\FF_{p^{2}}\propersubset\FF_{p^{3}}\propersubset\dots}}
+\p{(3) The [[nt-0022]] extends to #{\FF_{p^{n}}\to\FF_{p^{n}}} by #{\phi(x)=x^{p}} for each #{n>1}.}}

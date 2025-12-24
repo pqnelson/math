@@ -1,0 +1,7 @@
+\title{Galois closure}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{The \define{Galois Closure} #{\LL} of #{\kk / \FF} in #{\closure{\kk}} is the intersection of all Galois extensions of #{\FF} containing #{\kk}.}

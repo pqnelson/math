@@ -1,0 +1,19 @@
+\title{Splitting Field of a Polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{definition}
+\MML{field_8}{def 1}{M1}
+
+\p{Let #{f(x)\in\FF[x]} be a polynomial. A \define{Splitting Field} of #{f(x)} over #{\FF} is an extension #{\kk / \FF} such that
+\ol{
+\li{#{f(x)} factors completely over #{\kk}; and}
+\li{#{f(x)} does not factor completely over a proper subfield of #{\kk}.}
+}}
+
+\proof{\p{\textbf{Existence:} [[nt-001T]].}
+\p{\textbf{Uniqueness:} this follows from the second condition (#{\kk} being the smallest such field extension).}}
+
+\rmk{This is technically not well-defined, because the second condition only specifies the splitting field up to isomorphism.}
+
+\p{\textbf{Exercise:} The Hermite polynomials are defined recursively as #{H_{0}(x)=1}, #{H_{1}(x)=x}, and #{H_{n+1}(x)=xH_{n}(x)-nH_{n-1}(x)} for all #{n>1}. What are the splitting fields for the Hermite polynomials #{H_{n}(x)} for #{1<x<5} over #{\QQ}? Over #{\FF_{p}}?}

@@ -1,0 +1,18 @@
+\title{Field isomorphisms extends to splitting fields}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+\MML{field_8}{57}{T57}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Theorem 13.4.27}
+
+\p{Let #{f(x)=a_{n}x^{n}+\dots+a_{1}x+a_{0}\in\FF[x]} be a polynomial, let #{\varphi\colon\FF\to\FF'} be a field isomorphism, and #{g(x)\in\FF'[x]} be a polynomial obtained by applying #{\varphi} to the coefficients of #{f(x)}. If #{\kk / \FF} is a [splitting field](nt-001S) of #{f(x)}, and #{\kk'/\FF'} is a splitting field of #{g(x)}, then #{\varphi} extends to an isomorphism #{\varphi'\colon\kk\to\kk'}.}
+
+\proof{\p{[[nst-002K]] on #{\deg(f)}.}
+\p{\textbf{Base case:} #{\deg(f)=1}, then #{f(x)=x-\alpha} for some #{\alpha\in\FF} and #{g(x)=x-\varphi(\alpha)}. Then #{\FF} is the splitting field of #{f(x)} and #{\FF'} the splitting field of #{g(x)}, and #{\varphi} is an isomorphism of the two trivially extending itself.}
+\p{\textbf{Inductive case:} Suppose the result holds for polynomials of degree strictly less than #{n} (where #{n=\deg(f)}).}
+\p{Let #{\alpha_{1}\in\kk} be a root of #{f(x)} and #{f_{1}(x)\in\FF[x]} is an irreducible factor of #{f(x)} such that #{f_{1}(\alpha)=0}.}
+\p{Set #{F_{1}=\FF(\alpha_{1})}. Let #{g_{1}(x)} be the polynomial obtained from #{f_{1}(x)} by applying #{\varphi} to the coefficients. Then #{g_{1}(x)} is irreducible over #{\FF'} since #{f_{1}(x)} is irreducible over #{\FF}. Let #{\beta_{1}\in\kk'} be a root of #{g_{1}(x)} and set #{F'_{1}=\FF'(\beta).} [[nt-000S]] implies the isomorphism #{\varphi\colon\FF\to\FF'} extends to an isomorphism #{\varphi_{1}\colon F_{1}\to F'_{1}}. Writing #{f(x)=(x-\alpha)f_{0}(x)} and #{g(x)=(x-\beta)g_{0}(x)}, we have #{g_{0}\in F'_{1}[x]} is obtained by applying #{\varphi_{1}} to the coefficients of #{f_{0}(x)\in F_{1}[x]}.}
+\p{By the inductive hypothesis, the field #{\kk} is a splitting field for #{f_{0}(x)} over #{\FF_{1}}.}
+\p{Similarly, #{\kk'} is a splitting field for #{g_{0}(x)} over #{F'_{1}}.}
+\p{Since #{\deg(f_{0})=\deg(g_{0})=n-1<n}, the inductive hypothesis ensures the existence of an isomorphism #{\varphi'\colon\kk\to\kk'} extending #{\varphi_{1}\colon F_{1}\to F'_{1}}, which itself extends #{\varphi\colon\FF\to\FF'}. The result follows immediately.}}

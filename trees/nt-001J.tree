@@ -1,0 +1,24 @@
+\title{Coordinates of intersection of a circle and a line lie in a quadratic extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{Let #{S} be a set of points in the plane with coordinates in the field #{\FF\subset\RR}. Let #{O,P,P_{1},P_{2}\in S}. Then the coordinates for the point constructed from intersecting the circle #{C(O,P)} with the line #{P_{1}P_{2}} lies in a quadratic extension of #{\FF}.}
+
+\proof{\p{We see that two points with coordinates #{(x_{0},y_{0})} and #{(x_{1},y_{1})} has a line segment connecting them with length
+##{\sqrt{(x_{1}-x_{0})^{2}+(y_{1}-y_{0})^{2}}.}
+Using a compass, we can draw a circle with a center at a given point #{(a,b)} that passes through another point #{(x_{0},y_{0})}. The equation describing the coordinates for points on the circle is
+##{(x-x_{0})^{2}+(y-y_{0})^{2}=(x_{0}-a)^{2}+(y_{0}-b)^{2}.}
+Observe the coefficients of this equation are again polynomials in #{a}, #{b}, #{x_{0}}, #{y_{0}}.}
+\p{Suppose we have a line and a circle given by equations
+##{Ax+By+C=0,}
+and
+##{(x-x_{0})^{2}+(y-y_{0})^{2}=r^{2}.}
+To find the coordinates of the intersection point #{(x_{i},y_{i})} we will have to solve a quadratic equation. The formula for #{x_{i}} will look like
+##{ax_{i}^{2}+bx_{i}+c=0}
+where #{a}, #{b}, #{c} are quantities which may be expressed as polynomials in #{A}, #{B}, #{C}, #{x_{0}}, and #{y_{0}}. We stipulate by hypothesis these quantities like in the field #{\FF}. The quadratic formula
+##{x_{\pm}=\frac{-b\pm\sqrt{\Delta}}{2a}}
+where
+##{\Delta=b^{2}-4ac}
+will then imply that #{x_{i}} lies in a \emph{quadratic extension} of #{\FF}, namely #{\FF(\sqrt{\Delta})}. Since #{y_{i}} is a rational function of #{x_{i}}, it follows that #{y_{i}\in\FF(\sqrt{\Delta})}. Hence the result.}}

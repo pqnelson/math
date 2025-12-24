@@ -1,0 +1,10 @@
+\title{Algebraic Element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{definition}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 13.2}
+
+\p{Let #{\kk / \FF} be a [[nt-000F]]. An element #{\alpha\in\kk} is called \define{Algebraic Over #{\FF}} if there is some nonzero #{p(x)\in\FF[x]} such that #{p(\alpha)=0}. Otherwise we say #{\alpha} is \define{Transcendental} over #{\FF}.}
+
+\p{When all elements of #{\kk} are algebraic elements over #{\FF}, we say the field extension #{\kk / \FF} is an \define{Algebraic Extension}. Otherwise we say #{\kk / \FF} is a \define{Transcendental Extension}.}

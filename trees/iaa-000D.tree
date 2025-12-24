@@ -1,0 +1,28 @@
+\title{Classical straightedge and compass constructions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{application}
+
+\p{(This is an obligatory topic of discussion with field extensions, the uninterested reader may skip it entirely if they wish to deprive themselves of all the fun of planar geometry.)}
+
+\p{There have been a number of famous geometry problems dating back to the ancient Greeks which we can settle using field extensions, problems like:
+\ol{
+\li{\textbf{Squaring the circle:} Given a circle, can we construct a square with the same area?}
+\li{\textbf{Doubling the cube:} given a cube with volume #{V}, can we construct a cube with twice the volume (i.e., with volume #{V}) using straightedge and compass along?}
+\li{\textbf{Trisecting an angle:} Given an angle #{\theta}, can we trisect it to produce an angle #{\alpha=\theta / 3}?}
+}
+All three of these problems are, alas, impossible. And we can prove it!}
+
+\transclude{nt-001D} % allowed constructions
+\transclude{nt-001E} % constructible points
+\transclude{nt-001F} % constructible length
+\transclude{nt-001G} % identifying R^2 with set of points
+\transclude{nt-001H} % criteria for constructible lengths
+\transclude{nt-001I} % intersection of lines have coordinates in a field
+\transclude{nt-001J} % intersection of line and circle have coordinates in a quadratic extension
+\transclude{nt-001K} % Coordinates of intersection of two circles lies in a quadratic field extension
+\transclude{nt-001L} % criteria for constructible lengths
+\transclude{nt-001M}
+\transclude{nt-001N} % it is impossible to square the circle, double the cube, or trisect an angle
+\transclude{nt-001O} % can we do physics with constructible numbers alone?

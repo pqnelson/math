@@ -1,0 +1,7 @@
+\title{Normal field extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{A field extension #{\kk / \FF} is \define{Normal} if #{\kk} is the [splitting field](nt-001S) of a collection of polynomials #{f_{i}(x)\in\FF[x]}.}

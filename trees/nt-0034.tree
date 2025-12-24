@@ -1,0 +1,13 @@
+\title{Finite field extensions are Galois iff it is the splitting field of a separable polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{A finite extension #{\kk / \FF} is [Galois](nt-002P) if and only if #{\kk} is the [splitting field](nt-001S) of a [separable polynomial](nt-0025) #{f(x)\in\FF[x]}.}
+
+\proof{\p{Let #{\alpha_{1}}, \dots, #{\alpha_{n}} be an #{\FF}-basis for #{\kk}. Each #{\alpha_{i}} has an orbit #{G\alpha_{i}\in\kk} where #{G=\Gal(\kk / \FF)}. Let #{G\alpha_{1}}, \dots, #{G\alpha_{n}} be the distinct orbits. We see
+##{f_{i}(x)=\prod_{\beta\in G\alpha}(x-\beta)}
+is irreducible and separable. Then
+##{f(x)=\prod^{n}_{i=1}f_{i}(x)}
+[is separable](nt-0033) and #{\kk} is the splitting field of #{\FF}.}}

@@ -1,0 +1,13 @@
+\title{Degree of subfield fixed by a finite subgroup equals the size of the subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{theorem}
+\p{Let #{\kk} be a field, let #{H\subgroup\Aut(\kk)} be a finite subgroup of field automorphisms. If #{\FF=\kk^{H}} is the [subfield fixed by #{H}](nt-002W), then
+##{|H|=\Index{\kk}{\FF}.}}
+
+\proof{\p{This follows from [the inequality](nt-002W)
+##{|H|\leq\Index{\kk}{\FF},}
+and [the inequality](nt-002X)
+##{\Index{\kk}{\FF}\leq|H|,}
+which implies the result.}}

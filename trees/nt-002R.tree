@@ -1,0 +1,51 @@
+\title{Lattice of field extensions and subgroups of field extension automorphisms}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{example}
+
+
+\p{\textbf{Question:} Let #{\FF=\QQ} and #{\kk=\QQ(\sqrt[3]{2}, \zeta_{3})} where #{\zeta_{3}=\exp(\I 2\pi / 3)} is a root of unity.}
+\ol{
+\li{Is #{\kk / \FF} Galois or not?}
+\li{What is the lattice of field extensions of #{\FF} which are subfields of #{\kk}?}
+\li{What is the lattice of subgroups of #{\Aut(\kk / \FF)}?}
+}
+\solution{
+\p{\textbf{Answer 1:} We see #{\kk} is the [splitting field](nt-001S) of #{x^{3}-2}, which implies #{\kk / \FF} is [Galois](nt-002P).}
+\p{\textbf{Answer 2:} The diagram of subfiels of #{\kk} look like:}
+\quiver{
+  \begin{tikzcd}
+& \ar[dl,"3",dash,swap]\QQ(\zeta_{3},\sqrt[3]{2})\ar[dr,"2",dash,swap]\ar[drr,"2",dash,swap]\ar[drrr,"2",dash] & & & \\
+\QQ(\zeta_{3})\ar[dr,"2",dash,swap] & & \ar[dl,"3",dash,swap]\QQ(\sqrt[3]{2}) & \ar[dll,"3",dash,swap]\QQ(\zeta\sqrt[3]{2}) & \ar[dlll,"3",dash]\QQ(\zeta^{2}\sqrt[3]{2})\\
+& \QQ & & &
+  \end{tikzcd}
+}
+\p{\textbf{Answer 3:} Let #{\sigma\in\Gal(\kk / \FF)} be an arbitrary element, then #{\sigma(\zeta_{3})} and #{\sigma(\sqrt[3]{2})} determine the group element completely. We see that
+##{\sigma(\sqrt[3]{2})\in\{\sqrt[3]{2},\zeta_{3}\sqrt[3]{2},\zeta_{3}^{2}\sqrt[3]{2}\},}
+and
+##{\sigma(\zeta_{3})\in\{\zeta_{3},\zeta_{3}^{2}\}.}
+The group only needs two generators, which we will denote by #{\sigma} and #{\tau} which are defined by
+##{\sigma(\sqrt[3]{2})=\zeta_{3}\sqrt[3]{2},\quad\mbox{and}\quad\sigma(\zeta_{3})=\zeta_{3};}
+and
+##{\tau(\sqrt[3]{2})=\sqrt[3]{2},\quad\mbox{and}\quad\tau(\zeta_{3})=\zeta_{3}^{2}.}
+Observe #{\sigma^{3}=1} and #{\tau^{2}=1} and
+##{\sigma\tau\neq\tau\sigma}
+because
+##{\begin{align*}
+(\sigma\circ\tau)(\sqrt[3]{2}) &= \sigma(\sqrt[3]{2})\\
+&=\zeta\sqrt[3]{2}\end{align*}}
+but
+##{\begin{align*}
+(\tau\circ\sigma)(\sqrt[3]{2}) &= \tau(\zeta_{3}\sqrt[3]{2})\\
+&=\zeta^{2}\sqrt[3]{2}.\end{align*}}
+Hence #{\langle\sigma,\tau\rangle} generates #{\Gal(\kk / \FF)\iso S_{3}}.}
+\p{Observe the subgroup lattice is doodled thus:}
+\quiver{
+  \begin{tikzcd}
+& \ar[dl,"2",dash,swap]\langle\sigma,\tau\rangle\ar[dr,"3",dash,swap]\ar[drr,"3",dash,swap]\ar[drrr,"3",dash] & & & \\
+\langle\sigma\rangle\ar[dr,"3",dash,swap] & & \ar[dl,"2",dash,swap]\langle\tau\rangle & \ar[dll,"2",dash,swap]\langle\sigma\tau\rangle & \ar[dlll,"2",dash]\langle\sigma^{2}\tau\rangle\\
+& \mathbf{1} & & &
+  \end{tikzcd}}
+\p{The edges in the subgroup diagram are labeled by the index of the subgroup.}
+}

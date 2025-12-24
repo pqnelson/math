@@ -29,6 +29,7 @@
 \def\FF{\mathbb{F}}
 \def\HH{\mathbb{H}}
 \def\KK{\mathbb{K}}
+\def\LL{\mathbb{L}}
 \def\NN{\mathbb{N}}
 \def\OO{\mathbb{O}}
 \def\PP{\mathbb{P}}
@@ -103,6 +104,14 @@
 
 % field theory
 \def\Char{\mathop{\textrm{char}}\nolimits}
+\def\RootsOf1[n]{\mu_{\n}}               % roots of unity
+\def\Gal{\mathop{\textrm{Gal}}\nolimits} % galois group
+
+
+% Category theory
+\def\cat[nom]{\mathbf{\nom}}
+\def\Grp{\cat{Grp}}
+\def\Set{\cat{Set}}
 
 \p{As I understand it, HTML tags (and spans with specific classes) must be done in this manner (although it is undocumented):}
 

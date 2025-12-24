@@ -1,0 +1,9 @@
+\title{Identify Cartesian Plane with Set of Points}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{remark}
+
+\p{We can now use algebraic geometry (a tool unavailable to the Ancient Greeks) to answer the questions posed to us. We take the Cartesian plane #{\RR^{2}} as the set of points, identifying each point with their coordinates #{(x,y)}.}
+
+\p{This is done by starting with the affine real plane #{\AA^{2}}, picking some point #{O} as the origin, and picking some point #{P\in\AA^{2}} as having coordinates #{(1,0)}. We can construct a line passing through #{OP} as the #{x}-axis, and then we can construct an orthogonal line passing through #{O} as the #{y}-axis.}

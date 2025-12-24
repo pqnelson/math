@@ -1,0 +1,9 @@
+\title{Algebraic Closures are Algebraically Closed}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{Let #{\kk / \FF} be an [[nt-001W]] of #{\FF}. Then #{\kk} is [[nt-001X]].}
+
+\proof{\p{Let #{f(x)\in\kk[x]} and suppose #{\alpha} is a root of #{f} in #{\kk(\alpha)}. Then #{\alpha} is algebraic over #{\kk}, and #{\kk} is algebraic over #{\FF}, hence #{\alpha} is algebraic over #{\FF}. Therefore there exists a polynomial #{g(x)\in\FF[x]} such that #{g(\alpha)=0}. As #{\kk} is an algebraic closure of #{\FF}, #{g(x)} splits completely over #{\kk}, and so #{\alpha\in\kk}. Then all roots of #{f(x)} belongs to #{\kk}, and so #{f(x)} splits over #{\kk}.}}

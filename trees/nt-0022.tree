@@ -1,0 +1,22 @@
+\title{Frobenius morphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{definition}
+\MML{field_16}{def 6}{K5}
+
+\p{Let #{\FF} be a field of characteristic #{p>0}. The \define{Frobenius Morphism} is
+##{\begin{split}\phi\colon&\FF\to\FF\\
+&x\mapsto x^{p}\end{split}}
+Moreover, this is a field morphism.}
+
+\proof{\p{We just need to prove this is a field morphism. It's clear #{\phi(1)=1} and #{\phi(xy)=xy}. We see:
+##{\begin{align*}
+\phi(x+y) &= (x+y)^{p}\\
+&= x^{p}+\binom{p}{1}x^{p-1}y+\binom{p}{2}x^{p-2}y^{2}+\dots+\binom{p}{1}xy^{p-1}+y^{p}
+\end{align*}}
+We see if #{0<k<p}, the numerator of the binomial coefficient #{\binom{p}{k}} is divisible by #{p}, but not its denominator. Since #{\binom{p}{k}} is an integer, it must be a multiple of #{p}, hence equal to 0 in #{\FF}. Therefore
+##{\phi(x+y)=x^{p}+y^{p}=\phi(x)+\phi(y).}
+Hence #{\phi} is a field morphism.}}
+
+\rmk{This seems to have first appeared in Ferdinand Georg Frobenius's "Über Beziehungen zwischen den Primidealen eines algebraischen Körpers und den Substitutionen seiner Gruppe" (\textit{Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin} \textbf{2} (1896) 689–703; reprinted in his \textit{Gesammelte Abhandlungen} [Collected Papers], Springer, vol. 2, 1968, pages 719-733).}

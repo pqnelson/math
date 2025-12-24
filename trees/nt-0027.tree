@@ -1,0 +1,15 @@
+\title{Irreducible polynomials are separable iff its derivative is not identically zero}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{corollary}
+
+\p{An irreducible polynomial #{p(x)\in\FF[x]} is [separable](nt-0025) if and only if #{p'(x)\neq0}.}
+
+\proof{\p{\forwardproof ([[nst-002I]].) Assume #{p'(x)=0}. Then #{p(x)\divides p'(x)}, hence #{p(x)} is separable by [the criteria for polynomials to be separable](nt-0026).}
+\p{\backwardproof ([[nst-002J]].) Assume #{p'(x)\neq0}. Then
+##{p(x)=p'(x)q(x)+r(x),}
+where #{\deg(r)<\deg(p')} by the division algorithm.}
+\p{Now assume for contradiction #{p(x)} has a double root #{\alpha}, then
+##{r(\alpha)=p(\alpha)-p'(\alpha)q(\alpha)=0.}
+Then the minimal polynomial divides the remainder polynomial #{m_{\alpha}(x)\divides r(x)}, so that #{m_{\alpha}(x)\neq p(x)} and so #{p(x)} is reducible. This contradicts the hypothesis that #{p(x)} is irreducible. Hence the result.}}

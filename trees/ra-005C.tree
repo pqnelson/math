@@ -11,4 +11,4 @@
 \li{The [minimal polynomial](ra-0051) factorizes as #{m_{A}(x)=\prod_{i}(x-\lambda_{i})} where each #{\lambda_{i}} is distinct.}
 }
 
-\rmk{If #{A} is diagonalizable, then its Jordan Canonical Form consists of #{1\tiems 1} [Jordan blocks](ra-005A).}
+\rmk{If #{A} is diagonalizable, then its Jordan Canonical Form consists of #{1\times 1} [Jordan blocks](ra-005A).}

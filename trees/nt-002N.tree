@@ -1,0 +1,11 @@
+\title{Number of Automorphisms of a splitting field is no greater than its degree}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{Let #{\kk / \FF} be the [splitting field](nt-001S) for some #{f(x)\in\FF[x]}. Then
+##{|\Aut(\kk / \FF)|\leq\Index{\kk}{\FF},}
+with equality if #{f(x)} is [separable](nt-0025).}
+
+\proof{\p{Let #{\FF'=\FF}, #{\kk'=\kk}, and #{\sigma=\id}, and the result follows from [[nt-002M]].}}

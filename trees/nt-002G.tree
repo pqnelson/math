@@ -1,0 +1,31 @@
+\title{Cyclotomic polynomials are irreducible polynomials in #{\ZZ[x]}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{theorem}
+
+\p{For each #{n}, the [cyclotomic polynomial](nt-002F) #{\Phi_{n}(x)} is a monic irreducible polynomial in #{\ZZ[x]}.}
+
+\proof{\p{Cyclotomic polynomials are monic\dots this should be obvious.}}
+
+\proof{\p{\textbf{Claim 1:} #{\Phi_{n}\in\ZZ[x]} for any #{n\in\NN}.}
+\p{[[nst-002K]] on #{n}.}
+\p{\textbf{Base case:} #{n=1}. We see #{\Phi_{1}(x)=x-1} is clearly irreducible.}
+\p{\textbf{Inductive hypothesis:} Assume #{\Phi_{d}(x)\in\ZZ[x]} for any #{d<n}.}
+\p{\textbf{Inductive case:} We see
+##{\Phi_{n}(x)f(x)=x^{n}-1}
+where
+##{f(x)=\prod_{d\divides n}\Phi_{d}(x)\in\ZZ[x]}
+by the inductive hypothesis. Then #{x^{n}-1=f(x)\Phi_{n}(x)} is a factorization over #{\QQ}. But by [Gauss's lemma](ra-002U), since both #{f(x)} and #{\Phi_{n}(x)} are monic, we see #{\Phi_{n}(x)\in\ZZ[x]}.}}
+
+\proof{\p{\textbf{Claim 2:} #{\Phi_{n}(x)} is irreducible. Suppose we have some factorization
+##{\Phi_{n}(x)=f(x)g(x)}
+where #{f(x)\in\ZZ[x]} is irreducible and #{g(x)\in\ZZ[x]}. Let #{\zeta} be a root of #{f(x)}, so #{\zeta\in\RootsOf1{n}} primitive.}
+\p{We claim: for any #{a\in\ZZ}, if #{a} is coprime to #{n}, then #{\zeta^{a}} is a root of #{f(x)}. It suffices to prove this for #{a=p} prime. We have #{\Phi_{n}(\zeta^{p})=0} imply either #{f(\zeta^{p})=0} or #{g(\zeta^{p})=0}.}
+\p{\textbf{Subcase 1:} Assume #{g(\zeta^{p})=0}. Then #{\zeta} is a root of #{g(x)}, but #{\zeta} is a root of #{f(x)} \emph{and} #{f(x)} is irreducible. Then #{f(x)\divides g(x^{p})}. Using the surjective map
+##{\begin{split}\ZZ[x]\to\FF_{p}[x]\\
+f(x)\mapsto\overline{f}(x)\end{split}}
+we see #{f(x)\divides g(x^{p})} implies #{\overline{f}(x)\divides\overline{g}(x^{p})}, but we see #{\overline{g}(x^{p})=\overline{g}(x)^{p}}. This implies #{\overline{f}} and #{\overline{g}} share a common root, which contradicts the irreducibility of #{x^{n}-1} over #{\FF_{p}}.}
+\p{\textbf{Subcase 2:} Assume #{f(\zeta^{p})=0}. Then for any #{a\in\ZZ}, if #{a} is coprime with #{n}, then #{\zeta^{a}} is a root of #{f(x)}. This implies
+##{\Phi_{n}(x)\divides f(x),}
+which means #{\Phi_{n}(x)=f(x)}. Hence #{\Phi_{n}(x)} is irreducible.}}

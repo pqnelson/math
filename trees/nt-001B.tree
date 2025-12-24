@@ -1,0 +1,29 @@
+\title{Composite Field of Algebraic Extensions is an Algebraic Extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{Let #{\kk_{1}/\FF} and #{\kk_{2}/\FF} be field extensions (possibly of infinite degree) contained within a larger field #{\LL}. Let #{S=\{\alpha_{i}\}_{i\in I}} and #{T=\{\beta_{j}\}_{j\in J}} be #{\FF}-bases for #{\kk_{1}} and #{\kk_{2}}, respectively. Then the following all hold:}
+\ol{
+\li{#{R=\Span_{\FF}\{\alpha_{i}\beta_{j}\}_{i\in I,j\in J}} is a \textbf{subring} of #{\LL}}
+\li{If further both #{\kk_{1}/\FF} and #{\kk_{2}/\FF} are [algebraic extensions](nt-000T), then #{\kk_{1}\kk_{2}=\Span_{\FF}\{\alpha_{i}\beta_{j}\}_{i\in I,j\in J}}.}
+}
+
+\proof{\p{(1) We see #{R} contains 0, 1, and is closed under addition. We will show it is closed under multiplication (which will prove #{R} is a subring of #{\LL}).}
+\p{Let #{x,y\in R} be arbitrary. Then we can write them out as
+##{x=\sum_{i,j}c_{i,j}\alpha_{i}\beta_{j}}
+and
+##{y=\sum_{i,j}d_{i,j}\alpha_{i}\beta_{j}}
+for some #{c_{i,j}\in\FF} and #{d_{i,j}\in\FF}.}
+\p{Since #{\kk_{1}} is closed under multiplication, and #{\{\alpha_{i}\}_{i\in I}} is an #{\FF}-basis for #{\kk_{1}}, we have for any #{i_{1},i_{2}\in I},
+##{\alpha_{i_{1}}\alpha_{i_{2}}=\sum_{i}a_{i}\alpha_{i}}
+for some coefficients #{a_{i}\in\FF}. Similarly,
+##{\beta_{j_{1}}\beta_{j_{2}}=\sum_{j}b_{j}\beta_{j}}
+for some #{b_{j}\in\FF}. Then
+##{\alpha_{i_{1}}\alpha_{i_{2}}\beta_{j_{1}}\beta_{j_{2}}=\sum_{i,j}a_{i}b_{j}\alpha_{i}\beta_{j}\in R.}
+Since the product #{xy} is a linear combination of elements of this form, it follows that #{R} is a subring of #{\LL}.}
+\p{(2) We have #{R\subset\kk_{1}\kk_{2}} since #{R} is a linear combination of #{\alpha_{i}\beta_{j}}.}
+\p{If #{R} is a field, then #{\kk_{1}\kk_{2}\subset R} which will prove the claim. So we will now prove #{R} is a field.}
+\p{\textbf{Claim 1:} Every element of #{R} is algebraic over #{\FF}. Since #{\kk_{1}/\FF} and #{\kk_{2}/\FF} are algebraic extensions, #{\alpha_{i}} and #{\beta_{j}} are algebraic over #{\FF}. Then [we know](nt-0015) so are #{\alpha_{i}\beta_{j}} and their #{\FF}-linear combinations #{\sum_{i,j}c_{i,j}\alpha_{i}\beta_{j}} for #{c_{i,j}\in\FF}. Hence every element of #{R} is algebraic over #{\FF}.}
+\p{\textbf{Claim 2:} #{R} is a field. Let #{\gamma\in R} be nonzero. Since #{\gamma} is algebraic over #{\FF}, it follows that #{\FF(\gamma)} is the image of #{\FF[x]\to\LL} sending #{f(x)\mapsto f(\gamma)}. Since #{p(\gamma)\in R} for any #{p(x)\in\FF[x]}, we have #{F(\gamma)\subset R}. Since #{F(\gamma)} is a field, we see #{\gamma^{-1}\in R}. This, taken together with claim 1, shows that #{R} is a field. Hence #{R=\kk_{1}\kk_{2}}.}}

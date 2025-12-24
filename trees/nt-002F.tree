@@ -1,0 +1,24 @@
+\title{Cyclotomic polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{definition}
+
+\p{The \define{Primitive} #{n^{\text{th}}} roots of unity are the #{\zeta\in\RootsOf1{n}} such that they generate the group #{\langle\zeta\rangle=\RootsOf1{n}}.}
+
+\p{The #{n^{\text{th}}} \define{Cyclotomic Polynomial} is defined as
+##{\Phi_{n}(x)=\prod_{\substack{\zeta\in\RootsOf1{n}\\\zeta\text{ primitive}}}(x-\zeta).}}
+
+\p{\textbf{Exercise 1:} When #{p} is prime, prove every element of #{\RootsOf1{p}} is primitive.}
+
+\p{\textbf{Exercise 2:} When #{p} is prime, prove
+##{\Phi_{p}(x)=\frac{x^{p}-1}{x-1}=x^{p-1}+x^{p-2}+\dots+x+1.}}
+
+\p{\textbf{Exercise 3:} Prove #{\deg(\Phi_{n}(x))=\phi(n)} where #{\phi(n)} is the [[nt-0005]] function.}
+
+\p{\textbf{Exercise 4:} Prove
+##{x^{n}-1=\sum_{\zeta\in\RootsOf1{n}}(x-\zeta)=\prod_{d\divides n}\prod_{\text{prim }\zeta\in\mu_{d}}(x-\zeta)=\prod_{d\divides n}\Phi_{d}(x).}}
+
+\p{\textbf{Exercise 5:} Prove #{\Phi_{4}(x)=x^{2}+1}, #{\Phi_{6}(x)=x^{2}-x+1}, #{\Phi_{8}(x)=x^{4}+1}, and #{\Phi_{9}(x)=x^{6}+x^{3}+1}. (Hint: use exercise 4 and calculate #{x^{n}-1} for #{n=4,6,8,9}.)}
+
+\p{\textbf{Caution:} it is false that all coefficients of #{\Phi_{n}(x)} are #{\pm1} or 0. But the first counter-example appears at #{n=105} which has two terms with coefficient #{-2}. However, it is true that all coefficients of every Cyclotomic polynomial are integers.}

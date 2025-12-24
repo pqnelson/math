@@ -1,0 +1,23 @@
+\title{Galois correspondences are order-reversing bijection between field extensions and their automorphisms}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{conjecture}
+
+\p{Let #{\kk / \LL} and #{\LL / \FF} be field extensions. Then
+##{\Aut(\kk / \FF)\supset\Aut(\kk / \LL),}
+i.e., we have a bijection
+##{\begin{split}\left\{\begin{matrix}\mbox{extensions }\LL / \FF\\
+\mbox{for }\LL \subset \kk\end{matrix}\right\}&\leftrightarrow
+\left\{\begin{matrix}\mbox{subgroups of }\\
+\Aut(\kk / \FF)\end{matrix}\right\}\\
+\LL / \FF &\mapsto \Aut(\kk / \LL)\end{split}}
+But this correspondence is order reversing in the sense that if
+##{\kk\supset\LL_{1}\supset\LL_{2}\supset\FF}
+we have
+##{\Aut(\kk / \LL_{1})\subset\Aut(\kk / \LL_{2}).}}
+
+\rmk{\p{(1) There is also a bijective correspondence sending subgroups #{H} of #{\Aut(\kk / \FF)} to subfields #{\LL} of #{\kk} containing #{\FF} which fixes #{\LL} under #{H} (i.e., for any #{\sigma\in H} we have #{\forall x\in\kk, x\in\LL\iff\sigma(x)=x}).}
+\p{It may be tempting to conjecture these two bijections are inverses of each other, but that is not the case.}
+\p{(2) This correspondence exists, but it is only a \emph{conjecture} they are bijections. For this reason, this is a "conjecture" not a "proposition".}
+\p{(3) These correspondences are known as "Galois correspondences".}}

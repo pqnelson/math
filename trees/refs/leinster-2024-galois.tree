@@ -1,0 +1,16 @@
+\title{Galois Theory}
+\author{tom-leinster}
+\date{2024-08-14}
+\taxon{reference}
+\meta{external}{https://arxiv.org/abs/2408.07499}
+
+\meta{bibtex}{\startverb
+@misc{leinster2024galois,
+      title={Galois Theory}, 
+      author={Tom Leinster},
+      year={2024},
+      eprint={2408.07499},
+      archivePrefix={arXiv},
+      primaryClass={math.NT},
+      url={https://arxiv.org/abs/2408.07499}, 
+}\stopverb}

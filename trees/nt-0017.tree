@@ -1,0 +1,15 @@
+\title{How do different field extensions interact?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{puzzle}
+
+\p{We now have a basic understanding of algebraic extensions #{\kk / \FF}. The next thing we want to investigate is how different algebraic extensions interact. One possibility is an extension of an extension, something like #{\LL / \kk} and #{\kk / \FF}.}
+
+\p{Another possible situation is an extension with two subextensions, something like:}
+\quiver{
+  \begin{tikzcd}
+    & \ar[dl, dash] L \ar[dr, dash] & \\
+K_{1} \ar[dr, dash] & & \ar[dl, dash] K_{2}\\
+    &   F   &
+  \end{tikzcd}}

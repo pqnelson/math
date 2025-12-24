@@ -1,0 +1,8 @@
+\title{Algebraically Closed Field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{definition}
+\MML{polynom5}{def 9}{V2}
+
+\p{A field #{\kk} is called \define{Algebraically Closed} if every polynomial #{f(x)\in\kk[x]} splits completely over #{\kk}.}

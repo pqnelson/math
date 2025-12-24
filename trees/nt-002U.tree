@@ -1,0 +1,10 @@
+\title{Distinct embeddings of fields are linearly independent}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Corollary 14.2.8}
+
+\p{Let #{\FF}, #{\kk} be fields. If #{\sigma_{1},\dots,\sigma_{n}\colon\FF\to\kk} are distinct field embeddings (i.e., nonzero field morphisms), then they are linearly independent.}
+
+\proof{\p{We see #{\sigma\colon\FF\to\kk} is a field morphism iff #{\sigma\colon\UnitGroup{\FF}\to\UnitGroup{\kk}} is a group morphism. Equivalently, #{\sigma} is a [character](nt-002S) of #{\UnitGroup{\FF}} with values in #{\kk}. Since field morphisms preserve zero, we see the [[nt-002T]] implies the result.}}

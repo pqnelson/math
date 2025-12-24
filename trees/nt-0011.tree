@@ -1,0 +1,10 @@
+\title{Degree of Field Extensions is Multiplicative}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{theorem}
+
+\p{Let #{\LL / \kk} and #{\kk / \FF} be field extensions. Then
+##{\Index{\LL}{\FF}=\Index{\LL}{\kk}\Index{\kk}{\FF}.}}
+
+\rmk{This is also known as "the degree equation", "the tower rule", and "the tower law", since a [finite] chain of field extensions is known as a "tower of fields".}

@@ -1,0 +1,35 @@
+\title{Size of finite subgroup of field automorphisms is not less than index of subfield fixed by the subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\meta{source}{Leinster's [[leinster-2024-galois]] Theorem 7.3.3}
+
+\p{Let #{\kk} be a field, let #{H\subgroup\Aut(\kk)} be a finite subgroup of field automorphisms. If #{\FF=\kk^{H}} is the [subfield fixed by #{H}](nt-002W), then
+##{|H|\geq\Index{\kk}{\FF}.}}
+
+\proof{\p{Let #{H=\{\sigma_{1},\dots,\sigma_{n}\}} so #{n=|H|}, let #{m=\Index{\kk}{\FF}}. Either #{n\geq m} (as desired) or #{n < m} (which we will prove leads to contradiction).}
+\p{\textbf{Case 1:} #{n\geq m}. Well, this is the desired result.}
+\p{\textbf{Case 2:} #{n < m} (there are fewer automorphisms than #{\FF}-linearly independent elements of #{\kk}).}
+\p{Let
+##{\alpha=(a_{1},\dots,a_{m})\in\kk^{m}}
+be such that #{\{a_{1},\dots,a_{m}\}} is linearly independent over #{\kk}.}
+\p{For each #{i=1,\dots,m} we write
+##{\alpha_{i}=(\sigma_{1}a_{i},\sigma_{2}a_{i},\dots,\sigma_{n}a_{i})\in\kk^{n}.}
+Since #{m>n}, the #{\alpha_{i}} must be linearly dependent.}
+\p{There exists a minimal linearly independent subset of these #{\alpha_{i}}, and by relabeling (if necessary) we may assume they are #{\alpha_{1}}, \dots, #{\alpha_{r}}. Let
+##{U:=\{(c_{1},\dots,c_{r})\in\kk^{r}\mid c_{1}\alpha_{1}+\dots+c_{r}\alpha_{r}=0\}\subset\kk^{r}}
+be the subspace of coefficients for which the linear combinations of minimal independent subset of #{\alpha_{i}} vanishes.}
+\p{\textbf{Claim 1:} For any #{\sigma\in H} and #{(c_{1},\dots,c_{r})\in U}, we have #{(\sigma c_{1},\dots,\sigma c_{r})\in U}.}
+\p{\textbf{Claim 2:} #{\dim_{\kk}(U)=1}.}
+\p{\textbf{Claim 3:} Contradiction. Let #{(c_{1},\dots,c_{r})\in U} be nonzero, and without loss of generality assume #{c_{1}=1}. For each #{\sigma\in H}, we see:
+##{(\sigma 1,\sigma c_{2},\dots,\sigma c_{r})=(1,\sigma c_{2},\dots,\sigma c_{r}).}
+By claim 2, #{\dim_{\kk}(V)=1}, which implies #{(1,\sigma c_{2},\dots,\sigma c_{r})} must be a scalar multiple of #{(1,c_{2},\dots,c_{r})}. But this implies #{\sigma c_{i}=c_{i}} for each #{i} and for each #{\sigma\in H}. Then #{c_{i}\in\FF} by definition of #{\FF} (being the subfield of fixedpoints under #{H}). Then we have for each #{j},
+##{\sum^{r}_{i=1}c_{i}\sigma_{j}(a_{i})=0,}
+which implies
+##{\sigma\left(\sum^{r}_{i=1}c_{i}a_{i}\right)=0,}
+which means
+##{\sum^{r}_{i=1}c_{i}a_{i}=0.}
+This contradicts the linear independence of #{a_{i}}.}
+}

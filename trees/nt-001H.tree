@@ -1,0 +1,13 @@
+\title{Criteria for constructible lengths}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{A length #{\ell} is [constructible](nt-001F) from #{S} if and only if the point #{(0,\ell)} is [constructible](nt-001E).}
+
+\proof{\p{\backwardproof If #{(0,\ell)} is constructible, its distance from #{(0,0)} is #{\ell}, so #{\ell} is constructible.}
+\p{\forwardproof Assume #{\ell} is a constructible length. Then there exists points #{P\in S} and #{Q\in S} which has length #{\ell}. We will prove #{(0,\ell)} is constructible. There are three possible cases: (1) #{PQ} does not pass through #{O}, (2) #{O} is either #{P} or #{Q}, (3) #{P}, #{Q}, #{O} are distinct points lying on the same line.}
+\p{\textbf{Case 1:} Suppose #{PQ} does not pass through #{O}. Draw the line parallel to #{OP} passing through #{Q}, and draw the line parallel to #{PQ} passing through #{O}. Let #{R} be the intersection of these two lines. Then we have a parallelogram #{OPQR}, and #{OR} has the same length as #{PQ}. Draw a circle centered at #{O} passing through #{R}, and then we see the circle intersects the #{y}-axis at the point #{(0,\ell)}.}
+\p{\textbf{Case 2:} Suppose #{O} is either #{P} or #{Q}. Then drawing a circle at #{O} passing through the other point will intersect the #{y}-axis as #{(0,\ell)}.}
+\p{\textbf{Case 3:} Suppose #{O}, #{P}, #{Q} are three distinct points lying on the same line #{L}. Draw a line #{L_{2}} perpendicular to #{L} passing through #{P}. Draw a circle #{C(P,Q)} centered at #{P} passing through #{Q}. Let #{Q'\in L_{2}\cap C(P,Q)} be the intersection of the perpendicular line at #{P} with the circle we just constructed. We can draw a line #{L_{1}} which is perpendicular to #{L} passing through #{O}, which is parallel to #{L_{2}}. We draw a line parallel to #{L} passing through #{Q'} which intersects #{L_{1}} at #{P'}. Draw a circle centered at #{O} passing through #{P'}. Since the length of #{OP'} is the same as the length of #{PQ'} (which is the same as the length of #{PQ}, i.e., it's the same as #{\ell}), drawing a circle at #{O} passing through #{P'} will intersect the #{y}-axis at #{(0,\ell)}, as desired.}}

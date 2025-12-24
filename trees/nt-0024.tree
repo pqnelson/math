@@ -1,0 +1,16 @@
+\title{Finding the roots of a polynomial over a finite field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{example}
+
+\p{Let #{F=\FF_{p}(t)} be our field, which has [[nt-000A]] #{p} but it's also an infinite field. Consider the polynomial
+##{f(x)=x^{p}-t\in F[x].}
+Let #{\kk / F} be a [splitting field](nt-001S) for #{f(x)}, and let #{\alpha\in\kk} be a root of #{f(x)}. Then we have
+##{f(x)=x^{p}-\alpha^{p}=(x-\alpha)^{p}.}
+Then all the roots of #{f(x)} in #{\kk} are \emph{equal}.}
+\p{Let #{m_{\alpha}(x)} be the minimal polynomial of #{f(x)} over #{F}. Then it must equal #{m_{\alpha}(x)=(x-\alpha)^{k}}. If #{p=kq+r} (where #{0\leq r<p}), then
+##{f(x)=\bigl(m_{\alpha}(x)\bigr)^{q}\cdot(x-\alpha)^{r},}
+so that #{(x-\alpha)^{r}\in F[x]}. Since #{(x-\alpha)^{k}} is the minimal polynomial, and #{r < k}, it follows that #{r=0}.}
+\p{It follows that #{x^{p}-t} is \emph{irreducible} over #{\FF_{p}(t)}, yet all its roots in the splitting field are equal.}
+\rmk{When we study Galois theory, we will want to study the splitting field of a polynomial by studying the symmetries of its roots. But in this example, \emph{there are no symmetries to investigate} because there's only a single root. This forces us to make a careful distinction between general splitting fields.}

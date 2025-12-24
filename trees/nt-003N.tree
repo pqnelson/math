@@ -1,0 +1,7 @@
+\title{A finite extension of an infinite field is simple iff it has finitely many subfields}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{Let #{\FF} be an infinite field, let #{\kk / \FF} be a finite extension. Then #{\kk} is simple if and only if #{\kk} has finitely many subfields.}

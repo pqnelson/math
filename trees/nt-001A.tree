@@ -1,0 +1,16 @@
+\title{Composite Field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{definition}
+
+\p{Let #{\kk_{1} / \FF} and #{\kk_{2} / \FF} be subextensions of some extension #{\LL / \FF}, as in the following diagram:
+\quiver{
+  \begin{tikzcd}
+    & \ar[dl, dash] \LL \ar[dr, dash] & \\
+\kk_{1} \ar[dr, dash] & & \ar[dl, dash] \kk_{2}\\
+    &   \FF   &
+  \end{tikzcd}}
+The \define{Composite Field} of #{\kk_{1}} with #{\kk_{2}} is the smallest field subfield denoted #{\kk_{1}\kk_{2}} of #{\LL} containing both #{\kk_{1}} and #{\kk_{2}}.}
+
+\rmk{I've also seen this described as the "amalgam" of #{\kk_{1}} and #{\kk_{2}}, but I don't think this is terribly common terminology.}

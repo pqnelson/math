@@ -2,5 +2,6 @@
 \author{alex-nelson}
 \import{notation}
 \date{2025-12-19}
+\taxon{fact}
 
 \p{Let #{\kk / \FF} be a [[nt-000F]] over #{\FF}. Then #{\kk} is a [[vectsp-0001]] over #{\FF}.}

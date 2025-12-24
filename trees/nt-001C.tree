@@ -1,0 +1,18 @@
+\title{Composite Field of Simple Extensions of Rational Numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{example}
+
+\p{Consider the two simple extensions #{\QQ(\sqrt{5})/\QQ} and #{\QQ(\sqrt[7]{2})/\QQ}. Then their composite field is an algebraic extension. We can draw a diagram of the field extensions with edges labeled by the [degrees](nt-000J) of the extensions:}
+
+\quiver{
+  \begin{tikzcd}
+    & \ar[dl, "7", dash,swap] \QQ(\sqrt{5},\sqrt[7]{2}) \ar[dr, "2", dash] & \\
+\QQ(\sqrt{5}) \ar[dr, "2", dash, swap] & & \ar[dl, "7", dash] \QQ(\sqrt[7]{2})\\
+    &   \QQ   &
+  \end{tikzcd}}
+
+\p{We see #{\sqrt[7]{2}} is a root of #{x^{7}-2} which is irreducible over #{\QQ}. We also see that the degree
+##{\Index{\QQ(\sqrt{5},\sqrt[7]{2})}{\QQ(\sqrt{5})}=7,}
+which is the degree of the minimal polynomial of #{\sqrt[7]{2}} over #{\QQ(\sqrt{5})}. Then #{x^{7}-2} must be this minimal polynomial. In particular, #{x^{7}-2} is irreducible over #{\QQ(\sqrt{5})}.}

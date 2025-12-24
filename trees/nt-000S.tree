@@ -1,0 +1,17 @@
+\title{Isomorphisms of fields extends to isomorphisms of simple field extensions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{theorem}
+
+\p{Let #{\kk / \FF} and #{\kk'/\FF'} be [field extensions](nt-000F), and #{\phi\colon\FF\to\FF'} an isomorphism. Suppose #{\alpha\in\kk} is a root of an irreducible #{p(x)\in\FF[x]}, and #{\beta\in\kk'} is a root of #{q(x)=\phi(p(x))\in\FF'[x]}. Then #{\phi} extends to an isomorphism #{\widetilde{\phi}\colon\FF(\alpha)\to\FF(\beta)}.}
+
+\proof{\p{We want to show #{\FF[x]/(p(x))\iso\FF'[x]/(\phi(p(x)))} are isomorphic. We see #{\phi} extends to #{\Phi\colon\FF[x]\to\FF'[x]} induces an isomorphism
+##{\psi\colon\FF[x]/(p(x))\to\FF'[x]/(q(x)).}
+Since [[nt-000P]], we have isomorphisms
+##{\phi_{1}\colon\FF[x]/(p(x))\to\FF(\alpha)}
+and
+##{\phi_{2}\colon\FF[x]/(q(x))\to\FF'(\beta).}
+Then
+#{\widetilde{\phi}=\phi_{2}\circ\psi\circ\phi_{1}^{-1}\colon\FF(\alpha)\to\FF'(\beta)}
+is an isomorphism sending #{\alpha} to #{\beta}, and restricts to #{\phi} on #{\FF}.}}

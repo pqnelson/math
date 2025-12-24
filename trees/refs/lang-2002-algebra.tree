@@ -1,0 +1,15 @@
+\title{Algebra}
+\author{serge-lang}
+\date{2002}
+\taxon{reference}
+\meta{doi}{10.1007/978-1-4613-0041-0}
+
+\meta{bibtex}{\startverb
+@book{lang2002algebra,
+  title={Algebra},
+  author={Lang, Serge},
+  volume={211},
+  year={2002},
+  publisher={Springer},
+  edition={third}
+}\stopverb}

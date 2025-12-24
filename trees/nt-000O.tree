@@ -1,0 +1,15 @@
+\title{Cyclotomic field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{example}
+
+\p{Consider
+##{p(x)=x^{4}+x^{3}+x^{2}+x+1=\frac{x^{5}-1}{x-1}}
+By [Eisenstein's criteria](ra-002V), it's [irreducible](ra-001U). We see
+##{\FF:=Q[x]/(p(x)).}
+Let
+##{\zeta=\exp(\I 2\pi / 5)\in\CC,}
+then #{\QQ(\zeta)\subset\CC} is a field containing a root of #{p}.}
+\p{The numbers #{\exp(\I 2\pi / n)} are \define{Roots of Unity}, and adjoining a root of unity to the rationals is an example of a simple field extension. (The resulting field is called a \define{Cyclotomic field}).}
+\p{Moreover, since [[nt-000P]], we see #{\FF} and #{\QQ(\zeta)} are isomorphic fields.}

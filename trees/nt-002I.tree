@@ -1,0 +1,9 @@
+\title{Field automorphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{definition}
+
+\p{Let #{\kk} be a field. An \define{Automorphism} of #{\kk} is a field isomorphism #{\sigma\colon\kk\to\kk}.}
+
+\p{We denote by #{\Aut(\kk)} the group of all field automorphisms of #{\kk} equipped with function composition.}

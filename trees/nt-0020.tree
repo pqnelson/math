@@ -1,0 +1,12 @@
+\title{Algebraic Closure is Unique up to Isomorphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\MML{field_12}{33}{T33}
+\taxon{proposition}
+
+\p{If #{\kk_{1}/\FF} and #{\kk_{2}/\FF} are [algebraic closures](nt-001W) of #{\FF}, then #{\kk_{1}} is isomorphic to #{\kk_{2}}.}
+
+\proof{\p{Extending the identity map on #{\FF} to an embedding of #{\kk_{1}} into #{\kk_{2}} and applying [lifts of embeddings of a field #{\FF\into\kk_{1}} to an embedding #{\kk_{1}\into\kk_{2}} is an isomorphism](nt-0021), we have the result.}}
+
+\rmk{There are many different isomorphisms between algebraic closures of #{\FF}, so we can't really speak of "the" algebraic closure of a field.}

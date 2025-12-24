@@ -1,0 +1,11 @@
+\title{Separable Polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{definition}
+
+\p{A polynomial #{p(x)} over a field #{\FF} is called \define{Separable} if its roots are all distinct in its [splitting field](nt-001S) over #{\FF}. Otherwise, we say #{p(x)} is \define{Inseparable}.}
+
+\rmk{Consider the example where we were [[nt-0024]]. All the roots for the polynomial were "inseparable" (i.e., they were "the same" when our intuition from the fundamental theorem of algebra would mislead us into thinking there were #{p} roots). This is the motivation for the terminology here.}
+
+\p{\textbf{Puzzle:} do we need to find the splitting field for #{p(x)} to determine if it's separable or not?}

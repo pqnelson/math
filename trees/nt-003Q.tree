@@ -1,0 +1,11 @@
+\title{Fixed subfields of Cyclotomic field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{Let #{H\subgroup\Gal(\QQ(\zeta_{n})/\QQ)}. Write
+##{\alpha_{H}=\sum_{\sigma\in H}\sigma\zeta_{n}}
+Then #{\QQ(\zeta_{n})^{H}=\QQ(\alpha_{H})}.}
+
+\rmk{The sums #{\sum_{\sigma\in H}\sigma\zeta_{n}} are called \define{Gaussian Periods}. The study of their combinatorial properties is referred to as \define{Cyclotomy}.}

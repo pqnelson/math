@@ -1,0 +1,19 @@
+\title{Lifting embedding of a field into an extension to an embedding of the extension into the algebraic closure}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{lemma}
+\MML{field_12}{25}{T25}
+\meta{source}{Lang [[lang-2002-algebra]] Theorem V.2.8}
+
+\p{Let #{\FF} be a field, let #{\kk / \FF} be an algebraic extension, and #{i:\FF\into\LL} be an embedding of #{\FF} into an [algebraically closed](nt-001X) field #{\LL}. Then:
+\ol{
+\li{There exists an extension of #{i} to an embedding of #{\kk} in #{\LL}; and}
+\li{If #{\kk} is algebraically closed and #{\LL} is algebraic over #{i(\FF)}, then any such extension of #{i} is an isomorphism of #{\kk} onto #{\LL}.}
+}}
+
+\labeled-proof{Lang}{\p{Let #{S} be the set of all pairs #{(F,\tau)} where #{F} is a subfield of #{\kk} containing #{\FF} and #{\tau} is an extension of #{i} to an embedding of #{\tau\colon F\into\LL} (where #{\tau|_{\FF}=i}).}
+\p{If #{(F,\tau)} and #{(F',\tau')} are such pairs, we write #{(F,\tau)\leq(F',\tau')} if #{F\subset F'} and #{\tau'|_{F}=\tau}. Note: #{S} is not empty (it contains #{(\FF,i)}) and it is inductively ordered: if #{(F_{i},\tau_{i})} is a totally ordered subset, we let #{F=\bigcup F_{i}} and define #{\tau} on #{F} to be equal to #{\tau_{i}} on each #{F_{i}}.}
+\p{Then #{(F,\tau)} is an upper bound for the totally ordered subset. Using [[zorn's-lemma]], let #{(K,\lambda)} be a maximal element in #{S}. Then #{\lambda} is an extension of #{i}, and the claim is #{K=\kk}. Otherwise there exists an #{\alpha\in\kk} such that #{\alpha\notin K}. But our embedding #{\lambda} has an extension to #{K(\alpha)} thereby contradicting the maximality of #{(K,\lambda)}. This proves there exists an extension of #{i} to #{\kk}. We will just abuse notation and denote this extension by #{i} again.}
+\p{If #{\kk} is algebraically closed and #{\LL} is algebraic over #{i(\FF)}, then #{i(\kk)} is algebraically closed and #{\LL} is algebraic over #{i(\kk)}. Hence #{\LL=i(\kk)}.}}
+

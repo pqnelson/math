@@ -1,0 +1,10 @@
+\title{Finitely Generated Extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{definition}
+
+\p{An [extension](nt-000F) #{\kk / \FF} is \define{Finitely Generated} if #{\kk=\FF(\alpha_{1},\dots,\alpha_{n})} where #{\alpha_{1},\dots,\alpha_{n}\in\kk}.}
+
+\rmk{\p{(1) Finitely generated extensions are not necessarily [finite extensions](nt-000J).}
+\p{(2) This should remind the reader of [finitely generated modules](ra-004A).}}

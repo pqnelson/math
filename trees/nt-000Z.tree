@@ -1,0 +1,10 @@
+\title{Simple field extension is algebraic iff adjoined with algebraic element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{corollary}
+
+\p{The [simple field extension](nt-000N) #{\FF(\alpha)/\FF} is [algebraic](nt-000T) if and only if #{\alpha} is algebraic over #{\FF}.}
+
+\proof{\p{\forwardproof If #{\FF(\alpha)/\FF} is an algebraic extension, then #{\alpha\in\FF(\alpha)} is obviously algebraic.}
+\p{\backwardproof Suppose #{\alpha} is algebraic over #{\FF}. Since [[nt-000Y]], we see #{\FF(\alpha)/\FF} is a finite extension. Let #{\beta\in\FF(\alpha)} be an arbitrary element. Then #{\FF(\beta)} is a #{\FF}-subspace of #{\FF(\alpha)}, so #{\Index{\FF(\beta)}{\FF}\leq\Index{\FF(\alpha)}{\FF}<\infty}. [Then #{\beta} is algebraic](nt-000Y), and since #{\beta} is arbitrary, this means the entire extension #{\FF(\alpha)/\FF} is algebraic.}}

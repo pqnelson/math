@@ -1,0 +1,13 @@
+\title{Character}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 14.2}
+
+\p{A \define{Character} of a group #{G} with values in a field #{\FF} is a group morphism #{\chi\colon G\to\UnitGroup{\FF}}. In particular, this means
+##{\chi(gh)=\chi(g)\chi(h)}
+for all #{g,h\in G}.}
+
+\p{We will write #{\hom_{\Grp}(G,\UnitGroup{\FF})} (or #{\hom(G,\UnitGroup{\FF})} if there's no risk of ambiguity) for the set of all characters of #{G} with values in #{\FF}.}

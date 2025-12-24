@@ -1,0 +1,9 @@
+\title{Irreducible polynomials are separable over fields of characteristic zero}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{corollary}
+
+\p{If #{\FF} have [[nt-000A]] zero, then every irreducible polynomial #{p(x)\in\FF[x]} is [separable](nt-0025).}
+
+\proof{\p{We see #{p'(x)\neq0} over #{\FF}, [hence the result](nt-0027).}}

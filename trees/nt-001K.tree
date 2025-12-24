@@ -1,0 +1,21 @@
+\title{A point whose coordinates like in a quadratic extension of the field is directly constructible}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{Let #{S} be a set of points in the plane. Suppose the points in #{S} have coordinates in the field #{\FF\subset\RR}. If a point #{P} has coordinates lying in a quadratic field extension of #{\FF}, then #{P} is [directly constructible](nt-001E) from #{S}.}
+
+\proof{\p{Suffices to prove the intersection of two circles have coordinates in a quadratic extension of #{\FF} (since we have shown [the intersection of two lines lie in #{\FF}](nt-001I) and [the intersection of a line and a circle lie in a quadratic extension of #{\FF}](nt-001J)).}
+\p{If we have two circles whose points satisfy the equation
+##{(x-x_{0})^{2}+(y-y_{0})^{2}=r_{0}^{2},}
+or
+##{(x-x_{0})^{2}+(y-y_{0})^{2}=r_{1}^{2}.}
+If we expand and subtract one equation from another, we obtain the equation where the quadratic terms cancel out; it has the form
+##{Ax+By+C=0,}
+where
+##{\begin{align*}A&=2x(x_{1}-x_{0})\\
+B&=2y(y_{1}-y_{0})\\
+C&=x_{0}^{2}-x_{1}^{2}+y_{0}^{2}-y_{1}^{2}-r_{0}^{2}+r_{1}^{2}.\end{align*}}
+Then the intersecting the two circles is the same as intersecting either of them with the line above. Note the coefficients #{A}, #{B}, #{C} are again polynomials in the coordinates #{x_{0}}, #{y_{0}}, #{x_{1}}, #{y_{1}}, and the lengths #{r_{0}}, #{r_{1}}.}
+\p{Hence the result follows immediately.}}

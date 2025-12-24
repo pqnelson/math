@@ -1,0 +1,26 @@
+\title{Criteria for polynomials to be separable}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{proposition}
+
+\p{A polynomial #{p(x)\in\FF[x]} is [separable](nt-0025) if and only if #{p(x)} and #{p'(x)} have no common root.}
+
+\p{Note: by #{p'(x)} we mean the formal derivative. That is, if
+##{p(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\dots+a_{1}x+a_{0},}
+then
+##{p'(x)=na_{n}x^{n-1}+(n-1)a_{n-1}x^{n-2}+\dots+a_{1}.}}
+
+\proof{\p{Let
+##{p(x)=c(x-\alpha_{1})(\dots)(x-\alpha_{n})}
+be the factorization of #{p(x)} over the splitting field. Then by the product rule for differentiation,
+##{p'(x)=c\left(\frac{p(x)}{x-\alpha_{1}}+\frac{p(x)}{x-\alpha_{2}}+\dots+\frac{p(x)}{x-\alpha_{n}}\right).}
+We see each term in the sum is a polynomial.}
+\p{\backwardproof ([[nst-002I]].) If #{p(x)} is inseparable, then #{\alpha_{i}=\alpha_{j}} for some #{i\neq j}. Then #{\alpha_{i}} is a root of #{p(x)/(x-\alpha_{k})} for all #{k}, hence #{p'(\alpha_{i})=0}, and #{\alpha_{i}} is a common root of #{p(x)} and #{p'(x)}.}
+\p{\forwardproof ([[nst-002G]].) Assume #{p(x)} is separable over its splitting field, then we see its roots satisfy #{\alpha_{i}-\alpha_{j}\neq0} for #{i\neq j}. Then we see
+##{p'(\alpha_{i})=c\prod_{i\neq j}(\alpha_{i}-\alpha_{j}),}
+so that #{\alpha_{i}} is not a root of #{p'(x)}. Hence the result.}}
+
+\rmk{Note that #{p(x)\in\FF[x]} and #{q(x)\in\FF[x]} have no common root if and only if #{\gcd(p(x),q(x))=1}, which can be checked in #{\FF[x]} using the Euclidean algorithm, without any need to compute any extensions.}
+
+\p{\textbf{Exercise:} For #{p(x)=x^{p}-t\in\FF_{p}(t)}, calculate #{p'(x)} and #{\gcd(p(x),p'(x))} to prove #{p(x)} is inseparable.}

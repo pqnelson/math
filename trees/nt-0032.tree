@@ -1,0 +1,9 @@
+\title{Galois Conjugate}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{Let #{\kk / \FF} be a [Galois](nt-002P) extension, let #{\alpha\in\kk}. The \define{Galois Conjugates} of #{\alpha} are elements of the form #{\sigma\alpha} for #{\sigma\in\Gal(\kk / \FF)}. These are just the orbits of #{\alpha} under the action of #{\Gal(\kk / \FF)} on #{\kk}.}
+
+\p{\textbf{Exercise:} Let #{z\in\CC} be a complex number. When, if ever, is the complex conjugate of #{z} a Galois conjugation of #{z}?}

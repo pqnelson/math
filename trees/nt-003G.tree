@@ -1,0 +1,10 @@
+\title{Möbius transform}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{If #{f\colon\NN\to\CC} is a function, then we define its \define{Möbius transform}
+##{g(n)=\sum_{d\divides n}f(d)}
+which satisfies a \define{Möbius inversion formula}
+##{f(n)=\sum_{d\divides n}\mu(d)g(n / d).}}

@@ -1,0 +1,17 @@
+\title{Degree of rationals adjoined with #{n^{\text{th}}} root of unity is given by Euler totient of #{n}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{corollary}
+
+\p{We claim
+##{\Index{\QQ(\zeta_{n})}{\QQ}=\phi(n)}
+where #{\phi(n)} is the [[nt-0005]].}
+
+\rmk{\p{The proof is based loosely on two ideas:
+\ol{
+\li{We may compare the factorization of #{x^{n}-1} over #{\QQ} with that of #{x^{n}-1} over #{\FF_{p}} with #{p\nmid n}.}
+\li{Investigate how automorphisms of a finite field permute the roots of polynomials.}
+}
+More about the second idea: suppose #{F(x)} is a polynomial over #{\FF_{p}} and #{F(x)=f(x)g(x)} for some #{f(x),g(x)\in\FF_{p}[x]}. The splitting field of #{F(x)} is #{\FF_{p^{n}}} for some #{n}, and the Frobenius morphism #{\phi(x)=x^{p}} is an automorphism of this splitting field. Since #{\phi} is the identity function on #{\FF_{p}}, it must permute the roots of #{F(x)}. Suppose #{\alpha} is a root of #{F(x)}. Then #{\phi(\alpha)=\alpha^{p}} is a root of either #{f(x)} or #{g(x)}. But #{g(\alpha^{p})=g(\alpha)^{p}}, so #{g(\alpha^{p})=0} implies #{g(\alpha)=0}. So if #{F(x)} is separable, then the Frobenius morphism permutes the roots of different factors of #{F(x)} separately.}
+\p{Studying how automorphisms of a splitting field for a polynomial acts on the roots of the polynomial naturally leads to Galois theory.}}

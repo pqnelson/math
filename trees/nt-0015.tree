@@ -1,0 +1,12 @@
+\title{Algebraic elements over a field forms a field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{corollary}
+
+\p{Let #{\kk / \FF} be a field extension. The elements #{\alpha\in\kk} which are algebraic over #{\FF} form a subfield of #{\kk}.}
+
+\proof{\p{Let #{L} be the set of all elements #{\alpha\in\kk} which are algebraic over #{\FF}.}
+\p{\textbf{Claim 1:} #{\FF\subset L}. We see that for any #{a\in\FF} the polynomial #{(x-a)\in\FF[x]} has a root (namely #{a}) which belongs to #{L}. Hence #{\forall a\in\FF\ldotp a\in L}, i.e., #{\FF\subset L}.}
+\p{\textbf{Claim 2:} #{L} is closed under field operations. Let #{\alpha}, #{\beta\in\kk} be algebraic over #{\FF}. Then #{\FF(\alpha,\beta)/\FF} is an algebraic extension (since [[nt-0014]]). Then #{\FF(\alpha,\beta)\subset L}. In particular this means #{\alpha\pm\beta\in L} and #{\alpha\beta\in L} and when #{\beta\neq0} also #{\alpha / \beta\in L}.}
+\p{Hence #{L} is a field and a subfield of #{\kk}.}}

@@ -1,0 +1,12 @@
+\title{Finite extensions of finite fields of characteristic #{p>0} are simple}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{Let #{p\in\NN} be prime, let #{n\in\NN}. Then the [finite extension](nt-000J) #{\FF_{p^{n}} / \FF_{p}} is [simple](nt-000N), which means there exists some irreducible polynomial #{f(x)\in\FF_{p}[x]} of degree #{n} such that
+#{\FF_{p^{n}}\iso\FF_{p}[x]/(f(x)).}}
+
+\proof{\p{Since #{\UnitGroup{\FF_{p^{n}}}} is cyclic, the result follows. More explicitly, let #{\alpha} be a generator, then every other element of #{\FF_{p^{n}}} is a power of #{\alpha}, so
+##{\FF_{p^{n}}\iso\FF_{p}[\alpha]\iso\FF_{p}[x]/(f(x)),}
+where #{f(x)=m_{\alpha}(x)} is the minimal polynomial of #{\alpha} over #{\FF_{p}}. Since #{\FF_{p^{n}}} has degree #{n} over #{\FF_{p}}, so does #{f(x)}.}}

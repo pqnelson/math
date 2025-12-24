@@ -1,0 +1,13 @@
+\title{#{x^{p^{n}}-x} factorizes over #{F_{p}}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{Let #{p\in\NN} be prime, let #{n\in\NN} be a positive integer. Then #{x^{p^{n}}-x} is the product of every distinct irreducible polynomials over #{\FF_{p}} whose degree divides #{n}.}
+
+\proof{\p{Let #{f(x)} be an irreducible polynomial of degree #{d} such that #{d\divides n}. Then
+##{\FF_{p}[x]/(f(x))\iso\FF_{p^{d}},}
+which is isomorphic to a subfield of #{\FF_{p^{n}}}. Then #{f(x)} has a root in #{\FF_{p^{n}}}, hence splits completely over it since #{\FF_{p^{n}} / \FF_{p}} is Galois. But then every root of #{f(x)} (being an element of #{\FF_{p^{n}}}) is a root of #{x^{p^{n}}-x}. Since #{f(x)} is separable, #{f(x)\divides(x^{p^{n}}-x)}.}
+\p{Suppose #{f(x)} is irreducible over #{\FF_{p}} and suppose it divides #{x^{p^{n}}-x}. Then its splitting field is contained in #{\FF_{p^{n}}} and must be isomorphic to #{\FF_{p^{d}}} for some #{d} which divides #{d\divides n}. But since #{\FF_{p^{d}}} is Galois, it must be isomorphic to #{\FF_{p}[x]/(f(x))}, hence #{f(x)} has degree #{d}.}
+\p{Since #{x^{p^{n}}-x} is separable, it's the product of all distinct irreducible factors.}}

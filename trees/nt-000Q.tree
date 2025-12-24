@@ -1,0 +1,7 @@
+\title{Isomorphic field extensions which are not equal to each other}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{example}
+
+\p{Let #{F_{1}=\QQ(\sqrt[3]{2})\subset\RR}, #{F_{2}=\QQ(\zeta_{3}\sqrt[3]{2})\subset\CC}. Both #{\sqrt[3]{2}} and #{\zeta_{3}\sqrt[3]{2}} are [irreducible](ra-001U) over #{\QQ}. By [[nt-000P]], #{F_{1}} and #{F_{2}} are both isomorphic to #{\QQ[x] / (x^{3}-2)}. In particular #{F_{1}\iso F_{2}} even though #{F_{1}\neq F_{2}}.}

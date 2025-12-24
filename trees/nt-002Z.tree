@@ -1,0 +1,13 @@
+\title{Size of automorphism group for finite extension is not greater than the degree of the finite extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{Let #{\kk / \FF} be a [finite extension](nt-000J) of #{\FF}. Then
+##{|\Aut(\kk / \FF)|\leq\Index{\kk}{\FF}.}
+Moreover, #{\kk / \FF} is [Galois](nt-002P) if and only if #{\FF = \kk^{\Aut(\kk / \FF)}} is the subfield fixed by the automorphism group.}
+
+\proof{\p{For #{H=\Aut(\kk / \FF)}, we have #{\FF\subset\kk^{H}}. [Then we have](nt-002Y),
+##{|\Aut(\kk / \FF)|=\Index{\kk}{\kk^{H}}\leq\Index{\kk}{\kk^{H}}\Index{\kk^{H}}{\FF}}
+and equality is precisely when #{\Index{\kk^{H}}{\FF}=1}.}}

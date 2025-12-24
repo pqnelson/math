@@ -2,6 +2,7 @@
 \author{david-s-dummit}
 \author{richard-m-foote}
 \taxon{reference}
+\date{2004}
 
 \p{References to theorems will be made by \code{⟨chapter⟩.⟨section⟩.⟨theorem number⟩}, but references to definitions will be made by \code{⟨chapter⟩.⟨section⟩}.}
 

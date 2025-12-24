@@ -1,0 +1,20 @@
+\title{Size of finite subgroup of field automorphisms is not greater than index of subfield fixed by the subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\meta{source}{Lang's [[lang-2002-algebra]] Theorem 4.1}
+
+\p{Let #{\kk} be a field, let #{H\subgroup\Aut(\kk)} be a finite subgroup of field automorphisms. If #{\FF=\kk^{H}} is the [subfield fixed by #{H}](nt-002W), then
+##{|H|\leq\Index{\kk}{\FF}.}}
+
+\proof{\p{Let #{n=|H|} and #{m=\Index{\kk}{\FF}}. Either #{n\leq m} (as desired) or #{n>m} (which we want to prove leads to contradiction).}
+\p{\textbf{Case 1:} #{n\leq m}. This is the desired case, and we have the result.}
+\p{\textbf{Case 2:} #{n>m} (i.e., there are more automorphisms than there are #{\FF}-linarly independent elements of #{\kk}). Given #{\alpha\in\kk^{m}} with components #{\alpha=(\alpha_{1},\dots,\alpha_{m})}, let #{\sigma\in H} be arbitrary. We write for the componentwise application of #{\sigma} to #{\alpha} as:
+##{\sigma\alpha=(\sigma\alpha_{1},\dots,\sigma\alpha_{m}).}
+Then for the #{n} distinct elements of #{H=\{\sigma_{1},\dots,\sigma_{n}\},} we see #{\sigma_{1}\alpha}, \dots, #{\sigma_{n}\alpha} gives the basis for #{\kk^{n}}: there exists #{c_{i}\in\kk} such that
+##{c_{1}\sigma_{1}\alpha+\dots+c_{n}\sigma_{n}\alpha=0.}
+We write #{\sigma=c_{1}\sigma_{1}+\dots+c_{n}\sigma_{n}}. But take #{\alpha_{1}}, \dots, #{\alpha_{m}} as a #{\FF}-basis of #{\kk}, then
+##{\sigma\alpha_{1}=\dots=\sigma\alpha_{m}=0}
+which implies #{\sigma=0}, which contradicts the [linear independence of characters](nt-002T).}}

@@ -1,0 +1,15 @@
+\title{Existence and uniqueness of minimal polynomial for primitive algebraic elements}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{proposition}
+
+\p{Let #{\kk / \FF} be a [[nt-000F]], let #{\alpha\in\kk} be [algebraic](nt-000T) over #{\FF}. Then there exists a unique monic irreducible polynomial #{m_{\alpha}(x)\in\FF[x]} having #{\alpha} as a root.}
+
+\proof{\p{\textbf{Existence:} Consider the map
+##{\begin{split}\psi\colon&\FF[x]\to\kk\\
+&q(x)\mapsto q(\alpha)\end{split}}
+Let #{M=\ker(\psi)}. Then #{\FF(\alpha)=\im(\psi)\iso\FF[x]/M}, which implies #{M} is a maximal ideal. Since #{\FF[x]} is a principal ideal domain, there exists a #{p(x)} such that #{M=(p(x))}. There is only one way to turn #{p(x)} into a monic polynomial,
+##{m_{\alpha}(x)=c\cdot p(x),}
+for some #{c\in\UnitGroup{\FF}}. The polynomial #{m_{\alpha}(x)} is irreducible since the ideal it generates is maximal.}
+\p{\textbf{Uniqueness:} Let #{p(x)\in\FF[x]} be any polynomial with #{\alpha} as a root #{p(\alpha)=0}. Then #{p(x)\in M}, so #{p(x)=m_{\alpha}(x)q(x)} for some #{q(x)}. If #{p(x)} is irreducible, #{q(x)} must be a constant polynomial equal to a unit. If #{p(x)} is also monic, then #{q(x)=1} and therefore #{p(x)=m_{\alpha}(x)}. Hence #{m_{\alpha}(x)} is unique.}}

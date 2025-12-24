@@ -1,0 +1,9 @@
+\title{Subfields fixed by distinct subgroups of automorphisms are distinct}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{For distinct finite subgroups #{H_{1}\subgroup\Aut(\kk)} and #{H_{2}\subgroup\Aut(\kk)}, the fixed subfields #{\kK^{H_{1}}} and #{\kk^{H_{2}}} are distinct.}
+
+\proof{\p{This follows from #{H\mapsto\kk^{H}\mapsto\Aut(\kk / \kk^{H})} being the identity map (from [[nt-0030]]).}}

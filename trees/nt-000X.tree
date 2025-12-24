@@ -1,0 +1,9 @@
+\title{Minimal Polynomial for Algebraic Element}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{definition}
+
+\p{Let #{\alpha\in\kk} be [algebraic](nt-000T) over #{\FF}, the [unique monic polynomial](nt-000V) #{m_{\alpha}\in\FF[x]}, which has #{\alpha} as a root, is called the \define{Minimal Polynomial} of #{\alpha} over #{\FF}. The \define{degree} of #{\alpha} over #{\FF} is the degree of its minimal polynomial.}
+
+\p{(We've already [proved this is well-defined](nt-000V).)}

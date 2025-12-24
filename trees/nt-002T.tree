@@ -1,0 +1,23 @@
+\title{Linear Independence of Characters}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{theorem}
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Theorem 14.2.7}
+
+\p{If #{\chi_{1}}, \dots, #{\chi_{n}} are distinct [characters](nt-002S) of #{G} with values in #{\FF}, then they are linearly independent over #{\FF}.}
+
+\proof{\p{([[nst-002J]]) Assume #{\chi_{1}}, \dots, #{\chi_{n}} are linearly dependent. By removing some #{\chi_{i}}, we can assume any proper subset of #{\{\chi_{1},\dots,\chi_{n}\}} is independent.}
+\p{Let #{a_{j}\in\FF} be such that not all are zero and
+##{(*)\qquad a_{1}\chi_{1}+\dots+a_{n}\chi_{n}=0.}
+In fact, at least two #{a_{i}\neq0} and #{a_{j}\neq0} for #{i\neq j} since characters are never zero. Without loss of generality, suppose #{a_{i}=a_{1}} and #{a_{j}=a_{2}}.}
+\p{Since #{\chi_{i}\neq\chi_{j}}, then there exists an #{h\in G} such that #{\chi_{i}(h)\neq\chi_{j}(h)}. For any #{g\in G}, if we evaluate Equation (*) at #{hg\in G}, we see
+##{\begin{split}0&=a_{1}\chi_{1}(hg)+\dots+a_{n}\chi_{n}(hg)\\
+&=a_{1}\chi_{1}(h)\chi_{1}(g)+\dots+a_{n}\chi_{n}(h)\chi_{n}(g)\end{split}}
+Since this had #{g} be arbitrary, this implies % **
+##{(**)\qquad(a_{1}\chi_{1}(h))\chi_{1}+\dots+(a_{n}\chi_{n}(h))\chi_{n}=0}
+On the other hand, multiplying Equation (*) by #{\chi_{1}(h)} gives us
+##{(a_{1}\chi_{1}(h))\chi_{1}+(a_{2}\chi_{1}(h))\chi_{2}+\dots+(a_{n}\chi_{1}(h))\chi_{n}=0,}
+and then subtracting Equation (**) from this gives us
+##{b_{2}\chi_{2}+\dots+b_{n}\chi_{n}=0,}
+where #{b_{i}=a_{i}(\chi_{i}(h)-\chi_{1}(h))}. We have #{b_{2}\neq0} since we supposed #{\chi_{1}(h)\neq\chi_{2}(h)} which proves #{\{\chi_{2},\dots,\chi_{n}\}} are linearly dependent, which contradicts our assumption that any proper subset is linearly independent.}}

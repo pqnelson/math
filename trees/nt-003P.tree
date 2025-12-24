@@ -1,0 +1,10 @@
+\title{Galois group of Cyclotomic field is multiplicative groups of integers modulo #{n}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{Let #{n\in\NN}. Then #{\QQ(\zeta_{n})/\QQ} is Galois and the map
+##{\begin{split}\UnitGroup{(\ZZ / n\ZZ)}\to\Gal(\QQ(\zeta_{n}) / \QQ)\\
+a\mapsto\sigma_{a}\end{split}}
+is a group isomorphism, where #{\sigma_{a}(\zeta_{n})=\zeta_{n}^{a}} and #{\sigma_{a}(q)=q} for all #{q\in\QQ}.}

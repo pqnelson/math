@@ -1,0 +1,13 @@
+\title{Criteria for constructible lengths}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{theorem}
+
+\p{Let #{S} be a set of points on the plane containing the origin and two points #{P}, #{Q} such that their length #{|PQ|=1}. Let #{\FF} be the field generated over #{\QQ} by the coordinates of the points of #{S}. A length #{\ell} is [constructible](nt-001F) from #{S} if and only if there exists a finite sequence
+##{\FF=F_{0}\propersubset F_{1}\propersubset\dots\propersubset F_{n},}
+where each #{F_{i}} is a quadratic extension of #{F_{i-1}}, and #{\ell\in F_{n}}.}
+
+\proof{\p{\forwardproof Since a constructible length is obtained by finitely many constructible points, and [each directly constructible point gives us a quadratic field extension](nt-001K), the forward proof is obvious.}
+\p{\backwardproof Suffices to show #{\sqrt{\ell}} is constructible, but this is the well-known construction using the "geometric mean theorem". Given a length #{\ell}, we draw a line #{PQ} passing through #{P} and {Q} and find the intersection #{P'} of the circle centered at #{P} of length #{\ell} with the line #{PQ} such that #{|P'Q|=\ell+1}.}
+\p{Now, we find the midpoint between #{P'} and #{Q} and call this #{M} (for "midpoint"). We draw a circle #{C(M,Q)} centered at #{M} passing through #{Q} (and #{P'}). We draw a perpendicular line with #{PQ} passing through #{P} which intersects #{C(M,Q)} at #{Q'}. Then the length of #{|PQ'|=\sqrt{\ell}} by the well-known geometric mean theorem. Hence the result.}}

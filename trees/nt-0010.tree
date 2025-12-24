@@ -1,0 +1,9 @@
+\title{Finite field extensions are algebraic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{corollary}
+
+\p{A [finite extension](nt-000J) #{\kk / \FF} is [algebraic](nt-000T).}
+
+\proof{\p{Assume #{\kk / \FF} is finite. Let #{\alpha\in\kk}. Since #{\FF(\alpha)\subset\kk}, #{\dim_{\FF}(\FF(\alpha))\leq\dim_{\FF}\kk<\infty} and so #{\FF(\alpha)/\FF} is finite. [It then follows](nt-000Y) that #{\alpha} is [algebraic](nt-000T). Since this is true for all #{\alpha\in\kk}, #{\kk / \FF} is an algebraic extension.}}

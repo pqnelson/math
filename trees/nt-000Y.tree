@@ -1,0 +1,13 @@
+\title{An element is algebraic iff it is the primitive element of a finite extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{proposition}
+
+\p{Let #{\alpha\in\kk}, let #{\kk} be a field over #{\FF}. Then #{\alpha} is [algebraic](nt-000T) over #{\FF} if and only if #{\FF(\alpha) / \FF} is a [finite extension](nt-000J).}
+
+\proof{\p{\forwardproof Obvious, since #{\alpha} being algebraic over #{\FF} implies #{\Index{\FF(\alpha)}{\FF}} is finite.}
+\p{\backwardproof Suppose #{\Index{\FF(\alpha)}{\FF}} is finite. Define
+##{\begin{split}T\colon&\FF(\alpha)\to\FF(\alpha)\\
+&x\mapsto\alpha x\end{split}}
+Then #{T} is a linear operator on a finite-diumensional vector space. So it has a [minimal polynomial as a linear operator](iaa-0009). Let #{m(x)} be this minimal polynomial for #{T}. We find #{m(T)} sends #{x\mapsto m(\alpha)x}, but we also know #{m(\alpha)=0} by the [[ra-0052]].}}

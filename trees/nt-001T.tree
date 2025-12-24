@@ -1,0 +1,9 @@
+\title{Every polynomial has a splitting field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{Let #{f(x)\in\FF[x]} be a polynomial over #{\FF}. Then there exists a [splitting field](nt-001S) #{\kk / \FF} for #{f(x)}.}
+
+\proof{\p{We see [there exists a finite extension](nt-001P) #{\LL / \FF} in which #{f(x)} factors completely. Let #{\alpha_{1}}, \dots, #{\alpha_{n}\in\LL} be the roots of #{f(x)}. If #{\kk\subset\LL} is a subfield of #{\LL} containing #{\FF}, then #{f(x)} splits over #{\kk} if and only if #{\kk} contains all the roots #{\alpha_{i}\in\kk} for #{i=1,\dots,n}. The field #{\FF(\alpha_{1},\dots,\alpha_{n})} is the minimal such field with respect to this property, hence it is a [splitting field](nt-001S) of #{f(x)}.}}

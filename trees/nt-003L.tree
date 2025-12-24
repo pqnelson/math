@@ -1,0 +1,10 @@
+\title{}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{If #{\kk_{1}} and #{\kk_{2}} are Galois over #{\FF}, and #{\kk_{1}\cap\kk_{2}=\FF}, then
+##{\begin{split}\Gal(\kk_{1}\kk_{2} / \FF)&\to\Gal(\kk_{1} / \FF)\times\Gal(\kk_{2} / \FF)\\
+\sigma&\mapsto(\sigma|_{\kk_{1}},\sigma|_{\kk_{2}})\end{split}}
+is an isomorphism.}

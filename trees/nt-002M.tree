@@ -1,0 +1,18 @@
+\title{Number of extensions to field isomorphisms is at most degree of extensions}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{proposition}
+
+\p{Let #{\sigma\colon\FF\to\FF'} be a field isomorphism, let #{\kk / \FF} be the [splitting field](nt-001S) for some #{f(x)\in\FF[x]}, and let #{\kk'/\FF'} be the splitting field for #{g(x)} (the polynomial obtained by applying #{\sigma} to #{f(x)}).}
+\p{Then the number of extensions of #{\sigma} to an isomorphism #{\kk\to\kk'} is at most #{\Index{\kk}{\FF}}. If #{f(x)} is [separable](nt-0025), then it is exactly #{\Index{\kk}{\FF}}.}
+
+\proof{\p{[[nst-002K]] on #{n=\Index{\kk}{\FF}}.}
+\p{\textbf{Base Case:} #{n=1}. Then #{\kk=\FF}, #{\kk'=\FF'}, and the unique extension of #{\sigma} to #{\kk\to\kk'} is just #{\sigma} itself.}
+\p{\textbf{Inductive hypothesis:} Assume the hypothesis holds for all field extensions of degree #{\Index{\kk}{\FF}<n}.}
+\p{\textbf{Inductive case:} Let #{f_{0}(x)} be an irreducible factor of #{f(x)} over #{\FF}, let #{\alpha\in\kk} be a root of #{f_{0}(x)}. Then #{\FF(\alpha)} is a subextension of #{\kk / \FF}. If #{\widetilde{\sigma}\colon\kk\to\kk'} extends #{\sigma\colon\FF\to\FF'}, then it maps #{\alpha} to a root #{\beta} of some irreducible factor #{g_{0}(x)} of #{g(x)}, and induces #{\sigma_{0}\colon\FF(\alpha)\to\FF(\beta)}. We know #{\Index{\FF(\alpha)}{\FF}} is equal to the degree of #{g(x)}.}
+\p{On the other hand, there are as many maps #{\FF(\alpha)\to\kk} as there distinct roots of #{g(x)}. Therefore there are at most #{\Index{\FF(\alpha)}{\FF}=\deg(g)} choices for #{\sigma_{0}(\alpha)}, with equality iff #{f_{0}(x)} is separable.}
+\p{By the inductive hypothesis, each such #{\sigma_{0}} has at most #{\Index{\kk}{\FF(\alpha)}} extensions to #{\widetilde{\sigma}\colon\kk\to\kk'}. Since #{\kk} is also the splitting field of #{f(x)} over #{\FF(\alpha)}, there are exactly #{\Index{\kk}{\FF(\alpha)}} extensions if #{f(x)} is separable.}
+\p{Then altogether there are at most
+##{\Index{\kk}{\FF(\alpha)}\Index{\FF(\alpha)}{\FF}=\Index{\kk}{\FF}}
+extensions for #{\widetilde{\sigma}}, and exactly as that many if #{f(x)} is separable.}}

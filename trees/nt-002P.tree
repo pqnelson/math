@@ -1,0 +1,14 @@
+\title{Galois extension and Galois group}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Section 14.1}
+
+\p{A [finite extension](nt-000J) #{\kk / \FF} is said to be \define{Galois} if
+##{|\Aut(\kk / \FF)| = \Index{\kk}{\FF}.}
+In that case, we write #{\Gal(\kk / \FF)} for #{\Aut(\kk / \FF)}, and it is called the \define{Galois Group of #{\kk / \FF}}.}
+\p{If #{f(x)\in\FF[x]} is [separable](nt-0025) and #{\kk} is the [splitting field](nt-001S) of #{f(x)}, then #{\Gal(\kk / \FF)} is called the \define{Galois Group of #{f(x)}}.}
+
+\rmk{We follow Dummit and Foote in defining the Galois group of an extension so that #{\Gal(\kk / \FF)} has the maximal number of automorphisms. Some authors are more generous and just treat the Galois group as a synonym for the Automorphism group for field extensions, \emph{any} arbitrary field extension.}

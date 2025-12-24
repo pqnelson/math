@@ -1,0 +1,28 @@
+\title{Fundamental theorem of Galois Theory}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+
+\p{This actually consists of three propositions, and it's easier to prove each proposition separately. But we will recapitulate all these results in "one giant theorem".}
+
+\p{We [recall](nt-002L) the Galois correspondence. Let #{\kk / \FF} be a finite extension,
+##{\begin{split}\left\{\begin{matrix}\mbox{subgroups}\\ H\subgroup\Aut(\kk / \FF)\end{matrix}\right\}&\to\left\{\begin{matrix}\mbox{subfields}\\
+\FF\subset\LL\subset\kk\end{matrix}\right\}\\
+H&\mapsto\kk^{H}\end{split}}
+and
+##{\begin{split}\left\{\begin{matrix}\mbox{subfields}\\
+\FF\subset\LL\subset\kk\end{matrix}\right\}&\to\left\{\begin{matrix}\mbox{subgroups}\\ H\subgroup\Aut(\kk / \FF)\end{matrix}\right\}\\
+\LL&\mapsto\Aut(\kk / \LL).\end{split}}
+[We saw earlier](nt-0030) that the composition of these
+##{H\mapsto\kk^{H}\mapsto\Aut(\kk / \kk^{H})}
+are the identity function. But composing these correspondences in the opposite order
+##{\LL\mapsto\Aut(\kk / \LL)\mapsto\kk^{\Aut(\kk / \LL)}}
+does not always give us the identity function. But it is true that #{\LL\subset\kk^{\Aut(\kk / \LL)}} (although #{\kk^{\Aut(\kk / \LL)}} may be strictly larger than #{\LL} which happens for #{\kk=\QQ(\sqrt[3]{2})} and #{\FF=\QQ} where #{\Aut(\kk / \FF)=1} is trivial so #{\kk^{\Aut(\kk / \FF)}=\kk} properly contains #{\FF}).}
+
+\transclude{nt-0038}
+
+\rmk{Thus #{\kk / \FF} is Galois exactly when the lattice diagram of subextensions #{\LL / \FF \subset\kk / \LL} coincides with the lattice diagram of subgroups of #{\Gal(\kk / \FF)}. We make this notion more precise in the following proposition.}
+
+\transclude{nt-0039}
+\transclude{nt-003A} % where do the missing automorphisms go?
+\transclude{nt-003B} % fundamental theorem of galois theory

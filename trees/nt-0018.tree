@@ -1,0 +1,18 @@
+\title{Algebraic elements over an algebraic extension are algebraic over the base field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{lemma}
+
+\p{Let #{\FF\subset\kk\subset\LL} be fields. Suppose #{\kk / \FF} is an [algebraic extension](nt-000T). If #{\alpha\in\LL} is algebraic over #{\kk}, then #{\alpha} is algebraic over #{\FF}.}
+
+\proof{\p{Let
+##{m_{\alpha}(x)=x^{n}+c_{n-1}x^{n-1}+\dots+c_{1}x+c_{0}}
+be the [minimal polynomial](nt-000X) of #{\alpha} over #{\kk}. Since #{\kk / \FF} is algebraic, the coefficients #{c_{i}} are algebraic over #{\FF}, and so
+##{\FF'=\FF(c_{0},\dots,c_{n-1})}
+is a finite extension of #{\kk} (since [finitely-generated extensions with algebraic primitives is an algebraic extension](nt-0014)).}
+\p{Since #{m_{\alpha}(x)} is irreducible over #{\kk} and #{\FF'\subset\kk}, it's also irreducible over #{\FF'}. Then
+##{\FF'(\alpha)\iso\FF'[x]/(m_{\alpha}(x))}
+and #{\Index{\FF'(\alpha)}{\FF'}=n}. Since [degree of fields is multiplicative](nt-0011), we see
+##{\Index{\FF'(\alpha)}{\FF}=\Index{\FF'(\alpha)}{\FF'}\Index{\FF'}{\FF}<\infty,}
+so #{\FF'(\alpha)/\FF} is a finite extension, [hence it's an algebraic extension](nt-0010). In particular, #{\alpha} is algebraic over #{\FF}.}}

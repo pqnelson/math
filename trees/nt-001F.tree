@@ -1,0 +1,7 @@
+\title{Constructible length}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{definition}
+
+\p{Let #{S} be a set of points. A length #{\ell} is \define{Constructible} from #{S} if there are two [[nt-001E]] #{P\in S} and #{Q\in S} such that #{\ell} is the distance between #{P} and #{Q}.}

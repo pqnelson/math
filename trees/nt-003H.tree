@@ -1,0 +1,15 @@
+\title{Number of irreducible polynomials over finite fields of characteristic #{p>0}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\p{The number of distinct irreducible polynomials of degree #{n} over #{\FF_{p}} is given by
+##{\frac{1}{n}\sum_{d\divides n}\mu(d)p^{n / d},}
+where #{\mu(n)} is the [[nt-003F]].}
+
+\proof{\p{Let #{f(n)} be the number of distinct irreducible polynomials of degree #{n} over #{\FF_{p}}. Since the distinct irreducibles of degree #{d} (where #{d\divides n}) are all the factors of #{x^{p^{n}}-x}, counting degrees we get
+##{p^{n}=\sum_{d\divides n}d\cdot f(d).}
+Then applying the [Möbius inversion formula](nt-003G) to #{g(n)=p^{n}} gives us
+##{nf(n)=\sum_{d\divides n}\mu(d)p^{n / d},}
+as desired}}

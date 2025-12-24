@@ -1,0 +1,9 @@
+\title{Roots of Unity}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{definition}
+
+\p{Let #{n\in\NN}. We will adopt the notation
+##{\zeta_{n}=\exp(\I 2\pi / n)}
+for the #{n^{\text{th}}} root of unity.}

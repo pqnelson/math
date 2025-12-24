@@ -1,0 +1,9 @@
+\title{Constructible points live in field extensions of degree #{2^{k}}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{corollary}
+
+\p{Let #{S} be a set of points in the plane containing the origin and points #{P,Q\in S} whose line segment connecting them has unit length #{|PQ|=1}. Let #{\FF} be the field generated over #{\QQ} by the coordinates of the points in #{S}. If #{\ell\in\RR} is [constructible](nt-001F), then it is algebraic over #{\FF} of degree #{2^{k}} for some #{k\in\NN_{0}}.}
+
+\proof{\p{We have [by the criteria of constructible lengths](nt-001L) #{\Index{F_{n}}{F_{0}}=2^{n}}. If #{\kk=\FF(\ell)}, then #{\ell} has degree #{\Index{\kk}{\QQ}} which divides #{\Index{F_{n}}{\FF}=2^{n}} and so must be #{2^{k}} for some #{k\in\NN_{0}}.}}

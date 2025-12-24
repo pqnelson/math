@@ -1,0 +1,26 @@
+\title{Subfield fixed under finite subgroup of automorphisms is a Galois extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{corollary}
+
+\p{Let #{\kk} be a field and #{H\subgroup\Aut(\kk)} is a finite subgroup. Then
+##{\Aut(\kk / \kk^{H})=H,}
+and in particular #{\kk / \kk^{H}} is [Galois](nt-002P).}
+
+\proof{\p{Let #{\FF=\kk^{H}}. We see if #{H\subgroup\Aut(\kk / \FF)}, then
+##{|H|\leq|\Aut(\kk / \FF)|\leq\Index{\kk}{\FF}}
+(where the last inequality follows by [[nt-002Z]]). [We also see](nt-002W) that
+##{\Index{\kk}{\FF}\leq|H|.}
+Hence #{|H|=|\Aut(\kk / \FF)|=\Index{\kk}{\FF}}. Moreover,
+##{H=\Aut(\kk / \FF).}
+Since #{|\Aut(\kk / \FF)|=\Index{\kk}{\FF}}, it follows that #{\kk / \FF} is Galois.}}
+
+\rmk{\p{Recall the [Galois correspondence](nt-002L) looks like
+##{\begin{split}\left\{\begin{matrix}\mbox{subgroups}\\\mbox{of }\Aut(\kk)\end{matrix}\right\}&\to\left\{\begin{matrix}\mbox{subfields}\\\mbox{of }\kk\end{matrix}\right\}\\
+H&\mapsto\kk^{H}\end{split}}
+and
+##{\begin{split}\left\{\begin{matrix}\mbox{subfields}\\\mbox{of }\kk\end{matrix}\right\}&\to\left\{\begin{matrix}\mbox{subgroups}\\\mbox{of }\Aut(\kk)\end{matrix}\right\}\\
+\FF & \mapsto\Aut(\kk / \FF)\end{split}}
+This corollary says composing these maps #{H\mapsto\kk^{H}\mapsto\Aut(\kk / \kk^{H})} is the identity map.}
+\p{The failure in bijectivity lies in the composition #{\FF\mapsto\Aut(\kk / \FF)\mapsto\kk^{\Aut(\kk / \FF)}}. But being [Galois](nt-002P) means this composition is the identity map.}}

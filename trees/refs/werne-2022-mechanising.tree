@@ -1,0 +1,13 @@
+\title{Mechanising Newtonian Mechanics in Isabelle}
+\taxon{reference}
+\date{2022}
+\author{lars-werne}
+\meta{external}{https://project-archive.inf.ed.ac.uk/ug4/20223088/ug4_proj.pdf}
+
+\meta{bibtex}{\startverb
+@phdthesis{werne2022mechanising,
+  title={Mechanising Newtonian Mechanics in Isabelle},
+  author={Werne, Lars},
+  date={2022},
+  school={University of Edinburgh}
+}\stopverb}

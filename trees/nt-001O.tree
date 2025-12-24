@@ -1,0 +1,14 @@
+\title{Can we do Physics with constructible numbers?}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{puzzle}
+
+\p{Isaac Newton's \textit{Principia Mathematica} used (ostensibly) Euclidean geometry alone to do physics.}
+\p{Does this actually work? Can we do physics (at least, classical mechanics with gravity and other simple forces) with constructible numbers alone? Or did Newton "cheat" somewhere?}
+
+\p{Newton also did a lot of fluid mechanics in book II of his \textit{Principia}, can we describe fluid mechanics using constructible numbers alone?}
+
+\p{Can we do calculus with constructible numbers alone? Perhaps this might be easier to answer.}
+
+\p{The interested reader may consult [[jacques-fleuriot]] [[fleuriot-2001-combination]] and [[lars-werne]]'s [[werne-2022-mechanising]] for formalizations of Newton's \textit{Principia} in the Isabelle proof assistant.}

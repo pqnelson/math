@@ -1,0 +1,22 @@
+\title{Points with coordinates in a field have intersecting lines at points with coordinates in a field}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{Let #{S} be a set of points whose coordinates lie in a field #{\FF\subset\RR}. If #{P} is directly constructed from #{S} by intersecting two lines, then #{P} will also have coordinates in #{\FF}.}
+
+\proof{\p{Suppose we have two points #{(x_{0},y_{0})} and #{(x_{1},y_{1})} which are given. The line passing through these points have the form
+##{Ax+By+C=0,}
+where
+##{A=y-y_{0},\quad B=x-x_{0},\quad C=x_{0}y_{1}-x_{1}y_{0}.}
+We see the coefficients are \emph{polynomials} in the coordinates of the given points.}
+\p{The intersection of two lines
+##{Ax+By+C=0,}
+and
+##{A'x+B'y+C'=0,}
+is nonempty if and only if
+##{AB'-A'B\neq0,}
+in which case the intersection point has coordinates,
+##{x_{i}=\frac{BC-B'C'}{AB'-A'B},\quad y_{i}=\frac{A'C'-AC}{AB'-A'B}.}
+The coordinates of the intersection point are \emph{rational functions} in the coefficients for equations of the given lines.}}

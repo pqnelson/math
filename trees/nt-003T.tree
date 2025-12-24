@@ -1,0 +1,7 @@
+\title{Kronecker-Weber Theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{theorem}
+
+\p{Any finite [Abelian extension](nt-003S) of #{\QQ} is contained in some cyclotomic field.}

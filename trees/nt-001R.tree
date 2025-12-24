@@ -1,0 +1,15 @@
+\title{Splitting field for #{x^{3}-2} over the #{\FF_{7}}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{example}
+
+\p{Consider [the same polynomial as before but over a different field](nt-001Q): #{f(x)=x^{3}-2} over #{\FF_{7}}. We see for any #{c\in\FF_{7}} that
+##{c^{3}\equiv\pm1\pmod{7},}
+so #{f(x)} has no root in #{\FF_{7}}. Hence #{f(x)} is irreducible.}
+
+\p{Let #{\kk=\FF_{7}[x]/(f(x))} which we write as #{\FF_{7}(\alpha)} for #{\alpha^{3}=2}. We see #{\{2,4,1\}\subset\UnitGroup{\FF_{7}}} are third roots of unity, so #{f(2\alpha)=f(4\alpha)=1}. Then
+##{x^{3}-2=(x-\alpha)(x-2\alpha)(x-4\alpha)\in\kk[x],}
+so that #{x^{3}-2} factors completely over an extension of #{\FF_{7}} of degree 3.}
+
+\rmk{This is an example where #{f(x)} splits completely over an extension of degree strictly smaller than #{\deg(f)!}.}

@@ -1,0 +1,9 @@
+\title{Primitive Element Theorem}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{theorem}
+
+\p{Any finite separable extension #{\kk / \FF} is simple. In particular, any finite extensions of a [[nt-002A]] is simple.}
+
+\rmk{Steinitz presented this in its modern form first in his paper [[steinitz-1910-algebraische]] (1910).}

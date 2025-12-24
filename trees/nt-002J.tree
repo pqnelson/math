@@ -1,0 +1,11 @@
+\title{Automorphism of field extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-22}
+\taxon{definition}
+
+\p{Let #{\kk / \FF} be a field extension. An \define{Automorphism} of #{\kk / \FF} is a [[nt-002I]] #{\sigma\colon\kk\to\kk} such that when restricted to #{\FF} it is the identity function #{\sigma|_{\FF}=\id_{\FF}}.}
+
+\p{We denote by #{\Aut(\kk / \FF)} the group consisting of the collection of automorphisms of #{\kk / \FF} equipped with composition of functions.}
+
+\p{\textbf{Notation:} People also write #{\Aut_{\FF}(\kk)} instead of #{\Aut(\kk / \FF)} since it's a bit cleaner.}

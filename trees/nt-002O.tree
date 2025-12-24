@@ -1,0 +1,26 @@
+\title{Calculating automorphism group of #{\FF_{p^{n}}}}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{example}
+
+\p{Let #{\kk=\FF_{p^{n}}} and #{\FF=\FF_{p}} and suppose #{p\nmid n}. What is #{\Aut(\kk / \FF)}?}
+
+\solution{
+\p{We know the [[nt-0022]] #{\phi(x)=x^{p}} gives us
+##{\phi_{r}(x)=x^{p^{r}}=\underbrace{\phi\circ\cdots\circ\phi}_{r\text{ times}}.}
+Hence
+##{\langle\phi\rangle=\Aut(\kk / \FF),}
+which is a finite cycle group of order #{n}.}
+\proof{\p{We know #{\UnitGroup{\kk}=\langle a\rangle} where #{a\in\kk} is of order #{p^{n}-1}. We can then write,
+##{\FF_{p^{n}}=\FF_{p}(a);}
+and if #{\sigma\in\Aut(\kk / \FF)}, then it is determined by #{\sigma(a)}.}
+\p{Observe the minimal polynomial of #{a} has degree #{\deg(m_{a})=n}.}
+\p{We claim #{\phi_{r}(a)} (for #{r=0,\dots,n-1}) are the #{n} distinct roots of this polynomial. Otherwise, if there is a #{r<s} such that
+##{\phi_{r}(a)=\phi_{s}(a),}
+then we would have
+##{a^{p^{r}}=a^{p^{s}},}
+which means
+##{a^{p^{n-s+r}}=a^{p^{n}}=a,}
+which contradicts #{a^{k}\neq1} for #{k<p^{n}-1}.}}
+}

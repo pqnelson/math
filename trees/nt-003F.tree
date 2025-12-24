@@ -1,0 +1,10 @@
+\title{Möbius function}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{We define the \define{Möbius function} #{\mu\colon\NN\to\ZZ} by
+##{\mu(n) = \begin{cases}1 & \mbox{if }n=1\\
+0 & \mbox{if }n\mbox{ has a square factor}\\
+(-1)^{r} & \mbox{if }n\mbox{ has }r\mbox{ distinct factors}\end{cases}}}

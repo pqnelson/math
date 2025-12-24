@@ -1,0 +1,17 @@
+\title{It is impossible to square the circle, double the cube, or trisect an angle}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{corollary}
+
+\p{It is impossible using only [the allowed constructions with straightedge and compass](nt-001D) to square the circle, double the cube, or trisect an angle.}
+
+\proof{\p{\textbf{Claim 1:} It is impossible to square the circle. We could do this if #{\sqrt{\pi}} were a constructible length. But [that would mean](nt-001M) #{\sqrt{\pi}} is algebraic over #{\QQ}, which it isn't. So #{\sqrt{\pi}} is not a constructible length, which means we cannot square the unit circle.}
+\p{\textbf{Claim 2:} It is impossible to double the cube. Suppose we had a unit cube. Then we will want to construct a cube whose edges are length #{\ell} such that #{\ell^{3}=2}. This requires #{\ell=\sqrt[3]{2}} which has degree 3 over #{\QQ} which [is impossible to construct](nt-001M).}
+\p{\textbf{Claim 3:} It is impossible to trisect an angle. To construct an angle #{\theta} is equivalent to give a point with coordinates #{(\cos(\theta),\sin(\theta))}. We know the triple angle formula
+##{\cos(3\theta)=4\cos^{3}(\theta)-3\cos(\theta).}
+Let #{\theta=20^{\circ}}. Then #{\ell=2\cos(\theta)} satisfies
+##{\frac{1}{2}=4(\ell / 2)^{3}-3\ell / 2\iff \ell^{3}-3\ell-1=0.}
+This line making angle #{3\theta=60^{\circ}} with the #{x}-axis passes through the point #{(1,\sqrt{3})}. In particular, #{60^{\circ}} is a constructible angle. But the polynomial
+##{x^{3}-3x-1}
+is irreducible over #{\QQ}, so #{\ell} has degree 3 over #{\QQ} [and cannot be constructible](nt-001M).}}

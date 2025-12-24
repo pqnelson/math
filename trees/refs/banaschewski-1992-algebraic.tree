@@ -1,0 +1,14 @@
+\title{Algebraic Closure without Choice}
+\author{bernhard-banaschewski}
+\date{1992}
+\taxon{reference}
+\meta{doi}{10.1002/malq.19920380136}
+\meta{bibtex}{\startverb
+@article{banaschewski1992algebraic,
+  title={Algebraic Closure without Choice},
+  author={Banaschewski, Bernhard},
+  journal={Mathematical Logic Quarterly},
+  volume={38},
+  number={1},
+  year={1992}
+}\stopverb}

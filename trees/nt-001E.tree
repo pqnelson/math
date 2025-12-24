@@ -1,0 +1,11 @@
+\title{Constructible points}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{definition}
+
+\p{Let #{S} be a set of points. A point #{P} is called \define{Directly Constructible} from #{S} if it's the marked point obtained by any of the [[nt-001D]].}
+
+\p{A point #{P} is called \define{Constructible} from #{S} if there exists a sequence of sets
+##{S=S_{0}\propersubset S_{1}\propersubset S_{2}\propersubset\dots\propersubset S_{n}}
+where each #{S_{i}=S_{i-1}\cup\{P_{i}\}} for a point #{P_{i}} directly constructible from #{S_{i-1}}, and #{P=P_{n}}.}

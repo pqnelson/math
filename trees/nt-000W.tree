@@ -1,0 +1,9 @@
+\title{Degree of simple field extension is degree of minimal polynomial}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{corollary}
+
+\p{Let #{\kk / \FF} be a [[nt-000F]], let #{\alpha\in\kk} be [algebraic](nt-000T) over #{\FF}. Then #{\Index{\FF(\alpha)}{\FF}=\deg(m_{\alpha}(x))}.}
+
+\proof{\p{[We know](nt-000P) #{e_{\alpha}\FF[x]/(m_{\alpha}(x))\to\FF[\alpha]} is an isomorphism. [We also know](nt-000K) the image of #{\{1,x,\dots,x^{d-1}\}} under #{e_{\alpha}} forms a #{\FF}-basis of #{\FF[\alpha]}, where #{d=\deg(m_{\alpha}(x))}.}}

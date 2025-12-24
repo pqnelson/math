@@ -1,0 +1,12 @@
+\title{Galois correspondence is bijective iff field extension is Galois}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+
+\p{The Galois correspondence is a bijection if and only if #{\kk / \FF} is [Galois](nt-002P). In particular, if #{\kk / \FF} is Galois, so is #{\kk / \LL} for all subfields #{\LL\subset\kk} containing #{\FF\subset\LL}.}
+
+\proof{\p{\forwardproof Let #{\LL / \FF\subset\kk / \FF}. [Then we see](nt-0036) #{\kk^{\Aut(\kk / \LL)}=\LL} if and only if #{\kk / \LL} is Galois. Then the Galois correspondence is a bijection if and only if #{\kk / \LL} for every #{\LL\subset\kk} containing #{\FF\subset\LL}. In particular, it's necessary for #{\kk / \FF} to be Galois.}
+\p{\backwardproof Assume #{\kk / \FF} is Galois. [Then we see](nt-0036) #{\kk} is the [splitting field](nt-001S) of a [separable](nt-0025) #{f(x)\in\FF[x]}. Then #{\kk} is the splitting field of #{f(x)\in\LL[x]}, so #{\kk / \LL} is Galois. Hence every #{\kk / \LL} is Galois.}}
+

@@ -1,0 +1,7 @@
+\title{Abelian extension}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{definition}
+
+\p{An \define{Abelian Extension} #{\kk} of #{\FF} is a Galois extension whose Galois group #{\Gal(\kk / \FF)} is Abelian.}

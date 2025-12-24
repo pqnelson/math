@@ -1,0 +1,7 @@
+\title{Algebraic Closure of Rational Numbers}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-20}
+\taxon{example}
+
+\p{Let #{\closure{\QQ}\subset\CC} be the subset of all numbers that are algebraic over the complex numbers. Since [algebraic elements over a field forms a field](nt-0015), #{\closure{\QQ}} forms a field containing \emph{all} the roots of all the polynomials with coefficients in #{\QQ}. In particular, all finite extensions of #{\QQ} are subfields of #{\closure{\QQ}}, and #{\closure{\QQ}} is of infinite degree over #{\QQ}. Algebraic number theory is (to a large extent) the study of the extension #{\closure{\QQ} / \QQ}.}

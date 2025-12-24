@@ -1,0 +1,9 @@
+\title{Splitting field is unique up to isomorphism}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{corollary}
+
+\p{Let #{\kk / \FF} and #{\kk'/\FF} be two [splitting fields](nt-001S) for #{f(x)\in\FF[x]}. Then there exists an #{\FF}-linear isomorphism #{\kk\to\kk'}.}
+
+\proof{\p{This follows from #{\id_{\FF}\colon\FF\to\FF} being an #{\FF}-linear isomorphism, then [extending this isomorphism to the splitting fields yields an isomorphism](nt-001U). Hence the result.}}

@@ -1,0 +1,11 @@
+\title{Constructibility of regular polygon by straightedge and compass}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-23}
+\taxon{proposition}
+
+\meta{source}{Dummit and Foote [[dummit-2004-abstract]] Proposition 14.5.29}
+
+\p{The regular #{n}-gon is constructible with a ruler and compass if and only if #{n} is a power of 2 multiplied by a product of Fermat primes, i.e.,
+##{n=2^{k}p_{1}(\dots)p_{r}}
+where #{p_{i}=2^{2^{c}}+1} where #{c\in\NN} is some number.}

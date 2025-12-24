@@ -1,0 +1,15 @@
+\title{Algebraic Closure}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{definition}
+\MML{field_2}{def 11}{M3}
+
+\p{Let #{\FF} be a field. An [algebraic extension](nt-000T) #{\LL / \FF} is called an \define{Algebraic Closure} of #{\FF} if every polynomial #{f(x)\in\FF[x]} splits completely over #{\LL}.}
+
+\p{\textbf{Notation:} We typically denote the algebraic closure of #{\FF} with an overline #{\closure{\FF}}.}
+
+\proof{\p{\textbf{Existence:} To prove this is a well-defined notion, we need to prove the [existence of the algebraic closure of #{\FF}](nt-001Z). We defer this until later.}}
+
+\rmk{\p{(1) Steinitz proved the existence of the algebraic closure of a field, and that it is unique up to isomorphism, in [[steinitz-1910-algebraische]] (1910) which essentially invented Field Theory from scratch.}
+\p{(2) Without the axiom of choice, the algebraic closure may not even exist. See, e.g., Banaschewski's [[banaschewski-1992-algebraic]] for a proof of its existence and uniqueness requiring "only" the Boolean Ultrafilter Theorem (which seems to be equivalent to the axiom of countable choice).}}

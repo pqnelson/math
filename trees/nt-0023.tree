@@ -1,0 +1,9 @@
+\title{Frobenius morphism is bijection on finite fields of finite characteristic}
+\author{alex-nelson}
+\import{notation}
+\date{2025-12-21}
+\taxon{proposition}
+
+\p{If #{\FF} is a finite field with characteristic #{p>0}, then the [[nt-0022]] is a bijection.}
+
+\proof{\p{The Frobenius morphism is a nonzero morphism, so it's an injective function on a finite set. Therefore it must be surjective, hence bijective.}}
